@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Fetch API</title>
+</head>
+<body>
+    <h1>Запрос через Fetch API</h1>
+    <div id="result" style="font-size: 20px; color: green; font-weight: bold;">Загрузка...</div>
+
+    <script>
+        // Делаем современный асинхронный запрос через fetch
+        fetch('/api/name')
+            .then(response => response.text())
+            .then(data => {
+                // Динамически встраиваем ФИО в HTML
+                document.getElementById('result').innerText = data;
+            })
+            .catch(err => {
+                document.getElementById('result').innerText = 'Ошибка: ' + err;
+            });
+    </script>
+</body>
+</html>

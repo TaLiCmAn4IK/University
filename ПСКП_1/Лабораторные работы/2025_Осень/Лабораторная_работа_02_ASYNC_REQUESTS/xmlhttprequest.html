@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>XMLHttpRequest</title>
+</head>
+<body>
+    <h1>Запрос через XMLHttpRequest</h1>
+    <div id="result" style="font-size: 20px; color: blue; font-weight: bold;">Загрузка...</div>
+
+    <script>
+        const xhr = new XMLHttpRequest();
+        // Делаем асинхронный GET-запрос к нашему API
+        xhr.open('GET', '/api/name', true);
+        
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                // Динамически встраиваем ответ в разметку
+                document.getElementById('result').innerText = xhr.responseText;
+            }
+        };
+        xhr.send();
+    </script>
+</body>
+</html>
