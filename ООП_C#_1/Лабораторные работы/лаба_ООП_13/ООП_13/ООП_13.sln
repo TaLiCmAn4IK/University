@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ООП_13", "ООП_13\ООП_13.csproj", "{DF697D43-E572-4710-838F-E7C4D69D3C89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF697D43-E572-4710-838F-E7C4D69D3C89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF697D43-E572-4710-838F-E7C4D69D3C89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF697D43-E572-4710-838F-E7C4D69D3C89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF697D43-E572-4710-838F-E7C4D69D3C89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC6059A5-6DE2-4958-85A0-DAD75321B0DE}
+	EndGlobalSection
+EndGlobal
