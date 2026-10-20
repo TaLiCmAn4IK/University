@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>444</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            border: 0;
+            box-sizing: border-box;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 6fr 3fr;
+            grid-template-areas:
+            "area1 area2 area2"
+            "area1 area3 area4"
+            "area5 area5 area5";
+            gap: 20px;
+            padding: 10px;
+        }
+        .block{
+            border: 2px solid black;
+
+            height: 200px;
+        }
+        .block:nth-child(1){
+            grid-area: area1;
+            height: 100%;
+        }
+        .block:nth-child(2){
+            grid-area: area2;
+        }
+        .block:nth-child(3){
+            grid-area: area3;
+            height: 310px;
+        }
+        .block:nth-child(4){
+            grid-area: area4;
+            height: 100%;
+        }
+        .block:nth-child(5){
+            grid-area: area5;
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            list-style-type: none;
+            height: 100px;
+        }
+        a{
+            text-decoration: none;
+        }
+        header{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        footer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="block">
+            <ul>
+                <li><a href="https://htmlbook.ru/html5">HTML 5</a></li>
+                <li><a href="https://html5book.ru/css-css3/">CSS 3</a></li>
+                <li><a href="https://developer.mozilla.org/ru/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout">Grid - верстка</a></li>
+            </ul>
+        </nav>
+        <header class="block">
+            <h1>Ресурс, содержащий информацию по HTML5,
+                СSS3 и Grid-верстке</h1>
+        </header>
+        <article class="block">
+            <p>HTML5 (англ. HyperText Markup Language, version 5) — язык для структурирования и представления содержимого всемирной паутины. Это пятая версия HTML. Хотя стандарт был завершён (рекомендованная версия к использованию) только в 2014 году[1][2] (предыдущая, четвёртая, версия опубликована в 1999 году[3]), уже с 2013 года[4] браузерами оперативно осуществлялась поддержка, а разработчиками — использование рабочего стандарта (англ. HTML Living Standard). Цель разработки HTML5 — улучшение уровня поддержки мультимедиа-технологий с одновременным сохранением обратной совместимости, удобочитаемости кода для человека и простоты анализа для парсеров. </p>
+            <p>Спецификация CSS3 — это неоспоримое будущее в области декоративного оформления веб-страниц, и ее разработка еще далека от завершения. Большинство модулей все еще продолжает совершенствоваться и модифицироваться, и ни один браузер не поддерживает все модули. Это означает, что CSS3 испытывает такие же сложности, как и HTML5. Веб-разработчикам нужно решать, какие возможности использовать, а какие игнорировать, а также каким образом заполнить зияющие пробелы в браузерной поддержке.
+            Спецификация CSS3 не является частью спецификации HTML5. Эти два стандарта были разработаны отдельно друг от друга, разными людьми, работающими в разное время в различных местах.</p>
+        </article>
+        <aside class="block">
+            <p>CSS Grid это новая модель для создания шаблонов, оптимизированная для создания двумерных макетов. Она идеально подходит для: шаблонов сайтов, форм, галерей и всего, что требует точного и отзывчивого позиционирования.
+            С развитием веба, в последние годы, разработка шаблонов веб-сайтов стала всё более затруднительной. В ранние годы веба, HTML таблицы зачастую использовались для многоколоночных шаблонов, форм и т.д. Но у этого метода есть свои недостатки. Это означает то, что представление шаблона, как такового должно было быть сделано на уровне разметки, таким образом стирая различие между представлением и контентом.</p>
+        </aside>
+        <footer class="block">
+            <p>Потребко Вадим Русланович ПИ-6-1</p>
+        </footer>
+    </div>
+</body>
+</html>

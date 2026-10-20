@@ -1,0 +1,90 @@
+.el{
+    display: flex; /*все содержимое может менятся*/
+    align-items: center; /*центр букв относительно верх-вниз*/
+    justify-content: center; /*центр букв относительно лево-право*/
+    margin: 10px; /*расстояние между элементами*/
+    width: 70px; /*ширина*/
+    height: 100px; /*высота блока*/
+    font-size: 36px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center; /*центрует все блоки относительное лево-право*/
+    align-items: center; /*центрует все блоки относительное верх-вниз*/
+}
+.red{
+    border-width: 10px; /*ширина границы*/
+    border-color: rgb(255, 0, 47) rgb(163, 21, 48) rgb(163, 21, 48) rgb(255, 0, 47);
+    border-style: solid; /*стиль границы*/
+}
+.green{
+    border: 10px dashed rgb(70, 232, 105);
+}
+.blue{
+    border: 10px dotted rgb(5, 16, 110);
+}
+.yellow{
+    border-width: 10px;
+    border-color: rgb(191, 167, 48) rgb(232, 208, 88) rgb(232, 208, 88) rgb(191, 167, 48);
+    border-style: solid;
+}
+.black{
+    border: 10px solid rgb(0, 0, 0);
+}
+.purple{
+    border: 10px groove rgb(183, 45, 214);
+}
+.liteblue{
+    border: 10px double rgb(122, 228, 245);
+}
+p span{
+    display: inline-block;
+    margin: 5px;
+    padding: 5px; /*создать пустое пространство вокруг содержимого элемента*/
+    background-color: #FFA500;
+    border: 5px solid #FF4500;
+}
+.first{
+    width: 400px;
+    margin: auto; /*отступы*/
+    border: 1px solid #FF7F50;
+
+}
+.second{
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    
+    border: 5px solid red;
+    border-radius: 20px/40px; /*эллиптические углы*/
+    box-shadow: 2px 2px 8px rgba(0,0,0,.5); /*тень*/
+    overflow: auto;
+}
+.third{
+    border: 1px solid #FF6347;
+}
+.ru{
+    display: flex; /*все содержимое может менятся*/
+    justify-content: center;
+    margin: 10px; /*расстояние между элементами*/
+    width: 100px; /*ширина*/
+    height: 100px; /*высота блока*/
+    font-size: 30px;
+    box-sizing: 50px border-box;
+}
+.gu{
+    display: flex; /*все содержимое может менятся*/
+    justify-content: center;
+    margin: 10px; /*расстояние между элементами*/
+    width: 100px; /*ширина*/
+    height: 100px; /*высота блока*/
+    font-size: 30px;
+    box-sizing: content-box;
+}
+.pervuy{
+    border: 4px  black solid;
+}
+.vtoroy{
+    border: 4px  black solid;
+}

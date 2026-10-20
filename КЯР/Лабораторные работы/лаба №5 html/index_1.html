@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table_1</title>
+    <style>
+        caption{
+            font-size: 1.2em;
+        }
+        table{
+            border-spacing: 0px;
+        }
+        th,td{
+            border: 3px inset black;
+            color:whitesmoke;
+            text-align: center;
+        }
+        .rrr{
+            background-color: #00BFF0;
+        }
+        .xxx{
+            background-color: darkblue;
+        }
+        .zzz{
+            background-color: purple;
+        }
+        .uuu{
+            background-color: green;
+        }
+        .eee{
+            border: 3px inset black !important;
+        }
+        tr:first-child td:first-child{
+            border: 0;
+            background-color: transparent;
+        }
+        tr:last-child td:first-child{
+            border: 0;
+            background-color: transparent;
+        }
+        tr>td:first-child{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Russia: Top smartphone vendors</caption>
+        <thead>
+            <tr>
+               <td></td>
+               <th class="rrr">Vendor</th>
+               <th class="rrr">Unit<br>Share</th>
+               <th class="rrr">Annual<br>Growth</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="eee">#1 &#8657</td>
+                <td class="xxx">Xiaomi</td>
+                <td class="zzz">32%</td>
+                <td class="uuu">+125%</td>
+            </tr>
+            <tr>
+                <td>#2 &#8657</td>
+                <td class="xxx">Samsumg</td>
+                <td class="zzz">27%</td>
+                <td class="uuu">+41%</td>
+            </tr>
+            <tr>
+                <td>#3 &#8657</td>
+                <td class="xxx">Honor</td>
+                <td class="zzz">10%</td>
+                <td class="uuu">0%</td>
+            </tr>
+            <tr>
+                <td>#4 &#8660</td>
+                <td class="xxx">Apple</td>
+                <td class="zzz">9%</td>
+                <td class="uuu">+24%</td>
+            </tr>
+            <tr>
+                <td class="eee">#5 &#8660</td>
+                <td class="xxx">Realme</td>
+                <td class="zzz">9%</td>
+                <td class="uuu">+682%</td>
+            </tr>
+            <tfoot>
+            <tr>
+                <td></td>
+                <td class="xxx">Total</td>
+                <td class="zzz">82%</td>
+                <td class="uuu">682%</td>
+            </tr>
+        </tfoot>
+        </tbody>
+    </table>
+</body>
+</html>

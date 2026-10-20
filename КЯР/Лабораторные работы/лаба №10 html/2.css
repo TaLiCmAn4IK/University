@@ -1,0 +1,14 @@
+
+figcaption{
+    color: blue !important;
+}
+.container_element9 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+.block {
+    border: 2px solid black;
+    width: 100%;
+}

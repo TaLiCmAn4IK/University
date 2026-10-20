@@ -1,0 +1,125 @@
+@charset "UTF-8";
+.faculties-main {
+  padding: 40px 0;
+  background-color: #f9f9f9;
+}
+
+.faculties-intro {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.faculties-intro h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #003366;
+}
+.faculties-intro p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.faculty-section {
+  max-width: 1200px;
+  margin: 0 auto 50px;
+  padding: 0 20px;
+}
+
+.faculty-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-bottom: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.faculty-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.faculty-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+
+.faculty-logo {
+  width: 80px;
+  height: 80px;
+  margin-right: 25px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.faculty-title {
+  font-size: 1.8rem;
+  color: #003366;
+  margin: 0;
+}
+
+.departments-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  -moz-column-count: 2;
+       column-count: 2;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+.departments-list li {
+  margin-bottom: 12px;
+  -moz-column-break-inside: avoid;
+       break-inside: avoid;
+  padding-left: 20px;
+  position: relative;
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+.departments-list li::before {
+  content: "•";
+  color: #FFD700;
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .departments-list {
+    -moz-column-count: 1;
+         column-count: 1;
+  }
+  .faculty-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  .faculty-logo {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .faculty-title {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 480px) {
+  .faculties-intro {
+    padding: 30px 15px;
+  }
+  .faculties-intro h1 {
+    font-size: 2rem;
+  }
+  .faculties-intro p {
+    font-size: 1rem;
+  }
+  .faculty-card {
+    padding: 20px;
+  }
+  .faculty-title {
+    font-size: 1.3rem;
+  }
+}/*# sourceMappingURL=faculties.css.map */

@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Абитуриентам БГУП</title>
+  <link rel="stylesheet" href="css/applicants.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header__container">
+      <!-- Логотип и название университета -->
+      <div class="header__logo">
+        <a href="index.html">
+          <img src="img/logo.svg" alt="БГУП" width="60" height="60">
+          <div class="university-name">
+            <span class="full-name">Белорусский государственный</span>
+            <span class="short-name">университет программирования</span>
+          </div>
+        </a>
+      </div>
+      <!-- После .header__logo и перед .header__nav -->
+      <button class="burger-menu" aria-label="Меню" aria-expanded="false">
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+      </button>
+
+      <!-- Основная навигация -->
+      <nav class="header__nav">
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="applicants.html" class="active">Абитуриентам</a></li>
+          <li><a href="faculties.html">Факультеты</a></li>
+          <li><a href="#contacts" class="header__contacts-link">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <!-- Язык и вход -->
+      <div class="header__right">
+        <div class="header__language">
+          <button id="language-toggle">RU</button>
+        </div>
+
+        <!-- Выпадающее меню входа -->
+        <div class="header__actions">
+          <div class="header__login-container">
+            <button class="header__login" aria-haspopup="true" aria-expanded="false">Вход</button>
+            <div class="login-dropdown">
+              <a href="login.html?type=student" class="login-dropdown__item">
+                <svg class="dropdown-icon" viewBox="0 0 24 24" width="16" height="16">
+                  <path fill="currentColor"
+                        d="M12,3L1,9L12,15L21,10.09V17H23V9M5,13.18V17.18L12,21L19,17.18V13.18L12,17L5,13.18Z"/>
+                </svg>
+                Личный кабинет студента
+              </a>
+              <a href="login.html?type=employee" class="login-dropdown__item">
+                <svg class="dropdown-icon" viewBox="0 0 24 24" width="16" height="16">
+                  <path fill="currentColor"
+                        d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z"/>
+                </svg>
+                Личный кабинет сотрудника
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="applicants-main">
+        <!-- HERO -->
+        <section class="applicants-hero">
+            <div class="hero-content">
+              <h1>Начни свой путь в IT с БГУП</h1>
+              <p class="hero-subtitle">Поступай в ведущий университет программирования Беларуси</p>
+              <div class="hero-buttons">
+                <a href="#specialties" class="hero-button primary">Выбрать специальность</a>
+                <a href="#admission" class="hero-button secondary">Как поступить</a>
+              </div>
+              <div class="hero-stats">
+                <div class="stat-item">
+                  <span class="stat-number">95%</span>
+                  <span class="stat-label">Трудоустройство выпускников</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">300+</span>
+                  <span class="stat-label">Средний проходной балл</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">20</span>
+                  <span class="stat-label">IT-компаний партнеров</span>
+                </div>
+              </div>
+            </div>
+            <div class="hero-image">
+              <img src="img/student.jpg" alt="Студенты БГУП" loading="lazy">
+            </div>
+          </section>
+
+        
+    
+        <!-- Искусственный интеллект -->
+        <section id="specialties" class="specialties-section">
+          <div class="section-header">
+            <h2 class="section-title">Наши факультеты</h2>
+            <p class="section-subtitle">Выберите направление, которое соответствует вашим интересам</p>
+          </div>
+          <div class="specialties-grid">
+            <div class="specialty-card" data-specialty="ai">
+              <div class="card-icon">
+                <img src="img/1.png" alt="AI" width="48" height="48">
+              </div>
+              <h3>Искусственный интеллект и машинное обучение</h3>
+              <p class="card-description">Обучение нейросетям, машинному обучению и анализу данных</p>
+              <div class="card-details">
+                <span class="detail-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z"/>
+                  </svg>
+                  Бюджет/платное
+                </span>
+                <span class="detail-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M12,3L1,9L12,15L21,10.09V17H23V9M5,13.18V17.18L12,21L19,17.18V13.18L12,17L5,13.18Z"/>
+                  </svg>
+                  4 года
+                </span>
+              </div>
+              <div class="card-footer">
+                <span class="points">Проходной балл: 330+</span>
+              </div>
+            </div>
+            <!-- Программня инженерия -->
+<div class="specialty-card" data-specialty="web">
+    <div class="card-icon">
+      <img src="img/2.png" alt="Web Development" width="48" height="48">
+    </div>
+    <h3>Программня инженерия</h3>
+    <p class="card-description">Это динамичная и интеллектуальная область информационных технологий, связанная с разработкой программного обеспечения</p>
+    <div class="card-details">
+      <span class="detail-item">
+        <svg width="16" height="16" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z"/>
+        </svg>
+        Бюджет/платное
+      </span>
+      <span class="detail-item">
+        <svg width="16" height="16" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M12,3L1,9L12,15L21,10.09V17H23V9M5,13.18V17.18L12,21L19,17.18V13.18L12,17L5,13.18Z"/>
+        </svg>
+        4 года
+      </span>
+    </div>
+    <div class="card-footer">
+      <span class="points">Проходной балл: 360+</span>
+    </div>
+  </div>
+  
+  <!-- Кибербезопасность -->
+  <div class="specialty-card" data-specialty="cyber">
+    <div class="card-icon">
+      <img src="img/3.png" alt="Cybersecurity" width="48" height="48">
+    </div>
+    <h3>Кибербезопасность</h3>
+    <p class="card-description">Защита данных и систем от киберугроз и вирусных атак</p>
+    <div class="card-details">
+      <span class="detail-item">
+        <svg width="16" height="16" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z"/>
+        </svg>
+        Только бюджет
+      </span>
+      <span class="detail-item">
+        <svg width="16" height="16" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M12,3L1,9L12,15L21,10.09V17H23V9M5,13.18V17.18L12,21L19,17.18V13.18L12,17L5,13.18Z"/>
+        </svg>
+        5 лет
+      </span>
+    </div>
+    <div class="card-footer">
+      <span class="points">Проходной балл: 280+</span>
+    </div>
+  </div>
+  
+  <!-- Data Science -->
+  <div class="specialty-card" data-specialty="mobile">
+    <div class="card-icon">
+      <img src="img/4.png" alt="Mobile Development" width="48" height="48">
+    </div>
+    <h3>Data Science и анализ больших данных</h3>
+    <p class="card-description">Анализ больших данных, машинное обучение и бизнес-аналитика</p>
+    <div class="card-details">
+      <span class="detail-item">
+        <svg width="16" height="16" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z"/>
+        </svg>
+        Бюджет/платное
+      </span>
+      <span class="detail-item">
+        <svg width="16" height="16" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M12,3L1,9L12,15L21,10.09V17H23V9M5,13.18V17.18L12,21L19,17.18V13.18L12,17L5,13.18Z"/>
+        </svg>
+        4 года
+      </span>
+    </div>
+    <div class="card-footer">
+      <span class="points">Проходной балл: 345+</span>
+    </div>
+  </div>
+  
+  <!-- Разработка игр -->
+  <div class="specialty-card" data-specialty="data">
+    <div class="card-icon">
+      <img src="img/5.png" alt="Data Science" width="48" height="48">
+    </div>
+    <h3>Разработка игр</h3>
+    <p class="card-description">Разработка игр с нуля, выстраивание архитектуры игры, проектирование игр и их частей</p>
+    <div class="card-details">
+      <span class="detail-item">
+        <svg width="16" height="16" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z"/>
+        </svg>
+        Бюджет/платное
+      </span>
+      <span class="detail-item">
+        <svg width="16" height="16" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M12,3L1,9L12,15L21,10.09V17H23V9M5,13.18V17.18L12,21L19,17.18V13.18L12,17L5,13.18Z"/>
+        </svg>
+        4 года
+      </span>
+    </div>
+    <div class="card-footer">
+      <span class="points">Проходной балл: 325+</span>
+    </div>
+   </div>
+       <!-- Военная кафедра -->
+  <div class="specialty-card" data-specialty="data">
+    <div class="card-icon">
+      <img src="img/6.png" alt="Data Science" width="48" height="48">
+    </div>
+    <h3>Военная кафедра</h3>
+    <p class="card-description">Военный факультет осуществляет подготовку кадровых офицеров для Вооруженных Сил и других силовых структур и ведомств РБ</p>
+    <div class="card-details">
+      <span class="detail-item">
+        <svg width="16" height="16" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z"/>
+        </svg>
+        Бюджет/платное
+      </span>
+      <span class="detail-item">
+        <svg width="16" height="16" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M12,3L1,9L12,15L21,10.09V17H23V9M5,13.18V17.18L12,21L19,17.18V13.18L12,17L5,13.18Z"/>
+        </svg>
+        4 года
+      </span>
+    </div>
+    <div class="card-footer">
+      <span class="points">Проходной балл: 200+</span>
+    </div>
+   </div>
+   </div>
+        </section>
+    
+        <!-- Как поступить -->
+        <section id="admission" class="admission-section">
+            <div class="section-header">
+              <h2 class="section-title">Как поступить</h2>
+              <p class="section-subtitle">3 ключевых шага чтобы стать студентом БГУП</p>
+            </div>
+            <div class="timeline">
+              <!-- Шаг 1 -->
+              <div class="timeline-item">
+                <div class="timeline-number">1</div>
+                <div class="timeline-content">
+                  <h3>Подача документов</h3>
+                  <p>20 июня - 15 июля</p>
+                  <ul>
+                    <li>Аттестат о среднем образовании</li>
+                    <li>Результаты ЦТ и ЦЭ</li>
+                    <li>Медицинская справка</li>
+                    <li>4 фотографии 3×4</li>
+                    <li>Копия паспорта</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <!-- Шаг 2 -->
+              <div class="timeline-item">
+                <div class="timeline-number">2</div>
+                <div class="timeline-content">
+                  <h3>Вступительные испытания</h3>
+                  <p>16-25 июля</p>
+                  <ul>
+                    <li>Прохождение внутренних тестов (для некоторых специальностей)</li>
+                    <li>Собеседование с приемной комиссией</li>
+                    <li>Проверка портфолио (для творческих направлений)</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <!-- Шаг 3 -->
+              <div class="timeline-item">
+                <div class="timeline-number">3</div>
+                <div class="timeline-content">
+                  <h3>Зачисление</h3>
+                  <p>26-30 июля</p>
+                  <ul>
+                    <li>Публикация списков зачисленных</li>
+                    <li>Оформление приказа о зачислении</li>
+                    <li>Оригиналы документов в приемную комиссию</li>
+                    <li>Оплата обучения (для платной формы)</li>
+                    <li>Получение студенческого билета</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+    
+        <!-- Вступительные испытания -->
+        <section class="exams-section">
+          <div class="section-header">
+            <h2 class="section-title">Вступительные испытания</h2>
+            <div class="tabs">
+              <button class="tab-btn active" data-tab="ct">ЦТ и ЦЭ</button>
+            </div>
+          </div>
+          <div class="tab-content active" id="ct">
+            <div class="exams-table">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Специальность</th>
+                    <th>Предмет 1</th>
+                    <th>Предмет 2</th>
+                    <th>Предмет 3</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Искусственный интеллект и машинное обучение</td>
+                    <td>Математика</td>
+                    <td>Физика</td>
+                    <td>Русский/Белорусский язык</td>
+                  </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                      <td>Программная инженерия</td>
+                      <td>Математика</td>
+                      <td>Физика</td>
+                      <td>Русский/Белорусский язык</td>
+                    </tr>
+                  </tbody>
+                  <tbody>
+                    <tr>
+                      <td>Кибербезопасность</td>
+                      <td>Математика</td>
+                      <td>Физика</td>
+                      <td>Русский/Белорусский язык</td>
+                    </tr>
+                  </tbody>
+                  <tbody>
+                    <tr>
+                      <td>Data Science и анализ больших данных</td>
+                      <td>Математика</td>
+                      <td>Физика</td>
+                      <td>Русский/Белорусский язык</td>
+                    </tr>
+                  </tbody>
+                  <tbody>
+                    <tr>
+                      <td>Разработка игр</td>
+                      <td>Математика</td>
+                      <td>Физика</td>
+                      <td>Русский/Белорусский язык</td>
+                    </tr>
+                  </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+    
+        <section class="faq-section">
+            <div class="section-header">
+              <h2 class="section-title">Частые вопросы</h2>
+            </div>
+            <div class="faq-container">
+              <!-- Вопрос 1 -->
+              <div class="faq-item">
+                <button class="faq-question">
+                  <span>Какие документы нужны для поступления?</span>
+                  <svg class="faq-icon" width="16" height="16" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/>
+                  </svg>
+                </button>
+                <div class="faq-answer">
+                  <p>Для подачи заявления вам понадобятся: оригинал аттестата, 4 фотографии 3×4, медицинская справка, документы, подтверждающие льготы (при наличии), паспорт и его копия, результаты ЦТ и ЦЭ.</p>
+                </div>
+              </div>
+          
+              <!-- Вопрос 2 -->
+              <div class="faq-item">
+                <button class="faq-question">
+                  <span>Какие минимальные баллы ЦТ и ЦЭ требуются для поступления?</span>
+                  <svg class="faq-icon" width="16" height="16" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/>
+                  </svg>
+                </button>
+                <div class="faq-answer">
+                  <p>Минимальные баллы зависят от специальности: математика/физика - от 70 баллов, русский/белорусский язык - от 70 баллов. Для престижных специальностей минимальные баллы выше - от 90 по профильным предметам.</p>
+                </div>
+              </div>
+          
+              <!-- Вопрос 3 -->
+              <div class="faq-item">
+                <button class="faq-question">
+                  <span>Есть ли общежитие для иногородних студентов?</span>
+                  <svg class="faq-icon" width="16" height="16" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/>
+                  </svg>
+                </button>
+                <div class="faq-answer">
+                  <p>Да, университет предоставляет места в общежитии для всех иногородних студентов. Бюджетники получают место бесплатно, для платников стоимость проживания составляет около 50 BYN в месяц. Необходимо подать заявление при подаче документов.</p>
+                </div>
+              </div>
+          
+              <!-- Вопрос 4 -->
+              <div class="faq-item">
+                <button class="faq-question">
+                  <span>Можно ли перевестись из другого вуза?</span>
+                  <svg class="faq-icon" width="16" height="16" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/>
+                  </svg>
+                </button>
+                <div class="faq-answer">
+                  <p>Да, перевод возможен после 1-2 курсов. Необходимо предоставить академическую справку, пройти собеседование по профильным предметам и досдать разницу в учебных планах. Перевод осуществляется только при наличии свободных мест.</p>
+                </div>
+              </div>
+          
+              <!-- Вопрос 5 -->
+              <div class="faq-item">
+                <button class="faq-question">
+                  <span>Какие льготы есть при поступлении?</span>
+                  <svg class="faq-icon" width="16" height="16" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/>
+                  </svg>
+                </button>
+                <div class="faq-answer">
+                  <p>Льготы предусмотрены для: победителей республиканских олимпиад (зачисление без экзаменов), медалистов (+50 баллов к сумме ЦТ), детей-сирот (квота 10% от бюджетных мест), инвалидов I-II группы. Полный список - в правилах приема.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+    
+        <!-- Обращение форма -->
+        <section class="contact-section">
+          <div class="contact-container">
+            <div class="contact-info">
+              <h2>Приемная комиссия</h2>
+              <div class="info-item">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                  <path fill="#FFD700" d="M12,2A7,7,0,0,0,5,9c0,4.25,7,13,7,13s7-8.75,7-13A7,7,0,0,0,12,2Z"/>
+                  <circle fill="#FFD700" cx="12" cy="9" r="2.5"/>
+                </svg>
+                <span>г. Минск, ул. Программистов, 15, корпус 3, каб. 101</span>
+              </div>
+              <div class="info-item">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                  <path fill="#FFD700" d="M6.62,10.79a15.91,15.91,0,0,0,6.59,6.59l1.94-1.94a1,1,0,0,1,1.11-.21,11.36,11.36,0,0,0,3.58.57,1,1,0,0,1,1,1V20a1,1,0,0,1-1,1A17,17,0,0,1,3,4,1,1,0,0,1,4,3H7.5a1,1,0,0,1,1,1,11.36,11.36,0,0,0,.57,3.58,1,1,0,0,1-.21,1.11Z"/>
+                </svg>
+                <span>+375 (17) 123-45-67 (приемная комиссия)</span>
+              </div>
+              <div class="info-item">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                  <path fill="#FFD700" d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z"/>
+                </svg>
+                <span>admission@bgup.by</span>
+              </div>
+            </div>
+            <div class="contact-form">
+              <h3>Остались вопросы?</h3>
+              <form id="admission-form">
+                <div class="form-group">
+                  <input type="text" id="name" placeholder="Ваше имя" required>
+                </div>
+                <div class="form-group">
+                  <input type="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                  <textarea id="question" placeholder="Ваш вопрос" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Отправить</button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="contacts">
+    <div class="footer__inner">
+      <h2 class="footer__title">Контакты</h2>
+
+      <div class="footer__bottom">
+        <div class="footer__contacts">
+          <div class="contact-item">
+            <svg viewBox="0 0 24 24" class="contact-icon">
+              <path fill="#FFD700" d="M12,2A7,7,0,0,0,5,9c0,4.25,7,13,7,13s7-8.75,7-13A7,7,0,0,0,12,2Z"/>
+              <circle fill="#FFD700" cx="12" cy="9" r="2.5"/>
+            </svg>
+            <span>г. Минск, ул. Программистов, 15</span>
+          </div>
+
+          <div class="contact-item">
+            <svg viewBox="0 0 24 24" class="contact-icon">
+              <path fill="#FFD700" d="M6.62,10.79a15.91,15.91,0,0,0,6.59,6.59l1.94-1.94a1,1,0,0,1,1.11-.21,11.36,11.36,0,0,0,3.58.57,1,1,0,0,1,1,1V20a1,1,0,0,1-1,1A17,17,0,0,1,3,4,1,1,0,0,1,4,3H7.5a1,1,0,0,1,1,1,11.36,11.36,0,0,0,.57,3.58,1,1,0,0,1-.21,1.11Z"/>
+            </svg>
+            <span>+375 (29) 123‑45‑67</span>
+          </div>
+
+          <div class="contact-item">
+            <svg viewBox="0 0 24 24" class="contact-icon">
+              <path fill="#FFD700" d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z"/>
+            </svg>
+            <span>info@bgup.by</span>
+          </div>
+        </div>
+
+        <div class="footer__socials">
+          <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+            <svg viewBox="0 0 24 24">
+              <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/>
+            </svg>
+          </a>
+
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+            </svg>
+          </a>
+
+          <a href="mailto:info@bgup.by" aria-label="Email">
+            <svg viewBox="0 0 24 24">
+              <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+            </svg>
+          </a>
+
+          <a href="https://youtube.com" target="_blank" aria-label="YouTube">
+            <svg viewBox="0 0 24 24">
+              <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
+            </svg>
+          </a>
+
+          <a href="https://tiktok.com" target="_blank" aria-label="TikTok">
+            <svg viewBox="0 0 24 24">
+              <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/applicants.js"></script>
+</body>
+</html>

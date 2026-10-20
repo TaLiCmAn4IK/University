@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            border: 0;
+            box-sizing: border-box;
+        }
+        li{
+            list-style-type: none;
+        }
+        .kkk{
+            width: 200px;
+            position: relative;
+            padding: 15px 30px;
+            border: 1px solid black;
+            background-color: yellow;
+        }
+        .kkk ul{
+            margin-top: 16px;
+            position: absolute;
+            left: 0;
+            visibility: hidden;
+        }
+        
+        .kkk:hover ul{
+            visibility: visible;
+        }
+        .rrr{
+            padding: 15px;
+            border: 2px dashed black;
+            background-color: rgb(250, 128, 114);
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover, a:active, a:focus, a:visited{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="kkk"> Меню
+                <ul>
+                    <li class="rrr"><a href="..\лаба №5 html\form.html" target="_blank">Форма</a></li>
+                    <li class="rrr"><a href="..\лаба №5 html\chess.html" target="_blank">Шахматная доска</a></li>
+                    <li class="rrr"><a href="..\лаба №6 html\fotogallery.html" target="_blank">Фотогалерея</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>

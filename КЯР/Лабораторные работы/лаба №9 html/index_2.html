@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>333</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            border: 0;
+            box-sizing: border-box;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .container{
+            padding: 10px;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 40px;
+        }
+        .block{
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            color: black;
+            border: 2px solid black;
+            height: 150px;
+            background-repeat: no-repeat;
+            padding: 10px;
+            background-size: contain;
+            background-position: center; 
+        }           
+        .block:nth-child(9){
+            grid-column-start: 4;
+            grid-column-end: 6;
+            grid-row-start: 2;
+            grid-row-end: 4;
+            height: 100%;
+        }
+        .block:nth-child(10){
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 5;
+            height: 100%;
+        }
+        .block:nth-child(1){
+            background-image: url(1.jpg);
+        }
+        .block:nth-child(2){
+            background-image: url(2.jpg);
+        }
+        .block:nth-child(3){
+            background-image: url(3.jpg);
+        }
+        .block:nth-child(4){
+            background-image: url(4.jpg);
+        }
+        .block:nth-child(5){
+            background-image: url(5.jpg);
+        }
+        .block:nth-child(6){
+            background-image: url(6.jpg);
+        }
+        .block:nth-child(7){
+            background-image: url(7.jpg);
+        }
+        .block:nth-child(8){
+            background-image: url(8.jpg);
+        }
+        .block:nth-child(9){
+            background-image: url(5555.gif);
+            background-size: cover;
+        }
+        .block:nth-child(11){
+            background-image: url(10.jpg);
+        }
+        .block:nth-child(12){
+            background-image: url(11.jpg);
+        }
+        .block:nth-child(13){
+            background-image: url(12.jpg);
+        }
+        .block:nth-child(14){
+            background-image: url(14.jpg);
+        }
+        .rrr{
+            float: left;
+            width: 100%;
+            height: 100%; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="block">
+            <p>Картинка для фона</p>
+        </div>
+        <div class="block">
+            <p>Картинка для фона</p>
+        </div>
+        <div class="block">
+            <p>Картинка для фона</p>
+        </div>
+        <div class="block">
+            <p>Картинка для фона</p>
+        </div>
+        <div class="block">
+            <p>Картинка для фона</p>
+        </div>
+        <div class="block">
+            <p>Картинка для фона</p>
+        </div>
+        <div class="block">
+            <p>Картинка для фона</p>
+        </div>
+        <div class="block">
+            <p>Картинка для фона</p>
+        </div>
+        <div class="block">
+            
+        </div>
+        <div class="block">
+            <img class="rrr" src="9.jpg" alt="">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic porro blanditiis amet consequuntur, delectus inventore id nobis atque eaque voluptates voluptatibus error eos labore aliquid facilis aut doloribus non eum?</p>
+        </div>
+        <div class="block">
+            <p>Картинка для фона</p>
+        </div>
+        <div class="block">
+            <p>Картинка для фона</p>
+        </div>
+        <div class="block">
+            <p>Картинка для фона</p>
+        </div>
+        <div class="block">
+            <p>Картинка для фона</p>
+        </div>
+    </div>
+</body>
+</html>

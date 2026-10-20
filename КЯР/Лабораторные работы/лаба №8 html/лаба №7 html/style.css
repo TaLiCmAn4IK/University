@@ -1,0 +1,394 @@
+h1{
+    text-align: center;
+}
+.container{
+    margin: 0 auto;
+    width: max-content;
+    height: 350px;
+}
+
+
+
+
+.first:hover{
+    transform: scale(0.5);
+}
+.second:hover{
+    transform: rotate(45deg);
+}
+.third:hover{
+    transform: translate(50px, 0);
+}
+.fourth:hover{
+    transform: skew(-20deg);
+}
+
+
+
+
+button{
+    margin-top: 50px;
+    padding: 15px 35px;
+    border: 2px solid black;
+    background-color: white;
+    width: 160px;
+    height: 70px;
+}
+.knopka_first, .knopka_second, .knopka_third, .knopka_fourth{
+    margin-right: 20px;
+}
+.knopka_first:hover{
+    background-color: black;
+    color: white;
+}
+.knopka_second:hover{
+    border: 6px solid orange;
+    outline: 6px solid yellow; /*задаёт дополнительную рамку вокруг элемента*/
+}
+.knopka_third:hover{
+    border-top: 6px solid green;
+    border-bottom: 6px solid green;
+    border-left: 0;
+    border-right: 0;
+}
+.knopka_fourth:hover{
+    border-right: 6px solid blue;
+    border-left: 6px solid blue;
+    border-top: 0;
+    border-bottom: 0;
+
+}
+.knopka_fifth:hover{
+    border: 0;
+    background: radial-gradient(yellow 5%, rgb(255, 71, 200) 50%, rgb(113, 113, 173) 70%, rgb(43, 205, 255) 90%);
+}
+
+
+
+
+
+
+
+
+.ggg_first, .ggg_second, .ggg_third, .ggg_fourth{
+    margin-top: 50px;
+    float: left;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+.ggg_first, .ggg_second, .ggg_third{
+    margin-right: 80px;
+}
+.ggg_first{
+    background-size: cover; /*позволяет изменять размер фонового изображения в соответствии с заданным направлением, сохраняя его пропорции.*/
+    background-image: url(999.jpg);
+    transform: perspective(300px) rotateX(25deg); /*perspective определяет расстояние от пользователя до плоскости экрана по оси z*/
+}
+.ggg_second{
+    background-size: cover;
+    background-image: url(999.jpg);
+    transform: perspective(300px) rotateY(45deg);
+}
+.ggg_third{
+    background-size: cover;
+    background-image: url(999.jpg);
+    transform: perspective(300px) rotateX(25deg);
+}
+.ggg_fourth{
+    background-size: cover;
+    background-image: url(999.jpg);
+    transform: perspective(300px) rotateY(-45deg);
+}
+
+
+
+
+
+.kartinka1, .kartinka2, .kartinka3, .kartinka4{
+    position: absolute; /*задаёт точное местоположение элемента на странице, независимо от других элементов на странице*/
+    float: left;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+}
+.kartinka1{
+    background-image: url(1.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: perspective(300px) rotateY(40deg);
+    left: 280px;
+    animation: kartinkaanimation1 10s linear infinite alternate;
+}
+
+.kartinka2{
+    background-image: url(2.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: perspective(300px) rotateY(40deg);
+    left: 300px;
+    animation: kartinkaanimation2 10s linear infinite alternate;
+}
+.kartinka3{
+    background-image: url(3.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: perspective(300px) rotateY(40deg);
+    left: 320px;
+    animation: kartinkaanimation3 10s linear infinite alternate;
+}
+.kartinka4{
+    background-image: url(4.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: perspective(300px) rotateY(40deg);
+    left: 340px;
+    animation: kartinkaanimation4 10s linear infinite alternate;
+}
+@keyframes kartinkaanimation1 {
+    0%{
+        transform: perspective(300px) rotateY(30deg);
+    }
+    50%{
+        transform: perspective(300px) rotateY(0deg);
+        left: 280px;
+    }
+    100%{
+        transform: perspective(300px) rotateY(0deg);
+        left: 280px;
+    }
+}
+
+@keyframes kartinkaanimation2 {
+    0%{
+        transform: perspective(300px) rotateY(30deg);
+    }
+    50%{
+        transform: perspective(300px) rotateY(0deg);
+        left: 300px;
+        filter: blur(0px);
+    }
+    100%{
+        transform: perspective(300px) rotateY(0deg);
+        left: 500px;
+        filter: blur(10px);
+    }
+}
+    
+@keyframes kartinkaanimation3 {
+    0%{
+        transform: perspective(300px) rotateY(30deg);
+    }
+    50%{
+        transform: perspective(300px) rotateY(0deg);
+        left: 320px;
+        filter: grayscale(0);
+    }
+    100%{
+        transform: perspective(300px) rotateY(0deg);
+        left: 720px;
+        filter: grayscale(1);
+    }
+}
+@keyframes kartinkaanimation4 {
+    0%{
+        transform: perspective(300px) rotateY(30deg);
+    }
+    50%{
+        transform: perspective(300px) rotateY(0deg);
+        left: 340px;
+        filter: invert(0);
+    }
+    100%{
+        transform: perspective(300px) rotateY(0deg);
+        left: 940px;
+        filter: invert(1);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.anime{
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    animation: anime 5s linear infinite;
+    background-size: cover;
+    background-position: center;
+    border: 3px solid black;
+}
+@keyframes anime {
+    0%{
+        background-image: url(9.jpg);
+    }
+    20%{
+        background-image: url(10.jpg);
+    }
+    40%{
+        background-image: url(11.jpg);
+    }
+    60%{
+        background-image: url(12.jpg);
+    }
+    80%{
+        background-image: url(13.jpg);
+    }
+    100%{
+        background-image: url(9.jpg);
+    }
+}
+
+
+
+
+
+
+
+
+
+.first_1{
+    animation: first 5s linear infinite;
+}
+@keyframes first {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(200px);
+    }
+}
+.second_2{
+    animation: second 5s linear infinite;
+}
+@keyframes second {
+    0%{
+        border-radius: 0%;
+        transform: translateX(0);
+    }
+    100%{
+        border-radius: 75%;
+        transform: translateX(200px);
+    }
+}
+.third_3{
+    animation: third 5s linear infinite;
+}
+@keyframes third {
+    0%{
+        transform: translateX(-1000px);
+    }
+    100%{
+        transform: translateX(1000px);
+    }
+}
+.fourth_4{
+    animation: fourth 5s linear infinite;
+}
+@keyframes fourth {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(50px);
+    }
+}
+.fifth_5{
+    margin-left: 620px;
+    margin-top: 3600px;
+    position: absolute;
+    animation: fifth 5s linear infinite;
+}
+@keyframes fifth {
+    0%{
+        top: 0;
+        left: 0;
+    }
+    25%{
+        top: 0;
+        left: 200px;
+    }
+    50%{
+        top: 200px;
+        left: 200px;
+    } 
+    75%{
+        top: 200px;
+        left: 0;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+}
+
+
+
+
+.text_block{
+    width: 300px;
+    height: 300px;
+}
+.text_block:hover{
+    animation: textblock 5s linear infinite;
+}
+@keyframes textblock {
+    0%{
+        color: orange;
+    }
+    20%{
+        color: red;
+    }
+    40%{
+        color: yellow;
+    }
+    60%{
+        color: purple;
+    }
+    80%{
+        color: blue;
+    }
+    100%{
+        color: orange;
+    }
+}
+
+
+
+
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    padding: 15px 40px;
+    border: 1px solid green;
+    border-width: 2px 1px 2px 1px;
+    color: green;
+    background-color: yellow;
+}
+li:first-child{
+    border-width: 2px 1px 2px 2px;
+}
+li:last-child{
+    border-width: 2px 2px 2px 1px;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+a:hover, a:active, a:focus, a:visited{
+    color: green;
+}
+

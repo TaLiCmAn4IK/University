@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма</title>
+    <style>
+        .social-group {
+            margin-bottom: 25px;
+        }
+        .form-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            width: 310px;
+        }
+
+        .form-label {
+            width: 130px;
+            text-align: right;
+        }
+
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <form id="studentForm">
+        <h2>Данные студента</h2>
+
+        <div class="form-row">
+            <label for="firstName" class="form-label">Имя студента</label>
+            <input id="firstName" style="height: 23px;" type="text" placeholder="обязательно заполнить" required>
+        </div>
+
+        <div class="form-row">
+            <label for="patronymic" class="form-label">Отчество студента</label>
+            <input id="patronymic" style="height: 23px;" type="text" placeholder="обязательно заполнить" required>
+        </div>
+
+        <div class="form-row">
+            <label for="lastName" class="form-label">Фамилия студента</label>
+            <input id="lastName" style="height: 23px;" type="text" placeholder="обязательно заполнить" required>
+        </div>
+
+        <div class="form-row">
+            <label for="email" class="form-label">Адрес почты</label>
+            <input id="email" style="height: 23px;" type="email">
+        </div>
+
+        <div class="form-row">
+            <label for="phone" class="form-label">Контактный номер</label>
+            <input id="phone" style="height: 23px;" type="number">
+        </div>
+
+        <div class="social-group">
+            <p>Какие социальные сети вы используете?</p>
+            <input type="checkbox" id="vk" value="VK"> VK
+            <input type="checkbox" id="facebook" value="Facebook"> Facebook
+            <input type="checkbox" id="instagram" value="Instagram"> Instagram
+        </div>
+
+        <div class="form-row">
+            <label for="faculty" class="form-label">Факультет</label>
+            <select id="faculty" required>
+                <option value="">Выберите факультет</option>
+                <option value="Факультет 1">Факультет 1</option>
+                <option value="Факультет 2">Факультет 2</option>
+                <option value="Факультет 3">Факультет 3</option>
+            </select>
+        </div>
+
+        <div class="form-row">
+            <label for="group" class="form-label">Группа</label>
+            <select id="group" required>
+                <option value="">Выберите группу</option>
+                <option value="Группа 1">Группа 1</option>
+                <option value="Группа 2">Группа 2</option>
+                <option value="Группа 3">Группа 3</option>
+            </select>
+        </div>
+
+        <div class="form-row">
+            <label for="course" class="form-label">Курс</label>
+            <select id="course" required>
+                <option value="">Выберите курс</option>
+                <option value="1">1 курс</option>
+                <option value="2">2 курс</option>
+                <option value="3">3 курс</option>
+                <option value="4">4 курс</option>
+            </select>
+        </div>
+
+        <div class="form-row">
+            <button type="submit">Отправить</button>
+        </div>
+    </form>
+
+    <footer id="footer">
+        <p>Заполненные данные будут отображены здесь</p>
+    </footer>
+
+    <script>
+        document.getElementById('studentForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const firstName = document.getElementById('firstName').value;
+            const patronymic = document.getElementById('patronymic').value;
+            const lastName = document.getElementById('lastName').value;
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+            const vk = document.getElementById('vk').checked ? 'VK' : '';
+            const facebook = document.getElementById('facebook').checked ? 'Facebook' : '';
+            const instagram = document.getElementById('instagram').checked ? 'Instagram' : '';
+            const faculty = document.getElementById('faculty').value;
+            const group = document.getElementById('group').value;
+            const course = document.getElementById('course').value;
+
+            const socialNetworks = [vk, facebook, instagram].filter(Boolean).join(', ');
+            const footerContent = `
+                <h3>Данные студента:</h3>
+                <p>Имя: ${firstName}</p>
+                <p>Отчество: ${patronymic}</p>
+                <p>Фамилия: ${lastName}</p>
+                <p>Почта: ${email}</p>
+                <p>Контактный номер: ${phone}</p>
+                <p>Соцсети: ${socialNetworks || 'Не указаны'}</p>
+                <p>Факультет: ${faculty}</p>
+                <p>Группа: ${group}</p>
+                <p>Курс: ${course}</p>
+            `;
+
+            document.getElementById('footer').innerHTML = footerContent;
+        });
+    </script>
+</body>
+</html>

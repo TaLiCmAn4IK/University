@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кафедры</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            border: 0;
+            box-sizing: border-box;
+        }
+        li{
+            list-style-type: none;
+        }
+        .glav{
+            display: inline-block;
+            position: relative;
+            text-align: center;
+            width: 180px;
+            padding: 10px 0;
+            border: 2px solid black;
+            font-family: comic sans ms;
+        }
+        .glav:nth-child(2):hover ul{
+            visibility: visible;
+        }
+        .glav ul{
+            margin-top: 10px;
+            margin-left: -2px;
+            position: absolute;
+            visibility: hidden;
+        }
+        .vto{
+            border: 2px solid black;
+            width: 180px;
+            padding: 20px 0;
+        }
+        .vto:not(:last-child){
+            border-width: 2px 2px 0px 2px;
+        }
+        .glav:first-child, .glav:nth-child(2), .glav:nth-child(3), .glav:last-child{
+            background-size: 25px 25px;
+            background-repeat: no-repeat;
+            background-position: left center;
+        } 
+        .glav{
+            background-image: url(ew.png);
+        }
+        .glav:nth-child(2):hover{
+            background-image: url(fit.jpg);
+        }
+        .glav:nth-child(3):hover{
+            background-image: url(pij.jpg);
+        }
+        .glav:last-child:hover{
+            background-image: url(htit.png);
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover, a:active, a:focus, a:visited{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="glav"><a href="https://belstu.by/" target="_blank">БГТУ</a></li>
+        <li class="glav"><a href="https://it.belstu.by/" target="_blank">ИТ</a>
+            <ul>
+                <li class="vto"><a href="https://isit.belstu.by/" target="_blank">Кафедра ИСиТ</a></li>
+                <li class="vto"><a href="https://belstu.by/fakultety/fit/ivd/" target="_blank">Кафедра ИиВД</a></li>
+                <li class="vto"><a href="https://belstu.by/fakultety/fit/pi/" target="_blank">Кафедра ПИ</a></li>
+            </ul>
+        </li>
+        <li class="glav"><a href="https://pim.belstu.by/" target="_blank">ПиМ</a></li>
+        <li class="glav"><a href="https://htit.belstu.by/" target="_blank">ХТиТ</a></li>
+    </ul>
+</body>
+</html>

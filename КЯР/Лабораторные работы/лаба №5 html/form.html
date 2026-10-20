@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>     
+        label:not(:last-child){
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        label, input{
+            font-size: 1.2em;
+        }
+        form{
+            width: 600px;
+            padding: 20px;
+            background-color: indigo;
+        }
+        h2{
+            text-align: center;
+            margin: 0;
+            color: white;
+            margin-bottom: 20px;
+        }
+        input{
+            border-radius: 4px;
+        }
+        label{
+            color: white;
+        }
+        input[type="text"]:focus{
+            background-color: white;
+            color: black;
+        }
+        input[type="text"], input[type="mail"]{
+            background-color: rgba(255,255,255,.5);
+            color: (255,255,255,1);
+            box-shadow: inset 0 0 10px rgba(255,255,255, .75);
+            width: 400px;
+        }
+        input[type="submit"]{
+            padding: 5px 30px;
+            font-size: 20px;
+        }
+        .ttt{
+            box-shadow: 0 0 4px white;
+            background-color: navy;
+            color: white;
+        }
+        .block_align_left{
+            width: 400px;
+        }
+        .block_align_center{
+            margin-left: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .checkbox{
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <h2>Регистрация постоянного клиента</h2>
+        <label>Фамилия:<input type="text"></label>
+        <label>Имя:<input type="text"></label>
+        <label>Отчество:<input type="text"></label>
+        <label>Ваш возраст:<input type="text"></label>
+        <label>Пол:
+            <div class="checkbox" style="width: 407.2px">
+                <input type="checkbox">
+                <label style="margin-bottom: 0 !important;">мужской</label>
+                <input type="checkbox">
+                <label>женский</label>
+            </div>
+        </label>
+        <label>Email:<input type="mail"></label>
+        <label>Страна проживания:<input type="text"></label>
+        <label>Откуда вы узнали о нас?
+            <div class="block_align_left">
+                <select>
+                    <option disabled>Выберите вариант</option>
+                    <option>Школа</option>
+                    <option>Интернет</option>
+                    <option>Образовательная платформа</option>
+                </select>
+            </div>
+        </label> 
+        <label>Дата заполнения
+            <div class="block_align_left">
+                <input class="mail" type="date">
+            </div>
+        </label>
+        <label class="block_align_center">
+            <input class="ttt" type="submit" value="Регистрация"><input class="ttt" type="submit" value="Отмена">
+        </label>
+    </form>
+</body>
+</html>

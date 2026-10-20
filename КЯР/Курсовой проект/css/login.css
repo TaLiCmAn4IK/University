@@ -1,0 +1,179 @@
+:root {
+  --primary-color: #000000;
+  --secondary-color: #FFD700;
+  --text-color: #333333;
+  --white: #ffffff;
+  --error-color: #d32f2f;
+  --hint-color: #666666;
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.login-card {
+  background: var(--white);
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+}
+
+.login-title {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: all 0.3s;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--secondary-color);
+  box-shadow: 0 0 0 2px rgba(255, 215, 0, 0.2);
+}
+
+input::-moz-placeholder {
+  color: #999999;
+}
+
+input::placeholder {
+  color: #999999;
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-container input {
+  padding-right: 40px;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+}
+
+.eye-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.eye-icon path {
+  fill: var(--text-color);
+  opacity: 0.6;
+  transition: opacity 0.3s;
+}
+
+.toggle-password:hover .eye-icon path {
+  opacity: 1;
+}
+
+.hint {
+  color: var(--hint-color);
+  font-size: 0.75rem;
+  margin-top: 5px;
+}
+
+.error-message {
+  color: var(--error-color);
+  font-size: 0.75rem;
+  margin-top: 5px;
+  display: none;
+}
+
+input:invalid:not(:focus):not(:-moz-placeholder-shown) ~ .error-message {
+  display: block;
+}
+
+input:invalid:not(:focus):not(:placeholder-shown) ~ .error-message {
+  display: block;
+}
+
+.form-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.login-btn {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 100%;
+}
+
+.login-btn:hover {
+  background: #e6c300;
+}
+
+.forgot-link {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: color 0.3s;
+}
+
+.forgot-link:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .login-card {
+    padding: 25px 20px;
+  }
+  .login-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+}/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Caveat';
+    src: url(fonts/Caveat.ttf);
+}
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(fonts/Comfortaa.ttf);
+}
+@font-face {
+    font-family: 'Exo2';
+    src: url(fonts/Exo2.ttf);
+}
+h1{ 
+    text-align: center;
+    font-family: 'Caveat';
+    margin-bottom: 0; /*устанавливает внешний отступ внизу элемента*/
+    padding-bottom: 0; /*устанавливает значение поля от нижнего края содержимого элемента.*/
+    font-weight: bold; /*делает текст полужирным*/
+    text-transform: uppercase; /*меняет регистр текста lowercase-строчные, capitalize- прописные*/
+    font-size: 45px;
+    text-shadow: 5px 5px 3px #bbb; /*тень*/
+}
+h2{
+    font-family: 'Exo2';
+    margin-top: 0.2em; /*расстояние между абзацами*/
+    margin-bottom: 1.2em;
+    text-align: left;
+    text-indent: 25px; /*красная строка*/
+}
+h2:first-line{
+    margin-bottom: 25px;
+} 
+p:first-line{
+    text-align: justify; /*выравнивание по ширине*/
+    line-height: 200%; /*расстояние между строками*/
+    font-size: 20px;
+    text-indent: 25px; /*расстояние от границы до элемента*/
+}
+p{
+    font-family: 'Comfortaa';
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-indent: 25px;
+}
+p:first-letter{
+    font-size: 45px;
+    color: white; /*сама буква*/
+    background-color: hsla(275, 100%, 10%, 1); /*фон буквы*/
+    font-weight: bold; /*полужирное начертание*/
+}
+ol{
+    list-style-type: none;
+}
+li:nth-child(1):before{
+    content: "I";
+    color: blue;
+    margin-right: 0.5em; /*расстояние между I и предложением*/
+}
+li:nth-child(2):before{
+    content: "II";
+    color: blue;
+    margin-right: 0.5em;
+}
+li:nth-child(3):before{
+    content: "III";
+    color: blue;
+    margin-right: 0.5em;
+}
+li:nth-child(4):before{
+    content: "IV";
+    color: blue;
+    margin-right: 0.5em;
+}
+li:nth-child(5):before{
+    content: "V";
+    color: blue;
+    margin-right: 0.5em;
+}
+li{
+    color: black;
+    font-family: 'Comfortaa';
+    font-size: 20px;
+}
+#last_h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+ol+p:first-line{
+    background-color: red;
+    margin-bottom: 25px;
+    font-family: 'Comfortaa';
+    font-size: 20px;
+}

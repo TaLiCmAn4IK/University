@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <style>
+        .gallery {
+            display: flex;
+            gap: 20px;
+        }
+        .photo {
+            width: 200px;
+            height: 200px;
+            position: relative;
+        }
+        .photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .photo-description {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 10px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .photo:hover .photo-description {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .photo2 {
+            transition: border 0.3s;
+        }
+        .photo2.clicked {
+            border: 10px solid red;
+        }
+        .photo3 img {
+            transition: opacity 0.3s;
+        }
+        .photo3 img.secondary {
+            display: none;
+        }
+        .photo3:hover img.primary {
+            display: none;
+        }
+        .photo3:hover img.secondary {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <div class="photo">
+            <img src="1.jpg" alt="Photo 1">
+            <div class="photo-description">
+                <p>Текст текст текст текст текст текст<br>Текст текст текст текст текст текст<br>Текст текст текст текст текст текст</p>
+            </div>
+        </div>
+
+
+        <div class="photo photo2" onclick="toggleBorder(this)">
+            <img src="2.jpg" alt="Photo 2">
+        </div>
+
+
+        <div class="photo photo3">
+            <img src="3.jpg" alt="Photo 3" class="primary">
+            <img src="4.jpg" alt="Photo 3 Alternate" class="secondary">
+        </div>
+    </div>
+
+    <script>
+        function toggleBorder(element) {
+            element.classList.toggle('clicked');
+        }
+    </script>
+</body>
+</html>

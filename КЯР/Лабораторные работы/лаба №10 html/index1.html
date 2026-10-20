@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="1.css" rel="stylesheet" media="(min-width:1280px)">
+    <style>
+        @import url(2.css) (max-width: 768px);
+
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            box-sizing: border-box;
+           
+        }
+
+        video {
+            width: 100%;
+            height: auto;
+        }
+
+        body {
+            display: inline;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container_element1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            border: 3px solid black;
+            margin: 10px;
+            width: 350px;
+        }
+        .container_element9 {
+            display: flex;
+            border: 2px solid black;
+        }
+
+        .container_element2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            border: 2px solid black;
+        }
+
+        .block{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .ul_container {
+            display: flex;
+            list-style-type: none;
+        }
+
+        .icon {
+            position: absolute;
+            top: 2px;
+            right: 20px;
+            display: none;
+        }
+
+        .icon_button {
+            position: absolute;
+            opacity: 0;
+            width: 20px;
+            height: 20px;
+            top: 10px;
+            right: 20px;
+            display: none;
+        }
+
+
+        figure,
+        img {
+            width: 100%;
+        }
+
+        .fig_music {
+            color: black !important;
+        }
+
+        .icon_button:checked+.nav_element {
+            display: none;
+        }
+
+        .nav_element {
+            display: none;
+        }
+
+        .nav_element>ul {
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @media (max-width: 480px) {
+            .ul_container {
+                display: none;
+            }
+
+            .icon {
+                display: block;
+                font-size: 36px;
+                font-weight: bold;
+            }
+
+            .icon_button {
+                display: block;
+            }
+
+            .nav_element {
+                display: block;
+            }
+
+            figcaption {
+                color: red !important;
+            }
+        }
+        @media (min-width: 480px){
+             .block {
+            border: 2px solid black;
+            width: 33%;
+        }
+        .block:nth-child(2){
+            margin: 0 20px;
+        }
+        }
+        .rrr{
+            transform: scale(0.5);
+        }
+       
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container_element2">
+            <h1 id="p0">Заголовок</h1>
+            <ul class="ul_container">
+                <a href="#p0">
+                    <div class="container_element1">
+                        <li>Заголовок</li>
+                </a>
+                <a href="#p1">
+                    <li style="padding-left: 4px;">Задание 1</li>
+                </a>
+                <a href="#p2">
+                    <li style="padding-left: 4px;">Задание 2</li>
+                </a>
+                <a href="#p3">
+                    <li style="padding-left: 4px;">Задание 3</li>
+                </a>
+            </ul>
+            <p class="icon">&#8801</p>
+        </div>
+        <input class="icon_button" type="checkbox">
+        <div class="nav_element">
+            <ul>
+                <div class="container_element1 container">
+                    <h1><a href="#p1">Задание 1</a></h1>
+                </div>
+                <div class="container_element1 container">
+                    <h1><a href="#p2">Задание 2</a></h1>
+                </div>
+                <div class="container_element1 container">
+                    <h1><a href="#p3">Задание 3</a></h1>
+                </div>
+            </ul>
+        </div>
+            <div id="p1" class="container_element9">
+                <div class="block">
+                    <p><video controls="controls" src="111.mp4"></p>
+                    <p><video controls="controls" src="222.mp4"></p>
+                    <p><video controls="controls" src="333.mp4"></p>
+                </div>
+                <div class="block">
+                    <p id="p2">
+                        Flexbox разметка в CSS даёт один из наиболее эффективных способов расстановки, выравнивания и
+                        распределения места между элементами внутри контейнера, даже если их размер неизвестен или
+                        динамичен
+                        (собственно, по этому его и называют flex, от слова flexible, что по-английски имеет
+                        двойственное
+                        значение — гибкий и уступчивый, что очень сочетается с моделью поведения flexbox).
+                    </p>
+                </div>
+                <div id="p3" class="block">
+                    <figure>
+                        <figcaption class="fig_music">1</figcaption>
+                        <audio controls src="Король и Шут - Кукла Колдуна.mp3"></audio>
+                    </figure>
+                    <figure>
+                        <figcaption class="fig_music">2</figcaption>
+                        <audio controls src="Король и Шут - Лесник.mp3"></audio>
+                    </figure>
+                    <figure>
+                        <figcaption class="fig_music">3</figcaption>
+                        <audio controls src="Король и Шут - Прыгну Со Скалы.mp3"></audio>
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <div id="p4" class="container_element">
+            <figure>
+                <img class="rrr" src="5.jpg" alt="">
+                <figcaption>Картинка 1</figcaption>
+            </figure>
+            <figure>
+                <img class="rrr" src="6.jpg" alt="">
+                <figcaption>Картинка 2</figcaption>
+            </figure>
+            <figure>
+                <img class="rrr" src="7.jpg" alt="">
+                <figcaption>Картинка 3</figcaption>
+            </figure>
+            <figure>
+                <img class="rrr" src="8.jpg" alt="">
+                <figcaption>Картинка 4</figcaption>
+            </figure>
+            <figure>
+                <img class="rrr" src="5.jpg" alt="">
+                <figcaption>Картинка 5</figcaption>
+            </figure>
+            <figure>
+                <img class="rrr" src="6.jpg" alt="">
+                <figcaption>Картинка 6</figcaption>
+            </figure>
+            <figure>
+                <img class="rrr" src="7.jpg" alt="">
+                <figcaption>Картинка 7</figcaption>
+            </figure>
+            <figure>
+                <img class="rrr" src="8.jpg" alt="">
+                <figcaption>Картинка 8</figcaption>
+            </figure>
+        </div>
+    </div>
+</body>
+
+</html>

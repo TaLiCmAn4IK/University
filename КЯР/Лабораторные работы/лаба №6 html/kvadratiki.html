@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Квадраты</title>
+    <style>
+        div{
+            margin-right: 10px;
+            float: left;
+            border: 2px solid black; 
+            width: 100px;
+            height: 100px;
+        }
+        div:nth-child(1){
+            background: linear-gradient(180deg, blue, red);
+        }
+        div:nth-child(2){
+            background: repeating-linear-gradient(45deg, red, red 6px, blue 6px, blue 12px);
+        }
+        div:nth-child(3){
+            background: radial-gradient(circle at 50% 50%, yellow, green);
+        }
+        div:nth-child(4){
+            background: repeating-radial-gradient(circle, #137f10, #137f10 6px, #ffe600 6px, #ffe600 12px);
+        }
+        div:nth-child(5){
+            background: radial-gradient(yellow, green, transparent), linear-gradient(to top, magenta, blue);
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</body>
+</html>

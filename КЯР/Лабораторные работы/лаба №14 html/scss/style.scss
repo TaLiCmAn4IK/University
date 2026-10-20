@@ -1,0 +1,76 @@
+p {
+    color: blue;
+    font-family: Arial, sans-serif;
+    font-size: 16pt;
+}
+
+tr {
+    td {
+        background-color: orange;
+        color: rgb(119, 13, 140);
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(155, 4, 102);
+    font-family: "Monotype Corsiva", cursive;
+}
+
+.ul_1 {
+    color: red;
+    font-family: "Times New Roman", serif;
+    font-size: 18pt;
+}
+
+.ul_2 {
+    color: yellow;
+    font-family: "Times New Roman", serif;
+    font-size: 20pt;
+}
+
+.ul_3 {
+    color: green;
+    font-family: "Times New Roman", serif;
+    font-size: 22pt;
+}
+
+.circle-link {
+    display: inline-block;
+    margin: 10px;
+}
+
+.circle {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #4CAF50; 
+    transition: background-color 0.3s ease;
+    
+    &:hover {
+        background-color: #45a049;
+    }
+}
+
+.title-large {
+    font-size: 36px;
+    font-family: "Comic Sans MS", sans-serif;
+    text-align: center;
+}
+
+.title-medium {
+    font-size: 28px;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+.title-small {
+    font-size: 20px;
+    font-family: "Monospace", monospace;
+}
+
+table {
+    border-collapse: collapse;
+
+    th, td {
+        border: 1px solid black;
+    }
+}

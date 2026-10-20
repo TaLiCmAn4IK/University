@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="styleXML.css"?>
+
+<!DOCTYPE catalog [
+    <!ELEMENT catalog (product)>
+    <!ELEMENT product (id, name, price, description)>
+    <!ELEMENT id (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+]>
+
+<catalog>
+    <product>
+        <id>1)</id>
+        <name>Смартфон XYZ</name>
+        <price>299.99$</price>
+        <description>Смартфон с 6.5 дюймовым экраном и 128ГБ памяти.</description>
+    </product>
+    <product>
+        <id>2)</id>
+        <name>Ноутбук ABC</name>
+        <price>899.99$</price>
+        <description>Ноутбук с Intel Core i5 и 256ГБ SSD.</description>
+    </product>
+    <product>
+        <id>3)</id>
+        <name>Планшет LMN</name>
+        <price>199.99$</price>
+        <description>Планшет с 10-дюймовым экраном и 64ГБ памяти.</description>
+    </product>
+    <product>
+        <id>4)</id>
+        <name>Наушники DEF</name>
+        <price>79.99$</price>
+        <description>Беспроводные наушники с шумоподавлением.</description>
+    </product>
+    <product>
+        <id>5)</id>
+        <name>Фитнес-браслет GHI</name>
+        <price>49.99$</price>
+        <description>Фитнес-браслет с мониторингом сердечного ритма.</description>
+    </product>
+</catalog>

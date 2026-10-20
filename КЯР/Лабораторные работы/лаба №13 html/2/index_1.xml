@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="table.xsl"?>
+<main>
+	<rw>
+		<user>Гость 1</user>
+		<point>4</point>
+	</rw>
+	<rw>
+		<user>Гость 2</user>
+		<point>2</point>
+	</rw>
+	<rw>
+		<user>Гость 3</user>
+		<point>10</point>
+	</rw>
+	<rw>
+		<user>Гость 4</user>
+		<point>5</point>
+	</rw>
+	<rw>
+		<user>Гость 5</user>
+		<point>2</point>
+	</rw>
+	<rw>
+		<user>Гость 6</user>
+		<point>3</point>
+	</rw>
+	<rw>
+		<user>Гость 7</user>
+		<point>4</point>
+	</rw>
+	<rw>
+		<user>Гость 8</user>
+		<point>9</point>
+	</rw>
+	<rw>
+		<user>Гость 9</user>
+		<point>3</point>
+	</rw>
+	<rw>
+		<user>Гость 10</user>
+		<point>7</point>
+	</rw>
+    <rw>
+		<user>Гость 11</user>
+		<point>4</point>
+	</rw>
+    <rw>
+		<user>Гость 12</user>
+		<point>8</point>
+	</rw>
+    <rw>
+		<user>Гость 13</user>
+		<point>6</point>
+	</rw>
+    <rw>
+		<user>Гость 14</user>
+		<point>4</point>
+	</rw>
+    <rw>
+		<user>Гость 15</user>
+		<point>7</point>
+	</rw>
+</main>
