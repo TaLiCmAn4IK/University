@@ -1,0 +1,91 @@
+/* Центрируем всё по экрану */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* по вертикали */
+    align-items: center;     /* по горизонтали */
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+#controls {
+    margin-bottom: 15px;
+}
+
+.sudoku-board {
+    display: grid;
+    grid-template-columns: repeat(9, 40px);
+    grid-template-rows: repeat(9, 40px);
+    gap: 1px;
+}
+
+/* базовый вид ячеек */
+.sudoku-board input {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #999;
+    outline: none;
+}
+
+/* толстые границы 3x3 (сетка судоку) */
+.sudoku-board input:nth-child(9n+1),
+.sudoku-board input:nth-child(9n+2),
+.sudoku-board input:nth-child(9n+3),
+.sudoku-board input:nth-child(9n+4),
+.sudoku-board input:nth-child(9n+5),
+.sudoku-board input:nth-child(9n+6),
+.sudoku-board input:nth-child(9n+7),
+.sudoku-board input:nth-child(9n+8),
+.sudoku-board input:nth-child(9n+9) {
+    border-top-width: 1px;
+}
+
+.sudoku-board input:nth-child(-n+9) {
+    border-top-width: 2px;
+}
+
+.sudoku-board input:nth-child(9n) {
+    border-right-width: 2px;
+}
+
+.sudoku-board input:nth-child(9n+1) {
+    border-left-width: 2px;
+}
+
+.sudoku-board input:nth-last-child(-n+9) {
+    border-bottom-width: 2px;
+}
+
+/* убираем стрелки у input number */
+.sudoku-board input::-webkit-outer-spin-button,
+.sudoku-board input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.sudoku-board input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/* состояния ячеек */
+.invalid {
+    background-color: #ffb3b3;
+}
+
+.correct {
+    background-color: #c2ffc2;
+}
+
+/* поле полностью верное */
+.board-correct input {
+    background-color: #fff6a3;
+}

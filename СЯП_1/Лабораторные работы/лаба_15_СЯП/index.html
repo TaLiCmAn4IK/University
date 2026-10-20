@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторная работа 15 - Валидация формы</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .form-container {
+            width: 400px;
+        }
+        h2 {
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"], select, textarea {
+            width: 100%;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+        textarea {
+            resize: vertical;
+        }
+        .radio-group {
+            margin-top: 5px;
+        }
+        .radio-group label {
+            display: inline-block;
+            margin-right: 15px;
+        }
+        .checkbox-group {
+            margin-top: 5px;
+        }
+        .checkbox-group label {
+            display: inline-block;
+        }
+        button {
+            padding: 8px 20px;
+            margin-top: 10px;
+        }
+        .error {
+            color: red;
+            font-size: 12px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Заполните форму:</h2>
+        
+        <form id="validationForm">
+            <!-- Фамилия -->
+            <div class="form-group">
+                <label for="lastName">Фамилия</label>
+                <input type="text" id="lastName" name="lastName">
+                <div class="error" id="lastNameError"></div>
+            </div>
+            
+            <!-- Имя -->
+            <div class="form-group">
+                <label for="firstName">Имя</label>
+                <input type="text" id="firstName" name="firstName">
+                <div class="error" id="firstNameError"></div>
+            </div>
+            
+            <!-- E-mail -->
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="text" id="email" name="email">
+                <div class="error" id="emailError"></div>
+            </div>
+            
+            <!-- Телефон -->
+            <div class="form-group">
+                <label for="phone">Телефон (0xx)xxx-xx-xx</label>
+                <input type="text" id="phone" name="phone">
+                <div class="error" id="phoneError"></div>
+            </div>
+            
+            <!-- Город -->
+            <div class="form-group">
+                <label for="city">Город</label>
+                <select id="city" name="city">
+                    <option value="">-- Выберите город --</option>
+                    <option value="Минск">Минск</option>
+                    <option value="Гродно">Гродно</option>
+                    <option value="Брест">Брест</option>
+                    <option value="Гомель">Гомель</option>
+                    <option value="Витебск">Витебск</option>
+                    <option value="Могилев">Могилев</option>
+                </select>
+                <div class="error" id="cityError"></div>
+            </div>
+            
+            <!-- Чекбокс БГТУ -->
+            <div class="form-group checkbox-group">
+                <input type="checkbox" id="studyInBGTU" name="studyInBGTU">
+                <label for="studyInBGTU">Я учусь в БГТУ</label>
+            </div>
+            
+            <!-- Курс -->
+            <div class="form-group">
+                <label>На каком курсе Вы учитесь?</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="course" value="1"> 1</label>
+                    <label><input type="radio" name="course" value="2"> 2</label>
+                    <label><input type="radio" name="course" value="3"> 3</label>
+                    <label><input type="radio" name="course" value="4"> 4</label>
+                    <label><input type="radio" name="course" value="5"> 5</label>
+                </div>
+                <div class="error" id="courseError"></div>
+            </div>
+            
+            <!-- Расскажите о себе -->
+            <div class="form-group">
+                <label for="about">Расскажите о себе</label>
+                <textarea id="about" name="about" rows="4"></textarea>
+                <div class="error" id="aboutError"></div>
+            </div>
+            
+            <!-- Кнопка -->
+            <div class="form-group">
+                <button type="submit">Проверить</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>To-Do List</title>
+		<style>
+			body {
+				font-family: Arial, sans-serif;
+				background-color: #f9f9f9;
+				margin: 0;
+				padding: 20px;
+			}
+
+			.container {
+				max-width: 600px;
+				margin: 0 auto;
+				background: #fff;
+				padding: 20px;
+				border-radius: 8px;
+				box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+			}
+
+			h1 {
+				color: #4caf50;
+				text-align: center;
+			}
+
+			.task-input {
+				display: flex;
+				margin-bottom: 20px;
+			}
+
+			.task-input input {
+				flex: 1;
+				padding: 10px;
+				border: 1px solid #ddd;
+				border-radius: 4px;
+			}
+
+			.task-input button {
+				background-color: #4caf50;
+				color: #fff;
+				border: none;
+				padding: 10px 20px;
+				margin-left: 10px;
+				border-radius: 4px;
+				cursor: pointer;
+			}
+
+			.task-input button:hover {
+				background-color: #45a049;
+			}
+
+			.filters {
+				display: flex;
+				justify-content: space-between;
+				margin-bottom: 20px;
+			}
+
+			.filters button {
+				background-color: #4caf50;
+				color: #fff;
+				border: none;
+				padding: 10px;
+				border-radius: 4px;
+				cursor: pointer;
+			}
+
+			.filters button:hover {
+				background-color: #45a049;
+			}
+
+			.task-list {
+				list-style: none;
+				padding: 0;
+			}
+
+			.task {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				padding: 10px;
+				border-bottom: 1px solid #ddd;
+			}
+
+			.task:last-child {
+				border-bottom: none;
+			}
+
+			.task input {
+				margin-right: 10px;
+			}
+
+			.task button {
+				margin-left: 10px;
+				padding: 5px 10px;
+				border: none;
+				border-radius: 4px;
+				cursor: pointer;
+			}
+
+			.task button.edit {
+				background-color: #2196f3;
+				color: #fff;
+			}
+
+			.task button.edit:hover {
+				background-color: #1976d2;
+			}
+
+			.task button.delete {
+				background-color: #f44336;
+				color: #fff;
+			}
+
+			.task button.delete:hover {
+				background-color: #d32f2f;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="container">
+			<h1>Список дел</h1>
+			<div class="task-input">
+				<input
+					type="text"
+					id="taskName"
+					placeholder="Введите название задачи"
+				/>
+				<button onclick="addTask()">Добавить</button>
+			</div>
+			<div class="filters">
+				<button onclick="filterTasks('all')">Показать все</button>
+				<button onclick="filterTasks(true)">Показать выполненные</button>
+				<button onclick="filterTasks(false)">Показать невыполненные</button>
+			</div>
+			<ul class="task-list" id="taskList"></ul>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
