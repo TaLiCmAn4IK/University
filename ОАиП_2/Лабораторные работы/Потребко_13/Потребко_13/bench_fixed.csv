@@ -1,0 +1,5 @@
+TableSize,Inserted,AvgSearchNs
+16,11,320.4
+32,22,402.7
+64,44,432.3
+128,89,373.9
