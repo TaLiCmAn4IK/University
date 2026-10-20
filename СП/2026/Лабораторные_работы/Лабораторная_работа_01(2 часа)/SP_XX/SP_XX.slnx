@@ -1,0 +1,12 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="SP_01/SP_01.vcxproj" Id="32dbbad7-9cb0-462f-a523-c1e066243f0a" />
+  <Project Path="SP_02/SP_02.vcxproj" Id="a4ba0833-f3c7-486a-a1d2-3e8fb19a441a" />
+  <Project Path="SP_05/SP_05.csproj" />
+  <Project Path="SP_06/SP_06.csproj" />
+  <Project Path="SP_XX/SP_XX.vcxproj" Id="d6887e5c-57fe-4010-92d1-a9d43a8e4966" />
+</Solution>
