@@ -1,0 +1,21 @@
+[2026-09-19 00:02:12] [VRB] EventId: { Id: 1001 } - Создан экземпляр ChannelsController
+[2026-09-19 00:02:12] [VRB] EventId: { Id: 1004 } - Вызов метода CreateChannel (POST /api/channels) с командой new
+[2026-09-19 00:02:12] [INF] EventId: { Id: 2001 } - Создан новый канал. ID: "5898b765-3a9d-4ffa-a50b-d0fda8fd8ee4", Имя: Первый канал, Состояние: ACTIVE
+[2026-09-19 00:02:57] [VRB] EventId: { Id: 1007 } - Создан экземпляр QueueController
+[2026-09-19 00:02:57] [VRB] EventId: { Id: 1008 } - Вызов метода HandleQueueOperation (POST /api/queue) для канала "5898b765-3a9d-4ffa-a50b-d0fda8fd8ee4", команда enqueue
+[2026-09-19 00:02:57] [DBG] EventId: { Id: 1101 } - Сообщение успешно добавлено в канал "5898b765-3a9d-4ffa-a50b-d0fda8fd8ee4"
+[2026-09-19 00:03:21] [VRB] EventId: { Id: 1007 } - Создан экземпляр QueueController
+[2026-09-19 00:03:21] [VRB] EventId: { Id: 1008 } - Вызов метода HandleQueueOperation (POST /api/queue) для канала "5898b765-3a9d-4ffa-a50b-d0fda8fd8ee4", команда peek
+[2026-09-19 00:03:21] [DBG] EventId: { Id: 1103 } - Выполнен просмотр (peek) первого сообщения в канале "5898b765-3a9d-4ffa-a50b-d0fda8fd8ee4"
+[2026-09-19 00:03:37] [VRB] EventId: { Id: 1007 } - Создан экземпляр QueueController
+[2026-09-19 00:03:45] [VRB] EventId: { Id: 1007 } - Создан экземпляр QueueController
+[2026-09-19 00:03:45] [VRB] EventId: { Id: 1008 } - Вызов метода HandleQueueOperation (POST /api/queue) для канала "5898b765-3a9d-4ffa-a50b-d0fda8fd8ee4", команда dequeue
+[2026-09-19 00:03:45] [DBG] EventId: { Id: 1102 } - Сообщение извлечено (dequeue) из канала "5898b765-3a9d-4ffa-a50b-d0fda8fd8ee4"
+[2026-09-19 00:04:44] [VRB] EventId: { Id: 1001 } - Создан экземпляр ChannelsController
+[2026-09-19 00:04:44] [VRB] EventId: { Id: 1002 } - Вызов метода GetChannels (GET /api/channels)
+[2026-09-19 00:05:13] [VRB] EventId: { Id: 1001 } - Создан экземпляр ChannelsController
+[2026-09-19 00:05:13] [VRB] EventId: { Id: 1005 } - Вызов метода UpdateChannels (PUT /api/channels) с командой close
+[2026-09-19 00:05:13] [INF] EventId: { Id: 2004 } - Канал "5898b765-3a9d-4ffa-a50b-d0fda8fd8ee4" ОСТАНОВЛЕН
+[2026-09-19 00:05:24] [VRB] EventId: { Id: 1001 } - Создан экземпляр ChannelsController
+[2026-09-19 00:05:24] [VRB] EventId: { Id: 1006 } - Вызов метода DeleteChannels (DELETE /api/channels) с командой del
+[2026-09-19 00:05:24] [INF] EventId: { Id: 2007 } - Удалены все каналы со статусом CLOSED
