@@ -1,0 +1,162 @@
+USE UNIVER;
+GO
+
+-- Задание 1
+DROP FUNCTION IF EXISTS dbo.COUNT_STUDENTS;
+GO
+
+CREATE FUNCTION dbo.COUNT_STUDENTS
+(
+    @faculty VARCHAR(20)
+)
+RETURNS INT
+AS
+BEGIN
+    DECLARE @count INT;
+
+    SELECT @count = COUNT(*)
+    FROM FACULTY F
+    INNER JOIN GROUPS G ON F.FACULTY = G.FACULTY
+    INNER JOIN STUDENT S ON G.IDGROUP = S.IDGROUP
+    WHERE F.FACULTY = @faculty;
+
+    RETURN @count;
+END;
+GO
+
+SELECT dbo.COUNT_STUDENTS('ЛХФ') AS Количество_студентов;
+GO
+
+ALTER FUNCTION dbo.COUNT_STUDENTS
+(
+    @faculty VARCHAR(20) = NULL,
+    @prof VARCHAR(20) = NULL
+)
+RETURNS INT
+AS
+BEGIN
+    DECLARE @count INT;
+
+    SELECT @count = COUNT(*)
+    FROM FACULTY F
+    INNER JOIN GROUPS G ON F.FACULTY = G.FACULTY
+    INNER JOIN STUDENT S ON G.IDGROUP = S.IDGROUP
+    WHERE (@faculty IS NULL OR F.FACULTY = @faculty)
+      AND (@prof IS NULL OR G.PROFESSION = @prof);
+
+    RETURN @count;
+END;
+GO
+
+SELECT dbo.COUNT_STUDENTS('ЛХФ', DEFAULT) AS Студенты_факультета;
+SELECT dbo.COUNT_STUDENTS('ЛХФ', '1-75 02 01') AS Студенты_специальности;
+SELECT dbo.COUNT_STUDENTS(DEFAULT, DEFAULT) AS Все_студенты;
+GO
+
+-- Задание 2
+DROP FUNCTION IF EXISTS dbo.FSUBJECTS;
+GO
+
+CREATE FUNCTION dbo.FSUBJECTS
+(
+    @p VARCHAR(20)
+)
+RETURNS VARCHAR(300)
+AS
+BEGIN
+    DECLARE @subject CHAR(10);
+    DECLARE @result VARCHAR(300) = '';
+
+    DECLARE SubCur CURSOR LOCAL STATIC FOR
+        SELECT SUBJECT
+        FROM SUBJECT
+        WHERE PULPIT = @p;
+
+    OPEN SubCur;
+
+    FETCH NEXT FROM SubCur INTO @subject;
+
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        SET @result = @result + RTRIM(@subject) + ', ';
+        FETCH NEXT FROM SubCur INTO @subject;
+    END;
+
+    CLOSE SubCur;
+    DEALLOCATE SubCur;
+
+    IF LEN(@result) > 0
+        SET @result = LEFT(@result, LEN(@result) - 1);
+
+    RETURN @result;
+END;
+GO
+
+SELECT PULPIT, dbo.FSUBJECTS(PULPIT) AS Дисциплины
+FROM PULPIT;
+GO
+
+-- Задание 3
+DROP FUNCTION IF EXISTS dbo.FFACPUL;
+GO
+
+CREATE FUNCTION dbo.FFACPUL
+(
+    @f VARCHAR(20) = NULL,
+    @p VARCHAR(20) = NULL
+)
+RETURNS TABLE
+AS
+RETURN
+(
+    SELECT F.FACULTY,
+           F.FACULTY_NAME,
+           P.PULPIT,
+           P.PULPIT_NAME
+    FROM FACULTY F
+    LEFT JOIN PULPIT P ON F.FACULTY = P.FACULTY
+    WHERE (@f IS NULL OR F.FACULTY = @f)
+      AND (@p IS NULL OR P.PULPIT = @p)
+);
+GO
+
+SELECT *
+FROM dbo.FFACPUL(DEFAULT, DEFAULT);
+GO
+
+SELECT *
+FROM dbo.FFACPUL('ИТ', DEFAULT);
+GO
+
+SELECT *
+FROM dbo.FFACPUL(DEFAULT, 'ИСиТ');
+GO
+
+SELECT *
+FROM dbo.FFACPUL('ИТ', 'ИСиТ');
+GO
+
+-- Задание 4
+DROP FUNCTION IF EXISTS dbo.FCTEACHER;
+GO
+
+CREATE FUNCTION dbo.FCTEACHER
+(
+    @p VARCHAR(20) = NULL
+)
+RETURNS INT
+AS
+BEGIN
+    DECLARE @count INT;
+
+    SELECT @count = COUNT(*)
+    FROM TEACHER
+    WHERE @p IS NULL OR PULPIT = @p;
+
+    RETURN @count;
+END;
+GO
+
+SELECT dbo.FCTEACHER(DEFAULT) AS Всего_преподавателей;
+SELECT dbo.FCTEACHER('ИСиТ') AS Преподавателей_на_кафедре;
+GO
