@@ -1,0 +1,176 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!-- главное меню -->
+    <sys:String x:Key="File">File</sys:String>
+    <sys:String x:Key="Login">Login</sys:String>
+    <sys:String x:Key="Logout">Logout</sys:String>
+    <sys:String x:Key="Exit">Exit</sys:String>
+    <sys:String x:Key="View">View</sys:String>
+    <sys:String x:Key="ListView">List View</sys:String>
+    <sys:String x:Key="TableView">Table View</sys:String>
+    <sys:String x:Key="Language">Language</sys:String>
+    <sys:String x:Key="Russian">Русский</sys:String>
+    <sys:String x:Key="English">English</sys:String>
+    <sys:String x:Key="Help">Help</sys:String>
+    <sys:String x:Key="About">About</sys:String>
+
+    <!-- фильтры -->
+    <sys:String x:Key="Filters">Filters</sys:String>
+    <sys:String x:Key="Search">Search:</sys:String>
+    <sys:String x:Key="Category">Category:</sys:String>
+    <sys:String x:Key="AllCategories">All categories</sys:String>
+    <sys:String x:Key="Price">Price:</sys:String>
+    <sys:String x:Key="InStockOnly">In stock only</sys:String>
+    <sys:String x:Key="Sort">Sort by:</sys:String>
+    <sys:String x:Key="ByName">By name</sys:String>
+    <sys:String x:Key="ByPriceAsc">Price (low to high)</sys:String>
+    <sys:String x:Key="ByPriceDesc">Price (high to low)</sys:String>
+    <sys:String x:Key="ByRating">By rating</sys:String>
+    <sys:String x:Key="ApplyFilters">Apply filters</sys:String>
+    <sys:String x:Key="Management">Management</sys:String>
+    <sys:String x:Key="AddProduct">Add product</sys:String>
+
+    <!-- статус бар -->
+    <sys:String x:Key="Ready">Ready</sys:String>
+    <sys:String x:Key="NotAuthorized">Not authorized</sys:String>
+    <sys:String x:Key="ProductsFound">Products found:</sys:String>
+
+    <!-- окно добавления и редактирования -->
+    <sys:String x:Key="AddTitle">Add Product</sys:String>
+    <sys:String x:Key="EditTitle">Edit Product</sys:String>
+    <sys:String x:Key="ShortName">Short name:</sys:String>
+    <sys:String x:Key="FullName">Full name:</sys:String>
+    <sys:String x:Key="Description">Description</sys:String>
+    <sys:String x:Key="Save">Save</sys:String>
+    <sys:String x:Key="Cancel">Cancel</sys:String>
+    <sys:String x:Key="Required">* - required field</sys:String>
+    <sys:String x:Key="Images_field">Product Images</sys:String>
+
+    <!-- подписи полей в окне добавления -->
+    <sys:String x:Key="Category_field">Category:</sys:String>
+    <sys:String x:Key="Price_field">Price ($):</sys:String>
+    <sys:String x:Key="Quantity_field">Quantity:</sys:String>
+    <sys:String x:Key="Manufacturer_field">Manufacturer:</sys:String>
+    <sys:String x:Key="MovementType">Movement type:</sys:String>
+    <sys:String x:Key="Size_field">Size:</sys:String>
+    <sys:String x:Key="Material_field">Material:</sys:String>
+    <sys:String x:Key="Country_field">Country:</sys:String>
+    <sys:String x:Key="Color_field">Color:</sys:String>
+    <sys:String x:Key="Rating_field">Rating (0-5):</sys:String>
+    <sys:String x:Key="Discount_field">Discount (%):</sys:String>
+    <sys:String x:Key="WaterResistance_field">Water resistance:</sys:String>
+    <sys:String x:Key="Gender_field">Gender:</sys:String>
+    <sys:String x:Key="InStock_field">In stock</sys:String>
+
+    <!-- заголовки таблицы -->
+    <sys:String x:Key="Rating">Rating</sys:String>
+    <sys:String x:Key="InStock">In stock</sys:String>
+    <sys:String x:Key="Price_Label">Price</sys:String>
+    <sys:String x:Key="AvailableHeader">Available</sys:String>
+    <sys:String x:Key="Action">Action</sys:String>
+
+    <!-- сообщения для пользователя -->
+    <sys:String x:Key="Order">Order</sys:String>
+    <sys:String x:Key="Order_Success">Order placed!</sys:String>
+    <sys:String x:Key="Order_Details">You have successfully ordered:\n\nName: {0}\nPrice: {1:C}\nQuantity: {2} pcs.\nTotal: {3:C}\n\nThank you for your purchase!</sys:String>
+    <sys:String x:Key="Order_OutOfStock">Sorry, product '{0}' is out of stock.</sys:String>
+    <sys:String x:Key="Order_Quantity">Enter quantity to order (available: {0} pcs.):</sys:String>
+    <sys:String x:Key="Edit">Edit</sys:String>
+    <sys:String x:Key="Delete">Delete</sys:String>
+    <sys:String x:Key="Available">Available: {0} pcs.</sys:String>
+
+    <!-- сообщения об ошибках -->
+    <sys:String x:Key="Warning">Warning</sys:String>
+    <sys:String x:Key="Confirm_Delete">Are you sure you want to delete product '{0}'?</sys:String>
+    <sys:String x:Key="Confirm_Title">Confirm Delete</sys:String>
+    <sys:String x:Key="Product_Deleted">Product successfully deleted</sys:String>
+    <sys:String x:Key="Product_Updated">Product successfully updated</sys:String>
+    <sys:String x:Key="Product_Added">Product successfully added</sys:String>
+    <sys:String x:Key="AdminOnly_Delete">Only administrator can delete products</sys:String>
+    <sys:String x:Key="AdminOnly_Edit">Only administrator can edit products</sys:String>
+    <sys:String x:Key="AdminOnly_Add">Only administrator can add products</sys:String>
+
+    <!-- подсказки -->
+    <sys:String x:Key="DoubleClickHint">Double click to view</sys:String>
+    <sys:String x:Key="OutOfStock">Out of stock</sys:String>
+    <sys:String x:Key="InStock_Label">In stock</sys:String>
+    <sys:String x:Key="Discount_Label">Discount</sys:String>
+    <sys:String x:Key="DiscountNotApplied">No discount applied</sys:String>
+
+    <!-- окно характеристик -->
+    <sys:String x:Key="Details">Details</sys:String>
+    <sys:String x:Key="FullName_Label">FULL NAME</sys:String>
+    <sys:String x:Key="Category_Label">CATEGORY</sys:String>
+    <sys:String x:Key="Manufacturer_Label">MANUFACTURER</sys:String>
+    <sys:String x:Key="Country_Label">COUNTRY</sys:String>
+    <sys:String x:Key="Price_Label2">PRICE</sys:String>
+    <sys:String x:Key="Characteristics">CHARACTERISTICS</sys:String>
+    <sys:String x:Key="Rating_Label">Rating</sys:String>
+    <sys:String x:Key="MovementType_Label">Movement type</sys:String>
+    <sys:String x:Key="Size_Label">Case size</sys:String>
+    <sys:String x:Key="Material_Label">Material</sys:String>
+    <sys:String x:Key="Color_Label">Color</sys:String>
+    <sys:String x:Key="WaterResistance_Label">Water resistance</sys:String>
+    <sys:String x:Key="Gender_Label">Gender</sys:String>
+    <sys:String x:Key="Stock_Label">STOCK</sys:String>
+    <sys:String x:Key="InStock_Label2">In stock</sys:String>
+    <sys:String x:Key="SoldCount_Label">Sold total</sys:String>
+    <sys:String x:Key="Description_Label">DESCRIPTION</sys:String>
+
+    <!-- переводы выпадающих списков -->
+    <sys:String x:Key="Luxury">Luxury</sys:String>
+    <sys:String x:Key="Sport">Sport</sys:String>
+    <sys:String x:Key="Smart">Smart watches</sys:String>
+    <sys:String x:Key="Classic">Classic</sys:String>
+    <sys:String x:Key="Diver">Diver</sys:String>
+    <sys:String x:Key="Aviation">Aviation</sys:String>
+    <sys:String x:Key="Fashion">Fashion</sys:String>
+
+    <sys:String x:Key="MovementType_Mechanical">Mechanical</sys:String>
+    <sys:String x:Key="MovementType_Quartz">Quartz</sys:String>
+    <sys:String x:Key="MovementType_Electronic">Electronic</sys:String>
+    <sys:String x:Key="MovementType_Automatic">Automatic</sys:String>
+    <sys:String x:Key="MovementType_Solar">Solar</sys:String>
+
+    <sys:String x:Key="Material_Steel">Stainless steel</sys:String>
+    <sys:String x:Key="Material_Titanium">Titanium</sys:String>
+    <sys:String x:Key="Material_Ceramic">Ceramic</sys:String>
+    <sys:String x:Key="Material_Plastic">Plastic</sys:String>
+    <sys:String x:Key="Material_Carbon">Carbon</sys:String>
+    <sys:String x:Key="Material_Gold">Gold</sys:String>
+    <sys:String x:Key="Material_Silver">Silver</sys:String>
+
+    <sys:String x:Key="Gender_Men">Men</sys:String>
+    <sys:String x:Key="Gender_Women">Women</sys:String>
+    <sys:String x:Key="Gender_Unisex">Unisex</sys:String>
+
+    <sys:String x:Key="Country_Switzerland">Switzerland</sys:String>
+    <sys:String x:Key="Country_Japan">Japan</sys:String>
+    <sys:String x:Key="Country_Germany">Germany</sys:String>
+    <sys:String x:Key="Country_China">China</sys:String>
+    <sys:String x:Key="Country_Russia">Russia</sys:String>
+    <sys:String x:Key="Country_USA">USA</sys:String>
+    <sys:String x:Key="Country_France">France</sys:String>
+    <sys:String x:Key="Country_Italy">Italy</sys:String>
+
+    <sys:String x:Key="Color_Black">Black</sys:String>
+    <sys:String x:Key="Color_Silver">Silver</sys:String>
+    <sys:String x:Key="Color_Gold">Gold</sys:String>
+    <sys:String x:Key="Color_Blue">Blue</sys:String>
+    <sys:String x:Key="Color_Green">Green</sys:String>
+    <sys:String x:Key="Color_Red">Red</sys:String>
+    <sys:String x:Key="Color_White">White</sys:String>
+    <sys:String x:Key="Color_Pink">Pink</sys:String>
+    <sys:String x:Key="Color_Brown">Brown</sys:String>
+
+    <sys:String x:Key="WaterResistance_30m">30m (splash)</sys:String>
+    <sys:String x:Key="WaterResistance_50m">50m (shower)</sys:String>
+    <sys:String x:Key="WaterResistance_100m">100m (swimming)</sys:String>
+    <sys:String x:Key="WaterResistance_200m">200m (diving)</sys:String>
+    <sys:String x:Key="WaterResistance_300m">300m (professional diving)</sys:String>
+    <sys:String x:Key="WaterResistance_500m">500m+ (deep water)</sys:String>
+    <sys:String x:Key="WaterResistance_None">None</sys:String>
+
+</ResourceDictionary>

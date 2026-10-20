@@ -1,0 +1,99 @@
+<UserControl x:Class="WatchShop.Controls.StarRating"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WatchShop.Controls"
+             x:Name="Root"
+             d1p1:Ignorable="d"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:d1p1="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             d:DesignHeight="32" d:DesignWidth="160">
+    <!-- usercontrol — это способ создать свой элемент путём комбинирования существующих.-->
+    <UserControl.Resources>
+        <!-- Шаблон одной звезды через Path. Используется и для заполненной, и для пустой. -->
+        <Style x:Key="StarPathStyle" TargetType="Path">
+            <Setter Property="Data"
+                    Value="M 12,1 L 14.9,9 L 23.5,9 L 16.5,14.5 L 19.4,22.5 L 12,17.5 L 4.6,22.5 L 7.5,14.5 L 0.5,9 L 9.1,9 Z"/>
+            <Setter Property="Stretch" Value="Uniform"/>
+        </Style>
+
+        <Style x:Key="StarButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="2"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <!-- переопределяет визуальное представление элемента управления.-->
+                    <ControlTemplate TargetType="Button">
+                        <Grid Background="Transparent">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="RenderTransformOrigin" Value="0.5,0.5"/>
+            <Setter Property="RenderTransform">
+                <Setter.Value>
+                    <ScaleTransform ScaleX="1" ScaleY="1"/>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <!-- При наведении звезда чуть увеличивается -->
+                <EventTrigger RoutedEvent="MouseEnter">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetProperty="(Button.RenderTransform).(ScaleTransform.ScaleX)"
+                                             To="1.25" Duration="0:0:0.12"/>
+                            <DoubleAnimation Storyboard.TargetProperty="(Button.RenderTransform).(ScaleTransform.ScaleY)"
+                                             To="1.25" Duration="0:0:0.12"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+                <EventTrigger RoutedEvent="MouseLeave">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetProperty="(Button.RenderTransform).(ScaleTransform.ScaleX)"
+                                             To="1" Duration="0:0:0.12"/>
+                            <DoubleAnimation Storyboard.TargetProperty="(Button.RenderTransform).(ScaleTransform.ScaleY)"
+                                             To="1" Duration="0:0:0.12"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>
+
+    <ItemsControl ItemsSource="{Binding StarItems, ElementName=Root}">
+        <ItemsControl.ItemsPanel>
+            <ItemsPanelTemplate>
+                <StackPanel Orientation="Horizontal"/>
+            </ItemsPanelTemplate>
+        </ItemsControl.ItemsPanel>
+        <ItemsControl.ItemTemplate>
+            <DataTemplate>
+                <Button Style="{StaticResource StarButtonStyle}"
+                        Tag="{Binding Index}"
+                        Click="StarButton_Click"
+                        IsHitTestVisible="{Binding IsReadOnly, ElementName=Root, Converter={StaticResource InvertBoolConverter}}">
+                    <Grid Width="20" Height="20">
+                        <!-- пустая звезда (контур) -->
+                        <Path Style="{StaticResource StarPathStyle}"
+                              Stroke="{DynamicResource StarBrush}"
+                              StrokeThickness="1.2"
+                              Fill="Transparent"/>
+                        <!-- частичная заливка золотым -->
+                        <Path Style="{StaticResource StarPathStyle}"
+                              Fill="{DynamicResource StarBrush}">
+                            <Path.OpacityMask>
+                                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                                    <GradientStop Color="Black" Offset="{Binding FillOffset}"/>
+                                    <GradientStop Color="Transparent" Offset="{Binding FillOffset}"/>
+                                </LinearGradientBrush>
+                            </Path.OpacityMask>
+                        </Path>
+                    </Grid>
+                </Button>
+            </DataTemplate>
+        </ItemsControl.ItemTemplate>
+    </ItemsControl>
+</UserControl>

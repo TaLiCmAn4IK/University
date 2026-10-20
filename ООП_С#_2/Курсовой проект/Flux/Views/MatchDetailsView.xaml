@@ -1,0 +1,222 @@
+<UserControl x:Class="Flux.Views.MatchDetailsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:loc="clr-namespace:Flux.Localization">
+
+    <Grid Margin="32,24,32,24">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <DockPanel Grid.Row="0" Margin="0,0,0,18">
+            <Button Content="{loc:Loc BackButton}" Style="{StaticResource OutlineButton}"
+                    Command="{Binding BackCommand}" MinWidth="110" Height="40"
+                    DockPanel.Dock="Left" FontFamily="Segoe UI"/>
+            <TextBlock Text="{Binding DateText}" Style="{StaticResource MutedText}"
+                       DockPanel.Dock="Right" VerticalAlignment="Center"
+                       HorizontalAlignment="Right" Margin="0,0,8,0"/>
+            <TextBlock Text="{loc:Loc Details}" Style="{StaticResource HeroText}" Margin="18,0,0,0"
+                       VerticalAlignment="Center"/>
+        </DockPanel>
+
+        <!-- CS2 details -->
+        <Grid Grid.Row="1"
+              Visibility="{Binding GameType, ConverterParameter=CS2, Converter={StaticResource EnumEqualsVisibility}}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Border Grid.Row="0" Style="{StaticResource AccentCard}" Padding="22" Margin="0,0,0,18">
+                <StackPanel>
+                    <TextBlock HorizontalAlignment="Center">
+                        <Run Text="{Binding ScoreTeam1}" FontSize="52" FontWeight="Bold" Foreground="{StaticResource AccentBrush}"/>
+                        <Run Text=" : " FontSize="36" Foreground="{StaticResource TextSecondaryBrush}"/>
+                        <Run Text="{Binding ScoreTeam2}" FontSize="52" FontWeight="Bold" Foreground="{StaticResource InfoBrush}"/>
+                    </TextBlock>
+                    <TextBlock HorizontalAlignment="Center" Margin="0,8,0,0">
+                        <Run Text="{loc:Loc Map}"/><Run Text=": "/>
+                        <Run Text="{Binding MapText}" Foreground="{StaticResource AccentBrush}"/>
+                        <Run Text="     "/>
+                        <Run Text="{loc:Loc ServerCol}"/><Run Text=": "/>
+                        <Run Text="{Binding ServerText}" Foreground="{StaticResource AccentBrush}"/>
+                    </TextBlock>
+                </StackPanel>
+            </Border>
+
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="16"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Border Grid.Column="0" Style="{StaticResource Card}">
+                    <DockPanel>
+                        <TextBlock DockPanel.Dock="Top" Text="{loc:Loc Team1}" Style="{StaticResource H2Text}" Foreground="{StaticResource AccentBrush}" Margin="0,0,0,10"/>
+                        <DataGrid ItemsSource="{Binding Team1}"
+                                  IsReadOnly="True" CanUserAddRows="False" CanUserDeleteRows="False"
+                                  CanUserReorderColumns="False" CanUserResizeRows="False">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="{loc:Loc Player}" Binding="{Binding Nickname}" Width="*"/>
+                                <DataGridTextColumn Header="K" Binding="{Binding Kills}" Width="40"/>
+                                <DataGridTextColumn Header="D" Binding="{Binding Deaths}" Width="40"/>
+                                <DataGridTextColumn Header="A" Binding="{Binding Assists}" Width="40"/>
+                                <DataGridTextColumn Header="HS" Binding="{Binding Headshots}" Width="40"/>
+                                <DataGridTextColumn Header="{loc:Loc ADR}" Binding="{Binding Adr, StringFormat=F1}" Width="60"/>
+                                <DataGridTextColumn Header="{loc:Loc HLTV}" Binding="{Binding Hltv, StringFormat=F2}" Width="60"/>
+                                <DataGridTemplateColumn Header="{loc:Loc Elo}" Width="80">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding EloChange, Converter={StaticResource EloDeltaToText}}"
+                                                       Foreground="{Binding EloChange, Converter={StaticResource EloDeltaToColor}}"
+                                                       FontWeight="Bold"/>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </DockPanel>
+                </Border>
+                <Border Grid.Column="2" Style="{StaticResource Card}">
+                    <DockPanel>
+                        <TextBlock DockPanel.Dock="Top" Text="{loc:Loc Team2}" Style="{StaticResource H2Text}" Foreground="{StaticResource InfoBrush}" Margin="0,0,0,10"/>
+                        <DataGrid ItemsSource="{Binding Team2}"
+                                  IsReadOnly="True" CanUserAddRows="False" CanUserDeleteRows="False"
+                                  CanUserReorderColumns="False" CanUserResizeRows="False">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="{loc:Loc Player}" Binding="{Binding Nickname}" Width="*"/>
+                                <DataGridTextColumn Header="K" Binding="{Binding Kills}" Width="40"/>
+                                <DataGridTextColumn Header="D" Binding="{Binding Deaths}" Width="40"/>
+                                <DataGridTextColumn Header="A" Binding="{Binding Assists}" Width="40"/>
+                                <DataGridTextColumn Header="HS" Binding="{Binding Headshots}" Width="40"/>
+                                <DataGridTextColumn Header="{loc:Loc ADR}" Binding="{Binding Adr, StringFormat=F1}" Width="60"/>
+                                <DataGridTextColumn Header="{loc:Loc HLTV}" Binding="{Binding Hltv, StringFormat=F2}" Width="60"/>
+                                <DataGridTemplateColumn Header="{loc:Loc Elo}" Width="80">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding EloChange, Converter={StaticResource EloDeltaToText}}"
+                                                       Foreground="{Binding EloChange, Converter={StaticResource EloDeltaToColor}}"
+                                                       FontWeight="Bold"/>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </DockPanel>
+                </Border>
+            </Grid>
+        </Grid>
+
+        <!-- Chess details -->
+        <Grid Grid.Row="1"
+              Visibility="{Binding GameType, ConverterParameter=Chess, Converter={StaticResource EnumEqualsVisibility}}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Result header -->
+            <Border Grid.Row="0" Style="{StaticResource AccentCard}" Padding="22" Margin="0,0,0,14">
+                <StackPanel>
+                    <TextBlock HorizontalAlignment="Center" FontSize="32" FontWeight="Bold" Foreground="{StaticResource AccentBrush}"
+                               Text="{Binding ResultText}"/>
+                    <TextBlock HorizontalAlignment="Center" Style="{StaticResource MutedText}" Margin="0,4,0,0">
+                        <Run Text="{Binding WhiteName}"/><Run Text=" ("/><Run Text="{loc:Loc WhiteSide}"/><Run Text=")  vs  "/>
+                        <Run Text="{Binding BlackName}"/><Run Text=" ("/><Run Text="{loc:Loc BlackSide}"/><Run Text=")"/>
+                    </TextBlock>
+                    <TextBlock HorizontalAlignment="Center" Style="{StaticResource AccentText}" Margin="0,4,0,0"
+                               Text="{Binding ChessEndReason}"/>
+                </StackPanel>
+            </Border>
+
+            <!-- Move quality grid (per side) -->
+            <Grid Grid.Row="1" Margin="0,0,0,14">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="14"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Border Grid.Column="0" Style="{StaticResource Card}" Padding="18">
+                    <StackPanel>
+                        <TextBlock Style="{StaticResource H2Text}" Foreground="{StaticResource AccentBrush}">
+                            <Run Text="{Binding WhiteName}"/><Run Text=" ("/><Run Text="{loc:Loc WhiteSide}"/><Run Text=")"/>
+                        </TextBlock>
+                        <Grid Margin="0,10,0,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/><ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/><ColumnDefinition Width="*"/><ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Grid.Column="0">
+                                <TextBlock Text="{loc:Loc GoodMoves}" Style="{StaticResource MutedText}"/>
+                                <TextBlock Text="{Binding WhiteGood}" FontSize="22" FontWeight="Bold" Foreground="{StaticResource SuccessBrush}"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="1">
+                                <TextBlock Text="{loc:Loc Brilliant}" Style="{StaticResource MutedText}"/>
+                                <TextBlock Text="{Binding WhiteBrilliant}" FontSize="22" FontWeight="Bold" Foreground="{StaticResource AccentBrush}"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="2">
+                                <TextBlock Text="{loc:Loc Inaccuracies}" Style="{StaticResource MutedText}"/>
+                                <TextBlock Text="{Binding WhiteInaccuracies}" FontSize="22" FontWeight="Bold" Foreground="{StaticResource InfoBrush}"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="3">
+                                <TextBlock Text="{loc:Loc Mistakes}" Style="{StaticResource MutedText}"/>
+                                <TextBlock Text="{Binding WhiteMistakes}" FontSize="22" FontWeight="Bold" Foreground="#FFFFAA00"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="4">
+                                <TextBlock Text="{loc:Loc Blunders}" Style="{StaticResource MutedText}"/>
+                                <TextBlock Text="{Binding WhiteBlunders}" FontSize="22" FontWeight="Bold" Foreground="{StaticResource DangerBrush}"/>
+                            </StackPanel>
+                        </Grid>
+                    </StackPanel>
+                </Border>
+
+                <Border Grid.Column="2" Style="{StaticResource Card}" Padding="18">
+                    <StackPanel>
+                        <TextBlock Style="{StaticResource H2Text}" Foreground="{StaticResource InfoBrush}">
+                            <Run Text="{Binding BlackName}"/><Run Text=" ("/><Run Text="{loc:Loc BlackSide}"/><Run Text=")"/>
+                        </TextBlock>
+                        <Grid Margin="0,10,0,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/><ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/><ColumnDefinition Width="*"/><ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Grid.Column="0">
+                                <TextBlock Text="{loc:Loc GoodMoves}" Style="{StaticResource MutedText}"/>
+                                <TextBlock Text="{Binding BlackGood}" FontSize="22" FontWeight="Bold" Foreground="{StaticResource SuccessBrush}"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="1">
+                                <TextBlock Text="{loc:Loc Brilliant}" Style="{StaticResource MutedText}"/>
+                                <TextBlock Text="{Binding BlackBrilliant}" FontSize="22" FontWeight="Bold" Foreground="{StaticResource AccentBrush}"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="2">
+                                <TextBlock Text="{loc:Loc Inaccuracies}" Style="{StaticResource MutedText}"/>
+                                <TextBlock Text="{Binding BlackInaccuracies}" FontSize="22" FontWeight="Bold" Foreground="{StaticResource InfoBrush}"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="3">
+                                <TextBlock Text="{loc:Loc Mistakes}" Style="{StaticResource MutedText}"/>
+                                <TextBlock Text="{Binding BlackMistakes}" FontSize="22" FontWeight="Bold" Foreground="#FFFFAA00"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="4">
+                                <TextBlock Text="{loc:Loc Blunders}" Style="{StaticResource MutedText}"/>
+                                <TextBlock Text="{Binding BlackBlunders}" FontSize="22" FontWeight="Bold" Foreground="{StaticResource DangerBrush}"/>
+                            </StackPanel>
+                        </Grid>
+                    </StackPanel>
+                </Border>
+            </Grid>
+
+            <Border Grid.Row="2" Style="{StaticResource Card}">
+                <DockPanel>
+                    <TextBlock DockPanel.Dock="Top" Text="{loc:Loc MoveHistory}" Style="{StaticResource H2Text}" Margin="0,0,0,8"/>
+                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+                        <TextBlock Text="{Binding ChessMovesText}" FontFamily="Consolas" FontSize="14"
+                                   Foreground="{StaticResource TextPrimaryBrush}" TextWrapping="Wrap"/>
+                    </ScrollViewer>
+                </DockPanel>
+            </Border>
+        </Grid>
+    </Grid>
+</UserControl>

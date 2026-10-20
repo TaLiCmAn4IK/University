@@ -1,0 +1,112 @@
+<mxfile host="Electron">
+  <diagram name="Диаграмма компонентов — WatchShop" id="watchshop-component">
+    <mxGraphModel dx="1331" dy="1185" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="780" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="app_box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;verticalAlign=top;fontFamily=Times New Roman;fontSize=14;fontStyle=1;dashed=0;" value="Приложение WatchShop (WPF, .NET 8)" vertex="1">
+          <mxGeometry height="560" width="1210" x="60" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c_ui" parent="1" style="shape=component;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#000000;fontFamily=Times New Roman;fontSize=12;" value="&lt;b&gt;Слой представления(UI)&lt;/b&gt;&lt;br&gt;&lt;br&gt;MainWindow&lt;br&gt;Views (Login, Register, Admin…)&lt;br&gt;Controls, Converters" vertex="1">
+          <mxGeometry height="120" width="220" x="100" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="c_vm" parent="1" style="shape=component;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#000000;fontFamily=Times New Roman;fontSize=12;" value="&lt;b&gt;ViewModels&lt;/b&gt;&lt;br&gt;&lt;br&gt;MainViewModel&lt;br&gt;WatchViewModel&lt;br&gt;ViewModelBase" vertex="1">
+          <mxGeometry height="110" width="200" x="110" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="c_cmd" parent="1" style="shape=component;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#000000;fontFamily=Times New Roman;fontSize=12;" value="&lt;b&gt;Commands&lt;/b&gt;&lt;br&gt;&lt;br&gt;RelayCommand&lt;br&gt;DelegateCommand&lt;br&gt;ICommand" vertex="1">
+          <mxGeometry height="100" width="180" x="380" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="c_model" parent="1" style="shape=component;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#000000;fontFamily=Times New Roman;fontSize=12;" value="&lt;b&gt;Models&lt;/b&gt;&lt;br&gt;&lt;br&gt;Watch&lt;br&gt;User" vertex="1">
+          <mxGeometry height="90" width="160" x="400" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="c_svc" parent="1" style="shape=component;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#000000;fontFamily=Times New Roman;fontSize=12;" value="&lt;b&gt;Services&lt;/b&gt;&lt;br&gt;&lt;br&gt;WatchRepository&lt;br&gt;UserRepository&lt;br&gt;UndoRedoService&lt;br&gt;LocalizationService, ThemeService" vertex="1">
+          <mxGeometry height="130" width="230" x="720" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="c_data" parent="1" style="shape=component;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#000000;fontFamily=Times New Roman;fontSize=12;" value="&lt;b&gt;Доступ к данным&lt;/b&gt;&lt;br&gt;&lt;br&gt;ADO.NET (SqlClient)&lt;br&gt;WatchShopDbContext (EF Core)&lt;br&gt;EfWatchRepository, DatabaseInitializer" vertex="1">
+          <mxGeometry height="120" width="250" x="710" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="c_biz" parent="1" style="shape=component;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#000000;fontFamily=Times New Roman;fontSize=12;" value="&lt;b&gt;Business&lt;/b&gt;&lt;br&gt;&lt;br&gt;WatchService&lt;br&gt;(EfDemoWindow)" vertex="1">
+          <mxGeometry height="88" width="160" x="390" y="446" as="geometry" />
+        </mxCell>
+        <mxCell id="db_cyl" parent="1" style="shape=cylinder3;size=12;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#ffffff;strokeColor=#000000;fontFamily=Times New Roman;fontSize=12;verticalAlign=middle;fontStyle=1;" value="SQL Server&#xa;WatchShop" vertex="1">
+          <mxGeometry height="90" width="120" x="1130" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="d1" edge="1" parent="1" source="c_ui" style="endArrow=open;dashed=1;html=1;rounded=0;strokeColor=#000000;fontFamily=Times New Roman;fontSize=11;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=0;" target="c_vm" value="«использует»">
+          <mxGeometry relative="1" x="-0.2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2" edge="1" parent="1" source="c_vm" style="endArrow=open;dashed=1;html=1;rounded=0;strokeColor=#000000;fontFamily=Times New Roman;fontSize=11;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.25;exitDx=0;exitDy=0;endFill=0;entryX=0;entryY=0.3;entryDx=0;entryDy=0;" target="c_cmd" value="«использует»">
+          <mxGeometry relative="1" x="-0.15" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="340" y="318" />
+              <mxPoint x="340" y="140" />
+            </Array>
+            <mxPoint x="360" y="185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d3" edge="1" parent="1" source="c_vm" style="endArrow=open;dashed=1;html=1;rounded=0;strokeColor=#000000;fontFamily=Times New Roman;fontSize=11;edgeStyle=orthogonalEdgeStyle;endFill=0;entryX=0;entryY=0.3;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="c_model" value="«использует»">
+          <mxGeometry relative="1" x="-0.15" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="360" y="373" />
+              <mxPoint x="360" y="327" />
+            </Array>
+            <mxPoint x="330" y="345" as="sourcePoint" />
+            <mxPoint x="390" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d4" edge="1" parent="1" source="c_vm" style="endArrow=open;dashed=1;html=1;rounded=0;strokeColor=#000000;fontFamily=Times New Roman;fontSize=11;edgeStyle=orthogonalEdgeStyle;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3;entryDx=0;entryDy=0;" target="c_svc" value="«использует»">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="350" y="345" />
+              <mxPoint x="350" y="290" />
+              <mxPoint x="580" y="290" />
+            </Array>
+            <mxPoint x="320" y="370" as="sourcePoint" />
+            <mxPoint x="610" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5" edge="1" parent="1" source="c_svc" style="endArrow=open;dashed=1;html=1;rounded=0;strokeColor=#000000;fontFamily=Times New Roman;fontSize=11;edgeStyle=orthogonalEdgeStyle;endFill=0;exitX=0.069;exitY=0.516;exitDx=0;exitDy=0;exitPerimeter=0;" value="«использует»">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="317" />
+              <mxPoint x="650" y="341" />
+            </Array>
+            <mxPoint x="730" y="317" as="sourcePoint" />
+            <mxPoint x="560" y="341" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6" edge="1" parent="1" source="c_svc" style="endArrow=open;dashed=1;html=1;rounded=0;strokeColor=#000000;fontFamily=Times New Roman;fontSize=11;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=0;" target="c_data" value="«использует»">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="835" y="410" />
+              <mxPoint x="835" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d7" edge="1" parent="1" source="c_ui" style="endArrow=open;dashed=1;html=1;rounded=0;strokeColor=#000000;fontFamily=Times New Roman;fontSize=11;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.3;entryDx=0;entryDy=0;endFill=0;exitX=0.073;exitY=0.497;exitDx=0;exitDy=0;exitPerimeter=0;" target="c_biz" value="демо EF">
+          <mxGeometry relative="1" x="-0.0009" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="90" y="170" />
+              <mxPoint x="90" y="472" />
+            </Array>
+            <mxPoint x="350" y="210" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d8" edge="1" parent="1" source="c_biz" style="endArrow=open;dashed=1;html=1;rounded=0;strokeColor=#000000;fontFamily=Times New Roman;fontSize=11;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3;entryDx=0;entryDy=0;endFill=0;" target="c_data" value="«использует»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d9" edge="1" parent="1" source="c_data" style="endArrow=open;dashed=1;html=1;rounded=0;strokeColor=#000000;fontFamily=Times New Roman;fontSize=11;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" target="db_cyl" value="ADO.NET / EF Core">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontFamily=Times New Roman;fontSize=11;fontStyle=2;" value="Связи — зависимость «использует» (пунктир со стрелкой).&lt;br&gt;UI → ViewModels: DataContext и привязки (MVVM).&lt;br&gt;Основной каталог/заказы: MainViewModel → WatchRepository (ADO.NET)." vertex="1">
+          <mxGeometry height="58" width="520" x="60" y="630" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

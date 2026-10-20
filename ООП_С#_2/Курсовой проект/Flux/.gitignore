@@ -1,0 +1,10 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+logs/
+faceit.db
+faceit.db-journal
+faceit.db-shm
+faceit.db-wal

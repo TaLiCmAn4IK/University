@@ -1,0 +1,334 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Lang_Code">en-US</sys:String>
+    <sys:String x:Key="WindowTitle">Watch Shop</sys:String>
+
+    <!-- main menu -->
+    <sys:String x:Key="File">File</sys:String>
+    <sys:String x:Key="Login">Login</sys:String>
+    <sys:String x:Key="Logout">Logout</sys:String>
+    <sys:String x:Key="Exit">Exit</sys:String>
+    <sys:String x:Key="View">View</sys:String>
+    <sys:String x:Key="ListView">List view</sys:String>
+    <sys:String x:Key="TableView">Table view</sys:String>
+    <sys:String x:Key="Language">Language</sys:String>
+    <sys:String x:Key="Russian">Русский</sys:String>
+    <sys:String x:Key="English">English</sys:String>
+    <sys:String x:Key="Help">Help</sys:String>
+    <sys:String x:Key="About">About</sys:String>
+    <sys:String x:Key="AboutTitle">About</sys:String>
+    <sys:String x:Key="AboutText">Watch Shop v1.0&#x0a;&#x0a;Developed for laboratory work&#x0a;on Object-Oriented Programming&#x0a;&#x0a;© 2026 WatchShop</sys:String>
+
+    <!-- filters -->
+    <sys:String x:Key="Filters">Filters</sys:String>
+    <sys:String x:Key="Search">Search:</sys:String>
+    <sys:String x:Key="Category">Category:</sys:String>
+    <sys:String x:Key="AllCategories">All categories</sys:String>
+    <sys:String x:Key="Price">Price:</sys:String>
+    <sys:String x:Key="InStockOnly">In stock only</sys:String>
+    <sys:String x:Key="Sort">Sort by:</sys:String>
+    <sys:String x:Key="ByName">By name</sys:String>
+    <sys:String x:Key="ByPriceAsc">Price (low to high)</sys:String>
+    <sys:String x:Key="ByPriceDesc">Price (high to low)</sys:String>
+    <sys:String x:Key="ByRating">By rating</sys:String>
+    <sys:String x:Key="ApplyFilters">Apply filters</sys:String>
+    <sys:String x:Key="ResetFilters">Reset</sys:String>
+    <sys:String x:Key="Management">Management</sys:String>
+    <sys:String x:Key="AddProduct">Add product</sys:String>
+
+    <sys:String x:Key="ViewMode">View:</sys:String>
+    <sys:String x:Key="ListMode">List</sys:String>
+    <sys:String x:Key="TableMode">Table</sys:String>
+
+    <!-- status bar -->
+    <sys:String x:Key="Ready">Ready</sys:String>
+    <sys:String x:Key="NotAuthorized">Not authorized</sys:String>
+    <sys:String x:Key="Welcome">Welcome</sys:String>
+    <sys:String x:Key="ProductsFound">Products found:</sys:String>
+
+    <sys:String x:Key="Mvvm_EditorTitle">Edit item</sys:String>
+    <sys:String x:Key="Mvvm_NameLabel">Name:</sys:String>
+    <sys:String x:Key="Mvvm_ManufacturerLabel">Manufacturer:</sys:String>
+    <sys:String x:Key="Mvvm_QuantityLabel">In stock:</sys:String>
+    <sys:String x:Key="Mvvm_QuantityUnit">pcs.</sys:String>
+    <sys:String x:Key="Mvvm_Give">Issue</sys:String>
+    <sys:String x:Key="Mvvm_Get">Return</sys:String>
+
+    <!-- login -->
+    <sys:String x:Key="LoginTitle">Login</sys:String>
+    <sys:String x:Key="Username">Username:</sys:String>
+    <sys:String x:Key="Password">Password:</sys:String>
+    <sys:String x:Key="LoginButton">Login</sys:String>
+    <sys:String x:Key="CancelButton">Cancel</sys:String>
+    <sys:String x:Key="InvalidCredentials">Invalid username or password</sys:String>
+
+    <!-- add/edit -->
+    <sys:String x:Key="AddTitle">Add Product</sys:String>
+    <sys:String x:Key="EditTitle">Edit Product</sys:String>
+    <sys:String x:Key="ShortName_field">Short name:*</sys:String>
+    <sys:String x:Key="FullName_field">Full name:</sys:String>
+    <sys:String x:Key="Category_field">Category:</sys:String>
+    <sys:String x:Key="Price_field">Price ($):</sys:String>
+    <sys:String x:Key="Quantity_field">Quantity:</sys:String>
+    <sys:String x:Key="Manufacturer_field">Manufacturer:</sys:String>
+    <sys:String x:Key="MovementType_field">Movement type:</sys:String>
+    <sys:String x:Key="Size_field">Size:</sys:String>
+    <sys:String x:Key="Material_field">Material:</sys:String>
+    <sys:String x:Key="Country_field">Country:</sys:String>
+    <sys:String x:Key="Color_field">Color:</sys:String>
+    <sys:String x:Key="Rating_field">Rating (0-5):</sys:String>
+    <sys:String x:Key="Discount_field">Discount (%):</sys:String>
+    <sys:String x:Key="WaterResistance_field">Water resistance:</sys:String>
+    <sys:String x:Key="Gender_field">Gender:</sys:String>
+    <sys:String x:Key="Status_field">Status:</sys:String>
+    <sys:String x:Key="InStock_field">In stock</sys:String>
+    <sys:String x:Key="Description_field">Description</sys:String>
+    <sys:String x:Key="Images_field">Product images</sys:String>
+    <sys:String x:Key="AddImage">Add image</sys:String>
+    <sys:String x:Key="RemoveImage">Remove</sys:String>
+    <sys:String x:Key="DragDropHint">Drag images here or click the button to select</sys:String>
+    <sys:String x:Key="Save">Save</sys:String>
+    <sys:String x:Key="Cancel">Cancel</sys:String>
+    <sys:String x:Key="Required">* - required field</sys:String>
+    <sys:String x:Key="Validation_ShortNameRequired">Short name is required</sys:String>
+
+    <!-- categories -->
+    <sys:String x:Key="Cat_Luxury">Luxury</sys:String>
+    <sys:String x:Key="Cat_Sport">Sport</sys:String>
+    <sys:String x:Key="Cat_Smart">Smart watches</sys:String>
+    <sys:String x:Key="Cat_Classic">Classic</sys:String>
+    <sys:String x:Key="Cat_Diver">Diver</sys:String>
+    <sys:String x:Key="Cat_Aviation">Aviation</sys:String>
+    <sys:String x:Key="Cat_Fashion">Fashion</sys:String>
+
+    <!-- movement -->
+    <sys:String x:Key="Mov_Mechanical">Mechanical</sys:String>
+    <sys:String x:Key="Mov_Quartz">Quartz</sys:String>
+    <sys:String x:Key="Mov_Electronic">Electronic</sys:String>
+    <sys:String x:Key="Mov_Automatic">Automatic</sys:String>
+    <sys:String x:Key="Mov_Solar">Solar</sys:String>
+
+    <!-- materials -->
+    <sys:String x:Key="Mat_Steel">Stainless steel</sys:String>
+    <sys:String x:Key="Mat_Titanium">Titanium</sys:String>
+    <sys:String x:Key="Mat_Ceramic">Ceramic</sys:String>
+    <sys:String x:Key="Mat_Plastic">Plastic</sys:String>
+    <sys:String x:Key="Mat_Carbon">Carbon</sys:String>
+    <sys:String x:Key="Mat_Gold">Gold</sys:String>
+    <sys:String x:Key="Mat_Silver">Silver</sys:String>
+
+    <!-- gender -->
+    <sys:String x:Key="Gen_Men">Men</sys:String>
+    <sys:String x:Key="Gen_Women">Women</sys:String>
+    <sys:String x:Key="Gen_Unisex">Unisex</sys:String>
+
+    <!-- countries -->
+    <sys:String x:Key="Cnt_Switzerland">Switzerland</sys:String>
+    <sys:String x:Key="Cnt_Japan">Japan</sys:String>
+    <sys:String x:Key="Cnt_Germany">Germany</sys:String>
+    <sys:String x:Key="Cnt_China">China</sys:String>
+    <sys:String x:Key="Cnt_Russia">Russia</sys:String>
+    <sys:String x:Key="Cnt_USA">USA</sys:String>
+    <sys:String x:Key="Cnt_France">France</sys:String>
+    <sys:String x:Key="Cnt_Italy">Italy</sys:String>
+
+    <!-- colors -->
+    <sys:String x:Key="Clr_Black">Black</sys:String>
+    <sys:String x:Key="Clr_Silver">Silver</sys:String>
+    <sys:String x:Key="Clr_Gold">Gold</sys:String>
+    <sys:String x:Key="Clr_Blue">Blue</sys:String>
+    <sys:String x:Key="Clr_Green">Green</sys:String>
+    <sys:String x:Key="Clr_Red">Red</sys:String>
+    <sys:String x:Key="Clr_White">White</sys:String>
+    <sys:String x:Key="Clr_Pink">Pink</sys:String>
+    <sys:String x:Key="Clr_Brown">Brown</sys:String>
+
+    <!-- water resistance -->
+    <sys:String x:Key="Wr_30m">30m (splash)</sys:String>
+    <sys:String x:Key="Wr_50m">50m (shower)</sys:String>
+    <sys:String x:Key="Wr_100m">100m (swimming)</sys:String>
+    <sys:String x:Key="Wr_200m">200m (diving)</sys:String>
+    <sys:String x:Key="Wr_300m">300m (pro diving)</sys:String>
+    <sys:String x:Key="Wr_500m">500m+ (deep water)</sys:String>
+    <sys:String x:Key="Wr_None">None</sys:String>
+
+    <sys:String x:Key="Yes">Yes</sys:String>
+    <sys:String x:Key="No">No</sys:String>
+
+    <!-- table headers -->
+    <sys:String x:Key="Hdr_Name">Name</sys:String>
+    <sys:String x:Key="Hdr_Category">Category</sys:String>
+    <sys:String x:Key="Hdr_Price">Price</sys:String>
+    <sys:String x:Key="Hdr_Rating">Rating</sys:String>
+    <sys:String x:Key="Hdr_InStock">In stock</sys:String>
+    <sys:String x:Key="Hdr_Manufacturer">Manufacturer</sys:String>
+    <sys:String x:Key="Hdr_Available">Available</sys:String>
+    <sys:String x:Key="Hdr_Action">Action</sys:String>
+    <sys:String x:Key="Hdr_Status">Status</sys:String>
+
+    <!-- card -->
+    <sys:String x:Key="Card_Price">Price:</sys:String>
+    <sys:String x:Key="Card_InStock">In stock:</sys:String>
+    <sys:String x:Key="Card_Available">Available: {0} pcs.</sys:String>
+    <sys:String x:Key="Card_DoubleClickHint">Double click to view</sys:String>
+    <sys:String x:Key="Card_OutOfStock">Out of stock</sys:String>
+
+    <!-- details -->
+    <sys:String x:Key="Details_Title">Product details</sys:String>
+    <sys:String x:Key="Details_FullName">Full name</sys:String>
+    <sys:String x:Key="Details_Category">Category</sys:String>
+    <sys:String x:Key="Details_Manufacturer">Manufacturer</sys:String>
+    <sys:String x:Key="Details_Country">Country</sys:String>
+    <sys:String x:Key="Details_Price">Price</sys:String>
+    <sys:String x:Key="Details_Discount">Discount</sys:String>
+    <sys:String x:Key="Details_DiscountedPrice">Discounted price</sys:String>
+    <sys:String x:Key="Details_NoDiscount">No discount applied</sys:String>
+    <sys:String x:Key="Details_Characteristics">Characteristics</sys:String>
+    <sys:String x:Key="Details_Rating">Rating</sys:String>
+    <sys:String x:Key="Details_MovementType">Movement type</sys:String>
+    <sys:String x:Key="Details_Size">Case size</sys:String>
+    <sys:String x:Key="Details_Material">Material</sys:String>
+    <sys:String x:Key="Details_Color">Color</sys:String>
+    <sys:String x:Key="Details_WaterResistance">Water resistance</sys:String>
+    <sys:String x:Key="Details_Gender">Gender</sys:String>
+    <sys:String x:Key="Details_Stock">Stock</sys:String>
+    <sys:String x:Key="Details_StockCount">In stock: {0} pcs.</sys:String>
+    <sys:String x:Key="Details_SoldCount">Sold total: {0} pcs.</sys:String>
+    <sys:String x:Key="Details_Description">Description</sys:String>
+    <sys:String x:Key="Details_Close">Close</sys:String>
+
+    <!-- messages -->
+    <sys:String x:Key="Order">Order</sys:String>
+    <sys:String x:Key="Order_Success">Order placed!</sys:String>
+    <sys:String x:Key="Order_Details">You have successfully ordered:&#x0a;&#x0a;Name: {0}&#x0a;Price: ${1}&#x0a;Quantity: {2} pcs.&#x0a;Total: ${3}&#x0a;&#x0a;Thank you for your purchase!</sys:String>
+    <sys:String x:Key="Order_OutOfStock">Sorry, product "{0}" is out of stock.</sys:String>
+    <sys:String x:Key="Order_Quantity">Enter quantity to order (available: {0} pcs.):</sys:String>
+    <sys:String x:Key="Order_TooMany">Only {0} pcs. available.</sys:String>
+    <sys:String x:Key="Order_Placed">Order placed. Thank you for your purchase!</sys:String>
+    <sys:String x:Key="Edit">Edit</sys:String>
+    <sys:String x:Key="Delete">Delete</sys:String>
+
+    <sys:String x:Key="Warning">Warning</sys:String>
+    <sys:String x:Key="Error">Error</sys:String>
+    <sys:String x:Key="Confirm_Delete">Are you sure you want to delete product "{0}"?</sys:String>
+    <sys:String x:Key="Confirm_Title">Confirm deletion</sys:String>
+    <sys:String x:Key="Product_Deleted">Product successfully deleted</sys:String>
+    <sys:String x:Key="Product_Updated">Product successfully updated</sys:String>
+    <sys:String x:Key="Product_Added">Product successfully added</sys:String>
+    <sys:String x:Key="AdminOnly_Delete">Only administrator can delete products</sys:String>
+    <sys:String x:Key="AdminOnly_Edit">Only administrator can edit products</sys:String>
+    <sys:String x:Key="AdminOnly_Add">Only administrator can add products</sys:String>
+
+    <!-- ====== lab 6: resources, styles, themes, profile, undo/redo ====== -->
+    <sys:String x:Key="Profile">Profile</sys:String>
+    <sys:String x:Key="Profile_Title">User Profile</sys:String>
+    <sys:String x:Key="Profile_PersonalData">Personal data</sys:String>
+    <sys:String x:Key="Profile_Theme">Theme</sys:String>
+    <sys:String x:Key="Profile_FavoriteRating">Rate our store:</sys:String>
+
+    <sys:String x:Key="Theme">Theme</sys:String>
+    <sys:String x:Key="Theme_Light">Light</sys:String>
+    <sys:String x:Key="Theme_Dark">Dark</sys:String>
+    <sys:String x:Key="Theme_Pink">Pink</sys:String>
+
+    <sys:String x:Key="Edit_Action">Edit</sys:String>
+    <sys:String x:Key="Undo">Undo</sys:String>
+    <sys:String x:Key="Redo">Redo</sys:String>
+    <sys:String x:Key="Action_Add">Add product "{0}"</sys:String>
+    <sys:String x:Key="Action_Delete">Delete product "{0}"</sys:String>
+    <sys:String x:Key="Action_Edit">Edit product "{0}"</sys:String>
+    <sys:String x:Key="Action_Order">Order "{0}" ({1} pcs.)</sys:String>
+
+    <sys:String x:Key="Sale">SALE</sys:String>
+    <sys:String x:Key="OutOfStockOverlay">OUT OF STOCK</sys:String>
+
+    <sys:String x:Key="Register">Register</sys:String>
+    <sys:String x:Key="Register_Title">Register new user</sys:String>
+    <sys:String x:Key="Register_Submit">Sign Up</sys:String>
+    <sys:String x:Key="Register_PasswordConfirm">Confirm password:</sys:String>
+    <sys:String x:Key="Register_Error_Username">Username must be at least 3 characters</sys:String>
+    <sys:String x:Key="Register_Error_PasswordShort">Password must be at least 4 characters</sys:String>
+    <sys:String x:Key="Register_Error_PasswordMismatch">Passwords don't match</sys:String>
+    <sys:String x:Key="Register_Error_Exists">This username is already taken</sys:String>
+    <sys:String x:Key="LoginRequired">Please log in to place an order</sys:String>
+
+    <sys:String x:Key="LowStock">LOW</sys:String>
+    <sys:String x:Key="LowStock_Tooltip">Low stock</sys:String>
+
+    <sys:String x:Key="Profile_RatingLabel">Your rating of the store:</sys:String>
+    <sys:String x:Key="Profile_RatingThanks">Thanks for your rating!</sys:String>
+
+    <!-- ====== lab 8: admin panel and statistics ====== -->
+    <sys:String x:Key="Admin_Panel">Admin Panel</sys:String>
+    <sys:String x:Key="Admin_Title">Database Management</sys:String>
+    <sys:String x:Key="Admin_Watches">Watches</sys:String>
+    <sys:String x:Key="Admin_Users">Users</sys:String>
+    <sys:String x:Key="Admin_Orders">Orders</sys:String>
+    <sys:String x:Key="Admin_RowsCount">Rows</sys:String>
+
+    <sys:String x:Key="Stats">Statistics</sys:String>
+    <sys:String x:Key="Stats_Title">Shop Statistics</sys:String>
+    <sys:String x:Key="Stats_Watches">Total Watches</sys:String>
+    <sys:String x:Key="Stats_InStock">In Stock</sys:String>
+    <sys:String x:Key="Stats_Users">Users</sys:String>
+    <sys:String x:Key="Stats_Orders">Orders</sys:String>
+    <sys:String x:Key="Stats_Revenue">Revenue</sys:String>
+    <sys:String x:Key="Stats_Sold">Sold (pcs)</sys:String>
+    <sys:String x:Key="Stats_TopSelling">Top-5 best selling</sys:String>
+    <sys:String x:Key="Stats_SoldCount">Sold</sys:String>
+    <sys:String x:Key="Stats_Refresh">Refresh</sys:String>
+
+    <!-- ====== lab 8: BLOB photo in Add/Edit window ====== -->
+    <sys:String x:Key="Photo_DbField">Product photo (stored in DB)</sys:String>
+    <sys:String x:Key="Photo_PickFile">Pick a file...</sys:String>
+    <sys:String x:Key="Photo_Clear">Clear</sys:String>
+
+    <!-- ====== lab 9: Entity Framework ====== -->
+    <sys:String x:Key="Ef_Menu">Entity Framework (Lab 9)</sys:String>
+    <sys:String x:Key="Ef_Title">Entity Framework Core Demo</sys:String>
+    <sys:String x:Key="Ef_Subtitle">CRUD, multi-field search, filtering and sorting via LINQ to Entities. All operations are async, add/update run in transactions.</sys:String>
+    <sys:String x:Key="Ef_Search">Search:</sys:String>
+    <sys:String x:Key="Ef_PriceFrom">Price from:</sys:String>
+    <sys:String x:Key="Ef_PriceTo">to:</sys:String>
+    <sys:String x:Key="Ef_InStock">In stock only</sys:String>
+    <sys:String x:Key="Ef_SortBy">Sort:</sys:String>
+    <sys:String x:Key="Ef_SortName">By name</sys:String>
+    <sys:String x:Key="Ef_SortPriceAsc">Price ↑</sys:String>
+    <sys:String x:Key="Ef_SortPriceDesc">Price ↓</sys:String>
+    <sys:String x:Key="Ef_SortRating">By rating</sys:String>
+    <sys:String x:Key="Ef_SortSold">By sales</sys:String>
+    <sys:String x:Key="Ef_Find">Find</sys:String>
+    <sys:String x:Key="Ef_Add">Add</sys:String>
+    <sys:String x:Key="Ef_Edit">Edit</sys:String>
+    <sys:String x:Key="Ef_Delete">Delete</sys:String>
+    <sys:String x:Key="Ef_Refresh">Refresh (all)</sys:String>
+    <sys:String x:Key="Ef_Col_Manufacturer">Manufacturer</sys:String>
+    <sys:String x:Key="Ef_Col_Category">Category</sys:String>
+    <sys:String x:Key="Ef_Col_Price">Price</sys:String>
+    <sys:String x:Key="Ef_Col_Qty">Qty</sys:String>
+    <sys:String x:Key="Ef_Col_Sold">Sold</sys:String>
+    <sys:String x:Key="Ef_Col_InStock">In stock</sys:String>
+    <sys:String x:Key="Ef_Loading">Loading via EF...</sys:String>
+    <sys:String x:Key="Ef_Searching">Searching via LINQ to Entities...</sys:String>
+    <sys:String x:Key="Ef_LoadedCount">Records loaded: {0}</sys:String>
+    <sys:String x:Key="Ef_FoundCount">Records found: {0}</sys:String>
+    <sys:String x:Key="Ef_Added">Watch added (Id={0}) via EF in a transaction</sys:String>
+    <sys:String x:Key="Ef_Updated">Watch updated via EF in a transaction</sys:String>
+    <sys:String x:Key="Ef_Deleted">Watch deleted via EF</sys:String>
+    <sys:String x:Key="Ef_SelectRow">Select a row in the table</sys:String>
+    <sys:String x:Key="Ef_ConfirmDelete">Delete watch "{0}" via Entity Framework?</sys:String>
+    <sys:String x:Key="Ef_Error">EF error:</sys:String>
+    <sys:String x:Key="Ef_EditTitle">Edit (EF)</sys:String>
+    <sys:String x:Key="Ef_AddTitle">New watch (EF)</sys:String>
+    <sys:String x:Key="Ef_F_Name">Short name *</sys:String>
+    <sys:String x:Key="Ef_F_FullName">Full name</sys:String>
+    <sys:String x:Key="Ef_F_Manufacturer">Manufacturer</sys:String>
+    <sys:String x:Key="Ef_F_Category">Category</sys:String>
+    <sys:String x:Key="Ef_F_Price">Price</sys:String>
+    <sys:String x:Key="Ef_F_Qty">Quantity</sys:String>
+    <sys:String x:Key="Ef_F_Rating">Rating (0-5)</sys:String>
+    <sys:String x:Key="Ef_F_Discount">Discount (%)</sys:String>
+
+</ResourceDictionary>

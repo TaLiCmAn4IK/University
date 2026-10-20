@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Resources\watch_app.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+    <!-- ADO.NET для SQL Server (лаб 8) -->
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.2" />
+    <!-- Доступ к App.config через ConfigurationManager -->
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="8.0.0" />
+
+    <!-- ===== Лаб 9: Entity Framework Core ===== -->
+    <!-- Провайдер EF Core для SQL Server -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.10" />
+    <!-- Инструменты для миграций (Add-Migration, Update-Database) -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.10">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <!-- Design-time пакет — нужен для scaffolding (Database First) и миграций -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <!-- Графика, иконка, курсор -->
+  <ItemGroup>
+    <Resource Include="Images\apple.jpg" />
+    <Resource Include="Images\casio.jpg" />
+    <Resource Include="Images\rolex.jpg" />
+    <Resource Include="Resources\watch.ico.png" />
+    <Resource Include="Resources\watch_app.ico" />
+    <Resource Include="Resources\watch_cursor.cur" />
+  </ItemGroup>
+
+  <!-- SQL-скрипт инициализации БД встраивается в exe как embedded resource -->
+  <ItemGroup>
+    <EmbeddedResource Include="Database\InitDatabase.sql" />
+  </ItemGroup>
+
+</Project>

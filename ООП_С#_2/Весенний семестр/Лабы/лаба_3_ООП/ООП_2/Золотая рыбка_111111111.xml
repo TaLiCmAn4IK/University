@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BookFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Genre>Повесть</Genre>
+  <Title>Золотая рыбка</Title>
+  <FileSize>10</FileSize>
+  <Pages>118</Pages>
+  <Price>1000</Price>
+  <Authors>
+    <Author>
+      <Id>1</Id>
+      <FullName>Пушкин Александр</FullName>
+      <Country>Россия</Country>
+    </Author>
+    <Author>
+      <Id>2</Id>
+      <FullName>Лермонтов Иван</FullName>
+      <Country>Россия</Country>
+    </Author>
+    <Author>
+      <Id>3</Id>
+      <FullName>Морозевич Владислав</FullName>
+      <Country>Беларусь</Country>
+    </Author>
+    <Author>
+      <Id>4</Id>
+      <FullName>Волов Артём </FullName>
+      <Country>Беларусь</Country>
+    </Author>
+  </Authors>
+  <PublisherInfo>
+    <Name>ООО "Ромашка"</Name>
+    <Country>Россия</Country>
+    <City>Заславль</City>
+    <FoundedYear>1814</FoundedYear>
+    <Type>Частное</Type>
+  </PublisherInfo>
+  <Percent>20</Percent>
+</BookFile>

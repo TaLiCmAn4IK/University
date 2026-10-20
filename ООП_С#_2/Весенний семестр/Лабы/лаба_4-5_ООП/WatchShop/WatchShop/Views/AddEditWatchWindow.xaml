@@ -1,0 +1,333 @@
+﻿<Window x:Class="WatchShop.Views.AddEditWatchWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:services="clr-namespace:WatchShop.Services"
+        Title="Добавление товара" Height="750" Width="900"
+        WindowStartupLocation="CenterOwner" 
+        Background="White"
+        FontFamily="Segoe UI"
+        Icon="/Resources/watch.ico.png">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- заголовок -->
+        <TextBlock x:Name="TitleTextBlock" Grid.Row="0" 
+                   Text="Информация о товаре" 
+                   FontSize="20" FontWeight="Bold" 
+                   HorizontalAlignment="Center" 
+                   Margin="0,0,0,20"
+                   Foreground="#1A1A1A"/>
+
+        <!-- основная информация -->
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+            <StackPanel>
+                <!-- сетка с характеристиками -->
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- левая колонка - названия полей -->
+                    <TextBlock Grid.Row="0" Grid.Column="0" x:Name="ShortNameTextBlock" 
+                               Text="Краткое название:*" Margin="5" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="1" Grid.Column="0" x:Name="CategoryTextBlock" 
+                               Text="Категория:" Margin="5" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="2" Grid.Column="0" x:Name="PriceTextBlock" 
+                               Text="Цена ($):" Margin="5" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="3" Grid.Column="0" x:Name="QuantityTextBlock" 
+                               Text="Количество:" Margin="5" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="4" Grid.Column="0" x:Name="ManufacturerTextBlock" 
+                               Text="Производитель:" Margin="5" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="5" Grid.Column="0" x:Name="MovementTypeTextBlock" 
+                               Text="Тип механизма:" Margin="5" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="6" Grid.Column="0" x:Name="SizeTextBlock" 
+                               Text="Размер:" Margin="5" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="7" Grid.Column="0" x:Name="MaterialTextBlock" 
+                               Text="Материал:" Margin="5" VerticalAlignment="Center"/>
+
+                    <!-- левая колонка - поля ввода -->
+                    <TextBox Grid.Row="0" Grid.Column="1" x:Name="ShortNameTextBox" 
+                             Margin="5" Padding="3" Height="35" VerticalContentAlignment="Center"/>
+
+                    <ComboBox Grid.Row="1" Grid.Column="1" x:Name="CategoryComboBox" 
+                              Margin="5" Padding="3" Height="35" VerticalContentAlignment="Center">
+                        <ComboBoxItem Content="Люксовые"/>
+                        <ComboBoxItem Content="Спортивные"/>
+                        <ComboBoxItem Content="Смарт-часы"/>
+                        <ComboBoxItem Content="Классические"/>
+                        <ComboBoxItem Content="Дайверские"/>
+                        <ComboBoxItem Content="Авиационные"/>
+                        <ComboBoxItem Content="Модные"/>
+                    </ComboBox>
+
+                    <TextBox Grid.Row="2" Grid.Column="1" x:Name="PriceTextBox" 
+                             Margin="5" Padding="3" Text="0" Height="35" VerticalContentAlignment="Center"/>
+
+                    <TextBox Grid.Row="3" Grid.Column="1" x:Name="QuantityTextBox" 
+                             Margin="5" Padding="3" Text="0" Height="35" VerticalContentAlignment="Center"/>
+
+                    <ComboBox Grid.Row="4" Grid.Column="1" x:Name="ManufacturerComboBox" 
+                              Margin="5" Padding="3" IsEditable="True" Height="35" VerticalContentAlignment="Center">
+                        <ComboBoxItem Content="Rolex"/>
+                        <ComboBoxItem Content="Casio"/>
+                        <ComboBoxItem Content="Apple"/>
+                        <ComboBoxItem Content="Seiko"/>
+                        <ComboBoxItem Content="Citizen"/>
+                        <ComboBoxItem Content="Omega"/>
+                        <ComboBoxItem Content="Tag Heuer"/>
+                    </ComboBox>
+
+                    <ComboBox Grid.Row="5" Grid.Column="1" x:Name="MovementTypeComboBox" 
+                              Margin="5" Padding="3" Height="35" VerticalContentAlignment="Center">
+                        <ComboBoxItem Content="Механические"/>
+                        <ComboBoxItem Content="Кварцевые"/>
+                        <ComboBoxItem Content="Электронные"/>
+                        <ComboBoxItem Content="Автоматические"/>
+                        <ComboBoxItem Content="Солнечные"/>
+                    </ComboBox>
+
+                    <ComboBox Grid.Row="6" Grid.Column="1" x:Name="SizeComboBox" 
+                              Margin="5" Padding="3" IsEditable="True" Height="35" VerticalContentAlignment="Center">
+                        <ComboBoxItem Content="38mm"/>
+                        <ComboBoxItem Content="40mm"/>
+                        <ComboBoxItem Content="41mm"/>
+                        <ComboBoxItem Content="42mm"/>
+                        <ComboBoxItem Content="43mm"/>
+                        <ComboBoxItem Content="44mm"/>
+                        <ComboBoxItem Content="45mm"/>
+                        <ComboBoxItem Content="46mm"/>
+                        <ComboBoxItem Content="47mm"/>
+                        <ComboBoxItem Content="48mm"/>
+                    </ComboBox>
+
+                    <ComboBox Grid.Row="7" Grid.Column="1" x:Name="MaterialComboBox" 
+                              Margin="5" Padding="3" IsEditable="True" Height="35" VerticalContentAlignment="Center">
+                        <ComboBoxItem Content="Нержавеющая сталь"/>
+                        <ComboBoxItem Content="Титан"/>
+                        <ComboBoxItem Content="Керамика"/>
+                        <ComboBoxItem Content="Пластик"/>
+                        <ComboBoxItem Content="Карбон"/>
+                        <ComboBoxItem Content="Золото"/>
+                        <ComboBoxItem Content="Серебро"/>
+                    </ComboBox>
+
+                    <!-- правая колонка - названия полей -->
+                    <TextBlock Grid.Row="0" Grid.Column="2" x:Name="FullNameTextBlock" 
+                               Text="Полное название:" Margin="5" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="1" Grid.Column="2" x:Name="CountryTextBlock" 
+                               Text="Страна производства:" Margin="5" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="2" Grid.Column="2" x:Name="ColorTextBlock" 
+                               Text="Цвет:" Margin="5" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="3" Grid.Column="2" x:Name="RatingTextBlock" 
+                               Text="Рейтинг (0-5):" Margin="5" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="4" Grid.Column="2" x:Name="DiscountTextBlock" 
+                               Text="Скидка (%):" Margin="5" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="5" Grid.Column="2" x:Name="WaterResistanceTextBlock" 
+                               Text="Водонепроницаемость:" Margin="5" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="6" Grid.Column="2" x:Name="GenderTextBlock" 
+                               Text="Пол:" Margin="5" VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="7" Grid.Column="2" x:Name="InStockTextBlock" 
+                               Text="Статус:" Margin="5" VerticalAlignment="Center"/>
+
+                    <!-- правая колонка - поля ввода -->
+                    <TextBox Grid.Row="0" Grid.Column="3" x:Name="FullNameTextBox" 
+                             Margin="5" Padding="3" Height="35" VerticalContentAlignment="Center"/>
+
+                    <ComboBox Grid.Row="1" Grid.Column="3" x:Name="CountryComboBox" 
+                              Margin="5" Padding="3" IsEditable="True" Height="35" VerticalContentAlignment="Center">
+                        <ComboBoxItem Content="Швейцария"/>
+                        <ComboBoxItem Content="Япония"/>
+                        <ComboBoxItem Content="Германия"/>
+                        <ComboBoxItem Content="Китай"/>
+                        <ComboBoxItem Content="Россия"/>
+                        <ComboBoxItem Content="США"/>
+                        <ComboBoxItem Content="Франция"/>
+                        <ComboBoxItem Content="Италия"/>
+                    </ComboBox>
+
+                    <ComboBox Grid.Row="2" Grid.Column="3" x:Name="ColorComboBox" 
+                              Margin="5" Padding="3" IsEditable="True" Height="35" VerticalContentAlignment="Center">
+                        <ComboBoxItem Content="Черный"/>
+                        <ComboBoxItem Content="Серебристый"/>
+                        <ComboBoxItem Content="Золотистый"/>
+                        <ComboBoxItem Content="Синий"/>
+                        <ComboBoxItem Content="Зеленый"/>
+                        <ComboBoxItem Content="Красный"/>
+                        <ComboBoxItem Content="Белый"/>
+                        <ComboBoxItem Content="Розовый"/>
+                        <ComboBoxItem Content="Коричневый"/>
+                    </ComboBox>
+
+                    <ComboBox Grid.Row="3" Grid.Column="3" x:Name="RatingComboBox" 
+                              Margin="5" Padding="3" Height="35" VerticalContentAlignment="Center">
+                        <ComboBoxItem Content="5.0"/>
+                        <ComboBoxItem Content="4.5"/>
+                        <ComboBoxItem Content="4.0"/>
+                        <ComboBoxItem Content="3.5"/>
+                        <ComboBoxItem Content="3.0"/>
+                        <ComboBoxItem Content="2.5"/>
+                        <ComboBoxItem Content="2.0"/>
+                    </ComboBox>
+
+                    <ComboBox Grid.Row="4" Grid.Column="3" x:Name="DiscountComboBox" 
+                              Margin="5" Padding="3" IsEditable="True" Height="35" VerticalContentAlignment="Center">
+                        <ComboBoxItem Content="0"/>
+                        <ComboBoxItem Content="5"/>
+                        <ComboBoxItem Content="10"/>
+                        <ComboBoxItem Content="15"/>
+                        <ComboBoxItem Content="20"/>
+                        <ComboBoxItem Content="25"/>
+                        <ComboBoxItem Content="30"/>
+                        <ComboBoxItem Content="40"/>
+                        <ComboBoxItem Content="50"/>
+                    </ComboBox>
+
+                    <ComboBox Grid.Row="5" Grid.Column="3" x:Name="WaterResistanceComboBox" 
+                              Margin="5" Padding="3" IsEditable="True" Height="35" VerticalContentAlignment="Center">
+                        <ComboBoxItem Content="30m"/>
+                        <ComboBoxItem Content="50m"/>
+                        <ComboBoxItem Content="100m"/>
+                        <ComboBoxItem Content="200m"/>
+                        <ComboBoxItem Content="300m"/>
+                        <ComboBoxItem Content="500m+"/>
+                        <ComboBoxItem Content="Нет"/>
+                    </ComboBox>
+
+                    <ComboBox Grid.Row="6" Grid.Column="3" x:Name="GenderComboBox" 
+                              Margin="5" Padding="3" Height="35" VerticalContentAlignment="Center">
+                        <ComboBoxItem Content="Мужские"/>
+                        <ComboBoxItem Content="Женские"/>
+                        <ComboBoxItem Content="Унисекс"/>
+                    </ComboBox>
+
+                    <CheckBox x:Name="InStockCheckBox" 
+                              Content="В наличии" 
+                              Margin="5" VerticalAlignment="Center" IsChecked="True"
+                              Grid.Column="3" Grid.Row="7"/>
+                </Grid>
+
+                <!-- описание товара -->
+                <Border Margin="5,15,5,5" Padding="10" 
+                        BorderBrush="#DDD" BorderThickness="1" CornerRadius="5">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <TextBlock Grid.Row="0" x:Name="DescriptionTextBlock" 
+                                   Text="Описание товара" 
+                                   FontWeight="Bold" Margin="0,0,0,10"
+                                   FontSize="14"/>
+                        <TextBox Grid.Row="1" x:Name="DescriptionTextBox" 
+                                 TextWrapping="Wrap" AcceptsReturn="True" 
+                                 Height="100" Padding="8" VerticalScrollBarVisibility="Auto"/>
+                    </Grid>
+                </Border>
+
+                <!-- блок изображений -->
+                <Border Margin="5,15,5,5" Padding="10" 
+                        BorderBrush="#DDD" BorderThickness="1" 
+                        CornerRadius="5"
+                        Background="#F9F9F9"
+                        AllowDrop="True"
+                        Drop="ImageBorder_Drop"
+                        DragOver="ImageBorder_DragOver">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <TextBlock Grid.Row="0" x:Name="ImagesTextBlock" 
+                                   Text="Изображения товара" 
+                                   FontWeight="Bold" Margin="0,0,0,10"
+                                   FontSize="14"/>
+
+                        <ListBox x:Name="ImagesListBox" Grid.Row="1" 
+                                 Height="120" Margin="0,0,0,10"
+                                 BorderBrush="#DDD" BorderThickness="1">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Image Source="{Binding}" Width="50" Height="50" Margin="5"/>
+                                        <TextBlock Text="{Binding}" VerticalAlignment="Center" FontSize="11"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+
+                        <StackPanel Grid.Row="2" Orientation="Horizontal" 
+                                    HorizontalAlignment="Center" Margin="0,0,0,10">
+                            <Button x:Name="AddImageButton" 
+                                    Content="Добавить изображение" 
+                                    Click="AddImage_Click"
+                                    Width="150" Height="35" Margin="5"
+                                    Background="#1A1A1A" Foreground="White"
+                                    BorderThickness="0" Cursor="Hand"/>
+                            <Button x:Name="RemoveImageButton" 
+                                    Content="Удалить" 
+                                    Click="RemoveImage_Click"
+                                    Width="80" Height="35" Margin="5"
+                                    Background="#e74c3c" Foreground="White"
+                                    BorderThickness="0" Cursor="Hand"/>
+                        </StackPanel>
+
+                        <TextBlock Grid.Row="3" x:Name="DragDropHintTextBlock"
+                                   Text="Перетащите изображения сюда или нажмите кнопку для выбора"
+                                   Foreground="#666" 
+                                   HorizontalAlignment="Center"
+                                   TextWrapping="Wrap"/>
+                    </Grid>
+                </Border>
+            </StackPanel>
+        </ScrollViewer>
+
+        <!-- кнопки -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" 
+                    HorizontalAlignment="Center" Margin="0,20,0,0">
+            <Button x:Name="SaveButton" 
+                    Content="Сохранить" 
+                    Background="#27ae60" Foreground="White"
+                    Width="120" Height="40" Margin="0,0,15,0" 
+                    Click="SaveButton_Click"
+                    BorderThickness="0" Cursor="Hand"
+                    FontWeight="Bold"/>
+            <Button x:Name="CancelButton" 
+                    Content="Отмена" 
+                    Background="#e74c3c" Foreground="White"
+                    Width="120" Height="40" 
+                    Click="CancelButton_Click"
+                    BorderThickness="0" Cursor="Hand"
+                    FontWeight="Bold"/>
+        </StackPanel>
+
+        <!-- подсказка -->
+        <TextBlock Grid.Row="3" x:Name="RequiredTextBlock" 
+                   Text="* - обязательное поле" 
+                   Foreground="Gray" FontSize="11"
+                   HorizontalAlignment="Left" Margin="0,5,0,0"/>
+    </Grid>
+</Window>

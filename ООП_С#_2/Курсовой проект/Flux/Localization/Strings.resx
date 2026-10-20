@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+
+  <data name="AppTitle"><value>Flux</value></data>
+  <data name="Login"><value>Login</value></data>
+  <data name="Register"><value>Register</value></data>
+  <data name="Logout"><value>Logout</value></data>
+  <data name="Username"><value>Username</value></data>
+  <data name="Password"><value>Password</value></data>
+  <data name="Email"><value>Email</value></data>
+  <data name="Nickname"><value>Nickname</value></data>
+  <data name="Submit"><value>Submit</value></data>
+  <data name="Cancel"><value>Cancel</value></data>
+  <data name="Confirm"><value>Confirm</value></data>
+  <data name="OK"><value>OK</value></data>
+  <data name="Close"><value>Close</value></data>
+  <data name="Save"><value>Save</value></data>
+  <data name="Back"><value>Back</value></data>
+  <data name="Language"><value>Language</value></data>
+  <data name="English"><value>English</value></data>
+  <data name="Russian"><value>Russian</value></data>
+
+  <data name="Play"><value>PLAY</value></data>
+  <data name="FindMatch"><value>Find Match</value></data>
+  <data name="LeaveQueue"><value>Leave Queue</value></data>
+  <data name="Queue"><value>Queue</value></data>
+  <data name="SearchingOpponents"><value>Searching for opponents...</value></data>
+  <data name="MatchFound"><value>Match found!</value></data>
+  <data name="ReadyCheck"><value>Ready Check</value></data>
+  <data name="Ready"><value>Ready</value></data>
+  <data name="NotReady"><value>Not Ready</value></data>
+  <data name="SecondsLeft"><value>seconds left</value></data>
+  <data name="ReturnedToQueue"><value>Player did not accept — returning to queue.</value></data>
+
+  <data name="CS2"><value>CS2</value></data>
+  <data name="Chess"><value>Chess</value></data>
+  <data name="SelectGame"><value>Select a game</value></data>
+  <data name="Mode5v5"><value>5 vs 5 Competitive</value></data>
+  <data name="Mode1v1"><value>1 vs 1 Classical</value></data>
+
+  <data name="ServerPickPhase"><value>Server Pick Phase</value></data>
+  <data name="MapPickPhase"><value>Map Pick Phase</value></data>
+  <data name="YourTeamPicks"><value>Your team picks.</value></data>
+  <data name="EnemyTeamPicks"><value>Enemy team is picking...</value></data>
+  <data name="SelectServer"><value>Select server:</value></data>
+  <data name="SelectMap"><value>Select map:</value></data>
+  <data name="MapSelected"><value>Map selected:</value></data>
+  <data name="ServerSelected"><value>Server selected:</value></data>
+  <data name="StartMatch"><value>Start Match</value></data>
+
+  <data name="MatchResult"><value>Match Result</value></data>
+  <data name="Victory"><value>VICTORY</value></data>
+  <data name="Defeat"><value>DEFEAT</value></data>
+  <data name="Draw"><value>DRAW</value></data>
+  <data name="Team1"><value>Team 1</value></data>
+  <data name="Team2"><value>Team 2</value></data>
+  <data name="Player"><value>Player</value></data>
+  <data name="Kills"><value>K</value></data>
+  <data name="Deaths"><value>D</value></data>
+  <data name="Assists"><value>A</value></data>
+  <data name="ADR"><value>ADR</value></data>
+  <data name="HLTV"><value>HLTV</value></data>
+  <data name="RatingChange"><value>Rating Change</value></data>
+  <data name="ReturnToMenu"><value>Return to Menu</value></data>
+
+  <data name="Profile"><value>Profile</value></data>
+  <data name="MatchHistory"><value>Match History</value></data>
+  <data name="Search"><value>Search</value></data>
+  <data name="Admin"><value>Admin</value></data>
+  <data name="Menu"><value>Menu</value></data>
+
+  <data name="TotalMatches"><value>Total Matches</value></data>
+  <data name="Wins"><value>Wins</value></data>
+  <data name="Losses"><value>Losses</value></data>
+  <data name="Draws"><value>Draws</value></data>
+  <data name="Winrate"><value>Winrate</value></data>
+  <data name="Elo"><value>Elo</value></data>
+  <data name="AverageStats"><value>Avg stats (last 30 CS2 matches)</value></data>
+  <data name="AvgKills"><value>Avg Kills</value></data>
+  <data name="AvgDeaths"><value>Avg Deaths</value></data>
+  <data name="AvgKD"><value>Avg K/D</value></data>
+  <data name="AvgADR"><value>Avg ADR</value></data>
+
+  <data name="Date"><value>Date</value></data>
+  <data name="Game"><value>Game</value></data>
+  <data name="Result"><value>Result</value></data>
+  <data name="Score"><value>Score</value></data>
+  <data name="Map"><value>Map</value></data>
+  <data name="ServerCol"><value>Server</value></data>
+  <data name="Opponent"><value>Opponent</value></data>
+  <data name="Details"><value>Details</value></data>
+  <data name="Win"><value>Win</value></data>
+  <data name="Loss"><value>Loss</value></data>
+
+  <data name="StatKills"><value>Kills</value></data>
+  <data name="StatDeaths"><value>Deaths</value></data>
+  <data name="StatKD"><value>K/D</value></data>
+  <data name="StatKDA"><value>K/D/A</value></data>
+  <data name="StatKR"><value>K/R</value></data>
+  <data name="StatHS"><value>HS %</value></data>
+  <data name="StatADR"><value>ADR</value></data>
+  <data name="Last30Matches"><value>Last 30 matches</value></data>
+  <data name="CS2Stats"><value>CS2 Stats</value></data>
+  <data name="ChessStats"><value>Chess Stats</value></data>
+  <data name="TotalMoves"><value>Total moves</value></data>
+  <data name="AvgMovesPerGame"><value>Moves / game</value></data>
+  <data name="GoodMoves"><value>Good moves</value></data>
+  <data name="Brilliant"><value>Brilliant</value></data>
+  <data name="Inaccuracies"><value>Inaccuracies</value></data>
+  <data name="Mistakes"><value>Mistakes</value></data>
+  <data name="Blunders"><value>Blunders</value></data>
+  <data name="BanPhase"><value>Ban Phase</value></data>
+  <data name="MapBanned"><value>banned</value></data>
+  <data name="BanThisMap"><value>Ban this map</value></data>
+  <data name="MapsRemaining"><value>maps remaining</value></data>
+  <data name="YourTeamBans"><value>Your team bans next.</value></data>
+  <data name="EnemyTeamBans"><value>Enemy team is banning...</value></data>
+  <data name="FinalMap"><value>Final map</value></data>
+
+  <data name="SearchByNickname"><value>Search by nickname...</value></data>
+  <data name="ViewProfile"><value>View Profile</value></data>
+  <data name="NoResults"><value>No results</value></data>
+
+  <data name="AdminPanel"><value>Admin Panel</value></data>
+  <data name="Users"><value>Users</value></data>
+  <data name="AllMatches"><value>All Matches</value></data>
+  <data name="Ban"><value>Ban</value></data>
+  <data name="Unban"><value>Unban</value></data>
+  <data name="Banned"><value>Banned</value></data>
+  <data name="Active"><value>Active</value></data>
+  <data name="Role"><value>Role</value></data>
+  <data name="Status"><value>Status</value></data>
+
+  <data name="LoginError"><value>Invalid nickname or password.</value></data>
+  <data name="RegistrationError"><value>Registration failed.</value></data>
+  <data name="UserBanned"><value>Your account is banned. You cannot play.</value></data>
+  <data name="TournamentJoinFailed"><value>Could not join the tournament. Your account may be banned, or registration is closed.</value></data>
+  <data name="InvitationBanned"><value>Your account is banned. You cannot join lobbies.</value></data>
+  <data name="FieldsRequired"><value>All fields are required.</value></data>
+  <data name="PasswordsMismatch"><value>Passwords do not match.</value></data>
+  <data name="ConfirmPassword"><value>Confirm password</value></data>
+  <data name="Welcome"><value>Welcome</value></data>
+  <data name="AdminDefaultCreds"><value>Default admin: nickname 'Admin', password 'admin123'</value></data>
+  <data name="ValNicknameRequired"><value>Nickname is required.</value></data>
+  <data name="ValNicknameLength"><value>Nickname must be 3-20 characters long.</value></data>
+  <data name="ValNicknameChars"><value>Nickname may contain only letters, digits and underscores.</value></data>
+  <data name="ValNicknameTaken"><value>This nickname is already taken.</value></data>
+  <data name="ValEmailInvalid"><value>Please enter a valid email address.</value></data>
+  <data name="ValEmailTaken"><value>This email is already registered.</value></data>
+  <data name="ValPasswordLength"><value>Password must be at least 6 characters long.</value></data>
+  <data name="ValPasswordComplexity"><value>Password must contain at least one letter and one digit.</value></data>
+
+  <data name="ChessBoard"><value>Chess Board</value></data>
+  <data name="YourColorWhite"><value>You play White</value></data>
+  <data name="YourColorBlack"><value>You play Black</value></data>
+  <data name="WhiteToMove"><value>White to move</value></data>
+  <data name="BlackToMove"><value>Black to move</value></data>
+  <data name="OfferDraw"><value>Offer Draw</value></data>
+  <data name="DrawDeclined"><value>Opponent declined the draw offer.</value></data>
+  <data name="Resign"><value>Resign</value></data>
+  <data name="Checkmate"><value>Checkmate</value></data>
+  <data name="Stalemate"><value>Stalemate</value></data>
+  <data name="DrawAgreement"><value>Draw by agreement</value></data>
+  <data name="Check"><value>Check</value></data>
+  <data name="MoveHistory"><value>Move History</value></data>
+  <data name="OpponentOfferedDraw"><value>Opponent offers a draw</value></data>
+  <data name="Accept"><value>Accept</value></data>
+  <data name="Decline"><value>Decline</value></data>
+
+  <data name="Loading"><value>Loading...</value></data>
+  <data name="Error"><value>Error</value></data>
+  <data name="Success"><value>Success</value></data>
+
+  <data name="Friends"><value>Friends</value></data>
+  <data name="MyFriends"><value>My Friends</value></data>
+  <data name="NoFriendsYet"><value>No friends yet. Add some from Search.</value></data>
+  <data name="IncomingRequests"><value>Incoming friend requests</value></data>
+  <data name="AddFriend"><value>Add Friend</value></data>
+  <data name="InviteFriend"><value>Invite friend</value></data>
+  <data name="FriendRequestSent"><value>Friend request sent.</value></data>
+  <data name="AlreadyFriends"><value>You are already friends.</value></data>
+  <data name="RequestAlreadyPending"><value>A friend request is already pending.</value></data>
+  <data name="UserNotFound"><value>User not found.</value></data>
+  <data name="Accepted"><value>Accepted</value></data>
+
+  <data name="EloLevels"><value>Elo Levels</value></data>
+  <data name="CurrentLevel"><value>Current level</value></data>
+  <data name="EloToNext"><value>Elo to next level</value></data>
+  <data name="QueueRegion"><value>Europe</value></data>
+  <data name="QueueLabel"><value>Queue</value></data>
+  <data name="ServerPickBy"><value>Server pick: {0}</value></data>
+  <data name="MapBanBy"><value>Map ban: {0}</value></data>
+  <data name="WaitingForLeader"><value>Waiting for your team's leader...</value></data>
+  <data name="BackButton"><value>Back</value></data>
+  <data name="UploadAvatar"><value>Upload avatar</value></data>
+  <data name="KDTrend"><value>K/D trend (last 30)</value></data>
+  <data name="NotEnoughData"><value>Not enough data</value></data>
+  <data name="RecentMatches"><value>Recent matches</value></data>
+  <data name="SeeFullHistory"><value>See full match history</value></data>
+  <data name="NoMatchesYet"><value>No matches yet</value></data>
+  <data name="FullHistory"><value>Full history</value></data>
+  <data name="RemoveAvatar"><value>Remove avatar</value></data>
+  <data name="ShowLess"><value>Show less</value></data>
+  <data name="White"><value>WHITE</value></data>
+  <data name="Black"><value>BLACK</value></data>
+  <data name="OpenProfile"><value>Open profile</value></data>
+  <data name="CS2MatchHistory"><value>CS2 match history</value></data>
+  <data name="ChessMatchHistory"><value>Chess match history</value></data>
+  <data name="Resignation"><value>Resignation</value></data>
+  <data name="DrawByAgreement"><value>Draw by agreement</value></data>
+  <data name="InsufficientMaterial"><value>Insufficient material</value></data>
+  <data name="GameOver"><value>Game over</value></data>
+  <data name="MovesLower"><value>moves</value></data>
+  <data name="JustNow"><value>just now</value></data>
+  <data name="MinAgo"><value>min ago</value></data>
+  <data name="HoursAgo"><value>h ago</value></data>
+  <data name="DaysAgo"><value>d ago</value></data>
+  <data name="CS2Match"><value>CS2 match</value></data>
+  <data name="ChessGame"><value>Chess game</value></data>
+  <data name="RoleAdmin"><value>Admin</value></data>
+  <data name="RolePlayer"><value>Player</value></data>
+  <data name="EloCS2Header"><value>CS2 Elo</value></data>
+  <data name="EloChessHeader"><value>Chess Elo</value></data>
+  <data name="RemoveFriend"><value>Remove</value></data>
+  <data name="WhiteSide"><value>White</value></data>
+  <data name="BlackSide"><value>Black</value></data>
+  <data name="Leaderboard"><value>Leaderboard</value></data>
+  <data name="Level"><value>Level</value></data>
+  <data name="Filter"><value>Filter</value></data>
+  <data name="InvitationTitle"><value>Lobby invitation</value></data>
+  <data name="InvitationMessage"><value>invites you to join their lobby</value></data>
+  <data name="OnlyLeaderCanStart"><value>Only the leader can start a match</value></data>
+  <data name="Tournaments"><value>Tournaments</value></data>
+  <data name="CreateTournament"><value>Create tournament</value></data>
+  <data name="TournamentName"><value>Tournament name</value></data>
+  <data name="PlayerSlots"><value>Player slots</value></data>
+  <data name="Create"><value>Create</value></data>
+  <data name="ActiveTournaments"><value>Active tournaments</value></data>
+  <data name="Players"><value>players</value></data>
+  <data name="Join"><value>Join</value></data>
+  <data name="Leave"><value>Leave</value></data>
+  <data name="Start"><value>Start</value></data>
+  <data name="Champion"><value>Champion</value></data>
+  <data name="TournamentStatusRegistration"><value>Registration</value></data>
+  <data name="TournamentStatusLive"><value>Live</value></data>
+  <data name="TournamentStatusFinished"><value>Finished</value></data>
+  <data name="StartsIn"><value>Starts in</value></data>
+  <data name="StartingNow"><value>Starting now…</value></data>
+  <data name="Delete"><value>Delete</value></data>
+  <data name="DurationMin"><value>Duration (minutes)</value></data>
+  <data name="CaptainSyncWaitTitle"><value>Waiting for lobby host</value></data>
+  <data name="CaptainSyncWaitSubtitle"><value>{0} is choosing the server, banning maps, and generating the match. This screen updates automatically.</value></data>
+  <data name="MinutesShort"><value>min</value></data>
+  <data name="SecondsShort"><value>s</value></data>
+</root>

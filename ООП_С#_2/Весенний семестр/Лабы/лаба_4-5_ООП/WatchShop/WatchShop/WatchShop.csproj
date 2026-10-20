@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\apple.jpg" />
+    <None Remove="Images\casio.jpg" />
+    <None Remove="Images\rolex.jpg" />
+    <None Remove="Resources\watch.ico.png" />
+    <None Remove="Resources\watch_cursor.cur" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\apple.jpg" />
+    <Resource Include="Images\rolex.jpg" />
+    <Resource Include="Resources\watch.ico.png" />
+    <Resource Include="Resources\watch_cursor.cur" />
+  </ItemGroup>
+
+</Project>

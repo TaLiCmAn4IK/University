@@ -1,0 +1,257 @@
+﻿<Window x:Class="WatchShop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:WatchShop"
+        Title="Магазин часов" Height="600" Width="1000"
+        WindowStartupLocation="CenterScreen"
+        Background="White"
+        FontFamily="Segoe UI"
+        Icon="/Resources/watch.ico.png"
+        DataContext="{Binding RelativeSource={RelativeSource Self}}">
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+        <local:StringToVisibilityConverter x:Key="StringToVisibilityConverter"/>
+
+        <Style x:Key="BlackMenuStyle" TargetType="Menu">
+            <Setter Property="Background" Value="#1A1A1A"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Height" Value="38"/>
+            <Setter Property="FontSize" Value="14"/>
+        </Style>
+
+        <Style x:Key="BlackMenuItemStyle" TargetType="MenuItem">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Padding" Value="15,8"/>
+            <Setter Property="FontWeight" Value="Normal"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#333333"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="#404040"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="BlackSubMenuItemStyle" TargetType="MenuItem" BasedOn="{StaticResource BlackMenuItemStyle}">
+            <Setter Property="Background" Value="#2C2C2C"/>
+        </Style>
+
+        <Style x:Key="BlackButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="#1A1A1A"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="12,6"/>
+            <Setter Property="Height" Value="36"/>
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#333333"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="#404040"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- верхнее меню -->
+        <Menu Grid.Row="0" Style="{StaticResource BlackMenuStyle}">
+            <MenuItem x:Name="FileMenu" Header="Файл" Style="{StaticResource BlackMenuItemStyle}">
+                <MenuItem x:Name="LoginMenuItem" Header="Войти" Style="{StaticResource BlackSubMenuItemStyle}"/>
+                <MenuItem x:Name="LogoutMenuItem" Header="Выйти" IsEnabled="False" Style="{StaticResource BlackSubMenuItemStyle}"/>
+                <Separator Background="#404040"/>
+                <MenuItem x:Name="ExitMenuItem" Header="Выход" Style="{StaticResource BlackSubMenuItemStyle}"/>
+            </MenuItem>
+
+            <MenuItem x:Name="ViewMenu" Header="Вид" Style="{StaticResource BlackMenuItemStyle}">
+                <MenuItem x:Name="ListViewMenuItem" Header="Список товаров" Style="{StaticResource BlackSubMenuItemStyle}"/>
+                <MenuItem x:Name="TableViewMenuItem" Header="Таблица товаров" Style="{StaticResource BlackSubMenuItemStyle}"/>
+            </MenuItem>
+
+            <MenuItem x:Name="LanguageMenu" Header="Язык" Style="{StaticResource BlackMenuItemStyle}">
+                <MenuItem x:Name="RussianLanguageMenuItem" Header="Русский" Style="{StaticResource BlackSubMenuItemStyle}"/>
+                <MenuItem x:Name="EnglishLanguageMenuItem" Header="English" Style="{StaticResource BlackSubMenuItemStyle}"/>
+            </MenuItem>
+
+            <MenuItem x:Name="HelpMenu" Header="Помощь" Style="{StaticResource BlackMenuItemStyle}">
+                <MenuItem x:Name="AboutMenuItem" Header="О программе" Style="{StaticResource BlackSubMenuItemStyle}"/>
+            </MenuItem>
+        </Menu>
+
+        <!-- основная рабочая область -->
+        <Grid Grid.Row="1" Margin="5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- левая панель (фильтры) -->
+            <Border Grid.Column="0" Background="#F5F5F5" CornerRadius="5" 
+                    Margin="0,0,5,0" Padding="10" BorderBrush="#DDD" BorderThickness="1">
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                    <StackPanel>
+                        <TextBlock x:Name="FiltersTitleText" Text="Фильтры" FontSize="16" FontWeight="Bold" 
+                                   Margin="0,0,0,10" Foreground="#1A1A1A"/>
+
+                        <TextBlock x:Name="SearchText" Text="Поиск:" Margin="0,5,0,2"/>
+                        <TextBox x:Name="SearchTextBox" Padding="5" Margin="0,0,0,10"/>
+
+                        <TextBlock x:Name="CategoryText" Text="Категория:" Margin="0,5,0,2"/>
+                        <ListBox x:Name="CategoriesListBox" Height="100" Margin="0,0,0,10"
+                                 BorderBrush="#DDD" BorderThickness="1">
+                            <ListBoxItem x:Name="AllCategoriesItem" Content="Все категории" IsSelected="True"/>
+                            <ListBoxItem x:Name="LuxuryCategory" Content="Люксовые"/>
+                            <ListBoxItem x:Name="SportCategory" Content="Спортивные"/>
+                            <ListBoxItem x:Name="SmartCategory" Content="Смарт-часы"/>
+                            <ListBoxItem x:Name="ClassicCategory" Content="Классические"/>
+                        </ListBox>
+
+                        <TextBlock x:Name="PriceText" Text="Цена:" Margin="0,5,0,2"/>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBox x:Name="MinPriceTextBox" Grid.Column="0" Padding="3"/>
+                            <TextBlock Grid.Column="1" Text=" - " Margin="5,0" VerticalAlignment="Center"/>
+                            <TextBox x:Name="MaxPriceTextBox" Grid.Column="2" Padding="3"/>
+                        </Grid>
+
+                        <CheckBox x:Name="InStockCheckBox" Content="Только в наличии" Margin="0,10,0,5"/>
+
+                        <TextBlock x:Name="SortText" Text="Сортировка:" Margin="0,15,0,2"/>
+                        <ComboBox x:Name="SortComboBox" Margin="0,0,0,10" SelectedIndex="0">
+                            <ComboBoxItem x:Name="SortByNameItem" Content="По названию"/>
+                            <ComboBoxItem x:Name="SortByPriceAscItem" Content="По цене (возрастание)"/>
+                            <ComboBoxItem x:Name="SortByPriceDescItem" Content="По цене (убывание)"/>
+                            <ComboBoxItem x:Name="SortByRatingItem" Content="По рейтингу"/>
+                        </ComboBox>
+
+                        <Button x:Name="ApplyFiltersButton" Content="Применить фильтры" 
+                                Style="{StaticResource BlackButtonStyle}" Margin="0,10"/>
+
+                        <StackPanel x:Name="AdminPanel" Visibility="Collapsed" Margin="0,20,0,0">
+                            <TextBlock x:Name="ManagementText" Text="Управление" FontSize="16" FontWeight="Bold" 
+                                       Margin="0,0,0,10" Foreground="#1A1A1A"/>
+                            <Button x:Name="AddWatchButton" Content="Добавить товар" 
+                                    Style="{StaticResource BlackButtonStyle}" Margin="0,2"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ScrollViewer>
+            </Border>
+
+            <!-- правая панель (товары) -->
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Border Grid.Row="0" Background="#F5F5F5" CornerRadius="5" Padding="5" 
+        Margin="0,0,0,5" BorderBrush="#DDD" BorderThickness="1">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                        <TextBlock x:Name="ViewModeText" Text="Вид:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+                        <RadioButton x:Name="ListViewRadio" Content="Список" 
+                     IsChecked="True" Margin="0,0,15,0" GroupName="ViewGroup"/>
+                        <RadioButton x:Name="TableViewRadio" Content="Таблица" 
+                     GroupName="ViewGroup"/>
+                    </StackPanel>
+                </Border>
+                <!-- список товаров -->
+                <ListView x:Name="WatchesListView" Grid.Row="1" Visibility="Visible"
+          ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+          Margin="0,0,0,5" MouseDoubleClick="WatchesListView_MouseDoubleClick"
+          BorderBrush="#DDD" BorderThickness="1">
+                    <ListView.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <WrapPanel Orientation="Horizontal"/>
+                        </ItemsPanelTemplate>
+                    </ListView.ItemsPanel>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <Border BorderBrush="#DDD" BorderThickness="1" CornerRadius="5" 
+                Margin="5" Padding="10" Width="200" Background="White">
+                                <StackPanel>
+                                    <Border Background="#F0F0F0" Height="120" CornerRadius="3" Margin="0,0,0,5">
+                                        <Grid>
+                                            <Image Source="{Binding ImagePath}" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100" Height="100" Margin="5"/>
+                                            <TextBlock Text="⌚" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="{Binding ImagePath, Converter={StaticResource StringToVisibilityConverter}}"/>
+                                        </Grid>
+                                    </Border>
+                                    <TextBlock Text="{Binding ShortName}" FontWeight="Bold" FontSize="14" Foreground="#1A1A1A" TextWrapping="Wrap"/>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="{Binding PriceLabel}" Margin="0,0,5,0"/>
+                                        <TextBlock Text="{Binding Price, StringFormat='${0:F2}'}" Foreground="#27ae60" FontWeight="SemiBold"/>
+                                    </StackPanel>
+                                    <TextBlock Text="{Binding Category}" Foreground="#666" FontSize="12"/>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="{Binding InStockLabel}" Margin="0,0,5,0"/>
+                                        <TextBlock Text="{Binding InStockDisplay}"/>
+                                    </StackPanel>
+                                    <TextBlock Text="{Binding AvailableText}" FontSize="10" Foreground="#666" Margin="0,2,0,0"/>
+                                    <TextBlock Text="{Binding DoubleClickHint}" FontSize="10" Foreground="#1A1A1A" HorizontalAlignment="Center" Margin="0,5,0,0"/>
+                                    <Button Content="{Binding OrderButtonText}" 
+                        Background="#3498db" Foreground="White"
+                        Padding="5" Margin="0,5,0,0"
+                        BorderThickness="0" Cursor="Hand"
+                        Click="OrderButton_Click"
+                        Tag="{Binding}"/>
+                                </StackPanel>
+                            </Border>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+                <!-- таблица товаров -->
+                <DataGrid x:Name="WatchesDataGrid" Grid.Row="1" Visibility="Collapsed"
+          AutoGenerateColumns="False" IsReadOnly="True"
+          Margin="0,0,0,5" BorderBrush="#DDD" BorderThickness="1"
+          MouseDoubleClick="WatchesDataGrid_MouseDoubleClick">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="{Binding NameHeader}" Binding="{Binding ShortName}" Width="*"/>
+                        <DataGridTextColumn Header="{Binding CategoryHeader}" Binding="{Binding Category}" Width="100"/>
+                        <DataGridTextColumn Header="{Binding PriceHeader}" Binding="{Binding Price, StringFormat='${0:F2}'}" Width="100"/>
+                        <DataGridTextColumn Header="{Binding RatingHeader}" Binding="{Binding Rating}" Width="70"/>
+                        <DataGridTextColumn Header="{Binding InStockHeader}" Binding="{Binding InStockDisplay}" Width="80"/>
+                        <DataGridTextColumn Header="{Binding ManufacturerHeader}" Binding="{Binding Manufacturer}" Width="100"/>
+                        <DataGridTextColumn Header="{Binding AvailableHeader}" Binding="{Binding AvailableText}" Width="90"/>
+                        <DataGridTemplateColumn Header="{Binding ActionHeader}" Width="80">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Content="{Binding OrderButtonText}" 
+                            Background="#3498db" Foreground="White"
+                            Padding="5" Margin="2"
+                            BorderThickness="0" Cursor="Hand"
+                            Click="OrderButton_Click"
+                            Tag="{Binding}"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+        </Grid>
+
+        <!-- статус бар -->
+        <StatusBar Grid.Row="2" Background="#1A1A1A" Foreground="White" Height="25">
+            <StatusBarItem>
+                <TextBlock x:Name="StatusTextBlock" Text="Готов к работе"/>
+            </StatusBarItem>
+            <StatusBarItem HorizontalAlignment="Right">
+                <TextBlock x:Name="UserStatusTextBlock" Text="Не авторизован"/>
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>

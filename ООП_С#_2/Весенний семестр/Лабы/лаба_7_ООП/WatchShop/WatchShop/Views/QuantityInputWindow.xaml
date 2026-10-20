@@ -1,0 +1,48 @@
+<Window x:Class="WatchShop.Views.QuantityInputWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="{DynamicResource Order}"
+        Height="220" Width="420"
+        WindowStartupLocation="CenterOwner"
+        WindowStyle="ToolWindow"
+        ResizeMode="NoResize"
+        Background="{DynamicResource BackgroundWhiteBrush}"
+        TextElement.Foreground="{DynamicResource TextPrimaryBrush}"
+        FontFamily="Segoe UI"
+        ShowInTaskbar="False">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0"
+                   x:Name="MessageTextBlock"
+                   TextWrapping="Wrap"
+                   Margin="0,0,0,12"/>
+
+        <TextBox Grid.Row="1"
+                 x:Name="QuantityTextBox"
+                 Padding="6"
+                 Text="1"
+                 FontSize="14"
+                 Height="35"/>
+
+        <StackPanel Grid.Row="3"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Right"
+                    Margin="0,15,0,0">
+            <Button Content="{DynamicResource Order}"
+                    Style="{StaticResource SuccessButtonStyle}"
+                    Width="110" Height="36" Margin="0,0,8,0"
+                    Click="OkButton_Click" IsDefault="True"/>
+            <Button Content="{DynamicResource Cancel}"
+                    Style="{StaticResource DangerButtonStyle}"
+                    Width="110" Height="36"
+                    Click="CancelButton_Click" IsCancel="True"/>
+        </StackPanel>
+    </Grid>
+</Window>

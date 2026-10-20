@@ -1,0 +1,125 @@
+<Window x:Class="WatchShop.Views.UserProfileWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:ctl="clr-namespace:WatchShop.Controls"
+        Title="{DynamicResource Profile_Title}"
+        Height="640" Width="540"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        Background="{DynamicResource BackgroundWhiteBrush}"
+        TextElement.Foreground="{DynamicResource TextPrimaryBrush}"
+        FontFamily="Segoe UI">
+
+    <Grid Margin="25">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Заголовок с аватаром -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,20">
+            <Border Width="64" Height="64"
+                    Background="{DynamicResource AccentBrush}"
+                    CornerRadius="32" Margin="0,0,15,0">
+                <TextBlock Text="⌚" FontSize="36"
+                           Foreground="{DynamicResource TextWhiteBrush}"
+                           HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Border>
+            <StackPanel VerticalAlignment="Center">
+                <TextBlock Text="{DynamicResource Profile_Title}"
+                           Style="{StaticResource PageTitleStyle}"
+                           HorizontalAlignment="Left"
+                           Margin="0"/>
+                <TextBlock x:Name="UserRoleText"
+                           Foreground="{DynamicResource TextSecondaryBrush}"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Личные данные -->
+        <TextBlock Grid.Row="1" Text="{DynamicResource Profile_PersonalData}"
+                   Style="{StaticResource SectionTitleStyle}"/>
+
+        <Grid Grid.Row="2" Margin="0,0,0,15">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="140"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="{DynamicResource Username}" Margin="0,5,10,5" VerticalAlignment="Center"/>
+            <TextBox Grid.Row="0" Grid.Column="1" x:Name="UsernameBox" Margin="0,5"/>
+
+            <TextBlock Grid.Row="1" Grid.Column="0" Text="Email:" Margin="0,5,10,5" VerticalAlignment="Center"/>
+            <TextBox Grid.Row="1" Grid.Column="1" x:Name="EmailBox" Margin="0,5"/>
+
+            <TextBlock Grid.Row="2" Grid.Column="0" Text="{DynamicResource Password}" Margin="0,5,10,5" VerticalAlignment="Center"/>
+            <TextBox Grid.Row="2" Grid.Column="1" x:Name="PasswordBox" Margin="0,5"/>
+        </Grid>
+
+        <!-- Язык -->
+        <TextBlock Grid.Row="3" Text="{DynamicResource Language}"
+                   Style="{StaticResource SectionTitleStyle}"/>
+
+        <StackPanel Grid.Row="4" Orientation="Horizontal" Margin="0,0,0,15">
+            <RadioButton x:Name="LangRuRadio" Content="{DynamicResource Russian}"
+                         GroupName="LangGroup" Margin="0,0,15,0"
+                         Checked="LangRuRadio_Checked"/>
+            <RadioButton x:Name="LangEnRadio" Content="{DynamicResource English}"
+                         GroupName="LangGroup"
+                         Checked="LangEnRadio_Checked"/>
+        </StackPanel>
+
+        <!-- Тема -->
+        <StackPanel Grid.Row="5" Margin="0,0,0,10">
+            <TextBlock Text="{DynamicResource Profile_Theme}"
+                       Style="{StaticResource SectionTitleStyle}"/>
+
+            <StackPanel Orientation="Horizontal">
+                <RadioButton x:Name="ThemeLightRadio" Content="{DynamicResource Theme_Light}"
+                             GroupName="ThemeGroup" Margin="0,0,15,0"
+                             Checked="ThemeLightRadio_Checked"/>
+                <RadioButton x:Name="ThemeDarkRadio" Content="{DynamicResource Theme_Dark}"
+                             GroupName="ThemeGroup" Margin="0,0,15,0"
+                             Checked="ThemeDarkRadio_Checked"/>
+                <RadioButton x:Name="ThemePinkRadio" Content="{DynamicResource Theme_Pink}"
+                             GroupName="ThemeGroup"
+                             Checked="ThemePinkRadio_Checked"/>
+            </StackPanel>
+
+            <!-- Демонстрация UserControl: можно поставить рейтинг себе -->
+            <TextBlock Text="{DynamicResource Profile_RatingLabel}"
+                       Margin="0,15,0,5"
+                       Foreground="{DynamicResource TextSecondaryBrush}"/>
+            <StackPanel Orientation="Horizontal">
+                <ctl:StarRating x:Name="FavRating" Value="0" Height="32"/>
+                <TextBlock x:Name="RatingThanksText"
+                           Text="{DynamicResource Profile_RatingThanks}"
+                           Margin="12,0,0,0" VerticalAlignment="Center"
+                           Foreground="{DynamicResource SuccessBrush}"
+                           FontWeight="SemiBold"
+                           Visibility="Collapsed"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Кнопки -->
+        <StackPanel Grid.Row="6" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,15,0,0">
+            <Button Content="{DynamicResource Save}"
+                    Style="{StaticResource SuccessButtonStyle}"
+                    Width="120" Margin="0,0,10,0"
+                    Click="SaveButton_Click"/>
+            <Button Content="{DynamicResource Cancel}"
+                    Style="{StaticResource DangerButtonStyle}"
+                    Width="120"
+                    Click="CancelButton_Click" IsCancel="True"/>
+        </StackPanel>
+    </Grid>
+</Window>

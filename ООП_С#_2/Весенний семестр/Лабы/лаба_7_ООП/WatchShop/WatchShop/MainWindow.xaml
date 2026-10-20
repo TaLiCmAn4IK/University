@@ -1,0 +1,553 @@
+<Window x:Class="WatchShop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:WatchShop.ViewModels"
+        xmlns:conv="clr-namespace:WatchShop.Converters"
+        xmlns:ctl="clr-namespace:WatchShop.Controls"
+        xmlns:cmd="clr-namespace:WatchShop.Commands"
+        Title="{DynamicResource WindowTitle}"
+        Height="600" Width="1000"
+        MinHeight="500" MinWidth="800"
+        WindowStartupLocation="CenterScreen"
+        Background="{DynamicResource BackgroundWhiteBrush}"
+        TextElement.Foreground="{DynamicResource TextPrimaryBrush}"
+        FontFamily="Segoe UI"
+        Icon="/Resources/watch.ico.png">
+
+    <Window.DataContext>
+        <vm:MainViewModel/>
+    </Window.DataContext>
+
+    <Window.Resources>
+        <!-- Контекстное меню для админа.
+             PlacementTarget — ListViewItem/DataGridRow.
+             В стиле этого item у нас есть Tag, в котором лежит DataContext окна (MainViewModel),
+             поэтому команды берутся через PlacementTarget.Tag.{ИмяКоманды},
+             а CommandParameter — это сам Watch (PlacementTarget.DataContext). -->
+        <ContextMenu x:Key="AdminContextMenu">
+            <MenuItem Header="{DynamicResource Edit}"
+                      Command="{Binding PlacementTarget.Tag.EditWatchCommand,
+                                RelativeSource={RelativeSource AncestorType=ContextMenu}}"
+                      CommandParameter="{Binding PlacementTarget.DataContext,
+                                         RelativeSource={RelativeSource AncestorType=ContextMenu}}"/>
+            <MenuItem Header="{DynamicResource Delete}"
+                      Foreground="{DynamicResource DangerBrush}"
+                      Command="{Binding PlacementTarget.Tag.DeleteWatchCommand,
+                                RelativeSource={RelativeSource AncestorType=ContextMenu}}"
+                      CommandParameter="{Binding PlacementTarget.DataContext,
+                                         RelativeSource={RelativeSource AncestorType=ContextMenu}}"/>
+        </ContextMenu>
+    </Window.Resources>
+
+    <!-- ===== Привязки команд на основе RoutedUICommand ===== -->
+    <Window.CommandBindings>
+        <CommandBinding Command="cmd:AppCommands.ShowAbout"
+                        Executed="ShowAbout_Executed"
+                        CanExecute="ShowAbout_CanExecute"/>
+    </Window.CommandBindings>
+
+    <Window.InputBindings>
+        <!-- F1 — горячая клавиша уже зарегистрирована в самой команде через
+             InputGestureCollection, поэтому здесь дублировать не нужно.
+             Однако оставляем явное описание для читаемости. -->
+        <KeyBinding Key="F1" Command="cmd:AppCommands.ShowAbout"/>
+    </Window.InputBindings>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Горячие клавиши Ctrl+Z / Ctrl+Y -->
+        <Grid.InputBindings>
+            <KeyBinding Key="Z" Modifiers="Control" Command="{Binding UndoCommand}"/>
+            <KeyBinding Key="Y" Modifiers="Control" Command="{Binding RedoCommand}"/>
+        </Grid.InputBindings>
+
+        <!-- ========== Главное меню ========== -->
+        <Menu Grid.Row="0" Style="{StaticResource MainMenuStyle}">
+            <MenuItem Header="{DynamicResource File}" Style="{StaticResource TopMenuItemStyle}">
+                <MenuItem Header="{DynamicResource Login}"   Command="{Binding LoginCommand}"/>
+                <MenuItem Header="{DynamicResource Profile}" Command="{Binding OpenProfileCommand}"/>
+                <MenuItem Header="{DynamicResource Logout}"  Command="{Binding LogoutCommand}"/>
+                <Separator/>
+                <MenuItem Header="{DynamicResource Exit}"    Command="{Binding ExitCommand}"/>
+            </MenuItem>
+
+            <!-- Правка: Undo/Redo (лаб 6) -->
+            <MenuItem Header="{DynamicResource Edit_Action}" Style="{StaticResource TopMenuItemStyle}">
+                <MenuItem Header="{DynamicResource Undo}" Command="{Binding UndoCommand}"
+                          InputGestureText="Ctrl+Z"/>
+                <MenuItem Header="{DynamicResource Redo}" Command="{Binding RedoCommand}"
+                          InputGestureText="Ctrl+Y"/>
+            </MenuItem>
+
+            <MenuItem Header="{DynamicResource View}" Style="{StaticResource TopMenuItemStyle}">
+                <MenuItem Header="{DynamicResource ListView}"  Command="{Binding SwitchToListCommand}"/>
+                <MenuItem Header="{DynamicResource TableView}" Command="{Binding SwitchToTableCommand}"/>
+            </MenuItem>
+
+            <MenuItem Header="{DynamicResource Language}" Style="{StaticResource TopMenuItemStyle}">
+                <MenuItem Header="{DynamicResource Russian}"
+                          Command="{Binding ChangeLanguageCommand}" CommandParameter="ru-RU"/>
+                <MenuItem Header="{DynamicResource English}"
+                          Command="{Binding ChangeLanguageCommand}" CommandParameter="en-US"/>
+            </MenuItem>
+
+            <!-- Тема (лаб 6) -->
+            <MenuItem Header="{DynamicResource Theme}" Style="{StaticResource TopMenuItemStyle}">
+                <MenuItem Header="{DynamicResource Theme_Light}"
+                          Command="{Binding ChangeThemeCommand}" CommandParameter="Light"/>
+                <MenuItem Header="{DynamicResource Theme_Dark}"
+                          Command="{Binding ChangeThemeCommand}" CommandParameter="Dark"/>
+                <MenuItem Header="{DynamicResource Theme_Pink}"
+                          Command="{Binding ChangeThemeCommand}" CommandParameter="Pink"/>
+            </MenuItem>
+
+            <MenuItem Header="{DynamicResource Help}" Style="{StaticResource TopMenuItemStyle}">
+                <!-- Используется RoutedUICommand AppCommands.ShowAbout.
+                     InputGestureText показывается автоматически из команды (F1). -->
+                <MenuItem Command="cmd:AppCommands.ShowAbout"/>
+            </MenuItem>
+        </Menu>
+
+        <!-- ========== Основная рабочая область ========== -->
+        <Grid Grid.Row="1" Margin="5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="250" MinWidth="200"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- ===== Левая панель — фильтры ===== -->
+            <Border Grid.Column="0" Background="{DynamicResource BackgroundLightBrush}" CornerRadius="5"
+                    Margin="0,0,5,0" Padding="10" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="1">
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                    <StackPanel>
+                        <TextBlock Text="{DynamicResource Filters}"
+                                   Style="{StaticResource SectionTitleStyle}"/>
+
+                        <TextBlock Text="{DynamicResource Search}" Margin="0,5,0,2"/>
+                        <TextBox Padding="5" Margin="0,0,0,10"
+                                 Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}"/>
+
+                        <TextBlock Text="{DynamicResource Category}" Margin="0,5,0,2"/>
+                        <ListBox Height="120" Margin="0,0,0,10"
+                                 SelectedValuePath="Tag"
+                                 SelectedValue="{Binding SelectedCategoryKey}">
+                            <ListBoxItem Content="{DynamicResource AllCategories}" Tag="{x:Null}"/>
+                            <ListBoxItem Content="{DynamicResource Cat_Luxury}"   Tag="Cat_Luxury"/>
+                            <ListBoxItem Content="{DynamicResource Cat_Sport}"    Tag="Cat_Sport"/>
+                            <ListBoxItem Content="{DynamicResource Cat_Smart}"    Tag="Cat_Smart"/>
+                            <ListBoxItem Content="{DynamicResource Cat_Classic}"  Tag="Cat_Classic"/>
+                            <ListBoxItem Content="{DynamicResource Cat_Diver}"    Tag="Cat_Diver"/>
+                            <ListBoxItem Content="{DynamicResource Cat_Aviation}" Tag="Cat_Aviation"/>
+                            <ListBoxItem Content="{DynamicResource Cat_Fashion}"  Tag="Cat_Fashion"/>
+                        </ListBox>
+
+                        <TextBlock Text="{DynamicResource Price}" Margin="0,5,0,2"/>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBox Grid.Column="0" Padding="3"
+                                     Text="{Binding MinPriceText, UpdateSourceTrigger=PropertyChanged}"/>
+                            <TextBlock Grid.Column="1" Text=" - " Margin="5,0" VerticalAlignment="Center"/>
+                            <TextBox Grid.Column="2" Padding="3"
+                                     Text="{Binding MaxPriceText, UpdateSourceTrigger=PropertyChanged}"/>
+                        </Grid>
+
+                        <CheckBox Content="{DynamicResource InStockOnly}"
+                                  Margin="0,10,0,5"
+                                  IsChecked="{Binding ShowOnlyInStock}"/>
+
+                        <TextBlock Text="{DynamicResource Sort}" Margin="0,15,0,2"/>
+                        <ComboBox Margin="0,0,0,10"
+                                  SelectedIndex="{Binding SelectedSortIndex}">
+                            <ComboBoxItem Content="{DynamicResource ByName}"/>
+                            <ComboBoxItem Content="{DynamicResource ByPriceAsc}"/>
+                            <ComboBoxItem Content="{DynamicResource ByPriceDesc}"/>
+                            <ComboBoxItem Content="{DynamicResource ByRating}"/>
+                        </ComboBox>
+
+                        <Button Content="{DynamicResource ApplyFilters}"
+                                Style="{StaticResource PrimaryButtonStyle}"
+                                Command="{Binding ApplyFiltersCommand}"
+                                Margin="0,5"/>
+                        <Button Content="{DynamicResource ResetFilters}"
+                                Style="{StaticResource DangerButtonStyle}"
+                                Command="{Binding ResetFiltersCommand}"
+                                Margin="0,5"/>
+
+                        <!-- Админ-панель — видна только админу -->
+                        <StackPanel Margin="0,20,0,0"
+                                    Visibility="{Binding IsAdmin, Converter={StaticResource BoolToVisibilityConverter}}">
+                            <TextBlock Text="{DynamicResource Management}"
+                                       Style="{StaticResource SectionTitleStyle}"/>
+                            <Button Content="{DynamicResource AddProduct}"
+                                    Style="{StaticResource PrimaryButtonStyle}"
+                                    Command="{Binding AddWatchCommand}"
+                                    Margin="0,2"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ScrollViewer>
+            </Border>
+
+            <!-- ===== Правая панель — товары ===== -->
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Border Grid.Row="0" Background="{DynamicResource BackgroundLightBrush}" CornerRadius="5" Padding="5"
+                        Margin="0,0,0,5" BorderBrush="{DynamicResource BorderBrush}" BorderThickness="1">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                        <TextBlock Text="{DynamicResource ViewMode}" VerticalAlignment="Center" Margin="0,0,5,0"/>
+                        <RadioButton Content="{DynamicResource ListMode}" GroupName="ViewGroup"
+                                     Margin="0,0,15,0"
+                                     IsChecked="{Binding IsListView, Mode=OneWay}"
+                                     Command="{Binding SwitchToListCommand}"/>
+                        <RadioButton Content="{DynamicResource TableMode}" GroupName="ViewGroup"
+                                     IsChecked="{Binding IsTableView, Mode=OneWay}"
+                                     Command="{Binding SwitchToTableCommand}"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- ====== Список товаров (карточки) ====== -->
+                <ListView x:Name="WatchesListView" Grid.Row="1"
+                          ItemsSource="{Binding FilteredWatches}"
+                          SelectedItem="{Binding SelectedWatch}"
+                          ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                          Margin="0,0,0,5"
+                          BorderBrush="{DynamicResource BorderBrush}" BorderThickness="1"
+                          Visibility="{Binding IsListView, Converter={StaticResource BoolToVisibilityConverter}}">
+                    <ListView.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <WrapPanel Orientation="Horizontal"/>
+                        </ItemsPanelTemplate>
+                    </ListView.ItemsPanel>
+
+                    <ListView.ItemContainerStyle>
+                        <Style TargetType="ListViewItem">
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                            <Setter Property="Padding" Value="0"/>
+                            <Setter Property="Margin" Value="0"/>
+                            <Setter Property="Background" Value="Transparent"/>
+                            <Setter Property="BorderThickness" Value="0"/>
+                            <!-- Пробрасываем VM в Tag, чтобы её достало контекстное меню -->
+                            <Setter Property="Tag"
+                                    Value="{Binding DataContext, RelativeSource={RelativeSource AncestorType=Window}}"/>
+                            <!-- Контекстное меню админа — навешиваем условно через Style.Triggers -->
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding DataContext.IsAdmin,
+                                                       RelativeSource={RelativeSource AncestorType=Window}}"
+                                             Value="True">
+                                    <Setter Property="ContextMenu" Value="{StaticResource AdminContextMenu}"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </ListView.ItemContainerStyle>
+
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <!-- Карточка товара.
+                                 Tag привязан к свойству Discount: при Discount > 0 будет "OnSale"
+                                 (через DataTrigger в стиле карточки), это активирует MultiTrigger
+                                 hover+OnSale → красная рамка. -->
+                            <Border Width="210">
+                                <Border.Style>
+                                    <Style TargetType="Border" BasedOn="{StaticResource ProductCardStyle}">
+                                        <Style.Triggers>
+                                            <!-- Скидка имеет приоритет над "мало" — потому что
+                                                 этот DataTrigger идёт первым. Если оба условия
+                                                 выполнены, сработает только Tag=OnSale. -->
+                                            <DataTrigger Binding="{Binding Quantity, Converter={StaticResource LowStockConverter}}" Value="True">
+                                                <Setter Property="Tag" Value="LowStock"/>
+                                            </DataTrigger>
+                                            <DataTrigger Binding="{Binding Discount, Converter={StaticResource DiscountToFlagConverter}}" Value="True">
+                                                <Setter Property="Tag" Value="OnSale"/>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </Border.Style>
+                                <Border.InputBindings>
+                                    <MouseBinding MouseAction="LeftDoubleClick"
+                                                  Command="{Binding DataContext.ShowDetailsCommand,
+                                                            RelativeSource={RelativeSource AncestorType=Window}}"
+                                                  CommandParameter="{Binding}"/>
+                                </Border.InputBindings>
+                                <Grid>
+                                    <StackPanel>
+                                        <Grid Margin="0,0,0,5">
+                                            <Border Background="{DynamicResource BackgroundLightBrush}"
+                                                    Height="120" CornerRadius="3">
+                                                <Grid>
+                                                    <Image Source="{Binding ImagePath}" Stretch="Uniform"
+                                                           HorizontalAlignment="Center" VerticalAlignment="Center"
+                                                           Width="100" Height="100" Margin="5"/>
+                                                    <TextBlock Text="⌚" FontSize="40"
+                                                               Foreground="{DynamicResource TextLightBrush}"
+                                                               HorizontalAlignment="Center" VerticalAlignment="Center"
+                                                               Visibility="{Binding ImagePath, Converter={StaticResource StringToVisibilityConverter}}"/>
+                                                </Grid>
+                                            </Border>
+                                            <!-- Бейдж "СКИДКА" в правом верхнем углу — виден только при Discount > 0 -->
+                                            <Border Background="{DynamicResource DangerBrush}"
+                                                    CornerRadius="3" Padding="6,2"
+                                                    HorizontalAlignment="Right" VerticalAlignment="Top"
+                                                    Margin="0,5,5,0">
+                                                <Border.Style>
+                                                    <Style TargetType="Border">
+                                                        <Setter Property="Visibility" Value="Collapsed"/>
+                                                        <Style.Triggers>
+                                                            <DataTrigger Binding="{Binding Discount, Converter={StaticResource DiscountToFlagConverter}}" Value="True">
+                                                                <Setter Property="Visibility" Value="Visible"/>
+                                                            </DataTrigger>
+                                                        </Style.Triggers>
+                                                    </Style>
+                                                </Border.Style>
+                                                <TextBlock Text="{DynamicResource Sale}"
+                                                           Foreground="{DynamicResource TextWhiteBrush}"
+                                                           FontSize="11" FontWeight="Bold"/>
+                                            </Border>
+
+                                            <!-- Бейдж "МАЛО" — оранжевый, правый верхний угол.
+                                                 Реагирует на 1..3 шт через LowStockConverter (DataTrigger). -->
+                                            <Border Background="{DynamicResource WarningBrush}"
+                                                    CornerRadius="3" Padding="6,2"
+                                                    HorizontalAlignment="Right" VerticalAlignment="Top"
+                                                    Margin="0,5,5,0"
+                                                    ToolTip="{DynamicResource LowStock_Tooltip}">
+                                                <Border.Style>
+                                                    <Style TargetType="Border">
+                                                        <Setter Property="Visibility" Value="Collapsed"/>
+                                                        <Style.Triggers>
+                                                            <DataTrigger Binding="{Binding Quantity, Converter={StaticResource LowStockConverter}}" Value="True">
+                                                                <Setter Property="Visibility" Value="Visible"/>
+                                                            </DataTrigger>
+                                                        </Style.Triggers>
+                                                    </Style>
+                                                </Border.Style>
+                                                <TextBlock Text="{DynamicResource LowStock}"
+                                                           Foreground="{DynamicResource TextWhiteBrush}"
+                                                           FontSize="11" FontWeight="Bold"/>
+                                            </Border>
+                                        </Grid>
+
+                                        <TextBlock Text="{Binding ShortName}"
+                                                   FontWeight="Bold" FontSize="14"
+                                                   Foreground="{DynamicResource TextPrimaryBrush}"
+                                                   TextWrapping="Wrap"/>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <TextBlock Text="{DynamicResource Card_Price}" Margin="0,0,5,0"/>
+                                            <TextBlock Text="{Binding Price, StringFormat='${0:F2}'}"
+                                                       Foreground="{DynamicResource PriceBrush}" FontWeight="SemiBold"/>
+                                        </StackPanel>
+
+                                        <!-- Пользовательский ЭУ: звёздный рейтинг (read-only) -->
+                                        <ctl:StarRating Value="{Binding Rating}" IsReadOnly="True"
+                                                        HorizontalAlignment="Left" Margin="0,2,0,0"/>
+
+                                        <TextBlock Text="{Binding CategoryDisplay}"
+                                                   Foreground="{DynamicResource TextSecondaryBrush}" FontSize="12"/>
+                                        <StackPanel Orientation="Horizontal">
+                                            <TextBlock Text="{DynamicResource Card_InStock}" Margin="0,0,5,0"/>
+                                            <TextBlock Text="{Binding InStockDisplay}"/>
+                                        </StackPanel>
+                                        <TextBlock Text="{Binding AvailableText}" FontSize="12"
+                                                   Foreground="{DynamicResource TextSecondaryBrush}" Margin="0,2,0,0"/>
+                                        <TextBlock Text="{DynamicResource Card_DoubleClickHint}" FontSize="10"
+                                                   Foreground="{DynamicResource TextLightBrush}"
+                                                   HorizontalAlignment="Center"
+                                                   FontStyle="Italic" Margin="0,5,0,0"/>
+                                        <Button Content="{DynamicResource Order}"
+                                                Style="{StaticResource InfoButtonStyle}"
+                                                Margin="0,5,0,0"
+                                                Command="{Binding DataContext.OrderCommand,
+                                                          RelativeSource={RelativeSource AncestorType=Window}}"
+                                                CommandParameter="{Binding}"/>
+                                    </StackPanel>
+
+                                    <!-- DataTrigger: оверлей "НЕТ В НАЛИЧИИ" при Quantity == 0 -->
+                                    <Border Background="#88000000" CornerRadius="3"
+                                            IsHitTestVisible="False">
+                                        <Border.Style>
+                                            <Style TargetType="Border">
+                                                <Setter Property="Visibility" Value="Collapsed"/>
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding Quantity}" Value="0">
+                                                        <Setter Property="Visibility" Value="Visible"/>
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </Border.Style>
+                                        <TextBlock Text="{DynamicResource OutOfStockOverlay}"
+                                                   Foreground="White" FontSize="16" FontWeight="Bold"
+                                                   HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+                <!-- ====== Таблица товаров ====== -->
+                <DataGrid Grid.Row="1"
+                          ItemsSource="{Binding FilteredWatches}"
+                          SelectedItem="{Binding SelectedWatch}"
+                          AutoGenerateColumns="False" IsReadOnly="True"
+                          Margin="0,0,0,5"
+                          BorderBrush="{DynamicResource BorderBrush}" BorderThickness="1"
+                          Visibility="{Binding IsTableView, Converter={StaticResource BoolToVisibilityConverter}}">
+                    <DataGrid.InputBindings>
+                        <MouseBinding MouseAction="LeftDoubleClick"
+                                      Command="{Binding ShowDetailsCommand}"
+                                      CommandParameter="{Binding SelectedWatch}"/>
+                    </DataGrid.InputBindings>
+                    <DataGrid.RowStyle>
+                        <Style TargetType="DataGridRow" BasedOn="{StaticResource {x:Type DataGridRow}}">
+                            <Setter Property="Tag"
+                                    Value="{Binding DataContext, RelativeSource={RelativeSource AncestorType=Window}}"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding DataContext.IsAdmin,
+                                                       RelativeSource={RelativeSource AncestorType=Window}}"
+                                             Value="True">
+                                    <Setter Property="ContextMenu" Value="{StaticResource AdminContextMenu}"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </DataGrid.RowStyle>
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn Width="100" CanUserSort="False">
+                            <DataGridTemplateColumn.Header>
+                                <TextBlock Text="{DynamicResource Hdr_Status}"/>
+                            </DataGridTemplateColumn.Header>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <!-- Те же DataTrigger'ы что и в карточке: бейджи скидки, мало, нет в наличии. -->
+                                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                                        <Border Background="{DynamicResource DangerBrush}"
+                                                CornerRadius="3" Padding="5,1" Margin="2,0">
+                                            <Border.Style>
+                                                <Style TargetType="Border">
+                                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                                    <Style.Triggers>
+                                                        <DataTrigger Binding="{Binding Discount, Converter={StaticResource DiscountToFlagConverter}}" Value="True">
+                                                            <Setter Property="Visibility" Value="Visible"/>
+                                                        </DataTrigger>
+                                                    </Style.Triggers>
+                                                </Style>
+                                            </Border.Style>
+                                            <TextBlock Text="{DynamicResource Sale}"
+                                                       Foreground="{DynamicResource TextWhiteBrush}"
+                                                       FontSize="10" FontWeight="Bold"/>
+                                        </Border>
+
+                                        <Border Background="{DynamicResource WarningBrush}"
+                                                CornerRadius="3" Padding="5,1" Margin="2,0">
+                                            <Border.Style>
+                                                <Style TargetType="Border">
+                                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                                    <Style.Triggers>
+                                                        <DataTrigger Binding="{Binding Quantity, Converter={StaticResource LowStockConverter}}" Value="True">
+                                                            <Setter Property="Visibility" Value="Visible"/>
+                                                        </DataTrigger>
+                                                    </Style.Triggers>
+                                                </Style>
+                                            </Border.Style>
+                                            <TextBlock Text="{DynamicResource LowStock}"
+                                                       Foreground="{DynamicResource TextWhiteBrush}"
+                                                       FontSize="10" FontWeight="Bold"/>
+                                        </Border>
+
+                                        <Border Background="#88000000"
+                                                CornerRadius="3" Padding="5,1" Margin="2,0">
+                                            <Border.Style>
+                                                <Style TargetType="Border">
+                                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                                    <Style.Triggers>
+                                                        <DataTrigger Binding="{Binding Quantity}" Value="0">
+                                                            <Setter Property="Visibility" Value="Visible"/>
+                                                        </DataTrigger>
+                                                    </Style.Triggers>
+                                                </Style>
+                                            </Border.Style>
+                                            <TextBlock Text="{DynamicResource OutOfStockOverlay}"
+                                                       Foreground="White"
+                                                       FontSize="10" FontWeight="Bold"/>
+                                        </Border>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTextColumn Binding="{Binding ShortName}" Width="*">
+                            <DataGridTextColumn.Header>
+                                <TextBlock Text="{DynamicResource Hdr_Name}"/>
+                            </DataGridTextColumn.Header>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Binding="{Binding CategoryDisplay}" Width="120">
+                            <DataGridTextColumn.Header>
+                                <TextBlock Text="{DynamicResource Hdr_Category}"/>
+                            </DataGridTextColumn.Header>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Binding="{Binding Price, StringFormat='${0:F2}'}" Width="100">
+                            <DataGridTextColumn.Header>
+                                <TextBlock Text="{DynamicResource Hdr_Price}"/>
+                            </DataGridTextColumn.Header>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Binding="{Binding Rating}" Width="70">
+                            <DataGridTextColumn.Header>
+                                <TextBlock Text="{DynamicResource Hdr_Rating}"/>
+                            </DataGridTextColumn.Header>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Binding="{Binding InStockDisplay}" Width="80">
+                            <DataGridTextColumn.Header>
+                                <TextBlock Text="{DynamicResource Hdr_InStock}"/>
+                            </DataGridTextColumn.Header>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Binding="{Binding Manufacturer}" Width="120">
+                            <DataGridTextColumn.Header>
+                                <TextBlock Text="{DynamicResource Hdr_Manufacturer}"/>
+                            </DataGridTextColumn.Header>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Binding="{Binding AvailableText}" Width="110">
+                            <DataGridTextColumn.Header>
+                                <TextBlock Text="{DynamicResource Hdr_Available}"/>
+                            </DataGridTextColumn.Header>
+                        </DataGridTextColumn>
+                        <DataGridTemplateColumn Width="100">
+                            <DataGridTemplateColumn.Header>
+                                <TextBlock Text="{DynamicResource Hdr_Action}"/>
+                            </DataGridTemplateColumn.Header>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Content="{DynamicResource Order}"
+                                            Style="{StaticResource InfoButtonStyle}"
+                                            Margin="2"
+                                            Command="{Binding DataContext.OrderCommand,
+                                                      RelativeSource={RelativeSource AncestorType=Window}}"
+                                            CommandParameter="{Binding}"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+        </Grid>
+
+        <!-- ========== Статус бар ========== -->
+        <StatusBar Grid.Row="2">
+            <StatusBarItem>
+                <TextBlock Text="{Binding StatusText}"/>
+            </StatusBarItem>
+            <StatusBarItem HorizontalAlignment="Right">
+                <TextBlock Text="{Binding UserStatusText}"/>
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>

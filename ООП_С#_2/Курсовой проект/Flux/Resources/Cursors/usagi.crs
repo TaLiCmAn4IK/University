@@ -1,0 +1,51 @@
+﻿[Arrow]
+Path=Usagi.ani
+
+[Hand]
+Path=Usagi Link.ani
+
+[Wait]
+Path=Usagi Busy.ani
+
+[IBeam]
+Path=Usagi Text.ani
+
+[No]
+Path=Usagi Unavailable.ani
+
+[UpArrow]
+Path=Usagi Alternate.ani
+
+[SizeNESW]
+Path=Usagi Diagonal 2.ani
+
+[SizeNWSE]
+Path=Usagi Diagonal 1.ani
+
+[NWPen]
+Path=Usagi Handwriting.ani
+
+[Help]
+Path=Usagi Help.ani
+
+[SizeWE]
+Path=Usagi Horizontal.ani
+
+[Pin]
+Path=Usagi Location.ani
+
+[SizeAll]
+Path=Usagi Move.ani
+
+[Person]
+Path=Usagi Person.ani
+
+[Crosshair]
+Path=Usagi Precision.ani
+
+[SizeNS]
+Path=Usagi Vertical.ani
+
+[AppStarting]
+Path=Usagi Working.ani
+

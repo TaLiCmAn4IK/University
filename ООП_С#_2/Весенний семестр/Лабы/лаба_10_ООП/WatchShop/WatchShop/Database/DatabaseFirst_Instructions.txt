@@ -1,0 +1,74 @@
+==============================================================================
+ ЛАБ 9 — Пункт 6: Генерация модели EDM и сущностных классов из БД
+ (Database First / Model First)
+==============================================================================
+
+В лаб 9 основной подход — CODE FIRST: сущности (папка Entities/) написаны
+руками, БД описывается C#-классами. Но ТЗ требует ПРОДЕМОНСТРИРОВАТЬ ещё и
+обратный подход — Database First (сгенерировать классы ИЗ существующей БД).
+
+Ниже — как это сделать. Реально выполнять не обязательно (Code First уже
+покрывает задание), но на защите нужно уметь показать команду и объяснить.
+
+------------------------------------------------------------------------------
+ ВАРИАНТ A. EF Core — Scaffold-DbContext (рекомендуется, наш стек)
+------------------------------------------------------------------------------
+
+В Visual Studio открыть:
+   Tools → NuGet Package Manager → Package Manager Console
+
+Выполнить команду (одной строкой):
+
+   Scaffold-DbContext "Server=localhost;Database=WatchShopDB;Integrated Security=true;TrustServerCertificate=true;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir GeneratedModels -ContextDir GeneratedModels -Context ScaffoldedDbContext -Force
+
+Что произойдёт:
+  - EF Core подключится к существующей БД WatchShopDB
+  - просканирует все таблицы, ключи, связи (FK)
+  - сгенерирует в папку GeneratedModels/:
+      * по одному C#-классу на каждую таблицу (Watch.cs, User.cs, Order.cs …)
+      * класс ScaffoldedDbContext с DbSet-ами и Fluent API конфигурацией,
+        восстановленной из схемы БД
+  - -Force перезапишет файлы если уже есть
+
+Это и есть DATABASE FIRST: модель построена ИЗ базы, а не наоборот.
+
+Альтернатива — через dotnet CLI (из папки проекта):
+
+   dotnet ef dbcontext scaffold "Server=localhost;Database=WatchShopDB;Integrated Security=true;TrustServerCertificate=true;" Microsoft.EntityFrameworkCore.SqlServer -o GeneratedModels -f
+
+------------------------------------------------------------------------------
+ ВАРИАНТ B. Классический EF6 — мастер EDMX (Model First / Database First)
+------------------------------------------------------------------------------
+
+Это старый подход (.NET Framework, EF6), для демонстрации концепции EDM:
+
+  1. Правый клик по проекту → Add → New Item
+  2. Выбрать "ADO.NET Entity Data Model" (.edmx)
+  3. Мастер Entity Data Model Wizard:
+       - "EF Designer from database"  → Database First
+         (выбрать подключение, отметить таблицы → сгенерируется .edmx
+          с визуальной диаграммой + классы)
+       - "Empty EF Designer model"    → Model First
+         (рисуешь сущности мышкой на диаграмме, потом
+          "Generate Database from Model" создаёт SQL-скрипт схемы)
+
+  .edmx состоит из трёх слоёв EDM:
+       * CSDL (Conceptual)  — концептуальная модель (сущности в терминах ООП)
+       * SSDL (Storage)     — модель хранилища (реальные таблицы БД)
+       * MSL  (Mapping)     — отображение CSDL ↔ SSDL
+
+EF Core НЕ использует .edmx (его убрали), поэтому в нашем проекте на .NET 8
+правильный способ — Scaffold-DbContext (Вариант A). Про EDMX рассказываем
+теоретически: что это такое и из каких слоёв состоит.
+
+------------------------------------------------------------------------------
+ ИТОГ для защиты
+------------------------------------------------------------------------------
+
+  - Наш проект использует CODE FIRST (Entities/ + WatchShopDbContext).
+  - DATABASE FIRST демонстрируется командой Scaffold-DbContext —
+    она генерирует классы и контекст из готовой БД WatchShopDB.
+  - Концепцию EDM (CSDL/SSDL/MSL) и EDMX-дизайнер объясняем словами:
+    это механизм классического EF6; в EF Core ему на смену пришли
+    POCO-классы + Fluent API + scaffolding.
+==============================================================================

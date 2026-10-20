@@ -1,0 +1,336 @@
+<mxfile host="Electron">
+  <diagram name="class_diagram" id="watchshop-class">
+    <mxGraphModel dx="1717" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1680" pageHeight="880" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lbl_col1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontFamily=Times New Roman;" value="View" vertex="1">
+          <mxGeometry height="24" width="240" x="40" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_col2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontFamily=Times New Roman;" value="ViewModel" vertex="1">
+          <mxGeometry height="24" width="240" x="340" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_col3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontFamily=Times New Roman;" value="Модель данных" vertex="1">
+          <mxGeometry height="24" width="240" x="640" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_col4" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontFamily=Times New Roman;" value="Доступ к данным" vertex="1">
+          <mxGeometry height="24" width="240" x="960" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_col5" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontFamily=Times New Roman;" value="ICommand" vertex="1">
+          <mxGeometry height="24" width="240" x="1240" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="C_MainWindow" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=middle;startSize=30;horizontal=1;collapsible=0;swimlaneFillColor=#FFFFFF;fillColor=#FFFFFF;strokeColor=#000000;rounded=0;fontSize=13;html=1;" value="&lt;b&gt;MainWindow&lt;/b&gt;" vertex="1">
+          <mxGeometry height="82" width="240" x="40" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="C_MainWindow_dv" parent="C_MainWindow" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;html=1;" value="" vertex="1">
+          <mxGeometry height="8" width="240" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C_MainWindow_m0" parent="C_MainWindow" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="- LoadCustomCursor()" vertex="1">
+          <mxGeometry height="22" width="240" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="C_INotify" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=middle;startSize=46;horizontal=1;collapsible=0;swimlaneFillColor=#FFFFFF;fillColor=#FFFFFF;strokeColor=#000000;rounded=0;fontSize=13;html=1;" value="&lt;b&gt;INotifyPropertyChanged&lt;/b&gt;" vertex="1">
+          <mxGeometry height="90" width="240" x="340" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="C_INotify_m0" parent="C_INotify" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="+ PropertyChanged : Event" vertex="1">
+          <mxGeometry height="22" width="240" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="C_ICommand" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=middle;startSize=46;horizontal=1;collapsible=0;swimlaneFillColor=#FFFFFF;fillColor=#FFFFFF;strokeColor=#000000;rounded=0;fontSize=13;html=1;" value="&lt;b&gt;ICommand&lt;/b&gt;" vertex="1">
+          <mxGeometry height="112" width="240" x="1240" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="C_ICommand_m0" parent="C_ICommand" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="+ CanExecute(parameter) : bool" vertex="1">
+          <mxGeometry height="22" width="240" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="C_ICommand_m1" parent="C_ICommand" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="+ Execute(parameter) : void" vertex="1">
+          <mxGeometry height="22" width="240" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="C_ViewModelBase" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=middle;startSize=30;horizontal=1;collapsible=0;swimlaneFillColor=#FFFFFF;fillColor=#FFFFFF;strokeColor=#000000;rounded=0;fontSize=13;html=1;" value="&lt;b&gt;ViewModelBase&lt;/b&gt;" vertex="1">
+          <mxGeometry height="104" width="240" x="340" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="C_ViewModelBase_dv" parent="C_ViewModelBase" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;html=1;" value="" vertex="1">
+          <mxGeometry height="8" width="240" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C_ViewModelBase_m0" parent="C_ViewModelBase" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="# OnPropertyChanged()" vertex="1">
+          <mxGeometry height="22" width="240" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="C_ViewModelBase_m1" parent="C_ViewModelBase" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="# SetProperty&lt;T&gt;()" vertex="1">
+          <mxGeometry height="22" width="240" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C_RelayCommand" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=middle;startSize=30;horizontal=1;collapsible=0;swimlaneFillColor=#FFFFFF;fillColor=#FFFFFF;strokeColor=#000000;rounded=0;fontSize=13;html=1;" value="&lt;b&gt;RelayCommand&lt;/b&gt;" vertex="1">
+          <mxGeometry height="104" width="240" x="1240" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="C_RelayCommand_dv" parent="C_RelayCommand" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;html=1;" value="" vertex="1">
+          <mxGeometry height="8" width="240" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C_RelayCommand_m0" parent="C_RelayCommand" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="+ CanExecute()" vertex="1">
+          <mxGeometry height="22" width="240" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="C_RelayCommand_m1" parent="C_RelayCommand" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="+ Execute()" vertex="1">
+          <mxGeometry height="22" width="240" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C_MainViewModel" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=middle;startSize=30;horizontal=1;collapsible=0;swimlaneFillColor=#FFFFFF;fillColor=#FFFFFF;strokeColor=#000000;rounded=0;fontSize=13;html=1;" value="&lt;b&gt;MainViewModel&lt;/b&gt;" vertex="1">
+          <mxGeometry height="214" width="240" x="40" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="C_MainViewModel_p0" parent="C_MainViewModel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="- watchRepo : WatchRepository" vertex="1">
+          <mxGeometry height="22" width="240" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C_MainViewModel_p0b" parent="C_MainViewModel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="- userRepo : UserRepository" vertex="1">
+          <mxGeometry height="22" width="240" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="C_MainViewModel_p1" parent="C_MainViewModel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="- filteredWatches : ObservableCollection&lt;WatchViewModel&gt;" vertex="1">
+          <mxGeometry height="22" width="240" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="C_MainViewModel_p2" parent="C_MainViewModel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="- currentUser : User" vertex="1">
+          <mxGeometry height="22" width="240" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="C_MainViewModel_p3" parent="C_MainViewModel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="+ UndoRedo : UndoRedoService" vertex="1">
+          <mxGeometry height="22" width="240" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="C_MainViewModel_dv" parent="C_MainViewModel" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;html=1;" value="" vertex="1">
+          <mxGeometry height="8" width="240" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="C_MainViewModel_m0" parent="C_MainViewModel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="- ApplyFilters()" vertex="1">
+          <mxGeometry height="22" width="240" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="C_MainViewModel_m1" parent="C_MainViewModel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="- OrderWatch()" vertex="1">
+          <mxGeometry height="22" width="240" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="C_MainViewModel_m2" parent="C_MainViewModel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="- EditWatch()" vertex="1">
+          <mxGeometry height="22" width="240" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="C_WatchViewModel" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=middle;startSize=30;horizontal=1;collapsible=0;swimlaneFillColor=#FFFFFF;fillColor=#FFFFFF;strokeColor=#000000;rounded=0;fontSize=13;html=1;" value="&lt;b&gt;WatchViewModel&lt;/b&gt;" vertex="1">
+          <mxGeometry height="192" width="240" x="340" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="C_WatchViewModel_p0" parent="C_WatchViewModel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="+ Watch : Watch" vertex="1">
+          <mxGeometry height="22" width="240" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C_WatchViewModel_p1" parent="C_WatchViewModel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="+ ShortName : string" vertex="1">
+          <mxGeometry height="22" width="240" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="C_WatchViewModel_p2" parent="C_WatchViewModel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="+ Quantity : int" vertex="1">
+          <mxGeometry height="22" width="240" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="C_WatchViewModel_dv" parent="C_WatchViewModel" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;html=1;" value="" vertex="1">
+          <mxGeometry height="8" width="240" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="C_WatchViewModel_m0" parent="C_WatchViewModel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="+ GiveItemCommand : ICommand" vertex="1">
+          <mxGeometry height="22" width="240" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="C_WatchViewModel_m0b" parent="C_WatchViewModel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="+ GetItemCommand : ICommand" vertex="1">
+          <mxGeometry height="22" width="240" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="C_WatchViewModel_m1" parent="C_WatchViewModel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="- GiveItem()" vertex="1">
+          <mxGeometry height="22" width="240" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="C_WatchViewModel_m2" parent="C_WatchViewModel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="- GetItem()" vertex="1">
+          <mxGeometry height="22" width="240" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="C_Watch" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=middle;startSize=30;horizontal=1;collapsible=0;swimlaneFillColor=#FFFFFF;fillColor=#FFFFFF;strokeColor=#000000;rounded=0;fontSize=13;html=1;" value="&lt;b&gt;Watch&lt;/b&gt;" vertex="1">
+          <mxGeometry height="170" width="240" x="640" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="C_Watch_p0" parent="C_Watch" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="+ Id : int" vertex="1">
+          <mxGeometry height="22" width="240" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C_Watch_p1" parent="C_Watch" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="+ ShortName : string" vertex="1">
+          <mxGeometry height="22" width="240" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="C_Watch_p2" parent="C_Watch" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="+ Price : decimal" vertex="1">
+          <mxGeometry height="22" width="240" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="C_Watch_p3" parent="C_Watch" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="+ Quantity : int" vertex="1">
+          <mxGeometry height="22" width="240" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="C_Watch_dv" parent="C_Watch" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;html=1;" value="" vertex="1">
+          <mxGeometry height="8" width="240" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="C_Watch_m0" parent="C_Watch" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="+ RefreshLocalization()" vertex="1">
+          <mxGeometry height="22" width="240" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="C_WatchRepository" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=middle;startSize=30;horizontal=1;collapsible=0;swimlaneFillColor=#FFFFFF;fillColor=#FFFFFF;strokeColor=#000000;rounded=0;fontSize=13;html=1;" value="&lt;b&gt;WatchRepository&lt;/b&gt;" vertex="1">
+          <mxGeometry height="148" width="240" x="940" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="C_WatchRepository_p0" parent="C_WatchRepository" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="- connectionString : string" vertex="1">
+          <mxGeometry height="22" width="240" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C_WatchRepository_dv" parent="C_WatchRepository" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;html=1;" value="" vertex="1">
+          <mxGeometry height="8" width="240" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="C_WatchRepository_m0" parent="C_WatchRepository" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="+ GetAllWatches() : List&lt;Watch&gt;" vertex="1">
+          <mxGeometry height="22" width="240" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C_WatchRepository_m1" parent="C_WatchRepository" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="+ UpdateWatch()" vertex="1">
+          <mxGeometry height="22" width="240" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="C_WatchRepository_m2" parent="C_WatchRepository" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="+ CreateOrder()" vertex="1">
+          <mxGeometry height="22" width="240" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="C_DelegateCommand" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=middle;startSize=30;horizontal=1;collapsible=0;swimlaneFillColor=#FFFFFF;fillColor=#FFFFFF;strokeColor=#000000;rounded=0;fontSize=13;html=1;" value="&lt;b&gt;DelegateCommand&lt;/b&gt;" vertex="1">
+          <mxGeometry height="104" width="240" x="1240" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="C_DelegateCommand_dv" parent="C_DelegateCommand" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;html=1;" value="" vertex="1">
+          <mxGeometry height="8" width="240" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C_DelegateCommand_m0" parent="C_DelegateCommand" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="+ CanExecute()" vertex="1">
+          <mxGeometry height="22" width="240" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="C_DelegateCommand_m1" parent="C_DelegateCommand" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="+ Execute()" vertex="1">
+          <mxGeometry height="22" width="240" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C_UndoRedo" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=middle;startSize=30;horizontal=1;collapsible=0;swimlaneFillColor=#FFFFFF;fillColor=#FFFFFF;strokeColor=#000000;rounded=0;fontSize=13;html=1;" value="&lt;b&gt;UndoRedoService&lt;/b&gt;" vertex="1">
+          <mxGeometry height="104" width="240" x="40" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="C_UndoRedo_dv" parent="C_UndoRedo" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;html=1;" value="" vertex="1">
+          <mxGeometry height="8" width="240" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C_UndoRedo_m0" parent="C_UndoRedo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="+ Undo()" vertex="1">
+          <mxGeometry height="22" width="240" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="C_UndoRedo_m1" parent="C_UndoRedo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="+ Redo()" vertex="1">
+          <mxGeometry height="22" width="240" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C_User" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=middle;startSize=30;horizontal=1;collapsible=0;swimlaneFillColor=#FFFFFF;fillColor=#FFFFFF;strokeColor=#000000;rounded=0;fontSize=13;html=1;" value="&lt;&lt;model&gt;&gt;&lt;br&gt;&lt;b&gt;User&lt;/b&gt;" vertex="1">
+          <mxGeometry height="126" width="240" x="640" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="C_User_p0" parent="C_User" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="+ Id : int" vertex="1">
+          <mxGeometry height="22" width="240" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C_User_p1" parent="C_User" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="+ Username : string" vertex="1">
+          <mxGeometry height="22" width="240" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="C_User_p2" parent="C_User" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="+ Role : string" vertex="1">
+          <mxGeometry height="22" width="240" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="C_User_p3" parent="C_User" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="+ IsAdmin : bool" vertex="1">
+          <mxGeometry height="22" width="240" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="C_UserRepository" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=middle;startSize=30;horizontal=1;collapsible=0;swimlaneFillColor=#FFFFFF;fillColor=#FFFFFF;strokeColor=#000000;rounded=0;fontSize=13;html=1;" value="&lt;b&gt;UserRepository&lt;/b&gt;" vertex="1">
+          <mxGeometry height="104" width="240" x="960" y="651" as="geometry" />
+        </mxCell>
+        <mxCell id="C_UserRepository_dv" parent="C_UserRepository" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;html=1;" value="" vertex="1">
+          <mxGeometry height="8" width="240" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C_UserRepository_m0" parent="C_UserRepository" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="+ Authenticate() : User" vertex="1">
+          <mxGeometry height="22" width="240" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="C_UserRepository_m1" parent="C_UserRepository" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" value="+ Register()" vertex="1">
+          <mxGeometry height="22" width="240" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E1" edge="1" parent="1" source="C_ViewModelBase" style="endArrow=block;endFill=0;endSize=14;dashed=1;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="C_INotify">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="200" />
+              <mxPoint x="460" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3" edge="1" parent="1" source="C_WatchViewModel" style="endArrow=block;endFill=0;endSize=14;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="C_ViewModelBase">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E4" edge="1" parent="1" source="C_RelayCommand" style="endArrow=block;endFill=0;endSize=14;dashed=1;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="C_ICommand">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E5" edge="1" parent="1" source="C_DelegateCommand" style="endArrow=block;endFill=0;endSize=14;dashed=1;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="C_ICommand_m0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1360" y="360" />
+              <mxPoint x="1510" y="360" />
+              <mxPoint x="1510" y="150" />
+            </Array>
+            <mxPoint x="1510" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E6" edge="1" parent="1" source="C_MainWindow" style="endArrow=open;endFill=0;endSize=12;dashed=1;startArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="C_MainViewModel">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E6_lbl" connectable="0" parent="E6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Times New Roman;" value="DataContext" vertex="1">
+          <mxGeometry relative="1" x="-0.15" y="1" as="geometry">
+            <mxPoint x="12" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E7" edge="1" parent="1" source="C_MainViewModel_p1" style="endArrow=open;endFill=0;endSize=12;dashed=1;startArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0;entryY=0.44;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="C_WatchViewModel">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="485" />
+            </Array>
+            <mxPoint x="290" y="490" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E8" edge="1" parent="1" source="C_WatchViewModel" style="endArrow=open;endFill=0;endSize=12;dashed=1;startArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=1;exitY=0.44;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="C_Watch">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="485" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E14" edge="1" parent="1" source="C_WatchRepository" style="endArrow=open;endFill=0;endSize=12;dashed=1;startArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0;exitY=0.57;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="C_Watch">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E10" edge="1" parent="1" source="C_MainViewModel_p2" style="endArrow=open;endFill=0;endSize=12;dashed=1;startArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="C_WatchRepository_m2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="507" />
+              <mxPoint x="320" y="600" />
+              <mxPoint x="910" y="600" />
+              <mxPoint x="910" y="515" />
+            </Array>
+            <mxPoint x="290" y="440" as="sourcePoint" />
+            <mxPoint x="920" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E13" edge="1" parent="1" source="C_WatchViewModel_p1" style="endArrow=open;endFill=0;endSize=12;dashed=1;startArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="C_DelegateCommand">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="463" />
+              <mxPoint x="620" y="350" />
+              <mxPoint x="1210" y="350" />
+              <mxPoint x="1210" y="482" />
+            </Array>
+            <mxPoint x="600" y="496" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E12" edge="1" parent="1" source="C_MainViewModel" style="endArrow=open;endFill=0;endSize=12;dashed=1;startArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="C_UndoRedo">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E9" edge="1" parent="1" source="C_MainViewModel" style="endArrow=open;endFill=0;endSize=12;dashed=1;startArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="C_User">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="507" />
+              <mxPoint x="20" y="760" />
+              <mxPoint x="330" y="760" />
+              <mxPoint x="330" y="703" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E11" edge="1" parent="1" source="C_MainViewModel_p3" style="endArrow=open;endFill=0;endSize=12;dashed=1;startArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="C_UserRepository_m0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="529" />
+              <mxPoint x="300" y="620" />
+              <mxPoint x="910" y="620" />
+              <mxPoint x="910" y="700" />
+            </Array>
+            <mxPoint x="300" y="614" as="sourcePoint" />
+            <mxPoint x="940" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E15" edge="1" parent="1" source="C_UserRepository_m1" style="endArrow=open;endFill=0;endSize=12;dashed=1;startArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="C_User_p2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="725" />
+            </Array>
+            <mxPoint x="920" y="700" as="sourcePoint" />
+            <mxPoint x="900" y="702" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bMK05WXaM9NDtQbVecN3-1" edge="1" parent="1" source="C_MainViewModel" style="endArrow=block;endFill=0;endSize=14;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="C_ViewModelBase_m0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="269" />
+            </Array>
+            <mxPoint x="200" y="380" as="sourcePoint" />
+            <mxPoint x="310" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

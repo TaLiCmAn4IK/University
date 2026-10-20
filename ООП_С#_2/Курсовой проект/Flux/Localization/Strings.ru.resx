@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+
+  <data name="AppTitle"><value>Flux</value></data>
+  <data name="Login"><value>Вход</value></data>
+  <data name="Register"><value>Регистрация</value></data>
+  <data name="Logout"><value>Выйти</value></data>
+  <data name="Username"><value>Логин</value></data>
+  <data name="Password"><value>Пароль</value></data>
+  <data name="Email"><value>Эл. почта</value></data>
+  <data name="Nickname"><value>Никнейм</value></data>
+  <data name="Submit"><value>Отправить</value></data>
+  <data name="Cancel"><value>Отмена</value></data>
+  <data name="Confirm"><value>Подтвердить</value></data>
+  <data name="OK"><value>OK</value></data>
+  <data name="Close"><value>Закрыть</value></data>
+  <data name="Save"><value>Сохранить</value></data>
+  <data name="Back"><value>Назад</value></data>
+  <data name="Language"><value>Язык</value></data>
+  <data name="English"><value>English</value></data>
+  <data name="Russian"><value>Русский</value></data>
+
+  <data name="Play"><value>ИГРАТЬ</value></data>
+  <data name="FindMatch"><value>Найти матч</value></data>
+  <data name="LeaveQueue"><value>Покинуть очередь</value></data>
+  <data name="Queue"><value>Очередь</value></data>
+  <data name="SearchingOpponents"><value>Поиск соперников...</value></data>
+  <data name="MatchFound"><value>Матч найден!</value></data>
+  <data name="ReadyCheck"><value>Готовность</value></data>
+  <data name="Ready"><value>Готов</value></data>
+  <data name="NotReady"><value>Не готов</value></data>
+  <data name="SecondsLeft"><value>секунд осталось</value></data>
+  <data name="ReturnedToQueue"><value>Игрок не подтвердил — возврат в очередь.</value></data>
+
+  <data name="CS2"><value>CS2</value></data>
+  <data name="Chess"><value>Шахматы</value></data>
+  <data name="SelectGame"><value>Выберите игру</value></data>
+  <data name="Mode5v5"><value>Соревновательный 5 на 5</value></data>
+  <data name="Mode1v1"><value>Классика 1 на 1</value></data>
+
+  <data name="ServerPickPhase"><value>Выбор сервера</value></data>
+  <data name="MapPickPhase"><value>Выбор карты</value></data>
+  <data name="YourTeamPicks"><value>Выбирает ваша команда.</value></data>
+  <data name="EnemyTeamPicks"><value>Выбирает команда противника...</value></data>
+  <data name="SelectServer"><value>Выберите сервер:</value></data>
+  <data name="SelectMap"><value>Выберите карту:</value></data>
+  <data name="MapSelected"><value>Выбрана карта:</value></data>
+  <data name="ServerSelected"><value>Выбран сервер:</value></data>
+  <data name="StartMatch"><value>Начать матч</value></data>
+
+  <data name="MatchResult"><value>Результат матча</value></data>
+  <data name="Victory"><value>ПОБЕДА</value></data>
+  <data name="Defeat"><value>ПОРАЖЕНИЕ</value></data>
+  <data name="Draw"><value>НИЧЬЯ</value></data>
+  <data name="Team1"><value>Команда 1</value></data>
+  <data name="Team2"><value>Команда 2</value></data>
+  <data name="Player"><value>Игрок</value></data>
+  <data name="Kills"><value>У</value></data>
+  <data name="Deaths"><value>С</value></data>
+  <data name="Assists"><value>П</value></data>
+  <data name="ADR"><value>ADR</value></data>
+  <data name="HLTV"><value>HLTV</value></data>
+  <data name="RatingChange"><value>Изменение рейтинга</value></data>
+  <data name="ReturnToMenu"><value>В меню</value></data>
+
+  <data name="Profile"><value>Профиль</value></data>
+  <data name="MatchHistory"><value>История матчей</value></data>
+  <data name="Search"><value>Поиск</value></data>
+  <data name="Admin"><value>Админ</value></data>
+  <data name="Menu"><value>Меню</value></data>
+
+  <data name="TotalMatches"><value>Всего матчей</value></data>
+  <data name="Wins"><value>Победы</value></data>
+  <data name="Losses"><value>Поражения</value></data>
+  <data name="Draws"><value>Ничьи</value></data>
+  <data name="Winrate"><value>Винрейт</value></data>
+  <data name="Elo"><value>Elo</value></data>
+  <data name="AverageStats"><value>Средняя статистика (30 матчей CS2)</value></data>
+  <data name="AvgKills"><value>Ср. убийств</value></data>
+  <data name="AvgDeaths"><value>Ср. смертей</value></data>
+  <data name="AvgKD"><value>Ср. K/D</value></data>
+  <data name="AvgADR"><value>Ср. ADR</value></data>
+
+  <data name="Date"><value>Дата</value></data>
+  <data name="Game"><value>Игра</value></data>
+  <data name="Result"><value>Результат</value></data>
+  <data name="Score"><value>Счёт</value></data>
+  <data name="Map"><value>Карта</value></data>
+  <data name="ServerCol"><value>Сервер</value></data>
+  <data name="Opponent"><value>Соперник</value></data>
+  <data name="Details"><value>Подробнее</value></data>
+  <data name="Win"><value>Победа</value></data>
+  <data name="Loss"><value>Поражение</value></data>
+
+  <data name="StatKills"><value>Убийства</value></data>
+  <data name="StatDeaths"><value>Смерти</value></data>
+  <data name="StatKD"><value>K/D</value></data>
+  <data name="StatKDA"><value>K/D/A</value></data>
+  <data name="StatKR"><value>K/R</value></data>
+  <data name="StatHS"><value>HS %</value></data>
+  <data name="StatADR"><value>ADR</value></data>
+  <data name="Last30Matches"><value>Последние 30 матчей</value></data>
+  <data name="CS2Stats"><value>Статистика CS2</value></data>
+  <data name="ChessStats"><value>Статистика шахмат</value></data>
+  <data name="TotalMoves"><value>Всего ходов</value></data>
+  <data name="AvgMovesPerGame"><value>Ходов за партию</value></data>
+  <data name="GoodMoves"><value>Хорошие ходы</value></data>
+  <data name="Brilliant"><value>Блестящие</value></data>
+  <data name="Inaccuracies"><value>Неточности</value></data>
+  <data name="Mistakes"><value>Ошибки</value></data>
+  <data name="Blunders"><value>Зевки</value></data>
+  <data name="BanPhase"><value>Фаза банов</value></data>
+  <data name="MapBanned"><value>забанена</value></data>
+  <data name="BanThisMap"><value>Забанить карту</value></data>
+  <data name="MapsRemaining"><value>карт осталось</value></data>
+  <data name="YourTeamBans"><value>Банит ваша команда.</value></data>
+  <data name="EnemyTeamBans"><value>Банит команда противника...</value></data>
+  <data name="FinalMap"><value>Финальная карта</value></data>
+
+  <data name="SearchByNickname"><value>Поиск по никнейму...</value></data>
+  <data name="ViewProfile"><value>Открыть профиль</value></data>
+  <data name="NoResults"><value>Ничего не найдено</value></data>
+
+  <data name="AdminPanel"><value>Панель администратора</value></data>
+  <data name="Users"><value>Пользователи</value></data>
+  <data name="AllMatches"><value>Все матчи</value></data>
+  <data name="Ban"><value>Забанить</value></data>
+  <data name="Unban"><value>Разбанить</value></data>
+  <data name="Banned"><value>Забанен</value></data>
+  <data name="Active"><value>Активен</value></data>
+  <data name="Role"><value>Роль</value></data>
+  <data name="Status"><value>Статус</value></data>
+
+  <data name="LoginError"><value>Неверный никнейм или пароль.</value></data>
+  <data name="RegistrationError"><value>Ошибка регистрации.</value></data>
+  <data name="UserBanned"><value>Ваш аккаунт заблокирован. Игра недоступна.</value></data>
+  <data name="TournamentJoinFailed"><value>Не удалось присоединиться к турниру. Возможно, аккаунт заблокирован или регистрация закрыта.</value></data>
+  <data name="InvitationBanned"><value>Ваш аккаунт заблокирован. Вступление в лобби недоступно.</value></data>
+  <data name="FieldsRequired"><value>Все поля обязательны.</value></data>
+  <data name="PasswordsMismatch"><value>Пароли не совпадают.</value></data>
+  <data name="ConfirmPassword"><value>Повторите пароль</value></data>
+  <data name="Welcome"><value>Добро пожаловать</value></data>
+  <data name="AdminDefaultCreds"><value>Админ по умолчанию: никнейм 'Admin', пароль 'admin123'</value></data>
+  <data name="ValNicknameRequired"><value>Никнейм обязателен.</value></data>
+  <data name="ValNicknameLength"><value>Никнейм должен содержать от 3 до 20 символов.</value></data>
+  <data name="ValNicknameChars"><value>Никнейм может содержать только латинские буквы, цифры и символ подчёркивания.</value></data>
+  <data name="ValNicknameTaken"><value>Этот никнейм уже занят.</value></data>
+  <data name="ValEmailInvalid"><value>Введите корректный email.</value></data>
+  <data name="ValEmailTaken"><value>Этот email уже зарегистрирован.</value></data>
+  <data name="ValPasswordLength"><value>Пароль должен содержать не менее 6 символов.</value></data>
+  <data name="ValPasswordComplexity"><value>Пароль должен содержать хотя бы одну букву и одну цифру.</value></data>
+
+  <data name="ChessBoard"><value>Шахматная доска</value></data>
+  <data name="YourColorWhite"><value>Вы играете белыми</value></data>
+  <data name="YourColorBlack"><value>Вы играете чёрными</value></data>
+  <data name="WhiteToMove"><value>Ход белых</value></data>
+  <data name="BlackToMove"><value>Ход чёрных</value></data>
+  <data name="OfferDraw"><value>Ничья</value></data>
+  <data name="DrawDeclined"><value>Соперник отклонил предложение ничьей.</value></data>
+  <data name="Resign"><value>Сдаться</value></data>
+  <data name="Checkmate"><value>Мат</value></data>
+  <data name="Stalemate"><value>Пат</value></data>
+  <data name="DrawAgreement"><value>Ничья по соглашению</value></data>
+  <data name="Check"><value>Шах</value></data>
+  <data name="MoveHistory"><value>История ходов</value></data>
+  <data name="OpponentOfferedDraw"><value>Соперник предлагает ничью</value></data>
+  <data name="Accept"><value>Принять</value></data>
+  <data name="Decline"><value>Отклонить</value></data>
+
+  <data name="Loading"><value>Загрузка...</value></data>
+  <data name="Error"><value>Ошибка</value></data>
+  <data name="Success"><value>Успех</value></data>
+
+  <data name="Friends"><value>Друзья</value></data>
+  <data name="MyFriends"><value>Мои друзья</value></data>
+  <data name="NoFriendsYet"><value>У вас пока нет друзей. Добавьте кого-нибудь через поиск.</value></data>
+  <data name="IncomingRequests"><value>Входящие заявки в друзья</value></data>
+  <data name="AddFriend"><value>Добавить в друзья</value></data>
+  <data name="InviteFriend"><value>Пригласить друга</value></data>
+  <data name="FriendRequestSent"><value>Заявка в друзья отправлена.</value></data>
+  <data name="AlreadyFriends"><value>Вы уже друзья.</value></data>
+  <data name="RequestAlreadyPending"><value>Заявка уже отправлена и ожидает ответа.</value></data>
+  <data name="UserNotFound"><value>Пользователь не найден.</value></data>
+  <data name="Accepted"><value>Готово</value></data>
+
+  <data name="EloLevels"><value>Уровни Elo</value></data>
+  <data name="CurrentLevel"><value>Текущий уровень</value></data>
+  <data name="EloToNext"><value>До следующего уровня</value></data>
+  <data name="QueueRegion"><value>Европа</value></data>
+  <data name="QueueLabel"><value>Очередь</value></data>
+  <data name="ServerPickBy"><value>Выбор сервера: {0}</value></data>
+  <data name="MapBanBy"><value>Бан карты: {0}</value></data>
+  <data name="WaitingForLeader"><value>Ждём решения лидера вашей команды...</value></data>
+  <data name="BackButton"><value>Назад</value></data>
+  <data name="UploadAvatar"><value>Загрузить аватар</value></data>
+  <data name="KDTrend"><value>Динамика K/D (последние 30)</value></data>
+  <data name="NotEnoughData"><value>Недостаточно данных</value></data>
+  <data name="RecentMatches"><value>Последние матчи</value></data>
+  <data name="SeeFullHistory"><value>Смотреть всю историю матчей</value></data>
+  <data name="NoMatchesYet"><value>Матчей пока нет</value></data>
+  <data name="FullHistory"><value>Вся история</value></data>
+  <data name="RemoveAvatar"><value>Удалить аватар</value></data>
+  <data name="ShowLess"><value>Скрыть</value></data>
+  <data name="White"><value>БЕЛЫЕ</value></data>
+  <data name="Black"><value>ЧЁРНЫЕ</value></data>
+  <data name="OpenProfile"><value>Открыть профиль</value></data>
+  <data name="CS2MatchHistory"><value>История матчей CS2</value></data>
+  <data name="ChessMatchHistory"><value>История матчей шахмат</value></data>
+  <data name="Resignation"><value>Сдача</value></data>
+  <data name="DrawByAgreement"><value>Ничья по соглашению</value></data>
+  <data name="InsufficientMaterial"><value>Недостаточно материала</value></data>
+  <data name="GameOver"><value>Партия окончена</value></data>
+  <data name="MovesLower"><value>ходов</value></data>
+  <data name="JustNow"><value>только что</value></data>
+  <data name="MinAgo"><value>мин назад</value></data>
+  <data name="HoursAgo"><value>ч назад</value></data>
+  <data name="DaysAgo"><value>дн назад</value></data>
+  <data name="CS2Match"><value>Матч CS2</value></data>
+  <data name="ChessGame"><value>Шахматная партия</value></data>
+  <data name="RoleAdmin"><value>Админ</value></data>
+  <data name="RolePlayer"><value>Игрок</value></data>
+  <data name="EloCS2Header"><value>CS2 Elo</value></data>
+  <data name="EloChessHeader"><value>Шахматы Elo</value></data>
+  <data name="RemoveFriend"><value>Удалить</value></data>
+  <data name="WhiteSide"><value>Белые</value></data>
+  <data name="BlackSide"><value>Чёрные</value></data>
+  <data name="Leaderboard"><value>Лидерборд</value></data>
+  <data name="Level"><value>Уровень</value></data>
+  <data name="Filter"><value>Фильтр</value></data>
+  <data name="InvitationTitle"><value>Приглашение в лобби</value></data>
+  <data name="InvitationMessage"><value>приглашает вас в своё лобби</value></data>
+  <data name="OnlyLeaderCanStart"><value>Только лидер может начать матч</value></data>
+  <data name="Tournaments"><value>Турниры</value></data>
+  <data name="CreateTournament"><value>Создать турнир</value></data>
+  <data name="TournamentName"><value>Название турнира</value></data>
+  <data name="PlayerSlots"><value>Количество игроков</value></data>
+  <data name="Create"><value>Создать</value></data>
+  <data name="ActiveTournaments"><value>Активные турниры</value></data>
+  <data name="Players"><value>игроков</value></data>
+  <data name="Join"><value>Присоединиться</value></data>
+  <data name="Leave"><value>Выйти</value></data>
+  <data name="Start"><value>Старт</value></data>
+  <data name="Champion"><value>Чемпион</value></data>
+  <data name="TournamentStatusRegistration"><value>Регистрация</value></data>
+  <data name="TournamentStatusLive"><value>Идёт</value></data>
+  <data name="TournamentStatusFinished"><value>Завершён</value></data>
+  <data name="StartsIn"><value>Старт через</value></data>
+  <data name="StartingNow"><value>Стартует…</value></data>
+  <data name="Delete"><value>Удалить</value></data>
+  <data name="DurationMin"><value>Длительность (минут)</value></data>
+  <data name="CaptainSyncWaitTitle"><value>Ожидание хоста лобби</value></data>
+  <data name="CaptainSyncWaitSubtitle"><value>{0} выбирает сервер, баны карт и формирует результат матча. Экран обновится сам.</value></data>
+  <data name="MinutesShort"><value>мин</value></data>
+  <data name="SecondsShort"><value>с</value></data>
+</root>

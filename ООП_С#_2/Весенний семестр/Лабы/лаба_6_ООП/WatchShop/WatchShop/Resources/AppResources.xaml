@@ -1,0 +1,26 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="AppName">магазин часов</sys:String>
+    <sys:String x:Key="Version">v1.0</sys:String>
+
+    <sys:Double x:Key="DefaultFontSize">13</sys:Double>
+    <sys:Double x:Key="LargeFontSize">16</sys:Double>
+    <sys:Int32 x:Key="ButtonHeight">36</sys:Int32>
+    <sys:Int32 x:Key="CardWidth">200</sys:Int32>
+
+    <SolidColorBrush x:Key="PrimaryBrush" Color="#1A1A1A"/>
+    <SolidColorBrush x:Key="SuccessBrush" Color="#27ae60"/>
+    <SolidColorBrush x:Key="DangerBrush" Color="#e74c3c"/>
+    <SolidColorBrush x:Key="WarningBrush" Color="#f39c12"/>
+    <SolidColorBrush x:Key="InfoBrush" Color="#3498db"/>
+
+    <!-- динамический ресурс -->
+    <SolidColorBrush x:Key="DynamicAccentBrush" Color="#3498db"/>
+
+    <Thickness x:Key="DefaultMargin">5</Thickness>
+    <Thickness x:Key="LargeMargin">10</Thickness>
+    <CornerRadius x:Key="DefaultCornerRadius">5</CornerRadius>
+
+</ResourceDictionary>

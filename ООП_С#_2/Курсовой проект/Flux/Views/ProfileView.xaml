@@ -1,0 +1,504 @@
+<UserControl x:Class="Flux.Views.ProfileView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:loc="clr-namespace:Flux.Localization"
+             xmlns:lvc="clr-namespace:LiveChartsCore.SkiaSharpView.WPF;assembly=LiveChartsCore.SkiaSharpView.WPF">
+
+    <UserControl.Resources>
+        <!-- Single template for one match-history row, used by both Recent and Full lists -->
+        <DataTemplate x:Key="MatchHistoryRowTemplate">
+            <Button HorizontalContentAlignment="Stretch"
+                    Command="{Binding DataContext.OpenMatchDetailsCommand, RelativeSource={RelativeSource AncestorType=ItemsControl}}"
+                    CommandParameter="{Binding}"
+                    Margin="0,2" Padding="12,10" Cursor="Hand">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="rowBg" Background="#FF141414"
+                                CornerRadius="6" Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Stretch"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="rowBg" Property="Background" Value="#FF1E1E1E"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Button.Template>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="48"/>
+                        <ColumnDefinition Width="120"/>
+                        <ColumnDefinition Width="70"/>
+                        <ColumnDefinition Width="80"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="80"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Border Grid.Column="0" Width="32" Height="32"
+                            CornerRadius="4" HorizontalAlignment="Left"
+                            VerticalAlignment="Center">
+                        <Border.Style>
+                            <Style TargetType="Border">
+                                <Setter Property="Background" Value="#FF555555"/>
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding IsWin}" Value="True">
+                                        <Setter Property="Background" Value="{StaticResource SuccessBrush}"/>
+                                    </DataTrigger>
+                                    <DataTrigger Binding="{Binding IsDraw}" Value="True">
+                                        <Setter Property="Background" Value="{StaticResource InfoBrush}"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Border.Style>
+                        <TextBlock Text="{Binding ResultBadge}"
+                                   Foreground="#FF101010" FontWeight="Bold" FontSize="14"
+                                   HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+
+                    <TextBlock Grid.Column="1" Text="{Binding DateLabel}"
+                               Foreground="{StaticResource TextSecondaryBrush}" FontSize="13"
+                               VerticalAlignment="Center" TextTrimming="CharacterEllipsis"/>
+
+                    <TextBlock Grid.Column="2" Text="{Binding GameTypeLabel}"
+                               Foreground="{StaticResource TextPrimaryBrush}" FontSize="13"
+                               VerticalAlignment="Center"/>
+
+                    <TextBlock Grid.Column="3" Text="{Binding ResultLabel}" VerticalAlignment="Center"
+                               Foreground="{StaticResource TextPrimaryBrush}" FontWeight="Bold"/>
+
+                    <TextBlock Grid.Column="4" Text="{Binding ScoreLabel}" VerticalAlignment="Center"
+                               Foreground="{StaticResource TextSecondaryBrush}" TextTrimming="CharacterEllipsis"
+                               Margin="8,0,0,0"/>
+
+                    <TextBlock Grid.Column="5" Text="{Binding EloChangeLabel}" VerticalAlignment="Center"
+                               FontWeight="Bold" HorizontalAlignment="Right">
+                        <TextBlock.Style>
+                            <Style TargetType="TextBlock">
+                                <Setter Property="Foreground" Value="{StaticResource DangerBrush}"/>
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding IsWin}" Value="True">
+                                        <Setter Property="Foreground" Value="{StaticResource SuccessBrush}"/>
+                                    </DataTrigger>
+                                    <DataTrigger Binding="{Binding IsDraw}" Value="True">
+                                        <Setter Property="Foreground" Value="{StaticResource InfoBrush}"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </TextBlock.Style>
+                    </TextBlock>
+                </Grid>
+            </Button>
+        </DataTemplate>
+    </UserControl.Resources>
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel Margin="32,24,32,24">
+
+            <!-- ============ TOP BAR: BACK + HEADER ============ -->
+            <Grid Margin="0,0,0,20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button Grid.Column="0"
+                        Content="{loc:Loc BackButton}"
+                        Style="{StaticResource OutlineButton}"
+                        Command="{Binding BackCommand}"
+                        MinWidth="110" Height="40"
+                        VerticalAlignment="Center"
+                        FontFamily="Segoe UI"/>
+
+                <TextBlock Grid.Column="1"
+                           VerticalAlignment="Center"
+                           Margin="24,0,0,0">
+                    <Run Text="{loc:Loc Profile}" FontSize="30" FontWeight="Bold" Foreground="{StaticResource AccentBrush}"/>
+                    <Run Text=" · " FontSize="28" Foreground="#FF444444"/>
+                    <Run Text="{Binding Nickname}" FontSize="24" Foreground="{StaticResource TextPrimaryBrush}"/>
+                </TextBlock>
+            </Grid>
+
+            <!-- ============ AVATAR + ELO + W/L BLOCK ============ -->
+            <Grid Margin="0,0,0,18">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Avatar -->
+                <StackPanel Grid.Column="0" Width="150">
+                    <Grid Width="150" Height="150">
+                        <!-- Pure ellipse with ImageBrush; no Border so we never get yellow stroke artifacts -->
+                        <Ellipse>
+                            <Ellipse.Fill>
+                                <ImageBrush Stretch="UniformToFill" AlignmentX="Center" AlignmentY="Center">
+                                    <ImageBrush.ImageSource>
+                                        <MultiBinding Converter="{StaticResource AvatarImage}" ConverterParameter="150">
+                                            <Binding Path="AvatarBytes"/>
+                                            <Binding Path="Nickname"/>
+                                        </MultiBinding>
+                                    </ImageBrush.ImageSource>
+                                </ImageBrush>
+                            </Ellipse.Fill>
+                        </Ellipse>
+                        <!-- Clickable overlay -->
+                        <Button Command="{Binding UploadAvatarCommand}"
+                                Background="Transparent"
+                                BorderThickness="0"
+                                Cursor="Hand"
+                                ToolTip="{loc:Loc UploadAvatar}"
+                                IsEnabled="{Binding IsOwnProfile}"
+                                Focusable="False">
+                            <Button.Template>
+                                <ControlTemplate TargetType="Button">
+                                    <Ellipse Fill="Transparent"/>
+                                </ControlTemplate>
+                            </Button.Template>
+                        </Button>
+                    </Grid>
+                    <Button Content="{loc:Loc RemoveAvatar}"
+                            Command="{Binding RemoveAvatarCommand}"
+                            Style="{StaticResource OutlineButton}"
+                            Margin="0,12,0,0" Height="32" FontSize="12"
+                            Padding="10,0"
+                            HorizontalAlignment="Stretch"
+                            Visibility="{Binding HasCustomAvatar, Converter={StaticResource BoolToVisibility}}"/>
+                </StackPanel>
+
+                <!-- Right: Elo + record — показывает данные ВЫБРАННОЙ игры (CS2 / Chess) -->
+                <Grid Grid.Column="2"
+                      Visibility="{Binding SelectedTab, Converter={StaticResource EnumEqualsVisibility}, ConverterParameter=0}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="16"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Border Grid.Column="0" Style="{StaticResource AccentCard}" Padding="22">
+                        <StackPanel VerticalAlignment="Center">
+                            <TextBlock Text="{loc:Loc Elo}" Style="{StaticResource MutedText}"/>
+                            <TextBlock FontSize="56" FontWeight="Bold" Foreground="{StaticResource AccentBrush}">
+                                <Run Text="{Binding CS2.Elo, Mode=OneWay}"/>
+                            </TextBlock>
+                            <TextBlock Text="{loc:Loc CS2Stats}" Style="{StaticResource MutedText}" Margin="0,4,0,0"/>
+                        </StackPanel>
+                    </Border>
+                    <Border Grid.Column="2" Style="{StaticResource Card}" Padding="22">
+                        <Grid VerticalAlignment="Center">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Grid.Column="0">
+                                <TextBlock Text="{loc:Loc TotalMatches}" Style="{StaticResource MutedText}"/>
+                                <TextBlock Text="{Binding CS2.TotalMatches}" FontSize="26" FontWeight="Bold"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="1">
+                                <TextBlock Text="{loc:Loc Wins}" Style="{StaticResource MutedText}"/>
+                                <TextBlock Text="{Binding CS2.Wins}" FontSize="26" FontWeight="Bold" Foreground="{StaticResource SuccessBrush}"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="2">
+                                <TextBlock Text="{loc:Loc Losses}" Style="{StaticResource MutedText}"/>
+                                <TextBlock Text="{Binding CS2.Losses}" FontSize="26" FontWeight="Bold" Foreground="{StaticResource DangerBrush}"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="3">
+                                <TextBlock Text="{loc:Loc Winrate}" Style="{StaticResource MutedText}"/>
+                                <TextBlock FontSize="26" FontWeight="Bold" Foreground="{StaticResource AccentBrush}">
+                                    <Run Text="{Binding CS2.Winrate}"/><Run Text="%"/>
+                                </TextBlock>
+                            </StackPanel>
+                        </Grid>
+                    </Border>
+                </Grid>
+
+                <!-- Шахматный вариант того же блока — виден на вкладке «Chess» -->
+                <Grid Grid.Column="2"
+                      Visibility="{Binding SelectedTab, Converter={StaticResource EnumEqualsVisibility}, ConverterParameter=1}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="16"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Border Grid.Column="0" Style="{StaticResource AccentCard}" Padding="22">
+                        <StackPanel VerticalAlignment="Center">
+                            <TextBlock Text="{loc:Loc Elo}" Style="{StaticResource MutedText}"/>
+                            <TextBlock FontSize="56" FontWeight="Bold" Foreground="{StaticResource AccentBrush}">
+                                <Run Text="{Binding Chess.Elo, Mode=OneWay}"/>
+                            </TextBlock>
+                            <TextBlock Text="{loc:Loc ChessStats}" Style="{StaticResource MutedText}" Margin="0,4,0,0"/>
+                        </StackPanel>
+                    </Border>
+                    <Border Grid.Column="2" Style="{StaticResource Card}" Padding="22">
+                        <Grid VerticalAlignment="Center">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Grid.Column="0">
+                                <TextBlock Text="{loc:Loc TotalMatches}" Style="{StaticResource MutedText}"/>
+                                <TextBlock Text="{Binding Chess.TotalMatches}" FontSize="26" FontWeight="Bold"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="1">
+                                <TextBlock Text="{loc:Loc Wins}" Style="{StaticResource MutedText}"/>
+                                <TextBlock Text="{Binding Chess.Wins}" FontSize="26" FontWeight="Bold" Foreground="{StaticResource SuccessBrush}"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="2">
+                                <TextBlock Text="{loc:Loc Draws}" Style="{StaticResource MutedText}"/>
+                                <TextBlock Text="{Binding Chess.Draws}" FontSize="26" FontWeight="Bold" Foreground="{StaticResource InfoBrush}"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="3">
+                                <TextBlock Text="{loc:Loc Losses}" Style="{StaticResource MutedText}"/>
+                                <TextBlock Text="{Binding Chess.Losses}" FontSize="26" FontWeight="Bold" Foreground="{StaticResource DangerBrush}"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="4">
+                                <TextBlock Text="{loc:Loc Winrate}" Style="{StaticResource MutedText}"/>
+                                <TextBlock FontSize="26" FontWeight="Bold" Foreground="{StaticResource AccentBrush}">
+                                    <Run Text="{Binding Chess.Winrate}"/><Run Text="%"/>
+                                </TextBlock>
+                            </StackPanel>
+                        </Grid>
+                    </Border>
+                </Grid>
+            </Grid>
+
+            <!-- ============ TAB SELECTOR ============ -->
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,18">
+                <Button Content="{loc:Loc CS2Stats}" Command="{Binding SelectCS2TabCommand}"
+                        MinWidth="160" Height="42" Margin="0,0,10,0">
+                    <Button.Style>
+                        <Style TargetType="Button" BasedOn="{StaticResource OutlineButton}">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding SelectedTab}" Value="0">
+                                    <Setter Property="Background" Value="{StaticResource AccentBrush}"/>
+                                    <Setter Property="Foreground" Value="#FF101010"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                </Button>
+                <Button Content="{loc:Loc ChessStats}" Command="{Binding SelectChessTabCommand}"
+                        MinWidth="160" Height="42">
+                    <Button.Style>
+                        <Style TargetType="Button" BasedOn="{StaticResource OutlineButton}">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding SelectedTab}" Value="1">
+                                    <Setter Property="Background" Value="{StaticResource AccentBrush}"/>
+                                    <Setter Property="Foreground" Value="#FF101010"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                </Button>
+            </StackPanel>
+
+            <!-- ============ CS2 TAB ============ -->
+            <StackPanel Visibility="{Binding SelectedTab, Converter={StaticResource EnumEqualsVisibility}, ConverterParameter=0}">
+
+                <!-- Big stats row -->
+                <Border Style="{StaticResource Card}" Padding="22" Margin="0,0,0,16">
+                    <StackPanel>
+                        <TextBlock Text="{loc:Loc Last30Matches}" Style="{StaticResource MutedText}" Margin="0,0,0,10"/>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/><ColumnDefinition Width="*"/><ColumnDefinition Width="*"/><ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Grid.Column="0">
+                                <TextBlock Text="{loc:Loc StatKills}" Style="{StaticResource MutedText}"/>
+                                <TextBlock Text="{Binding CS2.Kills, StringFormat=F1}" FontSize="32" FontWeight="Bold" Foreground="{StaticResource AccentBrush}"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="1">
+                                <TextBlock Text="{loc:Loc StatDeaths}" Style="{StaticResource MutedText}"/>
+                                <TextBlock Text="{Binding CS2.Deaths, StringFormat=F1}" FontSize="32" FontWeight="Bold" Foreground="{StaticResource AccentBrush}"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="2">
+                                <TextBlock Text="{loc:Loc StatKD}" Style="{StaticResource MutedText}"/>
+                                <TextBlock Text="{Binding CS2.Kd, StringFormat=F2}" FontSize="32" FontWeight="Bold" Foreground="{StaticResource AccentBrush}"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="3">
+                                <TextBlock Text="{loc:Loc StatADR}" Style="{StaticResource MutedText}"/>
+                                <TextBlock Text="{Binding CS2.Adr, StringFormat=F1}" FontSize="32" FontWeight="Bold" Foreground="{StaticResource AccentBrush}"/>
+                            </StackPanel>
+                        </Grid>
+                    </StackPanel>
+                </Border>
+
+                <!-- K/D chart -->
+                <Border Style="{StaticResource Card}" Padding="22" Margin="0,0,0,16">
+                    <StackPanel>
+                        <TextBlock Text="{loc:Loc KDTrend}" Foreground="{StaticResource AccentBrush}" FontSize="16" FontWeight="Bold" Margin="0,0,0,8"/>
+                        <Border Background="#FF121212" CornerRadius="4">
+                            <Grid Height="250">
+                                <lvc:CartesianChart
+                                        Background="Transparent"
+                                        Series="{Binding KdSeries}"
+                                        XAxes="{Binding XAxes}"
+                                        YAxes="{Binding YAxes}"
+                                        TooltipPosition="Hidden"
+                                        Visibility="{Binding HasEnoughKdData, Converter={StaticResource BoolToVisibility}}"/>
+                                <TextBlock Text="{Binding NotEnoughDataText}"
+                                           HorizontalAlignment="Center" VerticalAlignment="Center"
+                                           Foreground="Gray" FontStyle="Italic"
+                                           Visibility="{Binding HasEnoughKdData, Converter={StaticResource BoolToVisibility}, ConverterParameter=invert}"/>
+                            </Grid>
+                        </Border>
+                    </StackPanel>
+                </Border>
+
+                <!-- Secondary stats strip -->
+                <Border Style="{StaticResource Card}" Padding="22" Margin="0,0,0,16">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/><ColumnDefinition Width="*"/><ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/><ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0">
+                            <TextBlock Text="{loc:Loc Winrate}" Style="{StaticResource MutedText}"/>
+                            <TextBlock FontSize="22" FontWeight="Bold">
+                                <Run Text="{Binding CS2.Winrate}"/><Run Text="%"/>
+                            </TextBlock>
+                        </StackPanel>
+                        <StackPanel Grid.Column="1">
+                            <TextBlock Text="{loc:Loc StatKDA}" Style="{StaticResource MutedText}"/>
+                            <TextBlock Text="{Binding CS2.KdaLine}" FontSize="22" FontWeight="Bold"/>
+                        </StackPanel>
+                        <StackPanel Grid.Column="2">
+                            <TextBlock Text="{loc:Loc StatKD}" Style="{StaticResource MutedText}"/>
+                            <TextBlock Text="{Binding CS2.Kd, StringFormat=F2}" FontSize="22" FontWeight="Bold"/>
+                        </StackPanel>
+                        <StackPanel Grid.Column="3">
+                            <TextBlock Text="{loc:Loc StatKR}" Style="{StaticResource MutedText}"/>
+                            <TextBlock Text="{Binding CS2.Kr, StringFormat=F2}" FontSize="22" FontWeight="Bold"/>
+                        </StackPanel>
+                        <StackPanel Grid.Column="4">
+                            <TextBlock Text="{loc:Loc StatHS}" Style="{StaticResource MutedText}"/>
+                            <TextBlock FontSize="22" FontWeight="Bold">
+                                <Run Text="{Binding CS2.HsPercent}"/><Run Text="%"/>
+                            </TextBlock>
+                        </StackPanel>
+                    </Grid>
+                </Border>
+            </StackPanel>
+
+            <!-- ============ CHESS TAB ============ -->
+            <!-- Elo и рекорд шахмат показаны в верхнем блоке (см. выше). Здесь — только детальная статистика. -->
+            <StackPanel Visibility="{Binding SelectedTab, Converter={StaticResource EnumEqualsVisibility}, ConverterParameter=1}">
+                <Border Style="{StaticResource Card}" Padding="22" Margin="0,0,0,16">
+                    <StackPanel>
+                        <TextBlock Text="{loc:Loc Last30Matches}" Style="{StaticResource MutedText}" Margin="0,0,0,10"/>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/><ColumnDefinition Width="*"/><ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/><ColumnDefinition Width="*"/><ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Grid.Column="0">
+                                <TextBlock Text="{loc:Loc AvgMovesPerGame}" Style="{StaticResource MutedText}"/>
+                                <TextBlock Text="{Binding Chess.AvgMovesPerGame, StringFormat=F1}" FontSize="24" FontWeight="Bold"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="1">
+                                <TextBlock Text="{loc:Loc GoodMoves}" Style="{StaticResource MutedText}"/>
+                                <TextBlock Text="{Binding Chess.AvgGood, StringFormat=F1}" FontSize="24" FontWeight="Bold" Foreground="{StaticResource SuccessBrush}"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="2">
+                                <TextBlock Text="{loc:Loc Brilliant}" Style="{StaticResource MutedText}"/>
+                                <TextBlock Text="{Binding Chess.AvgBrilliant, StringFormat=F1}" FontSize="24" FontWeight="Bold" Foreground="{StaticResource AccentBrush}"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="3">
+                                <TextBlock Text="{loc:Loc Inaccuracies}" Style="{StaticResource MutedText}"/>
+                                <TextBlock Text="{Binding Chess.AvgInaccuracies, StringFormat=F1}" FontSize="24" FontWeight="Bold" Foreground="{StaticResource InfoBrush}"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="4">
+                                <TextBlock Text="{loc:Loc Mistakes}" Style="{StaticResource MutedText}"/>
+                                <TextBlock Text="{Binding Chess.AvgMistakes, StringFormat=F1}" FontSize="24" FontWeight="Bold" Foreground="#FFFFAA00"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="5">
+                                <TextBlock Text="{loc:Loc Blunders}" Style="{StaticResource MutedText}"/>
+                                <TextBlock Text="{Binding Chess.AvgBlunders, StringFormat=F1}" FontSize="24" FontWeight="Bold" Foreground="{StaticResource DangerBrush}"/>
+                            </StackPanel>
+                        </Grid>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+
+            <!-- ============ MATCH HISTORY ============ -->
+            <Grid Margin="0,10,0,8">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0" Text="{loc:Loc RecentMatches}"
+                           FontSize="18" FontWeight="Bold" Foreground="{StaticResource TextPrimaryBrush}"
+                           VerticalAlignment="Center"/>
+                <Button Grid.Column="1"
+                        Content="{Binding HistoryToggleText}"
+                        Command="{Binding ToggleFullHistoryCommand}"
+                        Style="{StaticResource OutlineButton}"
+                        Height="36" MinWidth="280" Padding="14,0"
+                        Visibility="{Binding HasAnyMatches, Converter={StaticResource BoolToVisibility}}"/>
+            </Grid>
+
+            <!-- CS2 history section — visible only when CS2 tab is selected -->
+            <Border Style="{StaticResource Card}" Padding="12" Margin="0,0,0,16"
+                    Visibility="{Binding SelectedTab, Converter={StaticResource EnumEqualsVisibility}, ConverterParameter=0}">
+                <StackPanel>
+                    <TextBlock Text="{loc:Loc CS2MatchHistory}" Foreground="{StaticResource AccentBrush}"
+                               FontSize="14" FontWeight="Bold" Margin="0,0,0,8"/>
+                    <TextBlock Text="{loc:Loc NoMatchesYet}"
+                               Foreground="Gray" FontStyle="Italic"
+                               HorizontalAlignment="Center" Margin="0,14,0,14">
+                        <TextBlock.Style>
+                            <Style TargetType="TextBlock">
+                                <Setter Property="Visibility" Value="Collapsed"/>
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding RecentCs2Matches.Count}" Value="0">
+                                        <Setter Property="Visibility" Value="Visible"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </TextBlock.Style>
+                    </TextBlock>
+                    <ItemsControl ItemsSource="{Binding RecentCs2Matches}"
+                                  Visibility="{Binding IsFullHistoryVisible, Converter={StaticResource BoolToVisibility}, ConverterParameter=invert}"
+                                  ItemTemplate="{StaticResource MatchHistoryRowTemplate}"/>
+                    <ItemsControl ItemsSource="{Binding AllCs2Matches}"
+                                  Visibility="{Binding IsFullHistoryVisible, Converter={StaticResource BoolToVisibility}}"
+                                  ItemTemplate="{StaticResource MatchHistoryRowTemplate}"/>
+                </StackPanel>
+            </Border>
+
+            <!-- Chess history section — visible only when Chess tab is selected -->
+            <Border Style="{StaticResource Card}" Padding="12" Margin="0,0,0,16"
+                    Visibility="{Binding SelectedTab, Converter={StaticResource EnumEqualsVisibility}, ConverterParameter=1}">
+                <StackPanel>
+                    <TextBlock Text="{loc:Loc ChessMatchHistory}" Foreground="{StaticResource InfoBrush}"
+                               FontSize="14" FontWeight="Bold" Margin="0,0,0,8"/>
+                    <TextBlock Text="{loc:Loc NoMatchesYet}"
+                               Foreground="Gray" FontStyle="Italic"
+                               HorizontalAlignment="Center" Margin="0,14,0,14">
+                        <TextBlock.Style>
+                            <Style TargetType="TextBlock">
+                                <Setter Property="Visibility" Value="Collapsed"/>
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding RecentChessMatches.Count}" Value="0">
+                                        <Setter Property="Visibility" Value="Visible"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </TextBlock.Style>
+                    </TextBlock>
+                    <ItemsControl ItemsSource="{Binding RecentChessMatches}"
+                                  Visibility="{Binding IsFullHistoryVisible, Converter={StaticResource BoolToVisibility}, ConverterParameter=invert}"
+                                  ItemTemplate="{StaticResource MatchHistoryRowTemplate}"/>
+                    <ItemsControl ItemsSource="{Binding AllChessMatches}"
+                                  Visibility="{Binding IsFullHistoryVisible, Converter={StaticResource BoolToVisibility}}"
+                                  ItemTemplate="{StaticResource MatchHistoryRowTemplate}"/>
+                </StackPanel>
+            </Border>
+
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>
