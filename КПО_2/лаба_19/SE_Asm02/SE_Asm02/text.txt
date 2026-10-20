@@ -1,0 +1,4 @@
+в VS в командной строке разработчика нужно написать две команды:
+1) для ассемблирования:  ml /c /Fl SE_Asm02.asm
+2) для компоновки: link /subsystem:windows /out:SE_Asm02.exe SE_Asm02.obj kernel32.lib user32.lib
+3) запустить программу через SE_Asm02.exe

@@ -1,0 +1,1 @@
+SE_Lab14 -in:in.txt -out:out.txt -log:log.txt
