@@ -1,0 +1,28 @@
+# {100} (100) [0] Label2.Label
+Click for more:
+Pulse los botones de las opciones deseadas:
+
+# [1] PushButton1.Label
+Minimum Requirements
+Requisitos mínimos
+
+# [2] PushButton2.Label
+Install Guide
+Manual de instalación
+
+# [3] PushButton5.Label
+PTC License Server Installation
+Instalador del servidor de licencias de PTC
+
+# [4] PushButton3.Label
+Continue
+Continuar
+
+# [5] PushButton4.Label
+Exit
+Salir
+
+# [6] Label1.Label
+Welcome to Pro/ENGINEER 30-Day Trial
+Version Trial de Pro/ENGINEER de 30 días
+

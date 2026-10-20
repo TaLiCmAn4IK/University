@@ -1,0 +1,4 @@
+# {0} (1) [0] Label1.Label
+Full path to the Netscape plugins directory
+넷스케이프 플러그인 디렉토리로의 전체 경로
+

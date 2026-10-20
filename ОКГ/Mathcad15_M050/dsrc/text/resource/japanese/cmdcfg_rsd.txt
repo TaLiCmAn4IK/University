@@ -1,0 +1,12 @@
+# {0} (3) [0] rsd_1.Label
+Locate Other Installation Directories (Optional)
+他のインストールディレクトリのサーチ(オプション)
+
+# [1] IlinkDirLab.Label
+Pro/INTRALINK
+Pro/INTRALINK
+
+# [2] rsd_2.Label
+Optional Inputs
+オプショナル入力
+

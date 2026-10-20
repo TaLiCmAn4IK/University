@@ -1,0 +1,45 @@
+// 13-Dec-99      TWH  Created
+// 11-Feb-00 $$1  TWH  Add ProgramFiles, HostProd, StandAlone
+// 27-Jun-01 $$2  TWH  Add No_Bin_Dir
+// 20-Jan-03 $$3  J-03-40 ECW Remove Binscripts. Update ProgramFiles.
+// 14-Nov-07 $$4  L-01-41 TWH Add Ad_list for progress slide show
+// 21-Dec-07 $$5  L-01-41 TWH New Ad_list
+// 15-Jan-2008 L-01-42+  TWH  $$6  Rename Ads files
+// 27-Jul-2009 L-03-34   TWH  $$7  Update WF5 images
+
+(Product lib_graphic 
+    (Name                      "Graphics Library")
+    (Packages                  "req_graphiclib")
+    (LpDirName                 "graphiclib")
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+    (ProgramFiles              True)
+    (VersionDir                False)
+    (StandAlone                True)
+    (HostProd                  "proe")
+    (No_Bin_Dir                True)
+   (Ad_list                    "WF5_accessory"
+                               "WF5_cabling"
+                               "WF5_clearance2"
+                               "WF5_clearance"
+                               "WF5_dynamic_edit"
+                               "WF5_import_export"
+                               "WF5_machine_design"
+                               "WF5_mfg"
+                               "WF5_new_detailing"
+                               "WF5_production"
+                               "WF5_rendering1"
+                               "WF5_rendering2"
+                               "WF5_simp_rep"
+                               "WF5_simulation"
+                               "WF5_toolpath"
+                               "WF5_trajectory"
+                               "WF5_weld")
+)
+
+(Package req_graphiclib
+    (Name                      "Graphics Library")
+    (Cdsections                "mandatory")
+    (Installed                 True)
+    (Required                  True)
+)

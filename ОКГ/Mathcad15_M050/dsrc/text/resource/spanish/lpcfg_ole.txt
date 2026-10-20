@@ -1,0 +1,32 @@
+# {100} (100) [0] ProductConfigLayout.Label
+Creo Elements/Pro OLE Configuration
+Configuración OLE de Creo Elements/Pro
+
+# [1] OleCommandLab.Label
+Startup command
+Comando de ejecución
+
+# [2] OleStartDirLab.Label
+Startup directory
+Directorio de ejecución
+
+# [3] OleProdLangLab.Label
+Language
+Idioma
+
+# [4] OleConfigLayout.Label
+Creo Elements/Pro OLE Server Configuration
+Configuración del servidor OLE de Creo Elements/Pro
+
+# [5] OleSearchDirLab.Label
+Start search directory
+Directorio inicial de búsqueda
+
+# [6] OleLangLab.Label
+Language
+Idioma
+
+# [7] lpcfg_ole3.Label
+Instructions
+Instrucciones
+

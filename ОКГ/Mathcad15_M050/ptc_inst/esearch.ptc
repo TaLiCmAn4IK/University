@@ -1,0 +1,25 @@
+// 16-Oct-01      MAZ  Created Per SPR 900320
+// 01-Nov-01 $$1  MAZ  Change LpDirName to Windchill 
+// 10-Dec-01 $$2  MAZ  Update from J-01
+//
+
+(Product esearch 
+    (Name                      "Enterprise Search")
+    (Packages                  "enterprisesearch")
+    (ProgramFiles              False)
+    (LpDirName                 "Windchill")
+    (Screens                   "ScreenProd")
+    (Installed                 False)
+    (VersionDir                False)
+    (StandAlone                True)
+    (HostProd                  "windchill"
+                               "infoengn")
+    (MajorUpgrade              False)
+    (No_Bin_Dir                True)
+)
+(Package enterprisesearch
+    (Name                      "Enterprise Search")
+    (Cdsections                "EnterpriseSearch")
+    (Installed                 True)
+)
+

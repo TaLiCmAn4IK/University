@@ -1,0 +1,20 @@
+# {0} (5) [0] desg_1.Label
+Locate Other Installation Directories (Optional)
+다른 설치 디렉토리 위치 (선택사항)
+
+# [1] GraphLibDirLab.Label
+PTC Graphic Library
+PTC 그래픽 라이브러리
+
+# [2] desg_2.Label
+Optional Inputs
+선택 입력사항
+
+# [3] ProeCmdLab.Label
+Pro/ENGINEER Command
+Pro/ENGINEER 명령어
+
+# [4] PaintCmdLab.Label
+3D Paint Command
+3D 페인트 명령어
+

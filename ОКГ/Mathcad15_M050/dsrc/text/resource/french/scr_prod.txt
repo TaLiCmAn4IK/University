@@ -1,0 +1,36 @@
+# {0} (38) [25] CompDescTA.Value
+Select a product feature to view its description.
+Sélectionner une fonction du produit pour afficher sa description.
+
+# [28] LpLab.Label
+Destination Folder
+Dossier cible
+
+# [29] LpBrowse.HelpText
+Browse for Installation Directory
+Parcourir le répertoire d'installation
+
+# [30] DiskSpaceLayout.Label
+Disk Space
+Espace disque
+
+# [31] SpaceAvailLab.Label
+Available on C: 9999GB
+Disponible sur C : 9999 Go
+
+# [32] SpaceReqLab.Label
+Required on C: 9999GB
+Requis sur C : 9999 Go
+
+# [35] LpReleaseLab.Label
+Dummy Label
+Etiquette fictive
+
+# [36] LpLayout.Label
+Destination Folder
+Dossier cible
+
+# [37] ProdTreeLab.Label
+Features to Install
+Fonctions à installer
+

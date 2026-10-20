@@ -1,0 +1,28 @@
+# {100} (100) [0] scr_wtprop2.Label
+Configuration Properties
+組態屬性
+
+# [1] HostnameLab.Label
+Fully Qualified Hostname
+完全合格的主機名稱
+
+# [2] ServerIdLab.Label
+Unique Server ID
+唯一的伺服器 ID
+
+# [3] XSLHostLab.Label
+XSL Processor Server Hostname
+XSL處理器伺服器的主機名稱
+
+# [4] JvmHomeDirLab.Label
+Java SDK Home Directory
+Java SDK主目錄
+
+# [5] JvmCommandLab.Label
+Java Execution Command
+Java執行指令
+
+# [6] TextArea.Value
+In the fields below, specify the appropriate settings for your Windchill server.
+在以下欄位中，為Windchill伺服器指定適當的設定。
+

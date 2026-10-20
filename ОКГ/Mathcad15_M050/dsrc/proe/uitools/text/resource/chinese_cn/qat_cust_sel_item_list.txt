@@ -1,0 +1,52 @@
+# {100} (100) [0] list_SelectFrom.HelpText
+Choose command from list
+从列表中选择命令
+
+# [1] psh_add.Label
+&Add >>
+添加(&A) >>
+
+# [2] psh_remove.Label
+&Remove
+移除(&R)
+
+# [3] psh_reset.Label
+Re&set
+重置(&S)
+
+# [4] psh_reset.HelpText
+Reset the content of the Quick Access Toolbar to the default
+重置快捷访问工具栏的内容为缺省值
+
+# [5] psh_moveUp.Label
+Move Up
+上移
+
+# [6] psh_moveUp.HelpText
+Move selected command upwards in the list.
+将所选命令在列表中向上移。
+
+# [7] psh_moveDown.Label
+Move Down
+下移
+
+# [8] psh_moveDown.HelpText
+Move selected command downwards in the list.
+将所选命令在列表中向下移。
+
+# [9] lbl_choose_cmd_from.Label
+&Choose command from:
+从...中选择命令(&C)
+
+# [10] lbl_qa_toolbar_content.Label
+Customize &Quick Access Toolbar:
+定制快捷访问工具栏(&Q):
+
+# [11] opt_choose_cmd_from.Labels.sel_AllCmd
+All Commands
+全部命令
+
+# [12] opt_choose_cmd_from.Labels.separator_tabs
+--------------
+--------------
+

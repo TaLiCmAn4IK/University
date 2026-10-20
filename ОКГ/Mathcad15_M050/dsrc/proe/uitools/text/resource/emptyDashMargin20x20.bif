@@ -1,0 +1,12 @@
+! 15-Oct-07  L-01-40  Moti  $$1 Created
+
+(Image emptyDashMargin20x20
+    (Resources
+        (.Width     20)
+        (.Height    20)
+        (.Depth     8)
+    )
+    (Data
+        CDCCFF
+    )
+)

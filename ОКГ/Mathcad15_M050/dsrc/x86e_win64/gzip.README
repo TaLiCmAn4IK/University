@@ -1,0 +1,76 @@
+The applications "gzip" and "gunzip" are being supplied without
+additional charge.
+
+Please read gzip.COPYING for details on the license agreement for 
+the distribution of gzip and gunzip.
+
+Per the conditions for copying, found in gzip.COPYING, the
+executables are provided without source code. Source code may
+be obtained upon request within 3 years of the distribution of the
+executables.
+
+Source code may also be obtained over the Internet from:
+	prep.ai.mit.edu:
+	gatekeeper.dec.com:/pub/GNU
+	ftp.uu.net:/systems/gnu
+	wuarchive.wustl.edu:/systems/gnu
+	nic.funet.fi:/pub/gnu
+
+Questions about gzip or about the Free Software Foundation (FSF)
+can be addressed at: gnu@prep.ai.mit.edu.
+
+Uses of gzip:
+
+  1. To compress a file:
+
+	gzip file
+
+     Produces file.gz
+
+  2. To uncompress a file which has been compressed with gzip:
+
+	gunzip file
+      or
+	gunzip file.gz
+
+  3. To uncompress a file which has been compressed with UN*X
+	compress:
+
+	gunzip file.Z
+      or
+	cat file.old | gunzip > file.new
+
+  4. To convert a file from UN*X compression to gzip compression:
+
+	cat file.Z | gunzip | gzip > file.new
+
+Further information on gzip and gunzip may be obtained by reading
+the appropriate man pages, which are provided as part of the source
+code.
+
+Here is one of the gzip README files (from wuarchive.wustl.edu):
+------------------------------------------------------------------------------
+Because the `compress' utility is covered by patents (US 4,464,650 and
+4,558,302), we cannot use it; it is not free software.
+
+Instead, the GNU Project uses the `gzip' program, which is free of known
+software patents and also compresses better than `compress'.  Files
+compressed with this method end with `.gz'.
+
+Gzip can also uncompress files compressed with `compress' (i.e. files
+ending in `.Z'), since the uncompression algorithm is not patented.
+
+To extract sources that are in files ending in `.tar.gz' you can use the
+command
+
+      gzip -d < foo.tar.gz | tar xf -
+
+where `foo.tar.gz' is the name of the file.
+
+Gzip is available in source form on this ftp archive[wuarchive.wustl.edu],
+in the file gzip-N.N.shar, gzip-N.N.tar, and gzip-N.N.tar.gz (the last for
+people who already have gzip but want to get a newer version, since the
+gzipped file will transfer faster).  Gzip is also available as a DOS
+executable in the file gzip-N.N.msdos.exe. To find a VMS executable,
+read gzip-vms.README.
+------------------------------------------------------------------------------

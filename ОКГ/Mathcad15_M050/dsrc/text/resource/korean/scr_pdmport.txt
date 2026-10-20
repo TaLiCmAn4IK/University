@@ -1,0 +1,12 @@
+# {0} (3) [0] PortLayout.Label
+PDM Server Port Number
+PDM 서버 포트 번호
+
+# [1] LPLayout.Label
+PDM Server on <name>
+<name>의 PDM 서버
+
+# [2] PdmServerLpBrowse.Label
+Browse
+찾아보기
+

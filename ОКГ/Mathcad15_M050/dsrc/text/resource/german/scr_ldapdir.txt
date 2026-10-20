@@ -1,0 +1,28 @@
+# {70124} (7) [0] scr_ldapdir1.Label
+LDAP Directory Access
+Zugriff auf LDAP-Verzeichnis
+
+# [1] LDAPHostLab.Label
+Server Host Name
+Name des Server-Hosts
+
+# [2] LDAPPortLab.Label
+Port Number
+Portnummer
+
+# [3] LDAPPort.Value
+389
+389
+
+# [4] AdminNameLab.Label
+Administrator Distinguished Name
+Eindeutiger Name für Administrator
+
+# [5] AdminPasswdLab.Label
+Administrator Password
+Administrator-Passwort
+
+# [6] IEPropNameLab.Label
+Base Distinguished Name
+Eindeutiger Name für Basis
+

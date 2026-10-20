@@ -1,0 +1,4 @@
+# {0} (1) [0] Label1.Label
+Location for command links
+명령어 링크를 위한 위치
+

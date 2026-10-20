@@ -1,0 +1,23 @@
+!----------------------------------------------------------------------
+! 25-Jun-02  J-03-28 mla     $$1 Created.
+! 09-Jul-02  J-03-29 mla     $$2 Modified size & color of glyph.
+! 23-AUG-04  K-03-09 TLH     $$3 Recolored.
+! 05-Jan-05  K-03-17 Moti    $$4  changed for Server Registry.
+!----------------------------------------------------------------------
+(Image primary_commonspace
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        EFFFFFFF03F0F5808080F901FCFD0C09CCE4FF0100E3008D1B02F0F9F8F5F2EB
+        BD183B0D47061C0165D11E035C0124097F99663301B7AA5B770D708306580D60
+        0D0C01FDF8CEB70D38BF021C05A405A1C5EC9F062001FEB009E4D57D01925223
+        0F0160615303120011FC01940D80A40D0C01FC01381D4819141D24096E033A2F
+        03167C1D041574111C0DF4F900C00DC419FC0104119005280DF40D041D00D419
+        0021E41D341D402D142D242D741D00802D94155C2DEC1DB82DCC1D9C2DAC2D00
+        FC1D0C2DDC2D2C2D383D4C2D1C3D2C3D00783D4C3D0431643D702DBC3D9019A4
+        3D00E831
+    )
+)

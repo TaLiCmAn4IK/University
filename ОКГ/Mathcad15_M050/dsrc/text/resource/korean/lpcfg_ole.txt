@@ -1,0 +1,32 @@
+# {100} (100) [0] ProductConfigLayout.Label
+Creo Elements/Pro OLE Configuration
+Creo Elements/Pro OLE 구성
+
+# [1] OleCommandLab.Label
+Startup command
+시작 명령어
+
+# [2] OleStartDirLab.Label
+Startup directory
+시작 디렉토리
+
+# [3] OleProdLangLab.Label
+Language
+언어
+
+# [4] OleConfigLayout.Label
+Creo Elements/Pro OLE Server Configuration
+Creo Elements/Pro OLE 서버 구성
+
+# [5] OleSearchDirLab.Label
+Start search directory
+검색 디렉토리 시작
+
+# [6] OleLangLab.Label
+Language
+언어
+
+# [7] lpcfg_ole3.Label
+Instructions
+설명
+

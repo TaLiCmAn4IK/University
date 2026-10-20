@@ -1,0 +1,12 @@
+# {100} (100) [0] RadioLicAcc.Labels.yes
+I &accept
+我接受(&A)
+
+# [1] RadioLicAcc.Labels.no
+I &decline
+我拒绝(&D)
+
+# [2] AccLab.Label
+You must accept the following license agreement to proceed.
+必须接受下列许可协议才能继续。
+

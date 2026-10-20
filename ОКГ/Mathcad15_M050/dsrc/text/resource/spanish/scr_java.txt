@@ -1,0 +1,24 @@
+# {100} (100) [0] scr_java2.Label
+Java SDK Settings
+Configuración del SDK de Java
+
+# [1] MinLab.Label
+<min>
+
+
+# [2] ActualLab.Label
+<actual>
+
+
+# [3] RecLab.Label
+<recommended>
+
+
+# [4] DirLab.Label
+Java SDK Directory
+Directorio del SDK de Java
+
+# [5] scr_java3.Label
+Instructions
+Instrucciones
+

@@ -1,0 +1,52 @@
+# {100} (100) [0] list_SelectFrom.HelpText
+Choose command from list
+Elegir un comando de la lista
+
+# [1] psh_add.Label
+&Add >>
+&Añadir >>
+
+# [2] psh_remove.Label
+&Remove
+&Quitar
+
+# [3] psh_reset.Label
+Re&set
+Rede&finir
+
+# [4] psh_reset.HelpText
+Reset the content of the Quick Access Toolbar to the default
+Restaurar el contenido por defecto de la barra de herramientas de acceso rápido
+
+# [5] psh_moveUp.Label
+Move Up
+Subir
+
+# [6] psh_moveUp.HelpText
+Move selected command upwards in the list.
+Subir el comando seleccionado una posición en la lista.
+
+# [7] psh_moveDown.Label
+Move Down
+Bajar
+
+# [8] psh_moveDown.HelpText
+Move selected command downwards in the list.
+Bajar el comando seleccionado una posición en la lista.
+
+# [9] lbl_choose_cmd_from.Label
+&Choose command from:
+Ele&gir comando de:
+
+# [10] lbl_qa_toolbar_content.Label
+Customize &Quick Access Toolbar:
+&Personalizar la barra de herramientas de acceso rápido
+
+# [11] opt_choose_cmd_from.Labels.sel_AllCmd
+All Commands
+Todos los comandos
+
+# [12] opt_choose_cmd_from.Labels.separator_tabs
+--------------
+--------------
+

@@ -1,0 +1,4 @@
+# {100} (100) [0] gallery_list_num_sel_items.Label
+Undo/redo Actions
+Anular/rehacer acciones
+

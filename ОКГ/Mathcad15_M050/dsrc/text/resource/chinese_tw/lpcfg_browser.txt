@@ -1,0 +1,8 @@
+# {100} (100) [0] Label1.Label
+Default web browser path
+預設 web 瀏覽器路徑
+
+# [1] lpcfg_browser2.Label
+Instructions
+指示
+

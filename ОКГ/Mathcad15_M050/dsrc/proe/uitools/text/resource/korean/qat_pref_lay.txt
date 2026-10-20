@@ -1,0 +1,44 @@
+# {100} (100) [0] add.Label
+&Add >>
+추가(&A) >>
+
+# [1] remove.Label
+&Remove
+제거(&R)
+
+# [2] chk_toolbar_below_ribbon.Label
+S&how Quick Access Toolbar below the Ribbon
+리본 아래에 빠른 액세스 도구 모음 표시(&H)
+
+# [3] apply.Label
+Apply
+적용
+
+# [4] move_up.HelpText
+Move Up
+위로 이동
+
+# [5] move_down.HelpText
+Move Down
+아래로 이동
+
+# [6] reset.Label
+Re&set
+재설정(&S)
+
+# [7] source_label.Label
+&Choose commands from:
+다음 위치에서 명령 선택(&C):
+
+# [8] dest_label.Label
+Customize &Quick Access Toolbar:
+빠른 액세스 도구 모음 사용자정의(&Q):
+
+# [9] command_filter.Labels.popular
+Popular Commands
+자주 사용하는 명령
+
+# [10] command_filter.Labels.all
+All Commands
+모든 명령
+

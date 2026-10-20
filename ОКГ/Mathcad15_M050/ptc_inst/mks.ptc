@@ -1,0 +1,11 @@
+// 05-Feb-10 L-03-38  TWH  $$1  Created.
+// 23-Jul-10 L-03-40  TWH  $$2  Change spelling for CADDS
+// 04-Sep-10 L-03-41  TWH  $$3  Add HostArchs
+
+(Product mks
+	(Name         "MKS Install for CADDS 5 Interface")
+	(WelcomeImage "mks.png")
+	(HostArchs    "i486_nt"
+                      "x86e_win64")
+)
+

@@ -1,0 +1,14 @@
+! 29-Oct-01 J-03-11 AEY $$1 Created (based on datum_curve16 and mod_atb_feat).
+(Image mod_atb_dtmcurve
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     4)
+    )
+    (Data
+        D3FFC209FFFF070907C2FF09C4FFC009C1FFC009C3FFC009C2FF09C4FF0D090D
+        C1FFC00BC3FF070907C0FFC20BC3FF090BFFFF0B0B0803080B0BC2FF090BFF0B
+        0B08C0FF080B0BC0FF0B0B08FF0B08C2FF08C10B080907FF0B08C3FFC1080709
+        070B08CBC2FF
+    )
+)

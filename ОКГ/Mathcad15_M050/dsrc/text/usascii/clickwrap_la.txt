@@ -1,0 +1,284 @@
+PTC CUSTOMER AGREEMENT
+
+THIS PTC CUSTOMER AGREEMENT ("AGREEMENT") IS A LEGAL AGREEMENT BETWEEN THE INDIVIDUAL, OR THE COMPANY OR OTHER ORGANIZATION ON WHOSE BEHALF SUCH INDIVIDUAL ACCEPTS THIS AGREEMENT, THAT EITHER (A) CLICKS THE "I ACCEPT" BUTTON BELOW OR (B) INSTALLS, ACCESSES, OR USES ANY SOFTWARE OR DOCUMENTATION FROM PTC ("CUSTOMER"), AND PTC INC. OR, IF THE PURCHASE WAS MADE IN A COUNTRY SPECIFIED ON SCHEDULE A TO THIS AGREEMENT, THE PTC AFFILIATE SPECIFIED ON SCHEDULE A (AS APPLICABLE, "PTC").
+
+PLEASE READ THE TERMS AND CONDITIONS OF THIS AGREEMENT CAREFULLY BEFORE ACCEPTING THIS AGREEMENT. BY CLICKING ON THE "I ACCEPT" BUTTON BELOW OR BY INSTALLING, ACCESSING, OR USING ANY SOFTWARE OR DOCUMENTATION FROM PTC, CUSTOMER HEREBY AGREES TO BE BOUND BY THIS AGREEMENT AND REPRESENTS THAT IT IS AUTHORIZED TO DO SO.
+
+IF YOU DO NOT AGREE TO ALL OF THE TERMS OF THIS AGREEMENT OR IF YOU DO NOT HAVE AUTHORITY TO BIND THE COMPANY OR OTHER ORGANIZATION ON WHOSE BEHALF YOU ARE ACCEPTING THIS AGREEMENT, CLICK THE "I DECLINE" BUTTON AND RETURN TO PTC THE SOFTWARE AND DOCUMENTATION PRODUCTS PROVIDED TOGETHER WITH THIS AGREEMENT IN ACCORDANCE WITH THE INSTRUCTIONS PROVIDED WHEN YOU CLICK THE "I DECLINE" BUTTON.  NOTE THAT FAILURE TO COMPLY WITH SUCH INSTRUCTIONS WITHIN THE TIME PERIOD SPECIFIED WILL VOID ANY RIGHT YOU WOULD OTHERWISE HAVE HAD FOR A REFUND OF ANY FEES PAID. EACH ORDER FOR LICENSED PRODUCTS MAY NOT BE CANCELLED ONCE THIS AGREEMENT HAS BEEN ACCEPTED.
+
+IF CUSTOMER DID NOT OBTAIN THE LICENSED PRODUCT FROM PTC DIRECTLY, FROM AN AUTHORIZED PTC DISTRIBUTOR OR RESELLER OR FROM THE PTC ONLINE STORE (AT WWW.PTC.COM), CUSTOMER IS USING AN ILLEGALLY OBTAINED UNLICENSED VERSION OF THE APPLICABLE LICENSED PRODUCT. PTC REGARDS SOFTWARE PIRACY AS THE CRIME IT IS AND PURSUES (BOTH CIVILLY AND CRIMINALLY) THOSE WHO TAKE PART IN THESE ACTIVITIES. AS PART OF THESE EFFORTS, PTC UTILIZES DATA MONITORING AND SCOURING TECHNOLOGIES TO OBTAIN AND TRANSMIT TO PTC DATA ON USERS OF ILLEGAL COPIES OF LICENSED PRODUCTS. IF CUSTOMER IS USING AN ILLEGAL COPY OF SOFTWARE, CEASE USING THE ILLEGAL VERSION AND CONTACT PTC TO OBTAIN A LEGALLY LICENSED COPY. BY USING THIS SOFTWARE, YOU CONSENT TO THE COLLECTION, USE, AND TRANSFER OF PERSONAL DATA (INCLUDING TO THE UNITED STATES) FOR THE PURPOSES OF IDENTIFYING USERS OF ILLEGAL COPIES OF OUR SOFTWARE.  SUCH CONSENT SHALL BE BINDING ON ANY USERS OF THIS SOFTWARE, INCLUDING USERS OTHER THAN YOU.
+
+IN ORDER TO UNDERSTAND THE PREFERENCES OF OUR SOFTWARE USERS, PTC USES DATA MONITORING TECHNOLOGIES TO OBTAIN AND TRANSMIT DATA ON SYSTEM USE AND PERFORMANCE AND FOR GATHERING USER DATA AND USE METRICS ON USERS OF OUR SOFTWARE.  WE WILL SHARE THIS DATA WITHIN PTC, ITS AFFILIATED COMPANIES AND OUR BUSINESS PARTNERS, INCLUDING WITHIN THE UNITED STATES AND ELSEWHERE FOR TECHNICAL AND MARKETING PURPOSES AND WILL ENDEAVOR TO ENSURE THAT ANY SUCH DATA TRANSFERRED IS APPROPRIATELY PROTECTED.  OUR COMMERCIAL LICENSES PERMIT USERS TO OPT-OUT OF THIS DATA COLLECTION AND OUR STUDENT/EDUCATIONAL VERSIONS ONLY COLLECT DATA ON SYSTEM USE AND PERFORMANCE.  OUR FREE AND TRIAL VERSIONS OF SOFTWARE DO NOT ALLOW USERS TO OPT-OUT OF THIS DATA COLLECTION, INCLUDING USER DATA.
+
+IF YOU ARE USING PTC SOFTWARE, VISITING A PTC WEBSITE OR COMMUNICATING ELECTRONICALLY WITH US FROM A COUNTRY OTHER THAN THE UNITED STATES, VARIOUS COMMUNICATIONS WILL NECESSARILY RESULT IN A TRANSFER OF THIS INFORMATION ACROSS INTERNATIONAL BOUNDARIES.
+
+IF YOU DO NOT CONSENT TO THE COLLECTION AND/OR TRANSMISSION (INCLUDING TO THE UNITED STATES) OF YOUR DATA AS DESCRIBED ABOVE, DO NOT DOWNLOAD OR USE PTC SOFTWARE.  BY (I) USING FREE OR TRIAL SOFTWARE OR (II) NOT OPTING-OUT OF THE COLLECTION OF CERTAIN PERSONAL DATA AS YOU ARE ABLE TO WITH PTC COMMERCIAL SOFTWARE, YOU CONSENT TO PTC'S COLLECTION, USE, AND TRANSFER OF YOUR PERSONAL DATA (INCLUDING TO THE UNITED STATES).
+
+CAPITALIZED TERMS NOT DEFINED IN THE TEXT BELOW ARE DEFINED IN SCHEDULE B AT THE END OF THIS AGREEMENT.
+
+SCHEDULE A TO THIS AGREEMENT CONTAINS ADDITIONAL (OR ALTERNATIVE) TERMS APPLICABLE TO SPECIFIC GEOGRAPHIES.
+
+1. Orders and Payment.
+
+1.1. Customer may order Licensed Products and/or Support Services by submitting to PTC (directly or through a Reseller) a completed Quote and such other order documentation as is required by PTC. Each order for Licensed Products accepted by PTC shall be deemed to be separate and distinct from any order by Customer for Support Services. PTC may accept or reject an order in its sole discretion. CUSTOMER MAY NOT CANCEL AN ORDER ONCE PTC HAS ACCEPTED IT. Other than the line items that serve to order Licensed Product(s) and/or Support Services, in no event shall any other terms of any Customer purchase order modify or become part of this Agreement or become binding on PTC. 
+
+1.2. Customer shall be obligated to pay the applicable fees for the Licensed Products and/or Support Services ordered. All fees and other charges due hereunder are due and payable in full within thirty (30) days of the date of the invoice to Customer, or later if specified on the invoice. Customer shall be responsible for all sales, use, VAT, transfer and other taxes and duties imposed by any federal, state, municipal or other governmental authority relating to the Licenses granted or the Support Services provided hereunder, exclusive, however, of taxes based on the net income of PTC.  Customer shall pay interest at the rate of one and one half percent (1.5%) per month (or, if less, the maximum amount permitted by law) on all sums due under this Agreement which remain unpaid thirty (30) days after due, such interest to commence on the due date.  Customer shall pay PTC's reasonable attorneys' fees and costs incurred by PTC in collecting overdue amounts, and/or in any controversy or litigation arising under or in connection with the Licensed Products and/or this Agreement in which Customer does not prevail against PTC in all of the claims.
+
+2. License.
+
+2.1. License Grant. Upon PTC's acceptance of an order for Licensed Products, PTC grants to Customer a License to install and use the Licensed Products identified in the Quote during the applicable License Term, solely for Customer's internal business purposes and solely in accordance with this Agreement and the applicable usage and license-type restrictions identified in the Quote and the Licensing Basis Webpage. Notwithstanding the foregoing, if the Licensed Product is being provided by PTC on an "evaluation" or "trial" basis, such License will be instead to install and use the Licensed Product solely to evaluate such Licensed Products, and Customer agrees not to use the Licensed Product in any commercial applications or for productive purposes. Also, if the Licensed Product is sold on a "demo and test" or "non-production" basis (or similar designation), such Licensed Product may not be used in a production environment.
+
+2.2. Designated Country/Servers. Except in the case of Global or Restricted Global Licenses, Customer may only install and operate Licensed Products on the applicable Designated Server situated in the applicable Designated Country. Customer may, from time to time, change the Designated Server and/or the Designated Country in which Customer seeks to install or operate a Licensed Product, provided that in each case (i) Customer shall give prior written notice to PTC of any such change, and (ii) upon moving the Licensed Products to a different Designated Country, Customer shall pay all applicable Uplift Fees.
+
+2.3. Additional Restrictions on Use. Customer shall not permit any persons who are not Permitted Users to access or use the Licensed Products. Customer shall not and shall not permit any third party(ies) to:
+
+(i) modify or create any derivative work of any part of the Licensed Products;
+
+(ii) rent, lease, or loan the Licensed Products;
+
+(iii) use the Licensed Products, or permit them to be used, for third-party training, to deliver software implementation or consulting services to any third parties, or for commercial time-sharing or service bureau use;
+
+(iv) disassemble, decompile or reverse engineer the Licensed Products or the file format of the Licensed Products, or otherwise attempt to gain access to the source code or file format of the Licensed Products, except as expressly permitted in Schedule A, if applicable;
+
+(v) sell, license, sublicense, loan, assign, or otherwise transfer (whether by sale, exchange, gift, operation of law, or otherwise) to any third party the Licensed Products, any copy thereof, or any License or other rights thereto, in whole or in part, without in each case obtaining PTC's prior written consent, except to the extent that any of the foregoing are explicitly authorized in the Quote and/or the Licensing Basis Webpage;
+
+(vi) alter, remove, or obscure any copyright, trade secret, patent, trademark, logo, proprietary and/or other legal notices on or in any copies of the Licensed Products; and
+
+(vii) copy or otherwise reproduce the Licensed Products in whole or in part, except (a) as may be required for their installation into computer memory for the purpose of executing the Licensed Products in accordance with this Section 2, and/or (b) to make a reasonable number of copies solely for back-up purposes (provided that any such permitted copies shall be the property of PTC and Customer shall reproduce thereon all PTC copyright, trade secret, patent, trademark, logo, proprietary and/or other legal notices contained in the original copy of the Licensed Product obtained from PTC).
+
+2.4. Third Party Components and Bundled Third Party Products. Certain of the Licensed Products may contain embedded third party software components for which additional terms apply.  The current additional terms are set forth on the Schedule of Third Party Terms available on the Licensing Basis Webpage. 
+
+2.5. Additional Restriction(s). Additional product-specific provision(s) and terms applicable to third party components included in or with the Licensed Products may apply to particular Licensed Products, as specified at the Licensing Basis Webpage, which is hereby incorporated by reference.
+
+3. Support.
+
+3.1. Support Services Plan; Levels of Support Services. Upon PTC's acceptance of Customer's order for a subscription license or for Support Services in respect of the Licensed Products, PTC and/or its authorized subcontractors shall provide Support Services in accordance with these terms for a time period of twelve (12) months or for such other period specified in Customer's order accepted by PTC (a "Support Services Plan"). If Customer at any time discontinues Support Services and subsequently wishes to obtain Support Services, Customer must pay (i) the then current fees for Support Services and (ii) the fees for Support Services for any period for which Customer has not purchased Support Services; provided, however, that Customer will be required to purchase new licenses if the Support Services lapse period exceeds twelve months. The then current levels of Support Services offered and Support terms are available at http://www.ptc.com/support/maintenance/maintenance_support_policies.htm.
+
+3.2. A Support Services Plan may not be cancelled by Customer following PTC's acceptance of an order for such Support Services Plan. If Customer elects Support Services for a particular Licensed Product, all of Customer's licenses of such Licensed Product must be on Support Services (i.e., partial Support orders or partial renewals are not permitted).
+
+4. Compliance.
+
+4.1. License Usage Assessments. To confirm Customer's compliance with the terms and conditions of this Agreement, Customer agrees that PTC may perform usage assessments with respect to Customer's use of the Licensed Products. Customer agrees to provide PTC access to Customer's facilities and computer systems, and cooperation from Customer's employees and consultants, as reasonably requested by PTC in order to perform such assessments, all during normal business hours, and after reasonable prior notice from PTC.
+
+4.2. Reports. Upon written request from PTC, Customer agrees to provide to PTC an installation and/or usage report with respect to the Licensed Products (and in the case of Registered User Products, as specified in the Licensing Basis Webpage, such report shall include a list of all individuals for whom Customer has issued a password or other unique identifier to enable such individual to use the Registered User Product). Each such report shall be certified by an authorized representative of Customer as to its accuracy within ten (10) business days after receipt of PTC's written request. For any period in which Customer's use of the Licensed Products exceeds the number and/or the scope of the Licenses in effect during such period for such Licensed Products, Customer agrees to pay for any such excess usage, including applicable license and Support Services fees, and without limiting any other rights or remedies to which it is entitled, failure to pay shall be grounds for termination in accordance with Section 9.1 hereof.
+
+5. Intellectual Property.
+
+PTC and its licensors are the sole owners of the Licensed Products and of any copies of the Licensed Products, and of all copyright, trade secret, patent, trademark and other intellectual or industrial property rights in and to the Licensed Products. All copies of the Licensed Products and all Support Services, in whatever form provided by PTC or made by Customer, shall remain the property of PTC, and such copies shall be deemed to be on loan to Customer during the License Term. Customer acknowledges that the License granted hereunder does not provide Customer with title to or ownership of the Licensed Products or any copies thereof, but only a right of limited use consistent with the express terms and conditions of this Agreement.  Customer shall have no rights to the source code for the Licensed Products and Customer agrees that only PTC shall have the right to maintain, enhance, or otherwise modify the Licensed Products.
+
+6. Warranty; Disclaimer of Warranties.
+
+See Schedule A for a modified version of this Section 6 for Licensed Products licensed and used in Germany, Austria or Switzerland.
+
+6.1. Warranty. PTC warrants to Customer that PTC is authorized to grant the License(s). PTC further warrants that the Licensed Products will be free from Errors during the Warranty Period.  "Warranty Period" means: (a) for perpetual software licenses, the ninety day period commencing on PTC's initial shipment of the Licensed Product to Customer or Customer's designee, and (b) for subscription licenses, the term of the subscription.   PTC shall have no warranty obligations hereunder with respect to any (i) New Releases, (ii) Errors attributable to any modifications or customizations of the Licensed Products, (iii) Licensed Products that are provided by PTC free of charge to Customer, and/or (iv) Bundled Third Party Products (as defined in the Schedule of Third Party Terms).
+
+6.2. Sole Remedy. PTC's and its licensors' entire liability and Customer's exclusive remedy for any breach by PTC of the warranty given in the second sentence of Section 6.1 above shall be, at PTC's sole discretion, either to (a) replace the Licensed Product(s) that contains the Error, or (b) use diligent efforts to repair the Error. PTC's obligations set forth in the preceding sentence shall apply only if notice of the Error is received by PTC within the Warranty Period and Customer supplies such additional information regarding the Error as PTC reasonably requests. If PTC does not replace the applicable Licensed Product(s) and/or does not repair the Error (either by providing a bug fix, a workaround or otherwise) within a reasonable time after PTC receives written notice of the Error and associated information from Customer, upon return of such Licensed Product(s) and any copies thereof, PTC will provide a refund of: the perpetual license fees paid by Customer for the Licensed Product(s) that contains the Error, and (ii) the prepaid subscription fees for the remainder of the subscription term for the Licensed Product(s) that contains the Error, in each case upon return of such Licensed Product(s) and any copies thereof.
+
+6.3. No Additional Warranties. No third party, including any employee, partner, distributor (including any Reseller) or agent of PTC or any of its Resellers or sales agents is authorized to give any representations, warranties or covenants greater or different than those contained in this Agreement with respect to any Licensed Products or Support Services, except as specifically set forth in a written agreement signed on behalf of Customer by an authorized officer and on behalf of PTC by its legal counsel or Corporate Controller.
+
+6.4. Disclaimer of Warranties. EXCEPT AS EXPRESSLY STATED IN THIS SECTION 6, PTC DISCLAIMS (AND CUSTOMER WAIVES) ALL WARRANTIES, WHETHER EXPRESS OR IMPLIED, WRITTEN OR ORAL, INCLUDING ANY WARRANTY OF MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, AND/OR ANY WARRANTY THAT CUSTOMER WILL ACHIEVE ANY PARTICULAR RETURN ON INVESTMENT. CUSTOMER IS SOLELY RESPONSIBLE FOR ANY RESULTS OBTAINED FROM USING THE LICENSED PRODUCTS, INCLUDING THE ADEQUACY OF INDEPENDENT TESTING OF RELIABILITY, SECURITY AND ACCURACY OF ANY ITEM DESIGNED USING LICENSED PRODUCTS. PTC DOES NOT WARRANT THAT THE OPERATION OR OTHER USE OF THE LICENSED PRODUCTS WILL BE UNINTERRUPTED OR ERROR FREE OR WILL NOT CAUSE DAMAGE OR DISRUPTION TO CUSTOMER'S DATA, COMPUTERS OR NETWORKS.
+
+7. Indemnification; Infringement.
+
+7.1. PTC's Obligation to Indemnify Customer. PTC, at its own expense, will defend any action brought against Customer based on a claim that any Licensed Product infringes a United States, European Union or Japanese patent, copyright or trademark and, at its option, will settle any such action or will pay any final judgment awarded against Customer, provided that: (a) PTC shall be notified promptly in writing by Customer of any notice of any such claim; (b) PTC shall have the sole control of the defense of any action on such claim and all negotiations for its settlement or compromise and shall bear the costs of the same (save where one or more of the exclusions in Section 7.3 applies); and (c) Customer shall cooperate fully at PTC's expense with PTC in the defense, settlement or compromise of such claim. This Section states PTC's sole and exclusive liability, and Customer's sole remedy, for any and all claims relating to infringement of any intellectual property right.
+
+7.2. PTC's Right to Act to Prevent a Claim. If a claim described in Section 7.1 hereof occurs or, in PTC's opinion, may occur, Customer shall permit PTC, at PTC's option and expense to: (a) procure for Customer the right to continue using the Licensed Product; (b) modify the Licensed Product so that it becomes non-infringing without materially impairing its functionality; or (c) terminate the applicable Licenses, accept return of the applicable Licensed Products and grant Customer a credit thereon. For Licenses purchased with a perpetual License Term, such credit shall be equal to the license fees paid by Customer for such Licensed Product depreciated on a straight-line, five year basis. For Licenses purchased on a term license or subscription basis, such credit shall be equal to the prepaid license or subscription fees for the remainder of the License Term.
+
+7.3. Exclusions from PTC's Obligation to Indemnify Customer. PTC shall have no liability to Customer under Section 7.1 hereof or otherwise to the extent that any infringement or claim thereof is based upon: (a) use of the Licensed Product in combination with equipment or software not supplied hereunder where the Licensed Product itself would not be infringing; (b) use of other than a current release of the Licensed Product(s) provided to Customer; or (c) modification of the Licensed Product by anyone other than PTC or its employees or agents.
+
+8. Limitation of Liability.
+
+See Schedule A for a modified version of this Section 8 for Licensed Products licensed and used in Germany, Austria or Switzerland.
+
+8.1. The warranty and indemnification provisions of Sections 6 and 7 hereof state the entire liability of PTC, its subsidiaries and affiliates, and each of their respective directors, officers, employees or agents, with respect to the Licensed Products and Support Services, including (without limitation) any liability for breach of warranty, or for infringement or alleged infringement of patent, copyrights, trademarks, trade secrets and other intellectual or proprietary rights by the Licensed Products, or their use.
+
+8.2. EXCEPT FOR PTC'S INDEMNIFICATION OBLIGATIONS IDENTIFIED IN SECTION 7.1 ABOVE, THE MAXIMUM LIABILITY OF PTC AND ITS AFFILIATES, RESELLERS, DISTRIBUTORS AND LICENSORS ARISING OUT OF, OR RELATING TO, THE CREATION, LICENSE, FUNCTIONING, USE OR SUPPLY OF THE LICENSED PRODUCTS OR THE PROVISION OF SUPPORT SERVICES OR OTHERWISE RELATING TO THIS AGREEMENT, WHETHER BASED UPON WARRANTY, CONTRACT, TORT, OR OTHERWISE, SHALL NOT, (I) FOR LICENSES PURCHASED ON A PERPETUAL BASIS, EXCEED THE FEES PAID BY CUSTOMER FOR THE LICENSED PRODUCTS OR SUPPORT SERVICES THAT GAVE RISE TO THE CLAIM, AND (II) FOR LICENSES PURCHASED ON A TERM OR SUBSCRIPTION BASIS, EXCEED THE FEES PAID BY CUSTOMER IN THE TWELVE MONTH PERIOD IMMEDIATELY PRECEDING THE EVENT GIVING RISE TO DAMAGES FOR THE LICENSED PRODUCTS OR SUPPORT SERVICES THAT GAVE RISE TO THE CLAIM.
+
+8.3. IN NO EVENT SHALL PTC AND ITS AFFILIATES, RESELLERS, DISTRIBUTORS AND LICENSORS OR ANY OF THEIR RESPECTIVE DIRECTORS, OFFICERS, EMPLOYEES OR AGENTS BE LIABLE FOR: (A) ANY LOSS OF PROFIT, LOSS OF USE DAMAGES, LOSS OF GOODWILL, LOSS OF BUSINESS OPPORTUNITY, LOSS OF SALES, LOSS OF REPUTATION OR LOSS OF ANTICIPATED SAVINGS; (B) ANY LOSS OR INACCURACY OF DATA OR BUSINESS INFORMATION OR FAILURE OR INADEQUACY OF ANY SECURITY SYSTEM OR FEATURE; AND (C) SPECIAL, INCIDENTAL, INDIRECT, PUNITIVE OR CONSEQUENTIAL LOSS OR DAMAGE HOWSOEVER CAUSED; IN EACH CASE EVEN IF PTC HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+8.4. Customer agrees not to bring any suit or action against PTC, and/or its subsidiaries and affiliates, PTC's licensors and/or any of their respective directors, officers, employees or agents for any reason whatsoever more than one year after the cause of action arises.  The limitations and exclusions set forth in this Section 8 shall not apply to any claim in respect of death or personal injury.
+
+9. Term and Termination of Licenses or Support Services.
+
+9.1. Events Causing Termination. This Agreement and all Licenses and the provision of Support Services on Licensed Products will terminate thirty (30) days after written notice from PTC specifying a breach of this Agreement, including failure to make any payment due to either PTC or a Reseller in connection with the Licensed Products in a timely manner, if that breach is not, within that thirty (30) day period, remedied to PTC's reasonable satisfaction.
+
+9.2. Effects of Expiration or Termination. Upon expiration of a given License Term and/or any expiration or termination of this Agreement, Customer shall promptly pay all sums owed by Customer, return to PTC the original copies of all Licensed Products for which the License Term has expired or has been terminated, destroy and/or delete all copies and backup copies thereof from Customer's computer libraries, storage facilities and/or hosting facilities.
+
+9.3. Survival. Sections 1.2, and 3 through 10 shall survive expiration or termination of this Agreement.
+
+10. General.
+
+10.1. Governing Law and Jurisdiction. Unless otherwise stated in Schedule A, all disputes arising under, out of, or in any way connected with this Agreement shall be governed by and construed in accordance with the laws of the Commonwealth of Massachusetts without reference to conflict of laws principles (and specifically excluding the Uniform Computer Information Transactions Act). The parties hereby expressly disclaim the application of the U.N. Convention for the International Sale of Goods. All disputes arising under, out of, or in any way connected with this Agreement shall be litigated exclusively in the state or federal courts situated in the Commonwealth of Massachusetts, and in no other court or jurisdiction. Notwithstanding the foregoing or anything to the contrary, PTC shall have the right to bring a claim in any court of competent jurisdiction to enforce any intellectual property rights and/or protect any confidential information. Customer stipulates that the state and federal courts situated in the Commonwealth of Massachusetts shall have personal jurisdiction over its person, and Customer hereby irrevocably (i) submits to the personal jurisdiction of said courts and (ii) consents to the service of process, pleadings, and notices in connection with any and all actions initiated in said courts. The parties agree that a final judgment in any such action or proceeding shall be conclusive and binding and may be enforced in any other jurisdiction.  Each party waives its right to trial by jury in connection with any dispute arising out of this Agreement.
+
+10.2. Notices. Any notice or communication required or permitted under this Agreement shall be in writing. Any notice provided under this section shall be deemed to have been received: (a) if given by mail, five (5) business days after posting; (b) if given by express courier service, the second business day following dispatch; or (c) if given by fax, upon receipt thereof by the recipient's fax machine.
+
+10.3. Assignment, Waiver, Modification. Customer may not assign, transfer, delegate or sublicense any of Customer's rights or obligations hereunder (including without limitation by operation of law or by sale of Customer assets, whether directly or by merger, and a change in control of Customer shall be deemed to be an "assignment" for purposes of the foregoing) without PTC's prior written consent, and any such attempted delegation, assignment, transfer or sublicense shall be void and a breach of this Agreement. No waiver, consent, modification, amendment or change of the terms of this Agreement shall be binding unless in writing and signed by PTC and Customer. PTC reserves the right to charge a transfer fee for any proposed assignment, transfer or sublicense of this Agreement.
+
+10.4. Compliance with Laws.
+
+(i) Each party shall be responsible for its own compliance with applicable laws, regulations and other legal requirements relating to the conduct of its business and this Agreement. Further, Customer represents and warrants that it will use the Licensed Products, as well as related technology and services, in full compliance with applicable laws and regulations.
+
+(ii) Customer hereby warrants and represents that neither Customer nor any of Customer's directors, officers or affiliates are listed on the U.S. Commerce Department's Denied Persons List, Entity List, or Unverified List, the U.S. State Department's Nonproliferation Sanctions List, the U.S. Treasury Department's List of Specially Designated Nationals and Blocked Persons or the Sectoral Sanctions Identifications (SSI) List (collectively, the "Restricted Party Lists"). Customer acknowledges and agrees that the Licensed Products and related technical data and services are subject to the export control laws and regulations of the United States and any country in which the Licensed Products or related technical data or services are developed, received, downloaded, used, or performed.  Further, Customer understands and acknowledges that the release of software or technology to a non-U.S. person within the United States or elsewhere abroad is deemed to be an export to the non-U.S. person's home country or countries, and that the transfer of the Licensed Products or related technology to Customer's employees, affiliates, or any third party, may require a license from the United States Government and possibly other applicable authorities. Customer shall be solely responsible for determining whether Customer's use or transfer of the Licensed Products or related technology or services requires an export license or approval from U.S. or other authorities, and for securing all required authorizations.
+
+10.5. Severability. The unenforceability or invalidity of any provision shall not affect the validity of the remaining provisions, and such provisions determined to be invalid shall be deemed severed from this Agreement and replaced with terms which as closely as possible approximate the intent of such invalid provisions.
+
+10.6. Entire Agreement. This Agreement is the complete and exclusive statement of the contract between PTC and Customer with respect to the subject matter hereof. No waiver, consent, modification, amendment or change of this Agreement shall be binding unless in writing and signed or otherwise expressly acknowledged by PTC and Customer.
+
+10.7. Third Party Beneficiaries. It is agreed by the parties to this Agreement that PTC's third party licensors are intended beneficiaries of this Agreement and have the right to rely upon and directly enforce its terms with respect to the products of such licensors.
+
+10.8. Marketing. Customer agrees that while this Agreement is in effect, PTC shall be authorized to identify Customer as a customer/end-user of PTC software and services (as applicable) in public relations and marketing materials.
+
+10.9. Government Licensees. If Customer is a United States Governmental entity, Customer agrees that the Licensed Products are "commercial computer software" under the applicable federal acquisition regulations and are provided with the commercial license rights and restrictions described elsewhere herein. If Customer is acquiring the Licensed Product(s) under a United States government contract, Customer agrees that Customer will include all necessary and applicable restricted rights legends on the Licensed Products to protect PTC's proprietary rights under the FAR or other similar regulations of other federal agencies. Customer agrees to always include such legends whenever the Licensed Products are, or are deemed to be, a deliverable under a government contract.
+
+Schedule A - Purchases from PTC Affiliates
+If the Customer has obtained a License to any Licensed Products in one of the following countries, the entity granting the License is specified below and, notwithstanding Section 10.1 of this Agreement, the governing law and jurisdiction shall be as set forth below.
+Country
+PTC Affiliate Licensing Entity
+Governing Law/Jurisdiction for Disputes
+Belgium, Netherlands, Luxembourg
+Parametric Technology Nederland B.V.
+Beta Technology & Business Accelerator, Unit K110, High Tech Campus 9, Eindhoven, Netherlands 5656 AE
+Netherlands
+Austria, Germany
+Parametric Technology GmbH
+Edisonstrasse 8, 85716Unterschleissheim, Germany 
+German Law*, Landgericht Munchen I, Germany
+France
+Parametric Technology S.A.
+1 rue du Petit Clamart, CS 10503, Velizy, Villacoublay, Cedex, France
+France
+Ireland
+PTC (SSI) Limited
+12 Camden Row, Dublin 8, Ireland
+Republic of Ireland
+Italy
+Parametric Technology Italia S.r.l.
+Centro Direzionale Colleoni, Palazzo Sirio 3, Viale Colleoni 11, 20041 Agrate Brianza, Italy
+Italy
+Spain, Portugal 
+Parametric Technology Espana, S.A.
+Gran Via de les Corts, Catalanes, 130-136, Planta 7°, Barcelona, Spain 08038
+Spain
+Switzerland
+Parametric Technology (Schweiz) AG
+Javastrasse 4, Hegnau, Volketswil, Switzerland 8604
+German Law*, Landgericht Munchen I, Germany
+United Kingdom
+Parametric Technology (UK) Limited
+Chester House, Aerospace Boulevard, Farnborough, England, GU14 6TQ
+United Kingdom
+Remaining countries of the European Union
+PTC (SSI) Limited
+12 Camden Row, Dublin 8, Ireland
+Republic of Ireland
+Turkey, Kosovo, Serbia, Macedonia, Montenegro, Croatia, Bosnia and Herzegovina, Romania and Albania
+PTC (SSI) Limited
+12 Camden Row, Dublin 8, Ireland
+Republic of Ireland
+The Russian Federation
+PTC International LLC
+Rusakovaskaya Street 13, Moscow,
+Russia 107140
+Russian Law / International Commercial Arbitration Court at the Chamber of Commerce and Industry of the Russian Federation in Moscow
+Belarus, Moldova, Ukraine, Armenia, Georgia, Azerbaijan, Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan
+PTC (SSI) Limited
+12 Camden Row, Dublin 8, Ireland
+Republic of Ireland
+Norway, Sweden, and Denmark, Finland, Iceland, and the Faeroe Islands
+PTC Sweden AB
+Johan Pa Gardas gata 5A
+Gothenburg, Sweden 41250
+Sweden
+Middle East (excluding Israel)
+PTC (SSI) Limited
+12 Camden Row, Dublin 8, Ireland
+Republic of Ireland
+Africa
+PTC (SSI) Limited
+12 Camden Row, Dublin 8, Ireland
+Republic of Ireland
+Israel
+PTC Inc.
+140 Kendrick Street, Needham MA 02494 USA
+Commonwealth of Massachusetts, United States
+Japan
+PTC Japan K.K.
+8-1, Nishi-Shinjuku, 6-chome, Shinjuku-ku, Tokyo, Japan
+Japan / Tokyo District Court
+China
+Parametric Technology (Shanghai) Software Co., Ltd.
+Unit 008, Floor 8, 888 Wanhangdu Road, Jingan District, Shanghai, China
+The People's Republic of China/Shanghai International Economic and Trade Arbitration Commission 
+Taiwan
+Parametric Technology Taiwan Limited
+15/F HsinKee Building, 460-466 Hsin Yi Road, Sec. 4, Taipei, Taiwan 110
+Taiwan / Courts of Taipei, Taiwan
+India
+Parametric Technology (India) Private Limited
+4th Floor, Phoenix Towers, 16, Museum Road, Bangalore, India 560 025
+India
+Korea
+Parametric Korea Co. Ltd.
+10th Floor, Cosmo Tower, 1002, Daechi-dong, Gangnam-gu, Seoul, Korea 135-502
+Republic of Korea/Courts of Seoul
+Other Asia Pacific Countries including Australia and New Zealand, but excluding China, Japan and Taiwan)
+PTC Inc.
+140 Kendrick Street, Needham MA 02494 USA
+Special Administrative Region of Hong Kong / Hong Kong International Arbitration Centre
+Canada
+PTC (Canada) Inc.
+3333 Cote Vertu, Suite 620, St. Laurent, Quebec  H4R 2N1
+Ontario
+Brasil (Brazil)
+Parametric Technology Brasil Ltda.
+Rua Samuel Morse, 120, 3rd Floor, Sao Paulo, Brazil 04576-060
+Brasil
+Any other country
+PTC Inc., or such other affiliate of PTC as PTC directs at the time of the order
+Commonwealth of Massachusetts, United States
+*Specific Provisions for Austria, Germany and Switzerland:
+For Licensed Products licensed and used in Austria, Germany or Switzerland, the following provisions shall apply.  The following provisions shall have no applicability to any Licensed Products or Services purchased outside of Austria, Germany or Switzerland.  References to sections below are references to the applicable sections in the body of the Agreement.
+. Section 2.3 (iv) above shall not apply to the extent that (i) the processes Customer undertakes are required to achieve information necessary to achieve interoperability of an independently created computer program with other software programs, (ii) the further requirements of Section 69e of the German Copyright Act are fulfilled and (iii) PTC, upon Customer's written request, has not made available the information required for this within a reasonable period.
+. Sections 6.1 (Warranty), 6.2 (Sole Remedy), 6.3 (No Additional Warranties) and 6.4 (Disclaimer of Warranties) are hereby replaced by the following provisions:
+        6. Warranty; Disclaimer of Warranties 
+Sections 6.1 to 6.6 apply to warranty claims with regard to perpetual licenses; for warranty claims with regard to subscription licenses Section 6.7 applies.
+6.1.	Warranty Period, Restarts and Investigation Duty. The limitation period for warranty claims shall be twelve (12) months from delivery.  Any replacement of the Licensed Product(s) and/or repair of Errors will not restart the warranty period.  The pre-requisite for the Customer's warranty claims (Mangelanspruche) is that: (i) the Customer inspects the Licensed Products according to Section 377 German Commercial Code, (ii) the defect is an Error as defined in this Agreement, (iii) the Error already existed at the time of delivery and (iv) the Customer effects a proper notification of the Error.  Customer shall provide notifications of Errors to PTC in writing and Customer shall provide specific details of the Error as deemed reasonable under the specific circumstances.  Customer shall notify PTC of obvious Errors in writing within one week of delivery and of latent Errors within one week of discovery of such Error.  The periods specified are preclusion periods.
+6.2.	Remedies. In the event of an Error, PTC in its sole discretion may: (a) replace the Licensed Product(s) or (b) repair the Error, provided that notice of the Error is received by PTC within the periods set forth in Section 6.1 and Customer provides such additional information regarding the Error as PTC may reasonably request.  If the repair (either by providing a bug fix, a workaround or otherwise) or replacement is not successful (after at least two repair attempts for the same Error by PTC within a reasonable period of time), Customer shall be entitled, at Customer's choice, to either: (i) rescission of the affected order so that PTC provides a refund of the license fees paid by Customer for the applicable Licensed Product(s) containing the error upon return of such Licensed Product(s) and any copies made thereof or (ii) a reasonable reduction in the purchase price. Replacements or repairs shall be made without acknowledgement of a legal obligation and shall not suspend the limitation period for warranty claims related to the Licensed Products.
+6.3	Warranty Exceptions. PTC shall have no warranty obligations hereunder with respect to any (i) New Releases, (ii) Errors attributable to any modifications or customizations of the Licensed Products, (iii) Licensed Products that are provided by PTC free of charge to Customer, and/or (iv) Bundled Third Party Products (as defined in the Schedule of Third Party Terms).
+6.4.	No Additional Warranties. No employee, partner, distributor (including any Reseller) or agent of PTC or any of its resellers or sales agents is authorized to give representations, warranties or covenants greater or different than those contained in this Agreement, except as specifically set forth in a written agreement signed on behalf of Customer by an authorized officer and on behalf of PTC by its legal counsel or Corporate Controller.  Apart from claims for damages based on Errors that are subject to the limitation of liability as set forth in Section 8, the obligations provided for in this Section 6.1 to 6.6 shall be PTC's exclusive liability in case of warranty claims.
+6.5.	Customer Responsibility. The Licensed Products are intended to be used by trained professionals and are not a substitute for the exercise by Customer of professional judgment, testing, safety and utility in their use.  Customer is solely responsible for any results which were obtained by using the Licensed Products, including the adequacy of independent testing of reliability and accuracy of any item designed using Licensed Products.
+6.6.	Qualities (Beschaffenheit), Guarantees. Qualities of the Licensed Products stated in publications of PTC or its sales representatives, in particular in advertising, in drawings, brochures or other documents, including presentations in the Internet, or on packaging and labeling of the Licensed Products, or which fall under trade usages, shall only be deemed to be covered by the contractual quality of the Licensed Products if such qualities are expressly contained in an offer or an order confirmation in writing.  Guarantees, in particular guarantees as to quality, shall be binding on PTC only to the extent to which they (i) are contained in an offer or an order confirmation in writing, (ii) are expressly designated as "guarantee" or "guarantee as to condition" (Beschaffenheitsgarantie), and (iii) expressly stipulate the obligations for PTC resulting from such guarantee.
+6.7.	Warranty claims with regard to subscription licenses
+6.7.1. PTC will provide and maintain the subscription licenses in a suitable condition for the contractual use ("fitness for contractual use"). The maintenance of the subscription licenses' fitness for contractual use will be provided by way of Support Services in accordance with the terms and conditions for Support Services as set out under http://support.ptc.com/support/services/support-policies/, such Support Services being included with the purchase of subscription licenses without additional fee. The obligation to maintain the Licensed Products does not include adjustments to changes in operating conditions or the IT environment, in particular to changes in hardware or operating systems or to new file formats.
+6.7.2. In the event of an Error as defined in Schedule B affecting a Licensed Product's fitness for contractual use, PTC at its sole discretion may (a) replace the Licensed Product(s) that contains the Error or (b) repair the Error, provided that the notice of the Error is received by PTC promptly after discovery of such Error by Customer and Customer provides such additional information regarding the Error as PTC reasonably requests. If the repair (either by providing a bug fix, a workaround or otherwise) or replacement fails finally (after at least two attempts for the same Error from the side of PTC within reasonable periods of time), Customer shall be entitled, at Customer's choice, to  (a) a termination of the Licensed Product(s) containing the Error so that PTC provides a refund of the prepaid subscription fees for the remainder of the subscription term for the Licensed Product(s) containing the Error upon return of such Licensed Product(s) and any copies made thereof or (b) a reasonable reduction in the subscription fee of the respective Licensed Product(s). Replacements or repairs shall be made without acknowledgement of a legal obligation and shall not suspend the limitation period for warranty claims related to the Licensed Products.
+6.7.3. PTC's liability for damages without fault (verschuldensunabhangige Haftung) for defects that existed upon PTC's acceptance of an order is excluded.
+6.7.4. The Customer's right to terminate for deprivation of use in accordance with section 543 para. (2) sentence 1 no. 1 BGB (German Civil Code) shall be excluded, unless the repair or replacement is deemed to have finally failed.
+6.7.5. The provisions set out in Sections 6.3, 6.4 sentence 1, 6.5 and 6.6 apply. 
+6.7.6. Apart from claims for damages based on Errors that are subject to the limitation of liability as set forth in Section 8, the obligations provided for in this Section 6.7 shall be PTC's exclusive liability in case of warranty claims.
+
+. Section 8 is hereby replaced by the following provisions:
+8.	Limitation of Liability
+8.1.	Liability Categories. PTC shall be liable for damages, regardless of the legal grounds, only if: (i) PTC breaches a material contractual obligation (cardinal obligation) culpably (i.e., at least negligently), or (ii) the damage has been caused by gross negligence or willful intent on the part of PTC or (iii) PTC has assumed a guarantee.
+8.2.	Predictability. PTC's liability shall be limited to the typical, foreseeable damage: (i) if PTC breaches material contractual obligations (cardinal obligations) with slight negligence, or (ii) if employees or agents of PTC who are not officers or executive staff have breached other obligations by gross negligence, or (iii) if PTC has assumed a guarantee, unless such guarantee is expressly designated as guarantee as to condition (Beschaffenheitsgarantie).
+8.3.	Maximum Amount. In the cases of Section 8.2 (i) and (ii), PTC's liability shall be limited to a maximum amount of EURO 1,000,000 or, in case of purely financial losses, to a maximum amount of EURO 100,000.
+8.4.	Indirect Damages.  In the cases of Section 8.2, PTC shall not be liable for indirect damages, consequential damages or loss of profit.
+8.5.	Liability Period.  Customer's claims for damages against PTC and/or PTC's affiliates, regardless of the legal grounds, shall expire at the latest one year from the time the Customer gains knowledge of the damage or, irrespective of this knowledge, at the latest two years after the damaging event.  For claims based on Errors of the Licensed Product(s), the warranty limitation period pursuant to Section 6.1 shall apply.
+8.6.	Mandatory Liability.  PTC's liability pursuant to the German Product Liability Act (Produkthaftungsgesetz), for injury of life, body and health, for fraudulent concealment of a defect or for the assumption of a guarantee as to condition (Beschaffenheitsgarantie) remains unaffected.
+8.7.	Employees. Sections 8.1 to 8.6 shall also apply in the case of any claims for damages of Customer against employees or agents of PTC and/or PTC's affiliates.
+8.8.	Contributory Negligence. In the event of a guarantee or liability claim against PTC any contributory fault of Customer must be taken into account accordingly, particularly in the event of inadequate fault notification or inadequate data securing.  It constitutes inadequate data securing if the client, among others, does not, by way of appropriate state of the art security measures, take precautions against external influences, e.g. computer viruses and other phenomena which could put individual data or an entire data stock at risk.
+
+Schedule B - Definitions
+"Designated Country" - the country of purchase unless otherwise specified in writing on the order documentation at the time of purchase.  
+"Designated Server" - the computer server located in the Designated Country that has one unique instance of the applicable installed Licensed Product application.
+ "Documentation" - the applicable Licensed Product user manuals provided or made available by electronic means by PTC at the time of shipment of the Licensed Product.
+"Error" - a failure of the Licensed Product to conform substantially to the applicable Documentation, provided that Customer informs PTC of such failure in writing.
+"License" - the non-exclusive, non-transferable right, without any right to sub-license, to install and use a Licensed Product (in object code form).
+"License Term" - the time period during which the License for the applicable Licensed Products shall be in effect as specified in the part name of the Licensed Product or in the applicable Quote. In the absence of a stated license term, the License Term shall be perpetual, except that the License Term for evaluation Licenses shall be no longer than thirty days. The License Term of a "subscription" License is as specified in the Quote and/or the invoice.
+"Licensed Products" - the computer software products identified in the applicable Quote and Documentation provided with such computer software products.
+"Licensing Basis Webpage" - the "Licensing Basis" document at http://www.ptc.com/support/customer_agreements/index.htm, which specifies the licensing basis of PTC's different products and states certain additional product-specific terms and conditions.
+"New Release" - a modified or enhanced version of a Licensed Product that is designated by PTC as a new release of that product and that PTC makes generally available to its Support Services customers.
+"Permitted User" - an individual who is authorized by Customer to use the Licensed Products, such use to be solely in accordance with the terms and conditions of this Agreement.  Permitted Users are limited to Customer's employees, consultants, subcontractors, suppliers, business partners and customers who (i) are not competitors of PTC or employed by competitors of PTC and (ii) are directly involved in the utilization of the Licensed Products solely in support of Customer's internal business purposes. Customer shall at all times be responsible for its Permitted Users' compliance with this Agreement.
+"Quote" - the product schedule, quote, or other written agreement provided to, or signed by, Customer in connection with the purchase of the applicable Licensed Products and/or Support Services.
+"Reseller" - a third-party appointed and authorized by PTC to resell or distribute any Licensed Products and/or Support Services to Customer.
+"Support Services" - the provision of New Releases and, depending on the level of Support Services ordered, may also include telephone support, web-based support tools, and correction of Errors. 
+"Uplift Fee" - a fee based upon the difference between the License fee applicable to installation of the applicable Licensed Product in the original Designated Country and the License fee applicable to the installation of such Licensed Product in the Designated Country to which Customer wishes to move that Licensed Product.

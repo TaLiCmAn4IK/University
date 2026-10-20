@@ -1,0 +1,8 @@
+# {100} (100) [0] <template>_1.Label
+Locate Other Installation Directories (Optional)
+Определить папки других установок (Опция)
+
+# [1] <template>_2.Label
+Optional Inputs
+Дополнительный ввод
+

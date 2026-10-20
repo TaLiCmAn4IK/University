@@ -1,0 +1,92 @@
+# {100} (100) [0] Label289.Label
+Testing
+테스트
+
+# [1] CascadeOrganize.Label
+<org> Organize
+<org> 정리
+
+# [2] CascadeOrganize.HelpText
+Manage files and folders
+파일 및 폴더 관리
+
+# [3] DispButton.Label
+<disp> Views
+<disp> 뷰
+
+# [4] DispButton.HelpText
+Select a view type
+뷰 유형 선택
+
+# [5] CascadeTools.Label
+<tools> Tools
+<tools> 도구
+
+# [6] CascadeTools.HelpText
+Manage files and folders
+파일 및 폴더 관리
+
+# [7] up_directory.HelpText
+Up One Level
+한 단계 위로
+
+# [8] pb_whatis.HelpText
+Context sensitive help
+문맥 인식 도움말
+
+# [9] mp_organize.Label
+Organize
+정리
+
+# [10] newdirectory_pb.Label
+New Folder
+새 폴더
+
+# [11] newdirectory_pb.HelpText
+Create New Directory
+새 디렉토리 생성
+
+# [12] Radgp_table.Labels.a
+<a> List
+<a> 목록
+
+# [13] Radgp_table.Labels.b
+<b> Details
+<b> 세부
+
+# [14] enable_popup_cb.Label
+Show PopUp Viewer
+팝업 뷰어 표시
+
+# [15] mp_tools.Label
+Tools
+도구
+
+# [16] DefaultLookin.Label
+Address Default
+기본 주소
+
+# [17] markup_instance_display.Label
+Sort By
+정렬 기준
+
+# [18] SelectAll.Label
+Select All
+모두 선택
+
+# [19] UnselAll.Label
+Unselect All
+모두 선택 취소
+
+# [20] RadioGroup3.Labels.a
+Model Name
+모델 이름
+
+# [21] RadioGroup3.Labels.b
+Markup/Instance Name
+마크업/인스턴스 이름
+
+# [22] chk_browser_tb.Label
+Browser Toolbar
+브라우저 도구 모음
+

@@ -1,0 +1,20 @@
+# {0} (5) [0] app_mgr_config.Label
+PTC Application Manager - Installation Configuration
+PTC应用程序管理器 - 安装配置
+
+# [1] Menu.Label
+Menu
+菜单
+
+# [2] CmdTreeAdd.Label
+Add
+添加
+
+# [3] CmdTreeEdit.Label
+Edit
+编辑
+
+# [4] CmdTreeDelete.Label
+Delete
+删除
+

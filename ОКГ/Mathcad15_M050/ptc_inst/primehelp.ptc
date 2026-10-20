@@ -1,0 +1,6 @@
+// 17-Sep-09 L-03-35  $$1   TWH  Created
+
+(Product primehelp
+        (Name               "Prime Help")
+	(WelcomeImage       "prime_help.png")
+)

@@ -1,0 +1,84 @@
+# {100} (100) [0] ps_cmd.Label
+Command Configuration
+명령어 구성
+
+# [1] CmdName1Lab.Label
+Command Name
+명령 이름
+
+# [2] CmdDesc1Lab.Label
+Command Description
+명령어 설명
+
+# [3] CmdType1Lab.Label
+Command Type
+명령어 유형
+
+# [4] CmdLTRLab.Label
+License To Run
+실행할 라이센스
+
+# [5] CmdLTRMod.Label
+Edit
+편집
+
+# [6] CmdLicExtLab.Label
+License Extensions
+라이센스 연장
+
+# [7] CmdLicExtMod.Label
+Edit
+편집
+
+# [8] CmdLicFltLab.Label
+Floating Options
+부동 옵션
+
+# [9] CmdLicFltMod.Label
+Edit
+편집
+
+# [10] CmdName2Lab.Label
+Command Name
+명령 이름
+
+# [11] CmdDesc2Lab.Label
+Command Description
+명령어 설명
+
+# [12] CmdType2Lab.Label
+Command Type
+명령어 유형
+
+# [13] CmdLicLab.Label
+FLEXnet Licenses
+FLEXnet 라이센스
+
+# [14] CmdLicMod.Label
+Modify
+수정
+
+# [15] CmdInfoGrp.Labels.1
+No ConfigID
+ConfigID 없음
+
+# [16] CmdInfoGrp.Labels.2
+ConfigID
+ConfigID
+
+# [17] CmdInfoGrpLab.Label
+License Scheme:
+라이센스 구조:
+
+# [18] Label19.Label
+Specify configuration options for this startup command
+이 시작 명령어를 위한 구성 옵션 지정
+
+# [19] StdOK.Label
+&OK
+확인(&O)
+
+# [20] StdCancel.Label
+&Cancel
+취소(&C)
+

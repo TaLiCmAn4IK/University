@@ -1,0 +1,8 @@
+# {0} (2) [0] DismissBtn.Label
+Hide/Done
+非表示/終了
+
+# [1] WaitLab.Label
+Please wait...
+しばらくお待ちください...
+

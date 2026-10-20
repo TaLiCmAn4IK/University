@@ -1,0 +1,162 @@
+// 07-Mar-00 $$1  MYA  Created.
+// 17-Aug-00 $$2  TWH  Fix case of key names
+// 30-Jan-01 $$3  TWH  Add CmdType Prop values
+// 28-Feb-01 $$4  MAZ  Rm cv2vdi9.1 
+// 04-Apr-01 $$5  TWH  Iconindex -> IconIndex
+// 31-Jan-02 $$6  MAZ  Use ptchostid script
+// 04-Mar-03 K-01-06  $$7  TWH  LpcfgWindows->ScreenWindows
+// 21-Jul-03 K-01-11 $$8   JJE  Add ptcborrow and ptcreturn scripts
+// 15-Dec-03 K-01-20 $$9  MAZ  Remove borrow scripts
+// 24-Jan-05 K-03-18  $$10 MAZ    Submit to K-03
+
+(Product mockup
+    (Name                      "DIVISION MockUp")
+    (Packages                  "mockup"
+                               "ptcutil"
+                               "prog_toolkit"
+                               "safework"
+                               "conv_util"
+                               "uninstall")
+    (ProgramFiles              True)
+    (LpDirName                 "mockup")
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+)
+
+(Package mockup
+    (Name                      "DIVISION MockUp")
+    (Screens                   "ScreenLicList"
+                               "ScreenCmdList"
+                               "LpcfgLinkpath"
+                               "LpcfgWindows"
+                               "LpcfgBrowser")
+    (CmdTypes                  "mockupBin")
+    (Binscripts                "cpu_id"
+                               "ptcflush"
+                               "ptcstatus"
+                               "mutil"
+                               "mockup_remote"
+                               "mockup_remote_64"
+                               "mockuplink"
+                               "mockupepd"
+                               "echocast"
+                               "mockup_64")
+    (Cdsections                "mockup"
+                               "Install"
+                               "flexclient"
+                               "mockup_64")
+    (Installed                 True)
+)
+
+(Package prog_toolkit
+    (Name                      "Programming Toolkit")
+    (Cdsections		       "prog_toolkit")
+    (Installed                  False)
+)
+
+(Package safework
+    (Name                      "Safework")
+    (Cdsections                "safework")
+    (Installed                 False)
+)
+
+(Package demos
+    (Name                      "Demos")
+    (Cdsections                "demos")
+    (Binscripts                "dvisedemos")
+    (Installed                 True)
+)
+
+(Package conv_util
+    (Name                      "Converter Utilities")
+    (Installed                 False)
+    (Cdsections                "conv_util")
+    (CmdTypes                  "dvconvertBin")
+    (Binscripts                "dvconvert"
+                               "dgl2vdi"
+                               "dxf2vdi"
+                               "flt2vdi"
+                               "igds2vdi"
+                               "iges2vdi"
+                               "iv2vdi"
+                               "stl2vdi"
+                               "vrml2vdi"
+                               "wf2vdi"
+                               "bgf2dxf"
+                               "bgfutil"
+                               "bgf2flt")
+    (SubPackages               "alias_conv"
+                               "catia_conv"
+                               "cadds_conv"
+                               "ideas_conv"
+                               "proe_conv"
+                               "ug_conv")
+)
+
+(Package alias_conv
+    (Name                      "Alias Interface")
+    (Installed                 False)
+    (Binscripts                "alias2vdi")
+    (Cdsections                "alias_conv")
+)
+
+(Package catia_conv
+    (Name                      "Catia Interface")
+    (Installed                 False)
+    (Binscripts                "catia2vdi")
+    (Cdsections                "catia_conv")
+)
+
+(Package cadds_conv
+    (Name                      "CADDS Interface")
+    (Installed                 False)
+    (Binscripts                "cv2vdi"
+                               "gbf2vdi"
+                               "bgf2gbf")
+    (Cdsections                "cadds_conv")
+)
+
+
+(Package ideas_conv
+    (Name                      "Ideas Interface")
+    (Installed                 False)
+    (Binscripts                "ideas2vdi6"
+                               "ideas2vdi6a")
+    (Cdsections                "ideas_conv")
+)
+
+(Package proe_conv
+    (Name                      "Pro/ENGINEER Interface")
+    (Installed                 False)
+    (Binscripts                "pro2vdi")
+    (Cdsections                "proe_conv")
+)
+
+(Package ug_conv
+    (Name                      "Unigraphics Interface")
+    (Installed                 False)
+    (Binscripts                "prt2vdi")
+    (Cdsections                "ug_conv")
+)
+
+
+(CmdType mockupBin
+    (Name                      "mockup")
+    (DefName                   "mockup")
+    (Type                      "DIVISION MockUp")
+    (Prefixes                  "MOCKUP_")
+    (Featvars                  "__MOCKUP_FEATURE_NAME__")
+    (Template                  "mockup_start")
+    (IconPath                  "_LP_\i486_nt\obj\ptc.ico")
+    (IconIndex                 "0")
+    (UseExtensions             False)
+    (UseOptions                False)
+)
+
+(CmdType dvconvertBin
+    (Name                      "dV/convert")
+    (Type                      "Shortcut")
+    (CmdPath                   "_LP_\bin\dvconvert.bat")
+    (IconPath                  "_LP_\i486_nt\obj\ptc.ico")
+    (IconIndex                 "0")
+)

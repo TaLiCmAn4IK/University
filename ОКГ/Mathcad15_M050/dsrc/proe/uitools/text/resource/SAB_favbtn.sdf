@@ -1,0 +1,13 @@
+;
+; 13-May-08 L-03-09  AW      $$1  Created
+;
+
+[toolbutton]
+ContentMargins = 0, 0, 0, 0
+SizingMargins = 0, 0, 0, 0
+BackgroundImage = styles/SAB/SAB_transparent.bif
+
+;[toolbutton(hot)] = [toolbutton]
+;BackgroundImage = styles/SAB/SAB_transparent.bif
+;[toolbutton(focused)] = toolbutton(hot)
+;[toolbutton(pressed)] = toolbutton(hot)

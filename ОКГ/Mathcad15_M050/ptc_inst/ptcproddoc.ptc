@@ -1,0 +1,18 @@
+// 20-Dec-99 $$1  JJE  Created.
+
+(Product ptcproddoc
+    (Name                      "PTC Documentation")
+    (Packages                  "proedoc")
+    (ProgramFiles              True)
+    (LpDirName                 "ptchelp")
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+    (StandAlone                True)
+    (HostProd                  "ptchelp")
+)
+
+(Package proedoc
+    (Name                      "Pro/ENGINEER Documentation")
+    (Installed                 True)
+    (Cdsections                "proedoc")
+)

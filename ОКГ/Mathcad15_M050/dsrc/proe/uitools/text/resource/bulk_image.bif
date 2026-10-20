@@ -1,0 +1,25 @@
+! 25-Aug-97 H-03-19+  twb  $$1 Resized icon to conform to others in tree.
+! 16-Sep-97 H-03-22   twb  $$2 New image for bulk item.
+! 02-Dec-97 H-03-31 twb $$3 Recolored for white background.
+! 18-Dec-97 H-03-34 hmt $$4 Changed size to 18x18
+! 29-DEC-97 H-03-35 MCA $$5 Changed size to 16x16 - Removed RED Set Current Box.
+! 22-Dec-99 I-03-25 TWB $$6 Updated for new Model Tree look.
+! 17-Apr-00 J-01-06 TWB $$7 Updated again.
+! 09-Apr-01 J-01-31 pmu $$8 Updated for high contrast support
+!  4-Dec-2002  J-03-39   TLH  $$9  Recolored for Wildfire.
+(Image bulk_image
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        EFFFFFFF03F0F9CCCCCC0F0133333303020001F0FD1C0D002C0D0401380D500D
+        600D340D740D700D1CA00DAC058080800306BC01C80DF8D405AC0DE801005033
+        01C003C0C0E30103020011081D0011FC01C0F801E80DBC01F801F80104059999
+        4199D30A3C15E00D341601009901100080110415801580157C11241D741D8415
+        01CC8D1D9D1DAD1D7D18CC118C1DE01200E11DF11D0128CC1D1C2D2C2D3C2D0C
+        2D005C2D6C2D7C2D4C2D9C2DAC2DBC2D8C2D00DC2DEC2DFC2DCC291C35C40528
+        3DB80D0766666687360405603DA83DB83D00C83DD83DE831
+    )
+)

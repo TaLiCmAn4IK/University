@@ -1,0 +1,120 @@
+# {100} (100) [0] intf_profile.Label
+<file name> - Import Profile
+<nombre de fichero>: perfil de importación
+
+# [1] tb_psh_new.HelpText
+Opens a new blank import profile.
+Abrir un nuevo perfil de importación en blanco.
+
+# [2] tb_psh_open.HelpText
+Opens an existing import profile.
+Abrir un perfil de importación existente.
+
+# [3] tb_psh_save.HelpText
+Saves an import profile. 
+Guardar un perfil de importación. 
+
+# [4] tb_psh_save_as.HelpText
+Saves an import profile under a different name.
+Guardar un perfil de importación con un nombre diferente.
+
+# [5] lay_profile_list.Label
+Profile
+Perfil
+
+# [6] psh_profile_save.Label
+Save
+Guardar
+
+# [7] psh_profile_save.HelpText
+Saves option settings to the selected profile.
+Guardar la configuración de la opción en el perfil seleccionado.
+
+# [8] OkPshBtn.Label
+OK
+Aceptar
+
+# [9] OkPshBtn.HelpText
+Keeps the changes.
+Conservar los cambios.
+
+# [10] CancelPshBtn.Label
+Cancel
+Cancelar
+
+# [11] CancelPshBtn.HelpText
+Cancels the changes.
+Cancelar los cambios.
+
+# [12] Menu_File.Label
+File
+Fichero
+
+# [13] psh_new.Label
+New
+Nuevo
+
+# [14] psh_new.HelpText
+Opens a new blank import profile.
+Abrir un nuevo perfil de importación en blanco.
+
+# [15] psh_open.Label
+Open...
+Abrir...
+
+# [16] psh_open.HelpText
+Opens an existing import profile.
+Abrir un perfil de importación existente.
+
+# [17] psh_save.Label
+Save
+Guardar
+
+# [18] psh_save.HelpText
+Saves an import profile. 
+Guardar un perfil de importación 
+
+# [19] psh_save_as.Label
+Save As...
+Guardar como...
+
+# [20] psh_save_as.HelpText
+Saves an import profile under a different name.
+Guardar un perfil de importación con un nombre diferente.
+
+# [21] psh_exit.Label
+Exit
+Salir
+
+# [22] psh_exit.HelpText
+Exits from the import profile editor.
+Salir del Editor de perfiles de importación.
+
+# [23] Menu_Edit.Label
+Edit
+Editar
+
+# [24] psh_reset.Label
+Reset to Default
+Redef. por defecto
+
+# [25] psh_reset.HelpText
+Resets options back to their system defaults.
+Redefinir las opciones a sus valores por defecto.
+
+# [26] psh_session_profile.Label
+Set per Current Profile
+Definir según perfil actual
+
+# [27] psh_session_profile.HelpText
+Sets options per Current Profile,\nwhich keeps the options' most recent \nused values.
+Definir las opciones según el perfil actual,\nlo que permite conservar los valores más recientes\nde la opción.
+
+# [28] psh_set_per_config.Label
+Set per Config Options
+Definir según opc. config.
+
+# [29] psh_set_per_config.HelpText
+Sets options that have corresponding\nconfig options per the config options'\nvalues in session. Resets other options\nback to their system defaults.
+Definir las opciones con opciones de configuración\ncorrespondientes según los valores de la opción de\nconfiguración en la sesión. Permite redefinir otras\nopciones a sus valores por defecto.
+

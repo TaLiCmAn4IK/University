@@ -1,0 +1,204 @@
+# {100} (100) [0] working_dir0.Label
+Extra Directory
+追加のディレクトリ
+
+# [1] lbl_common_places.Label
+Common Folders
+共通フォルダ
+
+# [2] folders.TreeNodeTypeHelpTexts.1:
+part
+部品
+
+# [3] folders.TreeNodeTypeHelpTexts.2:
+assembly
+アセンブリ
+
+# [4] folders.TreeNodeTypeHelpTexts.3:
+drawing
+図面
+
+# [5] folders.TreeNodeTypeHelpTexts.4:
+drawform
+図面フォーム
+
+# [6] folders.TreeNodeTypeHelpTexts.5:
+manufacturing
+製造
+
+# [7] folders.TreeNodeTypeHelpTexts.6:
+directory
+ディレクトリ
+
+# [8] folders.TreeNodeTypeHelpTexts.7:
+foreign
+外部
+
+# [9] folders.TreeNodeTypeHelpTexts.8:
+other ptc file
+その他の PTC ファイル
+
+# [10] folders.TreeNodeTypeHelpTexts.9:
+markup
+マークアップ
+
+# [11] folders.TreeNodeTypeHelpTexts.10:
+layout
+レイアウト
+
+# [12] folders.TreeNodeTypeHelpTexts.11:
+diagram
+ダイヤグラム
+
+# [13] folders.TreeNodeTypeHelpTexts.12:
+report
+レポート
+
+# [14] folders.TreeNodeTypeHelpTexts.13:
+2D section
+2D 断面
+
+# [15] folders.TreeNodeTypeHelpTexts.14:
+3D section
+3D 断面
+
+# [16] folders.TreeNodeTypeHelpTexts.15:
+sketcher
+スケッチャー
+
+# [17] folders.TreeNodeTypeHelpTexts.16:
+param mill
+パラメータミル
+
+# [18] folders.TreeNodeTypeHelpTexts.17:
+param turn
+パラメータターン
+
+# [19] folders.TreeNodeTypeHelpTexts.18:
+param drill
+パラメータドリル
+
+# [20] folders.TreeNodeTypeHelpTexts.19:
+param aux
+パラメータ補助
+
+# [21] folders.TreeNodeTypeHelpTexts.20:
+param cel
+パラメータセル
+
+# [22] folders.TreeNodeTypeHelpTexts.21:
+param opr
+パラメータオペレーション
+
+# [23] folders.TreeNodeTypeHelpTexts.22:
+param mea
+パラメータ測定
+
+# [24] folders.TreeNodeTypeHelpTexts.23:
+tool param
+ツールパラメータ
+
+# [25] folders.TreeNodeTypeHelpTexts.24:
+mfg mold
+製造モールド
+
+# [26] folders.TreeNodeTypeHelpTexts.25:
+mfg cast
+製造鋳造
+
+# [27] folders.TreeNodeTypeHelpTexts.26:
+skeleton
+スケルトン
+
+# [28] folders.TreeNodeTypeHelpTexts.27:
+diagram mvc def
+ダイヤグラム MVC 定義
+
+# [29] folders.TreeNodeTypeHelpTexts.28:
+comp group def
+構成部品グループ定義
+
+# [30] folders.TreeNodeTypeHelpTexts.1015:
+directory
+ディレクトリ
+
+# [31] folders.TreeNodeTypeHelpTexts.1016:
+directory
+ディレクトリ
+
+# [32] folders.TreeNodeTypeHelpTexts.1017:
+directory
+ディレクトリ
+
+# [33] folders.TreeNodeTypeHelpTexts.1018:
+directory
+ディレクトリ
+
+# [34] folders.TreeNodeTypeHelpTexts.1019:
+directory
+ディレクトリ
+
+# [35] folders.TreeNodeTypeHelpTexts.1020:
+directory
+ディレクトリ
+
+# [36] folders.TreeNodeTypeHelpTexts.1021:
+directory
+ディレクトリ
+
+# [37] folders.TreeNodeTypeHelpTexts.1022:
+directory
+ディレクトリ
+
+# [38] folders.TreeNodeTypeHelpTexts.1023:
+directory
+ディレクトリ
+
+# [39] folders.TreeNodeTypeHelpTexts.1024:
+directory
+ディレクトリ
+
+# [40] folders.TreeNodeTypeHelpTexts.1025:
+directory
+ディレクトリ
+
+# [41] folders.TreeNodeTypeHelpTexts.1026:
+Network Neighborhood
+ネットワーク周辺
+
+# [42] folders.TreeNodeTypeHelpTexts.1027:
+directory
+ディレクトリ
+
+# [43] folders.TreeNodeTypeHelpTexts.1028:
+Desktop
+デスクトップ
+
+# [44] folders.TreeNodeTypeHelpTexts.1029:
+Computer
+コンピュータ
+
+# [45] folders.TreeNodeTypeHelpTexts.1030:
+directory
+ディレクトリ
+
+# [46] folders.TreeNodeTypeHelpTexts.1031:
+directory
+ディレクトリ
+
+# [47] folders.TreeNodeTypeHelpTexts.1032:
+directory
+ディレクトリ
+
+# [48] FT_Expand_Btn.Label
+Folder Tree
+フォルダツリー
+
+# [49] psh_new_folder.HelpText
+Create a new folder
+新規フォルダを作成
+
+# [50] psh_delete_folder.HelpText
+Delete selected folders
+選択フォルダを削除
+

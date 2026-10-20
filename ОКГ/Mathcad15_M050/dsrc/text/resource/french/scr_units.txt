@@ -1,0 +1,16 @@
+# {100} (100) [0] UnitsLayout.Label
+Standards
+Standards
+
+# [1] UnitsChoice.Labels.english
+English
+Anglais
+
+# [2] UnitsChoice.Labels.metric
+Metric
+Métrique
+
+# [3] scr_units2.Label
+Instructions
+Instructions
+

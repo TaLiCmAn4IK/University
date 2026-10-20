@@ -1,0 +1,32 @@
+# {100} (100) [0] adb_CmdCopyImage.Label
+Copy Button Image
+버튼 이미지 복사
+
+# [1] adb_CmdDisplayType.Labels.DefaultStyle
+Default Style
+기본 유형
+
+# [2] adb_CmdDisplayType.Labels.Small
+Small Button
+작은 버튼
+
+# [3] adb_CmdDisplayType.Labels.SmallImageOnly
+Small Button - No Label
+작은 버튼 - 레이블 없음
+
+# [4] adb_CmdDisplayType.Labels.SmallTextOnly
+Small Button - No Icon
+작은 버튼 - 아이콘 없음
+
+# [5] adb_CmdDisplayType.Labels.Large
+Large Button
+큰 버튼
+
+# [6] adb_CmdWhatsThis.Label
+What's This?
+설명 보기
+
+# [7] adb_CmdWhatsThis.HelpText
+Tells what this button does
+이 버튼의 기능을 설명합니다
+

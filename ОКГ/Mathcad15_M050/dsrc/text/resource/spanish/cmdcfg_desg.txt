@@ -1,0 +1,20 @@
+# {0} (5) [0] desg_1.Label
+Locate Other Installation Directories (Optional)
+Localizar otros directorios de instalación (opcional)
+
+# [1] GraphLibDirLab.Label
+PTC Graphic Library
+Biblioteca de gráficos de PTC
+
+# [2] desg_2.Label
+Optional Inputs
+Entradas opcionales
+
+# [3] ProeCmdLab.Label
+Pro/ENGINEER Command
+Comando de Pro/ENGINEER
+
+# [4] PaintCmdLab.Label
+3D Paint Command
+Comando de 3D Paint
+

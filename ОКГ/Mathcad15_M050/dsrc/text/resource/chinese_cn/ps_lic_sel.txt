@@ -1,0 +1,60 @@
+# {0} (20) [0] ps_lic_sel.Label
+Select Licenses
+选取许可证
+
+# [4] StdOK.Label
+&OK
+确定(&O)
+
+# [5] StdCancel.Label
+&Cancel
+取消(&C)
+
+# [8] Label1.Label
+Legend: <ltr> License to Run;  <ext> Startup Extensions;  <flt> Floating options
+图例: <ltr>要运行的许可证; <ext>启动扩展; <flt>浮动选项
+
+# [9] CmdInfoGrp.Labels.1
+No ConfigID
+无配置ID
+
+# [10] CmdInfoGrp.Labels.2
+ConfigID
+配置ID
+
+# [11] CmdInfoGrpLab.Label
+License Scheme:
+许可证方案:
+
+# [12] CmdName1Lab.Label
+Configuration Name:
+配置名称:
+
+# [13] CmdDesc1Lab.Label
+Configuration Description:
+配置说明:
+
+# [14] CmdType1Lab.Label
+ConfigurationType:
+配置类型:
+
+# [15] List3.ColumnLabel
+Type
+类型
+
+# [16] Layout3.Label
+Available Licenses
+可用的许可证
+
+# [17] Label16.Label
+Startup extensions && floating licenses
+启动扩展名及浮动许可证
+
+# [18] Label3.Label
+Licenses to Run
+运行许可证
+
+# [19] Layout4.Label
+Selected Licenses
+选定的许可证
+

@@ -1,0 +1,8 @@
+// 15-Apr-03 K-01-05  $$1   MAZ  Created
+// PTC - PSF file: ptcvconf
+
+__PSF_COMMENT__ PTC - PSF file: ptcvconf
+__PSF_COMMENT__
+PRODUCT=PTC Conference Center
+DESC=PTC Conference Center
+RUN="$PRO_DIRECTORY/bin/ptcvconf"

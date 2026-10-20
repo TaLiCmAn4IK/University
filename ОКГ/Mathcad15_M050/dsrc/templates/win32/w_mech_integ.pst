@@ -1,0 +1,6 @@
+// 15-Feb-06 L-01-05  $$1  TWH  Created
+__PSF_COMMENT__ PTC - PSF file: mechinteg
+__PSF_COMMENT__
+PRODUCT=Mechanica
+DESC=Mechanica (assist file for Pro/E)
+ENV=PTC_D_LICENSE_FILE+=__LM_LICENSE_FILE__

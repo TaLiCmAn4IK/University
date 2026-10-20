@@ -1,0 +1,48 @@
+# {100} (100) [0] adb_designerShowMenuBar.Label
+Show/Hide MenuBar
+메뉴 모음 표시/숨기기
+
+# [1] adb_designerAddNewPage.Label
+Add Page
+페이지 추가
+
+# [2] adb_designerInheritPage.Label
+Inherit Page
+페이지 상속
+
+# [3] adb_designerRenamePage.Label
+Rename Current Page
+현재 페이지 이름 바꾸기
+
+# [4] adb_designerRemovePage.Label
+Remove Current Page
+현재 페이지 제거
+
+# [5] adb_designerAddNewGroup.Label
+Add Group
+그룹 추가
+
+# [6] adb_designerInheritGroup.Label
+Inherit Group
+그룹 상속
+
+# [7] adb_designerAddEGPage.Label
+Add External Groups Page
+외부 그룹 페이지 추가
+
+# [8] adb_designerRemoveEGPage.Label
+Remove External Groups Page
+외부 그룹 페이지 제거
+
+# [9] adb_designerAddNewAdb.Label
+Create New Ribbon
+새 리본 만들기
+
+# [10] adb_designerLoadResource.Label
+Load Ribbon
+리본 로드
+
+# [11] adb_designerStoreResource.Label
+Save Ribbon
+리본 저장
+

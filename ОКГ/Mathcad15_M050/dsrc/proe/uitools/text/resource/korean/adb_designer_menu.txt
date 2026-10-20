@@ -1,0 +1,72 @@
+# {100} (100) [0] adb_CmdDisplayType.Labels.DefaultStyle
+Default Style
+기본 유형
+
+# [1] adb_CmdDisplayType.Labels.Small
+Small Button
+작은 버튼
+
+# [2] adb_CmdDisplayType.Labels.SmallImageOnly
+Small Button - No Label
+작은 버튼 - 레이블 없음
+
+# [3] adb_CmdDisplayType.Labels.SmallTextOnly
+Small Button - No Icon
+작은 버튼 - 아이콘 없음
+
+# [4] adb_CmdDisplayType.Labels.Large
+Large Button
+큰 버튼
+
+# [5] adb_CmdWhatsThis.Label
+What's This?
+설명 보기
+
+# [6] adb_CmdWhatsThis.HelpText
+Tells what this button does
+이 버튼의 기능을 설명합니다
+
+# [7] adb_ItemCut.Label
+Cut
+잘라내기
+
+# [8] adb_ItemCopy.Label
+Copy
+복사
+
+# [9] adb_ItemPaste.Label
+Paste
+붙여넣기
+
+# [10] adb_AddSeparator.Label
+Add Separator
+구분 기호 추가
+
+# [11] adb_CascadeBtnSplitType.Label
+Set Split Button
+분할 버튼 설정
+
+# [12] adb_ItemToOverflow.Label
+Move To Overflow
+오버플로우로 이동
+
+# [13] adb_ItemRename.Label
+Rename
+이름 바꾸기
+
+# [14] adb_ItemDelete.Label
+Delete
+삭제
+
+# [15] adb_RenameGroup.Label
+Rename Group
+그룹 이름 바꾸기
+
+# [16] adb_DeleteGroup.Label
+Delete Group
+그룹 삭제
+
+# [17] adb_ReorderGroups.Label
+Move Group Before
+앞으로 그룹 이동
+

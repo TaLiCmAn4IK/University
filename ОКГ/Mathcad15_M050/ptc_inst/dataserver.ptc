@@ -1,0 +1,58 @@
+// 28-Dec-99 $$1  TWH  Created.
+// 12-May-00 $$2  TWH  Add EnvVarValue for ORACLE_HOME
+// 17-Aug-00      MAZ  Use EnvVarValues as a new Prop
+// 23-Aug-00 $$3  TWH  Group Submission
+
+(Product dataserver
+    (Name                      "Pro/INTRALINK Data Server")
+    (Packages                  "dbs"
+                               "adv_cfg"
+                               "demos")
+    (ProgramFiles              False)
+    (LpDirName                 "dataserver")
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+)
+
+(Package dbs
+    (Name                      "Pro/INTRALINK Data Server")
+    (Screens                   "ScreenMigrate"
+                               "ScreenDataserver"
+                               "ScreenVault"
+                               "ScreenOrapwd")
+    (Required                  True)
+    (Cdsections                "dbs"
+                               "ilinkpatches"
+                               "adminutils"
+                               "Install")
+    (Installed                 True)
+    (EnvVarValues              "Append=PATH=_LP_\intralink\bin")
+)
+
+(Package adv_cfg
+    (Name                      "Configuration options")
+    (SubPackages               "Oracle"
+                               "RunCfg")
+    (Cdsections                "demo")
+    (Installed                 True)
+)
+
+(Package Oracle
+    (Name                      "Install Oracle")
+    (Cdsections                "oserv")
+    (Installed                 True)
+    (EnvVarValues              "Append=PATH=_ORACLE_HOME_\bin")
+)
+
+(Package RunCfg
+    (Name                      "Run INTRALINK Configuration")
+    (Cdsections                "Install")
+    (Installed                 True)
+)
+
+(Package Demos
+    (Name                      "Demos")
+    (Cdsections                "clientdemo")
+    (Installed                 True)
+)
+

@@ -1,0 +1,28 @@
+# {100} (100) [0] psh_add.Label
+&Add >>
+追加(&A) >>
+
+# [1] psh_remove.Label
+&Remove
+除去(&R)
+
+# [2] psh_reset.Label
+Re&set
+リセット(&S)
+
+# [3] psh_moveUp.Label
+Move Up
+上に移動
+
+# [4] psh_moveUp.HelpText
+Move selected item upwards in the list.
+選択したアイテムをリストの上に移動します。
+
+# [5] psh_moveDown.Label
+Move Down
+下に移動
+
+# [6] psh_moveDown.HelpText
+Move selected item downwards in the list.
+選択したアイテムをリストの下に移動します。
+

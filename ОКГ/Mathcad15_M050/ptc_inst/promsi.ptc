@@ -1,0 +1,10 @@
+// 17-Dec-99 $$1  JJE  Created.
+// 12-Jan-00 $$2  JJE  Use ScreenMsi
+
+(Product promsi
+    (Name                      "Pro/ENGINEER")
+    (ProgramFiles              True)
+    (LpDirName                 "proe")
+    (Screens                   "ScreenMsi")
+    (Installed                 True)
+)

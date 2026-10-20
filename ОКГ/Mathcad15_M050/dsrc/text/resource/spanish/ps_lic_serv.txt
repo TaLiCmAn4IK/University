@@ -1,0 +1,64 @@
+# {0} (16) [0] ps_lic_serv.Label
+Specify License Server
+Especificar servidor de licencias
+
+# [1] StdOK.Label
+&OK
+&Aceptar
+
+# [2] StdCancel.Label
+&Cancel
+&Cancelar
+
+# [3] ServTypeGroup.Labels.1
+Single license server
+Servidor de licencias único
+
+# [4] ServTypeGroup.Labels.2
+Triad license server (fault tolerant)
+Servidor de licencias en tríada (tolerancia de fallos)
+
+# [5] ServTypeGroup.Labels.3
+Locked license file (no server running)
+Fichero de licencia fija (servidores inactivos)
+
+# [6] lic_serv.Label
+Simple
+Simple
+
+# [7] Label1.Label
+License Server
+Servidor de licencias
+
+# [8] Label2.Label
+Hostname
+Nombre de Host
+
+# [9] Label3.Label
+Port
+Puerto
+
+# [10] Label4.Label
+Triad partner 1
+Miembro de la tríada 1
+
+# [11] Label5.Label
+Hostname
+Nombre de Host
+
+# [12] Label6.Label
+Port
+Puerto
+
+# [13] Label7.Label
+Triad partner 2
+Miembro de la tríada 2
+
+# [14] Label8.Label
+Triad partner 3
+Miembro de la tríada 3
+
+# [15] Label9.Label
+License file path
+Ruta del fichero de licencia
+

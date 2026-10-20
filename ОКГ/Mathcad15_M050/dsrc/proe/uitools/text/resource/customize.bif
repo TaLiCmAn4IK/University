@@ -1,0 +1,23 @@
+!
+! 12-AUG-97  H-03-18  LUK  $$1 Updated from Terry Bleser.
+! 25-AUG-97  H-03-19+ twb  $$2 Made background transparent and resized.
+! 18-Dec-97 H-03-34 hmt $$3 Changed size to 18x18
+! 29-DEC-97 H-03-35 MCA $$4 Changed size to 16x16 - Removed RED Set Current Box.
+! 06-JAN-98  H-03-35  twb  $$5 Recolored to be consistent with tree.
+! 09-Apr-01  J-01-31  pmu  $$6 Updated for high contrast support
+!  4-Dec-2002  J-03-39   TLH  $$7  Recolored for Wildfire.
+(Image customize
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        CFFFFFFF03F0FDFCF504ACFF7C01FFFFCC0166E4FF990100503301333301330F
+        00FAFD2E0D020D120D3A0D6E0D00420D520D7A0DAE0D820D920DBA0DEE0D70C2
+        0DD20DFA0D2A170066FF1F1AE00C1D1C1D301D3C1D5C11666666008F125C115C
+        1D701DA41D88199C1DAC1D00E41DF419D81DF81DF4193025302D542D00242D44
+        2D2C2D942DA42D8C2DB42DA8250F99999901E021A82DF42DCC2D00DC29E02D30
+        3D38152839243D583D743D00183D6C3D943DB43DA03DC43DD435
+    )
+)

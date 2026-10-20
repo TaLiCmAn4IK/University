@@ -1,0 +1,36 @@
+# {0} (9) [0] Lab_Please.Label
+Please type your user name and password.
+Escriba su nombre de usuario y su contraseña.
+
+# [1] Lab_Realm.Label
+Realm:
+Territorio:
+
+# [2] Inp_Realm.Label
+Web site realm
+Territorio del sitio Web
+
+# [3] Lab_User.Label
+&User Name
+Nombre de &usuario
+
+# [4] Lab_PWord.Label
+Password
+Contraseña
+
+# [5] dlg_httppword.Label
+Web Site Authentication
+Autentificación de sitio Web
+
+# [6] OkBtn.Label
+OK
+Aceptar
+
+# [7] CancelBtn.Label
+Cancel
+Cancelar
+
+# [8] Lab_Retry.Label
+Authentication failed, please try again.
+La autentificación ha fallado, vuelva a intentarlo.
+

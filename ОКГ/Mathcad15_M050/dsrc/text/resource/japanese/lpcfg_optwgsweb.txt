@@ -1,0 +1,24 @@
+# {0} (6) [0] lpcfg_optwgsweb.Label
+Windchill Graphics Web Server Access Settings
+Windchill グラフィック Web サーバーアクセス設定
+
+# [1] lpcfg_optwgsweb2.Label
+Windchill Graphics Web Server Access Settings
+Windchill グラフィック Web サーバーアクセス設定
+
+# [2] HostNameLab.Label
+Web Server Hostname:
+Webサーバーホスト名:
+
+# [3] UserPassLab.Label
+Password:
+パスワード:
+
+# [4] UserNameLab.Label
+User Name:
+ユーザー名:
+
+# [5] TextArea.Value
+Specify the Windchill Graphics Web Server and User Name and Password for Authentication
+認証に Windchill グラフィック Web サーバー、ユーザー名およびパスワードを指定します
+

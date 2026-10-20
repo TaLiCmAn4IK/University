@@ -1,0 +1,72 @@
+# {100} (100) [0] file_open.Label
+Open
+Abrir
+
+# [1] FileLayout.Label
+Open
+Abrir
+
+# [2] Cancel.Label
+&Cancel
+&Cancelar
+
+# [3] Open_Rep.Label
+Open Rep...
+Abrir representación...
+
+# [4] Open_Rep.HelpText
+Open Rep of the current object
+Abrir representación del objeto vigente
+
+# [5] Open.Label
+Open
+Abrir
+
+# [6] Name_label.Label
+  File name: 
+  Nombre de fichero: 
+
+# [7] Type_label.Label
+Type
+Tipo
+
+# [8] Sub_type_label.Label
+Sub-type
+Subtipo
+
+# [9] SubType.HelpText
+Select a file sub-type to display
+Seleccionar un subtipo de fichero para visualizar
+
+# [10] ViewOnly.Label
+View Only
+Sólo Consulta
+
+# [11] ViewOnly.HelpText
+Retrieve Drawing as View Only
+Recuperar plano como Sólo Consulta
+
+# [12] Open_Content.Label
+Content...
+Contenido...
+
+# [13] Open_Content.HelpText
+Browse secondary content of the selected model
+Inspeccionar el contenido secundario del modelo seleccionado
+
+# [14] Open_Locked.Label
+Lock and Open
+Bloquear y abrir
+
+# [15] Open_Locked.HelpText
+Lock on server and open
+Bloquear en el servidor y abrir
+
+# [16] Open_Mfg_Asm.Label
+Open in Assembly mode
+Abrir en modo Conjunto.
+
+# [17] Open_Mfg_Asm.HelpText
+Opens a manufacturing model in assembly mode instead of manufacturing mode
+Abrir un modelo de mecanizado en modo Conjunto en lugar de abrirlo en modo Mecanizado
+

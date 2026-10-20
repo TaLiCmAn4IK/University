@@ -1,0 +1,116 @@
+// 20-Oct-00 $$1  JJE  Created
+// 01-Dec-00 $$2  JJE  Dump flexclient section
+// 30-Jan-01 $$3  TWH  Add CmdType Prop values
+// 04-Mar-03 K-01-06  $$4  TWH  LpcfgWindows->ScreenWindows
+// 24-Feb-05 K-03-21  $$5  JJE  Add rsd_name.gif
+// 18-Apr-05 K-01-37+      MAZ  SPR 1139804: use new rsd.ico icon file
+// 21-Apr-05 K-03-23  $$6  MAZ  Sub to K-03
+// 15-Sep-05 K-01-42       TWH  Add Ad_list
+// 26-Sep-05 K-03-32  $$7  TWH  Submit to K-03
+// 18-Jan-07 L-01-25  $$8  JJE  Add interaction for ewgm
+// 21-Dec-07 L-01-41  $$9  TWH  New Ad_list
+// 15-Jan-08 L-01-42+  TWH  $$10  Rename Ads files
+// 05-Jan-09 L-03-23 $$11 TWH Chg command name 
+// 19-Feb-09 L-03-28 $$12 TWH Correct Image; Add LinkName
+// 20-Apr-09 L-03-30 $$13 TWH Bump Version
+// 27-Jul-09 L-03-34 $$14 TWH Update WF5 images
+// 04-Nov-09 L-03-36 $$15 TWH Update WF5 images
+// 09-Feb-11 L-03-42 $$16 TWH rebrand shortcut
+
+(Product rs_designer
+    (Name                      "Routed Systems Designer")
+    (WelcomeImage              "rsd_name.png")
+    (Packages                  "pkg_rs_designer"
+                               "ptcutil"
+                               "uninstall")
+    (LpDirName                 "rsdesigner")
+    (Screens                   "ScreenProd")
+//  (ShortcutFolder            "Routed Systems Designer")
+    (Installed                 True)
+    (VersionDir                False)
+(Ad_list                    "WF5_101"
+                               "WF5_102"
+                               "WF5_103"
+                               "WF5_104"
+                               "WF5_201"
+                               "WF5_202"
+                               "WF5_203"
+                               "WF5_204"
+                               "WF5_301"
+                               "WF5_302"
+                               "WF5_303"
+                               "WF5_304"
+                               "WF5_401"
+                               "WF5_402"
+                               "WF5_403"
+                               "WF5_501"
+                               "WF5_502"
+			       "WF5_503"
+			       "WF5_601"
+                               "WF5_602"
+                               "WF5_603"
+                               "WF5_701"
+                               "WF5_702"
+			       "WF5_703"
+			       "WF5_801"
+                               "WF5_802"
+                               "WF5_803"
+                               "WF5_901"
+                               "WF5_902"
+			       "WF5_903")
+)
+
+(Package pkg_rs_designer
+    (Name                      "Routed Systems Designer")
+    (Cdsections                "rsdesigner"
+                               "Install"
+                               "flexclient")
+    (Installed                 True)
+    (Required                  True)
+    (Screens                   "ScreenLicList"
+                               "ScreenWindows"
+                               "ScreenDftCmds"
+                               "LpcfgInterOpt"
+                               "LpcfgCmdList"
+                               "LpcfgBrowser")
+	(CmdTypes                  "rsd")
+)
+
+(CmdType rsd
+    (Name                      "rsdesigner")
+    (Type                      "Routed Systems Designer")
+    (LinkName                  "Creo Elements/Pro RSD 9.0")
+    (Prefixes                  "RSDESIGNER_")
+    (Featvars                  "__RSDESIGNER_FEATURE_NAME__")
+    (Template                  "rsdesigner")
+    (IconPath                  "_LP_\install\nt\rsd.ico")
+    (IconIndex                 "0")
+    (UseExtensions             False)
+    (UseOptions                False)
+)
+
+(ProductInteraction proiclient 
+    (Decorated                 True)
+    (Label                     "@@ProdI_Ilinkopt_label")
+    (RegKeyName                "Pro/INTRALINK Client")
+    (ShowLP                    True)
+    (LPRequired                False)
+    (LPEnv                     "INTRALINK_DIR")
+    (ShowCmd                   False)
+    (CmdTypeTag                "ilink")
+    (CmdRequired               False)
+    (CmdEnv                   "ILINK_CMD_NAME")
+)
+
+(ProductInteraction ewgm 
+    (Decorated                 True)
+    (Label                     "@@ProdI_ewgm_label")
+    (RegKeyName                "ECAD Workgroup Manager")
+    (ShowLP                    True)
+    (LPRequired                False)
+    (LPEnv                     "EWGM_PATH")
+    (ShowCmd                   False)
+    (CmdTypeTag                "ecad")
+    (CmdRequired               False)
+    (CmdEnv                   "ECAD_CMD_NAME")
+)

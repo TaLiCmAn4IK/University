@@ -1,0 +1,26 @@
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!
+!  Cascade Button image to select none (disabled version) 
+! 
+!  Date      Release   Name  Ver.   Comments
+!  --------- -------   ----  ----   --------
+!  25-Jul-03 K-01-11   TWH   $$1    Created
+!  24-May-04 K-03-02   TWH   $$2    Rename less than 28 chars
+!
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+(Image cscd_disabled_unavailable
+    (Resources
+        (.Width     32)
+        (.Height    9)
+        (.Depth     24)
+    )
+    (Data
+        0FFFFFFF03F0FD000D100D200DC0300D400D500D600D700D7C0580800380018C
+        057C0D8C0DB40DC40DD40D00E40DF40DA00DB009101D301D401D501D00601D70
+        1D801D2419241DAC1DBC1DCC194F15000000DC11CC1001DC1800CB1DFF1D8F1D
+        A71D2F2D3F2DCF1DDF1200EC1D742D842D182D882DB42DC42D542D00D42DF42D
+        8C2D143DA42D343D443D543D00643D743D0C3D181D943DB43DC43DD43D00E43D
+        F43DA03DFC3D0C4D344D444D544D006445
+    )
+)

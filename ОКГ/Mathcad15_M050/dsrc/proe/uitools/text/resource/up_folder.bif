@@ -1,0 +1,28 @@
+!----------------------------------------------------------------------------
+!
+!  Date      Release Name  Ver.  Comments
+! ---------- ------- ----- ----- --------------------------------------------
+! 24-Mar-97  H-03-04  DXU  $$1  Submitted.
+! 13-May-97  H-03-10  DXU  $$2  updated.
+! 18-Aug-97  H-03-19  dxu  $$3 resize the icon.
+! 19-Aug-97  H-03-19+ dxu  $$4  adjust.
+! 05-Dec-97  H-03-33  xw   $$5 Submitted with shortcut toolbar sub.
+! 18-Mar-02  J-03-21  TLH  $$06  Recolored
+!----------------------------------------------------------------------
+(Image up_folder
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        0FFFFFFF03F0FD000D100D200D00300D400D500D600D700D800D900DA00DDEA8
+        0166666601B8053333C33301A80DD40DE409C40401E4C3D57DFB06C40D141DEC
+        0980801100331D3B123013804F1D0B1A601460731D831D931A60197016EC25B7
+        1687000000B71AD01DA41DB416FF01CCC3120025FC110C2DFC11E41DB4150000
+        29042AF914DC1D2C2D1425C416512D008D24642D742D4C2D542DA42DB42A392D
+        000525992DE92DD52C443DD81DEC09703D00803D903D081DB03DC03DD03DE039
+    )
+)
+
+

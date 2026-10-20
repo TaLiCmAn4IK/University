@@ -1,0 +1,27 @@
+; 26-Mar-09 L-03-29  IKAL  $$1  Created.
+; 01-Apr-09 L-03-30  IKAL  $$2  Fixed the ContentMargins.
+; 04-Aug-09 L-03-35  IKAL  $$3  Updated.
+
+
+[togglebutton]
+SizingMargins = 19, 2, 13, 2
+ContentMargins = 12, 2, 2, 2
+BackgroundImage = styles/overlap_tab/middle_hot_left.png
+TextColor = 48 60 66
+
+[togglebutton(hot)]
+BackgroundImage = styles/overlap_tab/middle_hot.png
+TextColor = 48 60 66
+
+[togglebutton(checked)]
+BackgroundImage = styles/overlap_tab/middle_selected.png
+TextColor = 48 60 66
+
+[togglebutton(hotchecked)] = togglebutton(checked)
+
+[togglebutton(pressed)]
+BackgroundImage = styles/overlap_tab/middle_pressed.png
+TextColor = 48 60 66
+
+
+[toolbutton] = togglebutton

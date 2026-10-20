@@ -1,0 +1,186 @@
+// 04-May-04  K-01-27        MAZ  Created from J-03 student .ptc files
+// 10-May-04  K-03-01   $$1  MAZ  Sub to K-03
+// 03-Jun-04  K-01-27+       MAZ  SPR 1086039: ProgramCmdName = proewildfire2-X
+// 07-Jun-04  K-03-03   $$2  MAZ  Sub to K-03
+// 21-Dec-04  K-03-19   $$3  MAZ  Modify ProgramCmdName
+// 24-Feb-05  K-03-19+  $$4  MAZ  Change Name
+// 22-Apr-05  K-03-23   $$5  MAZ  Modify ProgramFeature
+// 09-Feb-06  L-01-05   $$6  TWH  Drop ScreenStudentLic
+// 18-May-06  L-01-09   $$7  JJE  Add back ProgramCmdName and ProgramFeature
+// 27-Nov-06  K-03-45        JJE  Remove Design Conferencing
+// 13-Dec-06  K-03-45        JJE  Add gpost and proe_borrow
+// 13-Dec-06  L-01-22   $$8  JJE  Submit to L-01
+// 13-Jun-07  L-01-33   $$9  TWH  1373533 drop Ole screen
+// 23-Jul-07  L-01-35        TWH  Add vericut
+// 23-Jul-07  L-01-35   $$10 TWH  Add help pkg
+// 21-Dec-07  L-01-41   $$11 TWH  New Ad_list
+// 15-Jan-2008 L-01-42+  TWH  $$12  Rename Ads files
+// 05-Mar-08  L-03-05   $$13 TWH  Chg WF3 references to WF5;set default ScreenUnits
+// 04-Apr-08  L-03-06   $$14 TWH  Mech changes
+// 16-May-08  L-03-09   $$15 TWH  More L-01 changes 
+// 10-Sep-08  L-03-17   $$16 TWH  Rm pro_batch
+// 27-Jul-09  L-03-34   $$17 TWH  Update WF5 images
+// 04-Nov-09  L-03-36   $$18 TWH  Update WF5 images
+// 12-Mar-10  L-03-38   $$19 TWH  Add iculibs
+
+(Product student 
+    (Name                      "Pro/ENGINEER Schools Advanced Edition")
+    (Packages                  "proe_base"
+                               "promech_pkg"
+                               "proehelp"
+                               "uninstall")
+    (ProgramFiles              True)
+    (LpDirName                 "ProENGINEER Schools Adv Edition")
+    (VersionDir                False)
+    (Screens                   "ScreenLicAgree" 
+                               "ScreenProd")
+    (Installed                 True)
+    (SaveList                  "text/menu_def.pro"
+                               "text/config.pro")
+    (ProgramCmdName            "proewildfire5-schoolsadv")
+    (ProgramFeature            "PROE_SchoolsAdv")
+    (LicenseSimplification     True)
+    (PSF_EXE                   "proe.exe")
+    (WelcomeImage              "proeandmech_name.gif")
+    (ScreenUnits.UnitsChoice   "metric")
+(Ad_list                    "WF5_101"
+                               "WF5_102"
+                               "WF5_103"
+                               "WF5_104"
+                               "WF5_201"
+                               "WF5_202"
+                               "WF5_203"
+                               "WF5_204"
+                               "WF5_301"
+                               "WF5_302"
+                               "WF5_303"
+                               "WF5_304"
+                               "WF5_401"
+                               "WF5_402"
+                               "WF5_403"
+                               "WF5_501"
+                               "WF5_502"
+			       "WF5_503"
+			       "WF5_601"
+                               "WF5_602"
+                               "WF5_603"
+                               "WF5_701"
+                               "WF5_702"
+			       "WF5_703"
+			       "WF5_801"
+                               "WF5_802"
+                               "WF5_803"
+                               "WF5_901"
+                               "WF5_902"
+			       "WF5_903")
+)
+
+(Package proe_base
+    (Name                      "Pro/ENGINEER")
+    (OldTag                    "proe_pkg")
+    (Screens                   "ScreenWindows"
+                               "ScreenLicList"
+                               "ScreenUnits"
+                               "LpcfgCmdList"
+                               "LpcfgLinkpath")
+    (CmdTypes                  "proe"
+                               "proe_shortcut")
+    (Binscripts                "ptchostid"
+                               "tempmgr"
+                               "batch_status"
+                               "pro_b_exec"
+                               "proe_borrow"
+                               "protk_unlock"
+                               "proigsutil"
+                               "ptcflush"
+                               "ptcstatus"
+                               "propostl"
+                               "propostq"
+                               "propostg"
+                               "purge"
+                               "protab"
+                               "pro_mcs_comp"
+                               "pro_ncl_cvt"
+                               "procvter"
+                               "procvtutil"
+                               "convert_image"
+                               "image_to_mip"
+                               "pix2fb"
+                               "showmip"
+                               "ptcportmap"
+                               "progpostg"
+                               "progpostl"
+                               "progpostq"
+                               "proems"
+                               "proev"
+                               "pro_build_library_ctg")
+    (Cdsections                "ProE Tree"
+                               "iculibs"
+                               "proe"
+                               "applstart"
+                               "uitools_res"
+                               "jre"
+                               "Install"
+                               "apps_data"
+                               "animation"
+                               "mechanism"
+                               "ncexpert"
+                               "weld_data"
+                               "gpost"
+                               "vericut"
+                               "Demos"
+                               "flexclient")
+    (Installed                 True)
+    (Required                  True)
+    (UnregServerDll            "_LP_\_ARCH_\lib\pfcscom.dll")
+    (convertFilesList          "_LP_\text\config.pro=_LP_\text\config.pro"
+                               "_LP_\text\metric_config.pro=_LP_\text\metric_config.pro"
+                               "_LP_\text\english_config.pro=_LP_\text\english_config.pro"
+                               "_LP_\pro_standards\config_files\config_metric.pro=_LP_\pro_standards\config_files\config_metric.pro"
+                               "_LP_\pro_standards\config_files\config_english.pro=_LP_\pro_standards\config_files\config_english.pro"
+                               "_LP_\pro_standards\config_files\search_path.pro=_LP_\pro_standards\config_files\search_path.pro")
+)
+
+(Package promech_pkg
+    (Name                      "Pro/MECHANICA")
+    (Cdsections                "mech"
+                               "mech2"
+                               "mech3"
+                               "mech4"
+                               "mech5"
+                               "mech6"
+                               "mech7"
+                               "mech8"
+                               "mech9"
+                               "mech10"
+                               "mech11"
+                               "mech12"
+                               "mech13"
+                               "mech14"
+                               "mech15"
+                               "mechInstall")
+    (Screens                   "LpcfgLinkpath")
+    (Installed                 True)
+)
+
+(CmdType proe
+    (Name                      "proe")
+    (DefName                   "proe")
+    (Type                      "Pro/ENGINEER")
+    (Prefixes                  "PROE_")
+    (Featvars                  "__PROE_FEATURE_NAME__")
+    (Template                  "proengineer_start")
+    (IconPath                  "_LP_\install\nt\proelogo.ico")
+    (IconIndex                 "0")
+    (UseExtensions             True)
+    (UseOptions                True)
+)
+
+(CmdType proe_shortcut
+    (Name                      "Pro/ENGINEER Schools Adv Edition")
+    (Type                      "Shortcut")
+    (CmdPath                   "_LP_\bin\proe.exe")
+    (IconPath                  "_LP_\install\nt\proelogo.ico")
+    (IconIndex                 "0")
+)
+

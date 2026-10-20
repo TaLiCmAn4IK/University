@@ -1,0 +1,283 @@
+PTC KUNDENVERTRAG
+
+DIESER PTC KUNDENVERTRAG ("VERTRAG") IST EIN VERBINDLICHER VERTRAG ZWISCHEN DER PERSON, FIRMA ODER SONSTIGEN ORGANISATION, IN DEREN NAMEN DIE BETREFFENDE PERSON DIESEN VERTRAG ANNIMMT UND ENTWEDER (A) AUF DIE NACHSTEHENDE SCHALTFLÄCHE "ICH STIMME ZU" KLICKT ODER (B) SOFTWARE ODER DOKUMENTATION VON PTC BZW. PTC INC. ODER - FALLS DER ERWERB IN EINEM IN ANLAGE A GENANNTEN LAND ERFOLGT IST - DER IN ANLAGE A ZU DIESEM VERTRAG GENANNTEN PTC GESELLSCHAFT ("PTC") INSTALLIERT, AUF DIESE ZUGREIFT ODER SIE NUTZT ("KUNDE").
+
+BITTE LESEN SIE SICH DIE VERTRAGSBEDINGUNGEN SORGFÄLTIG DURCH, BEVOR SIE DIESEN VERTRAG ANNEHMEN. DURCH KLICKEN AUF DIE SCHALTFLÄCHE "ICH STIMME ZU" ODER DURCH INSTALLIEREN, BENUTZEN ODER ZUGREIFEN AUF SOFTWARE ODER DOKUMENTATION VON PTC ERKLÄRT SICH DER KUNDE DAMIT EINVERSTANDEN, DIESEN VERTRAG ALS VERBINDLICH ANZUERKENNEN UND VERSICHERT, DASS ER ENTSPRECHEND VERTRETUNGSBERECHTIGT IST.
+
+SOWEIT SIE NICHT MIT ALLEN VERTRAGSBEDINGUNGEN EINVERSTANDEN SIND ODER NICHT BERECHTIGT SIND, FÜR DIE FIRMA ODER SONSTIGE ORGANISATION, IN DEREN NAMEN SIE DIESEN VERTRAG ANNEHMEN, VERPFLICHTUNGEN EINZUGEHEN, KLICKEN SIE AUF DIE SCHALTFLÄCHE "ICH STIMME NICHT ZU" UND SENDEN SIE DIE ZUR VERFÜGUNG GESTELLTE SOFTWARE UND DOKUMENTATION GEMÄSS DEN ANWEISUNGEN, DIE SIE BEIM KLICKEN AUF DIE SCHALTFLÄCHE "ICH STIMME NICHT ZU" ERHALTEN, AN PTC ZURÜCK. WENN SIE DIESEN ANWEISUNGEN NICHT INNERHALB DER ANGEGEBENEN FRIST FOLGE LEISTEN, VERLIEREN SIE ALLE ANSPRÜCHE AUF RÜCKERSTATTUNG, DIE IHNEN ANDERNFALLS ZUSTEHEN WÜRDEN. BESTELLUNGEN ÜBER LIZENZIERTE PRODUKTE KÖNNEN JEWEILS NICHT MEHR STORNIERT WERDEN, SOBALD SIE DIESEN VERTRAG ANGENOMMEN HABEN.
+
+FALLS DER KUNDE DAS LIZENZIERTE PRODUKT NICHT DIREKT BEI PTC, BEI EINEM AUTORISIERTEN PTC VERTRIEBSPARTNER ODER IM PTC ONLINE-SHOP (UNTER WWW.PTC.COM) ERWORBEN HAT, NUTZT DER KUNDE EINE RECHTSWIDRIG ERWORBENE UND UNLIZENZIERTE VERSION DES LIZENZIERTEN PRODUKTS. DA ES SICH BEI SOFTWARE-PIRATERIE UM EINE STRAFTAT HANDELT, GEHT PTC GEGEN ALLE DARAN BETEILIGTEN SOWOHL STRAF- ALS AUCH ZIVILRECHTLICH VOR. PTC VERWENDET DATENÜBERWACHUNGS-TOOLS UND ZURÜCKVERFOLGUNGSTECHNOLOGIEN, UM DATEN ÜBER NUTZER RECHTSWIDRIG ERWORBENER KOPIEN VON LIZENZIERTEN PRODUKTEN ZU ERHALTEN UND WEITERZULEITEN. NUTZT DER KUNDE EINE RECHTSWIDRIG ERWORBENE KOPIE DIESER SOFTWARE UND STIMMT DIESER FORM DER DATENERFASSUNG UND -ÜBERMITTLUNG (EINSCHLIESSLICH IN DIE VEREINIGTEN STAATEN) NICHT ZU, DARF ER DIESE RECHTSWIDRIG ERWORBENE VERSION NICHT WEITER NUTZEN UND MUSS SICH AN PTC WENDEN, UM EINE RECHTMÄSSIG LIZENZIERTE KOPIE DIESER SOFTWARE ZU ERHALTEN. MIT DER NUTZUNG DIESER SOFTWARE STIMMEN SIE DER ERHEBUNG, NUTZUNG UND ÜBERMITTLUNG PERSONENBEZOGENER DATEN (AUCH IN DIE VEREINIGTEN STAATEN) ZUM ZWECKE DER IDENTIFIZIERUNG VON NUTZERN WIDERRECHTLICHER KOPIEN UNSERER SOFTWARE ZU. DIESE ZUSTIMMUNG GILT AUSSER FÜR SIE AUCH FÜR ALLE ANDEREN NUTZER DIESER SOFTWARE.
+
+UM DIE PRÄFERENZEN UNSERER SOFTWARE-NUTZER ZU VERFOLGEN, VERWENDET PTC DATENÜBERWACHUNGSTECHNOLOGIEN, UM DATEN ZUR SYSTEMNUTZUNG UND -PERFORMANCE ZU ERHALTEN UND WEITERZULEITEN SOWIE UM NUTZERDATEN ZU ERHALTEN UND METRIKEN AUF DIE NUTZER UNSERER SOFTWARE ANZUWENDEN. WIR GEBEN DIESE DATEN INNERHALB VON PTC, AN MIT PTC VERBUNDENE UNTERNEHMEN UND AN UNSERE GESCHÄFTSPARTNER, AUCH IN DEN VEREINIGTEN STAATEN UND ANDERSWO, ZU TECHNISCHEN UND MARKETINGZWECKEN WEITER UND STELLEN IM ANGEMESSENEN RAHMEN SICHER, DASS DIESE ÜBERMITTELTEN DATEN ENTSPRECHEND GESCHÜTZT WERDEN. IM RAHMEN UNSERER KOMMERZIELLEN LIZENZEN KÖNNEN NUTZER DIESER DATENERHEBUNG WIDERSPRECHEN. UNSERE STUDENTEN-/AUSBILDUNGSVERSIONEN ERFASSEN LEDIGLICH DATEN ZUR SYSTEMNUTZUNG UND -PERFORMANCE. IM RAHMEN UNSERER KOSTENLOSEN UND TESTVERSIONEN DER SOFTWARE KÖNNEN NUTZER DIESER ERHEBUNG VON DATEN, EINSCHLIESSLICH NUTZERDATEN, NICHT WIDERSPRECHEN.
+
+WENN SIE VON EINEM ANDEREN LAND ALS DEN VEREINIGTEN STAATEN AUS PTC SOFTWARE NUTZEN, EINE PTC WEBSITE BESUCHEN ODER AUF ELEKTRONISCHEM WEGE MIT UNS KOMMUNIZIEREN, FÜHREN VERSCHIEDENE ARTEN VON KOMMUNIKATION ZWANGSLÄUFIG ZU EINER GRENZÜBERSCHREITENDEN ÜBERMITTLUNG DIESER DATEN.
+
+WENN SIE DER ERHEBUNG UND/ODER ÜBERMITTLUNG IHRER DATEN (AUCH IN DIE VEREINIGTEN STAATEN) WIE VORSTEHEND BESCHRIEBEN NICHT ZUSTIMMEN, DÜRFEN SIE KEINE PTC SOFTWARE HERUNTERLADEN ODER NUTZEN. WENN SIE (I) KOSTENLOSE ODER TESTSOFTWARE NUTZEN ODER (II) DER ERHEBUNG BESTIMMTER PERSONENBEZOGENER DATEN NICHT WIDERSPRECHEN, WIE SIE ES BEI KOMMERZIELLER SOFTWARE VON PTC TUN KÖNNEN, STIMMEN SIE DAMIT DER ERHEBUNG, NUTZUNG UND ÜBERMITTLUNG IHRER PERSONENBEZOGENEN DATEN (AUCH IN DIE VEREINIGTEN STAATEN) ZU.
+
+BITTE BEACHTEN SIE DIE BEGRIFFSDEFINITIONEN IN ANLAGE B ZU DIESEM VERTRAG.
+
+ANLAGE A ZU DIESEM VERTRAG ENTHÄLT ZUSÄTZLICHE (ODER ABWEICHENDE) BESTIMMUNGEN, DIE FÜR BESTIMMTE REGIONEN GELTEN.
+
+1. Bestellung und Bezahlung.
+
+1.1. Der Kunde kann Lizenzierte Produkte und/oder Support-Leistungen bestellen, indem er PTC (unmittelbar oder uber einen Reseller) ein vollstandig ausgefulltes Angebot und alle weiteren von PTC benötigten Auftragsunterlagen ubermittelt. Jede von PTC angenommene Bestellung uber Lizenzierte Produkte wird als unabhangig von sonstigen Bestellungen des Kunden uber Support-Leistungen angesehen. Sobald eine Bestellung von PTC angenommen wurde, kann sie nicht mehr storniert werden. Abgesehen von den Rechnungsposten, die der Bestellung eines oder mehrerer Lizenzierter Produkte und/oder Leistungen dienen, sind samtliche von PTC angenommene Kundenbestellungen im Zusammenhang mit diesem Vertrag ausschließlich fur interne operative Zwecke des Kunden und zur Erleichterung der Bezahlung vorgesehen. Von diesem Vertrag abweichende Bestimmungen, z.B. in vom Kunden erteilten Bestellungen, sind unwirksam; der Einbeziehung von Allgemeinen Geschaftsbedingungen, die von den Bestimmungen dieses Vertrages abweichen, wird widersprochen. Von diesem Vertrag abweichende Bedingungen des Kunden entfalten keinerlei bindende Wirkung fur PTC. 
+
+1.2. Der Kunde hat die fur die bestellten Lizenzierten Produkte und/oder Support-Leistungen zu entrichtenden Gebuhren zu zahlen. Samtliche gemaß diesem Vertrag anfallenden Gebuhren und sonstigen Kosten sind sofort fallig und innerhalb von dreißig (30) Tagen nach Rechnungslegung gegenuber dem Kunden oder, sofern auf der Rechnung angegeben, zu einem spateren Zeitpunkt, in voller Höhe zahlbar. Der Kunde ist fur samtliche Umsatz-, Verbrauchs-, Mehrwert-, Verkehrs- und sonstigen Steuern und Abgaben verantwortlich, die von Bundes-, Lander-, kommunalen oder sonstigen staatlichen Organen in Bezug auf hiernach gewahrte Lizenzen oder erbrachte Support-Leistungen erhoben werden, ausgenommen jedoch fur Steuern, die auf dem Reingewinn von PTC basieren. Fur alle im Rahmen dieses Vertrags falligen und dreißig (30) Tage nach Falligkeit noch nicht bezahlten Betrage schuldet der Kunde Zinsen in Höhe von 1,5 % pro Monat ab Falligkeitsdatum. Angemessene Anwaltshonorare und sonstige Kosten, die PTC bei der Beitreibung uberfalliger Forderungen und/oder im Zuge von Auseinandersetzungen oder Rechtsstreitigkeiten aus oder im Zusammenhang mit den Lizenzierten Produkten und/oder dem vorliegenden Vertrag entstehen, hat der Kunde zu tragen, es sei denn, der Kunde obsiegt gegen PTC mit all seinen Klageantragen. 
+
+2. Lizenz. 
+
+2.1. Lizenzerteilung. Mit Annahme einer Bestellung uber Lizenzierte Produkte gewahrt PTC dem Kunden eine Lizenz zur Installation und Nutzung der in dem jeweiligen Angebot spezifizierten Lizenzierten Produkte wahrend der Lizenzlaufzeit ausschließlich zu internen Geschaftszwecken des Kunden und ausschließlich in Übereinstimmung mit dieser Vereinbarung und den im Angebot und auf der Licensing Basis Webpage genannten Einschrankungen hinsichtlich Nutzung und Art der Lizenz. Ungeachtet der vorstehenden Ausfuhrungen durfen unter einer "Evaluierungs-Lizenz" oder "auf Probe" zur Verfugung gestellte Lizenzierte Produkte ausschließlich zum Zwecke der Evaluierung installiert und genutzt werden, und der Kunde verpflichtet sich, das Lizenzierte Produkt nicht fur kommerzielle Anwendungen oder seine normalen Produktionszwecke zu nutzen. Wenn das Lizenzierte Produkt auf einer "Demo- und Testbasis" oder auf einer "nichtproduktionsbezogenen" Basis (oder einer ahnlich lautenden Grundlage) verkauft wird, darf es das Lizenzierte Produkt nicht in einem Produktionsumfeld verwendet werden.
+
+2.2. Festgelegtes Land/Festgelegter Server. Außer bei Globalen oder Beschrankten Globalen Lizenzen darf der Kunde Lizenzierte Produkte nur auf dem jeweils Festgelegten Server installieren und betreiben, der sich im jeweiligen Festgelegten Land befindet. Der Kunde kann den Festgelegten Server bzw. das Festgelegte Land, auf bzw. in welchem der Kunde ein Lizenziertes Produkt zu installieren oder zu betreiben beabsichtigt, von Zeit zu Zeit andern, vorausgesetzt, in jedem Fall (i) informiert der Kunde PTC vorher schriftlich uber eine solche Änderung und (ii) zahlt der Kunde bei der Verlegung der Lizenzierten Produkte in ein anderes Festgelegtes Land die Zusatzgebuhren.
+
+2.3. Weitere Nutzungsbeschrankungen. Der Kunde wird anderen Personen als Berechtigten Nutzern nicht gestatten, auf die Lizenzierten Produkte zuzugreifen oder diese zu nutzen. Folgende Schritte darf der Kunde weder selbst unternehmen noch Dritten gestatten:
+
+(i) Teile der Lizenzierten Produkte andern oder Derivate davon herstellen;
+
+(ii) Vermietung, Verleasen oder Verleih der Lizenzierten Produkte;
+
+(iii) Nutzung der Lizenzierten Produkte oder Gestattung ihrer Nutzung fur die Schulung Dritter, fur Softwareimplementierungs- oder Beratungsdienste gegenuber Dritten oder fur kommerzielles Time-Sharing oder die Nutzung im Rahmen eines Service-Bureau;
+
+(iv) Disassemblieren, Dekompilieren oder Reverse-Engineering der Lizenzierten Produkte oder des Datenformats der Lizenzierten Produkte bzw. anderweitige Versuche, den Quellcode oder das Datenformat der Lizenzierten Produkte zu erlangen, soweit diese Handlungen nicht ausdrucklich gemaß Anlage A erlaubt sind;
+
+(v) Verkauf, Erteilung von Lizenzen oder Unterlizenzen, Verleih, Abtretung oder anderweitige Übertragung (ob durch Verkauf, Austausch, Schenkung, per Gesetz oder anderweitig) der Lizenzierten Produkte oder von etwaigen Kopien der Lizenzierten Produkte oder einer Lizenz oder anderer Rechte daran, ganz oder teilweise, an beliebige Dritte, ohne in jedem Fall zuvor die vorherige schriftliche Zustimmung von PTC einzuholen, soweit dies nicht gemaß dem Angebot und/oder der Lizenzierungsbasis-Webseite ausdrucklich gestattet ist;
+
+(vi) Veranderung, Entfernung oder Unkenntlichmachung von Hinweisen auf Urheberrechte, Geschaftsgeheimnisse, Patente, Marken, Logos, Eigentumsrechte und/oder sonstigen rechtlichen Hinweisen auf den Lizenzierten Produkten oder deren Kopien; und
+
+(vii) Kopieren oder sonstige Vervielfaltigung der Lizenzierten Produkte, ob ganz oder teilweise, sofern (a) dies nicht fur deren Installation im Computer-Speicher zum Zwecke der Ausfuhrung der Lizenzierten Produkte gemaß dieser Ziffer 2 erforderlich ist bzw. (b) sofern dies nicht lediglich der Herstellung einer angemessenen Anzahl von Sicherungskopien dient (vorausgesetzt, eine solche genehmigte Kopie ist Eigentum von PTC und der Kunde gibt darauf samtliche Hinweise auf Urheberrechte, Geschaftsgeheimnisse, Patente, Marken, Logos, Eigentumsrechte und/oder sonstige rechtliche Hinweise von PTC an, die in der von PTC ubergebenen Originalkopie des Lizenzierten Produkts enthalten sind).
+
+2.4. Drittkomponenten und Gebundelte Drittprodukte. Einige der Lizenzierten Produkte können eingebettete Softwarekomponenten Dritter enthalten, die jedoch weiteren Bedingungen unterliegen. Die aktuell geltenden zusatzlichen Bedingungen sind in den Geschaftsbedingungen Dritter festgelegt, die auf der Licensing Basis Webpage einsehbar sind. 
+
+2.5. Zusatzliche Einschrankungen. Auf bestimme Lizenzierte Produkte sind die auf der Licensing Basis Webpage ausgewiesenen produktspezifischen Bestimmungen und fur in den Lizenzierten Produkten enthaltene oder zu diesen gehörende Drittkomponenten geltenden besonderen Bedingungen anwendbar. Die Licensing Basis Webpage gilt als Bestandteil dieses Vertrages.
+
+3. Support. 
+
+3.1. Support-Vertrag; Support-Level. Sobald PTC eine Bestellung des Kunden uber eine Subscription-Lizenz oder Support-Leistungen fur die Lizenzierten Produkte angenommen hat, erbringen PTC und/oder PTCs autorisierten Vertragspartner gemaß diesen Bedingungen fur einen Zeitraum von zwölf (12) Monaten (oder fur einen anderen in der von PTC angenommenen Bestellung des Kunden genannten Zeitraum) Support-Leistungen ("Support-Vertrag"). Wenn der Kunde zu irgendeinem Zeitpunkt den Bezug von Support-Leistungen einstellt und zu einem spateren Zeitpunkt Support-Leistungen in Anspruch nehmen möchte, muss der Kunde (i) die jeweils geltenden Gebuhren fur Support-Leistungen und (ii) die Gebuhren fur Support-Leistungen fur den Zeitraum entrichten, fur den er keine Support-Leistungen erworben hatte. Dies gilt jedoch mit der Maßgabe, dass der Kunde verpflichtet ist, neue Lizenzen zu erwerben, wenn der Zeitraum, in dem er keine Support-Leistungen bezogen hat, zwölf Monate ubersteigt. Die jeweils aktuell angebotenen Support-Leistungen (Support-Level) und die Support-Bedingungen werden unter http://www.ptc.com/support/maintenance/maintenance_support_policies.htm beschrieben.
+
+3.2. Ein Support-Vertrag kann vom Kunden nicht gekundigt werden, nachdem PTC einen solchen Support-Vertrag angenommen hat. Wenn der Kunde fur ein bestimmtes Lizenziertes Produkt Support-Leistungen wahlt, mussen die vom Kunden bestellten Support-Leistungen alle Lizenzen abdecken, die dem Kunden an dem betreffenden Lizenzierten Produkt gewahrt wurden (d.h. es können nicht nur fur Teile davon Support-Leistungen oder Vertragserneuerungen vereinbart werden. 
+
+4. Einhaltung der vertraglichen Bestimmungen.
+
+4.1. Feststellung der Lizenznutzung. Um die Einhaltung der Bedingungen dieses Vertrags sicherzustellen, gestattet der Kunde PTC die Durchfuhrung von Audits im Hinblick auf seine Nutzung der Lizenzierten Produkte. Der Kunde erklart sich bereit, PTC Zugang zu seinen Einrichtungen und Computersystemen zu verschaffen und die Kooperation seiner Mitarbeiter und Berater sicherzustellen, sofern dies von PTC zum Zwecke der Durchfuhrung eines solchen Audits wahrend der ublichen Geschaftszeiten und nach angemessener vorheriger Mitteilung in zumutbarer Weise erbeten wird.
+
+4.2. Berichte. Der Kunde erklart sich bereit, PTC auf schriftliche Anforderung einen Installations- und/oder Nutzungsbericht uber die Lizenzierten Produkte zu liefern (wobei dieser Bericht fur Produkte fur Registrierte Nutzer gemaß der Licensing Basis Webpage, auch eine Liste aller Personen enthalten muss, fur die der Kunde ein Passwort oder eine andere eindeutige Kennung ausgegeben hat, um den betreffenden Personen die Nutzung der Produkte fur Registrierte Nutzer zu ermöglichen). Jeder derartige Bericht ist von einem bevollmachtigten Vertreter des Kunden innerhalb von zehn (10) Werktagen nach Eingang einer schriftlichen Aufforderung von PTC hinsichtlich seiner Richtigkeit zu bestatigen. Der Kunde ist damit einverstanden, fur jeden Zeitraum, in dem die Nutzung der Lizenzierten Produkte durch den Kunden die Anzahl und/oder den Umfang der in dem betreffenden Zeitraum geltenden Lizenzen ubersteigt, die entsprechende Mehrnutzung (einschließlich der einschlagigen Lizenz- und Support-Gebuhren und unbeschadet sonstiger Rechte und Anspruche von PTC) zu verguten, wobei die Nichtzahlung der Vergutung einen Kundigungsgrund gemaß Ziffer 9.1 darstellt.
+
+5. Gewerbliche Schutzrechte.
+
+PTC und ihre Lizenzgeber sind die alleinigen Eigentumer der Lizenzierten Produkte und etwaiger Kopien der Lizenzierten Produkte sowie aller Urheberrechte, Geschaftsgeheimnisse, Patente, Marken und anderer gewerblicher Schutzrechte in Bezug auf die Lizenzierten Produkte. Samtliche Kopien der Lizenzierten Produkte, gleich in welcher Form sie von PTC bereitgestellt oder vom Kunden angefertigt wurden, bleiben Eigentum von PTC, und solche Kopien gelten wahrend der Lizenzlaufzeit als Leihgabe an den Kunden. Der Kunde erkennt an, dass ihm durch die nach diesem Vertrag gewahrte Lizenz kein Recht auf oder Eigentum an den Lizenzierten Produkten oder etwaigen Kopien der Lizenzierten Produkte eingeraumt wird, sondern lediglich ein begrenztes Nutzungsrecht gemaß den ausdrucklichen Bestimmungen dieses Vertrags. Der Kunde hat keine Rechte am Quellcode der Lizenzierten Produkte und der Kunde erkennt an, dass nur PTC das Recht auf Wartung, Verbesserung oder anderweitige Veranderung der Lizenzierten Produkte innehat. 
+
+6. Gewahrleistung, Ausschlusse von der Mangelhaftung.
+
+Fur Lizenzierte Produkte, die in Deutschland, Österreich oder der Schweiz lizenziert oder genutzt werden, gilt eine abgeanderte Version der Gewahrleistungsbestimmungen gemaß Anlage A.
+
+6.1. Gewahrleistung. Dem Kunden wird von PTC zugesichert, dass PTC zur Erteilung der Lizenz(en) berechtigt ist. Des Weiteren sichert PTC dem Kunden zu, dass die Lizenzierten Produkte wahrend der Gewahrleistungsfrist frei von Fehlern sind. "Gewahrleistungsfrist" bedeutet: (a) fur unbefristete Softwarelizenzen ein Zeitraum von neunzig Tagen ab der ersten Auslieferung des Lizenzierten Produkts von PTC an den Kunden oder einen Beauftragten des Kunden und (b) bei Lizenzen auf Subscription-Basis die Laufzeit der Subscription. Im Rahmen dieses Vertrags ubernimmt PTC keinerlei Mangelhaftung in Bezug auf (i) New Releases, (ii) Fehler, die darauf zuruckzufuhren sind, dass die Lizenzierten Produkte auf irgendeine Weise verandert oder angepasst wurden, (iii) Lizenzierte Produkte, die PTC dem Kunden kostenfrei zur Verfugung stellt und/oder (iv) Gebundelte Drittprodukte (wie in den Geschaftsbedingungen Dritter definiert).
+
+6.2. Alleiniger Rechtsbehelf. Soweit ein Verstoß gegen die im zweiten Satz der Ziffer 6.1 ubernommene Gewahrleistung vorliegt, besteht die gesamte Haftungsverpflichtung von PTC und ihrem Lizenzgeber und der alleinige Rechtsbehelf des Kunden darin, dass PTC diesen nach eigener Wahl (a) durch Ersatz des fehlerhaften Lizenzierten Produkts bzw. der fehlerhaften Lizenzierten Produkte behebt oder (b) sich nach Kraften bemuht, den Fehler durch Nachbesserung zu beseitigen. Diese Pflichten von PTC gelten jedoch nur, wenn PTC die Fehlerruge des Kunden innerhalb der Gewahrleistungsfrist zugeht und der Kunde in angemessenem Umfang weitere Informationen uber den Fehler liefert, soweit PTC begrundetermaßen darum bittet. Wenn PTC innerhalb einer angemessenen Frist nach schriftlicher Meldung des Fehlers und Übermittlung der diesbezuglichen Informationen durch den Kunden sowie Rucksendung des betreffenden Lizenzierten Produkts bzw. der Lizenzierten Produkte und etwaiger Kopien keinen Ersatz fur das/die betreffende(n) Lizenzierte(n) Produkt(e) liefert und/oder den Fehler behebt (entweder durch Bereitstellung eines Bugfix, einer Fehlerumgehung [Workaround] oder in sonstiger Weise), wird PTC Folgendes erstatten: fur Lizenzierte Produkte mit unbegrenzter Laufzeit die vom Kunden fur das/die fehlerhafte(n) Lizenzierte(n) Produkt(e) gezahlten Lizenzgebuhren und (ii) fur Subscription Lizenzen die fur die verbleibende Laufzeit im Voraus gezahlten Subscription-Gebuhren fur das/die fehlerhafte(n) Lizenzierte(n) Produkt(e), und zwar jeweils nach Rucksendung des betreffenden Lizenzierten Produkts bzw. der Lizenzierten Produkte und etwaiger Kopien.
+
+6.3. Weitere Mangelanspruche. Kein Dritter, einschließlich samtlicher Mitarbeiter, Geschaftspartner, Vertriebspartner (einschließlich eventueller Reseller) oder Handelsvertreter von PTC, ist berechtigt, Zusicherungen, Zusagen oder Zusatzvereinbarungen abzugeben bzw. einzugehen, die uber die im Hinblick auf Lizenzierte Produkte oder Support-Leistungen in diesem Vertrag enthaltenen hinausgehen oder von diesen abweichen, sofern dies nicht in einer schriftlichen, im Namen des Kunden von einem Vertretungsberechtigten und im Namen von PTC vom Leiter ihrer Rechtsabteilung oder ihrem Controller unterzeichneten Vereinbarung ausdrucklich bestimmt ist.
+
+6.4. Ausschlusse von der Mangelhaftung. SOFERN IN DIESER ZIFFER 6 NICHT AUSDRÜCKLICH ETWAS ANDERES ANGEGEBEN IST, SCHLIESST PTC JEGLICHE AUSDRÜCKLICHE ODER STILLSCHWEIGENDE, SCHRIFTLICHE ODER MÜNDLICHE GEWÄHRLEISTUNG, EINSCHLIESSLICH ALLER GEWÄHRLEISTUNGEN HINSICHTLICH DER MARKTGÄNGIGKEIT, ZUFRIEDENSTELLENDEN QUALITÄT, DER EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND/ODER DER NICHTVERLETZUNG VON RECHTEN DRITTER, UND/ODER GEWÄHRLEISTUNGEN HINSICHTLICH EINER BESTIMMTEN RENDITE, DIE DER KUNDE ERREICHEN WIRD, AUS (UND DER KUNDE VERZICHTET AUF JEGLICHE DERARTIGE GEWÄHRLEISTUNG). DER KUNDE IST FÜR DIE DURCH DIE NUTZUNG DER LIZENZIERTEN PRODUKTE ERZIELTEN ERGEBNISSE ALLEIN VERANTWORTLICH. DIES GILT AUCH HINSICHTLICH DER ANGEMESSENHEIT VON UNABHÄNGIGEN TESTS DER ZUVERLÄSSIGKEIT, SICHERHEIT UND PRÄZISION DER UNTER VERWENDUNG DER LIZENZIERTEN PRODUKTE KONSTRUIERTEN GEGENSTÄNDE. PTC ÜBERNIMMT KEINE GEWÄHR DAFÜR, DASS DIE LIZENZIERTEN PRODUKTE UNUNTERBROCHEN ODER FEHLERFREI BETRIEBEN ODER AUF SONSTIGE WEISE GENUTZT WERDEN KÖNNEN BZW. DASS DADURCH KEINE SCHÄDEN ODER STÖRUNGEN AN DATEN, COMPUTERN ODER NETZWERKEN DES KUNDEN VERURSACHT WERDEN.
+
+7. Freistellung; Verletzung von Schutzrechten Dritter.
+
+7.1. Verpflichtung von PTC zur Freistellung des Kunden. PTC ist verpflichtet, den Kunden auf Kosten von PTC von allen gegen den Kunden erhobenen Klagen freizustellen, die auf der Behauptung beruhen, dass ein Lizenziertes Produkt ein US-amerikanisches, ein in einem Mitgliedstaat der Europaischen Union oder ein in Japan bestehendes Patent, Urheberrecht oder eine dort eingetragene Marke verletzt, und wird, nach Wahl von PTC, eine solche Klage vergleichen oder etwaige, gegen den Kunden in einem rechtskraftigen Urteil festgesetzten Betrage erstatten, vorausgesetzt, dass: (a) PTC unverzuglich vom Kunden schriftlich uber die Anzeige eines solchen Anspruches informiert wird; (b) PTC die alleinige Kontrolle uber die Verteidigung gegen eine Klage im Hinblick auf einen solchen Anspruch und samtliche Verhandlungen bezuglich deren Beilegung oder eines Vergleichs hat und die dabei entstehenden Kosten ubernimmt (außer in den Fallen eines oder mehrerer der unter Ziffer 7.3 genannten Ausschlusse); und (c) dass der Kunde auf Kosten von PTC vollumfanglich mit PTC bei der Abwehr, Beilegung oder dem Vergleich eines solchen Anspruchs kooperiert. Die in dieser Ziffer 7 enthaltenen Bestimmungen sind abschließend.
+
+7.2. PTCs Handlungsmöglichkeiten zur Vermeidung einer Klage. Sofern es gemaß Ziffer 7.1 dieses Vertrags zu einer Klage kommt oder, nach Ansicht von PTC kommen könnte, hat der Kunde, nach Wahl und auf Kosten von PTC, PTC zu gestatten: (a) dem Kunden das Recht auf weitere Nutzung des Lizenzierten Produkts zu verschaffen; (b) das Lizenzierte Produkt so zu verandern, dass es keine Rechte mehr verletzt, ohne seine Funktionalitat dabei erheblich zu beeintrachtigen; oder (c) die jeweilige Lizenz zu beenden, die Ruckgabe der jeweiligen Lizenzierten Produkte zu akzeptieren und dem Kunden dafur eine Gutschrift einzuraumen. Bei Lizenzen, die mit unbegrenzter Laufzeit erworben wurden, ist der Betrag dieser Gutschrift gleich der Höhe der vom Kunden fur das betreffende Lizenzierte Produkt gezahlten Lizenzgebuhren unter Berucksichtigung einer linearen Abschreibung uber funf Jahre. Bei Lizenzen, die fur eine bestimmte Laufzeit oder auf Subscription-Basis erworben wurden, ist der Betrag dieser Gutschrift gleich der fur die verbleibende Laufzeit im Voraus gezahlten Lizenz- bzw. Subscription-Gebuhren.
+
+7.3. Ausschlusse von PTCs Verpflichtung zur Freistellung des Kunden. PTC haftet dem Kunden nicht gemaß Ziffer 7.1 dieses Vertrags oder anderweitig, wenn eine Rechtsverletzung oder ein diesbezuglicher Anspruch darauf beruht, dass (a) das Lizenzierte Produkt zusammen mit Ausrustung oder Software verwendet wird, die nicht im Rahmen dieses Vertrags geliefert wurden und das Lizenzierte Produkt allein betrachtet keine Rechtsverletzung verursachen wurde; (b) eine anderes als das aktuellste, dem Kunden zur Verfugung gestellte Release des Lizenzierten Produkts bzw. der Lizenzierten Produkte genutzt wird; oder (c) das Lizenzierte Produkt durch andere als PTC oder seine Mitarbeiter oder Vertreter verandert wurde.
+
+8. Haftungsbegrenzung.
+
+Fur Lizenzierte Produkte, die in Deutschland, Österreich oder der Schweiz lizenziert oder genutzt werden, gilt eine abgeanderte Version dieser Ziffer 8 gemaß Anlage A. 
+
+8.1. Die Haftung von PTC, ihren Tochtergesellschaften und ihren verbundenen Unternehmen, einschließlich der Haftung ihrer jeweiligen Organe, Mitarbeiter oder Beauftragten, in Bezug auf die Lizenzierten Produkte und Support-Leistungen - insbesondere die Gewahrleistungshaftung oder Haftung fur die Verletzung bzw. behauptete Verletzung von Patenten, Urheberrechten, Marken, Geschaftsgeheimnissen und sonstigen geistigen Eigentumsrechten oder Schutzrechten durch die Lizenzierten Produkte oder deren Nutzung ist in den Bestimmungen zur Gewahrleistung und Freistellung gemaß Ziffer 6 und 7 oben abschließend geregelt. 
+
+8.2. ABGESEHEN VON DEN IN DEN IN ZIFFER 7.1 GEREGELTEN FREISTELLUNGSPFLICHTEN VON PTC IST DIE HAFTUNG VON PTC UND IHREN PARTNERN, RESELLERN, VERTRIEBSPARTNERN UND LIZENZGEBERN (I) BEI LIZENZEN, DIE MIT UNBEGRENZTER LAUFZEIT ERWORBEN WURDEN, AUF DIE HÖHE DER VOM KUNDEN FÜR DIE DEM ANSPRUCH ZUGRUNDE LIEGENDEN LIZENZIERTEN PRODUKTE ODER SUPPORT-LEISTUNGEN GEZAHLTEN GEBÜHREN UND (II) BEI LIZENZEN, DIE FÜR EINE BESTIMMTE LAUFZEIT ODER AUF SUBSCRIPTION-BASIS ERWORBEN WURDEN, AUF DIE HÖHE DER VOM KUNDEN IN DEN ZWÖLF MONATEN VOR DEM SCHÄDIGENDEN EREIGNIS FÜR DIE DEM ANSPRUCH ZUGRUNDE LIEGENDEN LIZENZIERTEN PRODUKTE ODER LEISTUNGEN GEZAHLTEN GEBÜHREN BEGRENZT, WENN SICH DIE HAFTUNG VON PTC AUS - ODER IM ZUSAMMENHANG MIT - DER ERSTELLUNG, LIZENZIERUNG, FUNKTION, NUTZUNG ODER BEREITSTELLUNG DER LIZENZIERTEN PRODUKTE ODER AUS DER ERBRINGUNG VON SUPPORT-LEISTUNGEN ERGIBT ODER SICH ANDERWEITIG AUF DIESEN VERTRAG BEZIEHT, UND ZWAR UNABHÄNGIG DAVON, OB DIE HAFTUNG VON PTC AUF GEWÄHRLEISTUNG, VERTRAGLICHEN ZUSICHERUNGEN ODER AUF UNERLAUBTER HANDLUNG ODER AUF SONSTIGEN GRÜNDEN BERUHT. 
+
+8.3. PTC UND IHRE PARTNER, RESELLER, VERTRIEBSPARTNER UND LIZENZGEBER SOWIE DIE MIT PTC VERBUNDENEN UNTERNEHMEN ODER DEREN JEWEILIGE ORGANE, MITARBEITER ODER BEAUFTRAGTE HAFTEN IN KEINEM FALL FÜR FOLGENDES: (A) ENTGANGENEN GEWINN, SCHADENSERSATZ FÜR GEBRAUCHSVERLUST, GOODWILL-VERLUSTE, ENTGANGENE GESCHÄFTSCHANCEN, ENTGANGENEN UMSATZ, REPUTATIONSVERLUST ODER ENTGANGENE ERWARTETE EINSPARUNGEN; (B) VERLUST ODER UNRICHTIGKEIT VON DATEN ODER GESCHÄFTLICHEN INFORMATIONEN ODER AUSFALL ODER MANGELHAFTIGKEIT EINES SICHERHEITSSYSTEMS ODER SICHERHEITSMERKMALS; SOWIE (C) FÜR ATYPISCHE, ZUFÄLLIGE, INDIREKTE ODER FOLGESCHÄDEN ODER -VERLUSTE ODER STRAFSCHADENSERSATZ [PUNITIVE DAMAGES] - UNABHÄNGIG VON DEREN VERURSACHUNG -, UND ZWAR AUCH DANN, WENN PTC AUF DIE MÖGLICHKEIT SOLCHER SCHÄDEN HINGEWIESEN WURDE. 
+
+8.4. Der Kunde verpflichtet sich, keinen Rechtsstreit gegen PTC und/oder deren Tochtergesellschaften oder die mit ihr verbundenen Unternehmen, die Lizenzgeber von PTC und/oder deren jeweilige Organe, Mitarbeiter oder Beauftragte anzustrengen und keine Klage gegen sie zu erheben, gleich aus welchem Grund, wenn seit Entstehung der Anspruchsgrundlage mehr als ein Jahr vergangen ist. Die in der vorliegenden Ziffer 8 geregelten Begrenzungen und Ausschlusse gelten nicht fur Anspruche bei Tod oder Personenschaden. 
+
+9. Laufzeit und Kundigung von Lizenzen oder Support-Leistungen.
+
+9.1. Kundigungsgrunde. Dieser Vertrag und alle Lizenzen und die Erbringung von Support-Leistungen fur Lizenzierte Produkte enden durch Kundigung seitens PTC dreißig (30) Tage, nachdem dem Kunden eine schriftliche Mitteilung von PTC uber eine Verletzung dieses Vertrages vorliegt, , einschließlich der verspateten Leistung einer falligen Zahlung an entweder PTC oder einen Reseller in Zusammenhang mit den Lizenzierten Produkten, sofern die Vertragsverletzung nicht innerhalb der vorgenannten Frist von dreißig (30) Tagen zur Zufriedenheit von PTC in angemessener Weise behoben wird.
+
+9.2. Folgen des Ablaufs oder der Kundigung. Bei Ablauf einer bestimmten Lizenzlaufzeit und/oder Ablauf oder Kundigung dieses Vertrags wird der Kunde alle von ihm geschuldeten Betrage unverzuglich bezahlen, die Originalkopien samtlicher Lizenzierter Produkte, fur die die Lizenzlaufzeit abgelaufen ist oder gekundigt wurde, an PTC zuruckgeben, alle Kopien und Sicherheitskopien davon aus den Computerbibliotheken, Speichermedien und/oder sonstigen Einrichtungen des Kunden unwiderruflich löschen.
+
+9.3. Weiterbestehen von Bestimmungen. Die Ziffern 1.2 und 3 bis 10 gelten nach dem Ablauf oder der Kundigung dieses Vertrags weiter fort.
+
+10. Allgemeine Bestimmungen.
+
+10.1. Rechtswahl und Gerichtsstand. Soweit in Anlage A keine anderweitige Regelung getroffen wurde, unterliegen samtliche Streitigkeiten aus oder in Zusammenhang mit diesem Vertrag dem Recht des US-Staats Massachusetts und sind dementsprechend auszulegen, unter Ausschluss des Kollisionsrechts (insbesondere unter des US-amerikanischen Gesetzes zur einheitlichen Regelung von Geschaften mit Computerinformationen [Uniform Computer Information Transactions Act - UCITA]). Die Parteien schließen hiermit ausdrucklich die Anwendbarkeit des UN-Kaufrechts (CISG) aus. Samtliche Streitigkeiten aus oder in irgendeiner Weise im Zusammenhang mit diesem Vertrag werden ausschließlich vor den einzelstaatlichen oder US-Bundesgerichten im US-Staat Massachusetts verhandelt; andere Gerichtsstande oder Rechtsordnungen sind ausgeschlossen. Unbeschadet vorstehender oder irgendeiner anderslautenden Bestimmung dieses Vertrages hat PTC das Recht, vor einem beliebigen zustandigen Gericht zu klagen, um etwaige Rechte an geistigem Eigentum geltend zu machen und/oder vertrauliche Informationen zu schutzen. Der Kunde erkennt hiermit an, dass die im US-Staat Massachusetts ansassigen einzelstaatlichen oder US-Bundesgerichte in Bezug auf den Kunden persönlich zustandig sind und der Kunde unterwirft sich hiermit unwiderruflich (i) der persönlichen Zustandigkeit der besagten US-Gerichte, und (ii) erklart sich damit einverstanden, dass die Zustellung von Ladung und Klageschrift, Schriftsatzen und Mitteilungen im Zusammenhang mit samtlichen Klagen, die bei den besagten US-Gerichten eingereicht werden, entsprechend erfolgt. Die Parteien sind sich daruber einig, dass ein rechtskraftiges Urteil im Rahmen einer solchen Klage oder eines solchen Gerichtsverfahrens abschließend und rechtlich bindend und in jeder anderen Rechtsordnung vollstreckbar ist. Jede Partei verzichtet auf ihr Recht auf Verhandlung vor einem Geschworenengericht ["Jury"] im Zusammenhang mit etwaigen Streitigkeiten aus diesem Vertrag.
+
+10.2. Mitteilungen. Alle nach diesem Vertrag erforderlichen oder erlaubten Mitteilungen bedurfen der Schriftform. Gemaß dieser Ziffer ergehende Mitteilungen gelten wie folgt als zugegangen: (a) bei Übersendung per Post funf (5) Werktage nach Absendung; (b) bei Übersendung per Express-Kurierdienst am zweiten Werktag nach Absendung; oder (c) bei Übermittlung per Fax mit Eingang auf dem Faxgerat des Empfangers.
+
+10.3. Abtretung, Verzicht, Änderung. Der Kunde darf ohne vorherige schriftliche Zustimmung von PTC keine seiner nach diesem Vertrag oder einer hiernach gewahrten Lizenz bestehenden Rechte oder Pflichten abtreten, ubertragen, delegieren oder Unterlizenzen daran erteilen und jeder Versuch einer solchen Delegierung, Abtretung, Übertragung oder Erteilung von Unterlizenzen ist nichtig und stellt eine Vertragsverletzung dar. Jeder Verzicht auf die Bestimmungen dieses Vertrags und jede Zustimmung, Änderung oder Erganzung dieses Vertrags ist erst verbindlich, wenn sie schriftlich erfolgt und von PTC und dem Kunden unterzeichnet wurde. PTC ist berechtigt, fur jede beabsichtigte Abtretung, Übertragung oder Erteilung von Unterlizenzen an Rechten und Pflichten aus diesem Vertrag eine entsprechende Gebuhr zu verlangen. PTC ist berechtigt, diesen Vertrag im Falle der wesentlichen Änderung der Beherrschungsverhaltnisse des Kunden zu kundigen. 
+
+10.4. Einhaltung von Gesetzen.
+
+(i) Jede Partei ist selbst dafur verantwortlich, dass sie die fur ihren Geschaftsbetrieb und den vorliegenden Vertrag geltenden Gesetze, Vorschriften und sonstigen Verordnungen einhalt. Der Kunde sichert außerdem zu, dass er die Lizenzierten Produkte sowie die dazugehörige Technik und dazugehörige Services ausschließlich im Einklang mit den geltenden Gesetzen und Vorschriften nutzen wird. 
+
+(ii) Der Kunde sichert hiermit zu, dass weder der Kunde noch Organe des Kunden oder mit dem Kunden verbundene Unternehmen in der Denied Persons List, der Entity List oder der Unverified List des US-Handelsministeriums, der Nonproliferation Sanctions List des US-Außenministeriums oder der List of Specially Designated Nationals and Blocked Persons des US-Finanzministeriums oder der Sectoral Sanctions Identifications (SSI) List (zusammen als die "Sanktionslisten" bezeichnet), eingetragen sind. Der Kunde erkennt an, dass die Lizenzierten Produkte und die dazugehörigen technischen Daten und Services den Ausfuhrkontrollgesetzen und -vorschriften der USA und aller Lander unterliegen, in denen die Lizenzierten Produkte und die dazugehörigen technischen Daten und Services empfangen, entwickelt, heruntergeladen, genutzt oder ausgefuhrt werden. Daruber hinaus erkennt der Kunde an, dass die Zuganglichmachung von Software oder Technik gegenuber einer Nicht-US-Person, die sich in den USA oder irgendwo außerhalb der USA befindet, als Ausfuhr in das Heimatland bzw. die Heimatlander dieser Nicht-US-Person gilt und fur die Übertragung des Lizenzierten Produkts oder dazugehöriger Technik auf Mitarbeiter des Kunden, mit dem Kunden verbundene Unternehmen oder Dritte möglicherweise eine Erlaubnis der US-amerikanischen Regierung und ggf. anderer Behörden erforderlich ist. Allein der Kunde ist dafur verantwortlich, sich daruber zu informieren, ob er fur die Nutzung der Lizenzierten Produkte oder der dazugehörigen Technik bzw. Services oder fur deren Übertragung eine Ausfuhrerlaubnis oder sonstige Genehmigung der US-Regierungsstellen oder anderer Behörden benötigt, und diese ggf. zu beschaffen.
+
+10.5. Salvatorische Klausel. Die Undurchsetzbarkeit oder Ungultigkeit einer Bestimmung beeintrachtigt nicht die Gultigkeit der ubrigen Bestimmungen, und solche als ungultig erachteten Bestimmungen werden von diesem Vertrag getrennt und durch Bestimmungen ersetzt, die der Absicht der ungultigen Bestimmungen am nachsten kommen.
+
+10.6. Vollstandigkeit der Vereinbarung. Dieser Vertrag enthalt die vollstandigen und abschließenden Vereinbarungen zwischen PTC und dem Kunden im Hinblick auf den Vertragsgegenstand. Jeder Verzicht auf die Bestimmungen dieses Vertrags und jede Zustimmung, Änderung oder Erganzung dieses Vertrags ist erst verbindlich, wenn sie schriftlich erfolgt und von PTC und dem Kunden unterzeichnet oder auf andere Weise ausdrucklich anerkannt wurde.
+
+10.7. Drittbegunstigte. Die Parteien dieses Vertrags kommen uberein, dass die Drittlizenzgeber von PTC Drittbegunstigte dieses Vertrags sind und das Recht haben, sich auf dessen Bestimmungen zu berufen und diese hinsichtlich ihrer Produkte direkt durchzusetzen.
+
+10.8. Marketing. Der Kunde ist damit einverstanden, dass PTC wahrend der Laufzeit dieses Vertrags berechtigt ist, den Kunden in Public-Relations- und Marketing-Materialien als einen Kunden/Endnutzer von PTC Software bzw. Services namentlich zu nennen.
+
+10.9. Lizenzierung an staatlichen Stellen. Soweit es sich bei dem Kunden um eine Stelle der US-Regierung handelt, erklart sich der Kunde damit einverstanden, dass es sich bei den Lizenzierten Produkten um handelsubliche Computer-Software [Commercial Computer Software] im Sinne der anwendbaren Beschaffungsvorschriften der US-Bundesbehörden handelt, die mit den an anderer Stelle dieses Vertrags beschriebenen gewerblichen Lizenzrechten und Einschrankungen geliefert wird. Erwirbt der Kunde das Lizenzierte Produkt bzw. die Lizenzierten Produkte im Rahmen eines Vertrags mit der US-Regierung, so erklart sich der Kunde damit einverstanden, auf den Lizenzierten Produkten alle notwendigen und geltenden Hinweise auf Rechtsbeschrankungen anzubringen, um die Eigentumsrechte von PTC gemaß den Beschaffungsvorschriften der US-Bundesbehörden oder laut sonstigen, vergleichbaren Bestimmungen anderer US-amerikanischer Bundesbehörden zu schutzen. Der Kunde verpflichtet sich, solche Hinweise stets anzubringen, wenn die Lizenzierten Produkte im Rahmen eines Vertrags mit der Regierung zum Lieferumfang gehören bzw. als Liefergegenstand gelten.
+
+Anlage A - Einschlagige PTC Gesellschaften
+Wenn der Kunde eine Lizenz fur Lizenzierte Produkte in einem der nachstehend genannten Lander erworben hat, bestimmt sich der Lizenzgeber wie nachstehend angegeben. Abweichend von Ziffer 10.1 dieses Vertrages gelten in einem solchen Fall das nachstehend jeweils angegebene Recht und der entsprechende Gerichtsstand.
+Land
+Verbundene Unternehmen von PTC (Lizenzgeber)
+Maßgebliches Recht/Gerichtsstand
+Belgien, Niederlande, Luxemburg
+Parametric Technology Nederland B.V.
+Beta Technology & Business Accelerator, Unit K110, High Tech Campus 9, Eindhoven, Niederlande 5656 AE
+Niederlande
+Österreich, Deutschland
+Parametric Technology GmbH
+Edisonstrasse 8, 85716 Unterschleissheim 
+Deutsches Recht*/Landgericht Munchen I, Deutschland
+Frankreich
+Parametric Technology S.A.
+1 rue du Petit Clamart, CS 10503, Velizy, Villacoublay, Cedex, Frankreich
+Frankreich
+Irland
+PTC (SSI) Limited
+12 Camden Row, Dublin 8, Irland
+Republik Irland
+Italien
+Parametric Technology Italia S.r.l.
+Centro Direzionale Colleoni, Palazzo Sirio 3, Via le Colleoni 11, 20041 Agrate Brianza, Italien
+Italien
+Spanien, Portugal 
+Parametric Technology Espana, S.A.
+Gran Via de les Corts, Catalanes, 130-136, Planta 7°, Barcelona, Spanien 08038
+Spanien
+Schweiz
+Parametric Technology (Schweiz) AG
+Javastrasse 4, Hegnau, Volketswil, Schweiz 8604
+Deutsches Recht*/Landgericht Munchen I, Deutschland
+Vereinigtes Königreich
+Parametric Technology (UK) Limited
+Chester House, Aerospace Boulevard, Farnborough, England, GU14 6TQ
+Vereinigtes Königreich
+Übrige Staaten der Europaischen Union
+PTC (SSI) Limited
+12 Camden Row, Dublin 8, Irland
+Republik Irland
+Turkei, Kosovo, Serbien, Mazedonien, Montenegro, Kroatien, Bosnien-Herzegovina, Rumanien und Albanien
+PTC (SSI) Limited
+12 Camden Row, Dublin 8, Irland
+Republik Irland
+Russische Föderation
+PTC International LLC
+Rusakovaskaya Street 13, Moscow,
+Russland 107140
+Russisches Recht/Internationaler Handelsschiedsgerichtshof der Industrie- und Handelskammer der Russischen Föderation in Moskau
+Belarus, Republik Moldau, Ukraine, Armenien, Georgien, Aserbaidschan, Kasachstan, Kirgisistan, Tadschikistan, Turkmenistan und Usbekistan
+PTC (SSI) Limited
+12 Camden Row, Dublin 8, Irland
+Republik Irland
+Norwegen, Schweden und Danemark; Finnland, Island und die Faröer-Inseln
+PTC Sweden AB
+Johan Pa Gardas gata 5A
+Gothenburg, Schweden 41250
+Schweden
+Naher Osten (außer Israel)
+PTC (SSI) Limited
+12 Camden Row, Dublin 8, Irland
+Republik Irland
+Afrika
+PTC (SSI) Limited
+12 Camden Row, Dublin 8, Irland
+Republik Irland
+Israel
+PTC Inc.
+140 Kendrick Street, Needham MA 02494 USA
+Commonwealth of Massachusetts, United States
+Japan
+PTC Japan K.K.
+8-1, Nishi-Shinjuku, 6-chome, Shinjuku-ku, Tokyo, Japan
+Japan/Bezirksgericht Tokio
+China
+Parametric Technology (Shanghai) Software Co., Ltd.
+Unit 008, Floor 8, 888 Wanhangdu Road, Jingan District, Shanghai, China
+Volksrepublik China/Internationales Schiedsgerichtszentrum von China in Shanghai (China International Economic and Trade Arbitration Commission) 
+Taiwan
+Parametric Technology Taiwan Limited
+15/F Hsin Kee Building, 460-466 Hsin Yi Road, Sec. 4, Taipei, Taiwan 110
+Taiwan/Gerichte in Taipei, Taiwan
+Indien
+Parametric Technology (India) Private Limited
+4th Floor, Phoenix Towers, 16, Museum Road, Bangalore, Indien 560 025
+Indien
+Korea
+Parametric Korea Co. Ltd.
+10th Floor, Cosmo Tower, 1002, Daechi-dong, Gangnam-gu, Seoul, Korea 135-502
+Republik Korea/Gerichte in Seoul
+Andere Lander des Asien-Pazifik-Raums (einschließlich Australien und Neuseeland, außer China, Japan und Taiwan)
+PTC Inc.
+140 Kendrick Street, Needham MA 02494 USA
+Sonderverwaltungszone Hongkong/Internationales Schiedsgerichtszentrum Hongkong (Hong Kong International Arbitration Centre)
+Kanada
+PTC (Canada) Inc.
+3333 Cote Vertu, Suite 620, St. Laurent, Quebec H4R 2N1
+Ontario
+Brasilien
+Parametric Technology Brasil Ltda.
+Rua Samuel Morse, 120, 3rd Floor, Sao Paulo, Brasilien 04576-060
+Brasilien
+Alle anderen Lander
+PTC Inc. oder eine andere PTC Gesellschaft, die von PTC bei Auftragserteilung bestimmt wird
+Commonwealth of Massachusetts, United States
+* Besondere Bestimmungen fur Österreich, Deutschland und die Schweiz:
+Fur Lizenzierte Produkte, die fur Österreich, Deutschland oder die Schweiz lizenziert wurden, gelten die folgenden besonderen Bestimmungen. Diese Bestimmungen sind auf außerhalb Österreichs, Deutschlands oder der Schweiz erworbene Lizenzierte Produkte nicht anwendbar. Verweise auf Ziffern im Folgenden beziehen sich auf die entsprechenden Ziffern des Hauptteils des Vertrages. 
+. Ziffer 2.3 gilt nicht, soweit (i) die Handlungen des Kunden unerlasslich sind, um die erforderlichen Informationen zur Herstellung der Interoperabilitat eines unabhangig geschaffenen Computerprogramms mit anderen Programmen zu erhalten, (ii) die weiteren Voraussetzungen des § 69e UrhG vorliegen und (iii) PTC dem Kunden diese Informationen nach schriftlicher Anfrage nicht innerhalb angemessener Frist zuganglich gemacht hat
+. Die Ziffern 6.1 (Gewahrleistung), 6.2 (Alleiniger Rechtsbehelf), 6.3 (Weitere Mangelanspruche) und 6.4 (Ausschlusse von der Mangelhaftung) werden durch die folgenden Bestimmungen ersetzt:
+6.	Anspruche bei Mangeln. Die Anspruche des Kunden bei Mangeln an zeitlich unbefristet eingeraumten Lizenzen richten sich nach Ziffern 6.1 bis 6.6; die Anspruche des Kunden bei Mangeln an Subscription-Lizenzen sind in Ziffer 6.7 geregelt.
+6.1.	Gewahrleistungsfrist, Neubeginn, Untersuchungs- und Rugepflicht. Die Verjahrungsfrist fur Mangelanspruche betragt 12 Monate ab Lieferung. Etwaige Ersatzlieferungen Lizenzierter Produkte und/oder Nachbesserungen zur Beseitigung von Fehlern fuhren nicht zu einem Neubeginn der Verjahrung. Die Gewahrleistungsrechte (Mangelanspruche) des Kunden setzen voraus, dass dieser (i) gemaß § 377 HGB die Lizenzierten Produkte untersucht, (ii) es sich um einen Fehler im Sinne dieses Vertrages handelt, (iii) dieser bereits zum Zeitpunkt der Lieferung vorlag und (iv) der Kunde den Fehler ordnungsgemaß rugt. Rugen haben unter spezifischer Angabe des Fehlers schriftlich zu erfolgen. Erkennbare Fehler hat der Kunde PTC innerhalb einer Woche nach Lieferung schriftlich anzuzeigen, versteckte Fehler innerhalb einer Woche nach ihrer Entdeckung. Die genannten Fristen sind Ausschlussfristen.
+6.2.	Rechtsbehelfe. Soweit ein Fehler vorliegt, kann PTC diesen nach eigener Wahl (a) durch Ersatz des bzw. der Lizenzierten Produkte(s) oder (b) durch Nachbesserung beheben, vorausgesetzt, PTC geht die Fehlerruge des Kunden innerhalb der Fristen nach Ziffer 6.1 zu und der Kunde liefert alle zusatzlichen Informationen zu dem Fehler, die PTC begrundetermaßen verlangt. Ist die Nachbesserung (entweder durch Bereitstellung eines Bugfix, einer Fehlerumgehung [Workaround] oder in sonstiger Weise) oder Ersatzlieferung (nach mindestens zwei Nachbesserungsversuchen von PTC zur Behebung ein und desselben Fehlers innerhalb einer angemessenen Frist) endgultig fehlgeschlagen, so ist der Kunde nach seiner Wahl (i) bei Ruckgabe des bzw. der betreffenden Lizenzierten Produkte(s) und aller davon angefertigten Kopien zum Rucktritt von der betroffenen Bestellung gegen Erstattung der fur das bzw. die jeweilige(n) Lizenzierte(n) Produkt(e) gezahlten Lizenzgebuhren oder (ii) zur angemessenen Minderung des Kaufpreises berechtigt. Ersatzlieferungen oder Nachbesserungen erfolgen jeweils ohne Anerkennung einer Rechtspflicht und unterbrechen die Verjahrung der Mangelanspruche fur die Lizenzierten Produkte nicht.
+6.3.	Ausschlusse von der Mangelhaftung. Im Rahmen dieses Vertrags ubernimmt PTC keinerlei Mangelhaftung in Bezug auf (i) New Releases, (ii) Fehler, die darauf zuruckzufuhren sind, dass die Lizenzierten Produkte auf irgendeine Weise verandert oder angepasst wurden, (iii) Lizenzierte Produkte, die PTC dem Kunden kostenfrei zur Verfugung stellt und/oder (iv) Gebundelte Drittprodukte (wie in den Geschaftsbedingungen Dritter definiert).
+6.4.	Weitere Mangelanspruche. Kein Mitarbeiter, Geschaftspartner, Vertriebspartner (einschließlich eventueller Reseller) oder Handelsvertreter von PTC ist berechtigt, Zusicherungen, Zusagen oder Zusatzvereinbarungen abzugeben bzw. einzugehen, die uber die in diesem Vertrag enthaltenen hinausgehen oder von diesen abweichen, sofern dies nicht in einer schriftlichen, im Namen des Kunden von einem Vertretungsberechtigten und im Namen von PTC von einem Mitarbeiter der Rechtsabteilung oder der Finance Abteilung unterzeichneten Vereinbarung ausdrucklich bestimmt ist. Über die in Ziffer 6 dieses Vertrages dargestellten Mangelanspruche hinausgehende Anspruche, gleich welcher Art, sind vorbehaltlich etwaiger nach Maßgabe von Ziffer 8 begrenzter Schadensersatzanspruche ausgeschlossen. 
+6.5.	Verantwortlichkeit des Kunden. Die Lizenzierten Produkte sind fur die Nutzung durch entsprechend geschulte Fachkrafte bestimmt und sind kein Ersatz fur eine fachmannische Einschatzung oder Prufung durch den Kunden im Hinblick auf Sicherheit oder Nutzlichkeit der damit erzielten Ergebnisse. Der Kunde ist fur die durch die Nutzung der Lizenzierten Produkte erzielten Ergebnisse allein verantwortlich. Dies gilt auch hinsichtlich der Angemessenheit von unabhangigen Tests der Zuverlassigkeit, Sicherheit und Prazision der unter Verwendung der Lizenzierten Produkte konstruierten Gegenstande. 
+6.6.	Beschaffenheit, Garantien. Eigenschaften der Lizenzierten Produkte, welche in Veröffentlichungen von PTC oder ihrer Vertriebsmitarbeiter oder -vertreter, insbesondere in der Werbung, in Zeichnungen, Prospekten oder anderen Dokumenten, einschließlich von Darstellungen im Internet, oder auf der Verpackung und Kennzeichnung der Lizenzierten Produkte angegeben sind, oder die Gegenstand von Handelsbrauchen sind, sind nur dann als von der vertraglichen Beschaffenheit der Lizenzierten Produkte umfasst anzusehen, wenn sie ausdrucklich in einem schriftlichen Angebot oder einer schriftlichen Auftragsbestatigung enthalten sind. Garantien, insbesondere Beschaffenheitsgarantien, sind fur PTC nur in dem Umfang verbindlich, in welchem sie (i) in einem schriftlichen Angebot oder einer schriftlichen Auftragsbestatigung enthalten sind, (ii) ausdrucklich als "Garantie" oder "Beschaffenheitsgarantie" bezeichnet werden, und (iii) die aus einer solchen Garantie fur PTC resultierenden Verpflichtungen ausdrucklich festlegen. 
+6.7.	Mangel bei Subscription-Lizenzen.
+6.7.1. PTC wird Kunde die Subscription-Lizenzen in einem zum vertragsgemaßen Gebrauch geeigneten Zustand ("Gebrauchstauglichkeit") uberlassen und erhalten. Die Erhaltung der Gebrauchstauglichkeit der Subscription-Lizenzen erfolgt im Wege der Support-Leistungen, die nach Maßgabe der unter  http://support.ptc.com/support/services/support-policies/ hinterlegten Bestimmungen und Bedingungen erbracht werden und die bei Subscription-Lizenzen ohne Mehrkosten mit eingeschlossen sind. Die Verpflichtung zur Erhaltung der Gebrauchstauglichkeit beinhaltet nicht die Anpassung der Lizenzierten Produkte an veranderte Einsatzbedingungen oder eine veranderte IT-Umgebung, insbesondere Änderungen der Hardware oder des Betriebssystems sowie neuer Datenformate.
+6.7.2. Soweit ein die Gebrauchstauglichkeit der Subscription-Lizenzen beeintrachtigender Mangel im Sinne eines in Anlage B definierten Fehlers vorliegt, kann PTC diesen nach eigener Wahl (a) durch Ersatz des Lizenzierten Produkts bzw. der Lizenzierten Produkte, die den Mangel enthalten oder (b) durch Nachbesserung beheben, vorausgesetzt dass Kunde PTC den Mangel unverzuglich nach dessen Entdeckung schriftlich unter spezifischer Angabe des Mangels mitteilt und der Kunde in angemessenem Umfang Mangel-Informationen bereitstellt, die zur Behebung des Mangels erforderlich sind. Ist die Nachbesserung (entweder durch Bereitstellung eines Bugfix, einer Fehlerumgehung [Workaround] oder in sonstiger Weise) oder Ersatzlieferung endgultig fehlgeschlagen (wobei PTC zu mindestens zwei Ersatzlieferungs- und/oder Nachbesserungsversuchen fur den selben Fehler innerhalb jeweils angemessener Fristen berechtigt ist), so ist der Kunde nach seiner Wahl (a) bei Ruckgabe des bzw. der betreffenden Lizenzierten Produkte(s) und aller davon angefertigten Kopien zur Kundigung der betroffenen Lizenzierten Produkte gegen Erstattung der fur das bzw. die jeweilige(n) fehlerhafte(n) Lizenzierte(n) Produkt(e) im Voraus gezahlten Lizenzgebuhren fur die Restlaufzeit der jeweiligen Lizenzlaufzeit (Kundigung) oder (b) zur angemessenen Herabsetzung der Subscription Gebuhr der betroffenen Lizenzierten Produkte (Minderung) berechtigt. Nachbesserung oder Ersatzlieferung erfolgen ohne Anerkennung einer Rechtspflicht und unterbrechen die Verjahrung der Mangelanspruche fur die Lizenzierten Produkte nicht.
+6.7.3. Die verschuldensunabhangige Schadensersatzhaftung von PTC fur Mangel, die bereits bei Annahme einer Bestellung durch PTC vorhanden waren, ist ausgeschlossen.
+6.7.4. Das Kundigungsrecht des Kunden wegen Nichtgewahrung des Gebrauchs nach § 543 Abs. 2 Satz 1 Nr. 1 BGB ist ausgeschlossen, sofern nicht die Nachbesserung oder Ersatzlieferung als endgultig fehlgeschlagen anzusehen ist.
+        6.7.5. Die Bestimmungen aus Ziffern 6.3, 6.4 Satz 1, 6.5 und 6.6 finden Anwendung. 
+6.7.6. Über die in Ziffer 6.7 dieses Vertrages dargestellten Mangelanspruche hinausgehende Anspruche, gleich welcher Art, sind vorbehaltlich etwaiger nach Maßgabe von Ziffer 8 begrenzter Schadensersatzanspruche ausgeschlossen.
+
+. Ziffer 8 wird durch die folgenden Bestimmungen ersetzt:
+8.	Haftungsbegrenzung
+8.1.	Haftungsformen. PTC haftet fur etwaige Schaden, gleich aus welchem Rechtsgrund, wenn (i) PTC eine vertragswesentliche Pflicht (Kardinalpflicht) schuldhaft (d. h. mindestens fahrlassig) verletzt hat, oder (ii) der Schaden durch grobe Fahrlassigkeit oder Vorsatz von PTC verursacht wurde oder (iii) PTC eine Garantie ubernommen hat.
+8.2.	Vorhersehbarkeit. Die Haftung von PTC ist auf den typischen, vorhersehbaren Schaden begrenzt, wenn PTC (i) vertragswesentliche Pflichten (Kardinalpflichten) leicht fahrlassig verletzt hat, oder (ii) Mitarbeiter oder Beauftragte von PTC, die nicht Organe oder leitende Angestellte sind, sonstige Pflichten grob fahrlassig verletzt haben, oder (iii) wenn PTC eine Garantie ubernommen hat, sofern es sich dabei nicht ausdrucklich um eine Beschaffenheitsgarantie handelt. 
+8.3.	Höchstbetrage. In den Fallen der Ziffer 8.2 (i) und (ii) ist die Haftung von PTC auf einen Betrag von höchstens EURO 1.000.000,- bzw. bei reinen Vermögensschaden auf einen Betrag von höchstens EURO 100.000,- begrenzt. 
+8.4	Mittelbare Schaden. In den Fallen der Ziffer 8.2 haftet PTC nicht fur mittelbare Schaden, Folgeschaden oder entgangenen Gewinn. 
+8.5.	Verjahrung. Schadensersatzanspruche des Kunden gegen PTC und/oder mit PTC verbundene Unternehmen, gleich aus welchem Rechtsgrund, verjahren spatestens ein Jahr nachdem der Kunde Kenntnis von dem Schaden erlangt, bzw. kenntnisunabhangig spatestens zwei Jahre nach dem schadigenden Ereignis. Fur Anspruche wegen Fehlern der Lizenzierten Produkte verbleibt es bei der Verjahrung nach Ziffer 6.1.
+8.6.	Gesetzliche Haftung. Die Haftung von PTC nach dem deutschen Produkthaftungsgesetz, fur die Verletzung von Leben, Körper und Gesundheit, fur das arglistige Verschweigen eines Mangels und die Übernahme einer Garantie fur die Beschaffenheit einer Sache bleibt unberuhrt. 
+8.7.	Mitarbeiter. Die Ziffern 8.1 bis 8.6 gelten auch im Falle etwaiger Schadensersatzanspruche des Kunden gegen Mitarbeiter oder Beauftragte von PTC und/oder mit PTC verbundenen Unternehmen.
+8.8.	Mitverschulden. Bei Garantie- oder Haftungsanspruchen gegen PTC ist eventuelles Mitverschulden des Kunden entsprechend zu berucksichtigen, insbesondere bei ungenugender Fehleranzeige oder unzureichender Datensicherung. Unzureichende Datensicherung liegt u. a. vor, wenn der Kunde nicht durch geeignete, dem Stand der Technik entsprechende Sicherungsmaßnahmen Vorkehrungen gegen außere Einwirkungen trifft, z.B. Computerviren und andere Erscheinungen, die einzelne Daten oder einen ganzen Datenbestand gefahrden könnten.
+Anlage B - Definitionen
+"Angebot" - das Produktverzeichnis, das Angebot oder die sonstige schriftliche Vereinbarung, das bzw. die im Zusammenhang mit dem Kauf der Lizenzierten Produkte bzw. Support-Leistungen dem Kunde bereitgestellt oder von ihm unterzeichnet wird
+"Berechtigte Nutzer" - Einzelpersonen, die vom Kunden zur Nutzung der Lizenzierten Produkte gemaß den Bedingungen dieses Vertrags ermachtigt wurden. Berechtigte Nutzer sind auf die Mitarbeiter, Berater, Subunternehmer, Lieferanten, Geschaftspartner und Kunden des Kunden beschrankt, die (i) keine Wettbewerber von PTC und nicht bei solchen beschaftigt sind und (ii) an der Nutzung der Lizenzierten Produkte ausschließlich zur Unterstutzung der internen Geschaftszwecke des Kunden unmittelbar beteiligt sind. Der Kunde ist verantwortlich dafur, dass die Nutzung der Lizenzierten Produkte durch seine Berechtigten Nutzer gemaß den Bestimmungen dieses Vertrages erfolgt.
+"Dokumentation" - die von PTC zum Zeitpunkt der Lieferung des Lizenzierten Produkts in elektronischer Form gelieferten oder zur Verfugung gestellten Anwenderhandbucher fur das jeweilige Lizenzierte Produkt
+"Fehler" - eine wesentliche Abweichung des Lizenzierten Produkts gegenuber der geltenden Dokumentation, vorausgesetzt, der Kunde informiert PTC schriftlich uber eine solche Abweichung
+"Festgelegter Server" - der im Festgelegten Land befindliche Computer-Server, auf dem eine einzige Instanz des jeweiligen Lizenzierten Produkts installiert ist
+"Festgelegtes Land" - sofern im Angebot zum Zeitpunkt des Kaufs nichts anderes schriftlich angegeben ist, das Land, in dem der Kauf getatigt wurde
+"Licensing Basis Webpage"- das Dokument "Licensing Basis" [Lizenzmodelle fur PTC-Softwareprodukte] auf http://www.ptc.com/support/customer_agreements/index.htm, in dem die Lizenzmodelle der verschiedenen PTC-Produkte und bestimmte zusatzliche produktspezifische Bedingungen angegeben sind
+"Lizenz" - das nicht-ausschließliche, nicht-ubertragbare, keine Berechtigung zur Erteilung von Unterlizenzen beinhaltende Recht zur Installation und Nutzung eines Lizenzierten Produkts (in Objektcode-Form)
+"Lizenzierte Produkte" - die im jeweiligen Angebot angegebenen Computersoftware-Produkte und die mit diesen zur Verfugung gestellte Dokumentation
+"Lizenzlaufzeit" - der Zeitraum, innerhalb dessen die Lizenz fur die jeweiligen Lizenzierten Produkte gemaß dem im Namen des Lizenzierten Produkts oder gemaß dem im Angebot bezeichneten Zeitraum gultig ist. Wurde keine Lizenzlaufzeit festgelegt, ist sie unbefristet. Hiervon ausgenommen sind Evaluierungslizenzen, deren Laufzeit höchstens dreißig Tage betragt. "Subscription"-Lizenzen gelten fur die im Angebot und/oder der Rechnung angegebene Lizenzlaufzeit.
+"New Release" - eine geanderte oder erweiterte Version eines Lizenzierten Produkts, die von PTC als "New Release" des betreffenden Produkts bezeichnet (im Unterschied zu Fehlerbehebungen, Updates oder Wochenversionen) wird und die PTC allgemein seinen Support-Kunden zur Verfugung stellt
+"Reseller" - eine dritte Partei, die von PTC ernannt und autorisiert wurde, Lizenzierte Produkte und/oder Support-Leistungen an den Kunden weiterzuverkaufen oder zu vertreiben
+"Support-Leistungen" - die Bereitstellung von New Releases und - abhangig vom jeweils bestellten Support-Level - telefonische Unterstutzung, Web-basierte Hilfe-Tools und Fehlerbehebungen
+"Zusatzgebuhr" - eine Gebuhr, die sich aus der Differenz zwischen der fur die im ursprunglich Festgelegten Land und der fur die in dem Festgelegten Land, in das der Kunde das Lizenzierte Produkt verlegen möchte, geltenden Lizenzgebuhr fur die Installation des Lizenzierten Produkts ergibt
+

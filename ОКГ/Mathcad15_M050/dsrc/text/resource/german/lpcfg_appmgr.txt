@@ -1,0 +1,8 @@
+# {70170} (2) [0] Label1.Label
+Full path to the Application Manager installation directory
+Vollständiger Pfad zum Installationsverzeichnis für den Applikations-Manager
+
+# [1] AppmgrBrowse.Label
+Browse
+Durchsuchen
+

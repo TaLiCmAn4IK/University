@@ -1,0 +1,12 @@
+// 17-OCT-01       LEI  Created - to create database tables for I2W
+// 31-OCT-01 $$1   LEI  Changed sql script names to match changes in 6.2.06
+
+(CustomAction i2w_create_tables 
+    (MsgValue      "@@EzMsg_i2w_create_tables")
+    (MsgText       "Create database tables for Intralink Gateway")
+    (CmdPath       "_JAVA_EXE_ -classpath _CDHOME_/ezactions/classes_JAVA_SEP__LP_/codebase com.ptc.windchill.install.DBUtility @com/ptc/gateway/ilpdm/Make_pkg_ilpdm @com/ptc/gateway/ilpdm/Make_pkg_ilpdm_DBIndex")
+    (ActionType    "PS_EZ_ACTION")
+    (ErrValue      "@@EzErr_i2w_create_tables")
+    (ErrText       "Failed to create database tables for Intralink Gateway")
+)
+

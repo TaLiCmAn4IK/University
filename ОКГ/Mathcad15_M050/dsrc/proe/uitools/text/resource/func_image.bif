@@ -1,0 +1,22 @@
+! 25-AUG-97  H-03-19+ twb  $$1 Made background transparent and resized.
+! 26-Aug-97  H-03-19+ twb  $$2 Transposed image.
+! 02-Dec-97 H-03-31 twb $$3 Recolored for white background.
+! 18-Dec-97 H-03-34 hmt $$4 Changed size to 18x18
+! 29-DEC-97 H-03-35 MCA $$5 Changed size to 16x16 - Removed RED Set Current Box.
+! 09-Apr-01 J-01-31 pmu $$6 Updated for high contrast support
+! 08-Aug-02 J-03-31 TLH $$7 Updated for Wildfire
+(Image func_image
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        8FFFFFFF03F0FD000D10096EE73A2F01100D2C0515000071003C052C0D1C06EC
+        25012009704405440D840D5C05FFFFCC630D003F0DBF0D970A9C0DB40DFC0DD4
+        0DDC05DCE80DB001333333230A9966003E10151DD9084C12FD0D411C8C1D9C1D
+        007C1DBC1DCC1DDC1DA01DA41D0C2D1C2D804C1D641D4C293C11B00D4823561D
+        CC00472D2F0D672B352D452D992DA52D752D00852DD52C1C39B02DC02DDC2D10
+        3DFC1D00002D8C3D9C3DAC3DBC3DCC3DDC3D
+    )
+)

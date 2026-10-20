@@ -1,0 +1,204 @@
+# {100} (100) [0] working_dir0.Label
+Extra Directory
+額外目錄
+
+# [1] lbl_common_places.Label
+Common Folders
+共用資料夾
+
+# [2] folders.TreeNodeTypeHelpTexts.1:
+part
+零件
+
+# [3] folders.TreeNodeTypeHelpTexts.2:
+assembly
+組件
+
+# [4] folders.TreeNodeTypeHelpTexts.3:
+drawing
+工程圖
+
+# [5] folders.TreeNodeTypeHelpTexts.4:
+drawform
+工程圖形式
+
+# [6] folders.TreeNodeTypeHelpTexts.5:
+manufacturing
+製造
+
+# [7] folders.TreeNodeTypeHelpTexts.6:
+directory
+目錄
+
+# [8] folders.TreeNodeTypeHelpTexts.7:
+foreign
+外部
+
+# [9] folders.TreeNodeTypeHelpTexts.8:
+other ptc file
+其他 ptc 檔案
+
+# [10] folders.TreeNodeTypeHelpTexts.9:
+markup
+標示
+
+# [11] folders.TreeNodeTypeHelpTexts.10:
+layout
+配置圖
+
+# [12] folders.TreeNodeTypeHelpTexts.11:
+diagram
+電路圖
+
+# [13] folders.TreeNodeTypeHelpTexts.12:
+report
+報表
+
+# [14] folders.TreeNodeTypeHelpTexts.13:
+2D section
+2D 截面
+
+# [15] folders.TreeNodeTypeHelpTexts.14:
+3D section
+3D 截面
+
+# [16] folders.TreeNodeTypeHelpTexts.15:
+sketcher
+草繪器
+
+# [17] folders.TreeNodeTypeHelpTexts.16:
+param mill
+參數銑削
+
+# [18] folders.TreeNodeTypeHelpTexts.17:
+param turn
+參數車削
+
+# [19] folders.TreeNodeTypeHelpTexts.18:
+param drill
+參數鑽孔
+
+# [20] folders.TreeNodeTypeHelpTexts.19:
+param aux
+參數輔助
+
+# [21] folders.TreeNodeTypeHelpTexts.20:
+param cel
+參數單元
+
+# [22] folders.TreeNodeTypeHelpTexts.21:
+param opr
+參數操作
+
+# [23] folders.TreeNodeTypeHelpTexts.22:
+param mea
+參數度量
+
+# [24] folders.TreeNodeTypeHelpTexts.23:
+tool param
+工具參數
+
+# [25] folders.TreeNodeTypeHelpTexts.24:
+mfg mold
+mfg 模具
+
+# [26] folders.TreeNodeTypeHelpTexts.25:
+mfg cast
+mfg 鑄造
+
+# [27] folders.TreeNodeTypeHelpTexts.26:
+skeleton
+骨架
+
+# [28] folders.TreeNodeTypeHelpTexts.27:
+diagram mvc def
+電路圖 mvc 定義
+
+# [29] folders.TreeNodeTypeHelpTexts.28:
+comp group def
+元件群組定義
+
+# [30] folders.TreeNodeTypeHelpTexts.1015:
+directory
+目錄
+
+# [31] folders.TreeNodeTypeHelpTexts.1016:
+directory
+目錄
+
+# [32] folders.TreeNodeTypeHelpTexts.1017:
+directory
+目錄
+
+# [33] folders.TreeNodeTypeHelpTexts.1018:
+directory
+目錄
+
+# [34] folders.TreeNodeTypeHelpTexts.1019:
+directory
+目錄
+
+# [35] folders.TreeNodeTypeHelpTexts.1020:
+directory
+目錄
+
+# [36] folders.TreeNodeTypeHelpTexts.1021:
+directory
+目錄
+
+# [37] folders.TreeNodeTypeHelpTexts.1022:
+directory
+目錄
+
+# [38] folders.TreeNodeTypeHelpTexts.1023:
+directory
+目錄
+
+# [39] folders.TreeNodeTypeHelpTexts.1024:
+directory
+目錄
+
+# [40] folders.TreeNodeTypeHelpTexts.1025:
+directory
+目錄
+
+# [41] folders.TreeNodeTypeHelpTexts.1026:
+Network Neighborhood
+網路上的芳鄰
+
+# [42] folders.TreeNodeTypeHelpTexts.1027:
+directory
+目錄
+
+# [43] folders.TreeNodeTypeHelpTexts.1028:
+Desktop
+桌面
+
+# [44] folders.TreeNodeTypeHelpTexts.1029:
+Computer
+電腦
+
+# [45] folders.TreeNodeTypeHelpTexts.1030:
+directory
+目錄
+
+# [46] folders.TreeNodeTypeHelpTexts.1031:
+directory
+目錄
+
+# [47] folders.TreeNodeTypeHelpTexts.1032:
+directory
+目錄
+
+# [48] FT_Expand_Btn.Label
+Folder Tree
+資料夾結構樹
+
+# [49] psh_new_folder.HelpText
+Create a new folder
+建立新的資料夾
+
+# [50] psh_delete_folder.HelpText
+Delete selected folders
+刪除所選資料夾
+

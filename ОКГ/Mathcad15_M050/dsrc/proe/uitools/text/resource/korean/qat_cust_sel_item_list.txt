@@ -1,0 +1,52 @@
+# {100} (100) [0] list_SelectFrom.HelpText
+Choose command from list
+목록에서 명령을 선택합니다.
+
+# [1] psh_add.Label
+&Add >>
+추가(&A) >>
+
+# [2] psh_remove.Label
+&Remove
+제거(&R)
+
+# [3] psh_reset.Label
+Re&set
+재설정(&S)
+
+# [4] psh_reset.HelpText
+Reset the content of the Quick Access Toolbar to the default
+빠른 액세스 도구 모음의 내용을 기본값으로 재설정합니다.
+
+# [5] psh_moveUp.Label
+Move Up
+위로 이동
+
+# [6] psh_moveUp.HelpText
+Move selected command upwards in the list.
+선택한 명령을 목록 위로 이동합니다.
+
+# [7] psh_moveDown.Label
+Move Down
+아래로 이동
+
+# [8] psh_moveDown.HelpText
+Move selected command downwards in the list.
+선택한 명령을 목록 아래로 이동합니다.
+
+# [9] lbl_choose_cmd_from.Label
+&Choose command from:
+다음 위치에서 명령 선택(&C):
+
+# [10] lbl_qa_toolbar_content.Label
+Customize &Quick Access Toolbar:
+빠른 액세스 도구 모음 사용자정의(&Q):
+
+# [11] opt_choose_cmd_from.Labels.sel_AllCmd
+All Commands
+모든 명령
+
+# [12] opt_choose_cmd_from.Labels.separator_tabs
+--------------
+--------------
+

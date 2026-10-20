@@ -1,0 +1,16 @@
+!
+! 19-Jun-00  J-01-11  IVA  $$1   Created.
+! 01-Mar-01  J-01-28  pmu  $$2   Updated.
+(Image weld_groove_solid
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     8)
+    )
+    (Data
+        FF15FFFF15C9FF15FFFF15C9FF15FFFF15C9FF15FFFF15C8FFC515CDFF15CCFF
+        15CCFF15CAFFC201C2FFC402C009C302070A070A070A02C009020A070A070AC3
+        0702C00102C7070A02C0FF020AC70702C0FF02C7070A02C0FF020AC70702C0FF
+        02C207
+    )
+)

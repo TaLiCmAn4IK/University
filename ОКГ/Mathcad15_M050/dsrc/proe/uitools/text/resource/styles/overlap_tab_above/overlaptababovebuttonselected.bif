@@ -1,0 +1,20 @@
+!  History:  
+!
+!  Date      Release  Name   Ver.  Comments
+!  --------- -------  -----  ----- --------------------------------------------
+!  20-May-08 L-03-09  mtch   $$1   Created.
+!
+!  INSERT COMMENT ABOVE THIS LINE
+!  Do not forget to put "!" at the begining of each line in this comment block.
+
+(Image overlaptababovebuttonselected
+    (Resources
+        (.Width     11)
+        (.Height    8)
+        (.Depth     24)
+    )
+    (Data
+        2FFF000000F0F917FDF8F0FD1EF4FDF6BB00012C05080D200D08540D380DFCF5
+        147D0D050D750D850D00950DA50DB50DC90DFD0DE10DF90D2D1D00111C
+    )
+)

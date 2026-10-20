@@ -1,0 +1,24 @@
+! 11-Jul-97 H-03-16 twb $$1 Revised, file created prior to H-03-16
+! 18-Aug-97 H-03-19 twb $$2 Revised, white background
+! 27-Aug-97 H-03-19+ twb $$3 Revised for consistent letter coloring
+! 02-Dec-97 H-03-31 twb $$4 Recolored for white background.
+! 18-Dec-97 H-03-34 hmt $$5 Changed size to 18x18
+! 29-DEC-97 H-03-35 MCA $$6 Changed size to 16x16 - Removed RED Set Current Box.
+! 09-Apr-01 J-01-31 pmu $$7 Updated for high contrast support
+! 15-Apr-2002 J-03-23  TLH   $$8 Updated colors
+(Image datum
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        0FFF000000F0FD000D100D200D1E2C05925223013C012C0D480182450001580D
+        6001300D400D500DFF03FFFF9F02680D740DB00D9C05D80900AC0DBC0DCC0DA0
+        05E40D301D001DD40D00241D701D801D541D641DB01DC01D540D00640DF01D40
+        1D102DFC1D242D002D202DC0342D50254C2D882D982DA022FFFF01037C25802D
+        C82DD82DAC2DBC2D782D00183D0C3D103D283D443D3C2D6C3D4C3D00843DA83D
+        B83D883D983DE831
+    )
+)
+

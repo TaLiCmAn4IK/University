@@ -1,0 +1,79 @@
+// 12-Feb-03   J-03-41 $$1  ECW  Created.
+// 28-sep-2004 K-03-10 $$2 AC Updated for EFX 4.0
+// 21-Dec-07 L-01-41 $$3  TWH  New Ad_list
+// 15-Jan-2008 L-01-42+  TWH  $$4  Rename Ads files
+// 21-Apr-08   L-03-07 $$5  TWH  Update from K-03 version
+// 23-Sep-09   L-03-35 $$6  TWH  Update for version 5.0
+// 04-Nov-09   L-03-36 $$7  TWH  Update WF5 images
+// 15-Mar-11   L-03-43 $$8  TWH  Update to version 7
+// 23-Aug-11   L-03-45 $$9  TWH  Update to version 7 bin directory
+// 23-Aug-11   L-03-45 $$10  TWH  cleanup
+
+(Product efx
+    (Name                      "Expert Framework Extension")
+    (WelcomeImage              "efx7.png")
+    (ToolTipMsg                "EFX is compatible with Wildfire 2.0 thru Wildfire 4.0, and Creo 1.0")
+    (Packages                  "efx_base"
+                               "efxhelp"
+                               "uninstall")
+    (ProgramFiles              True)
+    (LpDirName                 "efx")
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+    (SaveList                  "text/config.win"
+                               "text/config.pro")
+    (LicenseSimplification     False)
+    (Ad_list                   "WF5_101"
+                               "WF5_102"
+                               "WF5_103"
+                               "WF5_104"
+                               "WF5_201"
+                               "WF5_202"
+                               "WF5_203"
+                               "WF5_204"
+                               "WF5_301"
+                               "WF5_302"
+                               "WF5_303"
+                               "WF5_304"
+                               "WF5_401"
+                               "WF5_402"
+                               "WF5_403"
+                               "WF5_501"
+                               "WF5_502"
+			                   "WF5_503"
+			                   "WF5_601"
+                               "WF5_602"
+                               "WF5_603"
+                               "WF5_701"
+                               "WF5_702"
+			                   "WF5_703"
+			                   "WF5_801"
+                               "WF5_802"
+                               "WF5_803"
+                               "WF5_901"
+                               "WF5_902"
+			                   "WF5_903")
+)
+
+(Package efx_base
+    (Name                      "Expert Framework Extension")
+    (Cdsections                "EFX Tree"
+			                   "efx")
+    (convertFilesList          "_LP_/bin/wildfire2/config.pro=_LP_/bin/wildfire2/config.pro"
+                               "_LP_/bin/wildfire2/protk.dat=_LP_/bin/wildfire2/protk.dat"
+                               "_LP_/bin/wildfire3/config.pro=_LP_/bin/wildfire3/config.pro"
+			                   "_LP_/bin/wildfire3/protk.dat=_LP_/bin/wildfire3/protk.dat"
+			                   "_LP_/bin/wildfire4/config.pro=_LP_/bin/wildfire4/config.pro"
+			                   "_LP_/bin/wildfire4/protk.dat=_LP_/bin/wildfire4/protk.dat"
+			                   "_LP_/bin/wildfire5/config.pro=_LP_/bin/wildfire5/config.pro"
+			                   "_LP_/bin/wildfire5/protk.dat=_LP_/bin/wildfire5/protk.dat"
+			                   "_LP_/bin/creo1/config.pro=_LP_/bin/creo1/config.pro"
+			                   "_LP_/bin/creo1/protk.dat=_LP_/bin/creo1/protk.dat")
+    (Installed                 True)
+)
+
+(Package efxhelp
+    (Name                      "EFX Help Files")
+    (Installed                 True)
+    (Cdsections                "efxhelp")
+)

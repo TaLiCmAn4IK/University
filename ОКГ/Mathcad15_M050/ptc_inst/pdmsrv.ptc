@@ -1,0 +1,60 @@
+// 22-Nov-99 $$1 MYA Created 
+// 03-Jan-99 $$2 TWH ProgramFiles = FALSE
+// 07-Jan-00     MYA Move ScreenCmdlist and LicList to pdmcli_pkg
+// 10-Jan-00     MYA Add HostArchTypes
+// 11-Jan-00     MYA Remove pdmcli_pkg   
+// 11-Jan-00     JJE Don't use 22 in command names
+// 12-Jan-00 $$3 JJE Group Submission
+// 17-Feb-00     MYA REmove the extra Command Type
+// 24-Feb-00 I-03-27+  TWH   $$4    Group Submission
+// 23-Mar-00 $$5 MYA Add uninstall package
+// 24-May-00 $$6 MYA Remove Installed
+// 04-Apr-01 $$7 TWH BinScripts -> Binscripts
+// 04-Apr-01 $$8 ALG CdSections -> Cdsections
+// 31-Jan-02 $$9 MAZ Use ptchostid script
+
+(Product pdmsrv
+    (Name                 "Pro/PDM Server & Client")
+    (Packages             "pdmsrv_pkg" 
+                          "ptcutil"
+                          "pdmcli_pkg"
+                          "pdmdemos"
+                          "uninstall")
+    (ProgramFiles         False)
+    (LpDirName            "pdm")
+    (Screens              "ScreenProd")
+    (SaveList             "text/pdmadmin.txt"
+                          "text/pdmlog.txt"
+                          "text/pdmpath.txt"
+                          "text/pdmtrans.txt"
+                          "text/server_config.pdm"
+                          "text/server_log"
+                          "pdm/text/pdm_major_rev.txt"
+                          "pdm/text/pdm_minor_rev.txt"
+                          "pdm/text/usascii/views"
+                          "pdm/text/japanese/views"
+                          "pdm/text/french/views"
+                          "pdm/text/german/views"
+                          "pdm/text/spanish/views")
+    (HostArchTypes        "UNIX")
+)
+
+(Package pdmsrv_pkg
+    (Name                 "Pro/PDM Server")
+    (Screens              "ScreenPdmSrvList"
+                          "ScreenPdmDBList"
+                          "ScreenPdmPort")
+    (Cdsections           "PdmK"
+                          "Install"
+                          "flexclient")
+    (Binscripts           "ptchostid"
+                          "pdm_startup"
+                          "pdmshell")
+    (Installed            True)
+)
+
+(Package pdmdemos
+    (Name                      "Pro/PDM Demos")
+    (Installed                 False)
+    (Cdsections                "Demos")
+)

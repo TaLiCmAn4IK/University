@@ -1,0 +1,3412 @@
+%CI Compiling & linking completed successfully.
+ Compiling & linking completed successfully.
+ 컴파일링 및 링킹이 성공적으로 완료되었습니다.
+
+%CP Regenerate to display results.
+ Regenerate to display results.
+ 결과를 표시하려면 재생성하십시오.
+
+%CI User program execution completed successfully.
+ User program execution completed successfully.
+ 사용자 프로그램 실행이 성공적으로 완료되었습니다.
+
+%CI%0d Point specified
+%0d Point specified
+%0d 점이 지정되었습니다.
+
+%CI%0d Points specified
+%0d Points specified
+%0d 점이 지정되었습니다.
+
+%CW%0d areas are different.
+%0d areas are different.
+%0d 영역이 다릅니다.
+
+%CW%0d pixels are different.
+%0d pixels are different.
+%0d 픽셀이 다릅니다.
+
+%CP%0s group already exists. Renter name [QUIT]:
+%0w group already exists. Renter name [Quit]
+%0w 그룹이 이미 존재합니다. 이름을 다시 입력하십시오.[중지]
+
+%CP%0s group does not exist. Renter name [QUIT]:
+%0w group does not exist. Renter name [Quit]
+%0w 그룹이 존재하지 않습니다. 이름을 다시 입력하십시오.[중지]
+
+%CP%0s. Reedit ? [Y]:
+%0s. Reedit ?|||Yes
+%0s. 다시 편집하시겠습니까?|||예
+
+%CE%0w is a viewonly drawing and cannot be saved.
+%0w is a viewonly drawing and cannot be saved.
+%0w은 뷰-전용 드로잉입니다. 저장할 수 없습니다.
+
+%CI%0w.img has been created.
+%0w.img has been created.
+%0w.이미지가 생성되었습니다.
+
+%CI%0w.pic has been created.
+%0w.pic has been created.
+%0w.그림이 생성되었습니다.
+
+%CP%s has been read in to the drawing. Redraw to display any changes.
+%0w has been read. Repaint if required
+%0w을 읽었습니다. 필요하면 다시 그리기를 하십시오.
+
+%CIA total of %0d partitions were created.
+A total of %0d partitions were created.
+전체 %0d개의 파티션들이 생성되었습니다.
+
+%CWAccuracy not changed
+Accuracy has not been changed.
+정밀도가 변경되지 않았습니다.
+
+%CPAll break-outs deleted.  Retain cross-section ?
+All breakouts are deleted.  Do you want it to be a full section view?|||No
+모든 브레이크아웃들이 삭제되었습니다. 전체 단면 뷰를 원하십니까?|||아니오
+
+%CIAll layouts referenced by model %0s will also be retrieved.
+All layouts referenced by model %0w will also be retrieved.
+모델 %0w에 의해 참조된 모든 레이아웃들이 또한 읽어들여졌습니다.
+
+%CIAll layouts referenced by model %0w will also be stored.
+All layouts referenced by model %0w will also be stored.
+모델 %0w에 의해 참조된 모든 레이아웃들이 또한 저장되었습니다.
+
+%CWAll loops are not continuous.
+All loops are not continuous.
+모든 루프들이 연속적이지 않습니다.
+
+%CIAll surfaces selected.
+All surfaces selected.
+모든 서피스가 선택되었습니다.
+
+%CEAll the entities must be tangent, projected along pivot direction.
+All the entities must be tangent, projected along pivot direction.
+모든 엔티티들이 반드시 피봇 방향을 따라 투영되어 탄젠트하여야 합니다.
+
+%CEAll the entities must be tangent.
+All the entities must be tangent.
+모든 엔티티들이 반드시 탄젠트하여야 합니다.
+
+%CPApproximate
+Approximate
+근사
+
+%CPAre you going to classify any general assembly component as a workpiece? [Y]:
+Are you going to classify any general assembly component as a workpiece?|||Yes
+일반 어셈블리 컴포넌트들을 가공소재로 구분하시겠습니까?|||예
+
+%CPAssembly features require unexploded assembly. Unexplode? [y]:
+Assembly features require unexploded assembly. Unexplode?|||Yes
+어셈블리 피쳐들은 분해되지 않은 어셈블리를 필요로 합니다. 분해를 취소하시겠습니까?|||예
+
+%CECan NOT select relation driven dimension.
+Can NOT select relation driven dimension.
+관계식 제어 치수를 선택할 수 없습니다.
+
+%CECan not insert into group or pattern features.
+Can not insert into group or pattern features.
+그룹 또는 패턴 피쳐들에 삽입할 수 없습니다.
+
+%CECan not insert into merged features.
+Can not insert into merged features.
+결합된 피쳐들에 삽입할 수 없습니다.
+
+%CECan not use multi-point datum arrays as thru-points for datum planes.
+Can not use multi-point datum arrays as thru-points for datum planes.
+다중-점 데이텀 배열들을 데이텀 평면에 대한 통과점들로서 사용할 수 없습니다.
+
+%CECannot declare items; Instances currently in session.
+Cannot declare items; Instances currently in session.
+항목들을 선언할 수 없습니다. 인스턴스들이 현재 사용중입니다.
+
+%CECannot exceed maximum of %0d sections.
+Cannot exceed maximum of %0d sections.
+최대 단면수인 %0d을 초과할 수 없습니다.
+
+%CECannot intersect or split spline approx. chain element.
+Cannot intersect or split spline approx. chain element.
+스플라인 근사 체인 요소를 교차 또는 분할할 수 없습니다.
+
+%CECannot intersect or split spline control polygon element.
+Cannot intersect or split spline control polygon element.
+스플라인 제어 다각형 요소를 교차 또는 분할할 수 없습니다.
+
+%CECannot intersect or split spline with approx. chain.
+Cannot intersect or split spline with approx. chain.
+근사 체인이 있는 스플라인을 교차 또는 분할할 수 없습니다.
+
+%CECannot intersect or split spline with control polygon.
+Cannot intersect or split spline with control polygon.
+제어 다각형이 있는 스플라인을 교차 또는 분할할 수 없습니다.
+
+%CECannot modify spline with approx. chain.
+Cannot modify spline with approx. chain.
+근사 체인이 있는 스플라인을 수정할 수 없습니다.
+
+%CECannot modify spline with dimensions to control polygon entities.
+Cannot modify spline with dimensions to control polygon entities.
+다각형 엔티티들을 제어하는 치수들이 있는 스플라인을 수정할 수 없습니다.
+
+%CECannot move points when section plane is normal to screen.
+Cannot move points when section plane is normal to screen.
+단면 평면이 화면에 직각인 경우, 점들을 이동할 수 없습니다.
+
+%CPCannot pick plane parallel to placement plane, select again
+Cannot pick plane parallel to placement plane, select again.
+배치 평면과 평행한 평면을 지정할 수 없습니다. 다시 선택하십시오.
+
+%CECannot project onto this surface.
+Cannot project onto this surface.
+이 서피스상에 투영할 수 없습니다.
+
+%CECannot trim spline approx. chain element.
+Cannot trim spline approx. chain element.
+스플라인 근사 체인 요소를 자를 수 없습니다.
+
+%CECannot trim spline control polygon element.
+Cannot trim spline control polygon element.
+스플라인 제어 다각형 요소를 트림할 수 없습니다.
+
+%CECannot trim spline with approx. chain.
+Cannot trim spline with approx. chain.
+근사 체인이 있는 스플라인을 자를 수 없습니다.
+
+%CECannot trim spline with control polygon.
+Cannot trim spline with control polygon.
+제어 다각형이 있는 스플라인을 자를 수 없습니다.
+
+%CECannot trim spline with curvature dimensions.
+Cannot trim spline with curvature dimensions.
+곡률 치수가 있는 스플라인을 자를 수 없습니다.
+
+%CECannot trim: entity has unremovable dimensions/alignments at selected point.
+Cannot trim: entity has unremovable dimensions/alignments at selected point.
+자를 수 없습니다: 엔티티가 선택한 점에서 제거할 수 없는 치수/정렬을 갖습니다.
+
+%CECell region is not legally bounded.
+Cell region is not legally bounded.
+셀 영역이 정식으로 경계되지 않았습니다.
+
+%CPChange relative accuracy ("1.0" allows "roughest" sketching) [%0f]:
+Change relative accuracy ("1.0" allows "roughest" sketching)|||%0f
+상대 정밀도를 변경하십시오. ("1.0"은 가장 거친 스케치)|||%0f
+
+%CPChanging accuracy will cause full part regeneration, continue ? [y/n]
+Changing accuracy will cause full part regeneration, continue?|||Yes
+정밀도를 변경하면 전체 부품을 재생성하여야 합니다. 계속하시겠습니까?|||예
+
+%CPChoose delete option for group displayed in blue.
+Choose delete option for group displayed in blue.
+파란색으로 디스플레이된 그룹에 대해 삭제 옵션을 선택하십시오.
+
+%CECircle entities must be Intersected/Divided before they can be trimmed.
+Circle entities must be Intersected/Divided before they can be trimmed.
+원 엔티티들은 반드시 트림 전에 교차/분할되어야 합니다.
+
+%CIConfiguratin file %0w has been loaded.
+Configuration file %0w has been loaded.
+구성 파일 %0w을 로드했습니다.
+
+%CPConfirm removal of selected datum planes
+Confirm removal of selected datum planes
+선택한 데이텀 평면들의 제거를 확인하십시오.
+
+%CPConfirm removal of selected surfaces
+Confirm removal of selected surfaces
+선택한 서피스들의 제거를 확인하십시오.
+
+%CICoordinate system has been chosen as spin center.
+Coordinate system has been chosen as spin center.
+좌표계가 스핀 중심으로 선택되었습니다.
+
+%CECould not calculate spline with approximating chain.
+Could not calculate spline with approximating chain.
+근사 체인이 있는 스플라인을 계산할 수 없습니다.
+
+%CECould not calculate spline with control_poly.
+Could not calculate spline with control_poly.
+제어 다각형이 있는 스플라인을 계산할 수 없습니다.
+
+%CECould not construct entities
+Could not construct trajectory entities.
+궤적 엔티티를 구성할 수 없습니다.
+
+%CPCould not construct entities, reselect a point
+Could not construct entities, reselect a point.
+엔티티들을 구성할 수 없습니다. 점을 다시 선택하십시오.
+
+%CECould not get neutral curve.
+Could not get neutral curve.
+중립 커브를 취할 수 없습니다.
+
+%CPCreate new line font (type <CR> to modify existing font)? [N]:
+Create new line font (type <CR> to modify existing font)?|||No
+새로운 선 모양을 생성하시겠습니까?(기존의 모양 수정시는 <CR>)|||아니오
+
+%CPCreate or select coordinate system for cutter location output.
+Create or select coordinate system for cutter location output.
+CL 출력을 위한 좌표계를 생성 또는 선택하십시오.
+
+%CPCreate or select coordinate system.
+Create or select coordinate system.
+좌표계를 생성 또는 선택하십시오.
+
+%CPCreate points for the spline to pass through.
+Create points for the spline to pass through.
+스플라인이 통과할 점들을 생성하십시오.
+
+%CPCreate trajectory by selecting datum points to be connected
+Create trajectory by selecting datum points to be connected.
+연결할 데이텀 점들을 선택하여 궤적을 생성하십시오.
+
+%CICreating %0w.img...
+Creating %0w.img ...
+%0w. 이미지 생성중...
+
+%CICreating %0w.pic...
+Creating %0w.pic ...
+%0w. 그림 생성중...
+
+%CICurrent drawing model is %0w.
+The current drawing model is now %0w.
+현재의 드로잉 모델은 이제 %0w입니다.
+
+%CICurrent line font is %0w.
+Current line font is %0w.
+현재의 선 모양은 %0w입니다.
+
+%CIDatum Curve Composite
+Datum Curve: Composite
+데이텀 커브: 복합
+
+%CIDatum Curve Sketch
+Datum Curve: Sketch
+데이텀 커브: 스케치
+
+%CPDatum has not been set, select again.
+Datum has not been set, select again.
+데이텀이 지정되지 않았습니다. 다시 선택하십시오.
+
+%CEDatum point must be an edge X plane type.
+Datum point must be an "Edge X Plane" type.
+데이텀 점은 반드시 "모서리 X 평면" 유형이어야 합니다.
+
+%CEDatum point must be on a draft and reference surface edge.
+Datum point must be on a draft and reference surface edge.
+데이텀 점이 반드시 구배 및 참조 서피스 모서리상에 있어야 합니다.
+
+%CPDefine translation vector. Pick first point.
+Define translation vector. Pick first point.
+변환 벡터를 정의하십시오. 첫 번째 점을 지정하십시오.
+
+%CPDelete points used in spline <Y/N> ?
+Delete points used in spline?|||No
+스플라인에 사용된 점들을 삭제할까요?|||아니오
+
+%CWDeletion caused yellow feature (internal id = %0d) to fail.
+Deletion caused red feature (internal id = %0d) to fail.
+삭제로 인해 빨간색 피쳐들이 실패하였습니다.(내부 ID = %0d).
+
+%CEDirectory is empty.
+No files or directories found. %0S
+파일 또는 디렉토리를 찾을 수 없습니다. %0S
+
+%CPDo you really want to delete group %0s [N]:
+Do you really want to delete group %0w|||No
+그룹 %0w을 정말로 삭제하시겠습니까?|||아니오
+
+%CPDo you want existing split(s) to be affected by the classified component? [Y]:
+Do you want existing split(s) to be affected by the classified component?|||Yes
+기존의 분할들이 구분된 컴포넌트에 의해 영향받도록 하시겠습니까?|||예
+
+%CPDo you want existing split(s) to be affected by the component? [Y]:
+Do you want existing split(s) to be affected by the component?|||Yes
+컴포넌트가 기존 분할에 영향을 미치도록 하시겠습니까?|||예
+
+%CIDrawing format will be included on the plot.
+Drawing format will be included on the plot.
+드로잉 포맷이 플롯에 포함됩니다.
+
+%CIDrawing format will not be included on the plot.
+Drawing format will not be included on the plot.
+드로잉 포맷이 플롯에 포함되지 않습니다.
+
+%CPDrawing is larger than format. Scale to fit format? [Y]:
+Drawing is larger than format. Scale to fit format?|||Yes
+드로잉이 포맷보다 큽니다. 포맷에 맞게끔 배율을 조정하시겠습니까?|||예
+
+%CPDrawing is smaller than format.  Scale to fit format? [Y]:
+Drawing is smaller than format. Scale to fit format?|||Yes
+드로잉이 포맷보다 작습니다. 포맷에 맞게끔 배율을 조정하시겠습니까?|||예
+
+%CIEdge or axis has been chosen as spin center.
+Edge or axis has been chosen as spin center.
+모서리 또는 축이 스핀 중심으로 선택되었습니다.
+
+%CPEnter %0s dimension of the paper(inches):[%1f]
+Enter %0s dimension of the paper (inches)|||%1f
+용지의 %0s 치수를 입력하십시오.(인치)|||%1f
+
+%CPEnter %0s dimension of the paper(mm):[%1f]
+Enter %0s dimension of the paper (mm)|||%1f
+용지의 %0s 치수를 입력하십시오.(mm)|||%1f
+
+%CPEnter %0s dimension of the partition(inches):[%1f]
+Enter %0s dimension of the partition (inches)|||%1f
+파티션의 %0s 치수를 입력하십시오.(인치)|||%1f
+
+%CPEnter 'fuzzy' compare epsilon in pixels [%0d]:
+Enter 'fuzzy' compare epsilon in pixels|||%0d
+픽셀단위의 '퍼지' 비교 엡실론을 입력하십시오.|||%0d
+
+%CPEnter Configuration file name [%0w]:
+Enter Configuration file name|||%0w
+Configuration file 이름을 입력하십시오.|||%0w
+
+%CPEnter Z value of retracting plane [%0f]:
+Enter Z value of retracting plane|||%0f
+리트랙팅 면의 Z 값을 입력하십시오.|||%0f
+
+%CPEnter a factor between %0f and %1f for plotting:[1.0]
+Enter a factor between %0f and %1f for plotting|||1.0
+%0f(와)과 %1f 사이의 플롯 계수를 입력하십시오.|||1.0
+
+%CPEnter a rotation angle for highlighted location [%0f]:
+Enter a rotation angle for highlighted location|||%0f
+강조표시된 위치의 회전 각도를 입력하십시오.|||%0f
+
+%CPEnter a rotation angle for highlighted location [%0s]:
+Enter a rotation angle for highlighted location|||%0s
+강조표시된 위치의 회전 각도를 입력하십시오.|||%0s
+
+%CPEnter angle for red side (yellow arrow shows positive rotation direction) [%0f] :
+Enter angle for red side (yellow arrow shows positive rotation direction)|||%0f
+빨간색 측면에 대한 각도를 입력하십시오. (노란색 화살표는 양(+) 회전 방향을 디스플레이)|||%0f
+
+%CPEnter bend radius [%0f] :
+Enter bend radius|||%0f
+벤드 반지름을 입력하십시오.|||%0f
+
+%CPEnter draft angle (yellow arrow shows positive rotation dir'n) [%0f] :
+Enter draft angle (yellow arrow shows positive rotation dir'n)|||%0f
+기울기 각도를 입력하십시오. (노란색 화살표는 양(+) 회전 방향을 디스플레이)|||%0f
+
+%CPEnter draft angle (yellow arrow shows positive rotation direction) [%0f]
+Enter draft angle (yellow arrow shows positive rotation direction)|||%0f
+기울기 각도를 입력하십시오. (노란색 화살표는 양(+) 회전 방향을 디스플레이)|||%0f
+
+%CPEnter feature regeration number [QUIT]:
+Enter feature regeneration number (%0d - %1d) [Quit]
+피쳐 재생성 번호를 입력하십시오.(%0d - %1d) [중지]
+
+%CPEnter file name [QUIT]:
+Enter file name [Quit]
+파일 이름을 입력하십시오.[중지]
+
+%CPEnter group name:
+Enter group name [Quit]
+그룹 이름을 입력하십시오.[중지]
+
+%CPEnter iges group name [QUIT]:
+Enter IGES group name [Quit]
+IGES 그룹 이름을 입력하십시오.[중지]
+
+%CPEnter internal feature id [QUIT]:
+Enter internal feature id (%0d - %1d) [Quit]
+내부 피쳐 ID를 입력하십시오. (%0d - %1d)[중지]
+
+%CPEnter model scale between %0f and %1f :[1.0]
+Enter model scale between %0f and %1f|||1.0
+%0f(과)와 %1f 사이의 모델 배율을 입력하십시오.|||1.0
+
+%CPEnter new interline spacing factor [%0f]:
+Enter new interline spacing factor|||%0f
+새로운 줄간 간격 계수를 입력하십시오.|||%0f
+
+%CPEnter new line width [%0f]:
+Enter new line width|||%0f
+새로운 줄 너비를 입력하십시오.|||%0f
+
+%CPEnter new value for text angle (-1 for default) [%0f]:
+Enter new value for text angle (-1 for default)|||%0f
+새로운 텍스트 각도 값을 입력하십시오. (기본은 -1)|||%0f
+
+%CPEnter new value for text slant angle [%0f]:
+Enter new value for text slant angle|||%0f
+새로운 텍스트 경사각 값을 입력하십시오.|||%0f
+
+%CPEnter new value for text width factor (-1 for default) [%0f]:
+Enter new value for text width factor (-1 for default)|||%0f
+새로운 텍스트 너비 계수 값을 입력하십시오. (기본은 -1)|||%0f
+
+%CPEnter number [%0d]:
+Enter number|||%0d
+번호를 입력하십시오.|||%0d
+
+%CPEnter offset distance [ %0f ] :
+Enter offset distance|||%0f
+오프셋 거리를 입력하십시오.|||%0f
+
+%CPEnter offset distance, <ESC> to quit [ %0f ] :
+Enter offset distance, <ESC> to quit|||%0f
+오프셋 거리를 입력하십시오. 중지하려면 <ESC>을 누르십시오.|||%0f
+
+%CPEnter offset in the direction of the arrow[-QUIT-]:
+Enter offset in the direction of the arrow [Quit]
+화살표 방향으로의 오프셋 거리를 입력하십시오.[중지]
+
+%CPEnter parameter along the selected entity [%0f]:
+Enter parameter along the selected entity|||%0f
+선택한 엔티티상의 변수를 입력하십시오.|||%0f
+
+%CPEnter replacement iges file name [%0w]
+Enter replacement IGES file name|||%0w
+대체 IGES 파일 이름을 입력하십시오.|||%0w
+
+%CPEnter rotating y angle :
+Enter %0s rotation angle for section %3d (Range: %1d - %2d)|||%4f
+단면 %3d에 대한 %0s 회전 각도를 입력하십시오. (범위: %1d - %2d)|||%4f
+
+%CPEnter rotational blend angle ( 0.0001 < angle < 120.0 ) :
+Enter rotational blend angle (0.0001 < angle < 120.0): 
+회전 블렌드 각도를 입력하십시오. (0.0001 < 각도 < 120.0):
+
+%CPEnter scale [%0f]:
+Enter scale|||%0f
+배율을 입력하십시오.|||%0f
+
+%CPEnter scale for view [%0w] :
+Enter scale for view|||%0w
+뷰에 대한 배율을 입력하십시오.|||%0w
+
+%CPEnter surface name.
+Enter surface name.
+서피스 이름을 입력하십시오.
+
+%CPEnter symbol for the dimension in the table [%0w]:
+Enter symbol for the dimension in the table|||%0w
+테이블상의 치수에 대한 기호를 입력하십시오.|||%0w
+
+%CPEnter symbol for the feature in the table [%0w]:
+Enter symbol for the feature in the table|||%0w
+테이블상의 피쳐에 대한 기호를 입력하십시오.|||%0w
+
+%CPEnter the length (in dwg units) of one unit of the pattern [%0f]:
+Enter the length (in dwg units) of one unit of the pattern|||%0f
+한 패턴 단위의 길이를 입력하십시오. (드로잉 단위)|||%0f
+
+%CPEnter the new line font name [%0w]:
+Enter the new line font name|||%0w
+새로운 선 모양 이름을 입력하십시오.|||%0w
+
+%CPEnter translation offset in the %0s direction(%1s):[%2f]
+Enter translation offset in the %0s direction(%1s):|||%2f
+%0s 방향상의 변환 오프셋을 입력하십시오.(%1s):|||%2f
+
+%CPEnter value [quit]:
+Enter value [Quit]
+값을 입력하십시오.[중지]
+
+%CPEnter value offset
+Enter offset value in the %0s|||%1f
+%0s상의 오프셋 값을 입력하십시오.|||%1f
+
+%CPEnter variable number.
+Enter %0ws|||%1d
+입력 %0ws|||%1d
+
+%CPEnter xhatch angle [%0f]
+Enter cross-hatch angle|||%0f
+크로스-해치 각도를 입력하십시오.|||%0f
+
+%CPEnter xhatch spacing [%0f]
+Enter cross-hatch spacing|||%0f
+크로스-해치 간격을 입력하십시오.|||%0f
+
+%CPErase all arrows and circles associated with view %0w?
+Erase all arrows and circles associated with view %0w?|||No
+뷰 %0w와 관련된 화살표와 원 전체 지우기를 하시겠습니까?|||아니오
+
+%CEError(s) in %0w. See datafile.ers
+Error(s) in %0w. See datafile.ers.
+%0w상의 오류. datafile.ers(을)를 참조하십시오.
+
+%CEError(s) in configuration file %0w.
+Error(s) in configuration file %0w. Check message(s) in startup window.
+구성 파일 %0w상의 오류. 시작 창의 메시지를 확인하십시오.
+
+%CLExact
+Exact
+정확
+
+%CEFeature ID %0d is already included.
+Feature ID %0d is already included.
+피쳐 ID %0d은 이미 포함되었습니다.
+
+%CEFeature Num %0d is invalid.
+Feature Num %0d is invalid.
+피쳐 번호 %0d은 유효하지 않습니다.
+
+%CEFeature aborted. Angle between sections too large.
+Feature aborted. Angle between sections too large.
+피쳐가 중단되었습니다. 단면들간의 각도가 너무 큽니다.
+
+%CWFeature creation resulted in invalid part geometry.
+WARNING: Feature creation resulted in overlapping part geometry.
+경고: 피쳐 생성 결과, 부품 형상이 중첩되었습니다.
+
+%CIFeatures up to and including feat id %0d are now read only
+Features up to and including feat ID %0d are now read only.
+피쳐 ID %0d(포함 및)까지의 피쳐들이 이제 읽기-전용으로 설정되었습니다.
+
+%CPFile contains different number of points. Do you want to continue?
+File contains different number of points. Do you want to continue?|||Yes
+파일이 다른 수의 점들을 포함합니다. 계속하시겠습니까?|||예
+
+%CEFilled area cannot be displayed or plotted. Too many points!
+Filled area cannot be displayed or plotted. Too many points!
+채워진 영역을 표시하거나 플롯할 수 없습니다. 점들이 너무 많습니다!
+
+%CEFilled area cannot be plotted. Too many points!
+Filled area cannot be plotted. Too many points!
+채워진 영역을 플롯할 수 없습니다. 점들이 너무 많습니다!
+
+%CEFont index file %0w was not found.
+Font index file %0w was not found.
+글꼴 색인 파일 %0w을 찾을 수 없습니다.
+
+%CPGive the value of ambient temperature:
+Enter ambient temperature|||%0w
+주위 온도를 입력하십시오.|||%0w
+
+%CPGive the value of convection coefficient:
+Enter convection coefficient|||%0w
+전도 계수를 입력하십시오.|||%0w
+
+%CEGlobal %0w not availiable to this model.
+Global %0w not available to this model.
+글로벌 %0w은 이 모델에는 제공되지 않습니다.
+
+%CIGroup %0w has been created.
+Group %0w has been created.
+그룹 %0w은 생성되었습니다.
+
+%CPGroup %0w is table driven; select instance from menu.
+Group %0w is table driven; select instance from menu.
+그룹 %0w은 테이블에 의해 제어됩니다. 메뉴로부터 인스턴스를 선택하십시오.
+
+%CPGroup all features in between ? <NO>:
+Group all features in between?|||No
+중간의 모든 피쳐들을 그룹화할까요?|||아니오
+
+%CEGroup name %s is invalid.
+Group name %0w is invalid.
+그룹 이름 %0w은 유효하지 않습니다.
+
+%CPGroup unit is %0w. Select scaling option from menu.
+Group unit is %0w. Select scaling option from menu.
+그룹 단위는 %0w입니다. 메뉴로부터 배율 옵션을 선택하십시오.
+
+%CIHardware communications enabled.
+Hardware communications enabled.
+하드웨어 통신이 활성화되었습니다.
+
+%CEHighlighted geometry is invalid.
+Highlighted geometry is invalid.
+강조된 형상이 유효하지 않습니다.
+
+%CIHighlighting dimension d%0d which is driven by d%1d.
+Highlighting dimension d%0d which is driven by d%1d.
+d%1d에 의해 제어되는 치수 d%0d을 강조중입니다.
+
+%CEIges file contains 3D section. Cannot read 3D sections into sketcher.
+IGES file contains 3D section. Cannot read 3D sections into sketcher.
+IGES 파일이 3차원 부분을 포함합니다. 3차원 부분을 스케쳐로 읽어들일 수 없습니다.
+
+%CEImported surface %0w cannot be read
+Imported surface %0w cannot be read
+서피스 %0w을 읽어들일 수 없습니다.
+
+%CEImported surface class %0w not initialized
+Imported surface class "%0w" not initialized.
+읽어들인 서피스 클래스 "%0w"은 초기화되지 않았습니다.
+
+%CWIn current insert mode the component does not affect on existing split(s).
+In current insert mode the component does not affect on existing split(s).
+현재의 삽입 모드에서는 컴포넌트가 기존의 분할에 아무런 영향을 주지 않습니다.
+
+%CPIncomplete Datum Point Array info. Abort? [N]
+Incomplete Datum Point Array info. Abort?|||No
+불완전한 데이텀 점 배열 정보입니다. 중지할까요?|||아니오
+
+%CPIncrement values:
+Increment values:%0s Select again.
+증가 값:%0s. 다시 선택하십시오.
+
+%CIInformation written to file %0w.
+Information written to file %0w.
+정보가 파일 %0w(으)로 기록되었습니다.
+
+%CEInvalid dimension value : %0f.
+Invalid dimension value : %0f.
+부적절한 치수 값입니다: %0f.
+
+%CEInvalid feature(ID %0d). Only operation features allowed.
+Invalid feature(ID %0d). Only NC Sequences or their material removal allowed.
+부적절한 피처(ID %0d)입니다. NC 시퀀스 또는 재료 제거만이 허용됩니다.
+
+%CEInvalid group name %s. %s is non-existant.
+Invalid group name %0w. %0w is non-existent.
+그룹 이름 %0w은 유효하지 않습니다. %0w은 존재하지 않습니다.
+
+%CPInvalid plane select again
+Invalid plane select again.
+부적절한 평면입니다. 다시 선택하십시오.
+
+%CWItem does not belong to any group.
+Item does not belong to any group.
+항목이 어떠한 그룹에도 속하지 않습니다.
+
+%CWItems already found in another group were ignored.
+Items already found in another group were ignored.
+항목이 이미 다른 그룹에 속합니다. 무시합니다.
+
+%CWMaximum partition size for media selected is %0f x %1f.
+Maximum partition size for media selected is %0f x %1f.
+선택한 미디어에 대한 최대 파티션 크기는 %0f x %1f입니다.
+
+%CPMerge reference part missing. new
+Merge reference part %0w missing; enter replacing model name [Quit]
+결합 참조 부품 %0w은 없습니다; 대체 모델 이름을 입력하십시오.[중지]
+
+%CIMiscellaneous options
+Miscellaneous options
+기타 옵션
+
+%CEModel %0w already in dwg %1w.
+Model %0w already is used by drawing %1w.
+모델 %0w은 이미 드로잉 %1w에 의해 사용되었습니다.
+
+%CPModel %0w could not be retrieved.  Press <RETURN>.
+Model %0w could not be retrieved.  Press <CR> to continue.
+모델 %0w을 읽어들일 수 없습니다. 계속하려면 <리턴>을 누르십시오.
+
+%CPModel %0w is not in this directory.  Press <RETURN>.
+Model %0w is not in this directory.  Press <CR> to continue.
+모델 %0w을 이 디렉토리에서 찾을 수 없습니다. 계속하려면 <리턴>을 누르십시오.
+
+%CIModel center has been chosen as spin center.
+Model center has been chosen as spin center.
+모델 중심이 회전 중심으로 선택되었습니다.
+
+%CWModel has been replaced.
+Model has been replaced.
+모델이 대체되었습니다.
+
+%CPModify pattern number to 1 before doing this kind of redefine.
+Do DEL PATTERN of feature before doing this kind of redefine.
+이와 같은 재정의를 하기 전에 피쳐의 패턴 삭제를 하십시오.
+
+%CPMove bottom left corner of drawing to screen origin? [Y]:
+Move bottom left corner of drawing to screen origin?|||Yes
+드로잉의 하단 왼쪽 코너을 화면 원점으로 이동할까요?|||예
+
+%CPMust use on surface datum point, select again
+Must use on surface datum point, select again.
+반드시 서피스 데이텀 점상에 사용하여야 합니다. 다시 선택하십시오.
+
+%CPNew value 1 [%0f] :
+Enter a new value|||%0f
+새로운 값을 입력하십시오.|||%0f
+
+%CPNew value s [%0s] :
+Enter a new value|||%0s
+새로운 값을 입력하십시오.|||%0s
+
+%CINo Xhatch
+Closed curve sections will NOT be cross hatched
+닫혀진 커브 단면들이 크로스해칭되지 않습니다.
+
+%CINo reference information about this sketch.
+No reference information about this sketch.
+이 스케치에 대한 아무런 참조 정보도 없습니다.
+
+%CINormal -- green; %0s curvature -- %1s; %2s curvature -- %3s.
+Normal -- green; %0s curvature -- %1s; %2s curvature -- %3s.
+직각 -- 녹색; %0s 곡률 -- %1s; %2s 곡률 -- %3s.
+
+%CWNormal is undefined at this point.
+Normal is undefined at this point.
+직각이 이 점에서 정의되지 않았습니다.
+
+%CPNot enough sections: do you want to reselect points ? [y]
+Not enough sections: do you want to reselect points?|||Yes
+단면이 불충분합니다: 점들을 다시 선택하시겠습니까?|||예
+
+%CPNumber of points will be reduced from %0d to %1d. Select Confirm or Cancel.
+Number of points will be reduced from %0d to %1d. Select Confirm or Cancel.
+점들의 개수가 %0d에서 %1d로 감소됩니다. 확인 또는 취소를 선택하십시오.
+
+%CEOS limitation: name '%0w' is too long. Creation of object failed.
+OS limitation: name '%0w' is too long. Creation of object failed.
+OS 제한: 이름 '%0w'은 너무 깁니다. 개체의 생성에 실패하였습니다.
+
+%CEOffset aborted. Geometry could not be constructed.
+Offset aborted. Geometry could not be constructed.
+오프셋이 중지되었습니다. 형상을 구성할 수 없습니다.
+
+%CEOnly %0d loops allowed in this section
+Only %0d loops allowed in this section
+이 단면에는 %0d의 루프들만이 허용됩니다.
+
+%CEOnly assembly datums for this kind of view.
+You can select only assembly datums for this kind of view in assembly drawings.
+어셈블리 드로잉에서는 이와 같은 뷰에 대한 어셈블리 데이텀들만을 선택할 수 있습니다.
+
+%CEOnly first cell may contain something.
+Only first cell may contain something.
+첫 번째 셀만이 무언가를 포함할 수 있습니다.
+
+%CWOriginal reference not found, using alternate.
+Original reference not found, using alternate.
+원래의 참조를 찾을 수 없습니다. 다른 것을 사용합니다.
+
+%CIOutput file %0w has been written
+Output file %0w has been written.
+출력 파일 %0w은 기록되었습니다.
+
+%CIParents are highlighted in Reference Color.
+Parents are highlighted in Reference Color.
+모 피쳐가 참조 색상으로 강조되었습니다.
+
+%CEPart %0s is marked as read only - regeneration is not allowed
+Part %0w is marked as read only - regeneration is not allowed.
+부품 %0w은 읽기-전용으로 설정되었습니다. - 재생성할 수 없습니다.
+
+%CIPart '%0s' not changed since last regen
+Part '%0w' not changed since last regen.
+부품 '%0w'은(는) 마지막 재생성 이후로 변경되지 않았습니다.
+
+%CPPart has been merged by ref, please modify ref part %0w
+This instance of %0w is intersected by assembly feature.
+%0w의 이 인스턴스가 어셈블리 피쳐에 의해 교차되었습니다.
+
+%CWPart information written to file %0s.
+Part information written to file %0w.
+부품 정보가 파일 %0w에 기록되었습니다.
+
+%CIPattern creation successful
+Pattern creation successful.
+패턴 생성이 성공적으로 완료되었습니다.
+
+%CPPick another table cell.
+Pick another table cell.
+다른 테이블 셀을 지정하십시오.
+
+%CPPick dimension to clip.(Middle button to finish selections).
+Pick dimensions or ref dims to clip.(Middle button to finish selections).
+클립할 치수 또는 참조 치수들을 지정하십시오.(선택 종료는 중간 버튼)
+
+%CPPick final destination point.
+Pick final destination point.
+최종 대상 점을 지정하십시오.
+
+%CPPick first point for draft datum target.
+Pick first point for draft datum target.
+대상 데이텀에 대한 첫 번째 점을 지정하십시오.
+
+%CPPick global parameter, or select NAME to type in a name.
+Pick global parameter, or select NAME to type in a name.
+글로벌 변수를 지정하거나 이름을 입력할 수 있도록 이름을 선택하십시오.
+
+%CPPick new location for the selected point.
+Pick new location for the selected point.
+선택한 점에 대한 새로운 위치를 지정하십시오.
+
+%CPPick second point for draft datum target.
+Pick second point for draft datum target.
+대상 데이텀에 대한 두 번째 점을 지정하십시오.
+
+%CPPick table cell for one corner.
+Pick table cell for one corner.
+한 코너에 대한 테이블 셀을 지정하십시오.
+
+%CEPipe aborted. Geometry could not be constructed.
+Pipe aborted. Geometry could not be constructed.
+파이프가 중단되었습니다. 형상을 구성할 수 없습니다.
+
+%CEPipe aborted. Trajectory geometry could not be constructed.
+Pipe aborted. Trajectory geometry could not be constructed.
+파이프가 중단되었습니다. 궤적 형상을 구성할 수 없습니다.
+
+%CPPlane must be parallel select again
+Plane must be parallel select again.
+평면이 반드시 평행해야 합니다. 다시 선택하십시오.
+
+%CIPlot will be %0s x %1s inches.
+Plot will be %0s x %1s inches.
+플롯의 크기는 %0s x %1s 인치입니다.
+
+%CIPlot will be scaled about the factor of %0f
+Plot will be scaled by %0f.
+플롯의 배율이 %0f 로 조정됩니다.
+
+%CWPoint entity is missing
+Point entity is missing.
+점 엔티티가 없습니다.
+
+%CPPoint has been set, try again.
+Point has been set, try again.
+점이 지정되었습니다. 다시 시도하십시오.
+
+%CIPoint or vertex has been chosen as spin center.
+Point or vertex has been chosen as spin center.
+점 또는 교점이 회전 중심으로 선택되었습니다.
+
+%CEReplacement aborted. Geometry could not be constructed.
+Replacement aborted. Geometry could not be constructed.
+대체가 중단되었습니다. 형상을 구성할 수 없습니다.
+
+%CPRestore member of this assembly ? [N]
+Restore component of this assembly?|||No
+이 어셈블리의 컴포넌트를 복원할까요?|||아니오
+
+%CPResulting curve(s) are in green. Select Confirm or Cancel.
+Resulting curve(s) are in green. Select Confirm or Cancel.
+결과 커브가 녹색으로 표시됩니다. 확인 또는 취소를 선택하십시오.
+
+%CPRetain this line style for further sketching? [N]:
+Retain this line style for further sketching?|||No
+향후 스케치를 위해 이 선 유형을 남겨둘까요?|||아니오
+
+%CIScreen center has been chosen as spin center.
+Screen center has been chosen as spin center.
+화면 중심이 회전 중심으로 선택되었습니다.
+
+%CESection nonparametric. Can't modify.
+The section is non-parametric and cannot be modified.
+단면이 패라메트릭이 아니고, 수정될 수 없습니다.
+
+%CPSelect DIMENSION or REF DIM to flip arrow
+Select DIMENSION or REF DIM to flip arrow.
+화살표 대칭 이동을 위해 치수 또는 참조 치수를 선택하십시오.
+
+%CPSelect Datum Surface or Quilt to use for cut.
+Select Datum Surface or Quilt to use for cut.
+절단에 사용할 데이텀 서피스 또는 퀼트를 선택하십시오.
+
+%CPSelect Datum Surface or Quilt to use for protrusion.
+Select Datum Surface or Quilt to use for protrusion.
+돌출에 사용할 데이텀 서피스 또는 퀼트를 선택하십시오.
+
+%CPSelect a detail boundary to delete.
+Select a detail boundary to delete.
+삭제할 상세 경계를 선택하십시오.
+
+%CPSelect a detail boundary to modify.
+Select a detail boundary to modify.
+수정할 상세 경계를 선택하십시오.
+
+%CPSelect a detail item to move attach.
+Select a detail item to modify its attachment.
+첨부 부분을 수정할 제도판 항목을 선택하십시오.
+
+%CPSelect a detail item to move text.
+Select a detail item to move text.
+텍스트를 이동할 제도판 항목을 선택하십시오.
+
+%CPSelect a detail item to move.
+Select a detail item to move.
+이동할 제도판 항목을 선택하십시오.
+
+%CPSelect a detail item to switch view.
+Select a detail item to switch view.
+뷰를 변경시킬 제도판 항목을 선택하십시오.
+
+%CPSelect a draft group.
+Select a draft group.
+도면 그룹을 선택하십시오.
+
+%CPSelect a location for the point.
+Select a location for the point.
+점에 대한 위치를 선택하십시오.
+
+%CPSelect a point
+Select a point.
+점을 선택하십시오.
+
+%CPSelect a vertex
+Select a vertex
+정점을 선택하십시오.
+
+%CPSelect a vertex through which to make a horizontal/vertical witness line.
+Select a vertex through which to make a horizontal/vertical witness line.
+수평/수직 치수 보조선을 통과하는 정점을 선택하십시오.
+
+%CPSelect an approximate tangent location ABOVE the draft line.
+Select an approximate tangent location ABOVE the draft line.
+구배 선 위의 근사 탄젠트 위치를 선택하십시오.
+
+%CPSelect an approximate tangent location BELOW the draft line.
+Select an approximate tangent location BELOW the draft line.
+구배 선 아래의 근사 탄젠트 위치를 선택하십시오.
+
+%CPSelect an approximate tangent location on a surface.
+Select an approximate tangent location on a surface.
+서피스상의 근사 탄젠트 위치를 선택하십시오.
+
+%CPSelect another dimension for FIRST direction, increment type, or Done.
+Select another dimension for FIRST direction, increment type, or "Done".
+첫 번째 방향에 대한 다른 치수, 증가 유형, 또는 "완료"를 선택하십시오.
+
+%CPSelect another dimension for SECOND direction, increment type, or Done.
+Select another dimension for SECOND direction, increment type, or "Done".
+두 번째 방향에 대한 다른 치수, 증가 유형, 또는 "완료"를 선택하십시오.
+
+%CPSelect another normal axis.
+Select another normal axis.
+다른 직각 축을 선택하십시오.
+
+%CPSelect back edge, surface, or csys axis.
+Select back edge, surface, or csys axis.
+뒤 모서리, 서피스 또는 좌표계 축을 선택하십시오.
+
+%CPSelect back surface or csys axis.
+Select back surface or csys axis.
+뒤 서피스 또는 좌표계 축을 선택하십시오.
+
+%CPSelect bottom edge, surface, or csys axis.
+Select bottom edge, surface, or csys axis.
+아래 모서리, 서피스 또는 좌표계 축을 선택하십시오.
+
+%CPSelect bottom surface or csys axis.
+Select bottom surface or csys axis.
+아래 서피스 또는 좌표계 축을 선택하십시오.
+
+%CPSelect breakout to modify.
+Select breakout to modify.
+수정할 브레이크아웃을 선택하십시오.
+
+%CPSelect center point for rotation.
+Select center point for rotation.
+회전의 중심점을 선택하십시오.
+
+%CPSelect circle
+Select circle
+원을 선택하십시오.
+
+%CPSelect class of surface
+Select class of surface.
+서피스 클래스를 선택하십시오.
+
+%CPSelect coordinate system from menu.
+Select coordinate system from menu.
+메뉴로부터 좌표계를 선택하십시오.
+
+%CPSelect coordinate system to be matched with the surface anchor point
+Select coordinate system to be matched with the surface anchor point.
+서피스 앵커 점과 일치시킬 좌표계를 선택하십시오.
+
+%CPSelect datum points.
+Select datum points.
+데이텀 점을 선택하십시오.
+
+%CPSelect detail item(s) to clip.
+Select detail item(s) to clip.
+클립할 제도판 항목(들)을 선택하십시오.
+
+%CPSelect detail item(s) to delete.
+Select detail item(s) to delete.
+삭제할 제도판 항목(들)을 선택하십시오.
+
+%CPSelect dimension for %0w
+Select dimension for %0w
+%0w에 대한 치수를 선택하십시오.
+
+%CPSelect draft entities to add to selected group.
+Select draft entities to add to selected group.
+선택한 그룹에 추가할 도면 요소들을 선택하십시오.
+
+%CPSelect draft entities to create group.
+Select draft entities to create group.
+그룹 생성을 위한 도면 요소들을 선택하십시오.
+
+%CPSelect draft entities to remove from selected group.
+Select draft entities to remove from selected group.
+선택한 그룹으로부터 제거할 도면 요소들을 선택하십시오.
+
+%CPSelect drawing size.
+Select drawing size.
+드로잉 크기를 선택하십시오.
+
+%CPSelect edge X plane datum points as additional draft points.
+Select "Edge X Plane" datum points as additional draft points.
+"모서리 X 평면" 데이텀 점들을 추가 구배 점들로서 선택하십시오.
+
+%CPSelect entities to make xsec in an order.
+Select draft entities in a closed loop to make the cross-section.
+단면 생성을 위한 닫혀진 루프상의 도면 요소들을 선택하십시오.
+
+%CPSelect entity.
+Select entity.
+엔티티를 선택하십시오.
+
+%CPSelect feature for reference display.
+Select feature for reference display.
+참조 디스플레이를 위한 피쳐를 선택하십시오.
+
+%CPSelect format size.
+Select format size.
+형식 크기를 선택하십시오.
+
+%CPSelect from menu to set up driving table.
+Select from menu to set up driving table.
+제어 테이블의 구성을 위해 메뉴로부터 선택하십시오.
+
+%CPSelect front edge, surface, or csys axis.
+Select front edge, surface, or csys axis.
+앞 모서리, 서피스 또는 좌표계 축을 선택하십시오.
+
+%CPSelect front surface or csys axis.
+Select front surface or csys axis.
+앞 서피스 또는 좌표계 축을 선택하십시오.
+
+%CPSelect horizontal axis.
+Select horizontal axis.
+수평 축을 선택하십시오.
+
+%CPSelect items from the same part.
+Select items from the same part.
+동일 부품으로부터 항목들을 선택하십시오.
+
+%CPSelect items from the same view.
+Select items from the same view.
+동일 뷰로부터 항목들을 선택하십시오.
+
+%CPSelect left edge, surface, or csys axis.
+Select left edge, surface, or csys axis.
+왼쪽 모서리, 서피스 또는 좌표계 축을 선택하십시오.
+
+%CPSelect left surface or csys axis.
+Select left surface or csys axis.
+왼쪽 서피스 또는 좌표계 축을 선택하십시오.
+
+%CPSelect location on dimension witness line.
+Select location on dimension witness line.
+치수 보조선상의 위치를 선택하십시오.
+
+%CPSelect material side for rotation.
+Select material side for rotation.
+회전 재료 면을 선택하십시오.
+
+%CPSelect member to restore.
+Select component to restore.
+복원할 컴포넌트를 선택하십시오.
+
+%CPSelect member to simplify.
+Select component to simplify.
+단순화할 컴포넌트를 선택하십시오.
+
+%CPSelect neutral (pivot) plane.
+Select neutral (pivot) plane.
+중립 (피봇) 평면을 선택하십시오.
+
+%CPSelect new drawing size.
+Select new drawing size.
+새로운 드로잉 크기를 선택하십시오.
+
+%CPSelect new location for (sub)section start point.
+Select new location for (sub)section start point.
+(하위) 단면 시작 점의 새로운 위치를 선택하십시오.
+
+%CPSelect new location for the dimension
+Select new location for the dimension
+새로운 치수 위치를 선택하십시오.
+
+%CPSelect new point of detail.
+Select new point of detail.
+새로운 세부 점을 선택하십시오.
+
+%CPSelect new text font from menu [Present font: %0w]
+Select new text font from menu. Present font is %0w.
+메뉴로부터 새로운 텍스트 글꼴을 선택하십시오. 현재 글꼴은 %0w입니다.
+
+%CPSelect normal axis.
+Select normal axis.
+직각 축을 선택하십시오.
+
+%CPSelect option to specify depth of the thread.
+Select option to specify depth of the thread.
+스레드의 깊이 지정을 위한 옵션을 선택하십시오.
+
+%CPSelect or pick on the screen the the new current drawing model.
+Select or pick on the screen the new current drawing model.    
+새로운 현재 구배 모델을 선택 또는 지정하십시오.
+
+%CPSelect paper size.
+Select paper size.
+용지 크기를 선택하십시오.
+
+%CPSelect placement point(s).
+Select placement point(s).
+배치 점(들)을 선택하십시오.
+
+%CPSelect placement point.
+Select placement point.
+배치 점을 선택하십시오.
+
+%CPSelect point.
+Select point.
+점을 선택하십시오.
+
+%CPSelect replacing instance from menu.
+Select replacing instance from menu.
+메뉴로부터 대체 인스턴스를 선택하십시오.
+
+%CPSelect right edge, surface, or csys axis.
+Select right edge, surface, or csys axis.
+오른쪽 모서리, 서피스 또는 좌표계 축을 선택하십시오.
+
+%CPSelect right surface or csys axis.
+Select right surface or csys axis.
+오른쪽 서피스 또는 좌표계 축을 선택하십시오.
+
+%CPSelect rotational direction for Spring Back.
+Select rotational direction for Spring Back.
+스프링 백에 대한 회전 방향을 선택하십시오.
+
+%CPSelect set datum plane or axis for targeting.
+Select set datum plane or axis for targeting.
+대상설정을 위해 세트 데이텀 평면 또는 축을 선택하십시오.
+
+%CPSelect surface to be replaced
+Select surface to be replaced.
+대체될 서피스를 선택하십시오.
+
+%CPSelect the second reference.
+Select the second reference.
+두 번째 참조를 선택하십시오.
+
+%CPSelect thread start surface.
+Select thread start surface.
+스레드 시작 서피스를 선택하십시오.
+
+%CPSelect thread surface.
+Select thread surface.
+스레드 서피스를 선택하십시오.
+
+%CPSelect top edge, surface, or csys axis.
+Select top edge, surface, or csys axis.
+상단 모서리, 서피스 또는 좌표계 축을 선택하십시오.
+
+%CPSelect top surface or csys axis.
+Select top surface or csys axis.
+상단 서피스 또는 좌표계 축을 선택하십시오.
+
+%CPSelect value to modify.
+Select value to modify.
+수정할 값을 선택하십시오.
+
+%CPSelect vertical axis.
+Select vertical axis.
+수직 축을 선택하십시오.
+
+%CPSelect view to modify.
+Select view to modify.
+수정할 뷰를 선택하십시오.
+
+%CESelected draft surfaces must be contiguous.
+Selected draft surfaces must be contiguous.
+선택한 구배면들이 반드시 연속되어야 합니다.
+
+%CESelected group has references to views on page %0d.
+Group has reference to views on sheet %0d; cannot resume on this one.
+그룹이 쉬트 %0d상에 뷰에 대한 참조를 갖습니다; 이를 복원할 수 없습니다.
+
+%CESelected model does not belong to any family.
+Selected model does not belong to any family.
+선택한 모델이 어느 패밀리에도 속하지 않습니다.
+
+%CPSelected plane and axis must be parallel, select again
+Selected plane and axis must be parallel, select again.
+선택한 평면 및 축이 반드시 평행해야 합니다. 다시 선택하십시오.
+
+%CPSelected plane and entity must be parallel, select again
+Selected plane and entity must be parallel, select again.
+선택한 평면 및 엔티티가 반드시 평행해야 합니다. 다시 선택하십시오.
+
+%CESelected point is not coaxial with the set datum axis.
+Selected point is not coaxial with the set datum axis.
+선택한 점이 세트 데이텀 축과 동축상에 있지 않습니다.
+
+%CESelected point not in the adjustment range.
+Selected point not in the adjustment range.
+선택한 점이 조정 범위안에 있지 않습니다.
+
+%CPSelected surface is invalid.  Reselect cylindrical or conic surface.
+Selected surface is invalid.  Reselect cylindrical or conic surface.
+선택한 서피스가 유효하지 않습니다. 원통 또는 원뿔 서피스를 다시 선택하십시오.
+
+%CPShould be at least one point between selected points. Select again.
+Should be at least one point between selected points. Select again.
+선택한 점들 사이에 최소한 한 점이 존재해야 합니다. 다시 선택하십시오.
+
+%CISoftware (Xon/Xoff) communications enabled.
+Software (Xon/Xoff) communications enabled.
+소프트웨어 (Xon/Xoff) 통신이 활성화되었습니다.
+
+%CPSpecify coordinate system that file entities are with respect to
+Specify coordinate system that file entities are with respect to.
+파일 엔티티의 기준이 되는 좌표계를 지정하십시오.
+
+%CPSpecify corners of area to be plotted.
+Specify corners of area to be plotted.
+플롯할 영역의 코너들을 지정하십시오.
+
+%CPSpecify parting curve.
+Specify parting curve.
+파팅 커브를 지정하십시오.
+
+%CPSpecify pull direction.
+Specify pull direction.
+잡아당기는 방향을 지정하십시오.
+
+%CPSpecify surfaces for Spring Back feature.
+Specify surfaces for Spring Back feature.
+스프링 백 피쳐에 대한 서피스들을 지정하십시오.
+
+%CPSpecify surfaces or datum planes
+Specify surfaces or datum planes onto which the curve will be projected
+커브가 투영되는 서피스들 또는 데이텀 평면들을 지정하십시오.
+
+%CPSpecify surfaces to close open ends.
+Specify surfaces to close open ends.
+개방된 끝들을 닫는 서피스들을 지정하십시오.
+
+%CPSpecify the neutral curve.
+Specify the neutral curve.
+중립 커브를 지정하십시오.
+
+%CISpin Center will be displayed.
+Spin Center will be displayed.
+회전 중심이 표시됩니다.
+
+%CISpin Center will not be displayed.
+Spin Center will not be displayed.
+회전 중심이 디스플레이되지 않습니다.
+
+%CPSpline containes too few points. please resketch.
+Spline contains too few points, please resketch.
+스플라인이 너무 적은 수의 점들을 포함합니다. 다시 스케치하십시오.
+
+%CESubordinate items may not be added to groups
+Subordinate drawing items may not be added to groups.
+종속 드로잉 항목들이 그룹에 추가되지 않을 수 있습니다.
+
+%CPSuppress member of this assembly ? [N]
+Suppress component of this assembly?|||No
+이 어셈블리의 컴포넌트를 숨길까요?|||아니오
+
+%CESuppression caused yellow feature (internal id = %0d) to fail.
+Suppression caused red feature (internal id = %0d) to fail.
+숨김으로 인해 빨간색 피쳐가 실패했습니다. (내부 ID =%0d)
+
+%CESurface aborted. Geometry could not be constructed.
+Surface aborted. Geometry could not be constructed.
+서피스가 중단되었습니다. 형상을 구성할 수 없습니다.
+
+%CISymbol [%0w] has been stored.
+Symbol [%0w] has been stored.
+기호 [%0w]은 저장되었습니다.
+
+%CITangent edges will be dimmed.
+Tangent edges will be dimmed.
+탄젠트 모서리들이 흐리게 표시됩니다.
+
+%CITangent edges will be displayed in centerline font.
+Tangent edges will be displayed in centerline font.
+탄젠트 모서리들이 중심선 모양으로 표시됩니다.
+
+%CITangent edges will be displayed in phantom font.
+Tangent edges will be displayed in phantom font.
+탄젠트 모서리들이 이점쇄선 모양으로 표시됩니다.
+
+%CITangent edges will be displayed.
+Tangent edges will be displayed as solid lines.
+탄젠트 모서리들이 실선으로 표시됩니다.
+
+%CITangent edges will not be displayed.
+Tangent edges will not be displayed.
+탄젠트 모서리들이 디스플레이되지 않습니다.
+
+%CEThe .fnt file in %0w was not found.
+The .fnt file in %0w was not found.
+%0w상에서 .fnt 파일을 찾을 수 없습니다.
+
+%CEThe SHADE file %s is incompatible with this machine.
+The SHADE file %0w is incompatible with this machine.
+SHADE 파일 %0w은 이 기계와 호환되지 않습니다.
+
+%CIThe current drawing model will be displayed normally.
+The current drawing model will be displayed normally.
+현재 드로잉 모델이 일반적으로 표시됩니다.
+
+%CEThe input configuration file %0w does not exist.
+The input configuration file %0w does not exist.
+입력 Configuration file %0w은 존재하지 않습니다.
+
+%CPThere is no child for this feature.
+There is no child for this feature. Select again.
+이 피쳐에 대한 자 피쳐가 없습니다. 다시 선택하십시오.
+
+%CPThere is no parent for this feature.
+There is no parent for this feature. Select again.
+이 피쳐에 대한 모 피쳐가 없습니다. 다시 선택하십시오.
+
+%CEThere is no room for font %0d.
+There is no room for font %0d.
+모양 %0d에 대한 공간이 없습니다.
+
+%CIThese options control axes
+These options control axes
+축 제어 옵션
+
+%CIThese options control cross sections and their arrows
+These options control cross sections and their arrows
+이 옵션들은 단면들과 관련 화살표들을 제어합니다.
+
+%CIThese options control diagram-specific items
+These options control diagram-specific items
+이 옵션들은 특정 다이어그램 항목들을 제어합니다.
+
+%CIThese options control dimensions
+These options control dimensions
+치수 제어 옵션
+
+%CIThese options control geometric tolerancing information
+These options control geometric tolerancing information
+이 옵션들은 기하공차 정보를 제어합니다.
+
+%CIThese options control layers
+These options control layers
+레이어 제어 옵션
+
+%CIThese options control leaders
+These options control leaders
+지시선 제어 옵션
+
+%CIThese options control model grids
+These options control model grids
+모델 격자선 제어 옵션
+
+%CIThese options control solids shown in views
+These options control solids shown in views
+이 옵션들은 뷰에 나타나는 솔리드들을 제어합니다.
+
+%CIThese options control tables, repeat regions, and BOM balloons
+These options control tables, repeat regions, and BOM balloons
+이 옵션들은 테이블, 반복 영역 및 BOM 풍선들을 제어합니다.
+
+%CIThese options control text and line fonts
+These options control text and line fonts
+이 옵션들은 텍스트 글꼴 및 선 모양들을 제어합니다.
+
+%CIThese options control text not subject to other options
+These options control text not subject to other options
+이 옵션들은 다른 옵션에 해당하지 않는 텍스트를 제어합니다.
+
+%CIThese options control views and their annotations
+These options control views and their annotations
+이 옵션은 뷰와 관련 주석을 제어합니다.
+
+%CWThis drawing does not have multiple models.
+This drawing does not have multiple models.
+이 드로잉은 다중 모델들을 갖지 않습니다.
+
+%CWThis view has been frozen because of illegal view instructions.
+This view has been frozen because of illegal view instructions.
+이 뷰가 비정규적인 명령들로 인해 동결되었습니다.
+
+%CLTo
+TO
+끝
+
+%CITop level assembly.
+Top level assembly.
+톱 레벨 어셈블리.
+
+%CPType global name:
+Type global name: 
+글로벌 이름 입력:
+
+%CPUnderdimensioned three dimensional section.
+Underdimensioned section.  Please align to part or add dimensions.
+단면에 치수가 부족합니다. 부품에 정렬시키거나 치수들을 추가하십시오.
+
+%CPUnderdimensioned two dimensional section.
+Underdimensioned section.  Please add dimensions.
+치수 부족 단면. 치수를 추가하십시오.
+
+%CPUngroup the feature? <Y/N>:
+Ungroup the feature? (Y/N): 
+피쳐 그룹화를 해제할까요? (Y/N):
+
+%CPUnpattern the group? <Y/N>:
+Unpattern the group? (Y/N): 
+그룹의 패턴화를 해제할까요? (Y/N):
+
+%CPView origin has been set;
+View origin has been set; select another view to modify.
+뷰 원점이 지정되었습니다; 수정할 다른 뷰를 선택하십시오.
+
+%CIViews of the current dwg model will be enclosed by a box.
+Views of the current dwg model will be enclosed by a box.
+현재 드로잉 모델의 뷰들이 상자안에 포함됩니다.
+
+%CWWARNING ! Model geometry for drawing view is missing.
+WARNING: Model geometry for drawing view is missing.
+경고: 드로잉 뷰에 대한 모델 형상이 없습니다.
+
+%CWWARNING:  vertex endpoint might not be aligned to both edges of the part.
+WARNING: Vertex endpoint might not be aligned to both edges of the part.
+경고: 끝 정점이 부품의 양 모서리에 정렬되지 않을 수 있습니다.
+
+%CWWARNING: %0s does not support 8 pens; switching to %1d.
+WARNING: %0s does not support 8 pens; switching to %1d.
+경고: %0s은 8 펜을 지원하지 않습니다; %1d(으)로 전환합니다.
+
+%CWWARNING: Lost network license; application may suspend within minutes!
+WARNING: Lost network license; %0s may suspend within minutes!
+경고: 손실된 네트워크 라이센스입니다; %0s은 수분안에 실행 중단됩니다!
+
+%CWWARNING: Thread geometry will be created outside the geometry of the part.
+WARNING: Thread geometry will be created outside the geometry of the part.
+경고: 스레드 형상이 부품의 형상 외부에 생성됩니다.
+
+%CWWARNING: cross-section %0w may be incomplete.
+WARNING: Cross-section %0w may be incomplete.
+경고: 횡단면 %0w은 완전하지 않습니다.
+
+%CWWARNING: external reference not present, SPRING BACK frozen (feat id: %0d).
+WARNING: external reference not present, SPRING BACK frozen (feat id: %0d).
+경고: 외부 참조가 존재하지 않습니다. 스프링 백이 동결되었습니다. (피쳐 ID: %0d).
+
+%CWWarning: All entities of the Neutral Curve must be tangent.
+WARNING: All entities of the Neutral Curve must be tangent.
+경고: 중립 커브의 모든 엔티티들이 반드시 탄젠트하여야 합니다.
+
+%CWWarning: Feature %0d contains surfaces that have no area.
+Warning: Feature %0d contains surfaces that have no area.
+경고: 피쳐 %0d은 아무런 영역이 없는 서피스들을 포함합니다.
+
+%CWWarning: This %0w is more recent than %1d of its models.
+WARNING: This %0w is more recent than %1d of its models.
+경고: 이 %0w은 모델들의 %1d보다 더 최근의 것입니다.
+
+%CWWarning: This %0w is more recent than the model.
+WARNING: This %0w is more recent than the model.
+경고: 이 %0w은 모델보다 더 최근의 것입니다.
+
+%CPWhich directory ? [%0w]:
+Which directory ?|||%0w
+어느 디렉토리?|||%0w
+
+%CIXhatch
+Closed curve sections will be cross hatched
+닫혀진 커브 단면들이 크로스해칭됩니다.
+
+%CPXsec is used by feature [%0d].  Delete feature first.
+Xsec is used by feature %0d.  Delete feature first.
+횡단면이 피쳐 %0d에 의해 사용되었습니다. 피쳐를 먼저 삭제하십시오.
+
+%CLa cosmetic sketched entity
+a cosmetic sketched entity
+코스메틱 스케치 엔티티
+
+%CLa datum point
+a datum point
+데이텀 점
+
+%CLa dimension
+a dimension
+치수
+
+%CLa vertex
+a vertex
+교점
+
+%CLan edge
+an edge
+모서리
+
+%CLan entity
+an entity
+엔티티
+
+%CLaxes
+axes
+축
+
+%CIaxis name
+Enter AXIS NAME:
+축 이름을 입력하십시오:
+
+%CEcannot retrieve part containing assembly features
+This is not a user-created model. Cannot retrieve.
+사용자 생성 모델이 아닙니다. 읽어올 수 없습니다.
+
+%CIcolor index.
+Color code: Surface - Yellow; Edges - Blue; Axis, Datum, Feature - Red.
+색상 코드: 서피스 - 노란색, 모서리 - 파란색, 축, 데이텀, 피쳐 - 빨간색.
+
+%CLcosmetic sketched entities
+cosmetic sketched entities
+코스메틱 스케치 엔티티들
+
+%CLcyan
+cyan
+하늘색
+
+%CLdatum points
+datum points
+데이텀 점들
+
+%CLdimensions
+dimensions
+치수들
+
+%CLedges
+edges
+모서리들
+
+%CLentities
+entities
+엔티티들
+
+%CPlast instruction overrides %0d instrs. delete [y]
+Last instruction overrides %0d previous instruction(s). Delete|||Yes
+마지막 명령이 %0d 이전 명령(들)에 우선합니다. 삭제할까요?|||예
+
+%CLleast neg.
+least neg.
+최소 음수
+
+%CLleast pos.
+least pos.
+최소 양수
+
+%CLmost neg.
+most neg.
+최대 음수
+
+%CLmost pos.
+most pos.
+최대 양수
+
+%CLorange
+orange
+주황색
+
+%CPpart have been added, repaint to see change
+Selected parts have been added to the list, repaint to display change.
+선택한 부품들이 목록에 추가되었습니다. 변경사항들을 반영하기 위해 다시 칠하십시오.
+
+%CPpart have been removed, repaint to see change
+Selected parts have been removed from list, repaint to display change.
+선택한 부품들이 목록으로부터 제거되었습니다. 변경사항들을 반영하기 위해 다시 칠하십시오.
+
+%CPplacement of feature %0d of %1s wasn't retrieved. <cr> ...
+Placement of feature %0d of part %1s was not retrieved. <CR> to continue: 
+부품 %1s의 피쳐 %0d에 대한 배치가 읽혀지지 않았습니다. 계속하려면 <CR>을 누르십시오:
+
+%CPreally delete %0w [N]:
+Do you really want to delete %0w|||No
+정말로 %0w을 삭제하시겠습니까?|||아니오
+
+%CPregen parts intersected by assembly feature?
+Regenerate parts intersected by assembly feature(s)?|||Yes
+어셈블리 피쳐들에 의해 교차되는 부품들을 재생성하겠습니까?|||예
+
+%CPselect %0w
+Select %0w.
+%0w(을)를 선택하십시오.
+
+%CPselect %0w %1w
+Select %0w or %1w.
+%0w 또는 %1w을 선택하십시오.
+
+%CPselect %0w %1w %2w %3w
+Select %0w, %1w, %2w or %3w.
+%0w, %1w, %2w 또는 %3w을 선택하십시오.
+
+%CPselect %0w %1w %2w %3w %4w
+Select %0w, %1w, %2w, %3w or %4w.
+%0w, %1w, %2w, %3w 또는 %4w을 선택하십시오.
+
+%CPselect %0w %1w %2w %3w %4w %5w
+Select %0w, %1w, %2w, %3w, %4w or %5w.
+%0w, %1w, %2w, %3w, %4w 또는 %5w을 선택하십시오.
+
+%CPselect %0w %1w %2w %3w %4w %5w %6w
+Select %0w, %1w, %2w, %3w, %4w, %5w or %6w.
+%0w, %1w, %2w, %3w, %4w, %5w 또는 %6w을 선택하십시오.
+
+%CPselect %0w %1w %2w %3w %4w %5w %6w %7w
+Select %0w, %1w, %2w, %3w, %4w, %5w, %6w or %7w.
+%0w, %1w, %2w, %3w, %4w, %5w, %6w 또는 %7w을 선택하십시오.
+
+%CPselect %0w %1w %2w %3w %4w %5w %6w %7w %8w
+Select %0w, %1w, %2w, %3w, %4w, %5w, %6w, %7w or %8w.
+%0w, %1w, %2w, %3w, %4w, %5w, %6w, %7w 또는 %8w을 선택하십시오.
+
+%CPselect assembly feature
+Select assembly feature.
+어셈블리 피쳐를 선택하십시오.
+
+%CPselect draft entities.
+Select draft entities to specify geometric tolerance.
+기하 공차를 지정할 도면 요소들을 선택하십시오.
+
+%CEthis feature cannot be intersected
+This feature cannot be intersected.
+이 피쳐를 교차시킬 수 없습니다.
+
+%CLvertices
+vertices
+정점들
+
+%CLyellow
+yellow
+노란색
+
+%CIINFO PT/Modeler Loadpoint: %0w
+INFO PT/Modeler Loadpoint: %0w
+PT/Modeler 정보 로드포인트: %0w
+
+%CLEdit this object's text.
+Edit this text of the current object.
+현재 개체의 이 텍스트를 편집합니다.
+
+%CPSpecify sketched datum curve attributes.
+Specify sketched datum curve attributes.
+스케치된 데이텀 커브의 속성을 지정합니다.
+
+%CPSpecify depth of extrusion.
+Specify depth of extrusion.
+돌출 깊이를 지정하십시오.
+
+%CPSpecify feature attributes.
+Specify feature attributes.
+피쳐 속성을 지정합니다.
+
+%CP Specify depth option.
+ Specify depth option.
+ 깊이 옵션을 지정하십시오.
+
+%CP Enter depth [%0f] : 
+ Enter depth|||%0f
+ 깊이를 입력하십시오.|||%0f
+
+%CP Specify accuracy of composite curve with respect to curve references.
+ Specify accuracy of composite curve with respect to curve references.
+ 커브 참조들에 대한 복합 커브의 정밀도를 지정하십시오.
+
+%CIDatum CrossHatch
+Closed sections of the datum curve will be cross hatched
+데이텀 커브의 닫혀진 단면은 크로스해칭됩니다.
+
+%CIDatum No CrossHatch
+Closed sections of the datum curve will NOT be cross hatched
+데이텀 커브의 닫혀진 단면은 크로스해칭되지 않습니다.
+
+%CPSelect datum plane.
+Select datum plane.
+데이텀 평면을 선택하십시오.
+
+%CPSpecify surfaces or datum plane.
+Specify surfaces or datum plane.
+서피스 또는 데이텀 평면을 지정하십시오.
+
+%CWConfirm removal of Surface references.
+Confirm removal of Surface references.
+서피스 참조들의 제거를 확인하십시오.
+
+%CWConfirm removal of Datum Plane references.
+Confirm removal of Datum Plane references.
+데이텀 평면 참조들의 제거를 확인하십시오.
+
+%CEOld image file; not supported.
+Old image file; not supported.
+오래된 이미지 파일; 지원되지 않습니다.
+
+%CPSelect a reference to specify the projection direction.
+Select a reference to specify the projection direction.
+투영 방향을 지정하는 참조를 선택하십시오.
+
+%CPSpecify type of curve to be projected.
+Specify type of curve to be projected.
+투영할 커브 유형을 지정하십시오.
+
+%CPSpecify the projection type.
+Specify the projection type.
+투영 유형을 지정하십시오.
+
+%CIAlong Dir
+Along Dir
+방향따라
+
+%CINorm to Surf
+Norm to Surf
+서피스에 수직
+
+%CINorm to Sket
+Norm to Sket
+스케치에 수직
+
+%CEThere is no DIRECT child for this feature. Select again.
+There is no DIRECT child for this feature. Select again.
+이 피쳐에 대한 직접적인 자 피쳐가 없습니다. 다시 선택하십시오.
+
+%CWLost option
+Lost %0s license; corresponding modes are inaccessible.
+손실된 %0s 라이센스; 해당 모드를 사용할 수 없습니다.
+
+%CWLost option warning
+WARNING: Lost %0s license; quit from current mode immediately.
+경고: 손실된 %0s 라이센스; 해당 모드를 사용할 수 없습니다.
+
+%CE Errors in user program compling or linking.
+ Errors in user program compiling or linking.
+ 사용자 프로그램 컴파일 또는 링크작업에 오류가 발생했습니다.
+
+%CE User program execution failed.
+ User program execution failed.
+ 사용자 프로그램 실행에 실패했습니다.
+
+%CEAll comp. curve components must be tangent, projected along pivot direction.
+All comp. curve components must be tangent, projected along pivot direction.
+모든 복합 커브 컴포넌트들이 반드시 피봇 방향을 따라 투영되어 탄젠트하여야 합니다.
+
+%CEAll composite curve components must be tangent.
+All composite curve components must be tangent.
+모든 복합 커브 컴포넌트들이 반드시 탄젠트하여야 합니다.
+
+%CEAnother group with the same name already exists.
+Another group with the same name already exists.
+동일한 이름의 다른 그룹이 이미 존재합니다.
+
+%CEBitmaps are of unequal size; cannot continue.
+Bitmaps are of unequal size; cannot continue.
+비트맵들의 크기가 다릅니다; 계속할 수 없습니다.
+
+%CEBoth points must be in the same table.
+Both points must be in the same table.
+두 점들 모두 반드시 동일한 테이블상에 있어야 합니다.
+
+%CECan NOT select table driven dimension.
+Can NOT select table driven dimension.
+테이블 제어 치수를 선택할 수 없습니다.
+
+%CECan not replace assembly datum.
+Can not replace assembly datum.
+어셈블리 데이텀을 대체할 수 없습니다.
+
+%CECannot add curvature dimension to spline with control polygon.
+Cannot add curvature dimension to spline with control polygon.
+제어 다각형이 있는 스플라인에 곡률 치수를 추가할 수 없습니다.
+
+%CECannot change "on point" placement type.
+Cannot change "on point" placement type.
+"점상에" 배치 유형을 변경할 수 없습니다.
+
+%CECannot create auxiliary view of selected edge.
+Cannot create auxiliary view of selected edge.
+선택한 모서리의 보조 뷰를 생성할 수 없습니다.
+
+%CECannot declare items for an instance.
+Cannot declare items for an instance.
+인스턴스에 대한 항목들을 선언할 수 없습니다.
+
+%CECannot dimension aligned spline to coordinate system.
+Cannot dimension aligned spline to coordinate system.
+좌표계에 정렬된 스플라인을 치수처리할 수 없습니다.
+
+%CECannot dimension spline with control polygon to coordinate system.
+Cannot dimension spline with control polygon to coordinate system.
+제어 다각형이 있는 스플라인을 좌표계에 대해 치수처리할 수 없습니다.
+
+%CECannot edit read_only draft groups.
+Cannot edit read-only draft groups.
+읽기-전용 도면 그룹을 편집할 수 없습니다.
+
+%CECannot explode read_only draft groups.
+Cannot explode read-only draft groups.
+읽기-전용 도면 그룹들을 분해할 수 없습니다.
+
+%CECannot modify aligned spline.
+Cannot modify aligned spline.
+정렬된 스플라인을 수정할 수 없습니다.
+
+%CECannot open input file.
+Cannot open input file.
+입력 파일을 열 수 없습니다.
+
+%CECannot retrieve default surface finish symbol!
+Cannot retrieve default surface finish symbol - deleting all surface finishes!
+기본 서피스 마무리 기호를 읽어올 수 없습니다. - 모든 서피스 마무리들을 삭제합니다.
+
+%CEColumns to merge must be similar vertically.
+Columns to merge must be similar vertically.
+결합할 열들이 반드시 수직적으로 유사해야 합니다.
+
+%CECurrent object and bitmap object types do not match.
+Current object and bitmap object types do not match.
+현재 개체와 비트맵 개체 유형이 일치하지 않습니다.
+
+%CEDatum points array can not be used to set targets.
+Datum points array can not be used to set targets.
+데이텀 점 배열을 대상 지정에 사용할 수 없습니다.
+
+%CEDraft axes may not be erased.
+Draft axes may not be erased.
+드로잉 축을 지울 수 없습니다.
+
+%CEDraft datums may not be erased.
+Draft datums may not be erased.
+데이텀을 지울 수 없습니다.
+
+%CEDraft group creation aborted.
+Draft group creation aborted.
+도면 그룹 생성이 중단되었습니다.
+
+%CEEntity belonging to a group cannot be modified.
+Entity belonging to a group cannot be modified.
+그룹에 속하는 엔티티를 수정할 수 없습니다.
+
+%CEError - Invalid directory specification.
+Error - Invalid directory specification.
+오류 - 부적합한 디렉토리 지정.
+
+%CEError reading bitmap color info.
+Error reading bitmap color info.
+비트맵 색상 정보를 읽는 중에 오류가 발생했습니다.
+
+%CEError writing bitmap file. Bitmap may be incomplete.
+Error writing bitmap file. Bitmap may be incomplete.
+비트맵 파일을 기록하는 중에 오류가 발생했습니다. 비트맵이 완전하지 않을 수 있습니다.
+
+%CEFilled cross-sections cannot be modified.
+Filled cross-sections cannot be modified.
+채원진 단면들을 수정할 수 없습니다.
+
+%CEGTOLs may not be attached to reference dimensions.
+GTOLs may not be attached to reference dimensions.
+기하공차를 참조 치수들에 첨부하지 못할 수 있습니다.
+
+%CEGrouped entities cannot be chosen for creation of x-hatch.
+Grouped entities cannot be chosen for creation of cross-hatch.
+크로스해칭을 생성하려면 그룹화된 엔티티를 선택해서는 안 됩니다.
+
+%CEHighlighted selection is invalid.
+Highlighted selection is invalid.
+강조된 선택이 유효하지 않습니다.
+
+%CEInsufficient system memory.
+Insufficient system memory.
+시스템 메모리가 부족합니다.
+
+%CEModel replacement aborted.
+Model replacement aborted.
+모델 대체가 중단되었습니다.
+
+%CENo draft angle break points created.
+No draft angle break points created.
+기울기 각도 브레이크 점이 생성되지 않았습니다.
+
+%CENo invalid geometry was found.
+No invalid geometry was found.
+부적합한 형상을 찾을 수 없습니다.
+
+%CENo such iges file.
+Cannot find IGES file with that name.
+이 이름을 가진 IGES 파일을 찾을 수 없습니다.
+
+%CENo trajectory created - Feature aborted
+No trajectory created - Feature aborted.
+궤적이 생성되지 않았습니다 - 피쳐가 중단되었습니다.
+
+%CENo views found
+No views found.
+뷰를 찾을 수 없습니다.
+
+%CEPart is marked as read only - modification is not allowed
+Part is marked as read only - modification is not allowed.
+부품이 읽기 전용으로 설정되었습니다. - 수정할 수 없습니다.
+
+%CEPartition option cancelled; only available with 'Fit Paper'.
+Partition option cancelled; only available with "Fit Paper".
+파티션 옵션이 취소되었습니다; "용지 맞춤"에만 사용할 수 있습니다.
+
+%CEPartition option cancelled; only available with 'Scale Model'.
+Partition option cancelled; only available with "Scale Model".
+파티션 옵션이 취소되었습니다; "모델 배율 조정"에만 사용할 수 있습니다.
+
+%CERange option cancelled; not available with segmented plots.
+Range option cancelled; not available with segmented plots.
+범위 옵션이 취소되었습니다; 세그먼트 플롯에는 사용할 수 없습니다.
+
+%CERows to merge must be similar horizontally.
+Rows to merge must be similar horizontally.
+결합할 줄들이 반드시 수평적으로 유사해야 합니다.
+
+%CESelected group is already active.
+Selected group is already active.
+선택한 그룹이 이미 활성화되었습니다.
+
+%CESelected group is already suppressed.
+Selected group is already suppressed.
+선택한 그룹이 이미 숨겨졌습니다.
+
+%CEThe first and the last entities must be tangent.
+The first and the last entities must be tangent.
+처음과 마지막 엔티티들이 반드시 탄젠트해야 합니다.
+
+%CEThe selected symbol text can't be modified.
+The selected symbol text can't be modified.
+선택한 기호 텍스트를 수정할 수 없습니다.
+
+%CEThere are no text fonts defined for this drawing.
+There are no text fonts defined for this drawing.
+이 드로잉에는 정의된 텍스트 글꼴이 없습니다.
+
+%CEThere is no room for the default text font.
+There is no room for the default text font.
+기본 텍스트 글꼴에 대한 공간이 없습니다.
+
+%CEThis functionality is not supported with GL graphics.
+This functionality is not supported with GL graphics.
+이 기능은 GL 그래픽에서 지원되지 않습니다.
+
+%CEUnable to modify spacing between text lines.
+Unable to modify spacing between text lines.
+텍스트 줄간 간격을 수정할 수 없습니다.
+
+%CEYou cannot edit suppressed groups.
+You cannot edit suppressed groups.
+억제된 그룹을 편집할 수 없습니다.
+
+%CEYou cannot explode suppressed groups.
+You cannot explode suppressed groups.
+억제된 그룹을 분해할 수 없습니다.
+
+%CEYou cannot mix draft and model edges.
+You cannot mix draft and model edges.
+구배과 모델 모서리들을 혼합할 수 없습니다.
+
+%CEYou cannot reference a draft datum in a model gtol.
+You cannot reference a draft datum in a model gtol.
+데이텀을 모델 기하공차에 참조할 수 없습니다.
+
+%CEYou cannot switch the view of a draft, iges or space note.
+You cannot switch the view of a draft, IGES or space note.
+도면, IGES 또는 공간 메모의 뷰를 전환할 수 없습니다.
+
+%CEfile was not found
+File was not found.
+파일을 찾을 수 없습니다.
+
+%CIBitmaps are identical.
+Bitmaps are identical.
+비트맵들이 일치합니다.
+
+%CIModel remains unchanged.
+Model remains unchanged.
+모델이 변경되지 않았습니다.
+
+%CIPerforming fuzzy pixel comparison...
+Performing fuzzy pixel comparison ...
+퍼지 픽셀 비교를 수행중...
+
+%CIScanning...
+Scanning ...
+스캔중...
+
+%CIthis feature belongs to the assembly
+This feature belongs to the assembly.
+이 피쳐는 어셈블리에 속합니다.
+
+%CPAt least one point has to be selected. Please reselect.
+At least one point has to be selected. Please reselect.
+최소한 하나의 점을 선택하여야 합니다. 다시 선택하십시오.
+
+%CPInvalid group to add to. Create group first.
+Invalid group to add to. Create group first.
+추가할 그룹이 유효하지 않습니다. 먼저 그룹을 생성하십시오.
+
+%CPLine font "%0w" exists. Enter new line font name [%1w]:
+Line font "%0w" exists. Enter new line font name|||%1w
+선 모양 "%0w"은 존재합니다. 새로운 선 모양 이름을 입력하십시오.|||%1w
+
+%CPPick entities created by an iges file.
+Pick entities created by an IGES file.
+IGES 파일에 의해 생성된 엔티티들을 지정하십시오.
+
+%CPPlease confirm to ungroup feature.
+Please confirm to ungroup feature.
+피쳐 그룹의 해제를 확인하십시오.
+
+%CPPlease regenerate this part in the assembly ...
+Please regenerate this part in the assembly where feature was created.
+피쳐가 생성된 어셈블리내에서 이 부품을 재생성하십시오.
+
+%CPPlease select a second '2 Point' reference before placing the dimension.
+Please select a second '2 Point' reference before placing the dimension.
+치수를 배치하기 전에 두 번째 '2 점' 참조를 선택하십시오.
+
+%CPPlease select instance part upon which the feature ...
+Please select the instance part upon which the feature was created.
+피쳐가 생성되면 인스턴스 부품을 선택하십시오.
+
+%CPPlease select surfaces from reference model.
+Please select surfaces from reference model.
+참조 모델로부터 서피스들을 선택하십시오.
+
+%CPPlease specify at least two points for Spring Back angles.
+Please specify at least two points for Spring Back angles.
+스프링 백 각도에 대한 최소한 두개 이상의 점들을 선택하십시오.
+
+%CPPlease specify points at both ends.
+Please specify points at both ends.
+양쪽 끝에 점들을 지정하십시오.
+
+%CPPlease specify pull direction and draft line first.
+Please specify pull direction and draft line first.
+잡아당기는 방향과 구배 선을 먼저 지정하십시오.
+
+%CPRead-only values cannot be selected for use in Family Table. Try again.
+Read-only values cannot be selected for use in Family Table. Try again.
+읽기-전용 값들은 패밀리 테이블에서 사용할 수 없습니다. 다시 시도하십시오.
+
+%CPSect. geometry has changed the topology. Can't modify.
+Section geometry has changed topology and cannot be modified.
+단면 형상의 위상이 변경되었습니다. 수정할 수 없습니다.
+
+%CPSelect a coordinate system, or choose 'No csys'.
+Select a coordinate system, or choose "No csys" from menu.
+좌표계를 선택하거나 메뉴로부터 "좌표계 없음"을 선택하십시오.
+
+%CPSelect a drawing model by picking ON the model.
+Select a drawing model by picking ON the model.
+모델상을 지정하여 드로잉 모델을 선택하십시오.
+
+%CPSelect a member coordinate system from the menu.
+Select a component coordinate system from the menu.
+메뉴로부터 컴포넌트 좌표계를 선택하십시오.
+
+%CPSelect an assembly coordinate system from the menu.
+Select an assembly coordinate system from the menu.
+메뉴로부터 어셈블리 좌표계를 선택하십시오.
+
+%CPSelect detail item(s) to translate.
+Select detail item(s) to translate.
+변환할 제도판 항목(들)을 선택하십시오.
+
+%CPSelect from the same view.
+Select from the same view.
+동일 뷰에서 선택하십시오.
+
+%CPSelect geometry to which surface finish is associated.
+Select geometry to which surface finish is associated.
+서피스 마무리가 연관된 형상을 선택하십시오.
+
+%CPSelect items belonging to the same part/member.
+Select items belonging to the same part/member.
+동일한 부품/멤버에 속하는 항목들을 선택하십시오.
+
+%CPSelect which axis the datum plane will be normal to.
+Select which axis the datum plane will be normal to.
+데이텀 평면이 직각을 이루는 축을 선택하십시오.
+
+%CPSelected point is coincident with previous point.  Select again.
+Selected point is coincident with previous point.  Select again.
+선택한 점이 이전 점과 일치합니다. 다시 선택하십시오.
+
+%CPView origin has been cleared;
+View origin has been cleared; select another view to modify.
+뷰 원점이 지워졌습니다; 수정할 다른 뷰를 선택하십시오.
+
+%CPYou cannot switch the view of a datum target symbol; use show by view.
+You cannot switch the view of a datum target symbol; use show by view.
+대상 데이텀 기호의 뷰를 전환할 수 없습니다. 뷰에 따른 보기를 사용하십시오.
+
+%CPZero is not allowed, Please re-enter :
+Zero is not allowed, Please re-enter: 
+"0"을 사용할 수 없습니다. 다시 입력하십시오.
+
+%CWDatum is missing. Drawing view normally
+The datum is missing for this view. Drawing view normally.
+이 뷰에 대한 데이텀이 없습니다. 뷰를 노멀하게 디스플레이합니다.
+
+%CWMake sure window is fully visible on screen.
+Make sure window is fully visible on screen.
+창이 화면이 완전히 나타나는지를 확인하십시오.
+
+%CWModel not added to dwg.
+The model could not be added to the drawing.
+모델을 드로잉에 추가할 수 없습니다.
+
+%CWMore than one datum plane for projection. 
+More than one datum plane for projection. First one will be used. 
+하나 이상의 투영 데이텀 평면이 존재합니다. 첫 번째 것이 사용됩니다.
+
+%CWReference missing - using previous trajectory
+Reference missing - using previous trajectory.
+참조가 없습니다. - 이전 궤적을 사용합니다.
+
+%CWThese points do not lie on the same plane with the first point.
+These points do not lie on the same plane with the first point.
+이 점들은 첫 번째 점과 같은 평면상에 있지 않습니다.
+
+%CWWARNING: composite curve components not exactly tangent.
+WARNING: composite curve components not exactly tangent.
+경고: 복합 커브 컴포넌트들이 정확히 탄젠트하지 않습니다.
+
+%CWWARNING: object name and picture name mismatch.
+WARNING: Object name and picture name mismatch.
+경고: 개체 이름과 그림 이름이 일치하지 않습니다.
+
+%CWWARNING: the first and the last entities not exactly tangent.
+WARNING: the first and the last entities not exactly tangent.
+경고: 처음과 끝 엔티티들이 정확히 탄젠트하지 않습니다.
+
+%CWWARNING: z values have been reset to zero.
+WARNING: z values have been reset to zero.
+경고: Z 값이 0으로 초기화되었습니다.
+
+%CWWarning: All points must lie on the Neutral Curve.
+WARNING: All points must lie on the Neutral Curve.
+경고: 모든 점들이 반드시 중립 커브상이 놓여야 합니다.
+
+%CWWarning: Portion(s) of some surface(s) could not be rotated.
+WARNING: Portion(s) of some surface(s) could not be rotated.
+경고: 일부 서피스의 부분들이 회전될 수 없습니다.
+
+%CIChildren are highlited in reference color.
+Children are highlighted in reference color.
+자 피쳐가 참조 색상으로 강조되었습니다.
+
+%CECan not replace with the quilt, it is used by another feature.
+Can not replace with the quilt, it is used by another feature.
+퀼트로 대체할 수 없습니다. 다른 피쳐에 의해 사용되었습니다.
+
+%CEFeature aborted. RIB failed.
+Feature aborted. RIB failed.
+피쳐가 중단되었습니다. 리브가 실패하였습니다.
+
+%CPSpecifiy whether  the replacement quilt should be kept after the tweak.
+Specifiy whether  the replacement quilt should be kept after the tweak.
+면변형 후에 대체 퀼트를 유지할 것인지를 지정하십시오.
+
+%CLTLBPart
+Part
+부품
+
+%CLTLBConcept Part
+Concept Part
+개념 부품
+
+%CLTLBAssembly
+Assembly
+어셈블리
+
+%CLTLBDrawing
+Drawing
+드로잉
+
+%CLTLBLayout
+Layout
+레이아웃
+
+%CLTLBSketch
+Sketch
+스케치
+
+%CLTLB3D Sec
+3D Sec
+3D Sec
+
+%CLTLBSketcher
+Sketcher
+스케쳐
+
+%CLTLBFormat
+Format
+포맷
+
+%CLTLBInterchange (pre v.13)
+Interchange (pre v.13)
+교환그룹 (pre v.13)
+
+%CLTLBProject
+Project
+투영
+
+%CLTLBOld Project
+Old Project
+이전 투영
+
+%CLTLBManufacturing
+Manufacturing
+제조
+
+%CLTLBGroup
+Group
+그룹화
+
+%CLTLBUser Symbol
+User Symbol
+사용자 기호
+
+%CLTLBEco
+Eco
+에코
+
+%CLTLBTool
+Tool
+공구
+
+%CLTLBMachining
+Machining
+머시닝
+
+%CLTLBConf Param
+Conf Param
+변수 확인
+
+%CLTLBProject Report
+Project Report
+프로젝트 리포트
+
+%CLTLBReport
+Report
+리포트
+
+%CLTLBXhatch Style
+Xhatch Style
+크로스해칭 유형
+
+%CLTLBDXhatch Style
+DXhatch Style
+해칭 유형
+
+%CLTLBLight
+Light
+라이트
+
+%CLTLBWorkflow
+Workflow
+작업흐름
+
+%CLTLBSubform
+Subform
+Subform
+
+%CLTLBIndex File
+Index File
+색인 파일
+
+%CLTLBMarkup
+Markup
+마크업
+
+%CLTLBSyscol
+Syscol
+Syscol
+
+%CLTLBDiagram
+Diagram
+다이어그램
+
+%CLTLBDraft
+Draft
+2D 도면
+
+%CLTLBMaterial
+Material
+재료
+
+%CLTLBSpool
+Spool
+스풀
+
+%CLTLBTable Drawing
+Table Drawing
+테이블 드로잉
+
+%CLTLBTable Draft
+Table Draft
+테이블 2D 도면
+
+%CLTLBPicture
+Picture
+그림
+
+%CLTLBNC Check
+NC Check
+NC 체크
+
+%CLTLBIGES
+IGES
+IGES
+
+%CLTLBECAD IDF
+ECAD IDF
+ECAD IDF
+
+%CLTLBECAD VISULA
+ECAD VISULA
+ECAD VISULA
+
+%CLTLBECAD ALLEGRO
+ECAD ALLEGRO
+ECAD ALLEGRO
+
+%CLTLBECAD DAZIX
+ECAD DAZIX
+ECAD DAZIX
+
+%CLTLBECAD Lib IDF
+ECAD Lib IDF
+ECAD Lib IDF
+
+%CLTLBECAD Lib VISULA
+ECAD Lib VISULA
+ECAD Lib VISULA
+
+%CLTLBECAD Lib ALLEGRO
+ECAD Lib ALLEGRO
+ECAD Lib ALLEGRO
+
+%CLTLBECAD Lib DAZIX
+ECAD Lib DAZIX
+ECAD Lib DAZIX
+
+%CLTLBECAD Pla ALLEGRO
+ECAD Pla ALLEGRO
+ECAD Pla ALLEGRO
+
+%CLTLBSET
+SET
+SET
+
+%CLTLBVDA
+VDA
+VDA
+
+%CLTLBDXF
+DXF
+DXF
+
+%CLTLBIdx
+Idx
+Idx
+
+%CLTLBImage
+Image
+이미지
+
+%CLTLBCable
+Cable
+케이블
+
+%CLTLBConnector
+Connector
+커넥터
+
+%CLTLBPat Table
+Pat Table
+패턴 테이블
+
+%CLTLBPcf
+Pcf
+Pcf
+
+%CLTLBLine Stock
+Line Stock
+라인 스톡
+
+%CLTLBDirectory
+Directory
+디렉토리
+
+%CLTLBTool Param
+Tool Param
+공구 매개변수
+
+%CLTLBNeutral
+Neutral
+Neutral
+
+%CLTLBCADAM
+CADAM
+CADAM
+
+%CLTLBPrint Table
+Print Table
+출력 테이블
+
+%CLTLBSite Table
+Site Table
+사이트 테이블
+
+%CLTLBMill Table
+Mill Table
+밀 테이블
+
+%CLTLBConfigure File
+Configure File
+구성 파일
+
+%CLTLBBaseline
+Baseline
+베이스라인
+
+%CLTLBOld Mail
+Old Mail
+올드 메일
+
+%CLTLBNew Mail
+New Mail
+새 메일
+
+%CLTLBDif Report
+Dif Report
+Dif 리포트
+
+%CLTLBTerm Table
+Term Table
+종료자 테이블
+
+%CLTLBCADAM Draft
+CADAM Draft
+CADAM Draft
+
+%CLTLBLinestyle
+Linestyle
+선유형
+
+%CLTLBIntegr Proj
+Integr Proj
+통합 프로젝트
+
+%CLTLBFPP FEI
+FPP FEI
+FPP FEI
+
+%CLTLBFPP FES
+FPP FES
+FPP FES
+
+%CLTLBFPP FMR
+FPP FMR
+FPP FMR
+
+%CLTLBCMDSYN
+CMDSYN
+CMDSYN
+
+%CLTLBCL File
+CL File
+CL 파일
+
+%CLTLBDrawing Setup
+Drawing Setup
+드로잉 셋업
+
+%CLTLBSnapshot
+Snapshot
+스냅샷
+
+%CLTLBStrip Table
+Strip Table
+스트립 테이블
+
+%CLTLBDiagram MVC Def
+Diagram MVC Def
+다이어그램 MVC 정의
+
+%CLTLBWelding Rod
+Welding Rod
+용접봉
+
+%CLTLBWelding Params
+Welding Params
+용접 변수
+
+%CLTLBTool Path
+Tool Path
+공구 경로
+
+%CLTLBSubharness
+Subharness
+하위 하네스
+
+%CLTLBBeam Cross Sect Prop
+Beam Cross Sect Prop
+빔 횡단면 특성
+
+%CLTLBInst Part
+Inst Part
+인스턴스 부품
+
+%CLTLBInst Assembly
+Inst Assembly
+인스턴스 어셈블리
+
+%CLTLBSolid Config
+Solid Config
+솔리드 Config
+
+%CLTLBFEM Model
+FEM Model
+FEM 모델
+
+%CLTLBFEM Neutral File
+FEM Neutral File
+FEM Neutral 파일
+
+%CLTLBDat file
+Dat file
+Dat 파일
+
+%CLTLBCAV Deviation File
+CAV Deviation File
+CAV 편차 파일
+
+%CLTLBCAV Ibl File
+Ibl File
+Ibl 파일
+
+%CLTLBCAV Pts File
+Pts File
+Pts 파일
+
+%CLTLBComp Group Def
+Comp Group Def
+복합 그룹 정의
+
+%CLTLBAppearance Map
+Appearance Map
+모양새 맵
+
+%CLTLBShaded Image
+Shaded Image
+음영처리 이미지
+
+%CLTLBPostscript
+Postscript
+포스트스크립트
+
+%CLTLBPTC Image
+PTC Image
+PTC 이미지
+
+%CLTLBPTC Bumpmap
+PTC Bumpmap
+PTC 범프맵
+
+%CLTLBPTC Color Texture
+PTC Color Texture
+CDRS 색상 텍스쳐
+
+%CLTLBPTC Decal
+PTC Decal
+PTC 데칼
+
+%CLTLBTGA
+TGA
+TGA
+
+%CLTLBSHIMA-SEIKI
+SHIMA-SEIKI
+SHIMA-SEIKI
+
+%CLTLBRGB
+RGB
+RGB
+
+%CLTLBRLA
+RLA
+RLA
+
+%CLTLBRoom
+Room
+공간
+
+%CLTLBBif
+Bif
+Bif
+
+%CLTLBEPS 
+EPS 
+EPS
+
+%CLTLBSTEP
+STEP
+STEP
+
+%CLTLBCadra
+Cadra
+Cadra
+
+%CLTLBFiat
+Fiat
+Fiat
+
+%CLTLBPATRAN
+PATRAN
+PATRAN
+
+%CLTLBCosmos
+Cosmos
+Cosmos
+
+%CLTLBCATIA to/from File
+CATIA to/from File
+CATIA 파일로/로부터
+
+%CLTLBCDRS
+CDRS
+CDRS
+
+%CLTLBCATIA Facets
+CATIA Facets
+CATIA Facets
+
+%CLTLBSTL
+STL
+STL
+
+%CLTLBRCS
+RCS
+RCS
+
+%CLTLBInventor
+Inventor
+Inventor
+
+%CLTLB3DPaint
+Wavefront
+Wavefront
+
+%CLTLBRender
+Render
+렌더
+
+%CLTLBPhoto Render
+Photo Render
+Photo Render
+
+%CLTLBSuperTab
+SuperTab
+SuperTab
+
+%CLTLBVRML
+VRML
+VRML
+
+%CLTLBPlotter
+Plotter
+플로터
+
+%CLTLBTIFF
+TIFF
+TIFF
+
+%CLTLBTIFF (Snapshot)
+TIFF (Snapshot)
+TIFF (스냅샷)
+
+%CLTLBCGM
+CGM
+CGM
+
+%CLTLBJPEG
+JPEG
+JPEG
+
+%CLTLBGIF
+GIF
+GIF
+
+%CLTLBCADAM CPTR Neutral
+CADAM CPTR Neutral
+CADAM CPTR Neutral
+
+%CLTLBWindow Customization
+Window Customization
+창 사용자정의
+
+%CLTLBANSYS geom
+ANSYS geom
+ANSYS 형상
+
+%CLTLBMFG PARAM
+MFG PARAM
+제조 매개변수
+
+%CLTLBAll File
+All File
+모든 파일
+
+%CLTLBPDGS to/from File
+PDGS to/from File
+PDGS 파일로/로부터
+
+%CLTLBCATIA Direct
+CATIA Direct
+직접 CATIA
+
+%CLTLBCATIA IIF
+CATIA IIF
+CATIA IIF
+
+%CLTLBCadam Direct
+Cadam Direct
+직접 Cadam
+
+%CLTLBTablet
+Tablet
+타블렛
+
+%CLTLBDWG
+DWG
+DWG
+
+%CLTLBCommonspace
+Commonspace
+공통공간
+
+%CLTLBWorkspace
+Workspace
+작업공간
+
+%CLTLBPro/Library
+Pro/Library
+Pro/Library
+
+%CIDWGRename
+Rename
+이름바꾸기
+
+%CISplit Surface
+Split Surface
+서피스 분할
+
+%CISplit Volume
+Split Volume
+볼륨 분할
+
+%CLTLBCADDS5
+CADDS5
+CADDS5
+
+%CESelected point is not coplanar with the set datum plane.
+Point must be defined on the set datum plane surface.
+점이 반드시 세트 데이텀 평면 서피스에 정의되어야 합니다.
+
+%CEThere is no room for font %0w.
+There is no room for font %0w.
+글꼴 %0w를 위한 공간이 부족합니다.
+
+%CLTLBPipe Line
+Pipe Line
+파이프 라인
+
+%CLTLBNeutral Wire List
+Neutral Wire List
+Neutral 와이어 목록
+
+%CIDraft Line Split
+Datum Curve: Split
+데이텀 커브: 분할
+
+%CLTLBJava Class Archive
+Java Class Archive
+Java Class Archive
+
+%CIModel %0w has been added to dwg %1w.
+%0w has been added to drawing %1w.
+%0w은 드로잉 %1w에 추가되었습니다.
+
+%CLTLBICEM
+ICEM
+ICEM
+
+%CLTLBCavity Layout Rule
+Cavity Layout Rule
+캐비티 레이아웃 규칙
+
+%CLTLBFrames File
+Frames File
+프레임 파일
+
+%CLDWGDefault Wit Line
+Default Wit Line
+기본 치수 보조선
+
+%CPSet the witness lines to default.
+Set the witness lines to default.
+치수 보조선을 기본을 설정합니다.
+
+%CLTLBPro/Desktop
+Pro/Desktop
+Pro/Desktop
+
+%CLTLBFEM Nastran File
+FEM Nastran File
+FEM Nastran 파일
+
+%CLTLBFEM XDB File
+FEM XDB File
+FEM XDB 파일
+
+%CIDatum Curve Projected
+Datum Curve: Projected
+데이텀 커브: 투영
+
+%CPLost license, will hibernate
+Lost floating license! Select "Save", "Retry", or "Exit".
+부동 라이센스 상실! "저장," "재시도" 또는 "나가기" 선택하십시오.
+
+%CWLost option, will hibernate
+Lost %0s license. Select "Save", "Retry", or "Exit".
+%0s 라이센스 상실. "저장," "재시도" 또는 "나가기" 선택하십시오.
+
+%CICurve From Equation
+From Equation
+방정식으로부터
+
+%CICurve Composite
+Composite
+복합소재
+
+%CICurve Sketch
+Sketched
+스케치됨
+
+%CICurve Projected Sket Sec
+Projected, Sketched Section
+투영된, 스케치된 단면
+
+%CICurve Projected Sel Sec
+Projected, Selected Section
+투영된, 선택된 단면
+
+%CLTLBCatalog Rule
+Catalog Rule
+카탈로그 규칙
+
+%CLTLBGeomToolModel
+GeomToolModel
+형상공구모델
+
+%CPDo you want existing molding(s) to be affected by the component? [Y]:
+Do you want existing molding(s) to be affected by the component?|||Yes
+기존 몰딩이 이 컴포넌트에 의해 영향받도록 하시겠습니까?|||예
+
+%CPDo you want existing cast result(s) to be affected by the component? [Y]:
+Do you want existing cast result(s) to be affected by the component?|||Yes
+기존 캐스트 결과가 이 컴포넌트에 의해 영향받도록 하시겠습니까?|||예
+
+%CPSelect curve for spine.
+Select curve for spine.
+주축에 대한 커브를 선택하십시오.
+
+%CLTBLMPEG
+MPEG
+MPEG
+
+%CLTLBWelding Process
+Welding Process
+용접 프로세스
+
+%CLTLBNC Strategy File
+NC Strategy File
+NC 전략 파일
+
+%CLTLBOptegra Vis
+Optegra Vis
+Optegra Vis
+
+%CLTLBMedusa
+Medusa
+Medusa
+
+%CLTLBXPatch
+XPatch
+XPatch
+
+%CLTLBShrinkwrap
+Shrinkwrap
+슈링크랩
+
+%CLTLBMotion Envlp
+Motion Envlp
+동작 범위
+
+%CLTLB
+4D Navigator
+4D Navigator
+
+%CLTLBCATIA Session Direct
+CATIA Session Direct
+직접 CATIA Session
+
+%CWSelected point is not on cylinder surface.
+Selected point is not on cylinder surface.
+선택한 점이 원통 서피스상에 있지 않습니다.
+
+%CLTLB4D Navigator
+4D Navigator
+4D Navigator
+
+%CLTLBACIS File
+ACIS File
+ACIS 파일
+
+%CLTLBWeld Process
+Weld Process
+용접 프로세스
+
+%CLTLBParameter
+Parameter
+매개변수
+
+%CLTLBGeom Type
+Geom Type
+형상 유형
+
+%CLTLBX-Sec Plane
+X-Sec Plane
+횡단면
+
+%CLTLBTraj direction
+Traj direction
+궤적 방향
+
+%CLTLBBMP
+BMP
+BMP
+
+%CLTLBPNG
+PNG
+PNG
+
+%CLTLBWWW
+WWW
+WWW
+
+%CLTLBPOLTXT
+POLTXT
+POLTXT
+
+%CLTLBSymbol Parameters
+Symbol Parameters
+기호 매개변수
+
+%CLTLBSHIP-IT
+SHIP-IT
+SHIP-IT
+
+%CLTLBMedusa (s.*)
+Medusa (s.*)
+Medusa (s.*)
+
+%CLTLBMedusa (*.she)
+Medusa (*.she)
+Medusa (*.she)
+
+%CLTLBBend Table
+Bend Table
+벤드 테이블
+
+%CLTLBXML
+XML
+XML
+
+%CLTLBHPGL2
+HPGL2
+HPGL2
+
+%CLTLBGERBER
+GERBER
+GERBER
+
+%CLTLBHPGL
+HPGL
+HPGL
+
+%CECurrently modified volume cannot be used as a replacement quilt.
+Currently modified volume cannot be used as a replacement quilt.
+현재 수정된 볼륨은 대체 퀼트로 사용할 수 없습니다.
+
+%CEFeature aborted. Revolve angle too small.
+Feature aborted. Revolve angle too small.
+피쳐가 중단되었습니다.회전 각도가 너무 작습니다.
+
+%CLTLBGranite File
+Granite File
+Granite 파일
+
+TLBParasolid
+Parasolid
+파라솔리드
+
+%CLTLBAppearance
+Appearance
+모양새
+
+%CLTLBAdobe Illustrator
+Adobe Illustrator
+Adobe Illustrator
+
+%CI Setting File Names
+ Setting File Names
+ 파일 이름 설정
+
+%CI General Setting
+ General Setting
+ 일반 설정
+
+%CI Orientation Setting
+ Orientation Setting
+ 방향 설정
+
+%CI Curve Setting
+ Curve Setting
+ 커브 설정
+
+%CI Stiffener Setting
+ Stiffener Setting
+ 보강재 설정
+
+%CI IGES Setting
+ IGES Setting
+ IGES 설정
+
+%CLTLBGranite Application File
+Granite Application File
+응용 프로그램 파일
+
+%CLTLBPro/Desktop Direct
+Pro/DESKTOP Direct
+Pro/DESKTOP 직접
+
+%CENo Plug-In available for %0s
+No Plug-In available for %0s
+%0s와 사용할 수 있는 플러그인 없음
+
+%CIPlug-in %0s supports file type %1s
+Plug-in %0s supports file type %1s
+플러그인 %0s는 파일 유형 %1s(을)를 지원합니다
+
+%CEPlug-in %0s failed to open file %1s
+Plug-in %0s failed to open file %1s
+플러그인 %0s(이)가 파일 %1s(을)를 열지 못했습니다
+
+%CEFailed to load Plug-in %0s
+Failed to load Plug-in %0s
+플러그인 %0s 로드 실패
+
+%CENone of the available Plug-ins can load the file %0s
+None of the available Plug-ins can load the file %0s
+파일 %0s(을)를 로드할 수 있는 사용가능한 플러그인이 없습니다
+
+%CI Shell Expansion Setting
+ Shell Expansion Setting
+ 셸 확장 설정
+
+%CLTLBTerminator
+Terminator
+종료자
+
+%CLTLBWeb Page
+Web Page
+웹페이지
+
+%CLTLBText File
+Text File
+텍스트 파일
+
+%CIRegained license
+Regained %0s license; you can resume working.
+%0s 라이센스가 회복되었습니다. 다시 작업할 수 있습니다.
+
+%CIRegained option
+Regained %0s license.
+%0s 라이센스가 회복되었습니다.
+
+%CLTLBPDGS Direct
+PDGS Direct
+PDGS Direct
+
+%CLTLBProductView
+ProductView
+ProductView
+
+%CLTLBThermal Modeler Data
+Thermal Modeler Data
+Thermal Modeler 데이터
+
+%CLTLBFEM Mesh Part
+FEM Mesh Part
+FEM 메쉬 부품
+
+%CLTLBFEM Mesh Assembly
+FEM Mesh Assembly
+FEM 메쉬 어셈블리
+
+%CLTLBFEM Results Part
+FEM Results Part
+FEM 결과 부품
+
+%CLTLBFEM Results Assembly
+FEM Results Assembly
+FEM 결과 어셈블리
+
+%CLTLBFEM Results
+FEM Results
+FEM 결과
+
+%CLTLBFEM Mesh/Results
+FEM Mesh/Results
+FEM 메쉬/결과
+
+%CLTLBMdl Tree Config
+Model Tree Configuration File
+모델 트리 구성 파일
+
+%CIDatum Curve Formed
+Datum Curve: Formed
+데이텀 커브:형
+
+%CIDatum Curve Two Projs
+Datum Curve: Two Projections
+데이텀 커브:두 투영
+
+%CIDatum Curve Intr. Srf
+Datum Curve: Surface Intersection 
+데이텀 커브:서피스 교차
+
+%CLTLBServer configuration
+Servers Configuration File
+서버 구성 파일
+
+%CLTLBVtx File
+Vtx File
+Vtx 파일
+
+%CLTLBACS File
+ACS File
+ACS 파일
+
+%CLTLBMechanica Mesh Part
+Mechanica Mesh Part
+Mechanica 메쉬 부품
+
+%CLTLBMechanica Mesh Assembly
+Mechanica Mesh Assembly
+Mechanica 메쉬 어셈블리
+
+%CLTLBMechanica/FEM Common DB
+Mechanica/FEM Common DB
+Mechanica/FEM 공통 DB
+
+%CLTLBMechanica Table Data
+Mechanica Table Data
+Mechanica 테이블 데이터
+
+%CLTLBMechanism Playback File
+Mechanism Playback File
+메커니즘 재생 파일
+
+%CLTLBAnimation Playback File
+Animation Playback File
+애니메이션 재생 파일
+
+%CLTLBMechanism Frame File
+Mechanism Frame File
+메커니즘 프레임 파일
+
+%CLTLBGraph Tabular File
+Graph Tabular File
+그래프 도표 파일
+
+%CLTLBZip File
+Zip File
+압축 파일
+
+%CLTLBDbatch File
+Distributed Batch File
+분산 배치 파일
+
+%CLTLBEnvironment
+Environment
+환경
+
+%CLTLBWavefront
+Wavefront
+Wavefront
+
+%CIDiameter = %g, Depth = %g
+Diameter = %0g, Depth = %1g
+지름 = %0g, 깊이 = %1g
+
+%CLTLBVersatec
+Versatec
+Versatec
+
+%CLTLBCalcomp
+Calcomp
+Calcomp
+
+%CWWARNING: obsolete group %w has been ungrouped.
+WARNING: obsolete group %0w has been ungrouped.
+경고: 비유효 그룹 %0w의 그룹화가 해제되었습니다.
+
+%CPSelect a point to move (BUTTONS: L=Select, M=Done, R=Query Sel).
+Select a point to move. (Mouse buttons: Left = Select, Middle = OK, Right = Query).
+이동할 점을 선택하십시오. (마우스 버튼: 왼쪽=선택, 중간=확인, 오른쪽=순차선택).
+
+%CEInvalid group id %d. %d is non-existant.
+Invalid group id %0d. %1d is non-existent.
+그룹 id %0d은 유효하지 않습니다. %1d은 존재하지 않습니다.
+
+%CLTLBPro Table
+Pro Table
+Pro Table
+
+%CLTLBInput File
+Input File
+입력 파일
+
+%CLTLBI-DEAS Model
+I-DEAS Model
+I-DEAS 모델
+
+%CLTLBI-DEAS Package
+I-DEAS Package
+I-DEAS 패키지
+
+%CPselect %0w %1w %2w
+Select %0w, %1w or %2w.
+%0w, %1w 또는 %2w을 선택하십시오.
+
+%CPselect %0w %1w %2w %3w %4w %5w %6w %7w %8w %9w
+Select %0w, %1w, %2w, %3w, %4w, %5w, %6w, %7w, %8w or %9w.
+%0w, %1w, %2w, %3w, %4w, %5w, %6w, %7w, %8w 또는 %9w을 선택하십시오.
+
+%CPselect %0w %1w %2w %3w %4w %5w %6w %7w %8w %9w %10w
+Select %0w, %1w, %2w, %3w, %4w, %5w, %6w, %7w, %8w, %9w or %10w.
+%0w, %1w, %2w, %3w, %4w, %5w, %6w, %7w, %8w, %9w 또는 %10w을 선택하십시오.
+
+%CPselect %0w %1w %2w %3w %4w %5w %6w %7w %8w %9w %10w %11w
+Select %0w, %1w, %2w, %3w, %4w, %5w, %6w, %7w, %8w, %9w, %10w or %11w.
+%0w, %1w, %2w, %3w, %4w, %5w, %6w, %7w, %8w, %9w, %10w 또는 %11w을 선택하십시오.
+
+%CPselect %0w %1w %2w %3w %4w %5w %6w %7w %8w %9w %10w %11w %12w
+Select %0w, %1w, %2w, %3w, %4w, %5w, %6w, %7w, %8w, %9w, %10w, %11w or %12w.
+%0w, %1w, %2w, %3w, %4w, %5w, %6w, %7w, %8w, %9w, %10w, %11w 또는 %12w을 선택하십시오.
+
+%CPselect %0w %1w %2w %3w %4w %5w %6w %7w %8w %9w %10w %11w %12w %13w
+Select %0w, %1w, %2w, %3w, %4w, %5w, %6w, %7w, %8w, %9w, %10w, %11w, %12w or %13w.
+%0w, %1w, %2w, %3w, %4w, %5w, %6w, %7w, %8w, %9w, %10w, %11w, %12w 또는 %13w을 선택하십시오.
+
+%CLTLBXML GPI file
+XML GPI file 
+XML GPI 파일 
+
+%CLTLBCSV File
+CSV File
+CSV 파일
+
+%CLTLBMech Results Directory
+Mech Results Directory
+Mech 결과 디렉토리
+
+%CLTLBLightworksArchive
+Lightworks Archive
+Lightworks 아카이브
+
+%CLTLBScene
+Render Scene
+장면 렌더링
+
+%CLTLBECAD 3DIC 
+ECAD 3DIC
+ECAD 3DIC
+
+%CLTLBECAD 3DIC OA
+ECAD 3DIC OA
+ECAD 3DIC OA
+
+%CLTLBNASTRAN input
+NASTRAN input
+NASTRAN 입력
+
+%%CLTLBParameter UI config
+Parameter UI config
+매개변수 UI 구성
+
+%CLTLBCSV Table Drawing
+CSV Table Drawing
+CSV 테이블 드로잉
+
+%CLTLBECAD EDA 
+ECAD EDA
+ECAD EDA
+
+%CLTLBHDR
+HDR
+HDR
+
+%CLTLBEXR
+EXR
+EXR
+
+%CIThese options control dimension tolerances
+These options control dimension tolerances
+치수 공차 제어 옵션
+
+%CLa draft datum point
+a draft datum point
+데이텀 점
+
+%CLan axis endpoint
+an axis endpoint
+축 끝점
+
+%CLaxis endpoints
+axis endpoints
+여러 축 끝점
+
+%CLa coordinate system vector
+a coordinate system vector
+좌표계 벡터
+
+%CLcoordinate system vectors
+coordinate system vectors
+여러 좌표계 벡터
+
+%CLTLBParameter UI Config
+Parameter UI Config
+매개변수 UI 구성
+
+%CPEnter thickness [-QUIT-]:
+Enter thickness [-Quit-]:
+두께 입력[-중지-]:
+

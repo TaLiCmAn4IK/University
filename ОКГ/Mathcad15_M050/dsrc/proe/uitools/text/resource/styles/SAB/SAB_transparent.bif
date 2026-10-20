@@ -1,0 +1,14 @@
+!
+! 15-May-07 L-01-32  AW      $$1  Created
+!
+
+(Image SAB_transparent
+    (Resources
+        (.Width     7)
+        (.Height    7)
+        (.Depth     8)
+    )
+    (Data
+        CEC1FF
+    )
+)

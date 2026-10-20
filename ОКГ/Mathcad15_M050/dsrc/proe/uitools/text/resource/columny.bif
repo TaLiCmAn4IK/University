@@ -1,0 +1,22 @@
+!----------------------------------------------------------------------------
+!
+!  Date      Release Name  Ver.  Comments
+! ---------- ------- ----- ----- --------------------------------------------
+! 23-Jul-97  H-03-15  DXU  $$1   Created
+! 15-Jan-01  J-01-25  pmu  $$2   Updated
+! 18-Mar-02 J-03-21 TLH $$03  Recolored
+!----------------------------------------------------------------------------
+(Image columny
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        0FFFFFFF03F0FD000D100D200DE0300D400D500D600D6C0515000001007C0978
+        0D8C0D6C0DB80DC80DD80D1EE00100009901F00D001D101D002019E00D3C1D4C
+        1D5C1D2C197C0D781D008C1D601DB81DC81DD81D6C1D7C1DF81D000C2DE01D38
+        2D482D582DEC1DFC1D782D008C2D602DB82DC82DD82D6C2D7C2DF82D000C3DE0
+        2D383D483D583DEC2DFC2D783D008C3D603DB83DC83DD83DE831
+    )
+)

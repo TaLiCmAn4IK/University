@@ -1,0 +1,24 @@
+# {100} (100) [0] lpcfg_optwgsweb.Label
+Windchill Graphics Web Server Access Settings
+Windchill Graphics 웹 서버 액세스 설정
+
+# [1] lpcfg_optwgsweb2.Label
+Windchill Graphics Web Server Access Settings
+Windchill Graphics 웹 서버 액세스 설정
+
+# [2] HostNameLab.Label
+Web Server Hostname:
+웹 서버 호스트 이름:
+
+# [3] UserPassLab.Label
+Password:
+암호:
+
+# [4] UserNameLab.Label
+User Name:
+사용자 이름:
+
+# [5] TextArea.Value
+Specify the Windchill Graphics Web Server and User Name and Password for Authentication
+인증을 설정할 Windchill Graphics 웹 서버와 사용자 이름 및 암호를 지정하십시오.
+

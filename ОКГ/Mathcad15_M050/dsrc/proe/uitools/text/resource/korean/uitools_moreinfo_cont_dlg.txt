@@ -1,0 +1,28 @@
+# {100} (100) [0] uitools_moreinfo_cont_dlg.Label
+No need to translate
+변환 필요 없음
+
+# [1] msg.Label
+No need to translate 
+변환 필요 없음 
+
+# [2] futureCB.Label
+&In the future, do not show this message
+앞으로 이 메시지 표시 안 함(&I)
+
+# [3] moreBtn.Label
+&More Info...
+자세한 정보(&M)...
+
+# [4] moreBtn.HelpText
+Get more information
+추가 정보 보기
+
+# [5] contBtn.Label
+&Continue
+계속(&C)
+
+# [6] contBtn.HelpText
+Close dialog and continue with the execution of the functionality
+대화상자를 닫고 기능 실행을 계속합니다
+

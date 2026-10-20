@@ -1,0 +1,23 @@
+!----------------------------------------------------------------------------
+!
+!  Date      Release Name  Ver.  Comments
+! ---------- ------- ----- ----- --------------------------------------------
+! 30-Oct-97  H-03-29  plm  $$1  Created.
+!----------------------------------------------------------------------------
+(Image new
+    (Resources
+        (.Width     14)
+        (.Height    14)
+        (.Depth     4)
+    )
+
+    (Data
+        FFFFFFFFFFFF0B00FFFFFFFFFFFFFFFFFFFFFF0B0B0B00FFFFFFFFFFFFFFFFFF
+        FF0B0B0B00FFFFFFFFFFFFFFFFFF0B0B0B0B0B00FFFFFFFFFFFFFFFF0B0B0000
+        0B00FFFFFFFFFFFFFF0B0B0B00000B0B00FFFFFFFFFFFF0B0B0B00000B0B00FF
+        FFFFFFFF0B0B0B0B00000B0B0B00FFFFFFFF0B0B0B0B00000B0B0B00FFFFFF0B
+        0B0B0B0B0B0B0B0B0B0B00FFFF0B0B0B0B0B00000B0B0B0B00FF0B0B0B0B0B0B
+        00000B0B0B0B0B000B0B0B0B0B0B0B0B0B0B0B0B0B0000000000000000000000
+        00000000
+    )
+)

@@ -1,0 +1,28 @@
+# {70186} (7) [0] cdrs_1.Label
+Locate Other Installation Directories (Optional)
+Andere Installationsverzeichnisse suchen (optional)
+
+# [1] AppMgrDirLab.Label
+PTC Application Manager
+PTC Applikations-Manager
+
+# [2] CDRSGraphLibDirLab.Label
+PTC Graphic Library
+PTC Grafik-Bibliothek
+
+# [3] DivisionDirLab.Label
+DIVSION MockUp
+DIVSION MockUp
+
+# [4] cdrs_2.Label
+Optional Inputs
+Optionale Eingaben
+
+# [5] ProeCmdLab.Label
+Pro/ENGINEER Command
+Pro/ENGINEER Startbefehl
+
+# [6] PaintCmdLab.Label
+3DPAINT Command
+3DPAINT Startbefehl
+

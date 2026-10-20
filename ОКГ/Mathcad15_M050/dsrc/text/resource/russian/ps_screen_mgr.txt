@@ -1,0 +1,80 @@
+# {100} (100) [0] ps_screen_mgr.Label
+Screen Manager
+Менеджер экрана
+
+# [1] FileMenuPane.Label
+File
+Файл
+
+# [2] LoadTrail.Label
+Load Trail
+Загрузить Протокол
+
+# [3] Exit.Label
+Exit
+Выход
+
+# [4] DebugMenuPane.Label
+Debug
+Отладка
+
+# [5] RunMode.Label
+Set Runmode
+Задать режим выполнения
+
+# [6] Dbglvl_cascade.Label
+Set Debug Level
+Задать уровень отладки
+
+# [7] DebugSave.Label
+Save Debug
+Сохранить отладку
+
+# [8] DebugSave.HelpText
+Save text in debug window to a file
+Сохранить текст в окне отладке в файл
+
+# [9] DumpScreen.Label
+Dump Screen
+Дамп экрана
+
+# [10] DumpTopLevel.Label
+Dump Top Level
+Дамп верхнего уровня
+
+# [11] ClearScreen.Label
+Clear Window
+Очистить окно
+
+# [12] DebugShow.Label
+Show
+Показать
+
+# [13] Dbglvl.Labels.0
+None
+Нет
+
+# [14] Dbglvl.Labels.1
+Abort
+Прервать
+
+# [15] Dbglvl.Labels.4
+Error
+Ошибка
+
+# [16] Dbglvl.Labels.7
+Warning
+Предупреждение
+
+# [17] Dbglvl.Labels.10
+Diagnose
+Диагностика
+
+# [18] Dbglvl.Labels.13
+Info
+Данные
+
+# [19] Dbglvl.Labels.17
+Verbose
+Подробно
+

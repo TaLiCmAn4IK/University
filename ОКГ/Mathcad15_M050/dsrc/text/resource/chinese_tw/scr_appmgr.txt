@@ -1,0 +1,52 @@
+# {100} (100) [0] scr_appmgr.Label
+PTC Application Manager Preferences
+PTC應用程式管理員偏好
+
+# [1] MenuLayout.Label
+Menu
+選單
+
+# [2] CmdTreeAdd.Label
+Add
+新增 
+
+# [3] CmdTreeEdit.Label
+Edit
+編輯
+
+# [4] CmdTreeDelete.Label
+Delete
+刪除
+
+# [5] TextArea3.Value
+Create and edit startup commands that appear in the Application Manager's Start menu
+建立並編輯顯示在「應用程式管理員」開始選單中的啟動指令
+
+# [6] PositionLayout.Label
+Position
+位置
+
+# [7] AutoHide.Label
+Auto Hide
+自動隱藏
+
+# [8] PositionType.Labels.horizontal_top
+Horizontal Top
+水平頂面
+
+# [9] PositionType.Labels.horizontal_bottom
+Horizontal Bottom
+水平底面
+
+# [10] PositionType.Labels.vertical_left
+Vertical Left
+垂直左側
+
+# [11] PositionType.Labels.vertical_right
+Vertical Right
+垂直右側
+
+# [12] TextArea1.Value
+Specify PTC Application Manager start location and window attributes
+指定「PTC應用程式管理員」的開始位置和視窗屬性
+

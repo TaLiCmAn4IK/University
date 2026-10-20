@@ -1,0 +1,16 @@
+# {100} (100) [0] RadioMime.Labels.0
+Modify current user MIME type information only
+Изменить информацию о типе расширения MIME только для текущего пользователя
+
+# [1] RadioMime.Labels.1
+Modify global Netscape MIME type registration information
+Изменить глобальную информацию о регистрации типа расширения MIME Netscape
+
+# [2] Label1.Label
+Specify directory where global mime.types and mailcap files reside
+Укажите каталог для глобальных файлов mime.types и mailcap
+
+# [3] GlobalDirBrowse.Label
+Browse
+Просмотр
+

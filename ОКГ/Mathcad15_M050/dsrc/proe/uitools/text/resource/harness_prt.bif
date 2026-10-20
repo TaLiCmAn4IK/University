@@ -1,0 +1,17 @@
+!*============================================================
+!* Date       Release  Name   Ver.        Comments
+!*------------------------------------------------------------
+!  20-May-08 L-03-09 EMas     $$1     Submitted.
+!
+(Image harness_prt
+    (Resources
+        (.Width     16)
+        (.Height    15)
+        (.Depth     4)
+    )
+    (Data
+        D2FFC708C2FF08C5060808C1FF08C506080608C0FFC708060608C0FFC60E0806
+        0608C0FFC60E08060608C0FFC60E08060608C0FFC60E08060608C0FFC60E0806
+        0608C0FFC60E080608C1FFC60E0808C2FFC60E08C1C1FF
+    )
+)

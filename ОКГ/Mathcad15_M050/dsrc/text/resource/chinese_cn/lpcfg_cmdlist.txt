@@ -1,0 +1,24 @@
+# {} (6) [0] cmd_add.Label
+Add
+添加
+
+# [1] cmd_edit.Label
+Edit
+编辑
+
+# [2] cmd_del.Label
+Delete
+删除
+
+# [3] Label1.Label
+License Configurations
+许可证配置
+
+# [4] lpcfg_cmdlist2.Label
+Advanced
+高级
+
+# [5] TALayout.Label
+Instructions
+指令
+

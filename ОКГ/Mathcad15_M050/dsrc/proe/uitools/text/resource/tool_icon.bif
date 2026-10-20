@@ -1,0 +1,15 @@
+!
+! 15-Mar-06 L-01-04 AlexM $$1 Created 
+!
+(Image tool_icon
+    (Resources
+        (.Width     15)
+        (.Height    15)
+        (.Depth     8)
+    )
+    (Data
+        CDFFC70FC010C0FFC40F240FC010C1FFC30F240FC010C2FFC20F24C10FC3FF0F
+        C4240FC4FFC00F240FC010C5FF0F0F240FC010C6FF0F240FC010C7FFC00F1010
+        C8FFC00F10C9FFC00FCAFF0F0FCBFF0FCDFF
+    )
+)

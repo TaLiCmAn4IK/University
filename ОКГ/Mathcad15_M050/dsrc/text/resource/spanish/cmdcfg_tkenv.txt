@@ -1,0 +1,12 @@
+# {0} (3) [0] tkenv_1.Label
+Locate Other Installation Directories (Optional)
+Localizar otros directorios de instalación (opcional)
+
+# [1] tkenv_2.Label
+Optional Inputs
+Entradas opcionales
+
+# [2] ProeCmdLab.Label
+Pro/ENGINEER Command
+Comando de Pro/ENGINEER
+

@@ -1,0 +1,20 @@
+# {0} (5) [0] Label6.Label
+Data Server Hostname
+Nom d'hôte du serveur de données
+
+# [1] Label5.Label
+Server Type:
+Type de serveur :
+
+# [2] MS_SS_Radio.Labels.MS
+Multi-Site
+Multisite
+
+# [3] MS_SS_Radio.Labels.SS
+Single-Site
+Site unique
+
+# [4] scr_dbssvr3.Label
+Instructions
+Instructions
+

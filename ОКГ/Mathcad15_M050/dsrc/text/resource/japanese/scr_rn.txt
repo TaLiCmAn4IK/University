@@ -1,0 +1,12 @@
+# {0} (3) [0] scr_rn_gateway.Label
+Gateway
+Gateway
+
+# [1] HTTPPortLab.Label
+Port Number
+ポート番号
+
+# [2] DUNSLab.Label
+DUNS Number
+DUNS番号
+

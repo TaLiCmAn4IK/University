@@ -1,0 +1,8 @@
+# {100} (100) [0] OkPshBtn.Label
+OK
+确定
+
+# [1] CancelPshBtn.Label
+Cancel
+取消
+

@@ -1,0 +1,12 @@
+# {100} (100) [0] scr_optgwsrvc2.Label
+Optegra Gateway Service Settings
+Установки службы шлюза Optegra
+
+# [1] LogFileLab.Label
+Trace Filename
+Имя файла трассировки
+
+# [2] CabinetPathLab.Label
+Windchill Cabinet/Folder Name
+Имя кабинета или папки Windchill
+

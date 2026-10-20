@@ -1,0 +1,12 @@
+# {100} (100) [0] Label1.Label
+Creo Elements/Pro installation directory
+Directorio de instalación de Creo Elements/Pro
+
+# [1] Label7.Label
+Select Creo Elements/Pro Command
+Seleccionar comando de Creo Elements/Pro
+
+# [2] lpcfg_mechi2.Label
+Instructions
+Instrucciones
+

@@ -1,0 +1,221 @@
+// 10-Mar-00 $$1  TWH  Created.
+// 28-Apr-00 $$2  TWH  Add animation; drop LpcfgProHelp
+// 17-Aug-00 $$3  TWH  fix case ezprop keys
+// 30-Jan-01 $$4  TWH  Add CmdType Prop values
+// 31-Jan-02 $$5  MAZ  Use ptchostid script
+// 15-May-02 $$6  ALG  Add Cdsection "uitools_res" to proe_base
+// 02-Jul-02 $$7  MAZ  Rm pdgs script
+// 10-Oct-02 $$8  MAZ  Use proelogo for shortcuts
+// 29-Oct-02 J-03-37  ALG  $$9  SPR 985737: Add UnregServerDll to proe_base
+// 11-Dec-02 J-03-40  MAZ  $$10 Add ScreenStudentLic screen
+// 20-Jan-03 J-03-40+ MAZ  $$11 Add ProgramID journeystudent, add VersionDir
+// 17-Apr-03 J-03-43+ MAZ       Externalize command creation information
+// 21-Apr-03 K-01-05  MAZ  $$12 Update from J-03
+// 04-Mar-03 K-01-06  TWH       LpcfgWindows->ScreenWindows
+// 02-May-03 K-01-06  MAZ  $$13 Add proe_shortcut CmdType
+// 21-Jul-03 K-01-11 $$14  JJE  Add ptcborrow and ptcreturn scripts
+// 15-Dec-03 K-01-20 $$15  MAZ  Remove borrow scripts
+// 13-Apr-04 K-01-26 $$16  MAZ  Add WelcomeImage
+// 03-Jun-04 K-01-27+      MAZ  SPR 1086039: ProgramCmdName = proewildfire2-X
+// 07-Jun-04 K-03-03 $$17  MAZ  Sub to K-03
+// 21-Dec-04 K-03-19 $$18  MAZ  Modify ProgramCmdName
+// 22-Apr-05 K-03-23 $$19  MAZ  Modify ProgramFeature
+// 20-Dec-06 L-01-22 $$20  JJE  Remove Design Conferencing
+// 21-Dec-07 L-01-41 $$21  TWH  New Ad_list
+// 15-Jan-2008 L-01-42+  TWH  $$22  Rename Ads files
+// 05-Mar-08 L-03-05 $$23  TWH  chg WF3 to WF5 references
+// 04-Apr-08 L-03-06 $$24  TWH  mech fixes
+// 21-Apr-08 L-03-07 $$25  TWH  chg Welcome image;Add cdsections
+// 25-Apr-08 L-03-08       TWH  Chg programID
+// 01-May-08 L-03-08 $$26  TWH  Add Activation Code
+// 10-Sep-08 L-03-17 $$27  TWH  Rm pro_batch
+// 27-Jul-09 L-03-34 $$28  TWH  Update WF5 images
+// 04-Nov-09 L-03-36 $$29  TWH  Update WF5 images
+// 09-Mar-10 L-03-38 $$30  TWH  Update for WF5
+// 12-Mar-10 L-03-38 $$31  TWH  Add iculibs
+// 24-Mar-10 L-03-38+ $$32  TWH  fix whitespace; fix Mech name
+// 19-Apr-10 L-03-38+ $$33  TWH  chg ad list
+// 23-Apr-10 L-03-38+ $$34  TWH  Another SE image
+// 30-Apr-10 L-03-38+ $$35  TWH  More whitespace fixes
+// 20-May-10 L-03-39+ $$36  TWH  Add missing promech/vermodels
+// 04-Jan-11 L-03-42  $$37  TWH  Rebrand
+// 22-Feb-11 L-03-43  $$38  TWH  update name strings
+
+(Product student 
+    (Name                      "Creo Elements/Pro 5.0 Student Edition")
+    (Packages                  "proe_base"
+                               "promech"
+                               "proehelp"
+                               "uninstall")
+    (ProgramFiles              True)
+    (LpDirName                 "Creo Elements/Pro 5.0 Student Edition")
+    (VersionDir                False)
+    (Screens                   "ScreenStudentLic"
+                               "ScreenLicAgree"               
+                               "ScreenProd")
+    (Installed                 True)
+    (ActivationCode            True)
+    (SaveList                  "text/menu_def.pro"
+                               "text/config.pro")
+    (WebRegHyperLink           "webreg.html")
+    (ProgramID                 "proestudent5")
+    (ProgramCmdName            "proewildfire5-student")
+    (ProgramFeature            "PROE_StudentEdition5")
+    (PSF_EXE                   "proe.exe")
+    (WelcomeImage              "proeandmech_name.png")
+    (ScreenLpcfg.MsiLCB.productpoint  False)
+    (Ad_list                   "WF5_SE_01"
+                               "WF5_SE_02"
+                               "WF5_SE_03"
+                               "WF5_SE_04"
+                               "WF5_SE_05"
+                               "WF5_SE_12"
+                               "WF5_SE_06"
+                               "WF5_SE_07"
+                               "WF5_SE_08"
+                               "WF5_SE_09"
+                               "WF5_SE_10"
+                               "WF5_SE_11")
+)
+
+(Package proe_base
+    (Name                      "Creo Elements/Pro 5.0 Student Edition")
+    (OldTag                    "proe_pkg")
+    (Screens                   "ScreenWindows"
+                               "ScreenUnits"
+                               "LpcfgLinkpath" 
+                               "LpcfgProductPoint"
+                               "LpcfgThumbviewer"
+                               "LpcfgPvx")
+    (CmdTypes                  "proe"
+                               "proe_shortcut")
+    (Binscripts                "ptchostid"
+                               "tempmgr"
+                               "batch_status"
+                               "pro_b_exec"
+                               "protk_unlock"
+                               "proigsutil"
+                               "ptcflush"
+                               "ptcstatus"
+                               "propostl"
+                               "propostq"
+                               "propostg"
+                               "purge"
+                               "protab"
+                               "pro_mcs_comp"
+                               "pro_ncl_cvt"
+                               "procvter"
+                               "procvtutil"
+                               "convert_image"
+                               "image_to_mip"
+                               "pix2fb"
+                               "showmip"
+                               "ptcportmap"
+                               "pro_build_library_ctg")
+    (Cdsections                "ProE Tree"
+                               "ProeTreeTwo"
+                               "iculibs"
+                               "proe"
+                               "applstart"
+                               "uitools_res"
+                               "jre"
+                               "Install"
+                               "apps_data"
+                               "animation"
+                               "mechanism"
+                               "ncexpert"
+                               "weld_data"
+                               "Demos"
+                               "ModelCHECK"
+                               "introfiles"
+                               "proehelp"
+                               "flexclient"
+                               "thumbviewer"
+                               "pvexpress"
+                               "productpoint")
+    (Installed                 True)
+    (Required                  True)
+    (UnregServerDll            "_LP_\_ARCH_\lib\pfcscom.dll")
+)
+
+(Package promech
+    (Name                      "Creo Elements/Pro Mechanica Student Edition")
+    (SubPackages               "promech_pkg"
+                               "vermodels")
+    (Installed                 True)
+    (Visible                   False)
+    (EnvVarValues              "Append=PATH=_LP_\mech\bin")
+)
+
+(Package promech_pkg
+    (Name                      "Creo Elements/Pro Mechanica Student Edition")
+    (Cdsections                "mech"
+                               "mech2"
+                               "mech3"
+                               "mech4"
+                               "mech5"
+                               "mech6"
+                               "mech7"
+                               "mech8"
+                               "mech9"
+                               "mech10"
+                               "mech11"
+                               "mech12"
+                               "mech13"
+                               "mech14"
+                               "mech15"
+                               "mechInstall")
+    (Screens                   "LpcfgLinkpath")
+    (Installed                 True)
+)
+
+(Package vermodels
+    (Name                      "Verification Models")
+    (Cdsections                "Verification Models: Structure"
+                               "Verification Models: Motion")
+    (Installed                 True)
+    (Visible                   False)
+)
+
+(MSIAddon productpoint
+    (Name                      "productpoint")
+    (KeyCdSection              "productpoint")
+    (Lpcfg                     "LpcfgProductPoint")
+    (MSI                       "_LP_\install\addon\ProductPointClientManager.msi")
+)
+
+(MSIAddon thumbviewer
+    (Name                      "thumbviewer")
+    (KeyCdSection              "thumbviewer")
+    (Lpcfg                     "LpcfgThumbviewer")
+    (MSI                       "_LP_\install\addon\Thumbviewer__BIT_.msi")
+)
+
+(MSIAddon pvx
+    (Name                      "pvx")
+    (KeyCdSection              "pvexpress")
+    (Lpcfg                     "LpcfgPvx")
+    (MSI                       "_LP_\install\addon\ProductView_Express__BIT_.msi")
+)
+
+(CmdType proe
+    (Name                      "proe")
+    (DefName                   "proe")
+    (Type                      "Pro/ENGINEER")
+    (Prefixes                  "PROE_")
+    (Featvars                  "__PROE_FEATURE_NAME__")
+    (Template                  "proengineer_start")
+    (IconPath                  "_LP_\install\nt\proelogo.ico")
+    (IconIndex                 "0")
+    (UseExtensions             True)
+    (UseOptions                True)
+)
+
+(CmdType proe_shortcut
+    (Name                      "Creo Elements/Pro 5.0 Student Edition")
+    (Type                      "Shortcut")
+    (CmdPath                   "_LP_\bin\proe.exe")
+    (IconPath                  "_LP_\install\nt\proelogo.ico")
+    (IconIndex                 "0")
+)
+

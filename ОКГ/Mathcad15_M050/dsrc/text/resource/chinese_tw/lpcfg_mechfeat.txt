@@ -1,0 +1,72 @@
+# {100} (100) [0] StructUILab.Label
+Structure UI
+結構UI
+
+# [1] StructEngLab.Label
+Structure Engine
+結構引擎
+
+# [2] MotionUILab.Label
+Motion UI
+運動UI
+
+# [3] MotionEngLab.Label
+Motion Engine
+運動引擎
+
+# [4] ThermalUILab.Label
+Thermal UI
+熱分析UI
+
+# [5] ThermalEngLab.Label
+Thermal Engine
+熱引擎
+
+# [6] EqRuntimeLab.Label
+Equations Runtime
+方程式執行時間
+
+# [7] TireModelLab.Label
+Tire Model
+輪胎模型
+
+# [8] StructUIModify.Label
+Modify
+修改
+
+# [9] StructEngModify.Label
+Modify
+修改
+
+# [10] MotionUIModify.Label
+Modify
+修改
+
+# [11] MotionEngModify.Label
+Modify
+修改
+
+# [12] ThermalUIModify.Label
+Modify
+修改
+
+# [13] ThermalEngModify.Label
+Modify
+修改
+
+# [14] EqRuntimeModify.Label
+Modify
+修改
+
+# [15] TireModelModify.Label
+Modify
+修改
+
+# [16] Label10.Label
+Mechanica Module
+Mechanica 模組
+
+# [17] Label11.Label
+Licenses associated with the module
+與此模組相關的許可證
+

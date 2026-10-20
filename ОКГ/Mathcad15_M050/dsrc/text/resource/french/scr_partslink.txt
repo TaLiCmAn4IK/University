@@ -1,0 +1,80 @@
+# {61158} (31) [10] scr_partslink_common.Label
+Configuration Properties
+Propriétés de la configuration
+
+# [11] RMIPortLab.Label
+RMI Registry Port
+Port du registre RMI
+
+# [12] JvmHomeDirLab.Label
+Java SDK Home Directory
+Répertoire de connexion Java SDK
+
+# [13] scr_partslink_ports.Label
+Interface Ports
+Ports d'interface
+
+# [15] UpdateLab.Label
+Content Update
+Actualisation du contenu
+
+# [16] scr_partslink_stats.Label
+Statistics
+Statistiques
+
+# [17] StorageSizeLab.Label
+Maximum Statistics\nStorage Size (Mb)
+Statistiques\nCap Stockage max (Mo)
+
+# [18] StartDateLab.Label
+Fiscal Year Start Date
+Date de début de l'exercice fiscale
+
+# [19] StartDateMenu.Labels.1
+January
+janvier
+
+# [20] StartDateMenu.Labels.2
+February
+février
+
+# [21] StartDateMenu.Labels.3
+March
+mars
+
+# [22] StartDateMenu.Labels.4
+April
+avril
+
+# [23] StartDateMenu.Labels.5
+May
+mai
+
+# [24] StartDateMenu.Labels.6
+June
+juin
+
+# [25] StartDateMenu.Labels.7
+July
+juillet
+
+# [26] StartDateMenu.Labels.8
+August
+août
+
+# [27] StartDateMenu.Labels.9
+September
+septembre
+
+# [28] StartDateMenu.Labels.10
+October
+octobre
+
+# [29] StartDateMenu.Labels.11
+November
+novembre
+
+# [30] StartDateMenu.Labels.12
+December
+décembre
+

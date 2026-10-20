@@ -1,0 +1,36 @@
+# {100} (100) [0] button_edit.Label
+Button Editor
+Editor de botones
+
+# [1] OK.Label
+OK
+Aceptar
+
+# [2] Cancel.Label
+Cancel
+Cancelar
+
+# [3] Clear.Label
+Clear
+Despejar
+
+# [4] lay_pic.Label
+Picture
+Imagen
+
+# [5] lay_colors.Label
+Colors
+Colores
+
+# [6] lbl_erase.Label
+Erase:
+Borrar:
+
+# [7] lay_move.Label
+Move
+Mover
+
+# [8] lay_preview.Label
+Preview
+Vista previa
+

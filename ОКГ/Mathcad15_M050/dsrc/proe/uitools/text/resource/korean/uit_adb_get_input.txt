@@ -1,0 +1,24 @@
+# {100} (100) [0] uit_adb_get_input.Label
+Get Input
+입력 가져오기
+
+# [1] inp_panel_lay.Label
+Please input new label:
+새 이름표 입력:
+
+# [2] inp_panel.Value
+new_name
+new_name
+
+# [3] inp_panel.HelpText
+Rename the Menu or Cascade menu
+메뉴 또는 계단식 메뉴 이름바꾸기
+
+# [4] btnOK.Label
+OK
+확인
+
+# [5] btnCancel.Label
+Cancel
+취소
+

@@ -1,0 +1,40 @@
+# {0} (10) [0] scr_ilgate2.Label
+Gateways Settings
+Gateways 設定
+
+# [1] LogfileDirLab.Label
+Log File Directory
+ログファイルディレクトリ
+
+# [2] PubAgentLab.Label
+Publishing Agent
+パブリッシングエージェント
+
+# [3] RevMapLab.Label
+Revision Mapping
+リビジョンマッピング
+
+# [4] RevMapOption.ItemHelpText.ver_i
+VERSION_ITERATION
+VERSION_ITERATION
+
+# [5] RevMapOption.ItemHelpText.ver
+VERSION
+バージョン
+
+# [6] RevMapOption.ItemHelpText.none
+NONE
+なし
+
+# [7] RevMapOption.Labels.ver_i
+VERSION_ITERATION
+VERSION_ITERATION
+
+# [8] RevMapOption.Labels.ver
+VERSION
+バージョン
+
+# [9] RevMapOption.Labels.none
+NONE
+なし
+

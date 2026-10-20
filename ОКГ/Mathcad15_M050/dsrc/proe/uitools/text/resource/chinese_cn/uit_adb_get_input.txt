@@ -1,0 +1,24 @@
+# {100} (100) [0] uit_adb_get_input.Label
+Get Input
+得到输入
+
+# [1] inp_panel_lay.Label
+Please input new label:
+请输入新标签:
+
+# [2] inp_panel.Value
+new_name
+新名称
+
+# [3] inp_panel.HelpText
+Rename the Menu or Cascade menu
+重命名菜单或层叠菜单
+
+# [4] btnOK.Label
+OK
+确定
+
+# [5] btnCancel.Label
+Cancel
+取消
+

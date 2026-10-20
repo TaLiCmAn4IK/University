@@ -1,0 +1,26 @@
+; 30-Apr-09 L-03-32  Moti   $$1  Created
+; 14-May-09 L-03-33  Moti   $$2  Added splittoolbutton
+; 18-May-09 L-03-33  IKAL        Fixed the TextColor.
+
+
+[togglebutton]
+Font = -1
+
+[togglebutton(checked)]
+TextColor = 2 24 35
+
+[toolbutton]
+Font = -1
+
+[splitbutton]
+Font = -1
+
+[splittoolbutton]
+Font = -1
+
+[radiobuttonunset]
+Font = -1
+
+[radiobuttonset]
+Font = -1
+

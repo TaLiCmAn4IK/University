@@ -1,0 +1,13 @@
+! 10-Sep-07  L-01-38  aap    $$1   Copied from empty.bif for uitools
+
+(Image new
+    (Resources
+        (.Width     32)
+        (.Height    1)
+        (.Depth     4)
+    )
+
+    (Data
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    )
+)

@@ -1,0 +1,80 @@
+# {0} (21) [0] featwiz.Label
+Feature Wizard
+フィーチャー Wizard
+
+# [1] HostListAdd.Label
+Add
+追加
+
+# [2] HostListEdit.Label
+Edit
+編集
+
+# [3] HostListDelete.Label
+Delete
+削除
+
+# [4] HostActionLabel.Label
+Action Label
+アクションレベル
+
+# [6] LineTypeList.Labels.0
+SERVER
+サーバー
+
+# [7] LineTypeList.Labels.1
+DAEMON
+デーモン
+
+# [8] LineTypeList.Labels.2
+INCREMENT
+増分
+
+# [9] ActionLabel.Label
+ ------- Action line ---------
+ ------- 動作行 ---------
+
+# [10] OptionActionLabel.Label
+Select Options
+オプション選択
+
+# [11] OptListMod.Label
+Modify
+修正
+
+# [12] ChoiceGroup.Labels.1
+Yes
+Yes
+
+# [13] ChoiceGroup.Labels.2
+No
+No
+
+# [14] ChoiceLabel.Label
+Action line
+動作行
+
+# [15] BackButton.Label
+Back
+戻る
+
+# [16] NextButton.Label
+Next
+次
+
+# [17] HelpButton.Label
+Help
+ヘルプ
+
+# [18] CancelButton.Label
+Cancel
+キャンセル
+
+# [19] StepLabel.Label
+License Wizard - Step 1
+ライセンス Wizard - ステップ１
+
+# [20] DALayout.Label
+Sample License Line:
+サンプルライセンス行:
+

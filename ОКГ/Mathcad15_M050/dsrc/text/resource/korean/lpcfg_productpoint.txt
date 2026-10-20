@@ -1,0 +1,36 @@
+# {100} (100) [0] productpointSubLayout.Label
+Install location for ProductPoint
+ProductPoint 설치 위치
+
+# [1] sp_exists.Label
+Existing SharePoint Server information
+기존 SharePoint 서버 정보
+
+# [2] Label5.Label
+Name
+이름
+
+# [3] Label6.Label
+Location
+위치
+
+# [4] sp_name.Value
+ProductPoint
+ProductPoint
+
+# [5] sp_url.Value
+http://
+http://
+
+# [6] lpcfg_productpoint2.Label
+Instructions
+설명
+
+# [7] productpointSub2.Label
+Install Status
+설치 상태
+
+# [8] PP_Status.Label
+Not Installed\n\n
+설치되지 않음\n\n
+

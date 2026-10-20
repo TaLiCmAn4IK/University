@@ -1,0 +1,48 @@
+# {100} (100) [0] MasterPreviewTab.Label
+Open
+開く
+
+# [1] PreviewText.Value
+This is a text area.\nMaybe we could put the first \nfew lines of a text file here.
+これはテキスト領域です。\nテキストファイルの先頭の数行を\nここに入力できます。
+
+# [2] Label1.Label
+Preview not available.
+プレビューできません。
+
+# [3] PreviewCheckButton.HelpText
+Click the image for 3D view
+3D ビューで表示するにはイメージをクリック
+
+# [4] SelNameLbl.Label
+foo.prt.1
+foo.prt.1
+
+# [5] lbl_file_name.Label
+File name: 
+ファイル名: 
+
+# [6] SelDateLbl.Label
+12-Dec-87 12:22:22 PM
+12-Dec-87 12:22:22 PM
+
+# [7] lbl_file_date.Label
+Date modified: 
+修正日: 
+
+# [8] ClosePreview.Label
+Preview
+プレビュー
+
+# [9] ClosePreview.HelpText
+Hide Preview
+プレビューを非表示
+
+# [10] Preview.Label
+Preview
+プレビュー
+
+# [11] Preview.HelpText
+Show Preview
+プレビューを表示
+

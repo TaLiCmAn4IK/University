@@ -1,0 +1,32 @@
+# {0} (8) [0] lpcfg_iebroker2.Label
+E-Mail Broker Configuration
+Configuración de E-Mail Broker
+
+# [1] EmailServerLab.Label
+E-Mail Server Host Name
+Nombre de Host del servidor de correo electrónico
+
+# [2] UsernameLab.Label
+Account User Name
+Nombre de usuario de la cuenta
+
+# [3] PasswdLab.Label
+Account Password
+Contraseña de la cuenta
+
+# [4] FolderLab.Label
+E-Mail Folder
+Carpeta de correo electrónico
+
+# [5] AdminLab.Label
+Administrator E-Mail Address
+Dirección electrónica del administrador
+
+# [6] TimeLab.Label
+Time Between Checks (seconds)
+Tiempo entre verificaciones (segundos)
+
+# [7] DelCheckBox.Label
+Delete Processed Messages?
+¿Desea borrar los mensajes procesados?
+

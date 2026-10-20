@@ -1,0 +1,36 @@
+# {100} (100) [0] adb_designerShowMenuBar.Label
+Show/Hide MenuBar
+Показать/Скрыть строку меню
+
+# [1] adb_designerAddNewPage.Label
+Add Page
+Добавить страницу
+
+# [2] adb_designerInheritPage.Label
+Inherit Page
+Наследовать страницу
+
+# [3] adb_designerRenamePage.Label
+Rename Current Page
+Переименовать текущую страницу
+
+# [4] adb_designerRemovePage.Label
+Remove Current Page
+Удалить текущую страницу
+
+# [5] adb_designerAddNewGroup.Label
+Add Group
+Добавить группу
+
+# [6] adb_designerInheritGroup.Label
+Inherit Group
+Наследовать группу
+
+# [7] adb_designerAddEGPage.Label
+Add External Groups Page
+Добавить страницу внешних групп
+
+# [8] adb_designerRemoveEGPage.Label
+Remove External Groups Page
+Удалить страницу внешних групп
+

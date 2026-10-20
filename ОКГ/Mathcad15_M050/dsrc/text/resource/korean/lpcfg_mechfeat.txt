@@ -1,0 +1,72 @@
+# {0} (20) [0] StructUILab.Label
+Structure UI
+구조 UI
+
+# [1] StructEngLab.Label
+Structure Engine
+구조 엔진
+
+# [2] MotionUILab.Label
+Motion UI
+동작 UI
+
+# [3] MotionEngLab.Label
+Motion Engine
+동작 엔진
+
+# [4] ThermalUILab.Label
+Thermal UI
+열 UI
+
+# [5] ThermalEngLab.Label
+Thermal Engine
+열 엔진
+
+# [6] EqRuntimeLab.Label
+Equations Runtime
+방정식 실행
+
+# [8] TireModelLab.Label
+Tire Model
+타이어 모델
+
+# [9] StructUIModify.Label
+Modify
+수정
+
+# [10] StructEngModify.Label
+Modify
+수정
+
+# [11] MotionUIModify.Label
+Modify
+수정
+
+# [12] MotionEngModify.Label
+Modify
+수정
+
+# [13] ThermalUIModify.Label
+Modify
+수정
+
+# [14] ThermalEngModify.Label
+Modify
+수정
+
+# [15] EqRuntimeModify.Label
+Modify
+수정
+
+# [17] TireModelModify.Label
+Modify
+수정
+
+# [18] Label10.Label
+Mechanica Module
+Mechanica 모듈
+
+# [19] Label11.Label
+Licenses associated with the module
+모듈과 관련한 라이센스
+

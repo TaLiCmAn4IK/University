@@ -1,0 +1,76 @@
+# {100} (100) [0] ptcsetup.Label
+PTC.Setup
+PTC.Setup
+
+# [1] BackBtn.Label
+< &Back
+< &Anterior
+
+# [2] NextBtn.Label
+&Next >
+Si&guiente >
+
+# [3] ExitBtn.Label
+&Exit
+&Salir
+
+# [4] MainLayout.Label
+Install Product(s)
+Instalar producto(s)
+
+# [5] HelpCascadeBtn.Label
+Help
+Ayuda
+
+# [6] Banner_ScreenLabSm.Label
+Define Installation Components
+Definir los componentes de la instalación
+
+# [7] RTFBtn.Label
+Read this First
+Lea primero
+
+# [8] InstallGuideBtn.Label
+Installation Guide
+Manual de instalación
+
+# [9] CustomerSupportBtn.Label
+Services and Support
+Servicios y soporte
+
+# [10] item.Label
+<A>  &Install this feature
+<A>  &Instalar esta función
+
+# [11] all.Label
+<A>  Install &all sub-features
+<A>  Inst&alar todas las subfunciones
+
+# [12] none.Label
+<A>  Do &not install this feature
+<A>  &No instalar esta función
+
+# [13] item_2.Label
+<A>  &Install this feature
+<A>  &Instalar esta función
+
+# [14] none_2.Label
+<A>  Do &not install this feature
+<A>  &No instalar esta función
+
+# [15] all_d.Label
+<A>  &All sub-features are already installed
+<A>  &Ya se han instalado todas las subfunciones
+
+# [16] item_d.Label
+<A>  &Feature is already installed
+<A>  Ya se ha instalado la &función
+
+# [17] all_d_2.Label
+<A>  &Some sub-features are already installed
+<A>  Alguna&s subfunciones ya se han instalado
+
+# [18] none_3.Label
+<A>  Some sub-features will be &unavailable
+<A>  Alg&unas subfunciones no estarán disponibles
+

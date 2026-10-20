@@ -1,0 +1,37 @@
+// 13-Dec-99      TWH  Created
+// 30-Jan-01 $$1  JJE  Rename from lib_fit, Update with ansi/jis
+// 27-Jun-01 $$2  TWH  Add No_Bin_Dir
+
+(Product lib_piping 
+    (Name                      "Pipe Fitting Library")
+    (Packages                  "mech_piping"
+                               "ansi_piping"
+                               "jis_piping")
+    (ProgramFiles              False)
+    (LpDirName                 "fittinglib")
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+    (VersionDir                False)
+    (No_Bin_Dir                True)
+)
+(Package mech_piping
+    (Name                      "Pipe Fitting Library")
+    (Cdsections                "mandatory"
+                               "mechanical")
+    (Installed                 True)
+    (Binscripts                "pro_build_library_ctg")
+)
+(Package ansi_piping
+    (Name                      "ANSI Pipe Fitting Library")
+    (Cdsections                "mandatory"
+                               "ansi")
+    (Installed                 True)
+    (Binscripts                "pro_build_library_ctg")
+)
+(Package jis_piping
+    (Name                      "JIS Pipe Fitting Library")
+    (Cdsections                "mandatory"
+                               "jis")
+    (Installed                 True)
+    (Binscripts                "pro_build_library_ctg")
+)

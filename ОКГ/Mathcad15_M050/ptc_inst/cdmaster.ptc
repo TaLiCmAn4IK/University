@@ -1,0 +1,398 @@
+// 12-Apr-99 $$1  JJE  Created.
+// 24-Aug-99 $$2  JJE  Add Windchill products
+// 02-Sep-99      MYA  Change for new cd_creator
+// 13-Sep-99      JJE  Changes
+// 13-Sep-99 $$3  JJE  Group Submission
+// 21-Sep-99 $$4  JJE  Name update, add rtm
+// 20-Oct-99      OTT  Add cdrs and 3dpaint
+// 22-Oct-99 $$5  JJE  Name change for rtm
+// 01-Nov-99 $$6  MAZ  Add promech 
+// 30-Nov-99 $$7  MYA  Remove space after promech
+// 22-Nov-99 $$8  MYA  Add pdm
+// 13-Dec-99 $$9  MYA  change pdmsrv, pdmcli to propdm
+// 13-Dec-99 $$10 TWH  Add library CD's (lib_*)
+// 20-Dec-99 $$11 JJE  Add ptcdoc
+// 30-Dec-99 $$12 JJE  Add icem; add xsl to wpc
+// 11-Jan-00 $$13 JJE  New image names
+// 13-Jan-00 $$14 JJE  Fix image name for proe
+// 09-Feb-00 $$15 TWH  Add Intralink CD
+// 15-Feb-00 $$16 MYA  Add Pdm Toolkit
+// 10-Mar-00      TWH  Add prostudent & pas CD's
+// 13-Mar-00 $$17 JJE  No more rtm cd, no xsl on wpc
+// 22-Mar-00      MYA  Add mockup
+// 26-Mar-00 $$18 MAZ  Add infoengine, rm old wc_infoeng
+// 17-Apr-00      MYA  Add modelview and proflythru
+// 18-Apr-00      JJE  Move pas to wef, add wcdataserver
+// 18-Apr-00      MAZ  Add optegra gateway prods to wc_wef 
+// 25-Apr-00      JJE  Add images for fly, mv
+// 27-Apr-00      TWH  Add mechstudent
+// 02-May-00 $$19 TWH  Group Submission
+// 13-Jul-00 $$20 JJE  Updated product images
+// 03-Aug-00 $$21 JJE  Add icem interactive cd
+// 14-Sep-00 $$22 JJE  Change images to 2001 release number
+// 25-Sep-00 $$23 JJE  Use gif instead of jpg
+// 19-Sep-00      MAZ  Add CatiaSprt
+// 02-Oct-00 $$24 TWH  Add proitoolkit
+// 12-Oct-00      JJE  Rm wc_xsl from wc_found
+// 10-Oct-00 $$25 TWH  Add Rosettanet
+// 20-Oct-00 $$26 JJE  Add RSDesigner
+// 27-Oct-00 $$27 JJE  Image changes
+// 08-Nov-00 $$28 JJE  Rm rsd prod list so it's not dup'd
+// 15-Nov-00 $$29 JJE  Name change for rosettanet
+// 19-Dec-00 $$30 JJE  Add prokernel
+// 12-Jan-01 $$31 DAR  Added wc_projectlink.ptc
+// 17-Jan-01 $$32 TWH  change to proengineer production gif
+// 30-Jan-01      TWH/JJE lib_fit -> lib_piping
+// 30-Jan-01 $$33 TWH  wcdataserver became wcds in here
+// 01-Mar-01 $$34 JJE  Name change to Granite One
+// 14-Mar-01 $$35 JJE  Rm product setting for granite
+// 22-Mar-01 $$36 MAZ  Add "Server" to infoengine CD Name
+// 18-Apr-01      MAZ  Drop opt_gw_ie & rn_ie_adptr
+// 18-Apr-01 $$37 ALG  Add wc_dataloader, wc_cntrprt & wc_cpm
+// 09-May-01      ALG  Add wc_rtp
+// 11-May-01 $$38 ALG  wc_rosettanet: "Open B2B Applications" -> "PartsLink"
+// 21-May-01 $$39 JJE  New image for student
+// 25-May-01 $$40 ALG  Add CD "icemddn" (flexl, icemps to be done by DDN team)
+// 25-Jul-01      TWH  Add Pro/Convert CD
+// 07-Sep-01 $$41 DAR  Add wc_dplink "DynamicProductLink"
+// 27-Sep-01      DAR  Changed wc_dplink name
+// 27-Sep-01      DAR  Add ddl_autocad
+// 24-Oct-01      DAR  Add ddl_acadadpt
+// 25-Oct-01      MAZ  Add Enterprise Search (esearch) to wc_found
+// 30-Oct-01      MAZ  Use new windchill images
+// 31-Oct-01 $$42 MAZ  Update from J-01
+// 12-Nov-01 $$43 TWH  new intralink image
+// 10-Dec-01 $$44 MAZ  Change to tomcat and add partslink
+// 09-Jan-02 $$45 JJE  Add thermal modeler
+// 07-Jan-02      Anthony Added ccl_all
+// 17-Jan-02      MAZ  Add wc_plmlink CD and ccl_cpse to wc_partslink
+// 07-Feb-02      MAZ  Change PLMLink to PDMLink + add servicepack
+// 19-Feb-02      MAZ  Use pdmlink.gif instead of plmlink.gif
+// 18-Mar-02      TWH  New intralink image
+// 19-Mar-02 $$46 MAZ  Submit to J-03-21
+// 15-Apr-02 $$47 MAZ  Change solution names
+// 07-May-02 $$48 JJE  Add pro_wfpv
+// 13-May-02 $$49 JJE  Fix typo in image name
+// 09-Jul-02 $$50 JJE  Change the proe image
+// 18-Jul-02 $$51 JJE  Sneak Peek 2 will use Pro/E product
+// 01-Aug-02 $$52 JJE  Go back to regular Pro/E
+// 07-Oct-02 $$53 ECW  Add entry for EMX
+// 08-Nov-02 J-03-36 $$54 ECW  Add entry for PDX
+// 13-Nov-02 J-03-37 $$55 ECW  Change names of PDX/EMX images
+// 16-Dec-02 J-03-40      MAZ  Set ProdImage to proe_stu_wf.gif
+// 23-Dec-02 J-03-40      TWH  Chg thermal modeler image file
+// 07-Jan-03 J-03-40 $$56 TWH  Chg ilink image file
+// 31-Jan-03 J-03-41 $$57 ECW  Add AutobuildZ
+// 12-Feb-03 J-03-41 $$58 ECW  Add EFX
+// 20-Feb-03 J-03-41 $$59 JJE  Update RSD image
+// 01-May-03 K-01-06 $$60 TWH  Add PrimaryProducts
+// 25-Feb-04 K-01-25 $$61 JJE  Don't use makecd on some cds
+// 29-Mar-04 K-01-25+ $$62  MAZ  Add CD tmchelp 
+// 14-Apr-04 K-01-25 $$63 JSP  Granite One -> Granite per Tau
+// 13-Apr-04 K-01-26 $$64 TWH  Intralink cd's no makecd
+// 03-May-04 K-01-27      MAZ  Add CD tryouthelp and the student based CDs
+// 10-May-04 K-03-01 $$65 MAZ  Sub to K-03
+// 27-May-04 K-01-27+     MAZ  SPR 1084969: rm extra space after CD name
+// 07-Jun-04 K-03-03 $$66 MAZ  Sub to K-03
+// 28-Sep-04 K-03-10 $$67 AUC  added makcdenabled directive to PDX, EFX, EMX
+// 04-Oct-04 K-03-11 $$68 JJE  Add RSDesigner
+// 14-Feb-05 K-03-19 $$69 MAZ  Add LicFileLocatorURL to student
+// 24-Feb-05 K-03-19+ $$70 MAZ Add CD express section
+// 28-Mar-05 K-03-21 $$71 TWH Add ias CD section
+// 05-May-05 K-03-23+ $$72 MAZ SPR 1143714: Use Production LicFileLocatorURL
+// 21-Sep-05 K-01-42      JJE  Add ClickWrapLA
+// 21-Sep-05 K-03-32 $$73 JJE  Submit to K-03
+// 02-Mar-06 L-01-05      TWH  Enable help buttons tmchelp cdimage
+// 09-Feb-06 L-01-05 $$74 TWH  Drop LicFileLocatorURL Schools Advanced Ed.
+// 30-Mar-06 K-03-40+     JJE  Add new flexonly cd
+// 30-Mar-06 L-01-06 $$75 JJE  Submit to L-01
+// 11-Apr-06 L-01-08 $$76 JJE  Drop promech product
+// 21-Aug-06 L-01-15 $$77 JJE  Add locatorurl for tryout
+// 05-Dec-06 L-01-22 $$78 JJE  Change clickwrap name
+// 20-Dec-06 L-01-22 $$79 JJE  Remove designconf
+// 12-Mar-07 L-01-28 $$80 JJE  Add concept and student estore
+// 01-May-07 L-01-31 $$81 JJE  Change student estore to a shorter name
+// 13-Jun-07 L-01-33 $$82 TWH  schplus add CdLocatorURL
+// 09-Jul-07 L-01-34 $$83 TWH  Granite hide help button
+// 23-Jul-07 L-01-35 $$84 TWH  Various schools edition patches
+// 14-Nov-07 L-01-41 $$85 TWH  Hide help buttons for library cd's
+// 05-Mar-08 L-03-05 $$86 TWH  Schools edition (express) clickwrap
+// 21-Apr-08 L-03-07 $$87 TWH  Training clickwrap
+// 23-Sep-08 L-03-18 $$88 TWH  Add cd mathcad
+// 11-Nov-08 L-03-19 $$89 TWH  chgs for mathcad
+// 29-Dec-08 L-03-22 $$90 TWH  Add Flexlm to mathcad PrimaryProducts
+// 06-May-09 L-03-32 $$91 TWH  Mathcad has help buttons
+// 15-Jul-09 L-03-34 $$92 TWH  Add Prime; chg Tryout
+// 17-Sep-09 L-03-35+ $$93 TWH  drop products from prime CD section
+// 04-Nov-09 L-03-36 $$94 TWH Prime cd drop version from name
+// 09-Mar-10 L-03-38 $$95 TWH regroup/reorder sections; update special editions
+// 05-May-10 L-03-39 $$96 TWH FLEX only CD don't display version in titlebar
+// 07-May-10 L-03-39+ $$97 TWH Flexadmin CD no makecd custom installer
+// 27-May-10 L-03-39+ $$98 TWH Enable webbundle for schools and student.
+// 27-Oct-10 L-03-41  $$99 TWH Rebranding
+// 04-Jan-11 L-03-42 $$100 TWH Rebrand special editions
+// 17-Feb-11 L-03-43 $$101 TWH Retitle special editions
+
+// Mathcad
+
+(CD prime
+    (Name                     "Mathcad Prime")
+    (ClickWrapLA              "clickwrap_la")
+    (MakecdEnabled             "False")
+)
+(CD mathcad
+    (Platforms       "i486_nt"
+                     "x86e_win64")
+    (Languages       "usascii"
+                     "french"
+                     "german"
+                     "italian"
+                     "spanish"
+                     "japanese"
+                     "chinese_cn"
+                     "chinese_tw"
+                     "korean"
+                     "russian")
+    (Products        "mathcad"
+                     "flexlm")
+    (Datecode        "2015240")
+    (Shipcode        "M050")
+    (Version         "15.0")
+    (Name                     "Mathcad")
+    (PrimaryProducts          "flexlm"
+                              "mathcad")
+    (ClickWrapLA              "clickwrap_la")
+    (MakecdEnabled             "False")
+)
+
+// Creo
+
+(CD proengineer
+    (Name                     "Creo Elements/Pro")
+    (PrimaryProducts          "flexlm"
+                              "proe")
+    (CdLocatorURL             "http://www.ptc.com/cgi/cs/apps/SftUpd/ptc_setup.pl")
+    (ClickWrapLA              "clickwrap_la")
+)
+(CD proewin64
+    (Name                     "Creo Elements/Pro")
+    (PrimaryProducts          "flexlm"
+                              "proewin64")
+    (CdLocatorURL             "http://www.ptc.com/cgi/cs/apps/SftUpd/ptc_setup.pl")
+    (ClickWrapLA              "clickwrap_la")
+)
+(CD flexonly
+    (Name                     "PTC License Server") 
+    (PrimaryProducts          "flexlm")
+    (CDTitleNameOnly          true)
+)
+(CD flexadmin
+    (Name                     "PTC License Server") 
+    (PrimaryProducts          "flexlmadmin")
+    (CDTitleNameOnly          true)
+    (MakecdEnabled            "False")
+)
+(CD ptcdoc
+    (Name                      "PTC Documentation")
+)
+
+// Periodic release products
+
+(CD rs_designer
+    (Name                      "Routed Systems Designer")
+    (ProdImage                 "proersd.gif")
+    (MakecdEnabled             "False")
+)
+(CD granite
+    (Name                      "Granite")
+    (HideHelpButtons           "TRUE")
+)
+(CD emx
+    (Name                      "Expert Moldbase Extension")
+    (MakecdEnabled             "False")
+)
+(CD pdx
+    (Name                      "Progressive Die Extension")
+    (MakecdEnabled             "False")
+)
+(CD efx
+    (Name                      "Expert Framework Extension")
+    (MakecdEnabled             "False")
+)
+(CD autobuildz
+    (Name                      "AutobuildZ")
+)
+
+// ICEM
+
+(CD icemint
+    (Name                     "ICEM Interactive")
+)
+(CD icemcd
+    (Name                      "ICEM Surf")
+)
+(CD icemddn
+    (Name                      "ICEM DDN")
+    (Products                  "flexl"
+                               "icemddn"
+                               "icemview"
+                               "icemps"
+                               "icempltview")
+)
+(CD thermmod
+    (Name                      "Thermal Modeler")
+)
+
+// INTRALINK
+
+(CD prointralink
+    (Name                      "Pro/INTRALINK")
+    (MakecdEnabled             "False")
+    (ClickWrapLA               "clickwrap_la")
+)
+(CD proitoolkit
+    (Name                      "Pro/INTRALINK Toolkit")
+    (MakecdEnabled             "False")
+)
+(CD ias
+    (Name                      "Pro/INTRALINK Application Server")
+    (MakecdEnabled             "False")
+    (HideHelpButtons          "TRUE")
+)
+(CD proconvert
+    (Name                      "Pro/CONVERT")
+    (Products                  "convert_c"
+                               "convert_s")
+)
+
+(CD cdrs
+    (Name                      "CDRS")
+)
+(CD 3dpaint
+    (Name                      "3DPAINT")
+)
+(CD mockup
+    (Name                      "DIVISION Mockup")
+)
+(CD propdm
+    (Name                      "Pro/PDM")
+)
+(CD propdmtoolkit
+    (Name                      "Pro/PDM Toolkit")
+)
+(CD proflythru
+    (Name                      "Pro/Fly-THROUGH")
+)
+(CD modelview
+    (Name                      "Pro/Model.View")
+)
+(CD tmchelp
+    (Name                     "TMC Online Help")
+    (MakecdEnabled            "False")
+)
+
+// Library 
+
+(CD lib_conn
+    (Name                      "Connector Library")
+    (Products                  "lib_conn")
+    (HideHelpButtons           "TRUE")
+)
+(CD lib_elecsym
+    (Name                      "Electrical Symbols Library")
+    (Products                  "lib_elecsym")
+    (HideHelpButtons           "TRUE")
+)
+(CD lib_piping
+    (Name                      "Pipe Fitting Library")
+    (Products                  "lib_piping")
+    (HideHelpButtons           "TRUE")
+)
+(CD lib_gensym
+    (Name                      "Piping and Heating Symbols Library")
+    (Products                  "lib_gensym")
+    (HideHelpButtons           "TRUE")
+)
+(CD lib_graphic
+    (Name                      "Graphics Library")
+    (Products                  "lib_graphic")
+    (HideHelpButtons           "TRUE")
+)
+(CD lib_hmf
+    (Name                      "Human Factors Library")
+    (Products                  "lib_hmf")
+    (HideHelpButtons           "TRUE")
+)
+(CD lib_mfg
+    (Name                      "Tooling Library")
+    (Products                  "lib_mfg")
+    (HideHelpButtons           "TRUE")
+)
+(CD lib_mold
+    (Name                      "Mold Base Library")
+    (Products                  "lib_mold")
+    (HideHelpButtons           "TRUE")
+)
+(CD lib_obj
+    (Name                      "Basic Library")
+    (Products                  "lib_obj")
+    (HideHelpButtons           "TRUE")
+)
+
+// special editions
+
+(CD tryouthelp
+    (Name                     "PTC Online Help")
+    (MakecdEnabled            "False")
+    (CdLocatorURL             "http://www.ptc.com/cgi/support/apps/cd_locator/cd_locator.pl")
+    (HideHelpButtons          "TRUE")
+)
+
+(CD tryout
+    (Name                      "Creo Elements/Pro 5.0 Tryout Edition")
+    (MakecdEnabled             "False")
+    (HideHelpButtons           "TRUE")
+    (LicFileLocatorURL         "http://www.ptc.com/appserver/lm/programs/index.jsp")
+    (CdLocatorURL              "http://www.ptc.com/cgi/cs/apps/SftUpd/ptc_setup.pl")
+    (ClickWrapLA              "clickwrap_la")
+    (StartWithEULA            "TRUE")
+    (SkipProductSelection     "TRUE")
+    (CDTitleNameShipcode      "TRUE")
+)
+
+(CD training
+    (Name                      "Creo Elements/Pro 5.0 Training Edition")
+    (MakecdEnabled             "False")
+    (HideHelpButtons           "TRUE")
+    (LicFileLocatorURL         "http://www.ptc.com/appserver/lm/programs/index.jsp")
+    (CdLocatorURL              "http://www.ptc.com/cgi/cs/apps/SftUpd/ptc_setup.pl")
+    (ClickWrapLA              "clickwrap_la")
+    (StartWithEULA            "TRUE")
+    (SkipProductSelection     "TRUE")
+    (CDTitleNameShipcode      "TRUE")
+)
+
+(CD express 
+    (Name                      "Creo Elements/Pro 5.0 Schools Edition")
+    (MakecdEnabled             "False")
+    (HideHelpButtons           "TRUE")
+    (LicFileLocatorURL         "http://www.ptc.com/appserver/lm/programs/index.jsp")
+    (CdLocatorURL              "http://www.ptc.com/cgi/cs/apps/SftUpd/ptc_setup.pl")
+    (ClickWrapLA              "clickwrap_la")
+    (StartWithEULA            "TRUE")
+    (SkipProductSelection     "TRUE")
+    (CDTitleNameShipcode      "TRUE")
+)
+
+(CD prostudent
+    (Name                      "Creo Elements/Pro 5.0 Student Edition")
+    (MakecdEnabled             "False")
+    (HideHelpButtons           "TRUE")
+    (LicFileLocatorURL         "http://www.ptc.com/appserver/lm/programs/index.jsp")
+    (CdLocatorURL              "http://www.ptc.com/cgi/cs/apps/SftUpd/ptc_setup.pl")
+    (ClickWrapLA              "clickwrap_la")
+    (StartWithEULA            "TRUE")
+    (SkipProductSelection     "TRUE")
+    (CDTitleNameShipcode      "TRUE")
+)
+

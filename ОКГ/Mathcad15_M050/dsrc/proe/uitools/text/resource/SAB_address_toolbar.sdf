@@ -1,0 +1,4 @@
+[layoutbody]
+ContentMargins = 1, 1, 1, 1
+SizingMargins = 1, 1, 1, 1
+BackgroundImage = styles/SAB/SAB_address_toolbar.bif

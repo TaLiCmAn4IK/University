@@ -1,0 +1,53 @@
+// 28-Dec-99 $$1  TWH  Created.
+// 08-Jan-01 $$2  TWH  Add PossibleArchs, Prop values
+// 01-Mar-01 $$3  TWH  Fix iascfg screen name
+// 08-Mar-01      TWH  Take out ScreenLicList;Add LpcfgBrowser
+// 08-Mar-01      TWH  Use hpux11_pa32 not hp8k
+// 14-Mar-01 $$4  TWH  Add uninstall, ptcutil
+// 06-Apr-01 $$5  TWH  Rm cdsecstion proitkenv
+// 12-Nov-01      TWH  quote ezprop values
+// 20-Nov-01 $$6  TWH  drop iasadmin; add start_ias, stop_ias, status_ias
+// 10-Apr-03 K-01-06 TWH  Add CDSection readme_notes
+// 04-Mar-03 K-01-06 $$7  TWH  LpcfgWindows->ScreenWindows
+// 21-Jul-03 K-01-11 $$8  JJE  Add ptcborrow and ptcreturn scripts
+// 15-Dec-03 K-01-20 $$9  MAZ  Remove borrow scripts
+
+(Product dmias
+    (Name                      "Application Server")
+    (Packages                  "ilappsrv"
+                               "uninstall"
+                               "ptcutil")
+    (ProgramFiles              False)
+    (LpDirName                 "iaserver")
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+    (VersionDir                True)
+    (PossibleArchs             "sun4_solaris"
+                               "hpux11_pa32"
+                               "i486_nt")
+    (ScreenIascfg.CommPort     "8081")
+    (ScreenIascfg.Timeout      "60")
+)
+
+(Package ilappsrv
+    (Name                      "Application Server")
+    (Screens                   "ScreenWindows"
+                               "ScreenIascfg"
+                               "LpcfgLinkpath"
+                               "LpcfgBrowser"
+                               "ScreenDbssvr")
+    (Cdsections                "ias"
+                               "Install"
+                               "oraruntime"
+                               "readme_notes"
+                               "flexclient")
+    (Binscripts                "start_ias"
+                               "stop_ias"
+                               "status_ias"
+                               "jms"
+                               "ptcstatus"
+                               "ptcflush")
+    (Installed                 True)
+    (Required                  True)
+)
+

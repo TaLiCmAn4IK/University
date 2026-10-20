@@ -1,0 +1,84 @@
+# {100} (100) [0] ps_cmd.Label
+Command Configuration
+Configuration de la commande
+
+# [1] CmdName1Lab.Label
+Command Name
+Nom de la commande
+
+# [2] CmdDesc1Lab.Label
+Command Description
+Description de la commande
+
+# [3] CmdType1Lab.Label
+Command Type
+Type de commande
+
+# [4] CmdLTRLab.Label
+License To Run
+Licence d'exécution
+
+# [5] CmdLTRMod.Label
+Edit
+Editer
+
+# [6] CmdLicExtLab.Label
+License Extensions
+Extensions de licence
+
+# [7] CmdLicExtMod.Label
+Edit
+Editer
+
+# [8] CmdLicFltLab.Label
+Floating Options
+Options flottantes
+
+# [9] CmdLicFltMod.Label
+Edit
+Editer
+
+# [10] CmdName2Lab.Label
+Command Name
+Nom de la commande
+
+# [11] CmdDesc2Lab.Label
+Command Description
+Description de la commande
+
+# [12] CmdType2Lab.Label
+Command Type
+Type de commande
+
+# [13] CmdLicLab.Label
+FLEXnet Licenses
+Licences FLEXnet
+
+# [14] CmdLicMod.Label
+Modify
+Modifier
+
+# [15] CmdInfoGrp.Labels.1
+No ConfigID
+Pas d'ID de config
+
+# [16] CmdInfoGrp.Labels.2
+ConfigID
+ID Config
+
+# [17] CmdInfoGrpLab.Label
+License Scheme:
+Schéma de licence :
+
+# [18] Label19.Label
+Specify configuration options for this startup command
+Spécifier les options de configuration de la commande de démarrage
+
+# [19] StdOK.Label
+&OK
+&OK
+
+# [20] StdCancel.Label
+&Cancel
+&Annuler
+

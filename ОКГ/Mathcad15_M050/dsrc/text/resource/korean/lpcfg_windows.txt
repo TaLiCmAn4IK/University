@@ -1,0 +1,40 @@
+# {100} (100) [0] ShortcutLayout.Label
+Windows Shortcut Preferences
+Windows 바로 가기 기본설정
+
+# [1] FolderLab.Label
+Program Folder
+프로그램 폴더
+
+# [2] StartInDirLab.Label
+Startup Directory
+시작 디렉토리
+
+# [3] LocationLab.Label
+Shortcut Location(s)
+바로 가기 위치
+
+# [4] ScProgramFolder.Label
+Program folder
+프로그램 폴더
+
+# [5] ScStartMenu.Label
+Start Menu
+시작 메뉴
+
+# [6] ScDesktop.Label
+Desktop
+바탕 화면
+
+# [7] PathLayout.Label
+Windows Environment Preferences
+Windows 환경 기본설정
+
+# [8] PathChoice.Labels.systempath
+Modify system environment for all users
+모든 사용자에 대해 시스템 환경 수정
+
+# [9] PathChoice.Labels.userpath
+Modify current user's environment only
+현재 사용자 환경만 수정
+

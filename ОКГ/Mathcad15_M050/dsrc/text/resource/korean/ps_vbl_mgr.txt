@@ -1,0 +1,8 @@
+# {0} (2) [0] ps_vbl_mgr.Label
+Variable Manager
+변수 매니저
+
+# [1] VarEdit.Label
+Edit
+편집
+

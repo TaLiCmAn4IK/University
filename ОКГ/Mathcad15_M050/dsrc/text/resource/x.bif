@@ -1,0 +1,24 @@
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+! 
+!  x.bif
+! 
+!  A red x
+! 
+!  Date      Release   Name  Ver.   Comments
+!  --------- -------   ----  ----   --------
+!                      TWH          Created
+!  11-May-99 I-03-09   JJE   $$1    Group submission
+!
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+(Image x
+    (Resources
+        (.Width     10)
+        (.Height    10)
+        (.Depth     3)
+    )
+    (Data
+        0909C3FFC209C1FFC009FFC009FFFFC009C0FFC309C2FFC109C3FFC109C2FFC3
+        09C0FFC009FFFFC009FFC009C1FFC209C3FF0909
+    )
+)

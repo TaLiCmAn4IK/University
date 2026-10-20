@@ -1,0 +1,8 @@
+# {0} (2) [0] psdlg_startup.Label
+Initializing PTC.Setup
+PTC.Setup 초기화
+
+# [1] StartupLab.Label
+Initializing PTC.Setup, please wait...
+PTC.Setup 초기화중입니다. 기다려주십시오...
+

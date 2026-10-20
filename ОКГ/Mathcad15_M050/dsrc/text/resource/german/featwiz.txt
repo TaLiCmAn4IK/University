@@ -1,0 +1,84 @@
+# {70175} (21) [0] featwiz.Label
+Feature Wizard
+Feature-Assistent
+
+# [1] HostListAdd.Label
+Add
+Hinzufügen
+
+# [2] HostListEdit.Label
+Edit
+Editieren
+
+# [3] HostListDelete.Label
+Delete
+Löschen
+
+# [4] HostActionLabel.Label
+Action Label
+Action Label
+
+# [5] LineTypeList.ColumnLabel
+16
+16
+
+# [6] LineTypeList.Labels.0
+SERVER
+SERVER
+
+# [7] LineTypeList.Labels.1
+DAEMON
+DAEMON
+
+# [8] LineTypeList.Labels.2
+INCREMENT
+INKREMENT
+
+# [9] ActionLabel.Label
+ ------- Action line ---------
+ ------- Action line ---------
+
+# [10] OptionActionLabel.Label
+Select Options
+Optionen wählen
+
+# [11] OptListMod.Label
+Modify
+Ändern
+
+# [12] ChoiceGroup.Labels.1
+Yes
+Ja
+
+# [13] ChoiceGroup.Labels.2
+No
+Nein
+
+# [14] ChoiceLabel.Label
+Action line
+Action line
+
+# [15] BackButton.Label
+Back
+Zurück
+
+# [16] NextButton.Label
+Next
+Weiter
+
+# [17] HelpButton.Label
+Help
+Hilfe
+
+# [18] CancelButton.Label
+Cancel
+Abbrechen
+
+# [19] StepLabel.Label
+License Wizard - Step 1
+Lizenz-Assistent - Schritt 1
+
+# [20] DALayout.Label
+Sample License Line:
+Beispiel-Lizenzzeile:
+

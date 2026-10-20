@@ -1,0 +1,84 @@
+# {100} (100) [0] ps_cmd.Label
+Command Configuration
+指令組態
+
+# [1] CmdName1Lab.Label
+Command Name
+指令名稱
+
+# [2] CmdDesc1Lab.Label
+Command Description
+指令描述
+
+# [3] CmdType1Lab.Label
+Command Type
+指令類型
+
+# [4] CmdLTRLab.Label
+License To Run
+要執行的許可證
+
+# [5] CmdLTRMod.Label
+Edit
+編輯
+
+# [6] CmdLicExtLab.Label
+License Extensions
+許可證延伸
+
+# [7] CmdLicExtMod.Label
+Edit
+編輯
+
+# [8] CmdLicFltLab.Label
+Floating Options
+浮動選項
+
+# [9] CmdLicFltMod.Label
+Edit
+編輯
+
+# [10] CmdName2Lab.Label
+Command Name
+指令名稱
+
+# [11] CmdDesc2Lab.Label
+Command Description
+指令描述
+
+# [12] CmdType2Lab.Label
+Command Type
+指令類型
+
+# [13] CmdLicLab.Label
+FLEXnet Licenses
+FLEXnet 許可證
+
+# [14] CmdLicMod.Label
+Modify
+修改
+
+# [15] CmdInfoGrp.Labels.1
+No ConfigID
+無設定 ID 組態
+
+# [16] CmdInfoGrp.Labels.2
+ConfigID
+設定 ID 組態
+
+# [17] CmdInfoGrpLab.Label
+License Scheme:
+許可證方案:
+
+# [18] Label19.Label
+Specify configuration options for this startup command
+指定此啟動指令的組態選項
+
+# [19] StdOK.Label
+&OK
+確定(&O)
+
+# [20] StdCancel.Label
+&Cancel
+取消(&C)
+

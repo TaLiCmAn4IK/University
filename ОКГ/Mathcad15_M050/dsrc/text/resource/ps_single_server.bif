@@ -1,0 +1,23 @@
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!
+!  Date      Release   Name  Ver.   Comments
+!  --------- -------   ----  ----   --------
+!  25-Jul-03 K-01-11   TWH   $$1    Created
+!
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+(Image ps_single_server
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        0FFFFFFF03F0FD000D100D200D00300D400D500D600D700D800D900DA00D1EA8
+        0192522301B805A80DD00D1CE00DB801E4D57DF706C00D101DC0E80DF809FC0D
+        4C1D5C1D3019666601663F1A881D981DB8057815B815381D70D01D7419701D3C
+        156E3A2F072A07B7AA5BBB06182108216C1D3C190028256015242924296011C0
+        1D7C11601D00582D482D0829882DB429D42DEC2DFC2D000C3D1C3D2C3D3C3D4C
+        3D5C3D6C3D7C3D008C3D9C3DAC3DBC3DCC3DDC3D
+    )
+)

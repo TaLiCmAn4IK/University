@@ -1,0 +1,28 @@
+# {100} (100) [0] lpcfg_rbm2.Label
+RBM Server Settings
+RBM 서버 설정
+
+# [1] ProeCmdLab.Label
+Creo Elements/Pro startup command
+Creo Elements/Pro 시작 명령어
+
+# [2] NumSessLab.Label
+Number of Creo Elements/Pro sessions
+Creo Elements/Pro 세션 수
+
+# [3] UpdIntLab.Label
+Status update interval (in seconds)
+상태 업데이트 간격 (초)
+
+# [4] RpcPortLab.Label
+RPC communications number
+RPC 커뮤니케이션 번호
+
+# [5] RunDirLab.Label
+Directory to run in
+실행 디렉토리
+
+# [6] lpcfg_rbm3.Label
+Instructions
+설명
+

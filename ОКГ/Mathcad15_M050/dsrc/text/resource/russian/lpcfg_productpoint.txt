@@ -1,0 +1,36 @@
+# {100} (100) [0] productpointSubLayout.Label
+Install location for ProductPoint
+Расположение установки ProductPoint
+
+# [1] sp_exists.Label
+Existing SharePoint Server information
+Сведения о существующем сервере SharePoint
+
+# [2] Label5.Label
+Name
+Наименование
+
+# [3] Label6.Label
+Location
+Расположение
+
+# [4] sp_name.Value
+ProductPoint
+ProductPoint
+
+# [5] sp_url.Value
+http://
+http://
+
+# [6] lpcfg_productpoint2.Label
+Instructions
+Инструкции
+
+# [7] productpointSub2.Label
+Install Status
+Статус установки
+
+# [8] PP_Status.Label
+Not Installed\n\n
+Не установлена\n\n
+

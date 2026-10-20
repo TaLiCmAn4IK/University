@@ -1,0 +1,12 @@
+# {100} (100) [0] lay_brief_intf_profile.Label
+Profile
+프로파일
+
+# [1] pb_brief_details.Label
+Details...
+세부...
+
+# [2] pb_brief_details.HelpText
+Shows the details of the selected profile.
+선택한 프로파일의 세부 정보를 표시합니다.
+

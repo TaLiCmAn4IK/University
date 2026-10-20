@@ -1,0 +1,72 @@
+# {100} (100) [0] adb_CmdDisplayType.Labels.DefaultStyle
+Default Style
+Stile di default
+
+# [1] adb_CmdDisplayType.Labels.Small
+Small Button
+Pulsante piccolo
+
+# [2] adb_CmdDisplayType.Labels.SmallImageOnly
+Small Button - No Label
+Pulsante piccolo senza etichetta
+
+# [3] adb_CmdDisplayType.Labels.SmallTextOnly
+Small Button - No Icon
+Pulsante piccolo senza icona
+
+# [4] adb_CmdDisplayType.Labels.Large
+Large Button
+Pulsante grande
+
+# [5] adb_CmdWhatsThis.Label
+What's This?
+Cos'è questo?
+
+# [6] adb_CmdWhatsThis.HelpText
+Tells what this button does
+Spiega la funzione di questo pulsante
+
+# [7] adb_ItemCut.Label
+Cut
+Taglia
+
+# [8] adb_ItemCopy.Label
+Copy
+Copia
+
+# [9] adb_ItemPaste.Label
+Paste
+Incolla
+
+# [10] adb_AddSeparator.Label
+Add Separator
+Aggiungi separatore
+
+# [11] adb_CascadeBtnSplitType.Label
+Set Split Button
+Imposta pulsante divisione
+
+# [12] adb_ItemToOverflow.Label
+Move To Overflow
+Sposta in overflow
+
+# [13] adb_ItemRename.Label
+Rename
+Rinomina
+
+# [14] adb_ItemDelete.Label
+Delete
+Elimina
+
+# [15] adb_RenameGroup.Label
+Rename Group
+Rinomina gruppo
+
+# [16] adb_DeleteGroup.Label
+Delete Group
+Elimina gruppo
+
+# [17] adb_ReorderGroups.Label
+Move Group Before
+Sposta gruppo prima di
+

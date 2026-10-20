@@ -1,0 +1,17 @@
+// 15-Feb-00 $$1 MYA Created 
+// 04-Apr-01 $$2 ALG CdSections -> Cdsections
+(Product pdmtkit
+    (Name                 "Pro/PDM Toolkit")
+    (Packages             "pdmtkit_pkg") 
+    (ProgramFiles          FALSE)
+    (LpDirName            "pdmtkit")
+    (Screens              "ScreenProd")
+    (Installed            True)
+)
+
+(Package pdmtkit_pkg
+    (Name                 "Pro/PDM Toolkit")
+    (Cdsections           "pdmtk"
+                          "Install")
+    (Installed            True)
+)

@@ -1,0 +1,52 @@
+# {100} (100) [0] ShortcutLayout.Label
+Windows Shortcut Preferences
+Windows 바로 가기 기본설정
+
+# [1] FolderLab.Label
+Program Folder
+프로그램 폴더
+
+# [2] StartInDirLab.Label
+Startup Directory
+시작 디렉토리
+
+# [3] LocationLab.Label
+Shortcut Location(s)
+바로 가기 위치
+
+# [4] ScDesktop.Label
+Desktop
+바탕 화면
+
+# [5] ScStartMenu.Label
+Start Menu
+시작 메뉴
+
+# [6] ScProgramFolder.Label
+Program folder
+프로그램 폴더
+
+# [7] ScQuickLaunch.Label
+Quick Launch
+빠른 실행
+
+# [8] StartinDirWarning.Label
+Define the startup directory to a location where all users have read-write access.
+시작 디렉토리를 모든 사용자에게 읽기/쓰기 권한이 있는 위치로 정의하십시오.
+
+# [9] PathLayout.Label
+Windows Environment Preferences
+Windows 환경 기본설정
+
+# [10] PathChoice.Labels.systempath
+Modify system environment for all users
+모든 사용자에 대해 시스템 환경 수정
+
+# [11] PathChoice.Labels.userpath
+Modify current user's environment only
+현재 사용자 환경만 수정
+
+# [12] scr_windows3.Label
+Instructions
+설명
+

@@ -1,0 +1,8 @@
+# {100} (100) [0] blank_1.Label
+Locate Other Installation Directories (Optional)
+Определить папки других установок (Опция)
+
+# [1] blank_2.Label
+Optional Inputs
+Дополнительный ввод
+

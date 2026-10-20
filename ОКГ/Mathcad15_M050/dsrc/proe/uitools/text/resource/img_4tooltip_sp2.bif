@@ -1,0 +1,21 @@
+!  History:  
+!
+!  Date      Release  Name   Ver.  Comments
+!  --------- -------  -----  ----- --------------------------------------------
+!  16-Oct-07 L-01-41  AlexM  $$1   Created.
+!
+!  INSERT COMMENT ABOVE THIS LINE
+!  Do not forget to put "!" at the begining of each line in this comment block.
+
+(Image img_4tooltip_sp2
+    (Resources
+        (.Width     8)
+        (.Height    18)
+        (.Depth     24)
+    )
+    (Data
+        0FFF000000F0FD000D100D200D00300D400D500D600D700D800D900DA00D00B0
+        0DC00DD00DE00DF00D001D101D201D00301D401D501D601D701D801D901DA01D
+        00B01DC01DD01DE01DF01D002D102D2029
+    )
+)

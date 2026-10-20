@@ -1,0 +1,613 @@
+// 12-Apr-99 $$1  JJE  Created.
+// 26-Apr-99 $$2  JJE  Add more binscripts and J.Link
+// 04-Oct-99 $$3  MAZ  Add missing pkgs and binscripts
+// 14-Oct-99      MAZ  Use keyCdSection
+// 20-Oct-99 $$4  MYA  Add DefName for proe cmd
+// 03-Nov-99 $$5  MYA  Add keycdsection to catia
+// 19-Nov-99 $$6  JJE  Add a proehelp cdsection
+// 07-Dec-99 $$7  JJE  Package changes
+// 10-Dec-99 $$8  MAZ  Add uninstall pkg
+// 13-Dec-99 $$9  TWH  Ncpost template name chg
+// 15-Dec-99 $$10 JJE  Reorder the packages, fix cdt name
+// 20-Dec-99 $$11 JJE  Move proehelp to its own file
+// 06-Jan-00      JJE  Add modelcheck script
+// 10-Jan-00      MAZ  Add OldTag
+// 11-Jan-00 $$12 JJE  Don't use 22 in command names
+// 17-Jan-00 $$13 JJE  Add mydocs argument
+// 31-Jan-00      JJE  Set icon names
+// 09-Feb-00      JJE  Rm mydocs argument, chg icon name
+// 10-Feb-00 $$14 MAZ  Add classpath env var
+// 24-Feb-00 $$15 MAZ  Set Installed=1 for pkgs with subpkg Inst=1 (msi fix)
+// 17-Feb-00 $$16 JJE  Add dcadsetup script
+// 12-Apr-00      JJE  New moldcat package
+// 19-Apr-00 $$17 JJE  Add LpcfgDcadCmd
+// 12-Jun-00 $$18 TWH  Re-Add demos as Package of proe
+// 17-Jul-00      JJE  Add pronethelper and protutorial scripts
+// 20-Jul-00 $$19 JJE  Add ProeTreeTwo
+// 17-Aug-00      TWH  Fix case of key names
+// 17-Aug-00 $$20 MAZ  Use EnvVarValues as a Prop
+// 19-Oct-00 $$21 JJE  Add new cdsections
+// 30-Jan-01 $$22 TWH  Add CmdType Prop values
+// 06-Feb-01 $$23 JJE  Sel gpost by default
+// 19-Mar-01      TWH  Add mdimpex to proe_base
+// 15-Mar-01      JJE  No classpath setting for modelcheck
+// 22-Mar-01 $$24 JJE  Move cdm stuff to cdt package
+// 29-Oct-01 $$25 TWH  Remove cmd_type nc_post; mv Demos into base pkg
+// 31-Oct-01 $$26 MAZ  Set MSIVisible to FALSE for cadds5v8 (SPR 866523)
+// 12-Nov-01 $$27 MAZ  SPR 901682: Move uninstall into proe_base pkg
+// 04-Jan-02 $$28 TWH  Force LicenseSimplification
+// 01-Feb-02 $$29 JJE  Add proevconf startup script
+// 12-Feb-02 $$30 MAZ  Use ptchostid script (SPR 921507) & Add PSF_EXE
+// 27-Feb-02      MAZ  Add progid and desc to Extensions array
+// 05-Mar-02      ALG  Add dbatchs, dbatchc
+// 05-Mar-02 $$31 ALG  Split uitools resources into separate cdsection
+// 20-Mar-02 $$32 MAZ  Add jre cdsection for pvx
+// 28-Mar-02      ALG  Package dbatchc: Drop LpcfgDcadCmd; Add LpcfgWindows
+//                       and LpcfgLinkpath
+// 28-Mar-02      ALG  Add "Install", "dbatchchelp" cdsections to dbatchc pkg
+// 01-Apr-02      MAZ  Add License Screen for JRE
+// 01-Apr-02 $$33 JJE  Rm LpcfgBrowser
+// 08-Apr-02 $$34 TWH  Help changes Mech
+// 29-Apr-02 $$35 MAZ  Support Conference Server
+// 10-May-02 $$36 ALG  SPR 919642: Rm "uninstall" cdsection/Add "uninstall" pkg
+// 21-Jun-02 $$37 JJE  Rm protutorial script
+// 11-Jul-02 $$38 JJE  Add introfiles section
+// 01-Jul-02      MAZ  SPR 962375: Rm pdgs pkg and scripts
+// 10-Jul-02 $$39 MAZ  SPR 958276: use the new icon ptclogo.ico
+// 18-Jul-02 $$40 JJE  Disable dbatchc pkg for sneak peek 2
+// 07-Aug-02 $$41 JJE  Allow update from sp1
+// 12-Aug-02 $$42 MAZ  Enable dbatchc and rm temp HostProd 
+// 21-Aug-02 J-03-32  ALG  $$43  Change "proevconf" -> "ptcvconf"
+// 23-Sep-02 J-03-34  JJE  $$44  SPR 977992: Take out the mechhelp section
+// 10-Oct-02 J-03-35  MAZ  $$45  Use proelogo for shortcuts
+// 23-Oct-02 J-03-36  MAZ  $$46  SPR 985240: Rm pronethelper script
+// 29-Oct-02          ALG        SPR 985737: Add UnregServerDll to proe_base
+// 05-Nov-02 J-03-37  MAZ  $$47  SPR 986656: Make proehelp a pkg (not a subpkg)
+// 15-Nov-02          MAZ        SPR 989209: put pro_anim cdsection in proe_base
+// 21-Nov-02 J-03-38  ALG  $$48  SPR 971401: Add "AEOnly" shortcut "dbatchc_ae"
+//                                 and AEBinscript "ptcdbatch_ae"
+// 13-Dec-02 J-03-39+ ALG  $$49  SPR 993604: New ptcvconf cdsections
+// 17-Dec-02 J-03-39+ MAZ  $$50  SPR 994166: add pfcweblinkwiz cdsection
+// 20-Dec-02 J-03-39+ MAZ  $$51  Use ShowLogoMsg to show logo msg 
+// 24-Dec-02 J-03-39+ MAZ  $$52  Use new mc and vconf icon files
+// 31-Dec-02          TWH        Add mdimpex_old
+// 13-Jan-03 J-03-40  ALG  $$53  Use new dbatchc icon file
+// 08-Apr-03          MAZ        Add phaFile to extensions list
+// 15-Apr-03 K-01-05  MAZ  $$54  Modify vconf cmdtype to handle psf files
+// 04-Mar-03 K-01-06  TWH  $$55  LpcfgWindows->ScreenWindows
+// 19-May-03          MAZ        Quote ptcvconf CmdArgs
+// 19-May-03 K-01-07  TWH  $$56  Add Advert image list
+// 02-Jun-03 K-01-07+ TWH        Add Mech interaction LP env. var.
+// 02-Jun-03 K-01-07+ TWH  $$57  Weblink install be default
+// 21-Jul-03 K-01-11  JJE  $$58  Add ptcborrow and ptcreturn scripts
+// 25-Aug-03 K-01-13  TWH        Add WelcomeImage
+// 25-Aug-03 K-01-13  TWH  $$59  New Ad_list
+// 17-Sep-03 K-01-15  TWH        Add translations; drop dbatchc_ae
+// 02-Sep-03 K-01-15  MAZ  $$60  SPR 1046093: hide logo tooltip for pre-prod
+// 07-Oct-03 K-01-16  TWH        update Ad_list
+// 07-Oct-03 K-01-16  MAZ  $$61  SPR 1052302: change Mechanica LPLabel
+// 14-Oct-03 K-01-16 $$62  JJE  Remove borrow scripts for now
+// 15-Oct-03               MAZ  SPR 1054181: rm dbatchc_ae 
+// 03-Nov-03               TWH   Add cdsection Mozilla
+// 29-Oct-03 K-01-17 $$63  MAZ  SPR 1055698: Add J2RE package
+// 13-Nov-03 K-01-17+$$64  TWH   Add cdsection fileopensaveas
+// 10-Dec-03 K-01-20 $$65  MAZ   Add proeborrow shortcut & proe_borrow script
+// 19-Dec-03 K-01-21       MAZ   Rm proeborrow shortcut
+// 12-Dec-03 K-01-21 $$66  TWH   Fix appmgr handling
+// 23-Jan-04 K-01-22+$$67  MAZ   SPR 1070051: Fix appmgr block (missing ")")
+// 09-Feb-04 K-01-23+$$68  TWH   Turn on ShowLogoMsg
+// 01-Mar-04 K-01-24 $$69  TWH   Add new advert images
+// 09-Mar-04 K-01-25       MAZ   Add Cdonlysecs
+// 15-Mar-04 K-01-25 $$70  TWH   Drop drawlesmodel from Ad list
+// 18-Mar-04 K-01-25       JJE   New section weld_data
+// 18-Mar-04 K-01-25+$$71  MAZ   Drop RegKey name from mech ProductInteraction
+// 31-Mar-04 K-01-25+$$72  MAZ   SPR 1079838: add AltCdsections to protoolkit
+// 19-Apr-04 K-01-26+$$73  TWH   Chg appmgr product interaction env var
+// 20-May-04 K-03-02 $$74  MAZ   Modify PostFuncRunCmd value
+// 02-Jul-04 K-03-05 $$75  MAZ   SPR 1086133: rm graphic-library field
+// 28-Feb-05 K-03-20 $$76  TWH   New Ad list
+// 24-Mar-05 K-03-21 $$77  MAZ   SPR 1136799: rename "Pro/J.Link" to "J-Link"
+// 24-May-05 K-03-23+      MAZ   SPR 1147145: set ShowLogoMsg to False for FCS 
+// 26-May-05 K-03-24+ $$78 MAZ   Update from K-03-23
+// 25-Aug-05 K-03-31 $$79  TWH   Externalize name of pkg groups
+// 10-Nov-05 K-03-36 $$80  TWH   Add Mozilla for dbatchc
+// 21-Dec-05 K-03-38 $$81  JSP   Switch j2re section to call just jre.exe from obj dir
+// 11-Apr-06 L-01-08 $$82  JJE   Add mech to Pro/E install
+// 25-Apr-06 L-01-09 $$83  JJE   Append mech/bin to path
+// 07-Jun-06 L-01-10 $$84  JJE   Add VB API
+// 13-Jul-06 L-01-13 $$85  JJE   Update path for mech shortcuts
+// 20-Dec-06 L-01-22 $$86  JJE   Remove design conferencing
+// 07-Mar-07 L-01-28 $$87  JJE   Add new cdsection pfcvb
+// 20-Mar-07 L-01-29 $$88  JJE   Use new name image
+// 04-Apr-07 L-01-30 $$89  JJE   Add new package for Intf JT
+// 30-Apr-07 L-01-31 $$90  JJE   Set mech installed to false
+// 09-May-07 L-01-31 $$91  JJE   1364918 Rm mech CmdType
+// 09-Jul-07 L-01-34 $$92  TWH   new flag OnlyProeOptions
+// 04-Sep-07 L-01-37+$$93  TWH   Add new VB scripts
+// 21-Dec-07 L-01-41 $$94  TWH   New Ad_list
+// 15-Jan-2008 L-01-42+  TWH  $$95  Rename Ads files
+// 25-Apr-08 L-03-08 $$96  TWH   Add ObsoleteList
+// 27-Jun-08 L-03-12       TWH  Add ScreenUnits 
+// 27-Jun-08 L-03-12 $$97  TWH  New WelcomeImage
+// 10-Sep-08 L-03-17 $$98  TWH  Rm pro_batch
+// 11-Nov-08 L-03-20 $$99  TWH  Cleanup CADAM/CATIA
+// 18-Dec-08 L-03-23 $$100 TWH  Drop LpcfgProHelp
+// 19-Feb-09 L-03-23       TWH  rm mech CmdType
+// 19-Feb-09 L-03-28 $$101 TWH  Add Productpoint
+// 10-Apr-09 L-03-30 $$102 TWH  Add MsiAddon; replace #101
+// 16-Apr-09 L-03-30+$$103 TWH  GUID change for thumbviewer
+// 01-Jun-09 L-03-33+$$104 TWH  Rm GUID info; determine from msi files
+// 11-Jun-09 L-03-33+$$105 TWH  Pvx cdsection pvexpress
+// 15-Jul-09 L-03-34 $$106 TWH  1830056 add to obsolete list
+// 27-Jul-09 L-03-34 $$107 TWH  Update WF5 images
+// 11-Aug-09 L-03-34+$$108 TWH  Drop intralink interopt configuration
+// 16-Jun-09 L-03-35 $$109 TWH  EFX addition
+// 23-Sep-09 L-03-35+$$110 TWH  Add convertfiles list for efx
+// 01-Oct-09 L-03-35+$$111 TWH  undo #110 for now
+// 04-Nov-09 L-03-36 $$112 TWH  Update WF5 images
+// 10-Mar-10 L-03-38 $$113 TWH  Add cadds
+// 12-Mar-10 L-03-38 $$114 TWH  Add iculibs
+// 06-Apr-10 L-03-38 $$115 TWH  Cadds5 default to not installed
+// 12-Jul-10 L-03-40 $$116 TWH  Update for Prime 1.0 release setup chgs
+// 23-Jul-10 L-03-40 $$117 TWH  Chg spelling for CADDS
+// 27-Jul-10 L-03-40 $$118 TWH  Add MSI Labels
+// 30-Jul-10 L-03-40 $$119 TWH  Comment out vfs/explorer
+// 16-Aug-10 L-03-40 $$120 TWH  Rm ProductPoint from Pro/E CD
+// 17-Aug-10 L-03-41 $$121 TWH  Rm LpcfgBrowser
+// 27-Oct-10 L-03-41 $$122 TWH  Rebranding
+// 16-Nov-10 L-03-41 $$123 TWH  Add AltRegInstallName;AltRegInstallVer
+
+(Product proe
+    (Name                      "Creo Elements/Pro")
+    (WelcomeImage              "proeandmech_name.png")
+    (Packages                  "proe_base"
+                               "promech"
+                               "proehelp"
+                               "ptcutil"
+                               "proeoptions"
+                               "api_toolkits"
+                               "interfaces"
+                               "uninstall")
+    (ProgramFiles              True)
+    (LpDirName                 "PTC/Creo Elements/Pro")
+    (AltRegInstallName         "Pro/ENGINEER")
+    (AltRegInstallVer          "Wildfire 5.0")
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+    (SaveList                  "text/menu_def.pro"
+                               "text/config.pro")
+    (ObsoleteList              "hpux_pa64/obj/libcv5R15adapter_clnt.sl"
+                               "hpux_pa64/obj/libcv5R16adapter_clnt.sl"
+                               "sun4_solaris_64/obj/libcv5R15adapter_clnt.so"
+                               "sun4_solaris_64/obj/libcv5R16adapter_clnt.so"
+                               "sun4_solaris_64/obj/cv5adapter_w.dll"
+                               "sun4_solaris_64/obj/ucac5adapter_w.dll"
+                               "sun4_solaris_64/obj/ugnxadapter_w.dll"
+                               "sun_solaris_x64/obj/ucac5adapter_w.dll"
+                               "x86e_win64/obj/cv5adapter_w.dll"
+                               "x86e_win64/obj/swadapter_w.dll"
+                               "x86e_win64/obj/ugnxadapter_w.dll"
+                               "i486_nt/obj/cv5R15adapter_clnt.dll"
+                               "i486_nt/obj/cv5R16adapter_clnt.dll"
+                               "i486_nt/obj/acadapter_w.dll"
+                               "i486_nt/obj/aiadapter_w.dll"
+                               "i486_nt/obj/cv5adapter_w.dll"
+                               "i486_nt/obj/idadapter_w.dll"
+                               "i486_nt/obj/mcdadapter_w.dll"
+                               "i486_nt/obj/swadapter_w.dll"
+                               "i486_nt/obj/ucac5adapter_w.dll"
+                               "i486_nt/obj/ugnxadapter_w.dll")
+    (LicenseSimplification     True)
+    (PSF_EXE                   "proe.exe")
+    (OnlyProeOptions           True)
+    (Extensions                "psf=psfFile=PTC Startup File"
+                               "pha=phaFile=PTC Helper App File"
+                               "asm=asmFile=Creo Assembly File"
+                               "dgm=dgmFile=Creo Diagram File"
+                               "drw=drwFile=Creo Drawing File"
+                               "frm=frmFile=Creo Format File"
+                               "lay=layFile=Creo Layout File"
+                               "mfg=mfgFile=Creo Manufacturing File"
+                               "mrk=mrkFile=Creo Markup File"
+                               "prt=prtFile=Creo Part File"
+                               "sec=secFile=Creo Sketcher Section File")
+   (ShowLogoMsg                False)
+   (INSTALLER_DOTNET          "http://www.microsoft.com/downloads/details.aspx?FamilyId=AB99342F-5D1A-413D-8319-81DA479AB0D7&displaylang=en" )
+   (Ad_list                    "WF5_101"
+                               "WF5_102"
+                               "WF5_103"
+                               "WF5_104"
+                               "WF5_201"
+                               "WF5_202"
+                               "WF5_203"
+                               "WF5_204"
+                               "WF5_301"
+                               "WF5_302"
+                               "WF5_303"
+                               "WF5_304"
+                               "WF5_401"
+                               "WF5_402"
+                               "WF5_403"
+                               "WF5_501"
+                               "WF5_502"
+			       "WF5_503"
+			       "WF5_601"
+                               "WF5_602"
+                               "WF5_603"
+                               "WF5_701"
+                               "WF5_702"
+			       "WF5_703"
+			       "WF5_801"
+                               "WF5_802"
+                               "WF5_803"
+                               "WF5_901"
+                               "WF5_902"
+			       "WF5_903")
+)
+
+(Package proe_base
+    (Name                      "Creo Elements/Pro")
+    (OldTag                    "proe_pkg")
+    (Screens                   "ScreenLicAgree" 
+                               "ScreenLicList"
+                               "ScreenWindows"
+                               "ScreenDftCmds"
+                               "ScreenUnits"
+                               "LpcfgCmdList"
+                               "LpcfgLinkpath"
+                               "LpcfgInterOpt"
+                               "LpcfgOle"
+                               "LpcfgRbm"
+                               "LpcfgDcadCmd"
+                               "LpcfgThumbviewer"
+                               "LpcfgPvx")
+    (CmdTypes                  "proe"
+                               "proe_shortcut")
+    (Binscripts                "ptchostid"
+                               "tempmgr"
+                               "batch_status"
+                               "pro_b_exec"
+                               "proe_borrow"
+                               "protk_unlock"
+                               "proigsutil"
+                               "ptcflush"
+                               "ptcstatus"
+                               "propostl"
+                               "propostq"
+                               "propostg"
+                               "purge"
+                               "protab"
+                               "pro_mcs_comp"
+                               "pro_ncl_cvt"
+                               "procvter"
+                               "procvtutil"
+                               "convert_image"
+                               "image_to_mip"
+                               "pix2fb"
+                               "showmip"
+                               "ptcportmap"
+                               "proe"
+                               "dcadshutdown"
+                               "dcadsetup"
+                               "mdimpex"
+                               "mdimpex_old"
+                               "pro_build_library_ctg")
+    (Cdsections                "ProE Tree"
+                               "ProeTreeTwo"
+                               "iculibs"
+                               "Mozilla"
+                               "proe"
+                               "applstart"
+                               "introfiles"
+                               "uitools_res"
+                               "dsq"
+                               "dbatchs"
+                               "jre"
+                               "Install"
+                               "mechanism"
+                               "ncexpert"
+                               "Demos"
+                               "animation"
+                               "weld_data"
+                               "flexclient"
+                               "thumbviewer"
+                               "pvexpress")
+    (Installed                 True)
+    (UnregServerDll            "_LP_\_ARCH_\lib\pfcscom.dll")
+)
+
+(Package api_toolkits
+    (Name                      "@@Pkg_api_toolkits")
+    (SubPackages               "pro_java"
+                               "protoolkit"
+                               "weblink"
+                               "vbapi")
+    (Installed                 True)
+)
+
+(Package interfaces
+    (Name                      "@@Pkg_interfaces")
+    (SubPackages               "intfjt"
+                               "cadds5")
+)
+
+(Package proeoptions
+    (Name                      "@@Pkg_proeoptions")
+    (SubPackages               "dbatchc" 
+                               "moldcat"
+                               "modelcheck"
+                               "proplastic"
+                               "gpost"
+                               "vericut"
+                               "efx"
+                               "j2re")
+    (Installed                 True)
+)
+
+(Package efx
+    (Name                      "Expert Framework Extension")
+    (Installed                 True)
+    (Cdsections                "efx"
+                               "EFX Tree"
+                               "efxhelp")
+//  (convertFilesList          "_LP_/efx/bin/wildfire2/config.pro=_LP_/efx/bin/wildfire2/config.pro"
+//                             "_LP_/efx/bin/wildfire2/protk.dat=_LP_/efx/bin/wildfire2/protk.dat"
+//                             "_LP_/efx/bin/wildfire3/config.pro=_LP_/efx/bin/wildfire3/config.pro"
+//			       "_LP_/efx/bin/wildfire3/protk.dat=_LP_/efx/bin/wildfire3/protk.dat"
+//			       "_LP_/efx/bin/wildfire4/config.pro=_LP_/efx/bin/wildfire4/config.pro"
+//			       "_LP_/efx/bin/wildfire4/protk.dat=_LP_/efx/bin/wildfire4/protk.dat")
+)
+
+(Package modelcheck
+    (Name                      "ModelCHECK")
+    (Installed                 True)
+    (Cdsections                "ModelCHECK")
+    (Binscripts                "modelcheck")
+    (CmdTypes                  "ModChkStart")
+)
+
+(Package j2re
+    (Name                      "JRE")
+    (Installed                 False)
+    (Cdsections                "jre")
+    (HostArchTypes             "WIN32")
+    (PostFuncRunCmd  "_LP_\_ARCH_\obj\jre.exe")
+)
+
+(Package pro_java
+    (Name                      "J-Link")
+    (Installed                 True)
+    (Cdsections                "java"
+                               "jlinkwiz")
+)
+
+(Package moldcat
+    (Name                      "Mold Component Catalog")
+    (Cdsections                "apps_data")
+)
+
+(Package proplastic
+    (Name                      "Creo Elements/Pro Plastic Advisor")
+    (Cdsections                "ppa_files"
+                               "ppa_data"
+                               "ppa_wu")
+    (Cdonlysecs                "ppaudb")
+    (Binscripts                "mfuname")
+)
+
+(Package weblink
+    (Screens                   "weblink")
+    (Name                      "Web.Link")
+    (OldTag                    "proweblink")
+    (Installed                 True)
+    (Cdsections                "weblink"
+                               "weblinkplugins"
+                               "pfcweblinkwiz"
+                               "weblinkwiz")
+)
+
+(Package vbapi
+    (Name                      "Visual Basic API")
+    (Installed                 False)
+    (Cdsections                "pfcvb"
+                               "iculibs"
+                               "pfcvbwiz")
+    (Binscripts                "vb_api_register"
+                               "vb_api_unregister")
+)
+
+(Package protoolkit
+    (Name                      "Pro/TOOLKIT")
+    (Cdsections                "protoolkit"
+                               "protoolkit_non_levela"
+                               "protkwiz")
+    (AltCdsections             "protoolkit"
+                               "protoolkit_levela"
+                               "protk_levelawiz")
+)
+
+(Package cadds5
+    (Name                      "INTERFACE for CADDS 5")
+    (KeyCdSection              "cadds5")
+    (Cdsections                "cadds5")
+    (Installed                 False)
+)
+
+(Package gpost
+    (Name                      "NC-GPOST")
+    (Cdsections                "gpost")
+    (Installed                 True)
+    (Binscripts                "progpostg"
+                               "progpostl"
+                               "progpostq")
+)
+
+(Package vericut
+    (Name                      "VERICUT (R)")
+    (Cdsections                "vericut")
+    (Binscripts                "proems"
+                               "proev")
+)
+
+(Package dbatchc
+    (Name                      "Creo Elements/Pro Distributed Batch")
+    (Screens                   "LpcfgLinkpath"
+                               "ScreenWindows")
+    (KeyCdSection              "dbatchc")
+    (Cdsections                "dbatchc"
+                               "iculibs"
+                               "uitools_res"
+                               "fileopensaveas"
+                               "Install"
+                               "Mozilla"
+                               "dbatchchelp")
+    (Binscripts                "ptcdbatch")
+//    (AEBinscripts              "ptcdbatch_ae")
+    (CmdTypes                  "dbatchc")
+)
+
+(Package intfjt
+    (Name                      "Interface for JT")
+    (KeyCdSection              "intf_jt")
+    (Cdsections                "intf_jt")
+)
+
+(MSIAddon thumbviewer
+    (Name                      "thumbviewer")
+    (KeyCdSection              "thumbviewer")
+    (Lpcfg                     "LpcfgThumbviewer")
+    (MSI                       "_LP_\install\addon\Thumbviewer__BIT_.msi")
+)
+
+(MSIAddon pvx
+    (Name                      "pvx")
+    (KeyCdSection              "pvexpress")
+    (Lpcfg                     "LpcfgPvx")
+    (MSI                       "_LP_\install\addon\ProductView_Express__BIT_.msi")
+)
+
+(MSIAddon mks
+    (Name                      "mks")
+    (KeyCdSection              "cadds5_MKS")
+    (MSI                       "_LP_\cadds5_mks\cadds5_mks_for_windows.msi")
+)
+
+(CmdType proe
+    (Name                      "proe")
+    (DefName                   "proe")
+    (SimpName                  "proe1")
+    (Type                      "Creo")
+    (Prefixes                  "PROE_")
+    (Featvars                  "__PROE_FEATURE_NAME__")
+    (Template                  "proengineer_start")
+    (IconPath                  "_LP_\install\nt\creologo.ico")
+    (IconIndex                 "0")
+    (UseExtensions             True)
+    (UseOptions                True)
+)
+
+(ProductInteraction appmgr
+    (Decorated                 False)
+    (RegKeyName                "PTC Application Manager")
+    (OS                        "UNIX")
+    (ShowLP                    True)
+    (LPRequired                False)
+    (LPEnv                     "PTC_APPMGR_DIR")
+    (LPLabel                   "PTC Application Manager")
+    (ShowCmd                   False)
+)
+
+(CmdType ModChkStart
+    (Name                      "ModelCHECK")
+    (Type                      "Shortcut")
+    (CmdPath                   "_LP_\bin\modelcheck.bat")
+    (IconPath                  "_LP_\install\nt\modelcheck.ico")
+    (IconIndex                 "0")
+)
+
+(CmdType dbatchc
+    (Name                      "Creo Elements/Pro Distributed Batch")
+    (Type                      "Shortcut")
+    (CmdPath                   "_LP_\bin\ptcdbatch.bat")
+    (IconPath                  "_LP_\install\nt\dbatchc.ico")
+    (IconIndex                 "0")
+)
+
+(CmdType proe_shortcut
+    (Name                      "Creo")
+    (Type                      "Shortcut")
+    (CmdPath                   "_LP_\bin\proe.exe")
+    (IconPath                  "_LP_\install\nt\creologo.ico")
+    (IconIndex                 "0")
+)
+
+(Package promech 
+    (Name                      "Creo Elements/Pro Mechanica")
+    (SubPackages               "promech_pkg" 
+                               "mechhelp"
+                               "vermodels")
+    (Screens                   "ScreenLicAgree"
+                               "ScreenProd")
+    (Installed                 False)
+    (EnvVarValues              "Append=PATH=_LP_\mech\bin")
+)
+
+(Package promech_pkg
+    (Name                      "Creo Elements/Pro Mechanica")
+    (Cdsections                "mech"
+                               "mech2"
+                               "mech3"
+                               "mech4"
+                               "mech5"
+                               "mech6"
+                               "mech7"
+                               "mech8"
+                               "mech9"
+                               "mech10"
+                               "mech11"
+                               "mech12"
+                               "mech13"
+                               "mech14"
+                               "mech15"
+                               "mechInstall"
+                               "flexclient"
+                               "pro_from_feas"
+                               "Install")
+    (Screens                   "ScreenLicList"
+                               "ScreenWindows"
+                               "LpcfgLinkpath"
+                               "LpcfgAppmgr"
+                               "LpcfgMechfeat")
+    (CmdTypes                  "mstruct"
+                               "mtherm")
+    (Binscripts                "ptchostid"
+                               "ptcflush"
+                               "pro_from_feas"
+                               "ptcstatus")
+    (Installed                 False)
+)
+
+(Package vermodels
+    (Name                      "Verification Models") 
+    (Cdsections                "Verification Models: Structure"
+                               "Verification Models: Motion")
+    (Installed                 False)
+)
+
+(CmdType mstruct
+    (Name                      "Structure")
+    (DefName                   "struct")
+    (IconPath                  "_LP_/install/nt/mstruct.ico")
+    (IconIndex                 "0")
+    (Type                      "Shortcut")
+    (CmdPath                   "_LP_\mech\bin\mstruct.bat")
+)
+
+(CmdType mtherm
+    (Name                      "Thermal")
+    (DefName                   "therm")
+    (IconPath                  "_LP_/install/nt/mtherm.ico")
+    (IconIndex                 "0")
+    (Type                      "Shortcut")
+    (CmdPath                   "_LP_\mech\bin\mtherm.bat")
+)

@@ -1,0 +1,28 @@
+# {100} (100) [0] dlg_proxy.Label
+Proxy Configuration
+Proxy 組態
+
+# [1] Lab_Proxy.Label
+Please specify your HTTP Proxy
+請指定您的 HTTP Proxy
+
+# [2] Lab_Host.Label
+&Host Address:
+主機位址(&H):
+
+# [3] Lab_Port.Label
+Port:
+連接埠:
+
+# [4] OkBtn.Label
+OK
+確定
+
+# [5] CancelBtn.Label
+Cancel
+取消
+
+# [6] Lab_Retry.Label
+Connection failed, please try again.
+驗證失敗，請重試。
+

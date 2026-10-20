@@ -1,0 +1,24 @@
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+! 
+!  check.bif
+! 
+!  A green checkmark
+! 
+!  Date      Release   Name  Ver.   Comments
+!  --------- -------   ----  ----   --------
+!                      TWH          Created
+!  11-May-99 I-03-09   JJE   $$1    Group submission
+!
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+(Image check
+    (Resources
+        (.Width     10)
+        (.Height    10)
+        (.Depth     3)
+    )
+    (Data
+        C6FF0AC5FF0A0AC4FFC00AC3FFC00AC3FFC00AFFFF0AC0FFC00AC0FF0A0AFFC0
+        0AC2FFC10AC4FF0A0ACDFF
+    )
+)

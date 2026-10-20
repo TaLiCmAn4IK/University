@@ -1,0 +1,63 @@
+// 20-Oct-99 $$1  OTT  Created.
+// 12-Nov-99 $$2  OTT  Add ptcutil
+// 11-Jan-99 $$3  JJE  Don't use 22 in command names
+// 12-Jan-99 $$4  JJE  Add painthelp
+// 29-Feb-00 $$5  OTT  Add icon path and index
+// 17-Aug-00 $$6  TWH  fix case ezprop keys
+// 30-Jan-01 $$7  TWH  Add CmdType Prop values
+// 31-Jan-02 $$8  MAZ  Use ptchostid script
+// 04-Mar-03 K-01-06  $$9  TWH  LpcfgWindows->ScreenWindows
+// 21-Jul-03 K-01-11 $$10  JJE  Add ptcborrow and ptcreturn scripts
+// 15-Dec-03 K-01-20 $$11  MAZ  Remove borrow scripts
+// 18-Dec-08 L-03-23 $$12  TWH  Drop LpcfgProHelp
+
+(Product 3dpaint
+    (Name                      "3DPAINT")
+    (Packages                  "3dpaint" 
+                               "painthelp"
+                               "demos"
+                               "ptcutil"
+                               "uninstall")
+    (ProgramFiles              False)
+    (LpDirName                 "3dpaint")
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+)
+
+(Package 3dpaint
+    (Name                      "3DPAINT")
+    (Screens                   "ScreenLicList"
+                               "ScreenWindows"
+                               "ScreenDftCmds"
+                               "LpcfgCmdList"
+                               "LpcfgLinkpath"
+                               "LpcfgBrowser")
+    (CmdTypes                  "3dpaint")
+    (Binscripts                "ptchostid"
+                               "ptcflush"
+                               "ptcstatus")
+    (Cdsections                "3dpaint Tree"
+                               "3dpaint"
+                               "Install"
+                               "flexclient")
+    (Installed                 True)
+)
+
+(Package demos
+    (Name                      "Demo Files")
+    (Installed                 False)
+    (Cdsections                "Demos")
+)
+
+(CmdType 3dpaint
+    (Name                      "3dpaint")
+    (Type                      "3DPAINT")
+    (Prefixes                  "PAINT_")
+    (Featvars                  "__3DPAINT_FEATURE_NAME__")
+    (Template                  "3dpaint_start")
+    (IconPath                  "_LP_\install\nt\3dpaint.ico")
+    (IconIndex                 "0")
+    (UseExtensions             False)
+    (UseOptions                False)
+)
+

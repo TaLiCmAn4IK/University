@@ -1,0 +1,24 @@
+# {0} (6) [0] scr_ieopt2.Label
+Windchill Info*Engine Server Settings
+Impostazioni server Windchill Info*Engine
+
+# [1] TempRootLab.Label
+Template Processor HTML Directory
+Directory HTML processore modelli
+
+# [2] TaskRootLab.Label
+Task Processor XML Directory
+Directory XML processore operazioni
+
+# [3] scr_ieopt3.Label
+Info*Engine Adapter Settings
+Impostazioni scheda Info*Engine
+
+# [4] AdapterHostLab.Label
+Adapter Host
+Host scheda
+
+# [5] AdapterPortLab.Label
+Adapter Port
+Porta scheda
+

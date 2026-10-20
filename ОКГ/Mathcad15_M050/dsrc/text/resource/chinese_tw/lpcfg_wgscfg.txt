@@ -1,0 +1,20 @@
+# {0} (5) [0] lpcfg_wgscfg.Label
+Windchill Graphics Server Configurations
+設定Windchill Graphics伺服器組態
+
+# [1] lpcfg_wgscfg2.Label
+Windchill Graphics Server Settings
+Windchill Graphics伺服器設定
+
+# [2] HostnameLab.Label
+Fully Qualified Hostname
+完全合格的主機名稱
+
+# [3] WGSPortLab.Label
+Port Number
+端口號
+
+# [4] TextArea.Value
+Specify the Windchill Graphics Server Hostname and Port Number.
+指定Windchill Graphics伺服器主機名稱和端面號。
+

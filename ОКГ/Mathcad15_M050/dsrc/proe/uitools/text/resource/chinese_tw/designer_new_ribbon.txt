@@ -1,0 +1,180 @@
+# {100} (100) [0] designer_new_ribbon.Label
+New Ribbon
+新建功能區
+
+# [1] type_lay.Label
+Type
+類型 
+
+# [2] rdgType.Labels.sketcher_
+ <sketch> Sketch
+ <sketch>草繪
+
+# [3] rdgType.Labels.prt_
+ <prt><8x18> Part
+ <prt><8x18> 零件
+
+# [4] rdgType.Labels.asm_
+ <asm><8x18> Assembly
+ <asm><8x18> 組件
+
+# [5] rdgType.Labels.mfg_
+ <mfg> Manufacturing
+ <mfg>製造
+
+# [6] rdgType.Labels.drw_
+ <drw> Drawing
+ <drw> 工程圖
+
+# [7] rdgType.Labels.drw_fmt_
+ <frm> Format
+ <frm> 格式
+
+# [8] rdgType.Labels.new_
+<new>New Ribbon
+<new>新建功能區
+
+# [9] subtype_lay.Label
+Sub-type
+子類型
+
+# [10] sketcher_.Labels.sketcher_
+Standard
+標準
+
+# [11] prt_layout.Label
+part
+零件
+
+# [12] prt_.Labels.prt_
+Solid
+實焊
+
+# [13] prt_.Labels.prt_cmt_
+Composite
+複合
+
+# [14] prt_.Labels.prt_smt_
+Sheetmetal
+鈑金
+
+# [15] prt_.Labels.prt_bulk_
+Bulk
+主體
+
+# [16] prt_.Labels.prt_harn_
+Harness
+配線
+
+# [17] asm_.Labels.asm_
+Design
+設計
+
+# [18] asm_.Labels.asm_inchg_
+Interchange
+互換
+
+# [19] asm_.Labels.asm_verify_
+Verify
+核對
+
+# [20] asm_.Labels.asm_plan_
+Process Plan
+處理計劃
+
+# [21] asm_.Labels.asm_nc_
+NC Model
+NC 模型
+
+# [22] asm_.Labels.asm_mold_
+Mold Layout
+模具配置圖
+
+# [23] asm_.Labels.asm_spl_smt_
+Split Sheetmetal
+分割鈑金
+
+# [24] asm_.Labels.asm_simp_rep_
+Ext. Simp.Rep.
+外部簡化表示
+
+# [25] asm_.Labels.asm_plt_harn_
+Flat Harness
+扁平配線
+
+# [26] asm_.Labels.asm_fig_
+Figure
+圖
+
+# [27] asm_.Labels.asm_conf_asm_
+Configure Asm
+配置組件
+
+# [28] mfg_.Labels.mfg_asm_
+NC Assembly
+NC組件
+
+# [29] mfg_.Labels.mfg_prt_
+NC Part
+NC零件
+
+# [30] mfg_.Labels.mfg_feat_
+Expert Machinist
+Expert Machinist
+
+# [31] mfg_.Labels.mfg_exp_tmkr_
+Expert Toolmaker
+Expert Toolmaker
+
+# [32] mfg_.Labels.mfg_cmm_
+CMM
+CMM
+
+# [33] mfg_.Labels.mfg_smt_
+Sheetmetal
+鈑金
+
+# [34] mfg_.Labels.mfg_cast_
+Cast Cavity
+鑄造模穴
+
+# [35] mfg_.Labels.mfg_mold_
+Mold Cavity
+模穴
+
+# [36] mfg_.Labels.mfg_dief_
+Dieface
+壓延模
+
+# [37] mfg_.Labels.mfg_harn_
+Harness
+配線
+
+# [38] mfg_.Labels.mfg_psplg_
+Process Plan
+處理計劃
+
+# [39] drw_.Labels.drw_
+Standard
+標準
+
+# [40] drw_fmt_.Labels.drw_fmt_
+Standard
+標準
+
+# [41] new_.Labels.new_
+Standard
+標準
+
+# [42] inp_panel.Value
+new_
+new_
+
+# [43] btnOK.Label
+OK
+確定
+
+# [44] btnCancel.Label
+Cancel
+取消
+

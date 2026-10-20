@@ -1,0 +1,4 @@
+# {100} (100) [0] workingdir_pb.HelpText
+Working Directory
+작업 디렉토리
+

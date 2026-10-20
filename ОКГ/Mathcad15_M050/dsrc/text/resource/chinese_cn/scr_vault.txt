@@ -1,0 +1,20 @@
+# {0} (5) [0] FileLab.Label
+File Vault path
+文件存储区路径
+
+# [1] Label5.Label
+Port
+端口
+
+# [2] Label6.Label
+Hostname
+主机名
+
+# [3] PasswdLab.Label
+SYSPOOL File Server password
+SYSPOOL文件服务器密码
+
+# [4] scr_vault3.Label
+Instructions
+指令
+

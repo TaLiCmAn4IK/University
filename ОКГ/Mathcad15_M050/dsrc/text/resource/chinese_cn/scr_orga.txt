@@ -1,0 +1,20 @@
+# {0} (5) [0] TextArea.Value
+In the fields below, enter the paths to the directories to be used by the ORGA archive.
+在下列字段中，输入ORGA档案所用目录的路径。
+
+# [1] orga_admin.Label
+Administrator directory
+管理员目录
+
+# [2] AdminDirLab.Label
+If the administrator directory for this ORGA Archive\ndatabase already exists (either on this computer or\nelsewhere on the network), enter the path of the\nexisting directory.
+如果此ORGA档案数据库的管理员目录\n已存在(在本计算机或\n网络中的其它位置上)，则输入\n现有目录的路径。
+
+# [3] orga_des.Label
+First designer directory
+第一设计者目录
+
+# [4] DesDirLab.Label
+After installation, you may set up additional designers\nby making copies of the subdirectories in this directory.
+安装完成后，可通过复制本目录中的子目录\n来设置其他设计者。
+

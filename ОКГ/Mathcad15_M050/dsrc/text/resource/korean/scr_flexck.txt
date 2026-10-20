@@ -1,0 +1,24 @@
+# {0} (6) [0] CheckLayout.Label
+Valid Licenses
+유효한 라이센스
+
+# [1] ValidLabel.Label
+Some
+일부
+
+# [2] CheckLayout2.Label
+Invalid Licenses
+부적절한 라이센스
+
+# [3] InvalidLabel.Label
+Some
+일부
+
+# [4] FixBtn.Label
+Modify...
+수정...
+
+# [5] CheckBtn.Label
+ReCheck
+재점검
+

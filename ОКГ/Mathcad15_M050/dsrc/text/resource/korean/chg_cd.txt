@@ -1,0 +1,20 @@
+# {0} (5) [0] chg_cd.Label
+Insert a new CD
+새 CD를 넣으십시오.
+
+# [1] StdOk.Label
+Ok
+확인
+
+# [2] StdCancel.Label
+Cancel
+취소
+
+# [3] ChgCDText.Label
+PTC/Setup can not find the required CD from this path. Either\nthe CDROM is not responding or the CD you inserted is incorrect.\nInput a correct path to the CD and press OK to retry or Cancel\nto abort PTC/Setup.
+PTC/Setup은 이 경로에서 필요한 CD를 찾지 못했습니다. CDROM이\n응답하지 않거나 또는 삽입한 CD에 오류가 있습니다. 정확한 CD로의\n경로를 입력하고확인을 눌러 재시도하거나 취소 버튼으로\nPTC/Setup을 중단합니다.
+
+# [4] DevicePathBrowse.Label
+Browse
+찾아보기
+

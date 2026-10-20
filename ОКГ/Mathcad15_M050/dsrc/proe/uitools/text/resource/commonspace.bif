@@ -1,0 +1,23 @@
+!----------------------------------------------------------------------
+! 05-Dec-97  H-03-32  xw      $$1 Submitted with shortcut toolbar sub.
+! 18-Mar-02  J-03-21  TLH  $$02  Recolored
+! 24-JUN-02 J-03-28 TLH  $$03  Updated.
+! 23-AUG-04 K-03-09 TLH  $$04  Recolored.
+! 05-Jan-05 K-03-17 Moti $$05  Changed for Server Registry.
+!----------------------------------------------------------------------
+(Image commonspace
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        0FFFFFFF03F0FD000D100D200D00300D400D500D600D700D800D900DA00D9EB0
+        0980808001C00DD00D60E7615301B00DBC05F2EBBDFCFF0D0F1A996633019252
+        7523E70D032011B7AA5B3B1D704B1A3815241DBC05FDF8CE7B1D0E8716E4D57D
+        E302601D701D981100A411E401E401A4119811981DA81DD40100D415002DD41D
+        E41DF41D402D142D242D0E68216E3A2FC716802DC815782100602DB01DBC2D90
+        1DA02DB02DC01DD01D00E02D302D3C3D502D203D303D7C3D503D00E40D702DBC
+        3D902DA83D
+    )
+)

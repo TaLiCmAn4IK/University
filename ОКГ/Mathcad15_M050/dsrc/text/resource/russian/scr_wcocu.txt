@@ -1,0 +1,52 @@
+# {100} (100) [0] WCDSCompDescLayout.Label
+Description
+Описание
+
+# [1] CompDescTA.Value
+Select a component or subcomponent to view its description.
+Выберите компонент или подкомпонент для просмотра его описания.
+
+# [2] WCDSLayout2.Label
+Database size
+Размер базы данных
+
+# [3] DsRadioSize.Labels.0
+Small (700 MB)
+Малая (700 Мб)
+
+# [4] DsRadioSize.Labels.1
+Medium (900 MB)
+Средняя (900 Мб)
+
+# [5] DsRadioSize.Labels.2
+Large (1800 MB)
+Большая (1800 Мб)
+
+# [6] DsVaultCheck.Label
+Exclusively use external file vaults
+Эксклюзивное исп. внешних хранилищ
+
+# [7] LpLab.Label
+Directory for database files
+Папка для файлов базы данных
+
+# [8] LpBrowse.HelpText
+Browse for Installation Directory
+Просмотр папки для установки
+
+# [9] WCDSDiskSpaceLayout.Label
+Disk Space
+Дисковое пространство
+
+# [10] SpaceAvailLab.Label
+Available on C: 9999GB
+Доступно на C: 9999 Гб
+
+# [11] SpaceReqLab.Label
+Required on C: 9999GB
+Требуется на C: 9999 Гб
+
+# [12] TextArea.Value
+Identify the location of the database files and choose the size of the database.\n\nFor specific instructions see the Help screen.
+Укажите размещение файлов базы данных и выберите размер базы.\n\nДля особых инструкций см. окно Помощи.
+

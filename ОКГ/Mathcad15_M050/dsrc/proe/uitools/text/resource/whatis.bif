@@ -1,0 +1,21 @@
+!  History:
+!
+!  Date      Release Name  Ver.  Comments
+!  --------- ------- ----- ----- ----------------------------------------------
+!  15-Sep-97 H-03-22 AW    $$1   copied from guide
+! 06-JAN-98  H-03-35  twb  $$2 Recolored to be consistent with tree.
+! 15-JAN-01  J-01-25  pmu  $$3 Updated
+(Image whatis
+    (Resources
+        (.Width     20)
+        (.Height    20)
+        (.Depth     8)
+    )
+    (Data
+        DBC1FF15C5FFC20508C2FF1515C3FF0505FFFF08050508C1FFC015C1FF050508
+        C0FFC005C1FFC115C0FF050508C0FFC005C1FFC215FFFF080505FFFF08050508
+        C1FFC315C3FF050508C2FFC415C1FF0505C4FFC515FFFF050508C4FFC215C2FF
+        050508C4FF1515FF1515CCFF15C0FF1515C1FFC005C8FF1515C1FFC005C9FF15
+        15CFFF1515C4C2FF
+    )
+)

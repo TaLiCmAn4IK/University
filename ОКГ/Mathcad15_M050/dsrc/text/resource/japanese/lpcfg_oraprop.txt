@@ -1,0 +1,8 @@
+# {0} (2) [0] SIDLab.Label
+Oracle SID
+Oracle SID
+
+# [1] UsernameLab.Label
+Windchill Database Username
+Windchill データベースユーザー名
+

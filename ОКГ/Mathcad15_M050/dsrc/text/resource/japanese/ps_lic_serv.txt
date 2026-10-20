@@ -1,0 +1,64 @@
+# {100} (100) [0] ps_lic_serv.Label
+Specify License Server
+ライセンスサーバー指定
+
+# [1] StdOK.Label
+&OK
+OK(&O)
+
+# [2] StdCancel.Label
+&Cancel
+キャンセル(&C)
+
+# [3] lic_serv.Label
+Simple
+簡単
+
+# [4] ServTypeGroup.Labels.1
+Single license server
+単一ライセンスサーバー
+
+# [5] ServTypeGroup.Labels.2
+Triad license server (fault tolerant)
+3 台構成ライセンスサーバー(障害許容)
+
+# [6] ServTypeGroup.Labels.3
+Locked license file (no server running)
+ロックライセンスファイル(起動中のサーバーなし)
+
+# [7] Label1.Label
+License Server
+ライセンスサーバー
+
+# [8] Label2.Label
+Hostname
+ホスト名
+
+# [9] Label3.Label
+Port
+ポート
+
+# [10] Label4.Label
+Triad partner 1
+三つ組パートナー 1
+
+# [11] Label5.Label
+Hostname
+ホスト名
+
+# [12] Label6.Label
+Port
+ポート
+
+# [13] Label7.Label
+Triad partner 2
+三つ組パートナー 2
+
+# [14] Label8.Label
+Triad partner 3
+三つ組パートナー 3
+
+# [15] Label9.Label
+License file path
+ライセンスファイルパス
+

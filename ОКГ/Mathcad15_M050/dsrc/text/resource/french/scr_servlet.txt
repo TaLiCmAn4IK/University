@@ -1,0 +1,64 @@
+# {0} (16) [0] scr_servlet2.Label
+Servlet Engine Configuration
+Configuration du servlet Engine
+
+# [1] EngineTypeLab.Label
+Servlet Engine Type
+Type de servlet Engine
+
+# [2] ServletType.Labels.jrun
+JRun
+JRun
+
+# [3] ServletType.Labels.tomcat
+Tomcat
+Tomcat
+
+# [4] ServletType.Labels.other
+Other / Don't auto-configure
+Autre / Ne pas utiliser la configuration auto.
+
+# [5] EngineDirLab.Label
+Servlet Engine Home Directory
+Répertoire de connexion du servlet Engine
+
+# [6] webserver_layout.Label
+Web Server Information
+Informations sur le serveur Web
+
+# [7] WebServerLab.Label
+Web Server Network Address
+Adresse réseau du serveur Web
+
+# [8] PortLab.Label
+Web Server Port Number
+Numéro de port du serveur Web
+
+# [9] ServerTypeLab.Label
+Web Server Type
+Type de serveur Web
+
+# [10] ServerType.Labels.apache
+Apache
+Apache
+
+# [11] ServerType.Labels.iis4
+Internet Information Server
+Serveur d'information Internet
+
+# [12] ServerType.Labels.iplanet
+iPlanet
+iPlanet
+
+# [13] ServerType.Labels.other
+Other
+Autre
+
+# [14] ServerHomeLab.Label
+https Directory Path
+Chemin du répertoire https
+
+# [15] StopServer.Label
+Stop/Start the server to complete configuration
+Arrêter/démarrer le serveur pour compléter la configuration
+

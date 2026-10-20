@@ -1,0 +1,14 @@
+! 08-Nov-07  L-01-41  Moti $$01  Created
+
+
+
+! collapsible sash bottom check button style for villa
+
+
+
+; ToggleButton
+
+[togglebutton]
+BackgroundImage = styles/col_sash/col_sash_bottom_arrow_villa.bif
+Size = 50, 6
+ContentMargins = 1, 1, 1, 1

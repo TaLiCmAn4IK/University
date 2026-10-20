@@ -1,0 +1,107 @@
+// 28-Dec-99 $$1  TWH  Created.
+// 05-May-00 $$2  TWH  Chg CmdType tag, add oldtag
+// 27-Oct-00 $$3  TWH  Add uninstall
+// 14-Dec-00 $$4  TWH  Drop ptcmonitor
+// 30-Jan-01 $$5  TWH  Add CmdType Prop values
+// 08-Mar-01 $$6  TWH  Add PossibleArchs
+// 27-Jun-01      TWH  Add ptcutil pkg
+// 27-Jun-01 $$7  TWH  Chg Product Name
+// 31-Jan-02 $$8  MAZ  Use ptchostid script
+// 18-Oct-02 $$9  MAZ  Add AEplpVersion for ae_msg file creation
+// 19-Feb-03 J-03-41+ MAZ  $$10  Change AEplpVersion to 3.3
+// 15-Apr-03 K-01-06 TWH  drop ibm from possible archs
+// 29-Apr-03 K-01-06 TWH  $$11  Use ScreenDftCmds LpcfgCmdList
+// 21-Jul-03 K-01-11 $$12  JJE  Add ptcborrow and ptcreturn scripts
+// 15-Dec-03 K-01-20 $$13  MAZ  Remove borrow scripts
+// 09-Apr-04 K-01-26 $$14  TWH  Add LicenseSimp; Ad_list
+// 21-Dec-07 L-01-41 $$15  TWH  New Ad_list
+// 15-Jan-2008 L-01-42+  TWH  $$16  Rename Ads files
+// 28-Feb-08 L-03-05  $$17 TWH  Update platform support
+// 27-Jun-08 L-03-12 $$18 TWH  New WelcomeImage
+// 27-Jul-09 L-03-34 $$19 TWH  Update WF5 images
+// 04-Nov-09 L-03-36 $$20 TWH  Update WF5 images
+
+(Product tkenv
+    (Name                      "Pro/INTRALINK Toolkit Environment")
+    (WelcomeImage              "tkenv_name.png")
+    (Packages                  "tkenv_pkg"
+                               "adv_cfg"
+                               "demos"
+                               "ptcutil"
+                               "uninstall")
+    (ProgramFiles              False)
+    (LpDirName                 "proitkenv")
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+    (VersionDir                False)
+    (HostProd                  "proitkit")
+    (StandAlone                True)
+    (PossibleArchs             "sun4_solaris_64"
+                               "hpux_pa64"
+                               "x86e_win64"
+                               "i486_nt")
+    (AEplpVersion              "3.4")
+    (LicenseSimplification     True)
+(Ad_list                    "WF5_101"
+                               "WF5_102"
+                               "WF5_103"
+                               "WF5_104"
+                               "WF5_201"
+                               "WF5_202"
+                               "WF5_203"
+                               "WF5_204"
+                               "WF5_301"
+                               "WF5_302"
+                               "WF5_303"
+                               "WF5_304"
+                               "WF5_401"
+                               "WF5_402"
+                               "WF5_403"
+                               "WF5_501"
+                               "WF5_502"
+			       "WF5_503"
+			       "WF5_601"
+                               "WF5_602"
+                               "WF5_603"
+                               "WF5_701"
+                               "WF5_702"
+			       "WF5_703"
+			       "WF5_801"
+                               "WF5_802"
+                               "WF5_803"
+                               "WF5_901"
+                               "WF5_902"
+			       "WF5_903")
+)
+
+(Package tkenv_pkg
+    (Name                      "Toolkit Environment")
+    (Screens                   "ScreenLicList"
+                               "ScreenDftCmds"
+                               "LpcfgCmdList"
+                               "LpcfgLinkpath"
+                               "ScreenDbssvr")
+    (CmdTypes                  "tkenv")
+    (Binscripts                "ptchostid"
+                               "ptcflush"
+                               "ptcstatus"
+                               "tnsping")
+    (Cdsections                "proitkenv"
+                               "oraruntime"
+                               "flexclient"
+                               "Install")
+    (Installed                 True)
+)
+
+(CmdType tkenv
+    (Name                      "proilinktk22")
+    (DefName                   "proilinktk")
+    (OldTag                    "prointralink")
+    (Type                      "Pro/INTRALINK")
+    (Prefixes                  "ILINK_TK_ACCESS_")
+    (Featvars                  "__ILINK_FEATURE_NAME__")
+    (Template                  "f_proitkit_start")
+    (UseExtensions             False)
+    (UseOptions                False)
+)
+

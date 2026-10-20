@@ -1,0 +1,10 @@
+; Applet upper half layout
+;
+; 24-Aug-08 L-03-16 Asaf  $$1   Created (from PV, then PD)
+;
+
+[layout]
+ContentMargins = 4, 1, 4, 0
+SizingMargins = 3, 2, 3, 0
+;TextColor = 51 94 168
+BackgroundImage = styles/ribbon/beige/ribbonapplettop.png

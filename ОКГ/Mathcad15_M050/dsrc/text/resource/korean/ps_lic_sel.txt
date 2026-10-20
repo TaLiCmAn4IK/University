@@ -1,0 +1,60 @@
+# {100} (100) [0] ps_lic_sel.Label
+Select Licenses
+라이센스 선택
+
+# [1] CmdInfoGrp.Labels.1
+No ConfigID
+ConfigID 없음
+
+# [2] CmdInfoGrp.Labels.2
+ConfigID
+ConfigID
+
+# [3] CmdInfoGrpLab.Label
+License Scheme:
+라이센스 구조:
+
+# [4] CmdName1Lab.Label
+Configuration Name:
+구성 이름:
+
+# [5] CmdDesc1Lab.Label
+Configuration Description:
+구성 설명:
+
+# [6] CmdType1Lab.Label
+ConfigurationType:
+구성 유형:
+
+# [7] Layout3.Label
+Available Licenses
+사용가능 라이센스
+
+# [8] List3.ColumnLabel
+Type
+유형
+
+# [9] Layout4.Label
+Selected Licenses
+선택된 라이센스
+
+# [10] Label16.Label
+Startup extensions && floating licenses
+시작 확장 및 부동 옵션
+
+# [11] Label3.Label
+Licenses to Run
+실행 라이센스
+
+# [12] StdOK.Label
+&OK
+확인(&O)
+
+# [13] StdCancel.Label
+&Cancel
+취소(&C)
+
+# [14] Label1.Label
+Legend: <ltr> License to Run;  <ext> Startup Extensions;  <flt> Floating options
+규칙: <ltr> 실행 라이센스;  <ext> 시작 확장;  <flt> 부동 옵션
+

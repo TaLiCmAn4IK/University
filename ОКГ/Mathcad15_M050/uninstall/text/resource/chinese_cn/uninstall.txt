@@ -1,0 +1,12 @@
+# {0} (3) [0] uninstall.Label
+PTC Uninstall
+PTC–∂‘ÿ
+
+# [1] StdButton1.Label
+Uninstall
+–∂‘ÿ
+
+# [2] StdButton2.Label
+Cancel
+»°œ˚
+

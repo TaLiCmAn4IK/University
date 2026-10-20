@@ -1,0 +1,64 @@
+# {100} (100) [0] scr_servlet2.Label
+Servlet Engine Configuration
+Конфигурация модуля сервлетов
+
+# [1] EngineTypeLab.Label
+Servlet Engine Type
+Тип модуля сервлетов
+
+# [2] ServletType.Labels.jrun
+JRun
+JRun
+
+# [3] ServletType.Labels.tomcat
+Tomcat
+Tomcat
+
+# [4] ServletType.Labels.other
+Other / Don't auto-configure
+Другое / Не выполнять автоматическую настройку
+
+# [5] EngineDirLab.Label
+Servlet Engine Home Directory
+Домашняя папка модуля сервлетов
+
+# [6] webserver_layout.Label
+Web Server Information
+Сведения о веб-сервере
+
+# [7] WebServerLab.Label
+Web Server Network Address
+Сетевой адрес веб-сервера
+
+# [8] PortLab.Label
+Web Server Port Number
+Номер порта веб-сервера
+
+# [9] ServerTypeLab.Label
+Web Server Type
+Тип веб-сервера
+
+# [10] ServerType.Labels.apache
+Apache
+Apache
+
+# [11] ServerType.Labels.iis4
+Internet Information Server
+Сервер информации Интернет
+
+# [12] ServerType.Labels.iplanet
+iPlanet
+iPlanet
+
+# [13] ServerType.Labels.other
+Other
+Другие
+
+# [14] ServerHomeLab.Label
+https Directory Path
+Путь к папке https
+
+# [15] StopServer.Label
+Stop/Start the server to complete configuration
+Запустить/остановить сервер для завершения конфигурации
+

@@ -1,0 +1,44 @@
+# {100} (100) [0] add.Label
+&Add >>
+&Добавить >>
+
+# [1] remove.Label
+&Remove
+&Удалить
+
+# [2] chk_toolbar_below_ribbon.Label
+S&how Quick Access Toolbar below the Ribbon
+&Показать панель быстрого доступа под лентой
+
+# [3] apply.Label
+Apply
+Применить
+
+# [4] move_up.HelpText
+Move Up
+Вверх
+
+# [5] move_down.HelpText
+Move Down
+Вниз
+
+# [6] reset.Label
+Re&set
+С&бросить
+
+# [7] source_label.Label
+&Choose commands from:
+Выбрать &команду из:
+
+# [8] dest_label.Label
+Customize &Quick Access Toolbar:
+&Настроить панель быстрого доступа:
+
+# [9] command_filter.Labels.popular
+Popular Commands
+Часто используемые команды
+
+# [10] command_filter.Labels.all
+All Commands
+Все команды
+

@@ -1,0 +1,16 @@
+# {0} (5) [0] scr_dbprop2.Label
+Oracle Database Settings
+Configuración de base de datos Oracle
+
+# [1] UserNameLab.Label
+Windchill Database Username
+Nombre de usuario de base de datos de Windchill
+
+# [2] UserPassLab.Label
+Windchill Database User Password
+Contraseña de usuario de base de datos de Windchill
+
+# [3] ServiceNameLab.Label
+Oracle Database JDBC Connection
+Conexión a la base de datos Oracle JDBC
+

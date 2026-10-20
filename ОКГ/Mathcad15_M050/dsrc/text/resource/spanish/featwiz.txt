@@ -1,0 +1,80 @@
+# {0} (21) [0] featwiz.Label
+Feature Wizard
+Asistente de funciones
+
+# [1] HostListAdd.Label
+Add
+Añadir
+
+# [2] HostListEdit.Label
+Edit
+Editar
+
+# [3] HostListDelete.Label
+Delete
+Borrar
+
+# [4] HostActionLabel.Label
+Action Label
+Rótulo de acción
+
+# [6] LineTypeList.Labels.0
+SERVER
+SERVER
+
+# [7] LineTypeList.Labels.1
+DAEMON
+DAEMON
+
+# [8] LineTypeList.Labels.2
+INCREMENT
+INCREMENT
+
+# [9] ActionLabel.Label
+ ------- Action line ---------
+ ------- Línea de acción ---------
+
+# [10] OptionActionLabel.Label
+Select Options
+Seleccionar opciones
+
+# [11] OptListMod.Label
+Modify
+Modificar
+
+# [12] ChoiceGroup.Labels.1
+Yes
+Sí
+
+# [13] ChoiceGroup.Labels.2
+No
+No
+
+# [14] ChoiceLabel.Label
+Action line
+Línea de acción
+
+# [15] BackButton.Label
+Back
+Anterior
+
+# [16] NextButton.Label
+Next
+Siguiente
+
+# [17] HelpButton.Label
+Help
+Ayuda
+
+# [18] CancelButton.Label
+Cancel
+Cancelar
+
+# [19] StepLabel.Label
+License Wizard - Step 1
+Asistente de licencias: paso 1
+
+# [20] DALayout.Label
+Sample License Line:
+Línea de licencia de prueba:
+

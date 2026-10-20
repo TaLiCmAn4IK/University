@@ -1,0 +1,200 @@
+# {100} (100) [0] ribbon_designer_main.Label
+Ribbon Designer
+Конструктор ленты
+
+# [1] CommandsLayout.Label
+Commands
+Команды
+
+# [2] CommandsTable.ColumnLabels.menu
+Container
+Контейнер
+
+# [3] CommandsTable.ColumnLabels.label
+Cascade / Item
+Каскад / Объект
+
+# [4] CommandsTable.ColumnLabels.cascade
+Item
+Объект
+
+# [5] CommandsTable.ColumnLabels.icon
+Icon
+Иконка
+
+# [6] CommandsTable.ColumnLabels.name
+Command Name
+Имя команды
+
+# [7] CommandsTable.ColumnLabels.help
+Help Text
+Текст Помощи
+
+# [8] FilterLayout.Label
+Show Only :
+Только показать :
+
+# [9] FilterRadioGroup.Labels.not_in_ribbon
+Not In Ribbon
+Не в ленте
+
+# [10] FilterRadioGroup.Labels.not_in_page
+Not In Page
+Не на странице
+
+# [11] FilterRadioGroup.Labels.all
+All Commands
+Все команды
+
+# [12] SaveRibbonPushButton.Label
+Save &Ribbon
+Сохранить &Ленту
+
+# [13] ToolsLayout.Label
+Tools
+Инструменты
+
+# [14] NewItemsList.Labels.newCascadeButton
+New Cascade Button
+Новая каскадная кнопка
+
+# [15] NewItemsList.Labels.newFlyoutButton
+New Flyout Button
+Новая выпадающая кнопка
+
+# [16] chkFilterOutAll.Label
+Show Container 'All'
+
+
+# [17] ribbon.Label
+&Ribbon
+&Лента
+
+# [18] ribbon.HelpText
+Ribbon
+Лента
+
+# [19] adb_designerAddNewRibbon.Label
+New
+Новый
+
+# [20] adb_designerLoadRibbon.Label
+Open
+Открыть
+
+# [21] adb_designerSaveRibbon.Label
+Save
+Сохранить
+
+# [22] pshAddExternalGroupPage.Label
+Add External Groups
+Добавить внешние группы
+
+# [23] pshRemoveExternalGroupPage.Label
+Remove External Groups
+Удалить внешние группы
+
+# [24] page.Label
+&Page
+&Страница
+
+# [25] page.HelpText
+Page
+Страница
+
+# [26] pshAddNewPage.Label
+New
+Новый
+
+# [27] pshAddNewPage.HelpText
+Add new page
+Добавить новую страницу
+
+# [28] pshInheritPage.Label
+Inherit
+Наследовать
+
+# [29] pshRenameCurPage.Label
+Re&name
+&Переименовать
+
+# [30] pshRemoveCurPage.Label
+Delete
+Удалить
+
+# [31] group.Label
+&Group
+&Группа
+
+# [32] group.HelpText
+Group
+Группа
+
+# [33] pshAddNewGroup.Label
+New
+Новый
+
+# [34] pshAddNewGroup.HelpText
+Add new group
+Добавить новую группу
+
+# [35] pshInheritGroup.Label
+Inherit
+Наследовать
+
+# [36] pshAddExistingGroup.Label
+Add Existing
+Добавить существующую
+
+# [37] eggroup.Label
+&EG
+&Напр.
+
+# [38] eggroup.HelpText
+Extended Group
+Расширенная группа
+
+# [39] pshAddNewExternalGroup.Label
+New
+Новый
+
+# [40] pshAddNewExternalGroup.HelpText
+Add new group to extended page
+Добавить новую группу к расширенной странице
+
+# [41] pshInheritExternalGroup.Label
+Inherit
+Наследовать
+
+# [42] pshAddExistingExternalGroup.Label
+Add Existing
+Добавить существующую
+
+# [43] commands.Label
+&Commands
+&Команды
+
+# [44] commands.HelpText
+Commands
+Команды
+
+# [45] ExportPushButton.Label
+Export to CSV File
+Экспортировать в CSV-файл
+
+# [46] debug.Label
+&Debug
+От&ладка
+
+# [47] debug.HelpText
+Debug
+Отладка
+
+# [48] pshSpy.Label
+Spy...
+Следить...
+
+# [49] pshSpy.HelpText
+Db Walker
+Иллюстратор БД
+

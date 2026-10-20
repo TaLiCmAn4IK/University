@@ -1,0 +1,12 @@
+# {100} (100) [0] concept_1.Label
+Locate Other Installation Directories (Optional)
+다른 설치 디렉토리 위치 (선택사항)
+
+# [1] AppMgrDirLab.Label
+PTC Application Manager
+PTC 응용 프로그램 관리자
+
+# [2] CDRSGraphLibDirLab.Label
+PTC Graphic Library
+PTC 그래픽 라이브러리
+

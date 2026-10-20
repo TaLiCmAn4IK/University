@@ -1,0 +1,20 @@
+!  History:  
+!
+!  Date      Release  Name   Ver.  Comments
+!  --------- -------  -----  ----- --------------------------------------------
+!  20-Mar-08 L-03-05  AlexM  $$1   Created.
+!
+!  INSERT COMMENT ABOVE THIS LINE
+!  Do not forget to put "!" at the begining of each line in this comment block.
+
+
+(Image overlaptopedge
+    (Resources
+        (.Width     3)
+        (.Height    2)
+        (.Depth     24)
+    )
+    (Data
+        EFFF000000F0F58DB2E30101FCF5
+    )
+)

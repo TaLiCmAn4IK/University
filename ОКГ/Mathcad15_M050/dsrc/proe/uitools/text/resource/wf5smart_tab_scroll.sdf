@@ -1,0 +1,17 @@
+; 05-Apr-09 L-03-30  IKAL  $$1  Created.
+
+
+[pushbutton]
+ContentMargins = 5, 5, 5, 5
+SizingMargins = 4, 4, 4, 4
+BackgroundImage = styles/smart_tab/empty_navigation_button.png
+
+[pushbutton(hot)]
+BackgroundImage = styles/smart_tab/navigation_button_hot_pressed.png
+
+[pushbutton(pressed)] = pushbutton(hot)
+
+[pushbutton(disabled)] = pushbutton
+
+
+[toolbutton] = pushbutton

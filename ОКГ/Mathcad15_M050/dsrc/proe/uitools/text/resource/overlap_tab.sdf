@@ -1,0 +1,25 @@
+; Main Ribbon style definition
+;
+; 02-Mar-08  L-03-05 AlexM    $$1   Created
+; 21-May-08  L-03-09 mtch     $$2   Updated
+;
+
+[togglebutton]
+SizingMargins = 2, 1, 2, 2
+BackgroundImage = styles/overlap_tab/overlaptabbutton.bif
+
+[togglebutton(hot)]
+SizingMargins = 2, 1, 3, 3
+BackgroundImage = styles/overlap_tab/overlaptabbuttonhot.bif
+
+[togglebutton(pressed)]
+SizingMargins = 4, 2, 4, 3
+BackgroundImage = styles/overlap_tab/overlaptabbuttonselected.bif
+
+[togglebutton(checked)]
+SizingMargins = 4, 2, 4, 3
+BackgroundImage = styles/overlap_tab/overlaptabbuttonselected.bif
+
+[togglebutton(hotchecked)]
+SizingMargins = 4, 2, 4, 3
+BackgroundImage = styles/overlap_tab/overlaptabbuttonselected.bif

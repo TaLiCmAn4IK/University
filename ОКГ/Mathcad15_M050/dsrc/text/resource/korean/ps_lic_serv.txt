@@ -1,0 +1,64 @@
+# {0} (16) [0] ps_lic_serv.Label
+Specify License Server
+라이센스 서버 지정
+
+# [1] StdOK.Label
+&OK
+확인(&O)
+
+# [2] StdCancel.Label
+&Cancel
+취소(&C)
+
+# [3] ServTypeGroup.Labels.1
+Single license server
+단일 라이센스 서버
+
+# [4] ServTypeGroup.Labels.2
+Triad license server (fault tolerant)
+트라이어드 라이센스 서버 (폴트 톨러런트)
+
+# [5] ServTypeGroup.Labels.3
+Locked license file (no server running)
+고정 라이센스 파일 (실행 서버 없음)
+
+# [6] lic_serv.Label
+Simple
+단순
+
+# [7] Label1.Label
+License Server
+라이센스 서버
+
+# [8] Label2.Label
+Hostname
+호스트이름
+
+# [9] Label3.Label
+Port
+포트
+
+# [10] Label4.Label
+Triad partner 1
+트라이어드 파트너 1
+
+# [11] Label5.Label
+Hostname
+호스트이름
+
+# [12] Label6.Label
+Port
+포트
+
+# [13] Label7.Label
+Triad partner 2
+트라이어드 파트너 2
+
+# [14] Label8.Label
+Triad partner 3
+트라이어드 파트너 3
+
+# [15] Label9.Label
+License file path
+라이센스 파일 경로
+

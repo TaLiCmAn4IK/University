@@ -1,0 +1,36 @@
+// 07-Mar-00 $$1  TWH  Created.
+// 06-Apr-00 $$2  TWH  Drop ScreenLicList
+// 11-May-00 $$3  JJE  Drop flexclient section
+// 26-May-00 $$4  TWH  Chg LpDirName ProPDMServer -> paserver
+//                     VersionDir = FALSE
+// 13-Sep-00 $$5  TWH  EzProp defaults
+// 04-Apr-01 $$6  TWH  change BinScripts -> Binscripts
+// 04-Apr-01 $$7  ALG  CdSections -> Cdsections
+(Product pas
+    (Name                      "Pro/PDM Application Server")
+    (Packages                  "pas_pkg"
+                               "ptcutil"
+                               "uninstall")
+    (ProgramFiles              False)
+    (LpDirName                 "paserver")
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+    (VersionDir                False)
+// EzProp defaults...
+    (Port                      1099)
+    (LogFile                   True)
+)
+
+(Package pas_pkg
+    (Name                      "Application Server")
+    (Screens                   "ScreenPasProp"
+                               "ScreenPdmSrvList")
+    (Binscripts                "pas_demo"
+                               "pas_test"
+                               "pas_stop"
+                               "pas_start")
+    (Cdsections                "PAS"
+                               "Install")
+    (Installed                 True)
+)
+

@@ -1,0 +1,24 @@
+# {100} (100) [0] authorize.Label
+Authorization
+승인
+
+# [1] Authorize_Label_Username.Label
+Username:
+사용자 이름:
+
+# [2] Authorize_Label_Password.Label
+Password:
+암호:
+
+# [3] Authorize_PB_OK.Label
+&OK
+확인(&O)
+
+# [4] Authorize_PB_Cancel.Label
+&Cancel
+취소(&C)
+
+# [5] Label1.Label
+Please type your user name and password.
+사용자 이름과 암호를 입력하십시오.
+

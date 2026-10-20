@@ -1,0 +1,20 @@
+! 15-Sep-97 H-03-22  twb $$1 Created. 
+! 18-Dec-97 H-03-34 hmt $$2 Changed size to 18x18
+! 29-DEC-97 H-03-35 MCA $$3 Changed size to 16x16 - Removed RED Set Current Box.
+! 06-JAN-98  H-03-35  twb  $$4 Recolored to be consistent with tree.
+! 06-Dec-00 J-01-23 Menn $$5 Changed image.
+(Image new
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     4)
+    )
+
+    (Data
+        D8FFC20FC7FF0F060806080FC0FFC40F08070F08060FFFFF0F06080608060806
+        0F07060F080FFF0F0807C10F060806080F0F060F0F060F07C10F080F0F060F0F
+        080F0608060806080608060707080F0F060F080F07C40F07060F0F080F0607C4
+        0F070F080707060F0806080608060806080F07060F080FFFC50F06070F08060F
+        C6FF0F080608060FC7FFC20FC1C1FF
+    )
+)

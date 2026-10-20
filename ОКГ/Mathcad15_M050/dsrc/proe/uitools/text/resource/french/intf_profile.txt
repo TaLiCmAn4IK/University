@@ -1,0 +1,112 @@
+# {100} (100) [0] intf_profile.Label
+<file name> - Import Profile
+<nom fichier> - Profil d'importation
+
+# [1] tb_psh_new.HelpText
+Opens a new blank import profile.
+Ouvre un nouveau profil vierge d'importation.
+
+# [2] tb_psh_open.HelpText
+Opens an existing import profile.
+Ouvre un profil d'importation existant.
+
+# [3] tb_psh_save.HelpText
+Saves an import profile. 
+Enregistre un fichier d'importation.
+
+# [4] tb_psh_save_as.HelpText
+Saves an import profile under a different name.
+Enregistre un profil d'importation sous un nom différent.
+
+# [5] lay_profile_list.Label
+Profile
+Profil
+
+# [6] psh_profile_save.Label
+Save
+Enregistrer
+
+# [7] psh_profile_save.HelpText
+Saves option settings to the selected profile.
+Enregistre les paramètres d'option dans le profil sélectionné.
+
+# [8] OkPshBtn.Label
+OK
+OK
+
+# [9] OkPshBtn.HelpText
+Keeps the changes.
+Conserve les modifications.
+
+# [10] CancelPshBtn.Label
+Cancel
+Annuler
+
+# [11] CancelPshBtn.HelpText
+Cancels the changes.
+Annule les modifications.
+
+# [12] Menu_File.Label
+File
+Fichier
+
+# [13] psh_new.Label
+New
+Nouveau
+
+# [14] psh_new.HelpText
+Opens a new blank import profile.
+Ouvre un nouveau profil vierge d'importation.
+
+# [15] psh_open.Label
+Open...
+Ouvrir...
+
+# [16] psh_open.HelpText
+Opens an existing import profile.
+Ouvre un profil d'importation existant.
+
+# [17] psh_save.Label
+Save
+Enregistrer
+
+# [18] psh_save.HelpText
+Saves an import profile. 
+Enregistre un fichier d'importation. 
+
+# [19] psh_save_as.Label
+Save As...
+Enregistrer sous...
+
+# [20] psh_save_as.HelpText
+Saves an import profile under a different name.
+Enregistre un profil d'importation sous un nom différent.
+
+# [21] psh_exit.Label
+Exit
+Quitter
+
+# [22] psh_exit.HelpText
+Exits from the import profile editor.
+Quitte l'éditeur de profil d'importation.
+
+# [23] Menu_Edit.Label
+Edit
+Edition
+
+# [24] psh_reset.Label
+Reset to Default
+Réglages par défaut
+
+# [25] psh_reset.HelpText
+Resets options back to their system defaults.
+Réinitialise les options aux réglages par défaut du système.
+
+# [26] psh_session_profile.Label
+Set per Current Profile
+Définir par profil courant
+
+# [27] psh_session_profile.HelpText
+Sets options per Current Profile,\nwhich keeps the options' most recent \nused values.
+Définit les options par profil courant,\nce qui préserve les valeurs des options \nles plus récentes.
+

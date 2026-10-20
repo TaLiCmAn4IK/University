@@ -1,0 +1,29 @@
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!
+! License to run 16x16 bif used in PTC.Setup
+! 	- Image created by Tammy Hammack (see her for modifications)
+!
+!  Date      Release   Name  Ver.   Comments
+!  --------- -------   ----  ----   --------
+!  19-May-03 K-01-07   TWH   $$1    Submitted.
+!
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+(Image ps_run_licenses
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        0FFFFFFF03F0FD000D100D200D1E2801925223013805280D500D1C600D3801E4
+        D57D7706400D900D80680D78097C09C80DD80D3805BC01B73FAA5B01666666B7
+        0D0B1DC0BB0AFC01F00D1C1D4C1DBC05333301338702B00D60198815801D6815
+        A0051C3C1DB4119999998706B411B41130A00DE415C811881AE4E40322C811E0
+        0C2D1C29EC1904256811A1A1920003264C2D3C25E81D542D3C250029A01DFC68
+        2D7C2980808001C7C501B23B12C821C821D415E029AC198819004421CC210C3D
+        1835A02DB411183D2435006811483DA82D343DCC25CC1D6C3DAC3D009C1DCC3D
+        DC3D
+    )
+)
+

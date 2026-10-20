@@ -1,0 +1,20 @@
+# {100} (100) [0] lpcfg_wgscfg.Label
+Windchill Graphics Server Configurations
+Конфигурации сервера графики Windchill
+
+# [1] lpcfg_wgscfg2.Label
+Windchill Graphics Server Settings
+Установки сервера графики Windchill
+
+# [2] HostnameLab.Label
+Fully Qualified Hostname
+Полное имя сервера
+
+# [3] WGSPortLab.Label
+Port Number
+Номер порта
+
+# [4] TextArea.Value
+Specify the Windchill Graphics Server Hostname and Port Number.
+Задать имя сервера и номер порта сервера графики Windchill.
+

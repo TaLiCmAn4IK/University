@@ -1,0 +1,85 @@
+// 28-Dec-99 $$1  TWH  Created.
+// 12-May-00 $$2  TWH  Add EnvVarValue for ORACLE_HOME
+// 11-Jul-00      TWH  Add Product:OldTag
+// 17-Aug-00 $$3 MAZ  Use EnvVarValues as a Prop
+// 29-Nov-00 $$4  TWH  add uninstall
+// 04-Jan-01 $$5  TWH  external dbsize values
+// 08-Mar-01 $$6  TWH  Fix #5
+// 13-Apr-01 $$7  TWH  Fix sizes of databases
+// 24-Sep-01 $$8  TWH  Add ScreenProdPostFunc.AllowPreCheck
+// 04-Mar-02 $$9  TWH  MS_SS support
+// 14-May-02      TWH  ShowMigrate == FALSE
+// 12-Aug-02 $$10 TWH  Add PossibleArchs/MOR
+// 11-Nov-02 J-03-37  $$11  TWH  No MOR flag
+// 21-Aug-03 K-01-13  $$12  TWH  Add RC_README_TPL
+// 09-Apr-04 K-01-26  $$13  TWH  Add No_Bin_Dir
+
+(Product ilnkdataserver
+    (Name                      "Pro/INTRALINK Data Server")
+    (Packages                  "dbs"
+                               "adv_cfg"
+                               "demos"
+                               "uninstall")
+    (ProgramFiles              False)
+    (LpDirName                 "dataserver")
+    (Screens                   "ScreenProd")
+    (PossibleArchs             "sun4_solaris"
+                              "hpux11_pa32"
+                               "ibm_rs6000"
+                               "i486_nt")
+    (Installed                 True)
+    (OldTag                    "dataserver")
+    (LpcfgMS_SS.MS_SS_Radio    "MS")
+    (ScreenProdPostFunc.AllowPreCheck True)
+    (DBSize.0                  "130")
+    (DBSize.1                  "420")
+    (DBSize.2                  "1950")
+    (ShowMigrate               False)
+//    (MOR                       "http://www.ptc.com/cs/doc/swupdate.htm")
+    (RC_README_TPL             "ds_readme")
+    (No_Bin_Dir                True)
+)
+
+(Package dbs
+    (Name                      "Pro/INTRALINK Data Server")
+    (Screens                   "ScreenMigrate"
+                               "ScreenDataserver"
+                               "ScreenVault"
+                               "LpcfgOrapwd"
+                               "LpcfgMS_SS")
+    (Required                  True)
+    (Cdsections                "dbs"
+                               "ilinkpatches"
+                               "adminutils"
+                               "Install")
+    (Installed                 True)
+    (EnvVarValues              "Append=PATH=_LP_\intralink\bin")
+)
+
+(Package adv_cfg
+    (Name                      "Configuration options")
+    (SubPackages               "Oracle"
+                               "RunCfg")
+    (Cdsections                "demo")
+    (Installed                 True)
+)
+
+(Package Oracle
+    (Name                      "Install Oracle")
+    (Cdsections                "oserv")
+    (Installed                 True)
+    (EnvVarValues              "Append=PATH=_ORACLE_HOME_\bin")
+)
+
+(Package RunCfg
+    (Name                      "Run INTRALINK Configuration")
+    (ConfigOnly                True)
+    (Installed                 True)
+)
+
+(Package Demos
+    (Name                      "Demos")
+    (Cdsections                "clientdemo")
+    (Installed                 True)
+)
+

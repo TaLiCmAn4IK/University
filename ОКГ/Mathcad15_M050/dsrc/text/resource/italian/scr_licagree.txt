@@ -1,0 +1,12 @@
+# {100} (100) [0] RadioLicAcc.Labels.yes
+I &accept
+&Accetto
+
+# [1] RadioLicAcc.Labels.no
+I &decline
+&Non accetto
+
+# [2] AccLab.Label
+You must accept the following license agreement to proceed.
+Si deve accettare il seguente contratto di licenza prima di continuare.
+

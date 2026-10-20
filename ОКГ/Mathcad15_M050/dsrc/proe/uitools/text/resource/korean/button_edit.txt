@@ -1,0 +1,36 @@
+# {100} (100) [0] button_edit.Label
+Button Editor
+버튼 편집기
+
+# [1] OK.Label
+OK
+확인
+
+# [2] Cancel.Label
+Cancel
+취소
+
+# [3] Clear.Label
+Clear
+지우기
+
+# [4] lay_pic.Label
+Picture
+그림
+
+# [5] lay_colors.Label
+Colors
+색상
+
+# [6] lbl_erase.Label
+Erase:
+지우기:
+
+# [7] lay_move.Label
+Move
+이동
+
+# [8] lay_preview.Label
+Preview
+미리보기
+

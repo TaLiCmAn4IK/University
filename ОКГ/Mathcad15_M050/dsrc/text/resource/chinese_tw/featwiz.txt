@@ -1,0 +1,84 @@
+# {100} (100) [0] featwiz.Label
+Feature Wizard
+特徵精靈
+
+# [1] HostListAdd.Label
+Add
+新增 
+
+# [2] HostListEdit.Label
+Edit
+編輯
+
+# [3] HostListDelete.Label
+Delete
+刪除
+
+# [4] HostActionLabel.Label
+Action Label
+操作標籤
+
+# [5] LineTypeList.ColumnLabel
+16
+
+
+# [6] LineTypeList.Labels.0
+SERVER
+伺服器
+
+# [7] LineTypeList.Labels.1
+DAEMON
+協助程式
+
+# [8] LineTypeList.Labels.2
+INCREMENT
+增量
+
+# [9] ActionLabel.Label
+ ------- Action line ---------
+------- 操作行 ---------
+
+# [10] OptionActionLabel.Label
+Select Options
+選取選項
+
+# [11] OptListMod.Label
+Modify
+修改
+
+# [12] ChoiceGroup.Labels.1
+Yes
+是
+
+# [13] ChoiceGroup.Labels.2
+No
+否
+
+# [14] ChoiceLabel.Label
+Action line
+操作行
+
+# [15] BackButton.Label
+Back
+前一頁
+
+# [16] NextButton.Label
+Next
+下一頁
+
+# [17] HelpButton.Label
+Help
+說明
+
+# [18] CancelButton.Label
+Cancel
+取消
+
+# [19] StepLabel.Label
+License Wizard - Step 1
+許可證精靈 - 步驟1
+
+# [20] DALayout.Label
+Sample License Line:
+許可證行示例:
+

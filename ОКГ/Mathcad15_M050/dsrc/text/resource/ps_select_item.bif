@@ -1,0 +1,25 @@
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!
+!  Menu Item image to select feature
+! 
+!  Date      Release   Name  Ver.   Comments
+!  --------- -------   ----  ----   --------
+!  25-Jul-03 K-01-11   TWH   $$1    Created
+!
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+(Image ps_select_item
+    (Resources
+        (.Width     24)
+        (.Height    9)
+        (.Depth     24)
+    )
+    (Data
+        EFFFFFFF03F0F59999998F01808080FFFD0F0D1B0666C7666601F0F9380DF0FD
+        CCCCE1CC5B0D6B0D7B0A2C01333333002F0D9F0DFBF2A800B70DC70DD70A2805
+        70900DFC0DA8011C01B4B4B4171D1C271D2F120000002F12E80D541D00081D30
+        1D841D941D481DB41D681D9811002C01DC1DEC1D2C01A41DC41D202D741500D8
+        0D482D5425042D242D802DF41DA02D00B02DBC25702DD82DA809CC21F82D083D
+        00183DE82D383D4831
+    )
+)

@@ -1,0 +1,56 @@
+// 20-Oct-99 $$1  OTT  Created.
+// 12-Nov-99 $$2  OTT  Add ptcutil
+// 29-Feb-00 $$3  OTT  Add icon path and index
+// 17-Aug-00 $$4  TWH  Fix case ezprop keys
+// 30-Jan-01 $$5  TWH  Add CmdType Prop values
+// 31-Jan-02 $$6  MAZ  Use ptchostid script
+// 04-Mar-03 K-01-06  $$7  TWH  LpcfgWindows->ScreenWindows
+// 21-Jul-03 K-01-11 $$8   JJE  Add ptcborrow and ptcreturn scripts
+// 15-Dec-03 K-01-20 $$9  MAZ  Remove borrow scripts
+
+(Product network_animator
+    (Name                      "Network Animator") 
+    (Packages                  "anim"
+                               "ptcutil"
+                               "uninstall")
+    (ProgramFiles              False)
+    (LpDirName                 "networkanimator")
+    (Screens                   "ScreenProd")
+    (Installed                 False)
+)
+
+(Package anim
+    (Name                      "Network Animator")
+    (Cdsections                "animator"
+                               "animator Tree"
+                               "animatorcdrs"
+                               "Install"
+                               "flexclient")
+    (CmdTypes                  "network_animator")
+    (Screens                   "ScreenLicList"
+                               "ScreenWindows"
+                               "ScreenDftCmds"
+                               "LpcfgCmdList"
+                               "LpcfgLinkpath")
+    (Binscripts                "ptchostid"
+                               "ptcflush"
+                               "ptcstatus"
+                               "PhotoRender"
+                               "rt"
+                               "lightworks"
+                               "net_perm"
+                               "net_rsh")
+    (Installed                 True)
+)
+
+(CmdType network_animator
+    (Name                      "network_animator")
+    (Type                      "Network Animator")
+    (Prefixes                  "ANIMATOR_")
+    (Featvars                  "__ANIMATOR_FEATURE_NAME__")
+    (Template                  "proanimator_start")
+    (IconPath                  "_LP_\install\nt\cdrs.ico")
+    (IconIndex                 "0")
+    (UseExtensions             False)
+    (UseOptions                False)
+)

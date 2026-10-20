@@ -1,0 +1,52 @@
+# {0} (13) [0] lic_serv.Label
+Simple
+简单
+
+# [1] ServTypeGroup.Labels.1
+Single license server
+单个许可证服务器
+
+# [2] ServTypeGroup.Labels.2
+Triad license server (fault tolerant)
+三元组许可证服务器(容错)
+
+# [3] ServTypeGroup.Labels.3
+Locked license file (no server running)
+锁定的许可证文件(服务器未运行)
+
+# [4] Label1.Label
+License Server
+许可证服务器
+
+# [5] Label2.Label
+Hostname
+主机名
+
+# [6] Label3.Label
+Port
+端口
+
+# [7] Label4.Label
+Triad partner 1
+三元组伙伴1
+
+# [8] Label5.Label
+Hostname
+主机名
+
+# [9] Label6.Label
+Port
+端口
+
+# [10] Label7.Label
+Triad partner 2
+三元组伙伴2
+
+# [11] Label8.Label
+Triad partner 3
+三元组伙伴3
+
+# [12] Label9.Label
+License file path
+许可证文件路径
+

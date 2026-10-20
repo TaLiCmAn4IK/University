@@ -1,0 +1,80 @@
+# {0} (21) [0] featwiz.Label
+Feature Wizard
+特征向导
+
+# [1] HostListAdd.Label
+Add
+添加
+
+# [2] HostListEdit.Label
+Edit
+编辑
+
+# [3] HostListDelete.Label
+Delete
+删除
+
+# [4] HostActionLabel.Label
+Action Label
+操作标签
+
+# [6] LineTypeList.Labels.0
+SERVER
+服务器
+
+# [7] LineTypeList.Labels.1
+DAEMON
+DAEMON
+
+# [8] LineTypeList.Labels.2
+INCREMENT
+增量
+
+# [9] ActionLabel.Label
+ ------- Action line ---------
+ ------- 操作行 ---------
+
+# [10] OptionActionLabel.Label
+Select Options
+选取选项
+
+# [11] OptListMod.Label
+Modify
+修改
+
+# [12] ChoiceGroup.Labels.1
+Yes
+是
+
+# [13] ChoiceGroup.Labels.2
+No
+否
+
+# [14] ChoiceLabel.Label
+Action line
+操作行
+
+# [15] BackButton.Label
+Back
+后退
+
+# [16] NextButton.Label
+Next
+下一个
+
+# [17] HelpButton.Label
+Help
+帮助
+
+# [18] CancelButton.Label
+Cancel
+取消
+
+# [19] StepLabel.Label
+License Wizard - Step 1
+许可证向导 - 步骤1
+
+# [20] DALayout.Label
+Sample License Line:
+许可证示例行:
+

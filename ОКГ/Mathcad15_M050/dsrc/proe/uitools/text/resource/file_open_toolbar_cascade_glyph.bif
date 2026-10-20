@@ -1,0 +1,17 @@
+!  History:
+!
+!  Date      Release Name  Ver.  Comments
+!  --------- ------- ----- ----- ----------------------------------------------
+!  29-Oct-07 L-01-41 AW    $$1   Created
+!
+(Image file_open_toolbar_cascade_glyph
+    (Resources
+        (.Width     8)
+        (.Height    8)
+        (.Depth     24)
+    )
+    (Data
+        0FFF000000F0FD000D100D200D04300D40090F4D04400D5009500D740D008009
+        840D8C0DA40DCC0DDC0D
+    )
+)

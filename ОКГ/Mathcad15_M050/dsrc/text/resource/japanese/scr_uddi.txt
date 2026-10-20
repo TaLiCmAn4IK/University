@@ -1,0 +1,32 @@
+# {61146} (19) [10] scr_uddi_pub.Label
+PTC PartsLink Publishing Information
+PTC PartsLink パブリッシング情報
+
+# [11] ServiceKeyLab.Label
+Service Key
+サービスキー
+
+# [12] DescLab.Label
+Product Catalog Description
+プロダクトカタログの説明
+
+# [13] scr_uddi_op.Label
+UDDI Business Registry
+UDDI ビジネスレジストリ
+
+# [14] OperatorLab.Label
+Operator
+オペレータ
+
+# [16] IDLab.Label
+User ID
+ユーザー ID
+
+# [17] BusinessKeyLab.Label
+Business Key
+ビジネスキー
+
+# [18] PasswordLab.Label
+Password
+パスワード
+

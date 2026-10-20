@@ -1,0 +1,19 @@
+// 22-Nov-99 $$1 MYA Created 
+// 03-Jan-00 $$2 TWH ProgramFiles = FALSE
+// 11-Jan-00 $$3 MYA Move pdmcli_pkg 
+// 24-Feb-00     MYA Add Hostprod
+// 24-Feb-00 I-03-27+ $$4  TWH Group Submission
+// 23-Mar-00 $$5 MYA Add uninstall
+
+(Product pdmcli
+    (Name                      "Pro/PDM Client Only")
+    (Packages                  "pdmcli_pkg"
+                               "ptcutil"
+                               "uninstall")
+    (ProgramFiles              False)
+    (LpDirName                 "pdm")
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+    (StandAlone                True)
+    (HostProd                  "pdmsrv")
+)

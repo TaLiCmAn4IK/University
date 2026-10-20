@@ -1,0 +1,30 @@
+// 17-Apr-00 $$1  MAZ  Created.
+// 25-Apr-00      MAZ  Modify product name  
+// 11-Oct-00      MAZ  Add LpEnvVar
+// 18-Oct-00 $$2  TWH  Add TemplateJar, TasksJar
+// 26-Oct-00 $$3  TWH  Add ScreenIEOpt.ProdName
+
+(Product opt_gw_ie 
+    (Name                      "Optegra Tasks and Templates") 
+    (Packages                  "opt_ie_pkg") 
+    (ProgramFiles              FALSE)
+    (LpDirName                 "infoengine")
+    (LpEnvVar                  "IE_HOME")
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+    (StandAlone                False)
+    (HostProd                  "infoengn")
+    (VersionDir                False)
+    (TemplateJar               "_LP_/optgw_ie_templates.jar")
+    (TasksJar                  "_LP_/optgw_ie_tasks.jar")
+    (ScreenIEOpt.ProdName      "Optegra")
+)
+
+(Package opt_ie_pkg 
+    (Name                      "Tasks and Templates")
+    (Screens                   "ScreenIEOpt")
+    (Cdsections                "OpGatewayIE"
+                               "Install")
+    (Installed                 True)
+)
+

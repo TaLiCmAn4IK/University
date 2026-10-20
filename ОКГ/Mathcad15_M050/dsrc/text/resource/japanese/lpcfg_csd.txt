@@ -1,0 +1,8 @@
+# {0} (2) [0] CsdSubLayout.Label
+Conference Server Settings
+カンファレンスサーバー設定
+
+# [1] Label1.Label
+Hostname
+ホスト名
+

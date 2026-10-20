@@ -1,0 +1,16 @@
+# {100} (100) [0] ribbon_designer_inherit.Label
+Inherit Group
+그룹 상속
+
+# [1] PreviewLayout.Label
+Preview
+미리보기
+
+# [2] OKPushButton.Label
+OK
+확인
+
+# [3] CancelPushButton.Label
+Cancel
+취소
+

@@ -1,0 +1,27 @@
+!  History:  
+!
+!  Date      Release  Name   Ver.  Comments
+!  --------- -------  -----  ----- --------------------------------------------
+!  20-Mar-08 L-03-05  AlexM  $$1   Created.
+!  21-Aug-08 L-03-16  ALB    $$2   Replaced incorrect data
+!
+!  INSERT COMMENT ABOVE THIS LINE
+!  Do not forget to put "!" at the begining of each line in this comment block.
+
+
+(Image switcher_add_button
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        0FFFFFFF03F0FD000D100D200D7E300A660001FFFFCC4300702E0D560D320D42
+        0333333343030E4100B4B4B48B0D9706680B46011A7E05007F07FFFFCB0DD302
+        A40D404001BC05FC0580024102D205F11716E0E40DB005BC0BFE05121BF5F4EA
+        00231D3B0842180D1A561D661DAE15861D1C8E1D9E13B8B4A3A71DEB12A41400
+        FF1DD31DE31DF31D3F2D132D232D6B267864247F2D532D01A1A192672D00772C
+        1A17CC2DA02DEC29E424CF2DD32D0F01999999E72D2B3224349B16F0483D5435
+        243D6C3580808001007C3D8C3D98356C3DB43DC43DD43DE435
+    )
+)

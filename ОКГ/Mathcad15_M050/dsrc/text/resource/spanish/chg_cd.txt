@@ -1,0 +1,20 @@
+# {0} (5) [0] chg_cd.Label
+Insert a new CD
+Insertar un CD nuevo
+
+# [1] StdOk.Label
+Ok
+Aceptar
+
+# [2] StdCancel.Label
+Cancel
+Cancelar
+
+# [3] ChgCDText.Label
+PTC/Setup can not find the required CD from this path. Either\nthe CDROM is not responding or the CD you inserted is incorrect.\nInput a correct path to the CD and press OK to retry or Cancel\nto abort PTC/Setup.
+PTC/Setup no puede encontrar el CD necesario en esta ruta. El CDROM\nno responde o se ha insertado un CD incorrecto.\nIntroduzca la ruta correcta del CD y pulse "Aceptar" para volver a intentarlo\no "Cancelar" para abortar PTC/Setup.
+
+# [4] DevicePathBrowse.Label
+Browse
+Inspeccionar
+

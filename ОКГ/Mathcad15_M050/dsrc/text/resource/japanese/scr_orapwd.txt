@@ -1,0 +1,8 @@
+# {0} (2) [0] Label6.Label
+Data Server Enter password for Oracle Administrative User 'SYSTEM':
+Oracle 管理ユーザー 'SYSTEM' のデータサーバー入力パスワード:
+
+# [1] Label5.Label
+Enter Internal Data Server password:
+内部データサーバーパスワード:
+

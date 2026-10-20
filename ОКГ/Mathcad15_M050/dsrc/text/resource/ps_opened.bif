@@ -1,0 +1,25 @@
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!
+!  Advanced options open arrow
+!  ie. down arrow on selected window background
+! 
+!  Date      Release   Name  Ver.   Comments
+!  --------- -------   ----  ----   --------
+!  29-Apr-03 K-01-06   TWH   $$1    Created
+!  25-Jul-03 K-01-11   TWH   $$2    New image from prod def
+!
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+(Image ps_opened
+    (Resources
+        (.Width     14)
+        (.Height    14)
+        (.Depth     24)
+    )
+    (Data
+        0FFFFFFF03F0FD000D100D200D00300D400D500D600D700D800D900DA00D00B0
+        0DC00DD00DE00DF00D001D101D201D1E301D8AA7C701441D541D6015EF333333
+        01381D00339900831D931A701D781DC01DA01DE01DB81D00D01D102D202DF819
+        0C2D4C2D5C2D6C1D007C2D8C2D9C2DAC2DBC2DCC2DDC2DEC2D
+    )
+)

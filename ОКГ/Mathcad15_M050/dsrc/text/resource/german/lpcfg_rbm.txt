@@ -1,0 +1,28 @@
+# {100} (100) [0] lpcfg_rbm2.Label
+RBM Server Settings
+RBM Server-Einstellungen
+
+# [1] ProeCmdLab.Label
+Creo Elements/Pro startup command
+Creo Elements/Pro Startbefehl
+
+# [2] NumSessLab.Label
+Number of Creo Elements/Pro sessions
+Anzahl der Creo Elements/Pro Sitzungen
+
+# [3] UpdIntLab.Label
+Status update interval (in seconds)
+Statusaktualisierungs-Intervall (in Sekunden)
+
+# [4] RpcPortLab.Label
+RPC communications number
+RPC-Kommunikationsnummer
+
+# [5] RunDirLab.Label
+Directory to run in
+Ausführverzeichnis
+
+# [6] lpcfg_rbm3.Label
+Instructions
+Anweisungen
+

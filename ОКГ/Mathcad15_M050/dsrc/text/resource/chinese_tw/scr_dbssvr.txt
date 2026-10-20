@@ -1,0 +1,20 @@
+# {100} (100) [0] scr_dbssvr3.Label
+Instructions
+指示
+
+# [1] Label6.Label
+Data Server Hostname
+資料伺服器主機名稱
+
+# [2] Label5.Label
+Server Type:
+伺服器類型:
+
+# [3] MS_SS_Radio.Labels.MS
+Multi-Site
+多位址
+
+# [4] MS_SS_Radio.Labels.SS
+Single-Site
+單一位址
+

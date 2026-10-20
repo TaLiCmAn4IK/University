@@ -1,0 +1,20 @@
+# {100} (100) [0] ilink_2.Label
+Pro/ENGINEER Integration (Optional)
+Pro/ENGINEER 통합(선택적)
+
+# [1] ProeCmdLab.Label
+Start Command
+시작 명령어
+
+# [2] ProeDirLab.Label
+Installation Directory
+설치 디렉토리
+
+# [3] ilink_1.Label
+Locate Other Installation Directories (Optional)
+다른 설치 디렉토리 위치 (선택사항)
+
+# [4] AppMgrDirLab.Label
+PTC Application Manager
+PTC 응용 프로그램 관리자
+

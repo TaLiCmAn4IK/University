@@ -1,0 +1,44 @@
+# {100} (100) [0] scr_pasprop2.Label
+PAS Configuration Properties
+Свойства конфигурации PAS
+
+# [1] HostnameLab.Label
+Fully Qualified Hostname
+Полное имя сервера
+
+# [2] WebUrlLab.Label
+Web server alias
+Сокращение веб-сервера
+
+# [3] ServletLab.Label
+Servlet engine alias
+Сокращение модуля сервлетов
+
+# [4] PortLab.Label
+Port number
+Номер порта:
+
+# [5] RevisionMapLab.Label
+Revision mapping ?
+Отображение версии?
+
+# [6] RevisionMap.Labels.1
+True
+True
+
+# [7] RevisionMap.Labels.0
+False
+False
+
+# [8] LogFile.Labels.1
+True
+True
+
+# [9] LogFile.Labels.0
+False
+False
+
+# [10] LogFileLab.Label
+Logfile ?
+Файл журнала?
+

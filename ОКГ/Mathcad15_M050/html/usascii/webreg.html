@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>__INSTBLE__</title>
+
+<style type="text/css"><!--
+body	{font-size: 12px; font-family: Arial, Helvetica, sans-serif; margin: 3px 3px 3px 3px; background-color: #F3F3F3;}
+p,td,th	{color: #333; font-family: Arial, Helvetica, sans-serif; font-size: 12px;}
+ul	{color: #333; list-style: square outside; margin-bottom: 5px; margin-top: 5px;}
+ol	{color: #333; list-style: decimal outside; margin-bottom: 5px; margin-top: 5px;}
+h1,.header2	{font-weight: 800; font-size: 18px;}
+h2,.header2	{font-weight: 700; font-size: 14px;}
+h3,.header3	{font-weight: 700; font-size: 16px;}
+h4,.header4	{font-weight: 600; font-size: 14px;}
+.newstitle, .tablehead {
+	color: #FFF;
+	font-weight: bold;
+}
+A:link, A:active	{color: #40637A; text-decoration: underline;}
+A:visited, A:hover	{color: #407DAC; text-decoration: underline;}
+.linktitle:link, .linktitle:active, .linktitle:visited, .linktitle:hover	{font-weight: bold;}
+--></style>
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+<tr bgcolor="#89A2B3"> 
+<td align="left" valign="top" colspan="2"><a href="http://www.ptc.com"><IMG src="images/ptc.gif" vspace="10" hspace="10" border="0"></a></td>
+</tr>
+<tr>
+<td align="left" valign="top" bgcolor="#F0F0E4" height="10">&nbsp;</td>
+</tr>
+<tr> 
+<td align="left" valign="top"> 
+			<table cellspacing="3" cellpadding="10" border="0">
+			<tr>
+			<td>
+			
+	<!--begin body-->		
+
+	<h3>__INSTBLE__</h3>
+<p>
+To continue the setup process you must register your copy of the __INSTBLE__ by accessing the URL below.
+
+<p>
+You will need this information to complete the on-line registration process.
+<ul>
+<li>Your Host ID is __HOSTID__.  
+<li>Your Program ID is __PROGRAMID__
+</ul>
+
+<p>
+<a href="http://www.ptc.com/appserver/lm/programs/index.jsp?hostid=__HOSTID__&program=__PROGRAMID__">http://www.ptc.com/appserver/lm/programs/index.jsp?hostid=__HOSTID__&program=__PROGRAMID__</a>
+<p>
+			
+			</td>
+			</tr>
+			</table>
+</td>
+</tr>
+<tr height="10"> 
+<td align="right" valign="bottom" bgcolor="#F0F0E4" height="10">&nbsp;</td>
+</tr>
+</table>
+<form name="banana">
+<input type="hidden" name="hostid" value="__HOSTID__">
+<input type="hidden" name="programid" value="__PROGRAMID__">
+<input type="hidden" name="urltogo">
+</form>
+</body>
+</html>
+<!--endfooterreplacement-->
+<script LANGUAGE="JavaScript1.2">
+var urltogo = "http://www.ptc.com/appserver/lm/programs/index.jsp?hostid=";
+urltogo = urltogo + document.banana.hostid.value;
+urltogo = urltogo + "&program=" + document.banana.programid.value;
+document.banana.urltogo.value = urltogo;
+// window.location.href=document.banana.urltogo.value; 
+</script>
+<script LANGUAGE="JavaScript1.2" src="http://www.ptc.com/cgi/community/check_remote_student.csh">
+</script>
+</body>
+</html>
+

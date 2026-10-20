@@ -1,0 +1,15 @@
+! 02-Aug-04     K-03-07   IKB   $$1   Submitted.
+
+
+(Image feat_frozen_child
+    (Resources
+        (.Width     9)
+        (.Height    14)
+        (.Depth     24)
+    )
+    (Data
+        0FFFFFFF03F0FD000D100D200DFE2801666666010000000101340D2C0D3C0D4C
+        0D5C0D6C0D880D008C0D9C0DC40DBC0DCC05CC01F809DC05000019CC041F12D8
+        0D0819201D501DF80D00541D801D901DA01DB01DC01DD01DE011
+    )
+)

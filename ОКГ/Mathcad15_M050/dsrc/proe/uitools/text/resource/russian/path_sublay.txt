@@ -1,0 +1,92 @@
+# {100} (100) [0] Label289.Label
+Testing
+Тестировать
+
+# [1] CascadeOrganize.Label
+<org> Organize
+<org> Упорядочить
+
+# [2] CascadeOrganize.HelpText
+Manage files and folders
+Управление файлами и папками
+
+# [3] DispButton.Label
+<disp> Views
+<disp> Виды
+
+# [4] DispButton.HelpText
+Select a view type
+Выбрать тип вида
+
+# [5] CascadeTools.Label
+<tools> Tools
+<tools> Инструменты
+
+# [6] CascadeTools.HelpText
+Manage files and folders
+Управление файлами и папками
+
+# [7] up_directory.HelpText
+Up One Level
+На уровень выше
+
+# [8] pb_whatis.HelpText
+Context sensitive help
+Контекстно-зависимая помощь
+
+# [9] mp_organize.Label
+Organize
+Упорядочить...
+
+# [10] newdirectory_pb.Label
+New Folder
+Новая папка
+
+# [11] newdirectory_pb.HelpText
+Create New Directory
+Создать новую папку
+
+# [12] Radgp_table.Labels.a
+<a> List
+<a> Список
+
+# [13] Radgp_table.Labels.b
+<b> Details
+<b> Подробности
+
+# [14] enable_popup_cb.Label
+Show PopUp Viewer
+Показать PopUp Viewer
+
+# [15] mp_tools.Label
+Tools
+Инструменты
+
+# [16] DefaultLookin.Label
+Address Default
+Адрес по умолчанию
+
+# [17] markup_instance_display.Label
+Sort By
+Сортировать
+
+# [18] SelectAll.Label
+Select All
+Выбрать все
+
+# [19] UnselAll.Label
+Unselect All
+Отменить все
+
+# [20] RadioGroup3.Labels.a
+Model Name
+Имя модели
+
+# [21] RadioGroup3.Labels.b
+Markup/Instance Name
+Имя замечания/экземпляра
+
+# [22] chk_browser_tb.Label
+Browser Toolbar
+Панель навигатора
+

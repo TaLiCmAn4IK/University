@@ -1,0 +1,40 @@
+# {0} (10) [0] scr_ilgate2.Label
+Gateways Settings
+Configuration des passerelles
+
+# [1] LogfileDirLab.Label
+Log File Directory
+Répertoire des fichiers journaux
+
+# [2] PubAgentLab.Label
+Publishing Agent
+Agent de publication
+
+# [3] RevMapLab.Label
+Revision Mapping
+Correspondance des révisions
+
+# [4] RevMapOption.ItemHelpText.ver_i
+VERSION_ITERATION
+ITERATION_VERSION
+
+# [5] RevMapOption.ItemHelpText.ver
+VERSION
+VERSION
+
+# [6] RevMapOption.ItemHelpText.none
+NONE
+AUCUN
+
+# [7] RevMapOption.Labels.ver_i
+VERSION_ITERATION
+ITERATION_VERSION
+
+# [8] RevMapOption.Labels.ver
+VERSION
+VERSION
+
+# [9] RevMapOption.Labels.none
+NONE
+AUCUN
+

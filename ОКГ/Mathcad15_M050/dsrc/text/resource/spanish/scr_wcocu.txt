@@ -1,0 +1,52 @@
+# {0} (13) [0] WCDSCompDescLayout.Label
+Description
+Descripción
+
+# [1] CompDescTA.Value
+Select a component or subcomponent to view its description.
+Seleccione un componente o subcomponente para ver su descripción.
+
+# [2] WCDSLayout2.Label
+Database size
+Tamaño de la base de datos
+
+# [3] DsRadioSize.Labels.0
+Small (700 MB)
+Pequeño (700 MB)
+
+# [4] DsRadioSize.Labels.1
+Medium (900 MB)
+Mediano (900 MB)
+
+# [5] DsRadioSize.Labels.2
+Large (1800 MB)
+Grande (1800 MB)
+
+# [6] DsVaultCheck.Label
+Exclusively use external file vaults
+Usar depósitos de ficheros externos exclusivamente
+
+# [7] LpLab.Label
+Directory for database files
+Directorio para ficheros de base de datos
+
+# [8] LpBrowse.HelpText
+Browse for Installation Directory
+Navegar al directorio de instalación
+
+# [9] WCDSDiskSpaceLayout.Label
+Disk Space
+Espacio en disco
+
+# [10] SpaceAvailLab.Label
+Available on C: 9999GB
+Disponible en C: 9999GB
+
+# [11] SpaceReqLab.Label
+Required on C: 9999GB
+Necesario en C: 9999GB
+
+# [12] TextArea.Value
+Identify the location of the database files and choose the size of the database.\n\nFor specific instructions see the Help screen.
+Especifique la ubicación de los ficheros de base de datos y elija el tamaño de ésta.\n\nSi desea instrucciones detalladas, consulte la pantalla de ayuda.
+

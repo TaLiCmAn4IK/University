@@ -1,0 +1,32 @@
+# {0} (8) [0] lpcfg_iebroker2.Label
+E-Mail Broker Configuration
+电子邮件代理程序配置
+
+# [1] EmailServerLab.Label
+E-Mail Server Host Name
+电子邮件服务器主机名称
+
+# [2] UsernameLab.Label
+Account User Name
+帐户用户名
+
+# [3] PasswdLab.Label
+Account Password
+帐户密码
+
+# [4] FolderLab.Label
+E-Mail Folder
+电子邮件文件夹
+
+# [5] AdminLab.Label
+Administrator E-Mail Address
+管理员电子邮件地址
+
+# [6] TimeLab.Label
+Time Between Checks (seconds)
+检验间隔时间(秒)
+
+# [7] DelCheckBox.Label
+Delete Processed Messages?
+删除已处理的消息吗?
+

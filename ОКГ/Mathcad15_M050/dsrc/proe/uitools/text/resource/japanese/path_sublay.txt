@@ -1,0 +1,92 @@
+# {100} (100) [0] Label289.Label
+Testing
+テスト
+
+# [1] CascadeOrganize.Label
+<org> Organize
+<org> 整理
+
+# [2] CascadeOrganize.HelpText
+Manage files and folders
+ファイルおよびフォルダを管理
+
+# [3] DispButton.Label
+<disp> Views
+<disp> ビュー
+
+# [4] DispButton.HelpText
+Select a view type
+ビュータイプを選択
+
+# [5] CascadeTools.Label
+<tools> Tools
+<tools> ツール
+
+# [6] CascadeTools.HelpText
+Manage files and folders
+ファイルおよびフォルダを管理
+
+# [7] up_directory.HelpText
+Up One Level
+1 つ上のレベルへ
+
+# [8] pb_whatis.HelpText
+Context sensitive help
+内容に応じたヘルプ
+
+# [9] mp_organize.Label
+Organize
+整理
+
+# [10] newdirectory_pb.Label
+New Folder
+新規フォルダ
+
+# [11] newdirectory_pb.HelpText
+Create New Directory
+新規ディレクトリを作成
+
+# [12] Radgp_table.Labels.a
+<a> List
+<a> リスト
+
+# [13] Radgp_table.Labels.b
+<b> Details
+<b> 詳細
+
+# [14] enable_popup_cb.Label
+Show PopUp Viewer
+ポップアップビューアを表示
+
+# [15] mp_tools.Label
+Tools
+ツール
+
+# [16] DefaultLookin.Label
+Address Default
+デフォルトの場所
+
+# [17] markup_instance_display.Label
+Sort By
+ソート方法
+
+# [18] SelectAll.Label
+Select All
+すべてを選択
+
+# [19] UnselAll.Label
+Unselect All
+すべてを選択解除
+
+# [20] RadioGroup3.Labels.a
+Model Name
+モデル名
+
+# [21] RadioGroup3.Labels.b
+Markup/Instance Name
+マークアップ/インスタンス名
+
+# [22] chk_browser_tb.Label
+Browser Toolbar
+ブラウザツールバー
+

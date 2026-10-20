@@ -1,0 +1,20 @@
+!===========================================================================
+!
+! 20-May-08 L-03-09 EMas     $$1     Submitted.
+!
+!===========================================================================
+
+(Image feat_cblloc_shield
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        0FFF000000F0FD000D100D200D20300D400D500D5C055A00015C0D7C0D008C0D
+        600D9C0DBC0DCC0DA00DDC0DFC0D000C1DE00D1C1D3C1D4C1D24192C1D781D24
+        881D5C1D25951DB91C09C9189C1D00A81DF41DCC19D0196819EC1DFC1D482D00
+        681D2C2D1C294C2D10216C2D9C2DE41900AC21902DAC2DDC255C252429043DD8
+        2D00A8255C2D003D4C3D383D343D7C3D8C3D00603DC029B83DC83DD83D5C31
+    )
+)

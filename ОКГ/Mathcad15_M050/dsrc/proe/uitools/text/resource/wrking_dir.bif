@@ -1,0 +1,22 @@
+!----------------------------------------------------------------------
+! 05-Dec-97  H-03-32 xw      $$1 Submitted with shortcut toolbar sub.
+! 18-Mar-02   J-03-21  TLH   $$02  Recolored
+! 25-Jun-02  J-03-28 mla     $$03  Revised image (new modifier).
+! 09-Jul-02  J-03-29 mla     $$4   Modified size & color of glyph. 
+!----------------------------------------------------------------------
+(Image wrking_dir
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        0FFFFFFF03F0FD000D100D200D78300D400D500900008D01500D78700D800D8C
+        0565D1FF016001789C018C0DAC0166666601BC0577333333A70A0CE6F29F0678
+        A00DAC01C80401E4D57DFF0638C8056001E405A1C5ECDF0660058EC801817F00
+        371D3F12C801F7E7F7F701D80DE809808080C0FB02781D8819541DAC097416EC
+        2408BB1DC3138512F7971260048715AF1D02A700CCFF1D0F2D17227414EF1D17
+        2D003B275129C510282D382D542D902D682D00782D942D582DA82DB82AFD2D0D
+        3DE52D00F52DC51D513D253CC801743D843D943D00C80DB43DC43DD43DE435
+    )
+)

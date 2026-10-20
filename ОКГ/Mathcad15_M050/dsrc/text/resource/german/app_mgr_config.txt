@@ -1,0 +1,20 @@
+# {70190} (5) [0] app_mgr_config.Label
+PTC Application Manager - Installation Configuration
+PTC Applikations-Manager - Installationskonfiguration
+
+# [1] Menu.Label
+Menu
+Menü
+
+# [2] CmdTreeAdd.Label
+Add
+Hinzufügen
+
+# [3] CmdTreeEdit.Label
+Edit
+Editieren
+
+# [4] CmdTreeDelete.Label
+Delete
+Löschen
+

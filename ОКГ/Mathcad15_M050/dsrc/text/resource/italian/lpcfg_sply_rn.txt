@@ -1,0 +1,52 @@
+# {0} (13) [0] lpcfg_sply_rn2.Label
+Configuration Properties
+Proprietà configurazione
+
+# [1] rmi_port_label.Label
+RMI Registry Port Number
+Numero di porta registro RMI
+
+# [2] rmi_port.Value
+10011
+10011
+
+# [3] lpcfg_sply_rn3.Label
+Windchill Gateway for RosettaNet Properties
+Proprietà di Windchill Gateway per RosettaNet
+
+# [4] port_label.Label
+Port Number
+Numero di porta
+
+# [5] port.Value
+10080
+10080
+
+# [6] duns_label.Label
+DUNS Number
+Numero DUNS
+
+# [7] duns.Value
+100000000
+100000000
+
+# [8] lpcfg_sply_rn4.Label
+Windchill RosettaNet Adapter Properties
+Proprietà dell'Adattatore Windchill RosettaNet
+
+# [9] ieport_label.Label
+Port Number
+Numero di porta
+
+# [10] user_label.Label
+User Name
+Nome utente
+
+# [11] passwd_label.Label
+Password
+Password
+
+# [12] ieport.Value
+10066
+10066
+

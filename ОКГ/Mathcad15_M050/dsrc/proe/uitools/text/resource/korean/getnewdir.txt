@@ -1,0 +1,24 @@
+# {100} (100) [0] getnewdir.Label
+New Folder
+새 폴더
+
+# [1] Cancel_button.Label
+Cancel
+취소
+
+# [2] OK_button.Label
+OK
+확인
+
+# [3] current_dir_label.Label
+Current Directory:
+현재 디렉토리:
+
+# [4] cur_dir_value.Label
+/...
+/...
+
+# [5] new_dir_label.Label
+New Directory:
+새 디렉토리:
+

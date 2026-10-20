@@ -1,0 +1,20 @@
+# {100} (100) [0] flexlm.Label
+FLEXnet License Info
+FLEXnet 许可证信息
+
+# [1] CascadeButton1.Label
+Licenses to Run
+运行许可证
+
+# [2] CascadeButton2.Label
+Extensions and Options
+扩展和选项
+
+# [3] LicFileLab.Label
+Showing License file: 7788@Redrocks
+正在显示许可证文件:7788@Redrocks
+
+# [4] OkButton.Label
+&OK
+确定(&O)
+

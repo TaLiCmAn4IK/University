@@ -1,0 +1,27 @@
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!
+! License startup extension 16x16 bif used in PTC.Setup
+!       - Image created by Tammy Hammack (see her for modifications)
+!
+!  Date      Release   Name  Ver.   Comments
+!  --------- -------   ----  ----   --------
+!  19-May-03 K-01-07   TWH   $$1    Submitted.
+!
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+(Image ps_extension
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        0FFFFFFF03F0FD000D100D200D00300D400D500D600D700D800D900DA00D00B0
+        0DC00DD00DE00DF00D001D101D201D1E2C15666666013C152C1D541DDC641D3C
+        11E4E4E47B1633330133471D971D6F1DB71D3F16D01D401D1CB4198811A1A192
+        BB1D7B1D8B1A00B41D1C292421442DA41D68215029202D005C2DA02D8C2D982D
+        D02DE02DF02D003D00103D203D303D403D503D603D703D803D00903DA03DB03D
+        C03DD03DE039
+    )
+)
+

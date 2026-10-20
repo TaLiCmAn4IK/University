@@ -1,0 +1,12 @@
+# {100} (100) [0] concept_1.Label
+Locate Other Installation Directories (Optional)
+找出其他安裝目錄(任選)
+
+# [1] AppMgrDirLab.Label
+PTC Application Manager
+PTC 應用程式管理員
+
+# [2] CDRSGraphLibDirLab.Label
+PTC Graphic Library
+PTC圖形資料庫
+

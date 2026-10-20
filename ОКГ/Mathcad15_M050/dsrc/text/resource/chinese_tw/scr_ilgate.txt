@@ -1,0 +1,40 @@
+# {0} (10) [0] scr_ilgate2.Label
+Gateways Settings
+閘道設定
+
+# [1] LogfileDirLab.Label
+Log File Directory
+日誌檔案目錄
+
+# [2] PubAgentLab.Label
+Publishing Agent
+出版代理
+
+# [3] RevMapLab.Label
+Revision Mapping
+修訂對映
+
+# [4] RevMapOption.ItemHelpText.ver_i
+VERSION_ITERATION
+版本_迭代
+
+# [5] RevMapOption.ItemHelpText.ver
+VERSION
+版本
+
+# [6] RevMapOption.ItemHelpText.none
+NONE
+無
+
+# [7] RevMapOption.Labels.ver_i
+VERSION_ITERATION
+版本_迭代
+
+# [8] RevMapOption.Labels.ver
+VERSION
+版本
+
+# [9] RevMapOption.Labels.none
+NONE
+無
+

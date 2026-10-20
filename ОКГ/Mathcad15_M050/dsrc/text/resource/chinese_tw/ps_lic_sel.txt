@@ -1,0 +1,60 @@
+# {100} (100) [0] ps_lic_sel.Label
+Select Licenses
+選取許可證
+
+# [1] CmdInfoGrp.Labels.1
+No ConfigID
+無設定 ID 組態
+
+# [2] CmdInfoGrp.Labels.2
+ConfigID
+設定 ID 組態
+
+# [3] CmdInfoGrpLab.Label
+License Scheme:
+許可證方案:
+
+# [4] CmdName1Lab.Label
+Configuration Name:
+組態名稱:
+
+# [5] CmdDesc1Lab.Label
+Configuration Description:
+組態描述:
+
+# [6] CmdType1Lab.Label
+ConfigurationType:
+組態類型:
+
+# [7] Layout3.Label
+Available Licenses
+現有許可證
+
+# [8] List3.ColumnLabel
+Type
+類型
+
+# [9] Layout4.Label
+Selected Licenses
+所選許可證
+
+# [10] Label16.Label
+Startup extensions && floating licenses
+啟動附檔名及浮動許可證
+
+# [11] Label3.Label
+Licenses to Run
+要執行的許可證
+
+# [12] StdOK.Label
+&OK
+確定(&O)
+
+# [13] StdCancel.Label
+&Cancel
+取消(&C)
+
+# [14] Label1.Label
+Legend: <ltr> License to Run;  <ext> Startup Extensions;  <flt> Floating options
+圖例: <ltr> 要執行的許可證;  <ext> 啟動延伸;  <flt> 浮動選項
+

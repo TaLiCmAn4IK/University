@@ -1,0 +1,15 @@
+!  History:
+!
+!  Date      Release Name  Ver.  Comments
+!  --------- ------- ----- ----- ----------------------------------------------
+!  24-Nov-98 I-01-27 benda  $$1  Created.
+(Image empty16x16
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     4)
+    )
+    (Data
+        DDC7FF
+    )
+)

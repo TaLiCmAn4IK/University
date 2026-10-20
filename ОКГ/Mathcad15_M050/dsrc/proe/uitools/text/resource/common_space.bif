@@ -1,0 +1,30 @@
+!----------------------------------------------------------------------------
+!
+!  Date      Release Name  Ver.  Comments
+! ---------- ------- ----- ----- --------------------------------------------
+! 13-May-97  H-03-10  DXU  $$1  Submitted.
+! 27-Jul-97  H-03-17  DXU  $2  modified.
+! 26-Aug-97  H-03-19  DRM  $3   New Image
+! 02-Dec-97  H-03-31  TWB  $4   Recolored for white background.
+! 08-Jul-98  I-01-14  jlm  $$2  Modified to be the correct height
+! 18-Mar-02  J-03-21  TLH  $$3  Recolored
+! 24-JUN-02 J-03-28 TLH  $$4  Updated.
+!----------------------------------------------------------------------------
+(Image common_space
+    (Resources
+        (.Width     24)
+        (.Height    18)
+        (.Depth     24)
+    )
+    (Data
+        0FFFFFFF03F0FD000D100D200D78300D400D500D80808001640D1E740D925223
+        01540D980DA80DFEB00199663301F2EBBD80C30DD30AC001880DF40D041D6003
+        00F877001E1D2E1D0001B7AA5B70E70D531D631D1716E4D57D7F1D0E8F1A6061
+        53431DAF1DBF1D731D00DF1D931DA31D0F2D1F2DD31DEF120821000021002108
+        21F81D082D742D842D382D00A42D582D682DD42DE42D982D043DB82D00C82D34
+        3D443D4C315025603D7039203D008C3D9C3DF02D103DCC3D803DEC3DFC3D00B0
+        3DD03D2C4DE03D4C4D5C4D104D402D00502D404DAC4DBC4D704D304DEC4DA04D
+        000C5D1C5DD04DF04D4C5D8C452C5D745D00845D583DA45D78398C5DD05DE05D
+        F05D00006D106D206D306D406D506D606D706D00806D906DA069
+    )
+)

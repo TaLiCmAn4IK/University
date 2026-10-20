@@ -1,0 +1,204 @@
+# {100} (100) [0] working_dir0.Label
+Extra Directory
+Дополнительные папки
+
+# [1] lbl_common_places.Label
+Common Folders
+Общие папки
+
+# [2] folders.TreeNodeTypeHelpTexts.1:
+part
+деталь
+
+# [3] folders.TreeNodeTypeHelpTexts.2:
+assembly
+сборка
+
+# [4] folders.TreeNodeTypeHelpTexts.3:
+drawing
+чертеж
+
+# [5] folders.TreeNodeTypeHelpTexts.4:
+drawform
+формачертежа
+
+# [6] folders.TreeNodeTypeHelpTexts.5:
+manufacturing
+производство
+
+# [7] folders.TreeNodeTypeHelpTexts.6:
+directory
+папка
+
+# [8] folders.TreeNodeTypeHelpTexts.7:
+foreign
+стороннего формата
+
+# [9] folders.TreeNodeTypeHelpTexts.8:
+other ptc file
+другой файл ptc
+
+# [10] folders.TreeNodeTypeHelpTexts.9:
+markup
+замечание
+
+# [11] folders.TreeNodeTypeHelpTexts.10:
+layout
+компоновка
+
+# [12] folders.TreeNodeTypeHelpTexts.11:
+diagram
+схема
+
+# [13] folders.TreeNodeTypeHelpTexts.12:
+report
+отчет
+
+# [14] folders.TreeNodeTypeHelpTexts.13:
+2D section
+2D сечение
+
+# [15] folders.TreeNodeTypeHelpTexts.14:
+3D section
+3D сечение
+
+# [16] folders.TreeNodeTypeHelpTexts.15:
+sketcher
+эскиз
+
+# [17] folders.TreeNodeTypeHelpTexts.16:
+param mill
+парам фрезер
+
+# [18] folders.TreeNodeTypeHelpTexts.17:
+param turn
+парам точения
+
+# [19] folders.TreeNodeTypeHelpTexts.18:
+param drill
+парам сверления
+
+# [20] folders.TreeNodeTypeHelpTexts.19:
+param aux
+доп. парам
+
+# [21] folders.TreeNodeTypeHelpTexts.20:
+param cel
+парам ячейки
+
+# [22] folders.TreeNodeTypeHelpTexts.21:
+param opr
+парам операции
+
+# [23] folders.TreeNodeTypeHelpTexts.22:
+param mea
+парам измер
+
+# [24] folders.TreeNodeTypeHelpTexts.23:
+tool param
+парам инстр
+
+# [25] folders.TreeNodeTypeHelpTexts.24:
+mfg mold
+пресс-форма
+
+# [26] folders.TreeNodeTypeHelpTexts.25:
+mfg cast
+литье мет.
+
+# [27] folders.TreeNodeTypeHelpTexts.26:
+skeleton
+каркас
+
+# [28] folders.TreeNodeTypeHelpTexts.27:
+diagram mvc def
+опр схемы mvc
+
+# [29] folders.TreeNodeTypeHelpTexts.28:
+comp group def
+опр групп комп
+
+# [30] folders.TreeNodeTypeHelpTexts.1015:
+directory
+папка
+
+# [31] folders.TreeNodeTypeHelpTexts.1016:
+directory
+папка
+
+# [32] folders.TreeNodeTypeHelpTexts.1017:
+directory
+папка
+
+# [33] folders.TreeNodeTypeHelpTexts.1018:
+directory
+папка
+
+# [34] folders.TreeNodeTypeHelpTexts.1019:
+directory
+папка
+
+# [35] folders.TreeNodeTypeHelpTexts.1020:
+directory
+папка
+
+# [36] folders.TreeNodeTypeHelpTexts.1021:
+directory
+папка
+
+# [37] folders.TreeNodeTypeHelpTexts.1022:
+directory
+папка
+
+# [38] folders.TreeNodeTypeHelpTexts.1023:
+directory
+папка
+
+# [39] folders.TreeNodeTypeHelpTexts.1024:
+directory
+папка
+
+# [40] folders.TreeNodeTypeHelpTexts.1025:
+directory
+папка
+
+# [41] folders.TreeNodeTypeHelpTexts.1026:
+Network Neighborhood
+Сетевое окружение
+
+# [42] folders.TreeNodeTypeHelpTexts.1027:
+directory
+папка
+
+# [43] folders.TreeNodeTypeHelpTexts.1028:
+Desktop
+Рабочий стол
+
+# [44] folders.TreeNodeTypeHelpTexts.1029:
+Computer
+Компьютер
+
+# [45] folders.TreeNodeTypeHelpTexts.1030:
+directory
+папка
+
+# [46] folders.TreeNodeTypeHelpTexts.1031:
+directory
+папка
+
+# [47] folders.TreeNodeTypeHelpTexts.1032:
+directory
+папка
+
+# [48] FT_Expand_Btn.Label
+Folder Tree
+Дерево папок
+
+# [49] psh_new_folder.HelpText
+Create a new folder
+Создать новую папку
+
+# [50] psh_delete_folder.HelpText
+Delete selected folders
+Удалить выбранные папки
+

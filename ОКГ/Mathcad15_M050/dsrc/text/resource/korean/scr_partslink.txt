@@ -1,0 +1,80 @@
+# {61191} (31) [10] scr_partslink_common.Label
+Configuration Properties
+구성 등록 정보
+
+# [11] RMIPortLab.Label
+RMI Registry Port
+RMI 레지스트리 포트
+
+# [12] JvmHomeDirLab.Label
+Java SDK Home Directory
+Java SDK 홈 디렉토리
+
+# [13] scr_partslink_ports.Label
+Interface Ports
+인터페이스 포트
+
+# [15] UpdateLab.Label
+Content Update
+컨텐트 업데이트
+
+# [16] scr_partslink_stats.Label
+Statistics
+통계
+
+# [17] StorageSizeLab.Label
+Maximum Statistics\nStorage Size (Mb)
+최대 통계\n저장 크기 (Mb)
+
+# [18] StartDateLab.Label
+Fiscal Year Start Date
+회계연도 시작 일자
+
+# [19] StartDateMenu.Labels.1
+January
+1월
+
+# [20] StartDateMenu.Labels.2
+February
+2월
+
+# [21] StartDateMenu.Labels.3
+March
+3월
+
+# [22] StartDateMenu.Labels.4
+April
+4월
+
+# [23] StartDateMenu.Labels.5
+May
+5월
+
+# [24] StartDateMenu.Labels.6
+June
+6월
+
+# [25] StartDateMenu.Labels.7
+July
+7월
+
+# [26] StartDateMenu.Labels.8
+August
+8월
+
+# [27] StartDateMenu.Labels.9
+September
+9월
+
+# [28] StartDateMenu.Labels.10
+October
+10월
+
+# [29] StartDateMenu.Labels.11
+November
+11월
+
+# [30] StartDateMenu.Labels.12
+December
+12일
+

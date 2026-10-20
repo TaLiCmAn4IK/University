@@ -1,0 +1,16 @@
+# {0} (4) [0] profly_1.Label
+Locate Other Installation Directories (Optional)
+他のインストールディレクトリのサーチ(オプション)
+
+# [1] IlinkDirLab.Label
+Pro/INTRALINK
+Pro/INTRALINK
+
+# [2] profly_2.Label
+Optional Inputs
+オプショナル入力
+
+# [3] ProeCmdLab.Label
+Pro/ENGINEER Command
+Pro/ENGINEER コマンド
+

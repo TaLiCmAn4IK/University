@@ -1,0 +1,64 @@
+# {61147} (26) [10] scr_servlet2.Label
+Servlet Engine Configuration
+サーブレットエンジンコンフィギュレーション
+
+# [11] EngineTypeLab.Label
+Servlet Engine Type
+サーブレットエンジンタイプ
+
+# [12] ServletType.Labels.jrun
+JRun
+JRun
+
+# [13] ServletType.Labels.tomcat
+Tomcat
+Tomcat
+
+# [14] ServletType.Labels.other
+Other / Don't auto-configure
+その他/自動コンフィギュレーションなし
+
+# [15] EngineDirLab.Label
+Servlet Engine Home Directory
+サーブレットエンジンホームディレクトリ
+
+# [16] webserver_layout.Label
+Web Server Information
+Web サーバー情報
+
+# [17] WebServerLab.Label
+Web Server Network Address
+Web サーバーネットワークアドレス
+
+# [18] PortLab.Label
+Web Server Port Number
+Web サーバーポート番号
+
+# [19] ServerTypeLab.Label
+Web Server Type
+Web サーバータイプ
+
+# [20] ServerType.Labels.apache
+Apache
+Apache
+
+# [21] ServerType.Labels.iis4
+Internet Information Server
+Internet Information Server
+
+# [22] ServerType.Labels.iplanet
+iPlanet
+iPlanet
+
+# [23] ServerType.Labels.other
+Other
+その他
+
+# [24] ServerHomeLab.Label
+https Directory Path
+https ディレクトリパス
+
+# [25] StopServer.Label
+Stop/Start the server to complete configuration
+サーバーを停止/開始してコンフィギュレーションを完了
+

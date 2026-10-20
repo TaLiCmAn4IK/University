@@ -1,0 +1,55 @@
+// 12-Mar-07 L-01-28 $$1  JJE  Created
+// 18-Dec-08 L-03-23 $$2  TWH  Drop LpcfgProHelp
+
+(Product conceptestore
+    (Name                      "Pro|CONCEPT Trial")
+    (Packages                  "conceptestore" 
+                               "ptcutil"
+                               "uninstall")
+    (ProgramFiles              False)
+    (LpDirName                 "concept")
+    (Screens                   "ScreenProd")
+    (WebRegHyperLink           "webreg_proconcept.html")
+    (ProgramID                 "proconcept4")
+    (Installed                 True)
+    (ActivationCode            True)
+    (Ad_list                   "concept_01"
+                               "concept_02"
+                               "concept_03"
+                               "concept_04"
+                               "concept_05"
+                               "concept_06")
+)
+
+(Package conceptestore
+    (Name                      "Pro|CONCEPT")
+    (Screens                   "ScreenStudentLic"
+                               "ScreenWindows")
+    (CmdTypes                  "concept_eval")
+    (Binscripts                "concept"
+                               "ptchostid"
+                               "ptcflush"
+                               "ptcstatus")
+    (Cdsections                "3dpaint Tree"
+                               "3dpaint"
+                               "painthelp"
+                               "Demos"
+                               "Tutorial"
+                               "Install"
+                               "flexclient")
+    (Installed                 True)
+)
+
+(Package demos
+    (Name                      "Demo Files")
+    (Installed                 False)
+    (Cdsections                "Demos")
+)
+
+(CmdType concept_eval
+    (Name                      "Pro|CONCEPT")
+    (Type                      "Shortcut")
+    (CmdPath                   "_LP_\bin\concept.bat")
+    (IconPath                  "_LP_\install\nt\concept.ico")
+    (IconIndex                 "0")
+)

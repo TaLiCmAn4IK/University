@@ -1,0 +1,72 @@
+// 19-Dec-00      JJE  Created.
+// 21-Feb-01 $$1  JJE  Name change
+// 18-Jul-01 $$2  MAZ  Add No_Bin_Dir
+// 12-Dec-03 K-01-21  $$3 TWH Add Ad_list
+// 15-Mar-04 K-01-25  $$4 TWH  New Ad list
+// 14-Apr-04 K-01-25  $$5 JSP  GraniteOne -> Granite per Tau
+// 21-Dec-07 L-01-41  $$6 TWH  New Ad_list
+// 15-Jan-2008 L-01-42+  TWH  $$7  Rename Ads files
+// 27-Jul-2009 L-03-34   TWH  $$8  Update WF5 images
+// 04-Nov-2009 L-03-36   TWH  $$9  Update WF5 images
+// 12-Mar-2010 L-03-38   TWH  $$10 Add iculibs
+
+(Product granite
+    (Name                      "Granite")
+    (Packages                  "granite_lib"
+                               "granite_doc"
+                               "granite_ppe"
+                               "uninstall")
+    (ProgramFiles              True)
+    (LpDirName                 "Granite")
+    (VersionDir                False)
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+    (No_Bin_Dir                True)
+(Ad_list                    "WF5_101"
+                               "WF5_102"
+                               "WF5_103"
+                               "WF5_104"
+                               "WF5_201"
+                               "WF5_202"
+                               "WF5_203"
+                               "WF5_204"
+                               "WF5_301"
+                               "WF5_302"
+                               "WF5_303"
+                               "WF5_304"
+                               "WF5_401"
+                               "WF5_402"
+                               "WF5_403"
+                               "WF5_501"
+                               "WF5_502"
+			       "WF5_503"
+			       "WF5_601"
+                               "WF5_602"
+                               "WF5_603"
+                               "WF5_701"
+                               "WF5_702"
+			       "WF5_703"
+			       "WF5_801"
+                               "WF5_802"
+                               "WF5_803"
+                               "WF5_901"
+                               "WF5_902"
+			       "WF5_903")
+)
+
+(Package granite_lib
+    (Name                      "Libraries and Header Files")
+    (Cdsections                "GraniteLibs"
+                               "iculibs")
+    (Installed                 True)
+)
+(Package granite_doc
+    (Name                      "Documentation Files")
+    (Cdsections                "GraniteDocs")
+    (Installed                 True)
+)
+(Package granite_ppe
+    (Name                      "gStudio and Documentation")
+    (Cdsections                "gStudio")
+    (Installed                 True)
+)

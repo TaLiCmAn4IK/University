@@ -1,0 +1,20 @@
+// 13-Dec-99      TWH  Created
+// 27-Jun-01 $$1  TWH  Add No_Bin_Dir
+
+(Product lib_fit 
+    (Name                      "Pipe Fitting Library")
+    (Packages                  "req_fittinglib")
+    (ProgramFiles              False)
+    (LpDirName                 "fittinglib")
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+    (VersionDir                False)
+    (No_Bin_Dir                True)
+)
+(Package req_fittinglib
+    (Name                      "Pipe Fitting Library")
+    (Cdsections                "mandatory")
+    (Installed                 True)
+    (Required                  True)
+    (Binscripts                "pro_build_library_ctg")
+)

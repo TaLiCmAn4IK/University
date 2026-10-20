@@ -1,0 +1,16 @@
+# {0} (4) [0] pro_help.Label
+Help Loadpoint Input
+Punto di installazione Guida
+
+# [1] Label1.Label
+Enter the Help URL or full path to Help installation directory
+Immettere URL Guida o percorso intero della directory di installazione
+
+# [2] StdOK.Label
+&OK
+&OK
+
+# [3] StdCancel.Label
+&Cancel
+&Annulla
+

@@ -1,0 +1,52 @@
+# {0} (13) [0] scr_rn_prop2.Label
+Configuration Properties
+Propiedades de configuración
+
+# [1] rmi_port_label.Label
+RMI Registry Port Number
+Número del puerto de registro RMI
+
+# [2] rmi_port.Value
+10011
+10011
+
+# [3] scr_rn_prop3.Label
+Windchill Gateway for RosettaNet Properties
+Propiedades del Gateway de Windchill para RosettaNet
+
+# [4] port_label.Label
+Port Number
+Número de puerto
+
+# [5] port.Value
+10080
+10080
+
+# [6] duns_label.Label
+DUNS Number
+Número DUNS
+
+# [7] duns.Value
+100000000
+100000000
+
+# [8] scr_rn_prop4.Label
+Windchill RosettaNet Adapter Properties
+Propiedades del adaptador RosettaNet para Windchill
+
+# [9] ieport_label.Label
+Port Number
+Número de puerto
+
+# [10] user_label.Label
+User Name
+Nombre de usuario
+
+# [11] passwd_label.Label
+Password
+Contraseña
+
+# [12] ieport.Value
+10066
+10066
+

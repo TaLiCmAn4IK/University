@@ -1,0 +1,72 @@
+# {100} (100) [0] StructUILab.Label
+Structure UI
+Пользовательский интерфейс структуры
+
+# [1] StructEngLab.Label
+Structure Engine
+Модуль структуры
+
+# [2] MotionUILab.Label
+Motion UI
+Пользовательский интерфейс движения
+
+# [3] MotionEngLab.Label
+Motion Engine
+Модуль движения
+
+# [4] ThermalUILab.Label
+Thermal UI
+Тепловой пользовательский интерфейс
+
+# [5] ThermalEngLab.Label
+Thermal Engine
+Тепловой модуль
+
+# [6] EqRuntimeLab.Label
+Equations Runtime
+Время выполнения уравнений
+
+# [7] TireModelLab.Label
+Tire Model
+Tire Model
+
+# [8] StructUIModify.Label
+Modify
+Изменить
+
+# [9] StructEngModify.Label
+Modify
+Изменить
+
+# [10] MotionUIModify.Label
+Modify
+Изменить
+
+# [11] MotionEngModify.Label
+Modify
+Изменить
+
+# [12] ThermalUIModify.Label
+Modify
+Изменить
+
+# [13] ThermalEngModify.Label
+Modify
+Изменить
+
+# [14] EqRuntimeModify.Label
+Modify
+Изменить
+
+# [15] TireModelModify.Label
+Modify
+Изменить
+
+# [16] Label10.Label
+Mechanica Module
+Модуль Механика
+
+# [17] Label11.Label
+Licenses associated with the module
+Лицензии, связанные с модулем
+

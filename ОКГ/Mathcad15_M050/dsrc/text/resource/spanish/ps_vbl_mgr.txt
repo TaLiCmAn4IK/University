@@ -1,0 +1,8 @@
+# {0} (2) [0] ps_vbl_mgr.Label
+Variable Manager
+Administrador de Variables
+
+# [1] VarEdit.Label
+Edit
+Editar
+

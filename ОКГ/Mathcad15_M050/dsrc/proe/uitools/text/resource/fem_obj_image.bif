@@ -1,0 +1,18 @@
+!
+! 08-Apr-97 H-03-05 sgur   $$1 Created.
+! 11-May-98 I-01-07 benda  $$2 Changed ize to 16x16.
+! 09-Apr-01 J-01-31 pmu    $$3 Updated for high contrast support
+!
+(Image fem_obj_image
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     4)
+    )
+    (Data
+        CFFFC40F04C4FFC40F0404C4FF0E070E070E070E0404C4FF0FC30E0400C4FFC0
+        0EC0040000C5FF0F0E0E0404C8FFC00E0F0E0F0E04C5FF0FC00E0F0E0404C5FF
+        C30E0404C5FF0FC20E0400C5FFC00E04040000C6FF0F0E0E0404C8FFC00E0400
+        C8FF04040000D8FF
+    )
+)

@@ -1,0 +1,4 @@
+# {100} (100) [0] pshNewPage.HelpText
+Add New Tab
+Ajouter un nouvel onglet
+

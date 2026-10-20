@@ -1,0 +1,24 @@
+# {100} (100) [0] getnewdir.Label
+New Folder
+Carpeta nueva
+
+# [1] Cancel_button.Label
+Cancel
+Cancelar
+
+# [2] OK_button.Label
+OK
+Aceptar
+
+# [3] current_dir_label.Label
+Current Directory:
+Directorio actual:
+
+# [4] cur_dir_value.Label
+/...
+/...
+
+# [5] new_dir_label.Label
+New Directory:
+Directorio nuevo:
+

@@ -1,0 +1,14 @@
+! Icon is introduced due to projects 13022444, 13022451
+! It's name is provided inside GlobalParamDefSet_L03 ND, TransParamSet_L03 ND
+! The ND are generated inside C#, where names are kept as enum GlyphStatuses
+! 02-Jun-09 L-03-33 KS $$1 Created due to SPR#1799157-01
+(Image empty9x16
+    (Resources
+        (.Width     9)
+        (.Height    16)
+        (.Depth     4)
+    )
+    (Data
+        CDC4FF
+    )
+)

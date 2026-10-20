@@ -1,0 +1,8 @@
+# {0} (2) [0] Label1.Label
+Full path to the Application Manager installation directory
+Chemin complet du répertoire d'installation du gestionnaire d'applications
+
+# [1] AppmgrBrowse.Label
+Browse
+Parcourir
+

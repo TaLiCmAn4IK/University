@@ -1,0 +1,12 @@
+# {100} (100) [0] lbl_customization_title.Label
+Customize The Quick Access Toolbar and keyboard shortcuts.
+Personalizza barra di accesso rapido e scelte rapide da tastiera.
+
+# [1] chk_qa_toolbar_below.Label
+&Place quick Access Toolbar below the Ribbon
+&Posiziona barra di accesso rapido sotto la barra multifunzione
+
+# [2] chk_qa_toolbar_below.HelpText
+toggle the Quick Access Toolbar location.
+Commuta la posizione della barra di accesso rapido.
+

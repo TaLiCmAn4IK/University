@@ -1,0 +1,20 @@
+# {0} (5) [0] ilink_1.Label
+Locate Other Installation Directories (Optional)
+Trova altre directory di installazione (facoltativo)
+
+# [1] AppMgrDirLab.Label
+PTC Application Manager
+PTC Application Manager
+
+# [2] ProeDirLab.Label
+Installation Directory
+Directory di installazione
+
+# [3] ilink_2.Label
+Pro/ENGINEER Integration (Optional)
+Integrazione a Pro/ENGINEER (facoltativa)
+
+# [4] ProeCmdLab.Label
+Start Command
+Comando di avvio
+

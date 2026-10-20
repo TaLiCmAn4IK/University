@@ -1,0 +1,21 @@
+!
+! 17-JUN-97  H-03-14  LUK  $$1 Created.
+! 12-AUG-97  H-03-18  LUK  $$2 Updated from Terry Bleser.
+! 25-AUG-97  H-03-19+ twb  $$3 Made background transparent and resized.
+! 18-Dec-97 H-03-34 hmt $$4 Changed size to 18x18
+! 29-DEC-97 H-03-35 MCA $$5 Changed size to 16x16 - Removed RED Set Current Box
+! 06-JAN-98  H-03-35  twb  $$6 Recolored to be consistent with tree.
+! 09-Apr-01  J-01-31  pmu  $$7 Updated for high contrast support
+(Image constr
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     4)
+    )
+    (Data
+        C5FFC00FC9FF0F05050FC8FF0FC0050FC7FF0FC1050FC6FF0FC2050FC4FF0F0F
+        C305C40F07C3050A0AC305070F070FC0050A0A050F070F070F050F070F070505
+        0A0A050F070F070F050F070F070F050A0A050F050F070F050FFFCA050FFFFFC1
+        0FC305C00FC3FF0FC2050FC6FF0FC1050FC7FF0FC0050FC8FF0F05050FC6FF
+    )
+)

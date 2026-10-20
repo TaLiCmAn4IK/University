@@ -1,0 +1,23 @@
+; History cascade button
+;
+; 30-Mar-07 L-01-40 AW    $$1   Created
+;
+
+[toolbutton]
+Size = 16, 16
+SizingMargins = 1, 1, 1, 1
+ContentMargins = 1, 1, 1, 1
+BackgroundImage = styles/fileopen/file_open_history_casc.bif
+Glyph = styles/history/file_open_history_casc.bif
+
+[toolbutton(hot)]
+BackgroundImage = styles/fileopen/file_open_history_casc.bif
+Glyph = styles/history/file_open_history_casc.bif
+
+[toolbutton(pressed)]
+BackgroundImage = styles/fileopen/file_open_history_casc.bif
+Glyph = styles/history/file_open_history_casc.bif
+
+[toolbutton(disabled)]
+BackgroundImage = styles/fileopen/file_open_history_casc.bif
+Glyph = styles/history/file_open_history_casc.bif

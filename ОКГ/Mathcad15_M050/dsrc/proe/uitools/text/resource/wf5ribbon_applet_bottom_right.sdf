@@ -1,0 +1,9 @@
+; 12-Mar-09 L-03-28  IKAL  $$1  Created.
+; 22-Mar-09 L-03-28+ IKAL  $$2  Updated.
+
+
+[layoutbody]
+ContentMargins = 4, 3, 4, 3
+SizingMargins = 3, 3, 3, 3
+;ForegroundColor = 51 94 168
+BackgroundImage = styles/ribbon/ribbonappletbottomright.bif

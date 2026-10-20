@@ -1,0 +1,24 @@
+! 11-Jul-97 H-03-16 twb $$1 Revised, file created prior to H-03-16
+! 27-Aug-97 H-03-19+ twb $$2 Revised, fixed coloring
+! 02-Dec-97 H-03-31 twb $$3 Recolored for white background.
+! 18-Dec-97 H-03-34 hmt $$4 Changed size to 18x18
+! 29-DEC-97 H-03-35 MCA $$5 Changed size to 16x16 - Removed RED Set Current Box.
+! 14-Dec-99 I-03-24 TWB $$6 Updated for new look.
+! 09-Apr-01 J-01-31 pmu $$7 Updated for high contrast support
+! 08-Aug-02 J-03-31 TLH $$8 Updated for Wildfire
+(Image skeleton
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        0FFFFFFF03F0FD000D100D200DE0300D400D500D600D6C05333333C1017C0D8C
+        0D98056C0D9801C0C0B9C0A701BF0A00CCCCBF0A80EB8080A30D03E001999999
+        06F70D0199C100FC09E001D001E40D1CE001C001B4B4B4C70DD70A441500241D
+        3415FC01401D501D601D301D801D20901DA01D701DC01DD01D00FD00E41D00B4
+        1D042548291C12FD14242DF41D802D00D419602D302D882D902DA02DB029E001
+        003C21003D3C21E001BC01BC01E42DF40500C82DCC2DE02D2C39743D843DE00D
+        A43D00B43DC43DD43DE435
+    )
+)

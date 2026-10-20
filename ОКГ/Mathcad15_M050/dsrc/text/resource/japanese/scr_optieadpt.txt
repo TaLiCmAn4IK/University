@@ -1,0 +1,20 @@
+# {0} (5) [0] scr_optieadpt2.Label
+Optegra Info*Engine Adapter Settings
+Optegra Info*Engine アダプタ設定
+
+# [1] HostnameLab.Label
+Optegra Vault Host Name
+Optegraボルトホスト名
+
+# [2] ListenerPortLab.Label
+Optegra Vault Oracle Listener Port Number
+Optegra ボルト Oracle Listener ポート番号
+
+# [3] OracleSIDLab.Label
+Optegra Vault Oracle SID
+Optegra ボルト Oracle SID
+
+# [4] AdapterPortLab.Label
+Optegra Info*Engine Adapter Port Number
+Optegra Info*Engine アダプタポート番号
+

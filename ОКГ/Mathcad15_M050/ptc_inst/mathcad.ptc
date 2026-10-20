@@ -1,0 +1,183 @@
+// 23-Sep-08 L-03-18 $$1  TWH   Created
+// 30-Sep-08 L-03-18 $$2  TWH   Add separate Documentation features
+// 11-Nov-08 L-03-19 $$3  TWH   more changes
+// 14-Nov-08 L-03-19+ $$4  TWH   Pkgs renamed/rewritten
+// 04-Dec-08 L-03-21 $$5  TWH   Add OldProductCode
+// 29-Dec-08 L-03-22 $$6  TWH   Chg INSTALLER_DOTNET
+// 15-Jan-09 L-03-23 $$7  TWH   Add Use_x86_
+// 27-Jan-09 L-03-24 $$8  TWH   Change ProductCode per mathcad msi chg.
+// 09-Feb-09 L-03-25+ $$9  TWH   Resouce Center has space in path name
+// 10-Apr-09 L-03-30 $$10 TWH   Add productpoint references
+// 22-Apr-09 L-03-30+ $$11 TWH   GUID chg for M035
+// 11-May-09 L-03-32 $$12 TWH   Use mathcad ad images
+// 14-May-09 L-03-32+ $$13 TWH   Chg .NET to 3.5 SP 1
+// 21-May-09 L-03-33 $$14 TWH   Add Old GUIDs
+// 09-Mar-10 L-03-38 $$15 TWH   Refresh for Mathcad 15
+// 30-Mar-10 L-03-38+ $$16 TWH   Fix for ProductPoint handling
+// 02-Apr-10 L-03-38+ $$17 TWH   Back to old hardcoded GUID list
+// 20-May-10 L-03-39+ $$18 TWH   limit old GUID list to MC 14 
+// 12-Jul-10 L-03-40  $$19 TWH  Update for Prime 1.0 release setup chgs
+// 17-Sep-10 L-03-41  $$20 TWH  Update for NSEX msi bug
+// 18-Apr-11 L-03-43  $$21 TWH  M010 spec Desktop;StartMenu;QuickLaunch by default are checked.
+// 04-Sep-12 L-03-50  $$22 TWH  M020 spec replace MSXML hyperlink.
+// 05-Sep-12 L-03-50  $$23 TWH  M020 bump GUID
+// 20-Nov-14 L-03-60  $$24 MTH  MSXML 6.0 link
+// 21-Oct-15 L-03-62  $$25 AGO  updated for Mathcad 15 M045
+// 18-Sep-17 L-03-62  $$26 AGO  updated for Mathcad 15 M050
+(Product mathcad
+    (Name                      "Mathcad")
+    (WelcomeImage              "mathcad_name.png")
+    (Packages                  "MATHCAD"
+                               "MATHHELP"
+                               "MATHCAD_RC"
+                               "MATHDOC"
+                               "mathcad_help_ext")
+    (ProgramFiles              True)
+    (Use_x86_                  True)
+    (LpDirName                 "Mathcad\Mathcad 15")
+    (VersionDir                False)
+    (Screens                   "ScreenLicAgree"
+                               "ScreenMathcadTrial"
+                               "ScreenMathcadCustom")
+    (Installed                 True)
+    (ScreenProdPostFunc.AllowPreCheck True)
+    (ScreenProductHidePlats    True)
+    (ScreenProductHideLangs    True)
+    (ScreenWindows.HideEnv     True)
+    (ScreenWindows.HideStartDir True)
+    (ScreenWindows.HideProgFolder True)
+    (ScreenWindows.ShowQuickLaunch True)
+    (ScreenWindows.ScDesktop   True)
+    (ScreenWindows.ScStartMenu True)
+    (ScreenWindows.ScQuickLaunch True)
+    (LicenseSimplification     True)
+    (MsiGetFeatureCost         True)
+    (ProductCode               "{E87C64F5-1AC1-4780-8C11-93DD65DCE627}")
+    (OldProductCode            "{8FD0167F-A752-467A-86BE-3728D71F68B8}"
+                               "{DC8F6C78-7231-44A2-B66E-6C4FCB3A3364}"
+                               "{67C84E97-AACC-4EB5-9586-34A732DE8AAC}"
+                               "{D480E12B-8D3B-4EB5-A7FF-7F4B08E64D28}"
+                               "{8796E14E-2031-463F-8A9A-31062B2652B4}"
+                               "{E666A69B-A76D-43D5-AF28-4B2150A6EDE2}"
+                               "{56CE91CC-92EC-4B0E-98B7-3D0F6AD6C4C5}"							   
+                               "{CB220938-2571-4030-AB7B-A1C38A4866FF}"
+							   "{1FABCC0D-6190-4FA9-8C25-1AFC2A5F1E74}"
+							   "{B24B6F31-6DA8-490A-8FCA-7BFA3101C2E4}"
+							   "{A8C99049-C1FC-4B5D-803C-194745073E53}"
+							   "{C76143ED-7E0F-404E-B597-751C2A497962}")
+    (MATHCAD_license_type      "trial")
+    (MATHCAD_install_type      "custom")
+    (MATHCAD_help_path         "_LP_\doc")
+    (MATHCAD_rc_path           "_LP_\Resource Center")
+    (MATHCAD_doc_path          "_LP_\Handbook")
+    (MATHCAD_template_path     "_LP_\template")
+    (MATHCAD_file_format       "XML14")
+    (INSTALLER_DOTNET          "http://www.microsoft.com/downloads/details.aspx?FamilyId=AB99342F-5D1A-413D-8319-81DA479AB0D7&displaylang=en")
+    (INSTALLER_MDAC            "http://www.microsoft.com/downloads/details.aspx?FamilyID=8e5f816c-4918-4250-b8bd-3794582c9089&DisplayLang=en")
+    (INSTALLER_MSXML           "http://www.microsoft.com/en-us/download/details.aspx?id=3988")
+    (INSTALLER_MSI             "http://www.microsoft.com/downloads/details.aspx?familyid=5FBC5470-B259-4733-A914-A956122E08E8&displaylang=en")
+    (INSTALLER_IE              "http://www.microsoft.com/downloads/Browse.aspx?displaylang=en&categoryid=6")
+    (INSTALLER_ACROBAT         "http://www.adobe.com/products/acrobat/readstep2.html")
+   (Ad_list                    "Mathcad1"
+                               "Mathcad2"
+                               "Mathcad3"
+                               "Mathcad4"
+                               "Mathcad5"
+                               "Mathcad6"
+                               "Mathcad7"
+                               "Mathcad8"
+                               "Mathcad9"
+                               "Mathcad10"
+                               "Mathcad11"
+                               "Mathcad12"
+                               "Mathcad13"
+                               "Mathcad14"
+                               "Mathcad15"
+                               "Mathcad16"
+                               "Mathcad17")
+)
+
+// ATTENTION !!!
+// Package TAGS must match exactly to CdSection TAG 
+// because we locate the Package to find it's size
+// as read from the MSI by CdSection TAG
+
+(Package MATHCAD
+    (Name                      "Mathcad")
+    (Screens                   "ScreenProd"
+                               "ScreenLicList"
+                               "ScreenMathcadCfg" 
+                               "ScreenWindows")
+    (Installed                 True)
+    (Required                  True)
+    (Cdsections                "MATHCAD")
+    (MSI_NAME                  "MathcadFeature")
+    (MSI_INSTALLDIR            "[INSTALLLOCATION]")
+)
+
+(Package MATHCAD_RC
+    (Name                      "@@Mathcad_Pkg_RC")
+    (Installed                 True)
+    (Cdsections                "MATHCAD_RC")
+    (MSI_NAME                  "ResourceCenter")
+    (MSI_INSTALLDIR            "[INSTALLLOCATION]")
+)
+
+
+(Package MATHHELP
+    (Name                      "@@Mathcad_Pkg_Help")
+    (Installed                 True)
+    (Cdsections                "MATHHELP")
+    (MSI_NAME                  "HELP")
+    (MSI_INSTALLDIR            "[INSTALLLOCATION]")
+)
+
+(Package MATHDOC
+    (Name                      "@@Mathcad_Pkg_Doc")
+    (Installed                 True)
+    (Cdsections                "MATHDOC")
+    (MSI_NAME                  "DOC")
+    (MSI_INSTALLDIR            "[INSTALLLOCATION]")
+)
+
+(Package mathcad_help_ext
+    (Name                      "@@Mathcad_Pkg_Ext")
+    (SubPackages               "MATHCAD_EXT_datapack" 
+                               "MATHCAD_EXT_signal"
+                               "MATHCAD_EXT_wavelets"
+                               "MATHCAD_EXT_image")
+    (Installed                 True)
+)
+
+(Package MATHCAD_EXT_datapack
+    (Name                      "Data Analysis")
+    (Installed                 True)
+    (Cdsections                "MATHCAD_EXT_datapack")
+    (MSI_NAME                  "dataPack")
+    (MSI_INSTALLDIR            "[INSTALLLOCATION]")
+)
+
+(Package MATHCAD_EXT_signal
+    (Name                      "Signal Processing")
+    (Installed                 True)
+    (Cdsections                "MATHCAD_EXT_signal")
+    (MSI_NAME                  "Signal")
+    (MSI_INSTALLDIR            "[INSTALLLOCATION]")
+)
+
+(Package MATHCAD_EXT_wavelets
+    (Name                      "Wavelets")
+    (Installed                 True)
+    (Cdsections                "MATHCAD_EXT_wavelets")
+    (MSI_NAME                  "Wavelets")
+    (MSI_INSTALLDIR            "[INSTALLLOCATION]")
+)
+
+(Package MATHCAD_EXT_image
+    (Name                      "Image Processing")
+    (Installed                 True)
+    (Cdsections                "MATHCAD_EXT_image")
+    (MSI_NAME                  "Image")
+    (MSI_INSTALLDIR            "[INSTALLLOCATION]")
+)
+

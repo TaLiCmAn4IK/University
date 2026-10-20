@@ -1,0 +1,36 @@
+# {100} (100) [0] button_edit.Label
+Button Editor
+Редактор кнопок
+
+# [1] OK.Label
+OK
+OK
+
+# [2] Cancel.Label
+Cancel
+Отмена
+
+# [3] Clear.Label
+Clear
+Очистить
+
+# [4] lay_pic.Label
+Picture
+Рисунок
+
+# [5] lay_colors.Label
+Colors
+Цвета
+
+# [6] lbl_erase.Label
+Erase:
+Стереть:
+
+# [7] lay_move.Label
+Move
+Переместить
+
+# [8] lay_preview.Label
+Preview
+Предварительный просмотр
+

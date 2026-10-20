@@ -1,0 +1,26 @@
+!----------------------------------------------------------------------------
+!
+!  Date      Release Name  Ver.  Comments
+! ---------- ------- ----- ----- --------------------------------------------
+! 10-Jul-97  H-03-16  DXU  $$1   Submitted
+! 26-Aug-97  H-03-19  DRM  $$2   New Image
+! 02-Dec-97  H-03-31  TWB  $$3   Recolored for white background.
+! 14-Jan-2000 I-03-26 PMU  $$4   Removed old PTC logo.
+! 05-Sep-2002 J-03-33 TLH  $$5   Updated for Wildfire.
+!----------------------------------------------------------------------------
+(Image proe_file
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        CF66666601F0FD000DFFFF03FF03140D20051004330D3F06040107333333130D
+        270D730D470A800100540D680DB40D4809080DA40DC00D001D00880CE30D0B1D
+        3F1D131D231D4B1D771207D7D5C8871D971D5F12701D8019FED0098AA7C70100
+        33998CDB16A81299998F06F41DC815F573F4EA0F22DC11CCE4FF1B220EE415C9
+        1C04EF1DFF1D0F26D811001C2D2C2D3C2D0C2DD815D811682DB42D00882DD429
+        D001A82DF42DC82DD82DE82900303D2435383D3C3DEC21601D78359C1D00943D
+        683DB43DBC32ED10EC21D03DDC350FD1766801
+    )
+)

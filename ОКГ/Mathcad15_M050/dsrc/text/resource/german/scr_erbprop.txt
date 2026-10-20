@@ -1,0 +1,16 @@
+# {70134} (4) [0] scr_erbprop2.Label
+Windchill Info*Engine Settings
+Windchill Info*Engine Einstellungen
+
+# [1] IEWebServerURLLab.Label
+Web Server URL
+Web-Server URL
+
+# [2] IEWebServerPortNoLab.Label
+Web Server Port Number
+Web-Server-Portnummer
+
+# [3] IETaskDirectoryAliasLab.Label
+Task Directory Alias
+Aliasname für Aufgabenverzeichnis
+

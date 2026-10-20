@@ -1,0 +1,196 @@
+# {100} (100) [0] ribbon_designer_main.Label
+Ribbon Designer
+带设计者
+
+# [1] CommandsLayout.Label
+Commands
+命令
+
+# [2] CommandsTable.ColumnLabels.menu
+Container
+容器
+
+# [3] CommandsTable.ColumnLabels.label
+Cascade / Item
+层叠/项目
+
+# [4] CommandsTable.ColumnLabels.cascade
+Item
+项目
+
+# [5] CommandsTable.ColumnLabels.icon
+Icon
+图标
+
+# [6] CommandsTable.ColumnLabels.name
+Command Name
+命令名称
+
+# [7] CommandsTable.ColumnLabels.help
+Help Text
+帮助文本
+
+# [8] FilterLayout.Label
+Show Only :
+仅显示:
+
+# [9] FilterRadioGroup.Labels.not_in_ribbon
+Not In Ribbon
+不在带中
+
+# [10] FilterRadioGroup.Labels.not_in_page
+Not In Page
+不在页中
+
+# [11] FilterRadioGroup.Labels.all
+All Commands
+全部命令
+
+# [12] SaveRibbonPushButton.Label
+Save &Ribbon
+保存带(&R)
+
+# [13] ToolsLayout.Label
+Tools
+工具
+
+# [14] NewItemsList.Labels.newCascadeButton
+New Cascade Button
+新建层叠按钮
+
+# [15] NewItemsList.Labels.newFlyoutButton
+New Flyout Button
+新建快捷方式按钮
+
+# [16] ribbon.Label
+&Ribbon
+带(&R)
+
+# [17] ribbon.HelpText
+Ribbon
+带
+
+# [18] adb_designerAddNewRibbon.Label
+New
+新建
+
+# [19] adb_designerLoadRibbon.Label
+Open
+打开
+
+# [20] adb_designerSaveRibbon.Label
+Save
+保存
+
+# [21] pshAddExternalGroupPage.Label
+Add External Groups
+添加外部组
+
+# [22] pshRemoveExternalGroupPage.Label
+Remove External Groups
+移除外部组
+
+# [23] page.Label
+&Page
+页面(&P)
+
+# [24] page.HelpText
+Page
+页面
+
+# [25] pshAddNewPage.Label
+New
+新建
+
+# [26] pshAddNewPage.HelpText
+Add new page
+添加新页面
+
+# [27] pshInheritPage.Label
+Inherit
+继承
+
+# [28] pshRenameCurPage.Label
+Re&name
+重命名(&N)
+
+# [29] pshRemoveCurPage.Label
+Delete
+删除
+
+# [30] group.Label
+&Group
+组(&G)
+
+# [31] group.HelpText
+Group
+组
+
+# [32] pshAddNewGroup.Label
+New
+新建
+
+# [33] pshAddNewGroup.HelpText
+Add new group
+添加新组
+
+# [34] pshInheritGroup.Label
+Inherit
+继承
+
+# [35] pshAddExistingGroup.Label
+Add Existing
+添加现有组
+
+# [36] eggroup.Label
+&EG
+EG(&E)
+
+# [37] eggroup.HelpText
+Extended Group
+扩展的组
+
+# [38] pshAddNewExternalGroup.Label
+New
+新建
+
+# [39] pshAddNewExternalGroup.HelpText
+Add new group to extended page
+向扩展的页面中添加新组
+
+# [40] pshInheritExternalGroup.Label
+Inherit
+继承
+
+# [41] pshAddExistingExternalGroup.Label
+Add Existing
+添加现有组
+
+# [42] commands.Label
+&Commands
+命令(&C)
+
+# [43] commands.HelpText
+Commands
+命令
+
+# [44] ExportPushButton.Label
+Export to CSV File
+导出到 CSV 文件
+
+# [45] debug.Label
+&Debug
+调试(&D)
+
+# [46] debug.HelpText
+Debug
+调试
+
+# [47] pshSpy.Label
+Spy...
+监视...
+
+# [48] pshSpy.HelpText
+Db Walker
+Db Walker
+

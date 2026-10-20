@@ -1,0 +1,33 @@
+// 11-Apr-00 $$1  TWH  Created.
+// 27-Oct-00 $$2  TWH  Add uninstall
+// 27-Jun-01 $$3  TWH  Add Prop No_Bin_Dir
+// 21-Aug-03 K-01-13  $$4  TWH  Add NoPSFSupport
+
+(Product proitkit
+    (Name                      "Pro/INTRALINK Toolkit")
+    (Packages                  "toolkit"
+                               "toolkitdoc"
+                               "uninstall")
+    (ProgramFiles              False)
+    (LpDirName                 "proitkit")
+    (Screens                   "ScreenProd")
+    (VersionDir                False)
+    (Installed                 True)
+    (No_Bin_Dir                True)
+    (NoPSFSupport              True)
+)
+
+(Package toolkit
+    (Name                      "Pro/INTRALINK Toolkit")
+    (Cdsections                "toolkit"
+                               "oraruntime"
+                               "Install")
+    (Installed                 True)
+)
+
+(Package toolkitdoc
+    (Name                      "Pro/INTRALINK Toolkit Docs")
+    (Cdsections                "toolkitdoc"
+                               "Install")
+)
+

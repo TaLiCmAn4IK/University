@@ -1,0 +1,195 @@
+// 17-Sep-97  $$1    JJE   Created
+// 19-Jan-98  $$2    JJE   Fix Devlps
+// 30-Jan-98  $$3    JJE   Update OS levels
+// 06-Apr-98  $$4    JJE   Add sgi_mips4
+// 17-Jun-98  $$5    JJE   Add Type
+// 23-Nov-98  $$6    JJE   Update Sun,IBM,95
+// 15-Apr-99  $$7    JJE   Add stuff, rm old plats
+// 22-Sep-99  $$8    MAZ   Add posix_sh, RcFPath, RcCPath 
+// 18-Oct-99  $$9    MAZ   Add RcFPath to alpha_unix
+// 20-Jan-00  $$10   JJE   Update some of the desc
+// 15-Aug-00  $$11   TWH   Add hpux11_pa32
+// 04-Jan-01  $$12   TWH   Add sun4_solaris_64, ia_64nt
+// 11-Jan-01  $$13   TWH   Fix name ia64_nt
+// 16-May-01  $$14   TWH   hpux_pa64
+// 21-Nov-01  $$15   TWH   add elf4; drop old plats
+// 22-Jul-02  $$16   MAZ   Add LibPath
+// 30-SEP-02  $$17   MTP   Added i486_linux
+// 13-NOV-02  $$18   MTP   Fix linux RcPath
+// 03-Jun-03  $$19   ASRS  Added x86e
+// 25-OCT-05  $$20   MTP   sun_solaris_x64 support
+//
+[i486_win95]
+	Desc    Windows 95/98
+	CDName  i486_95
+	DefLP   C:\ptc
+	Type    WIN32
+[i486_nt]
+	Desc    Intel on Windows NT 4.0
+	CDName  i486_nt
+	DefLP   C:\ptc
+	Type    WIN32
+[ia64_nt]
+	Desc    Intel Itanium
+	CDName  ia64_nt
+	DefLP   C:\ptc
+	Type    WIN32
+[x86e_win64]
+	Desc    Windows XP64 for Extended Systems
+	CDName  x86e_win64
+	DefLP   C:\ptc
+	Type    WIN32
+[sun4_solaris]
+	Desc    Sun Microsystems (Solaris 2.6)
+	CDName  sun4sol
+	DefLP   /opt/ptc
+	Type    UNIX
+	TarFlag -xBfb
+	DdFlag  ibs=126b
+	PsCmd   /bin/ps -ef
+	RshCmd  rsh
+	RcPath  /etc/rc2.d
+	PSX_sh  /bin/sh
+	LibPath LD_LIBRARY_PATH
+[sun4_solaris_64]
+        Desc    Sun Microsystems (Solaris 2.7)
+        CDName  sun4sol
+        DefLP   /opt/ptc
+        Type    UNIX
+        TarFlag -xBfb
+        DdFlag  ibs=126b
+        PsCmd   /bin/ps -ef
+        RshCmd  rsh
+        RcPath  /etc/rc2.d
+        PSX_sh  /bin/sh
+        LibPath LD_LIBRARY_PATH
+[sun_solaris_x64]
+        Desc    Sun Microsystems (Solaris 2.10)
+        CDName  sun4sol
+        DefLP   /opt/ptc
+        Type    UNIX
+        TarFlag -xBfb
+        DdFlag  ibs=126b
+        PsCmd   /bin/ps -ef
+        RshCmd  rsh
+        RcPath  /etc/rc2.d
+        PSX_sh  /bin/sh
+        LibPath LD_LIBRARY_PATH
+[ibm_rs6000]
+	Desc    International Business Machines (AIX 4.2.X)
+	CDName  ibm
+	DefLP   /opt/ptc
+	Type    UNIX
+	TarFlag -xf
+	DdFlag  ibs=20b
+	PsCmd   ps auxww
+	RshCmd  rsh
+	RcPath  /etc
+	PSX_sh  /bin/sh
+	LibPath LIBPATH
+[hp8k]
+	Desc    Hewlett Packard (HP-UX 10.20)
+	CDName  hp8k
+	DefLP   /opt/ptc
+	Type    UNIX
+	TarFlag -xf
+	DdFlag  ibs=10b
+	PsCmd   ps -ef
+	RshCmd  remsh
+	RcPath  /sbin/rc2.d
+	RcFPath /sbin/init.d
+	RcCPath /etc/rc.config.d
+	PSX_sh  /sbin/sh
+	LibPath SHLIB_PATH
+[hpux11_pa32]
+	Desc    Hewlett Packard (HP-UX 11.X)
+	CDName  hpux11_pa32
+	DefLP   /opt/ptc
+	Type    UNIX
+	TarFlag -xf
+	DdFlag  ibs=10b
+	PsCmd   ps -ef
+	RshCmd  remsh
+	RcPath  /sbin/rc2.d
+	RcFPath /sbin/init.d
+	RcCPath /etc/rc.config.d
+	PSX_sh  /sbin/sh
+	LibPath SHLIB_PATH
+[hpux_pa64]
+	Desc    Hewlett Packard (HP-UX 11.X)
+	CDName  hpux_pa64
+	DefLP   /opt/ptc
+	Type    UNIX
+	TarFlag -xf
+	DdFlag  ibs=10b
+	PsCmd   ps -ef
+	RshCmd  remsh
+	RcPath  /sbin/rc2.d
+	RcFPath /sbin/init.d
+	RcCPath /etc/rc.config.d
+	PSX_sh  /sbin/sh
+	LibPath SHLIB_PATH
+[sgi_elf2]
+	Desc    Silicon Graphics Inc. (Irix 6.2, 6.3, 6.4)
+	CDName  sgi_elf2
+        DefLP   /opt/ptc
+        Type    UNIX
+        TarFlag -xBfb
+        DdFlag  ibs=400b
+        PsCmd   ps -ef
+        RshCmd  /usr/bsd/rsh
+        RcPath  /etc/rc2.d
+        RcFPath /etc/init.d
+        PSX_sh  /sbin/sh
+	LibPath LD_LIBRARY_PATH
+[sgi_elf4]
+	Desc    Silicon Graphics Inc. (Irix 6.2 - 6.5)
+	CDName  sgi_elf4
+	DefLP   /opt/ptc
+	Type    UNIX
+	TarFlag -xBfb
+	DdFlag  ibs=400b
+	PsCmd   ps -ef
+	RshCmd  /usr/bsd/rsh
+	RcPath  /etc/rc2.d
+	RcFPath /etc/init.d
+	PSX_sh  /sbin/sh
+	LibPath LD_LIBRARY_PATH
+[sgi_mips4]
+	Desc    Silicon Graphics Inc. R5000 - R12000 (Irix 6.2 - 6.5)
+	CDName  sgi_mips4
+	DefLP   /opt/ptc
+	Type    UNIX
+	TarFlag -xBfb
+	DdFlag  ibs=400b
+	PsCmd   ps -ef
+	RshCmd  /usr/bsd/rsh
+	RcPath  /etc/rc2.d
+	RcFPath /etc/init.d
+	PSX_sh  /sbin/sh
+	LibPath LD_LIBRARY_PATH
+[alpha_unix]
+	Desc    Digital Equipment Corp. (Digital Unix 4.0D)
+	CDName  alphunix
+	DefLP   /opt/ptc
+	Type    UNIX
+	TarFlag -xf
+	DdFlag  ibs=20b
+	PsCmd   ps auxww
+	RshCmd  rsh
+	RcPath  /sbin/rc3.d
+	RcFPath /sbin/init.d
+	PSX_sh  /sbin/sh
+[i486_linux]
+	Desc    Linux on Intel
+	CDName  i486_linux
+	DefLP   /usr/local/ptc
+	Type    UNIX
+	TarFlag -xBfb
+	DdFlag  ibs=126b
+	PsCmd   /bin/ps -ef
+	RshCmd  rsh
+	RcPath  /etc/rc.d/rc5.d
+	RcFPath /etc/rc.d/init.d
+	PSX_sh  /bin/sh
+	LibPath LD_LIBRARY_PATH

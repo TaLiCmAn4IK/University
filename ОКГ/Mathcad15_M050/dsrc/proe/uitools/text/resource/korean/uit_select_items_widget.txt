@@ -1,0 +1,28 @@
+# {100} (100) [0] psh_add.Label
+&Add >>
+추가(&A) >>
+
+# [1] psh_remove.Label
+&Remove
+제거(&R)
+
+# [2] psh_reset.Label
+Re&set
+재설정(&S)
+
+# [3] psh_moveUp.Label
+Move Up
+위로 이동
+
+# [4] psh_moveUp.HelpText
+Move selected item upwards in the list.
+선택한 항목을 목록 위로 이동합니다.
+
+# [5] psh_moveDown.Label
+Move Down
+아래로 이동
+
+# [6] psh_moveDown.HelpText
+Move selected item downwards in the list.
+선택한 항목을 목록 아래로 이동합니다.
+

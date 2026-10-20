@@ -1,0 +1,80 @@
+# {100} (100) [0] ps_screen_mgr.Label
+Screen Manager
+Gestione schermo
+
+# [1] FileMenuPane.Label
+File
+File
+
+# [2] LoadTrail.Label
+Load Trail
+Carica trail
+
+# [3] Exit.Label
+Exit
+Esci
+
+# [4] DebugMenuPane.Label
+Debug
+Debug
+
+# [5] RunMode.Label
+Set Runmode
+Imposta esecuzione
+
+# [6] Dbglvl_cascade.Label
+Set Debug Level
+Imposta livello debug
+
+# [7] DebugSave.Label
+Save Debug
+Salva debug
+
+# [8] DebugSave.HelpText
+Save text in debug window to a file
+Salva il testo della finestra debug in un file
+
+# [9] DumpScreen.Label
+Dump Screen
+Schermo risultati
+
+# [10] DumpTopLevel.Label
+Dump Top Level
+Risultati livello principale
+
+# [11] ClearScreen.Label
+Clear Window
+Cancella finestra
+
+# [12] DebugShow.Label
+Show
+Visualizza
+
+# [13] Dbglvl.Labels.0
+None
+Nessuno
+
+# [14] Dbglvl.Labels.1
+Abort
+Interrompi
+
+# [15] Dbglvl.Labels.4
+Error
+Errore
+
+# [16] Dbglvl.Labels.7
+Warning
+Avvertenza
+
+# [17] Dbglvl.Labels.10
+Diagnose
+Diagnostica
+
+# [18] Dbglvl.Labels.13
+Info
+Info
+
+# [19] Dbglvl.Labels.17
+Verbose
+Verboso
+

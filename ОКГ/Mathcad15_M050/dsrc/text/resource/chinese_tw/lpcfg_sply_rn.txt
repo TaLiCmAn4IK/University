@@ -1,0 +1,52 @@
+# {100} (100) [0] lpcfg_sply_rn2.Label
+Configuration Properties
+組態屬性
+
+# [1] rmi_port_label.Label
+RMI Registry Port Number
+RMI 註冊端面號碼
+
+# [2] rmi_port.Value
+10011
+
+
+# [3] lpcfg_sply_rn3.Label
+Windchill Gateway for RosettaNet Properties
+Windchill Gateway for RosettaNet 屬性
+
+# [4] port_label.Label
+Port Number
+端口號
+
+# [5] port.Value
+10080
+
+
+# [6] duns_label.Label
+DUNS Number
+DUNS號
+
+# [7] duns.Value
+100000000
+
+
+# [8] lpcfg_sply_rn4.Label
+Windchill RosettaNet Adapter Properties
+Windchill RosettaNet  配接器屬性
+
+# [9] ieport_label.Label
+Port Number
+端口號
+
+# [10] user_label.Label
+User Name
+使用者名稱
+
+# [11] passwd_label.Label
+Password
+密碼
+
+# [12] ieport.Value
+10066
+
+

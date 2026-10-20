@@ -1,0 +1,23 @@
+// 24-Oct-01       DAR  Created
+// 20-Nov-01       DAR  Added No_Bin_Dir, HostProd and uninstall
+// 21-Nov-01 $$1   DAR  Added HostArchTypes 
+
+(Product ddl_acadadpt
+    (Name                      "AutoCAD Object Adapter")
+    (LpDirName                 "productview_adapters")
+    (Packages                  "acadadpt_pkg"
+                               "uninstall")
+    (Screens                   "ScreenProd")
+    (No_Bin_Dir                "True")
+    (HostProd                  "pview_adapters")
+    (Installed                 True)
+    (ProgramFiles              False)
+    (HostArchTypes             "WIN32")
+)
+
+(Package acadadpt_pkg
+    (Name                      "AutoCAD Object Adapter files")
+    (Installed                 True)
+    (Required                  True)
+    (Cdsections                "DDLACADAdpt")
+)

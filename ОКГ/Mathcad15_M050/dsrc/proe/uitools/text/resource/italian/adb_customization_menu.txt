@@ -1,0 +1,32 @@
+# {100} (100) [0] adb_CmdCopyImage.Label
+Copy Button Image
+Copia immagine pulsante
+
+# [1] adb_CmdDisplayType.Labels.DefaultStyle
+Default Style
+Stile di default
+
+# [2] adb_CmdDisplayType.Labels.Small
+Small Button
+Pulsante piccolo
+
+# [3] adb_CmdDisplayType.Labels.SmallImageOnly
+Small Button - No Label
+Pulsante piccolo senza etichetta
+
+# [4] adb_CmdDisplayType.Labels.SmallTextOnly
+Small Button - No Icon
+Pulsante piccolo senza icona
+
+# [5] adb_CmdDisplayType.Labels.Large
+Large Button
+Pulsante grande
+
+# [6] adb_CmdWhatsThis.Label
+What's This?
+Cos'è questo?
+
+# [7] adb_CmdWhatsThis.HelpText
+Tells what this button does
+Spiega la funzione di questo pulsante
+

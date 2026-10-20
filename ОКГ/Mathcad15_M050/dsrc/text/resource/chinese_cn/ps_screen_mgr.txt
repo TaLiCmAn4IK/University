@@ -1,0 +1,80 @@
+# {100} (100) [0] ps_screen_mgr.Label
+Screen Manager
+屏幕管理器
+
+# [1] FileMenuPane.Label
+File
+文件
+
+# [2] LoadTrail.Label
+Load Trail
+加载跟踪
+
+# [3] Exit.Label
+Exit
+退出
+
+# [4] DebugMenuPane.Label
+Debug
+调试
+
+# [5] RunMode.Label
+Set Runmode
+设置运行模式
+
+# [6] Dbglvl_cascade.Label
+Set Debug Level
+设置调试级别
+
+# [7] DebugSave.Label
+Save Debug
+保存调试
+
+# [8] DebugSave.HelpText
+Save text in debug window to a file
+将调试窗口中的文本保存到文件
+
+# [9] DumpScreen.Label
+Dump Screen
+转储屏幕
+
+# [10] DumpTopLevel.Label
+Dump Top Level
+转储顶级
+
+# [11] ClearScreen.Label
+Clear Window
+清除窗口
+
+# [12] DebugShow.Label
+Show
+显示
+
+# [13] Dbglvl.Labels.0
+None
+无
+
+# [14] Dbglvl.Labels.1
+Abort
+中止
+
+# [15] Dbglvl.Labels.4
+Error
+错误
+
+# [16] Dbglvl.Labels.7
+Warning
+警告
+
+# [17] Dbglvl.Labels.10
+Diagnose
+诊断
+
+# [18] Dbglvl.Labels.13
+Info
+信息
+
+# [19] Dbglvl.Labels.17
+Verbose
+详细
+

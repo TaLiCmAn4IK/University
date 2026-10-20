@@ -1,0 +1,25 @@
+!************************************************************
+! File : diagram16x16.bif
+!
+!============================================================
+! Date     Release Name   Ver.        Comments
+!------------------------------------------------------------
+!25-NOV-99 I-03-23 Hanoch $$1 Created.
+!06-Dec-99 I-03-23 TWB    $$2 Updated
+! 29-Apr-02  J-03-24  TLH  $$3 Appearance update for Pro/E Wildfire
+!***********************************************************/
+(Image diagram16x16
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        0FFFFFFF03F0FD000D100D200DC0300D400D500D600D700D7C0566660366018C
+        0D9C097C0DB80D9C0DD80D00BC0DF80DE40D181D281D381D0C1D581D00681D78
+        1D4C1D981D841DB81DC81DD81D00AC1DF81D082D182DA41D382D482D582D0068
+        2DEC1D882D742DA82D7C2DC82DB42D00E82DF82D083D183D283DB82DD02D583D
+        00683D3C3D4C3D983DA83DB83DC83DD83D00E831
+    )
+)
+

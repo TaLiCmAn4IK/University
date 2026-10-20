@@ -1,0 +1,12 @@
+# {100} (100) [0] PVX_Label.Label
+Install location for Creo Elements/View Express
+Percorso installazione di Creo Elements/View Express
+
+# [1] PVX_Status.Label
+Not Installed
+Non installato
+
+# [2] lpcfg_pvx2.Label
+Instructions
+Istruzioni
+

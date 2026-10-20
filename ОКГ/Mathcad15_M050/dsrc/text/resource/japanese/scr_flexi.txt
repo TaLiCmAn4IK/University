@@ -1,0 +1,16 @@
+# {100} (100) [0] RadioGroup1.Labels.1
+Import license information from disk.
+ディスクからライセンス情報をインポートします。
+
+# [1] RadioGroup1.Labels.3
+Manually enter license information using a text editor
+テキストエディタを使用して、ライセンス情報を手入力
+
+# [2] FileLab.Label
+License file path
+ライセンスファイルパス
+
+# [3] scr_flexi3.Label
+Instructions
+インストラクション
+

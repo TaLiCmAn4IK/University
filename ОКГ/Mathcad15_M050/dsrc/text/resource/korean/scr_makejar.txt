@@ -1,0 +1,16 @@
+# {0} (4) [0] scr_makejar2.Label
+Advanced
+고급
+
+# [1] MakeJarTextArea.Value
+The following is a list of bootstrap JAR files that should be regenerated during or after this installation. Please highlight the JAR files you wish PTC.Setup to automatically generate for you.
+다음은 설치 중이나 설치 후에 반드시 재생성되어야 하는 부트스트랩 JAR 일의 목록입니다. PTC.Setup이 자동으로 재생성하게끔 할 JAR 파일을 강조표시하십시오.
+
+# [2] SelAllJars.Label
+Select All
+전체 선택
+
+# [3] SelNoJars.Label
+Select None
+선택 없음
+

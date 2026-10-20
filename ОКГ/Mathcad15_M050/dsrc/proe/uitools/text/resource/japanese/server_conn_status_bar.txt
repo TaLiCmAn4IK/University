@@ -1,0 +1,40 @@
+# {100} (100) [0] conn_status_cscbtn.Label
+Not Synchronized
+非同期
+
+# [1] conn_status_icon_pshbtn.Label
+Connected
+接続済み
+
+# [2] server_identity.Label
+ProductPoint Server
+ProductPoint サーバー
+
+# [3] server_quick_view_pshbtn.Label
+Server Quick View ...
+サーバークイックビュー...
+
+# [4] open_server_status_monitor.Label
+Open Server Status Monitor
+サーバーステータスモニタを開く
+
+# [5] set_notification_preferences.Label
+Set Notification Preferences
+通知プリファレンスを設定
+
+# [6] display_change_notification.Label
+Display Change Notifications
+変更通知を表示
+
+# [7] sync_auto_chkbtn.Label
+Synchronize Automatically
+自動で同期化
+
+# [8] sync_manual_chkbtn.Label
+Synchronize Manually
+手動で同期化
+
+# [9] sync_w_conn_srv_pshbtn.Label
+Synchronize Now
+今すぐ同期化
+

@@ -1,0 +1,92 @@
+# {100} (100) [0] Label289.Label
+Testing
+測試
+
+# [1] CascadeOrganize.Label
+<org> Organize
+<org> 組織
+
+# [2] CascadeOrganize.HelpText
+Manage files and folders
+管理檔案和資料夾
+
+# [3] DispButton.Label
+<disp> Views
+<disp> 視圖
+
+# [4] DispButton.HelpText
+Select a view type
+選取視圖類型
+
+# [5] CascadeTools.Label
+<tools> Tools
+<tools> 工具
+
+# [6] CascadeTools.HelpText
+Manage files and folders
+管理檔案和資料夾
+
+# [7] up_directory.HelpText
+Up One Level
+上移一層
+
+# [8] pb_whatis.HelpText
+Context sensitive help
+前後關聯感應式說明
+
+# [9] mp_organize.Label
+Organize
+組織
+
+# [10] newdirectory_pb.Label
+New Folder
+新資料夾
+
+# [11] newdirectory_pb.HelpText
+Create New Directory
+建立新目錄
+
+# [12] Radgp_table.Labels.a
+<a> List
+<a>清單
+
+# [13] Radgp_table.Labels.b
+<b> Details
+<b>細節
+
+# [14] enable_popup_cb.Label
+Show PopUp Viewer
+顯示彈出檢視器
+
+# [15] mp_tools.Label
+Tools
+工具
+
+# [16] DefaultLookin.Label
+Address Default
+預設位址
+
+# [17] markup_instance_display.Label
+Sort By
+排序方式
+
+# [18] SelectAll.Label
+Select All
+全選
+
+# [19] UnselAll.Label
+Unselect All
+全部不選
+
+# [20] RadioGroup3.Labels.a
+Model Name
+模型名稱
+
+# [21] RadioGroup3.Labels.b
+Markup/Instance Name
+標示/例證名稱
+
+# [22] chk_browser_tb.Label
+Browser Toolbar
+瀏覽器工具列
+

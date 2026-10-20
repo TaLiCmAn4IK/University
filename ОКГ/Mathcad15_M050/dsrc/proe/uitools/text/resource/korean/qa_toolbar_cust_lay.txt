@@ -1,0 +1,12 @@
+# {100} (100) [0] lbl_customization_title.Label
+Customize The Quick Access Toolbar and keyboard shortcuts.
+빠른 액세스 도구 모음 및 키보드 바로 가기 키 사용자 지정.
+
+# [1] chk_qa_toolbar_below.Label
+&Place quick Access Toolbar below the Ribbon
+리본 아래에 빠른 액세스 도구 모음 배치(&P)
+
+# [2] chk_qa_toolbar_below.HelpText
+toggle the Quick Access Toolbar location.
+빠른 액세스 도구 모음의 위치를 전환합니다.
+

@@ -1,0 +1,12 @@
+# {100} (100) [0] uninstall.Label
+PTC Uninstall
+PTC アンインストール
+
+# [1] StdButton1.Label
+Uninstall
+アンインストール
+
+# [2] StdButton2.Label
+Cancel
+キャンセル
+

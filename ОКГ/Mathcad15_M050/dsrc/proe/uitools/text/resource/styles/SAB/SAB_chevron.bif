@@ -1,0 +1,15 @@
+!
+! 15-May-07 L-01-32  AW      $$1  Created
+!
+
+(Image chevron
+    (Resources
+        (.Width     8)
+        (.Height    8)
+        (.Depth     4)
+    )
+    (Data
+        C7FF0000FFFF0000FF0000FFFF0000FF0000FFFF0000C0FF0000FFFF0000C0FF
+        0000FFFF0000CDFF
+    )
+)

@@ -1,0 +1,192 @@
+# {100} (100) [0] Label1.Label
+Color
+Colore
+
+# [1] Label2.Label
+Settings
+Impostazioni
+
+# [2] Label3.Label
+&Red
+&Rosso
+
+# [3] Label4.Label
+&Green
+&Verde
+
+# [4] Label5.Label
+&Blue
+&Blu
+
+# [5] Label6.Label
+Color:
+Colore:
+
+# [6] Label7.Label
+Basic colors
+Colori di base
+
+# [7] Label8.Label
+Custom colors
+Colori personalizzati
+
+# [8] Label9.Label
+OK
+OK
+
+# [9] Label10.Label
+Apply the changes and quit the window
+Applica le modifiche e chiude la finestra
+
+# [10] Label11.Label
+Cancel
+Annulla
+
+# [11] Label12.Label
+Abort changes and quit the window
+Interrompe le modifiche e chiude la finestra
+
+# [12] Label13.Label
+Choose Directory
+Scegli directory
+
+# [13] Label14.Label
+&Path
+&Percorso
+
+# [14] Label15.Label
+&OK
+&OK
+
+# [15] Label16.Label
+&Cancel
+&Annulla
+
+# [16] Label17.Label
+&Directories
+&Directory
+
+# [17] Label18.Label
+Dri&ves:
+&Unità:
+
+# [18] Label19.Label
+Open File
+Apri file
+
+# [19] Label20.Label
+File &Name:
+Nome &file:
+
+# [20] Label21.Label
+List Files of &Type:
+&Tipo file:
+
+# [21] Label22.Label
+&Folders:
+&Cartelle:
+
+# [22] Label23.Label
+cwd
+cwd
+
+# [23] Label24.Label
+Find
+Trova
+
+# [24] Label25.Label
+Match &Whole Word Only
+Corrispondenza &parola intera
+
+# [25] Label26.Label
+Match &Case
+Mai&uscole/minuscole
+
+# [26] Label27.Label
+Regular &Expression
+&Espressione normale
+
+# [27] Label28.Label
+Direction
+Direzione
+
+# [28] Label29.Label
+&Up
+&Alto
+
+# [29] Label30.Label
+&Down
+&Giù
+
+# [30] Label31.Label
+&Find Next
+&Trova successivo
+
+# [31] Label32.Label
+Replace &All
+Sostituisci &tutto
+
+# [32] Label33.Label
+Fi&nd What:
+Tro&va:
+
+# [33] Label34.Label
+Re&place With:
+Sostit&usci con:
+
+# [34] Label35.Label
+&Replace
+&Sostituisci
+
+# [35] Label36.Label
+Replace
+Sostituisci
+
+# [36] Label37.Label
+Font
+Carattere
+
+# [37] Label38.Label
+&Font:
+&Carattere:
+
+# [38] Label39.Label
+St&yle:
+&Stile:
+
+# [39] Label40.Label
+&Size:
+&Dimensione:
+
+# [40] Label41.Label
+Sample
+Esempio
+
+# [41] Label42.Label
+Error
+Errore
+
+# [42] Label43.Label
+&Abort
+&Interrompi
+
+# [43] Label44.Label
+&Retry
+&Riprova
+
+# [44] Label45.Label
+&Ignore
+I&gnora
+
+# [45] Label46.Label
+&Yes
+&Sì
+
+# [46] Label47.Label
+&No
+&No
+
+# [47] Label48.Label
+Confirm
+Conferma
+

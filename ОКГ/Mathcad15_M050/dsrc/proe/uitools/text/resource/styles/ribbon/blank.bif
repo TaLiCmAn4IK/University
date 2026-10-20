@@ -1,0 +1,12 @@
+! 13-Dec-06 L-01-22 AW    $$1   Created
+!
+(Image blank
+    (Resources
+        (.Width     3)
+        (.Height    3)
+        (.Depth     24)
+    )
+    (Data
+        0FFF000000F0FD000D
+    )
+)

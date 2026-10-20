@@ -1,0 +1,8 @@
+# {100} (100) [0] DismissBtn.Label
+Hide/Done
+숨기기/완료
+
+# [1] WaitLab.Label
+Please wait...
+기다려 주십시오...
+

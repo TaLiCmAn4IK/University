@@ -1,0 +1,22 @@
+! 11-Jul-97 H-03-16 twb $$1 Revised, file created prior to H-03-16
+! 18-Aug-97 H-03-19 twb $$2 Revised, white background
+! 25-AUG-97  H-03-19+ twb  $$3 Made background transparent and resized.
+! 02-Dec-97 H-03-31 twb $$4 Recolored for white background.
+! 18-Dec-97 H-03-34 hmt $$5 Changed size to 18x18
+! 29-DEC-97 H-03-35 MCA $$6 Changed size to 16x16 - Removed RED Set Current Box.
+! 09-Apr-01 J-01-31 pmu $$7 Updated for high contrast support
+(Image unplaced_a
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     4)
+    )
+    (Data
+        CDFF0808FFC108FFC108FFC108CBFF0808FFFFC800FF08FFFF08C00F08C20F08
+        00FFFF08FFC00800C3080700FF0808FF000F0F000F070F070F080800FF0808FF
+        000F0F00070F070F07080700FF08FFFF000F0F000F070F070F080800FFFF08FF
+        000F0F00070F070F07080000FF0808FF000F0FC4000700FF0808FF00C50F0007
+        00FF08FFFF00C50F0000C0FF08FFC700C0FF0808CBFFC008FFC108FFC108FFC0
+        08
+    )
+)

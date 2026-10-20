@@ -1,0 +1,16 @@
+# {100} (100) [0] ribbon_designer_inherit.Label
+Inherit Group
+Heredar grupo
+
+# [1] PreviewLayout.Label
+Preview
+Vista previa
+
+# [2] OKPushButton.Label
+OK
+Aceptar
+
+# [3] CancelPushButton.Label
+Cancel
+Cancelar
+

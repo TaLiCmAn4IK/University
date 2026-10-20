@@ -1,0 +1,24 @@
+# {100} (100) [0] scr_genlist2.Label
+Advanced
+進階
+
+# [1] AEDadd.Label
+Add
+新增 
+
+# [2] AEDedit.Label
+Edit
+編輯
+
+# [3] AEDdel.Label
+Delete
+刪除
+
+# [4] AEDinfo.Label
+Info
+資訊
+
+# [5] scr_genlist3.Label
+Instructions
+指示
+

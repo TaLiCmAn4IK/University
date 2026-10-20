@@ -1,0 +1,56 @@
+# {100} (100) [0] DsRadioSize.Labels.0
+Small (130 MB)
+小(130 MB)
+
+# [1] DsRadioSize.Labels.1
+Medium (420 MB)
+中(420 MB)
+
+# [2] DsRadioSize.Labels.2
+Large (1950 MB)
+大(1950 MB)
+
+# [3] DsRadioSize.Labels.3
+Migrate
+移行
+
+# [4] RunCfg.Label
+Run INTRALINK Configuration
+INTRALINK コンフィギュレーションを実行
+
+# [5] RunCfg.HelpText
+This option runs ds_install.  Uncheck this option only if you are using the \nMigration Procedure to Upgrade from a previous Release of Pro/INTRALINK.  \nSee Installation Guide for more details.
+このオプションは ds_install を実行します。Pro/INTRALINK の前のリリースから\nアップグレードする移行手順を使用している場合のみ、このオプションの選択を解除します。  \n詳細はインストールガイドを参照してください。
+
+# [6] LpLab.Label
+Directory for database files
+データベースファイルのディレクトリ
+
+# [7] LpBrowse.HelpText
+Browse for Installation Directory
+インストールディレクトリをブラウズ
+
+# [8] DSDiskSpaceLayout.Label
+Disk Space
+ディスク領域
+
+# [9] SpaceAvailLab.Label
+Available on C: 9999GB
+C: の空き領域: 9999GB
+
+# [10] SpaceReqLab.Label
+Required on C: 9999GB
+C: の必要領域: 9999GB
+
+# [11] scr_dataserver2.Label
+Instructions
+インストラクション
+
+# [12] TextArea.Value
+Identify the location of the database files and choose the size of the database.\n\nFor specific instructions see the Help screen.
+データベースファイルの場所を識別し、データベースのサイズを選択します。\n\n詳細はヘルプを参照してください。
+
+# [13] CompDescTA.Value
+Select a component or subcomponent to view its description.
+コンポーネントまたはサブコンポーネントを選択し、説明を表示します。
+

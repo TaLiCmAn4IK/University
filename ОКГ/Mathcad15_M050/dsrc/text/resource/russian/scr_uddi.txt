@@ -1,0 +1,36 @@
+# {100} (100) [0] scr_uddi_pub.Label
+PTC PartsLink Publishing Information
+Информация о публикации PTC PartsLink
+
+# [1] ServiceKeyLab.Label
+Service Key
+Ключ службы
+
+# [2] DescLab.Label
+Product Catalog Description
+Описание каталога изделий
+
+# [3] scr_uddi_op.Label
+UDDI Business Registry
+Бизнес-реестр UDDI
+
+# [4] OperatorLab.Label
+Operator
+Оператор
+
+# [5] OperatorMenu.DefaultHelpText
+16
+
+
+# [6] IDLab.Label
+User ID
+ID пользователя
+
+# [7] BusinessKeyLab.Label
+Business Key
+Бизнес-ключ
+
+# [8] PasswordLab.Label
+Password
+Пароль
+

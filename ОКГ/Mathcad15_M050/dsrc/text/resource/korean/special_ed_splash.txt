@@ -1,0 +1,28 @@
+# {100} (100) [0] Label2.Label
+Click for more:
+선택 사항 클릭:
+
+# [1] PushButton1.Label
+Minimum Requirements
+최소 요구 사항
+
+# [2] PushButton2.Label
+Install Guide
+설치 안내서
+
+# [3] PushButton5.Label
+PTC License Server Installation
+PTC 라이센스 서버 설치
+
+# [4] PushButton3.Label
+Continue
+계속
+
+# [5] PushButton4.Label
+Exit
+종료
+
+# [6] Label1.Label
+Welcome to Pro/ENGINEER 30-Day Trial
+Pro/ENGINEER 30일 시험판을 시작합니다.
+

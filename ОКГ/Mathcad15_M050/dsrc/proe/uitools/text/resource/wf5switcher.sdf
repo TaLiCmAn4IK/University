@@ -1,0 +1,11 @@
+; 25-Mar-09 L-03-29  IKAL  $$1  Created.
+; 02-Jun-09 L-03-33+ IKAL  $$2  Updated to be seamless in the right.
+
+
+; Layout
+
+[layoutBody]
+ContentMargins = 4, 4, 4, 4
+SizingMargins = 0, 0, 20, 0
+SizingType = tile
+BackgroundImage = styles/overlap_tab/switcher_body.png

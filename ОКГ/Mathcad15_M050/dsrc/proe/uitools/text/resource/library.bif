@@ -1,0 +1,25 @@
+!----------------------------------------------------------------------------
+!
+!  Date      Release Name  Ver.  Comments
+! ---------- ------- ----- ----- --------------------------------------------
+! 10-Jul-97  H-03-16  DXU  $$1   Submitted
+! 02-Dec-97  H-03-31  TWB  $$2   Recolored for white background.
+! 18-Mar-02  J-03-21  TLH  $$03  Recolored
+! 30-May-06  L-01-09  aap  $$4   16x16 to match other file dialog icons
+!----------------------------------------------------------------------------
+(Image library
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        EFFFFFFF03F0F96666663D01000533333301F0FD1C0D1C2C0D00010033994302
+        0C0D580D80680D3C0D4C01000D700DAC0D9001E433E4E4C3029C01CCCCCE079C
+        0D80E80D7C0DCC0DDC0D281DFC0D1C11008399004F168C091C19900D441A6638
+        521091141C11D176689F12681D0399FFB613801D101DA01DB01DC01D0ED01DFF
+        FF001F22E81D441A052D00D51DE51DF51D452D552D652D752D852D00952DA52D
+        B52DC52DD52DE52DF52D053D00153D253D353D453D553D65381C11B03D00C03D
+        D03DE039
+    )
+)

@@ -1,0 +1,52 @@
+# {0} (13) [0] lic_serv.Label
+Simple
+단순
+
+# [1] ServTypeGroup.Labels.1
+Single license server
+단일 라이센스 서버
+
+# [2] ServTypeGroup.Labels.2
+Triad license server (fault tolerant)
+트라이어드 라이센스 서버 (폴트 톨러런트)
+
+# [3] ServTypeGroup.Labels.3
+Locked license file (no server running)
+고정 라이센스 파일 (실행 서버 없음)
+
+# [4] Label1.Label
+License Server
+라이센스 서버
+
+# [5] Label2.Label
+Hostname
+호스트이름
+
+# [6] Label3.Label
+Port
+포트
+
+# [7] Label4.Label
+Triad partner 1
+트라이어드 파트너 1
+
+# [8] Label5.Label
+Hostname
+호스트이름
+
+# [9] Label6.Label
+Port
+포트
+
+# [10] Label7.Label
+Triad partner 2
+트라이어드 파트너 2
+
+# [11] Label8.Label
+Triad partner 3
+트라이어드 파트너 3
+
+# [12] Label9.Label
+License file path
+라이센스 파일 경로
+

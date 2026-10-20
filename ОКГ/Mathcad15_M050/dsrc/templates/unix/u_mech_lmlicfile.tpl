@@ -1,0 +1,11 @@
+// 22-Sep-97  $$1  JJE  Created
+// 17-Oct-01  $$2  TWH  Use PTC_D_LICENSE_FILE
+set +u
+
+if [ -n "$PTC_D_LICENSE_FILE" ]; then
+    PTC_D_LICENSE_FILE=__LM_LICENSE_FILE__:${PTC_D_LICENSE_FILE}
+else
+    PTC_D_LICENSE_FILE=__LM_LICENSE_FILE__
+fi
+
+export PTC_D_LICENSE_FILE

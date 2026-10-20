@@ -1,0 +1,136 @@
+// 27-Apr-07  L-01-31  $$1  JJE  Renamed to something shorter.
+// 21-Dec-07  L-01-41  $$2  TWH  New Ad_list
+// 15-Jan-2008 L-01-42+  TWH  $$3  Rename Ads files
+// 05-Mar-08  L-03-05  $$4  TWH  Chg WF3 to WF5
+// 10-Sep-08  L-03-17  $$5  TWH  Rm pro_batch
+// 27-Jul-09  L-03-34  $$6  TWH  Update WF5 images
+// 04-Nov-09  L-03-36  $$7  TWH  Update WF5 images
+// 12-Mar-10  L-03-38  $$8  TWH  Add iculibs
+// 04-Jan-11  L-03-42  $$9  TWH  Rebrand
+// 22-Feb-11  L-03-43  $$10 TWH  update name strings
+//
+// This covers Pro/E Student Edition and Personal Edition via
+// the Estore using Product (Activation) Code
+
+(Product student 
+    (Name                      "Creo Elements/Pro 5.0 Student Edition")
+    (Packages                  "proe_base"
+                               "proehelp"
+                               "uninstall")
+    (ProgramFiles              True)
+    (LpDirName                 "Creo Elements/Pro 5.0 Student Edition")
+    (VersionDir                False)
+    (Screens                   "ScreenStudentLic"
+                               "ScreenLicAgree"               
+                               "ScreenProd")
+    (Installed                 True)
+    (ActivationCode            True)
+    (SaveList                  "text/menu_def.pro"
+                               "text/config.pro")
+    (WebRegHyperLink           "webreg.html")
+    (ProgramID                 "proestudent5")
+    (ProgramCmdName            "proewildfire5-student")
+    (ProgramFeature            "PROE_StudentEdition2")
+    (PSF_EXE                   "proe.exe")
+    (WelcomeImage              "proe_name.gif")
+(Ad_list                    "WF5_101"
+                               "WF5_102"
+                               "WF5_103"
+                               "WF5_104"
+                               "WF5_201"
+                               "WF5_202"
+                               "WF5_203"
+                               "WF5_204"
+                               "WF5_301"
+                               "WF5_302"
+                               "WF5_303"
+                               "WF5_304"
+                               "WF5_401"
+                               "WF5_402"
+                               "WF5_403"
+                               "WF5_501"
+                               "WF5_502"
+			       "WF5_503"
+			       "WF5_601"
+                               "WF5_602"
+                               "WF5_603"
+                               "WF5_701"
+                               "WF5_702"
+			       "WF5_703"
+			       "WF5_801"
+                               "WF5_802"
+                               "WF5_803"
+                               "WF5_901"
+                               "WF5_902"
+			       "WF5_903")
+)
+
+(Package proe_base
+    (Name                      "Creo Elements/Pro 5.0 Student Edition")
+    (OldTag                    "proe_pkg")
+    (Screens                   "ScreenWindows"
+                               "LpcfgLinkpath" 
+                               "LpcfgOle")
+    (CmdTypes                  "proe"
+                               "proe_shortcut")
+    (Binscripts                "ptchostid"
+                               "tempmgr"
+                               "batch_status"
+                               "pro_b_exec"
+                               "protk_unlock"
+                               "proigsutil"
+                               "ptcflush"
+                               "ptcstatus"
+                               "propostl"
+                               "propostq"
+                               "propostg"
+                               "purge"
+                               "protab"
+                               "pro_mcs_comp"
+                               "pro_ncl_cvt"
+                               "procvter"
+                               "procvtutil"
+                               "convert_image"
+                               "image_to_mip"
+                               "pix2fb"
+                               "showmip"
+                               "ptcportmap"
+                               "pro_build_library_ctg")
+    (Cdsections                "ProE Tree"
+                               "iculibs"
+                               "proe"
+                               "applstart"
+                               "uitools_res"
+                               "jre"
+                               "Install"
+                               "apps_data"
+                               "animation"
+                               "mechanism"
+                               "ncexpert"
+                               "weld_data"
+                               "Demos"
+                               "flexclient")
+    (Installed                 True)
+    (UnregServerDll            "_LP_\_ARCH_\lib\pfcscom.dll")
+)
+
+(CmdType proe
+    (Name                      "proe")
+    (DefName                   "proe")
+    (Type                      "Pro/ENGINEER")
+    (Prefixes                  "PROE_")
+    (Featvars                  "__PROE_FEATURE_NAME__")
+    (Template                  "proengineer_start")
+    (IconPath                  "_LP_\install\nt\proelogo.ico")
+    (IconIndex                 "0")
+    (UseExtensions             True)
+    (UseOptions                True)
+)
+
+(CmdType proe_shortcut
+    (Name                      "Creo Elements/Pro 5.0 Student Edition")
+    (Type                      "Shortcut")
+    (CmdPath                   "_LP_\bin\proe.exe")
+    (IconPath                  "_LP_\install\nt\proelogo.ico")
+    (IconIndex                 "0")
+)

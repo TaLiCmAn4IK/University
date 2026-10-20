@@ -1,0 +1,52 @@
+# {0} (13) [0] scr_appmgr.Label
+PTC Application Manager Preferences
+Préférences du Gestionnaire d'applications PTC
+
+# [1] MenuLayout.Label
+Menu
+Menu
+
+# [2] CmdTreeAdd.Label
+Add
+Ajouter
+
+# [3] CmdTreeEdit.Label
+Edit
+Editer
+
+# [4] CmdTreeDelete.Label
+Delete
+Détruire
+
+# [5] TextArea3.Value
+Create and edit startup commands that appear in the Application Manager's Start menu
+Créer et modifier les commandes de démarrage figurant dans le menu Démarrer du Gestionnaire d'applications
+
+# [6] PositionLayout.Label
+Position
+Localisation
+
+# [7] AutoHide.Label
+Auto Hide
+Masquage automatique
+
+# [8] PositionType.Labels.horizontal_top
+Horizontal Top
+Horizontal en haut
+
+# [9] PositionType.Labels.horizontal_bottom
+Horizontal Bottom
+Horizontal en bas
+
+# [10] PositionType.Labels.vertical_left
+Vertical Left
+Vertical à gauche
+
+# [11] PositionType.Labels.vertical_right
+Vertical Right
+Vertical à droite
+
+# [12] TextArea1.Value
+Specify PTC Application Manager start location and window attributes
+Spécifier le répertoire de démarrage du Gestionnaire d'applications et les attributs de la fenêtre
+

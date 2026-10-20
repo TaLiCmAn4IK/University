@@ -1,0 +1,204 @@
+# {100} (100) [0] working_dir0.Label
+Extra Directory
+额外目录
+
+# [1] lbl_common_places.Label
+Common Folders
+公用文件夹
+
+# [2] folders.TreeNodeTypeHelpTexts.1:
+part
+零件
+
+# [3] folders.TreeNodeTypeHelpTexts.2:
+assembly
+组件
+
+# [4] folders.TreeNodeTypeHelpTexts.3:
+drawing
+绘图
+
+# [5] folders.TreeNodeTypeHelpTexts.4:
+drawform
+绘图形式
+
+# [6] folders.TreeNodeTypeHelpTexts.5:
+manufacturing
+制造
+
+# [7] folders.TreeNodeTypeHelpTexts.6:
+directory
+目录
+
+# [8] folders.TreeNodeTypeHelpTexts.7:
+foreign
+外部
+
+# [9] folders.TreeNodeTypeHelpTexts.8:
+other ptc file
+其它 PTC 文件
+
+# [10] folders.TreeNodeTypeHelpTexts.9:
+markup
+标记
+
+# [11] folders.TreeNodeTypeHelpTexts.10:
+layout
+布局
+
+# [12] folders.TreeNodeTypeHelpTexts.11:
+diagram
+布线图
+
+# [13] folders.TreeNodeTypeHelpTexts.12:
+report
+报告
+
+# [14] folders.TreeNodeTypeHelpTexts.13:
+2D section
+2D 剖面
+
+# [15] folders.TreeNodeTypeHelpTexts.14:
+3D section
+3D 剖面
+
+# [16] folders.TreeNodeTypeHelpTexts.15:
+sketcher
+草绘器
+
+# [17] folders.TreeNodeTypeHelpTexts.16:
+param mill
+参数铣削
+
+# [18] folders.TreeNodeTypeHelpTexts.17:
+param turn
+参数车削
+
+# [19] folders.TreeNodeTypeHelpTexts.18:
+param drill
+参数钻孔
+
+# [20] folders.TreeNodeTypeHelpTexts.19:
+param aux
+参数辅助
+
+# [21] folders.TreeNodeTypeHelpTexts.20:
+param cel
+参数单元
+
+# [22] folders.TreeNodeTypeHelpTexts.21:
+param opr
+参数操作
+
+# [23] folders.TreeNodeTypeHelpTexts.22:
+param mea
+参数测量
+
+# [24] folders.TreeNodeTypeHelpTexts.23:
+tool param
+刀具参数
+
+# [25] folders.TreeNodeTypeHelpTexts.24:
+mfg mold
+制造模具
+
+# [26] folders.TreeNodeTypeHelpTexts.25:
+mfg cast
+制造铸件
+
+# [27] folders.TreeNodeTypeHelpTexts.26:
+skeleton
+骨架
+
+# [28] folders.TreeNodeTypeHelpTexts.27:
+diagram mvc def
+布线图 mvc 定义
+
+# [29] folders.TreeNodeTypeHelpTexts.28:
+comp group def
+元件组定义
+
+# [30] folders.TreeNodeTypeHelpTexts.1015:
+directory
+目录
+
+# [31] folders.TreeNodeTypeHelpTexts.1016:
+directory
+目录
+
+# [32] folders.TreeNodeTypeHelpTexts.1017:
+directory
+目录
+
+# [33] folders.TreeNodeTypeHelpTexts.1018:
+directory
+目录
+
+# [34] folders.TreeNodeTypeHelpTexts.1019:
+directory
+目录
+
+# [35] folders.TreeNodeTypeHelpTexts.1020:
+directory
+目录
+
+# [36] folders.TreeNodeTypeHelpTexts.1021:
+directory
+目录
+
+# [37] folders.TreeNodeTypeHelpTexts.1022:
+directory
+目录
+
+# [38] folders.TreeNodeTypeHelpTexts.1023:
+directory
+目录
+
+# [39] folders.TreeNodeTypeHelpTexts.1024:
+directory
+目录
+
+# [40] folders.TreeNodeTypeHelpTexts.1025:
+directory
+目录
+
+# [41] folders.TreeNodeTypeHelpTexts.1026:
+Network Neighborhood
+网上邻居
+
+# [42] folders.TreeNodeTypeHelpTexts.1027:
+directory
+目录
+
+# [43] folders.TreeNodeTypeHelpTexts.1028:
+Desktop
+桌面
+
+# [44] folders.TreeNodeTypeHelpTexts.1029:
+Computer
+计算机
+
+# [45] folders.TreeNodeTypeHelpTexts.1030:
+directory
+目录
+
+# [46] folders.TreeNodeTypeHelpTexts.1031:
+directory
+目录
+
+# [47] folders.TreeNodeTypeHelpTexts.1032:
+directory
+目录
+
+# [48] FT_Expand_Btn.Label
+Folder Tree
+文件夹树
+
+# [49] psh_new_folder.HelpText
+Create a new folder
+创建新文件夹
+
+# [50] psh_delete_folder.HelpText
+Delete selected folders
+删除所选文件夹
+

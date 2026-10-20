@@ -1,0 +1,44 @@
+# {100} (100) [0] interop_2.Label
+Pro/INTRALINK Integration (Optional)
+Pro/INTRALINK Integration (任選)
+
+# [1] InstCmdLab.Label
+Start Command:
+啟動指令:
+
+# [2] ReleaseLab.Label
+<name>  <release>  <datecode>
+
+
+# [3] InstLocLab.Label
+Install Location:
+安裝位置:
+
+# [4] StartInLab.Label
+Start In:
+開始於:
+
+# [5] grp_layout.Label
+Locate Other Installation Locations (Optional)
+找出其他安裝位置 (任選)
+
+# [6] grpCmdLab.Label
+Start Command:
+啟動指令:
+
+# [7] grpReleaseLab.Label
+<name>  <release>  <datecode>
+
+
+# [8] grpLocLab.Label
+Install Location:
+安裝位置:
+
+# [9] grpStartLab.Label
+Start In:
+開始於:
+
+# [10] lpcfg_interop3.Label
+Instructions
+指示
+

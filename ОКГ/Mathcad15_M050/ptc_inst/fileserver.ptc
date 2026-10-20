@@ -1,0 +1,76 @@
+// 28-Dec-99 $$1  TWH  Created.
+// 27-Oct-00 $$2  TWH  Add uninstall
+// 25-Apr-01 $$3  TWH  Limit PossibleLangs to usascii
+// 22-May-02 $$4  TWH  Require fileserver_pkg
+// 12-Aug-02 $$5  TWH  Add PossibleArchs
+// 21-Aug-03 K-01-13  $$6  TWH  Add RC_README_TPL
+// 09-Apr-04 K-01-26  $$7  TWH  Add Ad_list
+// 21-Dec-07 L-01-41  $$8  TWH  New Ad_list
+// 15-Jan-2008 L-01-42+  TWH  $$9  Rename Ads files
+// 28-Feb-08 L-03-05  $$10 TWH  Update platform support
+// 27-Jun-08 L-03-12  $$11 TWH  New WelcomeImage
+// 27-Jul-09 L-03-34  $$12 TWH  Update WF5 images
+// 04-Nov-09 L-03-36  $$13 TWH  Update WF5 images
+
+(Product fileserver
+    (Name                      "Pro/INTRALINK File Server")
+    (WelcomeImage              "fileserver_name.png")
+    (Packages                  "fileserver_pkg"
+                               "proidemos"
+                               "uninstall")
+    (ProgramFiles              False)
+    (LpDirName                 "fileserver")
+    (Screens                   "ScreenProd")
+    (PossibleArchs             "sun4_solaris_64"
+                               "hpux_pa64"
+                               "ibm_rs6000"
+                               "i486_nt")
+    (PossibleLangs             "usascii")
+    (Installed                 True)
+    (RC_README_TPL             "fs_readme")
+(Ad_list                    "WF5_101"
+                               "WF5_102"
+                               "WF5_103"
+                               "WF5_104"
+                               "WF5_201"
+                               "WF5_202"
+                               "WF5_203"
+                               "WF5_204"
+                               "WF5_301"
+                               "WF5_302"
+                               "WF5_303"
+                               "WF5_304"
+                               "WF5_401"
+                               "WF5_402"
+                               "WF5_403"
+                               "WF5_501"
+                               "WF5_502"
+			       "WF5_503"
+			       "WF5_601"
+                               "WF5_602"
+                               "WF5_603"
+                               "WF5_701"
+                               "WF5_702"
+			       "WF5_703"
+			       "WF5_801"
+                               "WF5_802"
+                               "WF5_803"
+                               "WF5_901"
+                               "WF5_902"
+			       "WF5_903")
+)
+
+(Package fileserver_pkg
+    (Name                      "Pro/INTRALINK File Server")
+    (Screens                   "ScreenVault"
+                               "LpcfgLinkpath")
+    (Binscripts                "fserv_shutdown"
+                               "fserv_startup"
+                               "changefspwd")
+    (Cdsections                "fileserver"
+                               "Install")
+    (Installed                 True)
+    (Required                  True)
+)
+
+

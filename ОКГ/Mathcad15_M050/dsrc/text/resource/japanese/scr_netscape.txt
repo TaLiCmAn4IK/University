@@ -1,0 +1,16 @@
+# {0} (4) [0] RadioMime.Labels.0
+Modify current user MIME type information only
+カレントユーザー MIME タイプ情報のみを修正
+
+# [1] RadioMime.Labels.1
+Modify global Netscape MIME type registration information
+グローバル Netscape MIME タイプ登録情報を修正
+
+# [2] Label1.Label
+Specify directory where global mime.types and mailcap files reside
+グローバル mime.types および mailcap ファイルの位置するディレクトリを指定
+
+# [3] GlobalDirBrowse.Label
+Browse
+ブラウズ
+

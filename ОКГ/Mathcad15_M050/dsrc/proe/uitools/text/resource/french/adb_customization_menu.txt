@@ -1,0 +1,32 @@
+# {100} (100) [0] adb_CmdCopyImage.Label
+Copy Button Image
+Copier l'image du bouton
+
+# [1] adb_CmdDisplayType.Labels.DefaultStyle
+Default Style
+Style par défaut
+
+# [2] adb_CmdDisplayType.Labels.Small
+Small Button
+Petit bouton
+
+# [3] adb_CmdDisplayType.Labels.SmallImageOnly
+Small Button - No Label
+Petit bouton - Aucun libellé
+
+# [4] adb_CmdDisplayType.Labels.SmallTextOnly
+Small Button - No Icon
+Petit bouton - Aucune icône
+
+# [5] adb_CmdDisplayType.Labels.Large
+Large Button
+Grand bouton
+
+# [6] adb_CmdWhatsThis.Label
+What's This?
+Qu'est-ce que c'est ?
+
+# [7] adb_CmdWhatsThis.HelpText
+Tells what this button does
+Explication du bouton
+

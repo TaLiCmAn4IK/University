@@ -1,0 +1,10 @@
+; Ribbon top left corner style definition
+;
+; 13-Dec-06 L-01-22 AW    $$1   Created
+;
+
+[separatorhorz]
+ContentMargins = 4, 0, 1, 2
+SizingMargins = 4, 0, 1, 2
+;Size = 5, 2
+BackgroundImage = styles/ribbon/ribbonleftedge.bif

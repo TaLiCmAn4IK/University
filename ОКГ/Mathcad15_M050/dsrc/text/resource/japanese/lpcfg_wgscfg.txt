@@ -1,0 +1,20 @@
+# {0} (5) [0] lpcfg_wgscfg.Label
+Windchill Graphics Server Configurations
+Windchill グラフィックサーバーコンフィギュレーション
+
+# [1] lpcfg_wgscfg2.Label
+Windchill Graphics Server Settings
+Windchill グラフィックサーバー設定
+
+# [2] HostnameLab.Label
+Fully Qualified Hostname
+完全認証ホスト名
+
+# [3] WGSPortLab.Label
+Port Number
+ポート番号
+
+# [4] TextArea.Value
+Specify the Windchill Graphics Server Hostname and Port Number.
+Windchill グラフィックサーバーホスト名とポート番号を指定します。
+

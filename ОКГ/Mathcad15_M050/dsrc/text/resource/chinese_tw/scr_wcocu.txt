@@ -1,0 +1,52 @@
+# {100} (100) [0] WCDSCompDescLayout.Label
+Description
+描述
+
+# [1] CompDescTA.Value
+Select a component or subcomponent to view its description.
+選取一元件或子元件，檢視其說明。
+
+# [2] WCDSLayout2.Label
+Database size
+資料庫大小
+
+# [3] DsRadioSize.Labels.0
+Small (700 MB)
+小(700 MB)
+
+# [4] DsRadioSize.Labels.1
+Medium (900 MB)
+中(900 MB)
+
+# [5] DsRadioSize.Labels.2
+Large (1800 MB)
+大(1800 MB)
+
+# [6] DsVaultCheck.Label
+Exclusively use external file vaults
+只使用外部檔案儲存庫
+
+# [7] LpLab.Label
+Directory for database files
+資料庫檔案的目錄
+
+# [8] LpBrowse.HelpText
+Browse for Installation Directory
+瀏覽安裝目錄
+
+# [9] WCDSDiskSpaceLayout.Label
+Disk Space
+磁碟空間
+
+# [10] SpaceAvailLab.Label
+Available on C: 9999GB
+C 碟的可用空間: 9999GB
+
+# [11] SpaceReqLab.Label
+Required on C: 9999GB
+C碟需要空間: 9999GB
+
+# [12] TextArea.Value
+Identify the location of the database files and choose the size of the database.\n\nFor specific instructions see the Help screen.
+界定資料庫檔案的位置並選擇資料庫的大小。\n\n欲知詳細指示，請參見「說明」畫面。
+

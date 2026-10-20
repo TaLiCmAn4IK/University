@@ -1,0 +1,18 @@
+;
+; 08-Jun-09 L-03-33+  Moti  $$1   Created
+;
+
+[layout]
+SizingMargins  = 1, 1, 1, 1
+ContentMargins  = 1, 1, 1, 1
+BackgroundImage = styles/slidemsg/slidemsg_background_frame_wf5.png
+
+[layoutbody]
+SizingType = tile
+SizingMargins  = 0, 0, 0, 0
+ContentMargins  = 4, 5, 4, 5
+BackgroundImage = styles/wf5general/wf5tile.png
+
+
+
+

@@ -1,0 +1,32 @@
+# {100} (100) [0] scr_wsconfig.Label
+Workgroup Manager for PRODUCT_NAME Workspace Configuration
+Конфигурация рабочей области менеджера рабочей группы для PRODUCT_NAME
+
+# [1] scr_wsconfig2.Label
+Workspace Configuration
+Конфигурация Рабочей области
+
+# [2] TeamNameLab.Label
+Team Name
+Имя команды
+
+# [3] PartLifecycleLab.Label
+Part Lifecycle
+Жизненный цикл детали
+
+# [4] DocLifecycleLab.Label
+Document Lifecycle
+Жизненный цикл документа
+
+# [5] PartViewLab.Label
+Part View
+Вид детали
+
+# [6] LabelRO.Label
+Read-Only
+Только чтение
+
+# [7] TextArea.Value
+Specify the Workspace Configuration names that are to be saved in the 'site' located preference file and set the permissions for each configuration.
+Укажите имена конфигураций рабочей области, которые должны сохраняться в файле настроек "по месту", и задайте разрешения для каждой конфигурации.
+

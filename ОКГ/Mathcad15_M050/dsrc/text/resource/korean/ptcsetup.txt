@@ -1,0 +1,76 @@
+# {100} (100) [0] ptcsetup.Label
+PTC.Setup
+PTC.Setup
+
+# [1] BackBtn.Label
+< &Back
+< 뒤로(&B)
+
+# [2] NextBtn.Label
+&Next >
+다음(&N) >
+
+# [3] ExitBtn.Label
+&Exit
+종료(&E)
+
+# [4] MainLayout.Label
+Install Product(s)
+제품 설치
+
+# [5] HelpCascadeBtn.Label
+Help
+도움말
+
+# [6] Banner_ScreenLabSm.Label
+Define Installation Components
+설치 구성요소 정의
+
+# [7] RTFBtn.Label
+Read this First
+먼저읽어보기
+
+# [8] InstallGuideBtn.Label
+Installation Guide
+설치 안내서
+
+# [9] CustomerSupportBtn.Label
+Services and Support
+서비스 및 지원
+
+# [10] item.Label
+<A>  &Install this feature
+<A>  이 기능 설치(&I)
+
+# [11] all.Label
+<A>  Install &all sub-features
+<A> 모든 서브피쳐 설치(&A)
+
+# [12] none.Label
+<A>  Do &not install this feature
+<A>  이 기능 설치 안 함(&N)
+
+# [13] item_2.Label
+<A>  &Install this feature
+<A>  이 기능 설치(&I)
+
+# [14] none_2.Label
+<A>  Do &not install this feature
+<A>  이 기능 설치 안 함(&N)
+
+# [15] all_d.Label
+<A>  &All sub-features are already installed
+<A>  모든 서브 피쳐가 이미 설치됨(&A)
+
+# [16] item_d.Label
+<A>  &Feature is already installed
+<A>  피쳐가 이미 설치됨(&F)
+
+# [17] all_d_2.Label
+<A>  &Some sub-features are already installed
+<A>  일부 서브피쳐가 이미 설치됨(&S)
+
+# [18] none_3.Label
+<A>  Some sub-features will be &unavailable
+<A>  일부 서브피쳐를 사용할 수 없음(&U)
+

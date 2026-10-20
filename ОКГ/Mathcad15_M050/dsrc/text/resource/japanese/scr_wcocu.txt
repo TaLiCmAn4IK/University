@@ -1,0 +1,52 @@
+# {0} (13) [0] WCDSCompDescLayout.Label
+Description
+説明
+
+# [1] CompDescTA.Value
+Select a component or subcomponent to view its description.
+コンポーネントまたはサブコンポーネントを選択し、説明を表示します。
+
+# [2] WCDSLayout2.Label
+Database size
+データベースサイズ
+
+# [3] DsRadioSize.Labels.0
+Small (700 MB)
+小(700 MB)
+
+# [4] DsRadioSize.Labels.1
+Medium (900 MB)
+中(900 MB)
+
+# [5] DsRadioSize.Labels.2
+Large (1800 MB)
+大(1800 MB)
+
+# [6] DsVaultCheck.Label
+Exclusively use external file vaults
+外部ファイルボウルトを単独で使用
+
+# [7] LpLab.Label
+Directory for database files
+データベースファイルのディレクトリ
+
+# [8] LpBrowse.HelpText
+Browse for Installation Directory
+インストールディレクトリをブラウズ
+
+# [9] WCDSDiskSpaceLayout.Label
+Disk Space
+ディスク領域
+
+# [10] SpaceAvailLab.Label
+Available on C: 9999GB
+C: の空き領域: 9999GB
+
+# [11] SpaceReqLab.Label
+Required on C: 9999GB
+C: の必要領域: 9999GB
+
+# [12] TextArea.Value
+Identify the location of the database files and choose the size of the database.\n\nFor specific instructions see the Help screen.
+データベースファイルの場所を識別し、データベースのサイズを選択します。\n\n詳細はヘルプを参照してください。
+

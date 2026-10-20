@@ -1,0 +1,36 @@
+# {100} (100) [0] LpLayout.Label
+Destination Folder
+Папка назначения
+
+# [1] LpLab.Label
+Destination Folder
+Папка назначения
+
+# [2] LpBrowse.HelpText
+Browse for Installation Directory
+Просмотр папки для установки
+
+# [3] LpReleaseLab.Label
+Dummy Label
+Фиктивная метка
+
+# [4] DiskSpaceLayout.Label
+Disk Space
+Дисковое пространство
+
+# [5] SpaceAvailLab.Label
+Available on C: 9999GB
+Доступно на C: 9999 Гб
+
+# [6] SpaceReqLab.Label
+Required on C: 9999GB
+Требуется на C: 9999 Гб
+
+# [7] CompDescTA.Value
+Select a product feature to view its description.
+Выберите продукт для просмотра его описания.
+
+# [8] ProdTreeLab.Label
+Features to Install
+Элементы для установки
+

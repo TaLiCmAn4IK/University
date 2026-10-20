@@ -1,0 +1,24 @@
+# {0} (6) [0] pdm_db.Label
+Select Installation Directory
+インストールディレクトリを選択
+
+# [1] Label1.Label
+Enter Path to PDM Database.
+PDM データベースへのパスを入力します。
+
+# [2] StdOK.Label
+&OK
+OK(&O)
+
+# [3] StdCancel.Label
+&Cancel
+キャンセル(&C)
+
+# [4] DbDirBrowse.Label
+&Browse
+ブラウズ(&B)
+
+# [5] Label2.Label
+Select Browse for a directory browser
+「ブラウズ」を選択して、ディレクトリブラウザを表示します。
+

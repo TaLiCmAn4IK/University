@@ -1,0 +1,10 @@
+;
+; 08-Jun-09 L-03-33+  Moti  $$1   Created
+;
+
+[layoutbody]
+SizingMargins  = 3, 3, 3, 0
+ContentMargins  = 5, 1, 5, 1
+BackgroundImage = styles/slidemsg/slidemsg_content_wf5.png
+
+

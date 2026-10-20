@@ -1,0 +1,28 @@
+# {100} (100) [0] cdrs_1.Label
+Locate Other Installation Directories (Optional)
+定位其它安装目录(可选)
+
+# [1] AppMgrDirLab.Label
+PTC Application Manager
+PTC 应用程序管理器
+
+# [2] CDRSGraphLibDirLab.Label
+PTC Graphic Library
+PTC图形库
+
+# [3] DivisionDirLab.Label
+DIVSION MockUp
+DIVSION局部模型
+
+# [4] cdrs_2.Label
+Optional Inputs
+可选输入
+
+# [5] ProeCmdLab.Label
+Pro/ENGINEER Command
+Pro/ENGINEER命令
+
+# [6] PaintCmdLab.Label
+3DPAINT Command
+3维绘图命令
+

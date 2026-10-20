@@ -1,0 +1,86 @@
+// 12-Apr-00 $$1  MYA  Created.
+// 23-May-00 $$2  MYA  change Programfiles to false
+// 30-Jan-01 $$3  TWH  Add CmdType Prop values
+// 04-Apr-01 $$4  TWH  Subpackages -> SubPackages
+// 04-Apr-01 $$5  ALG  CdSections -> Cdsections
+// 31-Jan-02 $$6  MAZ  Use ptchostid script
+// 04-Mar-03 K-01-06  $$7  TWH  LpcfgWindows->ScreenWindows
+// 21-Jul-03 K-01-11 $$8   JJE  Add ptcborrow and ptcreturn scripts
+// 15-Dec-03 K-01-20 $$9  MAZ  Remove borrow scripts
+// 18-Dec-08 L-03-23 $$10  TWH  Drop LpcfgProHelp
+
+(Product modview
+    (Name                      "Pro/Model.View")
+    (Packages                  "modview_pkg"
+                               "ptcutil"
+                               "uninstall"
+                               "mvdemo"
+                               "netscape"
+                               "modviewdocs")
+    (ProgramFiles              False)
+    (LpDirName                 "promview")
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+)
+
+(Package modview_pkg
+    (Name                      "Pro/Model.View")
+    (Screens                   "ScreenLicList"
+                               "ScreenWindows"
+                               "ScreenDftCmds"
+                               "LpcfgCmdList"
+                               "LpcfgLinkpath"
+                               "LpcfgBrowser"
+                               "ScreenNetscape")
+    (Cdsections                "modelview"
+                               "Install"
+                               "flexclient")                                
+    (CmdTypes		           "promodelview") 
+    (Binscripts                "ptchostid"
+                    	       "ptcflush"
+                    	       "ptcstatus")		    
+    (Installed                 True)
+)
+
+(Package mvdemo
+    (Name                      "Pro/Model.View Demo")
+    (Cdsections                "Demos")
+    (Installed                 False)
+)
+
+(Package netscape
+    (Name                      "Netscape")
+    (Cdsections                "Netscape")
+	(Binscripts                "netscape")
+    (Installed                  False)
+)
+
+(Package modviewdocs
+    (Name                      "Pro/Model.View Documentation")
+    (SubPackages               "mvdoc_html"
+                               "mvdoc_ps")
+    (Installed                 False)
+)
+
+(Package mvdoc_html
+    (Name                      "HTML Documentation")
+    (Cdsections                "Online")
+    (Installed                 False)
+)
+
+(Package mvdoc_ps
+    (Name                      "PostScript Documentation")
+    (Cdsections                "PS")
+    (Installed                 False)
+)
+
+(CmdType promodelview 
+    (Name                      "promodelview")
+    (DefName                   "promv")
+    (Type                      "Pro/Model.View")
+    (Prefixes                  "MODELVIEW_")
+    (Featvars                  "__MODELVIEW_FEATURE_NAME__")
+    (Template	               "promv_start")  
+    (UseExtensions             False)
+    (UseOptions                False)
+)

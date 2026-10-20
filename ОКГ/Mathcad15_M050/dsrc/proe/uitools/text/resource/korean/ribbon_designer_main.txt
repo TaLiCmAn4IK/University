@@ -1,0 +1,196 @@
+# {100} (100) [0] ribbon_designer_main.Label
+Ribbon Designer
+리본 디자이너...
+
+# [1] CommandsLayout.Label
+Commands
+명령
+
+# [2] CommandsTable.ColumnLabels.menu
+Container
+컨테이너
+
+# [3] CommandsTable.ColumnLabels.label
+Cascade / Item
+계단형 / 항목
+
+# [4] CommandsTable.ColumnLabels.cascade
+Item
+항목
+
+# [5] CommandsTable.ColumnLabels.icon
+Icon
+아이콘
+
+# [6] CommandsTable.ColumnLabels.name
+Command Name
+명령 이름
+
+# [7] CommandsTable.ColumnLabels.help
+Help Text
+도움말 텍스트
+
+# [8] FilterLayout.Label
+Show Only :
+다음만 표시:
+
+# [9] FilterRadioGroup.Labels.not_in_ribbon
+Not In Ribbon
+리본에 없음
+
+# [10] FilterRadioGroup.Labels.not_in_page
+Not In Page
+페이지에 없음
+
+# [11] FilterRadioGroup.Labels.all
+All Commands
+모든 명령
+
+# [12] SaveRibbonPushButton.Label
+Save &Ribbon
+리본 저장(&R)
+
+# [13] ToolsLayout.Label
+Tools
+도구
+
+# [14] NewItemsList.Labels.newCascadeButton
+New Cascade Button
+계단형 단추 새로 만들기
+
+# [15] NewItemsList.Labels.newFlyoutButton
+New Flyout Button
+플라이아웃 단추 새로 만들기
+
+# [16] ribbon.Label
+&Ribbon
+리본(&R)
+
+# [17] ribbon.HelpText
+Ribbon
+리본
+
+# [18] adb_designerAddNewRibbon.Label
+New
+새로 만들기
+
+# [19] adb_designerLoadRibbon.Label
+Open
+열기
+
+# [20] adb_designerSaveRibbon.Label
+Save
+저장
+
+# [21] pshAddExternalGroupPage.Label
+Add External Groups
+외부 그룹 추가
+
+# [22] pshRemoveExternalGroupPage.Label
+Remove External Groups
+외부 그룹 제거
+
+# [23] page.Label
+&Page
+페이지(&P)
+
+# [24] page.HelpText
+Page
+페이지
+
+# [25] pshAddNewPage.Label
+New
+새로 만들기
+
+# [26] pshAddNewPage.HelpText
+Add new page
+새 페이지 추가
+
+# [27] pshInheritPage.Label
+Inherit
+상속
+
+# [28] pshRenameCurPage.Label
+Re&name
+이름 바꾸기(&N)
+
+# [29] pshRemoveCurPage.Label
+Delete
+삭제
+
+# [30] group.Label
+&Group
+그룹(&G)
+
+# [31] group.HelpText
+Group
+그룹
+
+# [32] pshAddNewGroup.Label
+New
+새로 만들기
+
+# [33] pshAddNewGroup.HelpText
+Add new group
+새 그룹 추가
+
+# [34] pshInheritGroup.Label
+Inherit
+상속
+
+# [35] pshAddExistingGroup.Label
+Add Existing
+기존 그룹 추가
+
+# [36] eggroup.Label
+&EG
+EG(&E)
+
+# [37] eggroup.HelpText
+Extended Group
+확장된 그룹
+
+# [38] pshAddNewExternalGroup.Label
+New
+새로 만들기
+
+# [39] pshAddNewExternalGroup.HelpText
+Add new group to extended page
+확장된 페이지에 새 그룹 추가
+
+# [40] pshInheritExternalGroup.Label
+Inherit
+상속
+
+# [41] pshAddExistingExternalGroup.Label
+Add Existing
+기존 그룹 추가
+
+# [42] commands.Label
+&Commands
+명령(&C)
+
+# [43] commands.HelpText
+Commands
+명령
+
+# [44] ExportPushButton.Label
+Export to CSV File
+CSV 파일로 내보내기
+
+# [45] debug.Label
+&Debug
+디버그(&D)
+
+# [46] debug.HelpText
+Debug
+디버그
+
+# [47] pshSpy.Label
+Spy...
+Spy...
+
+# [48] pshSpy.HelpText
+Db Walker
+Db Walker
+

@@ -1,0 +1,20 @@
+# {100} (100) [0] LmgrdParamsLab.Label
+FLEXnet Server Startup Options
+FLEXnet サーバー起動オプション
+
+# [1] StartOnReboot.Label
+Start license server on reboot
+再起動時にライセンスサーバーをスタート
+
+# [2] UserUnix.Label
+Unix Only
+Unix のみ
+
+# [3] AltUserLab.Label
+Server process owner
+サーバープロセスオーナー
+
+# [4] AltUserDesc.Label
+The FLEXnet server process can be\nbe run under an alternate user id.  
+FLEXnet サーバープロセスを\n代替ユーザー ID で実行できます。
+

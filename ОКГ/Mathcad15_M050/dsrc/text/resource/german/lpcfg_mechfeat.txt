@@ -1,0 +1,72 @@
+# {70163} (20) [0] StructUILab.Label
+Structure UI
+Structure UI
+
+# [1] StructEngLab.Label
+Structure Engine
+Structure Engine
+
+# [2] MotionUILab.Label
+Motion UI
+Motion UI
+
+# [3] MotionEngLab.Label
+Motion Engine
+Motion Engine
+
+# [4] ThermalUILab.Label
+Thermal UI
+Thermal UI
+
+# [5] ThermalEngLab.Label
+Thermal Engine
+Thermal Engine
+
+# [6] EqRuntimeLab.Label
+Equations Runtime
+Equations Laufzeit
+
+# [8] TireModelLab.Label
+Tire Model
+Reifenmodell
+
+# [9] StructUIModify.Label
+Modify
+Ändern
+
+# [10] StructEngModify.Label
+Modify
+Ändern
+
+# [11] MotionUIModify.Label
+Modify
+Ändern
+
+# [12] MotionEngModify.Label
+Modify
+Ändern
+
+# [13] ThermalUIModify.Label
+Modify
+Ändern
+
+# [14] ThermalEngModify.Label
+Modify
+Ändern
+
+# [15] EqRuntimeModify.Label
+Modify
+Ändern
+
+# [17] TireModelModify.Label
+Modify
+Ändern
+
+# [18] Label10.Label
+Mechanica Module
+Mechanica Modul
+
+# [19] Label11.Label
+Licenses associated with the module
+Mit dem Modul verknüpfte Lizenzen
+

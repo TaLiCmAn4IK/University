@@ -1,0 +1,515 @@
+// 04-Mar-03 K-01-07  $$1  TWH  Created
+// 25-Aug-03 K-01-13  $$2  TWH  Update entries
+// 07-Oct-03 K-01-16  $$3  TWH  Update to list all advert gifs
+// 05-Jan-04 K-01-21  $$4  TWH  Image update 
+// 25-Feb-04 K-01-24       TWH  Add more images
+// 26-Feb-04 K-01-24  $$5  MSF  Update each image URL to point to the proper location on PTC.com
+// 15-Mar-04 K-01-25  $$6  TWH  Drop whatsnew_drawlesmodel per M.fischer
+// 28-Feb-05 K-03-20  $$7  TWH  K-03 new images
+// 12-Mar-07 L-01-28  $$8  JJE  Add concept ads
+// 21-Dec-07 L-01-41  $$9  TWH  Add WF4 ads
+// 15-Jan-2008 L-01-42+ TWH  $$10  Rename Ads files
+// 30-Mar-2009 L-03-29  TWH  $$11  Mathcad Ad files
+// 27-Jul-2009 L-03-34  TWH  $$12  Update WF5 images
+// 04-Nov-2009 L-03-36  TWH  $$13  Update WF5 images
+// 18-Nov-2009 L-03-36+ TWH  $$14  Add Prime gif image placeholders
+// 04-Dec-2009 L-03-36  TWH  $$15  Update prime images
+// 19-Apr-10   L-03-38+ TWH  $$16  Add WF5_SE
+// 23-Apr-10   L-03-38+ TWH  $$17  Another WF5_SE image
+// 16-Nov-11   L-03-46+ TWH  $$18  Update prime images
+
+(Ad WhatsNew
+    (URL                       "http://www.ptc.com/appserver/it/icm/cda/icm01_list.jsp?group=201&num=1&show=y&keyword=34")
+    (TopLevel                   TRUE)
+)
+
+(Ad CaseStudies
+    (URL                       "http://www.ptc.com/appserver/it/icm/cda/icm01_cid_wrapper.jsp?&group=181&num=25&showhf=y&showcgn=y&separator=<p>&k=403|201&minkeys=1&linkall=n")
+    (TopLevel                   TRUE)
+)
+
+(Ad Tools
+    (URL                       "http://www.ptc.com/community/proewf2/newtools/index.htm")
+    (TopLevel                   TRUE)
+)
+
+(Ad concept_01
+    (Image                     "concept_01.gif")
+    (URL                       "http://www.ptc.com/appserver/mkt/products/home.jsp?&k=701")
+    (Delay                     "15")
+)
+
+(Ad concept_02
+    (Image                     "concept_02.gif")
+    (URL                       "http://www.ptc.com/appserver/mkt/products/home.jsp?&k=701")
+    (Delay                     "15")
+)
+
+(Ad concept_03
+    (Image                     "concept_03.gif")
+    (URL                       "http://www.ptc.com/appserver/mkt/products/home.jsp?&k=701")
+    (Delay                     "15")
+)
+
+(Ad concept_04
+    (Image                     "concept_04.gif")
+    (URL                       "http://www.ptc.com/appserver/mkt/products/home.jsp?&k=701")
+    (Delay                     "15")
+)
+
+(Ad concept_05
+    (Image                     "concept_05.gif")
+    (URL                       "http://www.ptc.com/appserver/mkt/products/home.jsp?&k=701")
+    (Delay                     "15")
+)
+
+(Ad concept_06
+    (Image                     "concept_06.gif")
+    (URL                       "http://www.ptc.com/appserver/mkt/products/home.jsp?&k=701")
+    (Delay                     "15")
+)
+
+(Ad WF5_101
+    (Image                     "WF5_101.png")
+    (URL                       "http://www.ptc.com/go/proe/whatsnew/")
+    (Delay                     "15")
+)
+
+(Ad WF5_102
+    (Image                     "WF5_102.png")
+    (URL                       "http://www.ptc.com/go/proe/whatsnew/")
+    (Delay                     "15")
+)
+
+(Ad WF5_103
+    (Image                     "WF5_103.png")
+    (URL                       "http://www.ptc.com/go/proe/whatsnew/")
+    (Delay                     "15")
+)
+
+(Ad WF5_104
+    (Image                     "WF5_104.png")
+    (URL                       "http://www.ptc.com/go/proe/whatsnew/")
+    (Delay                     "15")
+)
+
+(Ad WF5_201
+    (Image                     "WF5_201.png")
+    (URL                       "http://www.ptc.com/go/proe/whatsnew/")
+    (Delay                     "15")
+)
+
+(Ad WF5_202
+    (Image                     "WF5_202.png")
+    (URL                       "http://www.ptc.com/go/proe/whatsnew/")
+    (Delay                     "15")
+)
+
+(Ad WF5_203
+    (Image                     "WF5_203.png")
+    (URL                       "http://www.ptc.com/go/proe/whatsnew/")
+    (Delay                     "15")
+)
+
+(Ad WF5_204
+    (Image                     "WF5_204.png")
+    (URL                       "http://www.ptc.com/go/proe/whatsnew/")
+    (Delay                     "15")
+)
+
+(Ad WF5_301
+    (Image                     "WF5_301.png")
+    (URL                       "http://www.ptc.com/go/proe/whatsnew/")
+    (Delay                     "15")
+)
+
+(Ad WF5_302
+    (Image                     "WF5_302.png")
+    (URL                       "http://www.ptc.com/go/proe/whatsnew/")
+    (Delay                     "15")
+)
+
+(Ad WF5_303
+    (Image                     "WF5_303.png")
+    (URL                       "http://www.ptc.com/go/proe/whatsnew/")
+    (Delay                     "15")
+)
+
+(Ad WF5_304
+    (Image                     "WF5_304.png")
+    (URL                       "http://www.ptc.com/go/proe/whatsnew/")
+    (Delay                     "15")
+)
+
+(Ad WF5_401
+    (Image                     "WF5_401.png")
+    (URL                       "http://www.ptc.com/go/proe/whatsnew/")
+    (Delay                     "15")
+)
+
+(Ad WF5_402
+    (Image                     "WF5_402.png")
+    (URL                       "http://www.ptc.com/go/proe/whatsnew/")
+    (Delay                     "15")
+)
+
+(Ad WF5_403
+    (Image                     "WF5_403.png")
+    (URL                       "http://www.ptc.com/go/proe/whatsnew/")
+    (Delay                     "15")
+)
+
+(Ad WF5_501
+    (Image                     "WF5_501.png")
+    (URL                       "http://www.ptc.com/go/proe/whatsnew/")
+    (Delay                     "15")
+)
+
+(Ad WF5_502
+    (Image                     "WFF5_502.png")
+    (URL                       "http://www.ptc.com/go/proe/whatsnew/")
+    (Delay                     "15")
+)
+
+(Ad WF5_503
+    (Image                     "WFF5_503.png")
+    (URL                       "http://www.ptc.com/go/proe/whatsnew/")
+    (Delay                     "15")
+)
+
+(Ad WF5_601
+    (Image                     "WF5_601.png")
+    (URL                       "http://www.ptc.com/go/proe/whatsnew/")
+    (Delay                     "15")
+)
+
+(Ad WF5_602
+    (Image                     "WFF5_602.png")
+    (URL                       "http://www.ptc.com/go/proe/whatsnew/")
+    (Delay                     "15")
+)
+
+(Ad WF5_603
+    (Image                     "WFF5_603.png")
+    (URL                       "http://www.ptc.com/go/proe/whatsnew/")
+    (Delay                     "15")
+)
+
+(Ad WF5_701
+    (Image                     "WF5_701.png")
+    (URL                       "http://www.ptc.com/go/proe/whatsnew/")
+    (Delay                     "15")
+)
+
+(Ad WF5_702
+    (Image                     "WFF5_702.png")
+    (URL                       "http://www.ptc.com/go/proe/whatsnew/")
+    (Delay                     "15")
+)
+
+(Ad WF5_703
+    (Image                     "WFF5_703.png")
+    (URL                       "http://www.ptc.com/go/proe/whatsnew/")
+    (Delay                     "15")
+)
+
+(Ad WF5_801
+    (Image                     "WF5_801.png")
+    (URL                       "http://www.ptc.com/go/proe/whatsnew/")
+    (Delay                     "15")
+)
+
+(Ad WF5_802
+    (Image                     "WFF5_802.png")
+    (URL                       "http://www.ptc.com/go/proe/whatsnew/")
+    (Delay                     "15")
+)
+
+(Ad WF5_803
+    (Image                     "WFF5_803.png")
+    (URL                       "http://www.ptc.com/go/proe/whatsnew/")
+    (Delay                     "15")
+)
+
+(Ad WF5_901
+    (Image                     "WF5_901.png")
+    (URL                       "http://www.ptc.com/go/proe/whatsnew/")
+    (Delay                     "15")
+)
+
+(Ad WF5_902
+    (Image                     "WFF5_902.png")
+    (URL                       "http://www.ptc.com/go/proe/whatsnew/")
+    (Delay                     "15")
+)
+
+(Ad WF5_903
+    (Image                     "WFF5_903.png")
+    (URL                       "http://www.ptc.com/go/proe/whatsnew/")
+    (Delay                     "15")
+)
+
+(Ad Mathcad1
+    (Image                     "Mathcad1.gif")
+    (URL                       "http://www.ptc.com/go/mathcad/")
+    (Delay                     "15")
+)
+
+(Ad Mathcad2
+    (Image                     "Mathcad2.gif")
+    (URL                       "http://www.ptc.com/go/mathcad/")
+    (Delay                     "15")
+)
+
+(Ad Mathcad3
+    (Image                     "Mathcad3.gif")
+    (URL                       "http://www.ptc.com/go/mathcad/")
+    (Delay                     "15")
+)
+
+(Ad Mathcad4
+    (Image                     "Mathcad4.gif")
+    (URL                       "http://www.ptc.com/go/mathcad/")
+    (Delay                     "15")
+)
+
+(Ad Mathcad5
+    (Image                     "Mathcad5.gif")
+    (URL                       "http://www.ptc.com/go/mathcad/")
+    (Delay                     "15")
+)
+
+(Ad Mathcad6
+    (Image                     "Mathcad6.gif")
+    (URL                       "http://www.ptc.com/go/mathcad/")
+    (Delay                     "15")
+)
+
+(Ad Mathcad7
+    (Image                     "Mathcad7.gif")
+    (URL                       "http://www.ptc.com/go/mathcad/")
+    (Delay                     "15")
+)
+
+(Ad Mathcad8
+    (Image                     "Mathcad8.gif")
+    (URL                       "http://www.ptc.com/go/mathcad/")
+    (Delay                     "15")
+)
+
+(Ad Mathcad9
+    (Image                     "Mathcad9.gif")
+    (URL                       "http://www.ptc.com/go/mathcad/")
+    (Delay                     "15")
+)
+
+(Ad Mathcad10
+    (Image                     "Mathcad10.gif")
+    (URL                       "http://www.ptc.com/go/mathcad/")
+    (Delay                     "15")
+)
+
+(Ad Mathcad11
+    (Image                     "Mathcad11.gif")
+    (URL                       "http://www.ptc.com/go/mathcad/")
+    (Delay                     "15")
+)
+
+(Ad Mathcad12
+    (Image                     "Mathcad12.gif")
+    (URL                       "http://www.ptc.com/go/mathcad/")
+    (Delay                     "15")
+)
+
+(Ad Mathcad13
+    (Image                     "Mathcad13.gif")
+    (URL                       "http://www.ptc.com/go/mathcad/")
+    (Delay                     "15")
+)
+
+(Ad Mathcad14
+    (Image                     "Mathcad14.gif")
+    (URL                       "http://www.ptc.com/go/mathcad/")
+    (Delay                     "15")
+)
+
+(Ad Mathcad15
+    (Image                     "Mathcad15.gif")
+    (URL                       "http://www.ptc.com/go/mathcad/")
+    (Delay                     "15")
+)
+
+(Ad Mathcad16
+    (Image                     "Mathcad16.gif")
+    (URL                       "http://www.ptc.com/go/mathcad/")
+    (Delay                     "15")
+)
+
+(Ad Mathcad17
+    (Image                     "Mathcad17.gif")
+    (URL                       "http://www.ptc.com/go/mathcad/")
+    (Delay                     "15")
+)
+
+(Ad Prime0
+    (Image                     "Prime0.png")
+    (URL                       "http://www.ptc.com/go/mathcad/")
+    (Delay                     "15")
+)
+
+(Ad Prime1
+    (Image                     "Prime1.png")
+    (URL                       "http://www.ptc.com/go/mathcad/")
+    (Delay                     "15")
+)
+
+(Ad Prime2
+    (Image                     "Prime2.png")
+    (URL                       "http://www.ptc.com/go/mathcad/")
+    (Delay                     "15")
+)
+
+(Ad Prime3
+    (Image                     "Prime3.png")
+    (URL                       "http://www.ptc.com/go/mathcad/")
+    (Delay                     "15")
+)
+
+(Ad Prime4
+    (Image                     "Prime4.png")
+    (URL                       "http://www.ptc.com/go/mathcad/")
+    (Delay                     "15")
+)
+
+(Ad Prime5
+    (Image                     "Prime5.png")
+    (URL                       "http://www.ptc.com/go/mathcad/")
+    (Delay                     "15")
+)
+
+(Ad Prime6
+    (Image                     "Prime6.png")
+    (URL                       "http://www.ptc.com/go/mathcad/")
+    (Delay                     "15")
+)
+
+(Ad Prime7
+    (Image                     "Prime7.png")
+    (URL                       "http://www.ptc.com/go/mathcad/")
+    (Delay                     "15")
+)
+
+(Ad Prime8
+    (Image                     "Prime8.png")
+    (URL                       "http://www.ptc.com/go/mathcad/")
+    (Delay                     "15")
+)
+
+(Ad Prime9
+    (Image                     "Prime9.png")
+    (URL                       "http://www.ptc.com/go/mathcad/")
+    (Delay                     "15")
+)
+
+(Ad Prime10
+    (Image                     "Prime10.png")
+    (URL                       "http://www.ptc.com/go/mathcad/")
+    (Delay                     "15")
+)
+
+(Ad Prime11
+    (Image                     "Prime11.png")
+    (URL                       "http://www.ptc.com/go/mathcad/")
+    (Delay                     "15")
+)
+
+(Ad Prime12
+    (Image                     "Prime12.png")
+    (URL                       "http://www.ptc.com/go/mathcad/")
+    (Delay                     "15")
+)
+
+(Ad Prime13
+    (Image                     "Prime13.png")
+    (URL                       "http://www.ptc.com/go/mathcad/")
+    (Delay                     "15")
+)
+
+(Ad Prime14
+    (Image                     "Prime14.png")
+    (URL                       "http://www.ptc.com/go/mathcad/")
+    (Delay                     "15")
+)
+
+(Ad WF5_SE_01
+    (Image                     "WF5_SE_01.png")
+    (URL                       "http://www.ptc.com/go/education")
+    (Delay                     "15")
+)
+
+(Ad WF5_SE_02
+    (Image                     "WF5_SE_02.png")
+    (URL                       "http://www.ptc.com/go/education")
+    (Delay                     "15")
+)
+
+(Ad WF5_SE_03
+    (Image                     "WF5_SE_03.png")
+    (URL                       "http://www.ptc.com/go/education")
+    (Delay                     "15")
+)
+
+(Ad WF5_SE_04
+    (Image                     "WF5_SE_04.png")
+    (URL                       "http://www.ptc.com/go/education")
+    (Delay                     "15")
+)
+
+(Ad WF5_SE_05
+    (Image                     "WF5_SE_05.png")
+    (URL                       "http://www.ptc.com/go/education")
+    (Delay                     "15")
+)
+
+(Ad WF5_SE_06
+    (Image                     "WF5_SE_06.png")
+    (URL                       "http://www.ptc.com/go/education")
+    (Delay                     "15")
+)
+
+(Ad WF5_SE_07
+    (Image                     "WF5_SE_07.png")
+    (URL                       "http://www.ptc.com/go/education")
+    (Delay                     "15")
+)
+
+(Ad WF5_SE_08
+    (Image                     "WF5_SE_08.png")
+    (URL                       "http://www.ptc.com/go/education")
+    (Delay                     "15")
+)
+
+(Ad WF5_SE_09
+    (Image                     "WF5_SE_09.png")
+    (URL                       "http://www.ptc.com/go/education")
+    (Delay                     "15")
+)
+
+(Ad WF5_SE_10
+    (Image                     "WF5_SE_10.png")
+    (URL                       "http://www.ptc.com/go/education")
+    (Delay                     "15")
+)
+
+(Ad WF5_SE_11
+    (Image                     "WF5_SE_11.png")
+    (URL                       "http://www.ptc.com/go/education")
+    (Delay                     "15")
+)
+
+(Ad WF5_SE_12
+    (Image                     "WF5_SE_12.png")
+    (URL                       "http://www.ptc.com/go/education")
+    (Delay                     "15")
+)
+

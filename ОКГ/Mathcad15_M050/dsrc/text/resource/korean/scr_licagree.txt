@@ -1,0 +1,12 @@
+# {100} (100) [0] RadioLicAcc.Labels.yes
+I &accept
+동의함(&A)
+
+# [1] RadioLicAcc.Labels.no
+I &decline
+동의 안 함(&D)
+
+# [2] AccLab.Label
+You must accept the following license agreement to proceed.
+계속하기 위해 다음 라이센스 협약에 동의하셔야 합니다.
+

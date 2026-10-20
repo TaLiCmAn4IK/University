@@ -1,0 +1,48 @@
+# {100} (100) [0] MasterPreviewTab.Label
+Open
+열기
+
+# [1] PreviewText.Value
+This is a text area.\nMaybe we could put the first \nfew lines of a text file here.
+텍스트 영역입니다.\n텍스트 파일의 처음 몇 줄을\n여기에 입력할 수 있습니다.
+
+# [2] Label1.Label
+Preview not available.
+미리보기 없음
+
+# [3] PreviewCheckButton.HelpText
+Click the image for 3D view
+3D 뷰의 이미지를 클릭하십시오.
+
+# [4] SelNameLbl.Label
+foo.prt.1
+foo.prt.1
+
+# [5] lbl_file_name.Label
+File name: 
+파일 이름: 
+
+# [6] SelDateLbl.Label
+12-Dec-87 12:22:22 PM
+1987-12-12 오후 12:22:22
+
+# [7] lbl_file_date.Label
+Date modified: 
+수정된 날짜: 
+
+# [8] ClosePreview.Label
+Preview
+미리보기
+
+# [9] ClosePreview.HelpText
+Hide Preview
+미리보기 숨기기
+
+# [10] Preview.Label
+Preview
+미리보기
+
+# [11] Preview.HelpText
+Show Preview
+미리보기 표시
+

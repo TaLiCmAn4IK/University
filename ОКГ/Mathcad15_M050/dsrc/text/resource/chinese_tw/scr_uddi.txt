@@ -1,0 +1,36 @@
+# {100} (100) [0] scr_uddi_pub.Label
+PTC PartsLink Publishing Information
+PTC PartsLink 發佈資訊
+
+# [1] ServiceKeyLab.Label
+Service Key
+服務鍵
+
+# [2] DescLab.Label
+Product Catalog Description
+產品型錄描述
+
+# [3] scr_uddi_op.Label
+UDDI Business Registry
+UDDI 廠商登錄
+
+# [4] OperatorLab.Label
+Operator
+入口站
+
+# [5] OperatorMenu.DefaultHelpText
+16
+
+
+# [6] IDLab.Label
+User ID
+使用者 ID
+
+# [7] BusinessKeyLab.Label
+Business Key
+廠商鍵
+
+# [8] PasswordLab.Label
+Password
+密碼
+

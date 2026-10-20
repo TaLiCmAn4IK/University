@@ -1,0 +1,8 @@
+# {0} (2) [0] Label1.Label
+Datecode:
+日期代碼:
+
+# [1] Label5.Label
+Previous Install Locations:
+先前安裝位置:
+

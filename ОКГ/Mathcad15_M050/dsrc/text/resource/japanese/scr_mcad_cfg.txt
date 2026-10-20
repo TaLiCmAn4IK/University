@@ -1,0 +1,44 @@
+# {100} (100) [0] InputPanel1.Label
+<optional alternate location>
+<オプションの代替位置>
+
+# [1] InputPanel2.Label
+<optional alternate location>
+<オプションの代替位置>
+
+# [2] InputPanel3.Label
+<optional alternate location>
+<オプションの代替位置>
+
+# [3] InputPanel4.Label
+<optional alternate location>
+<オプションの代替位置>
+
+# [4] RgrpMcadCfg.Labels.XML14
+XMCD
+XMCD
+
+# [5] RgrpMcadCfg.Labels.XMLZ14
+XMCDZ
+XMCDZ
+
+# [6] Label9.Label
+Templates Path
+テンプレートパス
+
+# [7] Label10.Label
+Handbook Path
+ハンドブックパス
+
+# [8] Label11.Label
+Resource Center Path
+リソースセンターパス
+
+# [9] Label12.Label
+Help Path
+ヘルプパス
+
+# [10] Label13.Label
+File Format
+ファイルフォーマット
+

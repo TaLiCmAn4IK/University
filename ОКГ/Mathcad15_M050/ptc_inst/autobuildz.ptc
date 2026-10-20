@@ -1,0 +1,31 @@
+// 31-Jan-03 J-03-41 $$1  ECW  Created.
+// 06-Feb-03 J-03-41 $$2  Add VersionDir false. Change loadpoint name. Add UseInstallDirKey
+// 11-Feb-03 J-03-41 $$3  Rename LpDirName per marketing.
+
+(Product autobuildz
+    (Name                      "AutobuildZ")
+    (Packages                  "autobuildz_base"
+                               "ptcutil"
+                               "uninstall")
+    (ProgramFiles              True)
+    (LpDirName                 "AutobuildZ")
+    (Screens                   "ScreenLicAgree" 
+		               "ScreenProd")
+    (Installed                 True)
+    (VersionDir                False)
+    (UseInstallDirKey          True)
+    (SaveList                  "config.win"
+			       "config.abz"
+			       "protk.dat"
+                               "config.pro")
+    (LicenseSimplification     True)
+)
+
+(Package autobuildz_base
+    (Name                      "AutobuildZ files")
+    (Cdsections                "autobuildz tree"
+			       "autobuildz")
+    (convertFilesList          "_LP_/config.pro=_LP_/config.pro"
+			       "_LP_/protk.dat=_LP_/protk.dat")
+    (Installed                 True)
+)

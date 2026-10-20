@@ -1,0 +1,32 @@
+# {100} (100) [0] adb_CmdCopyImage.Label
+Copy Button Image
+Schaltfl‰chenbild kopieren
+
+# [1] adb_CmdDisplayType.Labels.DefaultStyle
+Default Style
+Standardstil
+
+# [2] adb_CmdDisplayType.Labels.Small
+Small Button
+Kleine Schaltfl‰che
+
+# [3] adb_CmdDisplayType.Labels.SmallImageOnly
+Small Button - No Label
+Kleine Schaltfl‰che - Keine Beschriftung
+
+# [4] adb_CmdDisplayType.Labels.SmallTextOnly
+Small Button - No Icon
+Kleine Schaltfl‰che - Kein Symbol
+
+# [5] adb_CmdDisplayType.Labels.Large
+Large Button
+Groﬂe Schaltfl‰che
+
+# [6] adb_CmdWhatsThis.Label
+What's This?
+Was ist das?
+
+# [7] adb_CmdWhatsThis.HelpText
+Tells what this button does
+Beschreibt die Funktion dieser Schaltfl‰che
+

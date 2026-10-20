@@ -1,0 +1,40 @@
+# {0} (10) [0] LpLab.Label
+Temporary Directory for Migration Process
+移行プロセスのテンポラリディレクトリ
+
+# [1] LpBrowse.HelpText
+Browse for Installation Directory
+インストールディレクトリをブラウズ
+
+# [2] MigDiskSpaceLayout.Label
+Disk Space
+ディスク領域
+
+# [3] SpaceAvailLab.Label
+Available on C: 9999GB
+C: の空き領域: 9999GB
+
+# [4] SpaceReqLab.Label
+Required on C: 9999GB
+C: の必要領域: 9999GB
+
+# [5] Label6.Label
+Oracle 'SYSTEM' Password
+Oracle 'SYSTEM' パスワード
+
+# [6] MigrateGroup.Labels.0
+Generate report on Data Server configuration only
+データサーバーコンフィギュレーションにのみレポートを生成
+
+# [7] MigrateGroup.Labels.1
+Perform export migration step with report generation
+レポート生成と共にエクスポート移行ステップを実行
+
+# [8] Label7.Label
+Status:
+ステータス:
+
+# [9] Status.Label
+Migration Required
+移行が必要
+

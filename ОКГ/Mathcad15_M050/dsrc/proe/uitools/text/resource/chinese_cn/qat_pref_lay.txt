@@ -1,0 +1,44 @@
+# {100} (100) [0] add.Label
+&Add >>
+添加(&A) >>
+
+# [1] remove.Label
+&Remove
+移除(&R)
+
+# [2] chk_toolbar_below_ribbon.Label
+S&how Quick Access Toolbar below the Ribbon
+在带下显示快捷访问工具栏(&H)
+
+# [3] apply.Label
+Apply
+应用
+
+# [4] move_up.HelpText
+Move Up
+上移
+
+# [5] move_down.HelpText
+Move Down
+下移
+
+# [6] reset.Label
+Re&set
+重置(&S)
+
+# [7] source_label.Label
+&Choose commands from:
+从中选择命令(&C):
+
+# [8] dest_label.Label
+Customize &Quick Access Toolbar:
+定制快捷访问工具栏(&Q):
+
+# [9] command_filter.Labels.popular
+Popular Commands
+常用命令
+
+# [10] command_filter.Labels.all
+All Commands
+全部命令
+

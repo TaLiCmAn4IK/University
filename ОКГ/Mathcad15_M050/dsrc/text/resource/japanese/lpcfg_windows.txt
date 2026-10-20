@@ -1,0 +1,40 @@
+# {100} (100) [0] ShortcutLayout.Label
+Windows Shortcut Preferences
+Windows ショートカット設定
+
+# [1] FolderLab.Label
+Program Folder
+プログラムフォルダ
+
+# [2] StartInDirLab.Label
+Startup Directory
+起動ディレクトリ
+
+# [3] LocationLab.Label
+Shortcut Location(s)
+ショートカット位置
+
+# [4] ScProgramFolder.Label
+Program folder
+プログラムフォルダ
+
+# [5] ScStartMenu.Label
+Start Menu
+スタートメニュー
+
+# [6] ScDesktop.Label
+Desktop
+デスクトップ
+
+# [7] PathLayout.Label
+Windows Environment Preferences
+Windows 環境プリファレンス
+
+# [8] PathChoice.Labels.systempath
+Modify system environment for all users
+全ユーザー用にシステム環境を修正
+
+# [9] PathChoice.Labels.userpath
+Modify current user's environment only
+カレントユーザーの環境のみ修正
+

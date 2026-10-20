@@ -1,0 +1,22 @@
+// 13-Dec-99      TWH  Created
+// 04-Jun-01 $$1  TWH  Update LpDirName
+// 27-Jun-01 $$2  TWH  Add No_Bin_Dir
+// 20-Jan-03 $$3  J-03-40 ECW Update loadpoint path for Wildfire
+
+(Product lib_elecsym
+    (Name                      "Electrical Symbols Library")
+    (Packages                  "req_elecsymlib")
+    (ProgramFiles              True)
+    (LpDirName                 "proeWildfire/symbols/library_syms/elecsymlib")
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+    (VersionDir                False)
+    (No_Bin_Dir                True)
+)
+(Package req_elecsymlib
+    (Name                      "Electrical Symbols Library")
+    (Cdsections                "mandatory")
+    (Installed                 True)
+    (Required                  True)
+    (Binscripts                "pro_build_library_ctg")
+)

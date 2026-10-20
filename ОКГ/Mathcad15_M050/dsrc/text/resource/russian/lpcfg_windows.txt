@@ -1,0 +1,40 @@
+# {100} (100) [0] ShortcutLayout.Label
+Windows Shortcut Preferences
+Настройки ярлыков Windows
+
+# [1] FolderLab.Label
+Program Folder
+Папка программ
+
+# [2] StartInDirLab.Label
+Startup Directory
+Каталог запуска
+
+# [3] LocationLab.Label
+Shortcut Location(s)
+Расположение ярлыков
+
+# [4] ScProgramFolder.Label
+Program folder
+Папка программ
+
+# [5] ScStartMenu.Label
+Start Menu
+Стартовое меню
+
+# [6] ScDesktop.Label
+Desktop
+Рабочий стол
+
+# [7] PathLayout.Label
+Windows Environment Preferences
+Настройки окружения Windows
+
+# [8] PathChoice.Labels.systempath
+Modify system environment for all users
+Изменить системное окружение для всех пользователей
+
+# [9] PathChoice.Labels.userpath
+Modify current user's environment only
+Изменить системное окружение только для текущего пользователя
+

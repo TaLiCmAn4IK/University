@@ -1,0 +1,36 @@
+# {0} (38) [25] CompDescTA.Value
+Select a product feature to view its description.
+製品機能を選択してその説明を表示します。
+
+# [28] LpLab.Label
+Destination Folder
+インストール先フォルダ
+
+# [29] LpBrowse.HelpText
+Browse for Installation Directory
+インストールディレクトリをブラウズ
+
+# [30] DiskSpaceLayout.Label
+Disk Space
+ディスク領域
+
+# [31] SpaceAvailLab.Label
+Available on C: 9999GB
+C: の空き領域: 9999GB
+
+# [32] SpaceReqLab.Label
+Required on C: 9999GB
+C: の必要領域: 9999GB
+
+# [35] LpReleaseLab.Label
+Dummy Label
+ダミーラベル
+
+# [36] LpLayout.Label
+Destination Folder
+インストール先フォルダ
+
+# [37] ProdTreeLab.Label
+Features to Install
+インストールする機能
+

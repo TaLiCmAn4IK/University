@@ -1,0 +1,40 @@
+# {100} (100) [0] ShortcutLayout.Label
+Windows Shortcut Preferences
+Windows Voreinstellungen für Verknüpfungen
+
+# [1] FolderLab.Label
+Program Folder
+Programmordner
+
+# [2] StartInDirLab.Label
+Startup Directory
+Startverzeichnis
+
+# [3] LocationLab.Label
+Shortcut Location(s)
+Speicherort(e) für Verknüpfungen
+
+# [4] ScProgramFolder.Label
+Program folder
+Programmordner
+
+# [5] ScStartMenu.Label
+Start Menu
+Startmenü
+
+# [6] ScDesktop.Label
+Desktop
+Desktop
+
+# [7] PathLayout.Label
+Windows Environment Preferences
+Voreinstellungen für Windows Umgebung
+
+# [8] PathChoice.Labels.systempath
+Modify system environment for all users
+Systemumgebung für alle Benutzer ändern
+
+# [9] PathChoice.Labels.userpath
+Modify current user's environment only
+Nur Umgebung des aktuellen Benutzers ändern
+

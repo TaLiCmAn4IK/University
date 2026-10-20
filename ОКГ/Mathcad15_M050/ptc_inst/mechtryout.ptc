@@ -1,0 +1,80 @@
+// 04-May-04  K-01-27        MAZ  Created from J-03 student .ptc files
+// 10-May-04  K-03-01   $$1  MAZ  Sub to K-01
+// 06-Mar-06  L-01-05   $$2  TWH  Chg LpDirName
+// 21-Dec-07  L-01-41   $$3  TWH  New Ad_list
+// 15-Jan-2008 L-01-42+  TWH  $$4  Rename Ads files
+// 27-Jul-2009 L-03-34   TWH  $$5  Update WF5 images
+// 04-Nov-2009 L-03-36   TWH  $$6  Update WF5 images
+
+(Product mechstudent
+    (Name                      "Pro/MECHANICA Tryout") 
+    (Packages                  "promech_pkg" 
+                               "mechhelp") 
+    (ProgramFiles              True)
+    (LpDirName                 "ProENGINEER Tryout Edition")
+    (VersionDir                False)
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+    (StandAlone                False)
+    (HostProd                  "student")
+    (HostProdName              "Pro/ENGINEER Tryout Edition")
+    (PossibleLangs             "usascii"
+                               "german"
+                               "french"
+                               "japanese")
+    (WelcomeImage              "promech_name.gif")
+    (ToolTipMsg                "@@Prod_promech_Desc")
+(Ad_list                    "WF5_101"
+                               "WF5_102"
+                               "WF5_103"
+                               "WF5_104"
+                               "WF5_201"
+                               "WF5_202"
+                               "WF5_203"
+                               "WF5_204"
+                               "WF5_301"
+                               "WF5_302"
+                               "WF5_303"
+                               "WF5_304"
+                               "WF5_401"
+                               "WF5_402"
+                               "WF5_403"
+                               "WF5_501"
+                               "WF5_502"
+			       "WF5_503"
+			       "WF5_601"
+                               "WF5_602"
+                               "WF5_603"
+                               "WF5_701"
+                               "WF5_702"
+			       "WF5_703"
+			       "WF5_801"
+                               "WF5_802"
+                               "WF5_803"
+                               "WF5_901"
+                               "WF5_902"
+			       "WF5_903")
+)
+
+(Package promech_pkg
+    (Name                      "Pro/MECHANICA")
+    (Cdsections                "mech"
+                               "mech2"
+                               "mech3"
+                               "mech4"
+                               "mech5"
+                               "mech6"
+                               "mech7"
+                               "mech8"
+                               "mech9"
+                               "mech10"
+                               "mech11"
+                               "mech12"
+                               "mech13"
+                               "mech14"
+                               "mech15"
+                               "mechInstall")
+    (Screens                   "LpcfgLinkpath")
+    (Installed                 True)
+)
+

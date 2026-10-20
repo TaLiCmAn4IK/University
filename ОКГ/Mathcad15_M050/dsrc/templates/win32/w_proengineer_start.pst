@@ -1,0 +1,69 @@
+// 14-Feb-02 $$1  MAZ  Copied from w_proengineer_start.tpl
+// 15-Mar-02 $$2  JJE  Spelling correction
+// 21-Mar-02 $$3  JJE  Add ZIP_EXEC
+// 27-Mar-02 $$4  MAZ  SPR 938762: Remove space before __PSF_DESC__
+// 04-Mar-02 $$5  MAZ  SPR 937310: Set MECH_HOME & PRO_MECH_COMMAND
+// 20-May-02 $$6  TWH  Fix MECH_HOME 948514
+// 22-Jul-02 $$7  JJE  Add PVIEW_HOME
+// 21-Aug-02 J-03-32  ALG  $$8   Change "proevconf" -> "ptcvconf"
+// 09-Oct-02 J-03-35  MAZ  $$9   Remove last line (it is empty)
+// 11-Nov-02 J-03-37  ECW  $$10  Change PVIEW_HOME to PVIEW_PVEXPORT_HOME
+// 09-Dec-02 J-03-39  JJE  $$11  Change CDRS_DATA and PRO_MECH_COMMAND
+// 24-Dec-02 J-03-39+ MAZ  $$12  SPR 995201: fix PRO_MECH_COMMAND
+// 16-Dec-02 J-03-40  MAZ        SPR 995230 & 995229: add illib to PATH
+// 31-Dec-02 J-03-40  TWH  $$13  Add ILINK_CMD_NAME,INTRALINK_CMD
+// 02-Jun-03 K-01-07+ TWH  $$14  Use __MECH_LP__ instead of __MECH_DIR__
+// 04-Oct-04 K-03-11  TWH  $$15  Add PVIEW_PVIMPORT_HOME
+// 17-May-05 K-03-25  MAZ  $$16  SPR 1144354: rm PRO_PHOTORENDER
+// 28-Nov-05 K-01-44  JJE        Call pro_mech_env
+// 28-Nov-05 K-03-37  JJE  $$17  Submit to K-03
+// 06-Mar-06 L-01-05  TWH        prepend license file information
+// 06-Mar-06 L-01-05  TWH  $$18  INCLUDE mech.psf if found
+// 24-May-07 L-01-32  AC   $$19  Use DEBUG_HLP_DLL_PATH for dbghelp.dll
+// 18-Jan-08 L-01-42  TWH  $$20  Update PVIEW settings
+// 16-May-08 L-03-09  TWH  $$21  Add Mozilla entry
+// 11-Jun-09 L-03-33  TWH  $$22  Don't set PTCNMSPORT env variable
+// 21-Jul-09 L-03-35  TWH  $$23  Remove GALAXY ref
+// 10-Mar-10 L-03-38  TWH  $$24  Add cadds
+// 06-Apr-10 L-03-38  TWH  $$25  Add DFOR_LP
+// PTC - PSF file: proe
+
+__PSF_COMMENT__ PTC - PSF file: proe 
+__PSF_COMMENT__
+PRODUCT=Pro/ENGINEER
+DESC=__PSF_DESC__
+ENV=INTRALINK_DIR=__INTRALINK_DIR__
+ENV=ILINK_CMD_NAME=__ILINK_CMD_NAME__
+ENV=INTRALINK_CMD=%INTRALINK_DIR%\bin\%ILINK_CMD_NAME%
+ENV=MECH_LP=__MECH_LP__
+ENV=MECH_HOME=%MECH_LP%\%PRO_MACHINE_TYPE%
+PSF=%MECH_LP%\install\nt\mech.psf
+ENV=PRO_MECH_COMMAND="%PRO_DIRECTORY%\bin\proe.exe" "%PRO_DIRECTORY%\bin\__SCRIPT_NAME__.psf"
+ENV=PATH+=%PRO_DIRECTORY%\%PRO_MACHINE_TYPE%\deflib
+ENV=PATH-=%PRO_DIRECTORY%\%PRO_MACHINE_TYPE%\lib
+ENV=PATH-=%INTRALINK_DIR%\%PRO_MACHINE_TYPE%\illib
+ENV=PATH+=__DFOR_PATH__
+ENV=NMSD_TIMEOUT=300
+ENV=PRO_COMM_MSG_EXE=%PRO_DIRECTORY%\%PRO_MACHINE_TYPE%\obj\pro_comm_msg.exe
+ENV=PROE_START=%PRO_DIRECTORY%\bin\proe.exe
+ENV=CDRS_DATA=__CDRS_DATA__
+ENV=PRO_IMAGE_CONVERTER=%PRO_DIRECTORY%\%PRO_MACHINE_TYPE%\obj\convert_image.exe
+ENV=PROGUIDE_DIRECTORY=%PRO_DIRECTORY%\uifdoc
+ENV=SPG_DIRECTORY=%PRO_DIRECTORY%
+ENV=PRO_USRMAIN=%PRO_DIRECTORY%\usrprog\umain\usrmain.c
+ENV=PROTABLE_DIRECTORY=%PRO_DIRECTORY%\protable
+ENV=MOZILLA_FIVE_HOME=%PRO_DIRECTORY%\%PRO_MACHINE_TYPE%\obj\MOZILLA
+ENV=PROTAB=%PRO_DIRECTORY%\%PRO_MACHINE_TYPE%\obj\protab.exe
+ENV=ZIP_EXEC=%PRO_DIRECTORY%\%PRO_MACHINE_TYPE%\obj\zip.exe
+ENV=CLHOME=%PRO_DIRECTORY%\text\pcldata
+ENV=PVIEW_PROEPVIEW_HOME=%PRO_DIRECTORY%\apps\prodview
+ENV=CV_ENV_HOME=__CV_ENV_HOME__
+ENV=VC_VCONF_START=%PRO_DIRECTORY%\%PRO_MACHINE_TYPE%\obj\ptcvconf.exe
+ENV=DEBUG_HLP_DLL_PATH=%PRO_DIRECTORY%\%PRO_MACHINE_TYPE%\lib\dbghelp.dll
+ENV=PTC_D_LICENSE_FILE-=__LM_LICENSE_FILE__
+ENV=PROE_FEATURE_NAME=__PROE_FEATURE_NAME__
+RUN="%MECH_LP%\install\nt\pro_mech_env.bat"
+RUN="%PRO_DIRECTORY%\%PRO_MACHINE_TYPE%\nms\nmsd.exe" -noservice -timeout %NMSD_TIMEOUT% &
+RUN="%PRO_DIRECTORY%\%PRO_MACHINE_TYPE%\obj\xtop.exe"
+__PSF_COMMENT__ USER - PSF 
+__PSF_COMMENT__ Add User specific environment or run applications below here

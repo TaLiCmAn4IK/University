@@ -1,0 +1,52 @@
+# {100} (100) [0] lic_serv.Label
+Simple
+簡単
+
+# [1] ServTypeGroup.Labels.1
+Single license server
+単一ライセンスサーバー
+
+# [2] ServTypeGroup.Labels.2
+Triad license server (fault tolerant)
+3 台構成ライセンスサーバー(障害許容)
+
+# [3] ServTypeGroup.Labels.3
+Locked license file (no server running)
+ロックライセンスファイル(起動中のサーバーなし)
+
+# [4] Label1.Label
+License Server
+ライセンスサーバー
+
+# [5] Label2.Label
+Hostname
+ホスト名
+
+# [6] Label3.Label
+Port
+ポート
+
+# [7] Label4.Label
+Triad partner 1
+三つ組パートナー 1
+
+# [8] Label5.Label
+Hostname
+ホスト名
+
+# [9] Label6.Label
+Port
+ポート
+
+# [10] Label7.Label
+Triad partner 2
+三つ組パートナー 2
+
+# [11] Label8.Label
+Triad partner 3
+三つ組パートナー 3
+
+# [12] Label9.Label
+License file path
+ライセンスファイルパス
+

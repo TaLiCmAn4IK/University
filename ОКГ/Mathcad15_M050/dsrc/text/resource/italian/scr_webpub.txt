@@ -1,0 +1,20 @@
+# {100} (100) [0] scr_webpub2.Label
+Web.Publish Configuration
+Configurazione di Web.Publish
+
+# [1] Label3.Label
+Cgi-bin Directory
+Directory cgi-bin
+
+# [2] Label4.Label
+Web Server MIME File
+File MIME server Web
+
+# [3] Label5.Label
+Document Root Directory
+Directory principale documenti
+
+# [4] scr_webpub3.Label
+Instructions
+Istruzioni
+

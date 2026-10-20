@@ -1,0 +1,192 @@
+# {100} (100) [0] Label1.Label
+Color
+颜色
+
+# [1] Label2.Label
+Settings
+设置
+
+# [2] Label3.Label
+&Red
+红色(&R)
+
+# [3] Label4.Label
+&Green
+绿色(&G)
+
+# [4] Label5.Label
+&Blue
+蓝色(&B)
+
+# [5] Label6.Label
+Color:
+颜色:
+
+# [6] Label7.Label
+Basic colors
+基本颜色
+
+# [7] Label8.Label
+Custom colors
+定制颜色
+
+# [8] Label9.Label
+OK
+确定
+
+# [9] Label10.Label
+Apply the changes and quit the window
+应用更改并退出窗口
+
+# [10] Label11.Label
+Cancel
+取消
+
+# [11] Label12.Label
+Abort changes and quit the window
+放弃更改并退出窗口
+
+# [12] Label13.Label
+Choose Directory
+选择目录
+
+# [13] Label14.Label
+&Path
+路径(&P)
+
+# [14] Label15.Label
+&OK
+确定(&O)
+
+# [15] Label16.Label
+&Cancel
+取消(&C)
+
+# [16] Label17.Label
+&Directories
+目录(&D)
+
+# [17] Label18.Label
+Dri&ves:
+驱动器(&V):
+
+# [18] Label19.Label
+Open File
+打开文件
+
+# [19] Label20.Label
+File &Name:
+文件名称(&N):
+
+# [20] Label21.Label
+List Files of &Type:
+列出文件类型(&T):
+
+# [21] Label22.Label
+&Folders:
+文件夹(&F):
+
+# [22] Label23.Label
+cwd
+cwd
+
+# [23] Label24.Label
+Find
+查找
+
+# [24] Label25.Label
+Match &Whole Word Only
+仅与整个字匹配(&W)
+
+# [25] Label26.Label
+Match &Case
+匹配条件(&C)
+
+# [26] Label27.Label
+Regular &Expression
+标准表达式(&E)
+
+# [27] Label28.Label
+Direction
+方向
+
+# [28] Label29.Label
+&Up
+向上(&U)
+
+# [29] Label30.Label
+&Down
+向下(&D)
+
+# [30] Label31.Label
+&Find Next
+查找下一个(&F)
+
+# [31] Label32.Label
+Replace &All
+全部替换(&A)
+
+# [32] Label33.Label
+Fi&nd What:
+查找对象(&N):
+
+# [33] Label34.Label
+Re&place With:
+用以替换的对象(&P):
+
+# [34] Label35.Label
+&Replace
+替换(&R)
+
+# [35] Label36.Label
+Replace
+替换
+
+# [36] Label37.Label
+Font
+字体
+
+# [37] Label38.Label
+&Font:
+字体(&F):
+
+# [38] Label39.Label
+St&yle:
+样式(&Y):
+
+# [39] Label40.Label
+&Size:
+字号(&S):
+
+# [40] Label41.Label
+Sample
+示例
+
+# [41] Label42.Label
+Error
+错误
+
+# [42] Label43.Label
+&Abort
+中止(&A)
+
+# [43] Label44.Label
+&Retry
+重试(&R)
+
+# [44] Label45.Label
+&Ignore
+忽略(&I)
+
+# [45] Label46.Label
+&Yes
+是(&Y)
+
+# [46] Label47.Label
+&No
+否(&N)
+
+# [47] Label48.Label
+Confirm
+确认
+

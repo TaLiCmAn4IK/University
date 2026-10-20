@@ -1,0 +1,56 @@
+# {0} (15) [0] scr_rn_adptr1.Label
+Info*Engine Adapter Settings
+Impostazioni scheda Info*Engine
+
+# [1] portnumberLab.Label
+Port Number
+Numero di porta
+
+# [2] useridLab.Label
+User Name
+Nome utente
+
+# [3] passwordLab.Label
+Password
+Password
+
+# [4] scr_rn_adptr2.Label
+Info*Engine Configurations
+Configurazioni Info*Engine
+
+# [5] IEInstallDirLab.Label
+Installation Directory
+Directory di installazione
+
+# [6] IEInstallDir.Value
+C:\ptc\Windchill
+C:\ptc\Windchill
+
+# [7] IEServiceLab.Label
+Naming Service Name
+Nome servizio nomi
+
+# [8] scr_rn_adptr3.Label
+LDAP Directory Access
+Accesso alla directory LDAP
+
+# [9] LDAPHostLab.Label
+Server Host Name
+Nome host server
+
+# [10] LDAPPortLab.Label
+Port Number
+Numero di porta
+
+# [12] LDAPUserLab.Label
+User Distinguished Name
+Nome distintivo utente
+
+# [13] LDAPPasswordLab.Label
+User Password
+Password utente
+
+# [14] IEPropNameLab.Label
+Info*Engine Properties\nBase Distinguished Name
+Proprietà Info*Engine\nNome distintivo di base
+

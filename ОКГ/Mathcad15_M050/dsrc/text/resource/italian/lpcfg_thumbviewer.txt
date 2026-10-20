@@ -1,0 +1,12 @@
+# {100} (100) [0] TV_Label.Label
+Install location for Thumbnail viewer
+Percorso installazione di Visualizzatore miniature
+
+# [1] TV_Status.Label
+Not Installed
+Non installato
+
+# [2] lpcfg_thumbviewer2.Label
+Instructions
+Istruzioni
+

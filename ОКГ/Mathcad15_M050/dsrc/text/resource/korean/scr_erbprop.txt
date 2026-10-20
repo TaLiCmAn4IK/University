@@ -1,0 +1,16 @@
+# {0} (4) [0] scr_erbprop2.Label
+Windchill Info*Engine Settings
+Windchill Info*Engine 설정
+
+# [1] IEWebServerURLLab.Label
+Web Server URL
+웹 서버 URL
+
+# [2] IEWebServerPortNoLab.Label
+Web Server Port Number
+웹 서버 포트 번호
+
+# [3] IETaskDirectoryAliasLab.Label
+Task Directory Alias
+태스크 디렉토리 앨리어스
+

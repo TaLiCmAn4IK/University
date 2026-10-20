@@ -1,0 +1,32 @@
+# {61203} (18) [10] scr_wsconfig.Label
+Workgroup Manager for PRODUCT_NAME Workspace Configuration
+設定PRODUCT_NAME工作區群組態的工作群組管理員
+
+# [11] scr_wsconfig2.Label
+Workspace Configuration
+設定工作區組態
+
+# [12] TeamNameLab.Label
+Team Name
+團隊名稱
+
+# [13] PartLifecycleLab.Label
+Part Lifecycle
+零件生命週期
+
+# [14] DocLifecycleLab.Label
+Document Lifecycle
+文件生命週期
+
+# [15] PartViewLab.Label
+Part View
+零件視圖
+
+# [16] LabelRO.Label
+Read-Only
+唯讀
+
+# [17] TextArea.Value
+Specify the Workspace Configuration names that are to be saved in the 'site' located preference file and set the permissions for each configuration.
+指定將儲存在偏好選項檔案中'site'處的「工作區組態設定」的名稱，並為每一組態設定權限。
+

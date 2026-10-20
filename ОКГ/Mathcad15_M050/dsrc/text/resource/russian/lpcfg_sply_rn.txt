@@ -1,0 +1,52 @@
+# {100} (100) [0] lpcfg_sply_rn2.Label
+Configuration Properties
+Свойства конфигурации
+
+# [1] rmi_port_label.Label
+RMI Registry Port Number
+Номер порта реестра протокола RMI
+
+# [2] rmi_port.Value
+10011
+
+
+# [3] lpcfg_sply_rn3.Label
+Windchill Gateway for RosettaNet Properties
+Шлюз Windchill для свойств RosettaNet
+
+# [4] port_label.Label
+Port Number
+Номер порта
+
+# [5] port.Value
+10080
+
+
+# [6] duns_label.Label
+DUNS Number
+Номер DUNS
+
+# [7] duns.Value
+100000000
+
+
+# [8] lpcfg_sply_rn4.Label
+Windchill RosettaNet Adapter Properties
+Свойства адаптера Windchill RosettaNet
+
+# [9] ieport_label.Label
+Port Number
+Номер порта
+
+# [10] user_label.Label
+User Name
+Имя пользователя
+
+# [11] passwd_label.Label
+Password
+Пароль
+
+# [12] ieport.Value
+10066
+
+

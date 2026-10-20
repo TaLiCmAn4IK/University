@@ -1,0 +1,8 @@
+# {0} (2) [0] Label1.Label
+Full path to the Application Manager installation directory
+アプリケーションマネージャインストールディレクトリへの絶対パス
+
+# [1] AppmgrBrowse.Label
+Browse
+ブラウズ
+

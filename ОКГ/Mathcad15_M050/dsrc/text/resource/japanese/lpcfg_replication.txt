@@ -1,0 +1,20 @@
+# {0} (5) [0] lpcfg_replication2.Label
+Replication Settings
+レプリケーション設定
+
+# [1] ServeReplicas.Label
+Replicate data from this server
+このサーバーのデータを複製
+
+# [2] HostReplicas.Label
+Host replica data for other servers
+別サーバーのホストレプリカデータ
+
+# [3] StdDisable.Label
+Disable all non-replication services
+レプリケーション以外のサービスを使用不可に設定
+
+# [4] SiteNameLab.Label
+Name of site hosting replica data
+サイトホストレプリカデータ名
+

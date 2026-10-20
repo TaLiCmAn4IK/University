@@ -1,0 +1,28 @@
+# {100} (100) [0] scr_ieserver2.Label
+Windchill Info*Engine Server and Servlet Configuration
+Конфигурация сервера и сервлетов Windchill Info*Engine
+
+# [1] AppURLLab.Label
+Application URL
+URL приложения
+
+# [2] AppURL.Value
+infoengine
+infoengine
+
+# [3] scr_auth.Label
+Windchill Info*Engine Servlet Authentication
+Аутентификация сервлета Windchill Info*Engine
+
+# [4] AuthRealmLab.Label
+Authentication HTTP Realm
+Идентификация HTTP области
+
+# [5] IdleTimeoutLab.Label
+Idle Timeout (minutes)
+Время ожидания простоя (мин)
+
+# [6] AuthTaskLab.Label
+Authentication Task Relative Path 
+Относительный путь задачи аутентификации 
+

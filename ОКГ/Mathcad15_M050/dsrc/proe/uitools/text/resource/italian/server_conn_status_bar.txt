@@ -1,0 +1,40 @@
+# {100} (100) [0] conn_status_cscbtn.Label
+Not Synchronized
+Sincronizzazione non effettuata
+
+# [1] conn_status_icon_pshbtn.Label
+Connected
+Collegato
+
+# [2] server_identity.Label
+ProductPoint Server
+Server ProductPoint
+
+# [3] server_quick_view_pshbtn.Label
+Server Quick View ...
+Anteprima server...
+
+# [4] open_server_status_monitor.Label
+Open Server Status Monitor
+Apri monitor stato server
+
+# [5] set_notification_preferences.Label
+Set Notification Preferences
+Imposta preferenze di notifica
+
+# [6] display_change_notification.Label
+Display Change Notifications
+Visualizza notifiche di modifica
+
+# [7] sync_auto_chkbtn.Label
+Synchronize Automatically
+Sincronizza automaticamente
+
+# [8] sync_manual_chkbtn.Label
+Synchronize Manually
+Sincronizza manualmente
+
+# [9] sync_w_conn_srv_pshbtn.Label
+Synchronize Now
+Sincronizza ora
+

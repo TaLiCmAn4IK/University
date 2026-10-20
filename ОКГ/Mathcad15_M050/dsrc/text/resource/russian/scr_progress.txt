@@ -1,0 +1,20 @@
+# {100} (100) [0] StatusLayout.Label
+Installation Progress
+Ход установки
+
+# [1] ProgressCancel.Label
+Cancel
+Отмена
+
+# [2] ProgressLab.Label
+Ready to begin installation.
+Готов начать установку.
+
+# [3] Label6.Label
+Download Progress
+Ход загрузки
+
+# [4] Label5.Label
+Installation Complete
+Установка завершена
+

@@ -1,0 +1,20 @@
+!===========================================================================
+!
+! 04-Mar-01 J-01-27 AKam     $$1     Submitted.
+!
+!===========================================================================
+
+(Image pipe_connect
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     4)
+    )
+    (Data
+        D5FFC506FFFFC200FF020A070A070A070AFFFF00070E070EFF02070A070A070A
+        07FFFF000EC000FF020A070A070A070AFFFF000700C0FFC502FFFF000E00CAFF
+        000700CAFF000E00CAFF000700CAFF000E00CAFF000700C0FFC506FFFF000EC0
+        00FF020A070A070A070AFFFF00070E070EFF02070A070A070A07FFFFC200FF02
+        0A070A070A070AC5FFC502
+    )
+)

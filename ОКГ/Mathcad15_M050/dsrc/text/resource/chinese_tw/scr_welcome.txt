@@ -1,0 +1,44 @@
+# {100} (100) [0] FootnoteLab.Label
+FootnoteLab AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+FootnoteLab AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+# [1] CpuidLab.Label
+Hostname: serpico.ptc.com\nPTC HostID: 00-00-00-00-00-00
+主機名稱: serpico.ptc.com\nPTC HostID: 00-00-00-00-00-00
+
+# [2] CountryLab.Label
+Select your country:
+選取國家:
+
+# [3] SecondProdLayout.Label
+b
+b
+
+# [4] OpenSecondProd.Label
+Other Products
+其餘產品
+
+# [5] Label8.Label
+Copyright ?2011 Parametric Technology Corporation and its Licensors. All Rights Reserved.\nSee Help-About for Important Information Concerning Copyrights, Trademarks, Patents, Licensing and Data Collection
+?2011 Parametric Technology Corporation 及其授權者著作權所有，保留所有權利。\n有關著作權、商標、專利、授權及資料收集等重要資訊，詳見「說明」-「關於」。
+
+# [6] LicAgreeReg.Label
+License Agreement Regulations
+授權許可規定
+
+# [7] PrintLicAgree.Label
+Printable Version
+可印版本
+
+# [8] Label9.Label
+You must accept the license agreement to proceed
+您必須接受授權許可協定才能繼續
+
+# [9] AcceptBtn.Label
+I &accept
+我接受(&A)
+
+# [10] DeclineBtn.Label
+I &decline
+我拒絕(&D)
+

@@ -1,0 +1,152 @@
+// 28-Dec-99 $$1  TWH  Created.
+// 17-Mar-00      TWH  Convert to Java client
+// 28-Mar-00 $$2  TWH  Group Submission
+// 18-Apr-00      TWH  Add ScreenJava
+// 26-Apr-00      TWH  Fix cmdType
+// 05-May-00 $$3  TWH  Add OldTag
+// 14-Dec-00 $$4  TWH  Drop ptcmonitor
+// 30-Jan-01 $$5  TWH  Add CmdType Prop values
+// 12-Feb-01 $$6  TWH  Use ScreenLicAgree, drop ScreenJava
+// 28-Feb-01 $$7  TWH  Add ptcutil, uninstall
+// 08-Mar-01 $$8  TWH  Add PossibleArchs
+// 13-Apr-01 $$9  TWH  Add distribute_object binscript
+// 09-Aug-01      TWH  Add ldbcompact
+// 06-Sep-01 $$10 TWH  Add sync_names, subscribe_package
+//                     bom_hierarchical_output
+// 12-Nov-01 $$11 TWH  Add SSILINKCLIENT_
+// 31-Jan-02 $$12 MAZ  Use ptchostid script (SPR 921507)
+// 18-Mar-02 $$13 TWH  Drop bom_hierarchical_output; add mark_replica
+// 28-May-02 $$14 TWH  Require base pkg
+// 18-Oct-02 $$15 MAZ  Add AEplpVersion for ae_msg file creation
+// 19-Feb-03 J-03-41+ MAZ  $$16  Change AEplpVersion to 3.3
+// 04-Mar-03 K-01-06  TWH  $$17  LpcfgWindows->ScreenWindows
+// 21-Jul-03 K-01-11 $$18  JJE  Add ptcborrow and ptcreturn scripts
+// 21-Aug-03 K-01-13 TWH  $$19  Set Prop NoPSFSupport
+// 03-Nov-03 K-01-17 TWH  $$20  ibm dropped from possible archs
+// 15-Dec-03 K-01-20 $$21  MAZ  Remove borrow scripts
+// 09-Apr-04 K-01-26 $$22  TWH  Add Ad_list; ProductInteropt
+// 27-Apr-04 K-01-26+$$23  TWH  Add JRE cdsection
+// 26-Sep-05 K-03-32 $$24  TWH  Add x86e_win64; drop win95
+// 21-Dec-07 L-01-41 $$25  TWH  New Ad_list
+// 15-Jan-2008 L-01-42+  TWH  $$26  Rename Ads files
+// 28-Feb-08 L-03-05  $$27 TWH  Chg platform support
+// 27-Jun-08 L-03-12 $$28 TWH  New WelcomeImage
+// 21-Apr-09 L-03-31 $$29 TWH  Drop HPUX
+// 27-Jul-09 L-03-34 $$30 TWH  Update WF5 images
+// 04-Nov-09 L-03-36 $$31 TWH  Update WF5 images
+
+(Product proiclient
+    (Name                      "Pro/INTRALINK Client")
+    (WelcomeImage              "proiclient_name.png")
+    (Packages                  "proiclient_base"
+                               "proiclient_demos"
+                               "ptcutil"
+                               "uninstall")
+    (ProgramFiles              False)
+    (LpDirName                 "proiclient")
+    (Screens                   "ScreenProd")
+    (SaveList                  "pdm/templates/template.prt"
+                               "pdm/templates/template.asm")
+    (Installed                 True)
+    (PossibleArchs             "sun4_solaris_64"
+                               "x86e_win64"
+                               "i486_nt")
+    (ScreenDbssvr.MS_SS_Visible True)
+    (ScreenDbssvr.MS_SS_Radio  "MS")
+    (AEplpVersion              "3.4")
+    (NoPSFSupport               True)
+    (LicenseSimplification      True)
+(Ad_list                    "WF5_101"
+                               "WF5_102"
+                               "WF5_103"
+                               "WF5_104"
+                               "WF5_201"
+                               "WF5_202"
+                               "WF5_203"
+                               "WF5_204"
+                               "WF5_301"
+                               "WF5_302"
+                               "WF5_303"
+                               "WF5_304"
+                               "WF5_401"
+                               "WF5_402"
+                               "WF5_403"
+                               "WF5_501"
+                               "WF5_502"
+			       "WF5_503"
+			       "WF5_601"
+                               "WF5_602"
+                               "WF5_603"
+                               "WF5_701"
+                               "WF5_702"
+			       "WF5_703"
+			       "WF5_801"
+                               "WF5_802"
+                               "WF5_803"
+                               "WF5_901"
+                               "WF5_902"
+			       "WF5_903")
+)
+
+(Package proiclient_base
+    (Name                      "Pro/INTRALINK Client")
+    (Screens                   "ScreenLicAgree"
+                               "ScreenDbssvr"
+                               "ScreenLicList"
+                               "ScreenWindows"
+                               "ScreenDftCmds"
+                               "LpcfgCmdList"
+                               "LpcfgLinkpath"
+                               "LpcfgInterOpt"
+                               "LpcfgProHelp"
+                               "LpcfgBrowser")
+    (CmdTypes                  "ilink")
+    (Binscripts                "ptchostid"
+                               "ptcflush"
+                               "ptcstatus"
+                               "tnsping"
+                               "distribute_object"
+                               "sync_names"
+                               "subscribe_package"
+                               "mark_replica"
+                               "ldbcompact"
+                               "replicate_folder")
+    (Cdsections                "client"
+                               "JRE"
+                               "oraruntime"
+                               "flexclient"
+                               "Install")
+    (Installed                 True)
+    (Required                  True)
+)
+
+(Package proiclient_demos
+    (Name                      "Pro/INTRALINK Demos")
+    (Cdsections                "demo")
+    (Installed                 False)
+)
+
+(CmdType ilink
+    (Name                      "proiclient22")
+    (DefName                   "proilink")
+    (OldTag                    "prointralink")
+    (Type                      "Pro/INTRALINK")
+//    (Prefixes                  "ILINK_CLIENT_ SSILINKCLIENT_")
+    (Featvars                  "__ILINK_FEATURE_NAME__")
+    (Template                  "f_intralink_start")
+    (UseExtensions             False)
+    (UseOptions                False)
+)
+
+(ProductInteraction proe
+    (Decorated                 True)
+    (Label                     "Pro/ENGINEER integration (optional)")
+    (RegKeyName                "Pro/ENGINEER")
+    (ShowLP                    True)
+    (LPRequired                False)
+    (LPEnv                     "PROE_DIR")
+    (ShowCmd                   True)
+    (CmdTypeTag                "proe")
+    (CmdRequired               False)
+    (CmdEnv                    "PROE_START")
+)

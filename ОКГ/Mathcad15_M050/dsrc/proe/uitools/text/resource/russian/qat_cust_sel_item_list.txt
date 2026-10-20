@@ -1,0 +1,52 @@
+# {100} (100) [0] list_SelectFrom.HelpText
+Choose command from list
+Укажите команду из списка
+
+# [1] psh_add.Label
+&Add >>
+Доб&авить >>
+
+# [2] psh_remove.Label
+&Remove
+&Удалить
+
+# [3] psh_reset.Label
+Re&set
+С&бросить
+
+# [4] psh_reset.HelpText
+Reset the content of the Quick Access Toolbar to the default
+Восстановить содержимое панели быстрого доступа по умолчанию
+
+# [5] psh_moveUp.Label
+Move Up
+Вверх
+
+# [6] psh_moveUp.HelpText
+Move selected command upwards in the list.
+Двигать выбранную команду вверх по списку.
+
+# [7] psh_moveDown.Label
+Move Down
+Вниз
+
+# [8] psh_moveDown.HelpText
+Move selected command downwards in the list.
+Двигать выбранную команду вниз по списку.
+
+# [9] lbl_choose_cmd_from.Label
+&Choose command from:
+&Указать команду из:
+
+# [10] lbl_qa_toolbar_content.Label
+Customize &Quick Access Toolbar:
+Настроить &панель быстрого доступа:
+
+# [11] opt_choose_cmd_from.Labels.sel_AllCmd
+All Commands
+Все команды
+
+# [12] opt_choose_cmd_from.Labels.separator_tabs
+--------------
+--------------
+

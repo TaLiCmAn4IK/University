@@ -1,0 +1,40 @@
+# {100} (100) [0] LpLab.Label
+Temporary Directory for Migration Process
+移轉流程的臨時目錄
+
+# [1] LpBrowse.HelpText
+Browse for Installation Directory
+瀏覽安裝目錄
+
+# [2] MigDiskSpaceLayout.Label
+Disk Space
+磁碟空間
+
+# [3] SpaceAvailLab.Label
+Available on C: 9999GB
+C 碟的可用空間: 9999GB
+
+# [4] SpaceReqLab.Label
+Required on C: 9999GB
+C碟需要空間: 9999GB
+
+# [5] Label6.Label
+Oracle 'SYSTEM' Password
+Oracle'SYSTEM'密碼
+
+# [6] MigrateGroup.Labels.0
+Generate report on Data Server configuration only
+僅產生關於資料伺服器組態的報表
+
+# [7] MigrateGroup.Labels.1
+Perform export migration step with report generation
+執行具有產生報表的匯出移轉步驟
+
+# [8] Label7.Label
+Status:
+狀態:
+
+# [9] Status.Label
+Migration Required
+必須移轉
+

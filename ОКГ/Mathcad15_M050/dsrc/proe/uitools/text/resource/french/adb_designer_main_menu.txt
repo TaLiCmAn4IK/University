@@ -1,0 +1,48 @@
+# {100} (100) [0] adb_designerShowMenuBar.Label
+Show/Hide MenuBar
+Afficher/cacher la barre de menus
+
+# [1] adb_designerAddNewPage.Label
+Add Page
+Ajouter une page
+
+# [2] adb_designerInheritPage.Label
+Inherit Page
+Page héritée
+
+# [3] adb_designerRenamePage.Label
+Rename Current Page
+Renommer la page active
+
+# [4] adb_designerRemovePage.Label
+Remove Current Page
+Supprimer la page active
+
+# [5] adb_designerAddNewGroup.Label
+Add Group
+Ajouter un groupe
+
+# [6] adb_designerInheritGroup.Label
+Inherit Group
+Groupe hérité
+
+# [7] adb_designerAddEGPage.Label
+Add External Groups Page
+Ajouter une page de groupes externes
+
+# [8] adb_designerRemoveEGPage.Label
+Remove External Groups Page
+Supprimer une page de groupes externes
+
+# [9] adb_designerAddNewAdb.Label
+Create New Ribbon
+Créer un nouveau ruban
+
+# [10] adb_designerLoadResource.Label
+Load Ribbon
+Charger le ruban
+
+# [11] adb_designerStoreResource.Label
+Save Ribbon
+Enregistrer le ruban
+

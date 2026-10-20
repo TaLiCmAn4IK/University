@@ -1,0 +1,48 @@
+# {100} (100) [0] adb_designerShowMenuBar.Label
+Show/Hide MenuBar
+メニューバーを表示/非表示
+
+# [1] adb_designerAddNewPage.Label
+Add Page
+ページを追加
+
+# [2] adb_designerInheritPage.Label
+Inherit Page
+継承ページ
+
+# [3] adb_designerRenamePage.Label
+Rename Current Page
+カレントページを名前変更
+
+# [4] adb_designerRemovePage.Label
+Remove Current Page
+カレントページを除去
+
+# [5] adb_designerAddNewGroup.Label
+Add Group
+グループを追加
+
+# [6] adb_designerInheritGroup.Label
+Inherit Group
+継承グループ
+
+# [7] adb_designerAddEGPage.Label
+Add External Groups Page
+外部グループページを追加
+
+# [8] adb_designerRemoveEGPage.Label
+Remove External Groups Page
+外部グループページを除去
+
+# [9] adb_designerAddNewAdb.Label
+Create New Ribbon
+新規リボンを作成
+
+# [10] adb_designerLoadResource.Label
+Load Ribbon
+リボンをロード
+
+# [11] adb_designerStoreResource.Label
+Save Ribbon
+リボンを保存
+

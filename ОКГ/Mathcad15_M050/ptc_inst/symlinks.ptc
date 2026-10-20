@@ -1,0 +1,32 @@
+//
+// 27-Apr-05 K-03-23+  $$1  MAZ TEMP file for K-03-23 
+//
+// This file should be created dynamically by cd-creator in future builds
+// please obsolete this file once cd-creator is ready
+
+(SymLinksProps props 
+    (Separator      "=")
+)
+
+(SymLinks links 
+    ("hpux_pa64jre"  "hpux_pa64/obj/JRE/javaws/javaws=../bin/javaws"
+                     "hpux_pa64/obj/JRE/lib/PA_RISC2.0/hotspot=./server"
+                     "hpux_pa64/obj/JRE/lib/PA_RISC2.0/server/libjsig.sl=../libjsig.sl"
+                     "hpux_pa64/obj/JRE/lib/PA_RISC2.0W/hotspot=./server"
+                     "hpux_pa64/obj/JRE/lib/PA_RISC2.0W/server/libjsig.sl=../libjsig.sl"
+                     "hpux_pa64/obj/JRE/man/ja=ja_JP.eucJP")
+
+    ("i486_linuxjre" "i486_linux/obj/JRE/javaws/javaws=../bin/javaws"
+                     "i486_linux/obj/JRE/lib/i386/client/libjsig.so=../libjsig.so"
+                     "i486_linux/obj/JRE/lib/i386/server/libjsig.so=../libjsig.so"
+                     "i486_linux/obj/JRE/man/ja=ja_JP.eucJP")
+
+    ("sun4_solaris_64jre"  "sun4_solaris/JRE/javaws/javaws=../bin/javaws"
+                     "sun4_solaris_64/obj/JRE/lib/sparc/client/libjsig.so=../libjsig.so"
+                     "sun4_solaris_64/obj/JRE/lib/sparc/libjdgaSUNWafb.so=libjdgaSUNWffb.so"
+                     "sun4_solaris_64/obj/JRE/lib/sparc/libjvm.so=client/libjvm.so"
+                     "sun4_solaris_64/obj/JRE/lib/sparc/server/libjsig.so=../libjsig.so"
+                     "sun4_solaris_64/obj/JRE/lib/sparcv9/libjdgaSUNWafb.so=libjdgaSUNWffb.so"
+                     "sun4_solaris_64/obj/JRE/lib/sparcv9/server/libjsig.so=../libjsig.so")
+)
+

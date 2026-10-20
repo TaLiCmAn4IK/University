@@ -1,0 +1,36 @@
+# {100} (100) [0] dlg_httppword.Label
+Web Site Authentication
+웹 사이트 인증
+
+# [1] Lab_Please.Label
+Please type your user name and password.
+사용자이름과 암호를 입력하십시오.
+
+# [2] Lab_Realm.Label
+Realm:
+범위:
+
+# [3] Inp_Realm.Label
+Web site realm
+웹 사이트 범위
+
+# [4] Lab_User.Label
+&User Name
+사용자 이름(&U)
+
+# [5] Lab_PWord.Label
+Password
+암호
+
+# [6] OkBtn.Label
+OK
+확인
+
+# [7] CancelBtn.Label
+Cancel
+취소
+
+# [8] Lab_Retry.Label
+Authentication failed, please try again.
+인증 실패, 다시 시도해보십시오.
+

@@ -1,0 +1,8 @@
+# {100} (100) [0] Label6.Label
+Data Server Enter password for Oracle Administrative User 'SYSTEM':
+Datenserver Passwort für Oracle administrativen Benutzer 'SYSTEM' eingeben:
+
+# [1] Label5.Label
+Enter Internal Data Server password:
+Internes Passwort für Datenserver eingeben:
+

@@ -1,0 +1,34 @@
+// 14-Jul-01 $$1  TWH  Created
+// 25-Jul-01      TWH  Add Dataserver Props
+// 02-Aug-01 $$2  TWH  Add PossibleLangs
+// 20-Dec-01 $$3  TWH  Add IgnoreHostDependencies 
+
+(Product cnvserver 
+    (Name                "Pro/CONVERT Server")
+    (Packages            "serverpkg")
+    (ProgramFiles        False)
+    (LpDirName           "dataserver")
+    (Screens             "ScreenProd")
+    (Installed           True)
+    (StandAlone          False)
+    (HostProd            "ilnkdataserver")
+    (DBSize.0            "130")
+    (DBSize.1            "420")
+    (DBSize.2            "1950")
+    (IgnoreHostDependencies "yes")
+    (PossibleLangs       "usascii"
+                         "french"
+                         "german"
+                         "japanese")
+    (ShowMigrate         False)
+)
+
+(Package serverpkg
+    (Name                "Pro/CONVERT Server")
+    (Screens             "ScreenDataserver")
+    (Required            True)
+    (Cdsections          "convertserver"
+                         "Install")
+    (Installed           True)
+)
+ 

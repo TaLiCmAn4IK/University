@@ -1,0 +1,8 @@
+# {0} (6) [0] ps.Label
+PTC.Setup
+PTC.Setup
+
+# [5] Label2.Label
+Initializing PTC.Setup ...
+PTC.Setup を初期化 ...
+

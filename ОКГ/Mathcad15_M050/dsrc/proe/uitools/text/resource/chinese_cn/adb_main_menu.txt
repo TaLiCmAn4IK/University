@@ -1,0 +1,16 @@
+# {100} (100) [0] adb_pshCommands.Label
+Commands...
+命令...
+
+# [1] adb_pshCommands.HelpText
+Activates the customize screen dialog box and displays by default the commands tab
+激活“定制屏幕”对话框，缺省情况下显示“命令”选项卡
+
+# [2] adb_minimizeRibbon.Label
+Mi&nimize the Ribbon
+最小化带(&N)
+
+# [3] adb_minimizeRibbon.HelpText
+Toggles the display of the application dashboard between expanded and collapsed
+切换显示应用程序操控板的展开和收缩
+

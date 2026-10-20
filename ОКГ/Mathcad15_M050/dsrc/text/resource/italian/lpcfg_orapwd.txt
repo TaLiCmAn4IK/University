@@ -1,0 +1,12 @@
+# {0} (3) [0] Label1.Label
+Enter password for Oracle Administrative User 'SYSTEM' 
+Password 'SYSTEM' per utente amministrativo Oracle
+
+# [1] InternalLab.Label
+Enter Database User password
+Immettere password utente per database
+
+# [2] lpcfg_orapwd3.Label
+Instructions
+Istruzioni
+

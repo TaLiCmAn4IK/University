@@ -1,0 +1,40 @@
+# {100} (100) [0] LpLab.Label
+Temporary Directory for Migration Process
+마이그레이션용 임시 디렉토리
+
+# [1] LpBrowse.HelpText
+Browse for Installation Directory
+설치 디렉토리 검색
+
+# [2] MigDiskSpaceLayout.Label
+Disk Space
+디스크 공간
+
+# [3] SpaceAvailLab.Label
+Available on C: 9999GB
+C 여유 공간 : 9999GB
+
+# [4] SpaceReqLab.Label
+Required on C: 9999GB
+C 필요 공간: 9999GB
+
+# [5] Label6.Label
+Oracle 'SYSTEM' Password
+Oracle 'SYSTEM' 암호
+
+# [6] MigrateGroup.Labels.0
+Generate report on Data Server configuration only
+Data Server 구성 전용 리포트 생성
+
+# [7] MigrateGroup.Labels.1
+Perform export migration step with report generation
+리포트 생성과 함께 내보내기 마이그레이션 단계 실행
+
+# [8] Label7.Label
+Status:
+상태:
+
+# [9] Status.Label
+Migration Required
+마이그레이션 필요
+

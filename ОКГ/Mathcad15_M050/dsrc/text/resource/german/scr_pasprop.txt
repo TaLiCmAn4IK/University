@@ -1,0 +1,44 @@
+# {70114} (11) [0] scr_pasprop2.Label
+PAS Configuration Properties
+PAS Konfigurationseigenschaften
+
+# [1] HostnameLab.Label
+Fully Qualified Hostname
+Vollständig definierter Hostname
+
+# [2] WebUrlLab.Label
+Web server alias
+Aliasname für Web-Server
+
+# [3] ServletLab.Label
+Servlet engine alias
+Aliasname für Servlet Engine
+
+# [4] PortLab.Label
+Port number
+Portnummer
+
+# [5] RevisionMapLab.Label
+Revision mapping ?
+Änderungsstand-Mapping?
+
+# [6] RevisionMap.Labels.1
+True
+Wahr
+
+# [7] RevisionMap.Labels.0
+False
+Falsch
+
+# [8] LogFile.Labels.1
+True
+Wahr
+
+# [9] LogFile.Labels.0
+False
+Falsch
+
+# [10] LogFileLab.Label
+Logfile ?
+Protokolldatei?
+

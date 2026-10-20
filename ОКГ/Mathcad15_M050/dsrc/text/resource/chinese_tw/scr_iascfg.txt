@@ -1,0 +1,24 @@
+# {100} (100) [0] scr_iascfg2.Label
+Application Server Settings
+應用程式伺服器設定
+
+# [1] CommPortLab.Label
+Communication port number
+通訊連接埠號
+
+# [2] FeatureLab.Label
+License feature name
+許可證特徵名稱
+
+# [3] LogFileLab.Label
+File to store server log files
+儲存伺服器日誌檔案的檔案
+
+# [4] FeatureModify.Label
+Modify
+修改
+
+# [5] TimeoutLab.Label
+Idle Timeout (minutes)
+閒置逾時(分鐘)
+

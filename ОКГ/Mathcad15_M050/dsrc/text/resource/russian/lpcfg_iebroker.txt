@@ -1,0 +1,32 @@
+# {100} (100) [0] lpcfg_iebroker2.Label
+E-Mail Broker Configuration
+Настройка брокера E-Mail
+
+# [1] EmailServerLab.Label
+E-Mail Server Host Name
+Имя компьютера сервера E-Mail
+
+# [2] UsernameLab.Label
+Account User Name
+Имя пользователя Записи
+
+# [3] PasswdLab.Label
+Account Password
+Пароль Записи
+
+# [4] FolderLab.Label
+E-Mail Folder
+Папка E-Mail
+
+# [5] AdminLab.Label
+Administrator E-Mail Address
+Адрес администратора E-Mail
+
+# [6] TimeLab.Label
+Time Between Checks (seconds)
+Время между проверками (сек)
+
+# [7] DelCheckBox.Label
+Delete Processed Messages?
+Удалять обработанные сообщения?
+

@@ -1,0 +1,12 @@
+# {100} (100) [0] DummyLayout.Label
+Dummy
+ダミー
+
+# [1] OkPshBtn.Label
+OK
+OK
+
+# [2] CancelPshBtn.Label
+Cancel
+キャンセル
+

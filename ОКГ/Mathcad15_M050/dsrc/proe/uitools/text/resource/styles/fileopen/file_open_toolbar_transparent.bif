@@ -1,0 +1,14 @@
+!
+! 18-Oct-07 L-01-40  AW      $$1  Created
+!
+
+(Image file_open_toolbar_transparent
+    (Resources
+        (.Width     8)
+        (.Height    26)
+        (.Depth     8)
+    )
+    (Data
+        CDC6FF
+    )
+)

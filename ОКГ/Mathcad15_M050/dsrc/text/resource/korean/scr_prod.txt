@@ -1,0 +1,36 @@
+# {100} (100) [0] LpLayout.Label
+Destination Folder
+대상 폴더
+
+# [1] LpLab.Label
+Destination Folder
+대상 폴더
+
+# [2] LpBrowse.HelpText
+Browse for Installation Directory
+설치 디렉토리 검색
+
+# [3] LpReleaseLab.Label
+Dummy Label
+더미 이름표
+
+# [4] DiskSpaceLayout.Label
+Disk Space
+디스크 공간
+
+# [5] SpaceAvailLab.Label
+Available on C: 9999GB
+C 여유 공간 : 9999GB
+
+# [6] SpaceReqLab.Label
+Required on C: 9999GB
+C 필요 공간: 9999GB
+
+# [7] CompDescTA.Value
+Select a product feature to view its description.
+설명을 보려면 제품 기능을 선택하십시오
+
+# [8] ProdTreeLab.Label
+Features to Install
+설치할 기능
+

@@ -1,0 +1,24 @@
+# {0} (6) [0] scr_ieopt2.Label
+Windchill Info*Engine Server Settings
+Windchill Info*Engine服务器设置
+
+# [1] TempRootLab.Label
+Template Processor HTML Directory
+模板处理器HTML目录
+
+# [2] TaskRootLab.Label
+Task Processor XML Directory
+任务处理器XML目录
+
+# [3] scr_ieopt3.Label
+Info*Engine Adapter Settings
+Info*Engine适配器设置
+
+# [4] AdapterHostLab.Label
+Adapter Host
+适配器主机
+
+# [5] AdapterPortLab.Label
+Adapter Port
+适配器端口
+

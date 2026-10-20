@@ -1,0 +1,72 @@
+# {100} (100) [0] adb_CmdDisplayType.Labels.DefaultStyle
+Default Style
+預設造型
+
+# [1] adb_CmdDisplayType.Labels.Small
+Small Button
+小按紐
+
+# [2] adb_CmdDisplayType.Labels.SmallImageOnly
+Small Button - No Label
+小按鈕 - 無標籤
+
+# [3] adb_CmdDisplayType.Labels.SmallTextOnly
+Small Button - No Icon
+小按鈕 - 無圖示
+
+# [4] adb_CmdDisplayType.Labels.Large
+Large Button
+大按鈕
+
+# [5] adb_CmdWhatsThis.Label
+What's This?
+這是什麼?
+
+# [6] adb_CmdWhatsThis.HelpText
+Tells what this button does
+說明此按鈕作用
+
+# [7] adb_ItemCut.Label
+Cut
+剪下
+
+# [8] adb_ItemCopy.Label
+Copy
+副本
+
+# [9] adb_ItemPaste.Label
+Paste
+貼上
+
+# [10] adb_AddSeparator.Label
+Add Separator
+新增分隔符號
+
+# [11] adb_CascadeBtnSplitType.Label
+Set Split Button
+設定分割按鈕
+
+# [12] adb_ItemToOverflow.Label
+Move To Overflow
+移動到超溢指令
+
+# [13] adb_ItemRename.Label
+Rename
+更名
+
+# [14] adb_ItemDelete.Label
+Delete
+刪除
+
+# [15] adb_RenameGroup.Label
+Rename Group
+更名群組
+
+# [16] adb_DeleteGroup.Label
+Delete Group
+刪除群組
+
+# [17] adb_ReorderGroups.Label
+Move Group Before
+將群組移至先於
+

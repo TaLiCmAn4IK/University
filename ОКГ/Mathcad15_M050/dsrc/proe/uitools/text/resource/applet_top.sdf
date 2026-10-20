@@ -1,0 +1,12 @@
+; Applet upper half layout
+;
+; 13-Dec-06 L-01-22 AW    $$1   Created
+; 09-Jan-06 L-01-25 AW    $$2   Changed from layoutbody to layout
+; 20-May-08 L-03-09 Asaf  $$3   Updated for beige
+;
+
+[layout]
+ContentMargins = 4, 1, 4, 0
+SizingMargins = 3, 2, 3, 0
+;TextColor = 51 94 168
+BackgroundImage = styles/ribbon/beige/ribbonapplettop.bif

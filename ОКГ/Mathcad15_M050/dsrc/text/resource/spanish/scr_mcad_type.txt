@@ -1,0 +1,20 @@
+# {100} (100) [0] RgrpMcadCustom.Labels.typical
+Typical
+Típica
+
+# [1] RgrpMcadCustom.Labels.custom
+Custom
+Personalizada
+
+# [2] RgrpMcadCustom.Labels.silent
+Create silent installation package
+Crear paquete de instalación silenciosa
+
+# [3] scr_windows3.Label
+Instructions
+Instrucciones
+
+# [4] TextArea.Value
+Typical will proceed immediately to do an installation with all default selections\nCustom installation allows installing languages and changing defaults.\nSilent install goes through the custom selections; but only creates an MSI file for doing installation; an install is not actually performed.
+En la instalación Típica, se procederá a realizar una instalación con todas las opciones por defecto\nLa instalación Personalizada permite instalar idiomas y cambiar los valores por defecto.\nEn la instalación Silenciosa, no se realiza la instalación, sino solamente se crea un fichero MSI con las opciones personalizadas (con el que poder realizar la instalación posteriormente).
+

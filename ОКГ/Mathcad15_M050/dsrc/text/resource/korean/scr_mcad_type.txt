@@ -1,0 +1,20 @@
+# {100} (100) [0] RgrpMcadCustom.Labels.typical
+Typical
+표준 설치
+
+# [1] RgrpMcadCustom.Labels.custom
+Custom
+사용자 정의
+
+# [2] RgrpMcadCustom.Labels.silent
+Create silent installation package
+자동 설치 패키지 작성
+
+# [3] scr_windows3.Label
+Instructions
+설명
+
+# [4] TextArea.Value
+Typical will proceed immediately to do an installation with all default selections\nCustom installation allows installing languages and changing defaults.\nSilent install goes through the custom selections; but only creates an MSI file for doing installation; an install is not actually performed.
+표준 설치는 기본 선택 값으로 설치를 바로 진행합니다.\n사용자 정의 설치를 이용하면 언어를 설치할 수 있으며 기본값을 변경할 수 있습니다.\n자동 설치는 사용자 정의 선택을 거치지만 설치에 필요한 MSI 파일만 작성합니다. 실제 설치는 실행되지 않습니다.
+

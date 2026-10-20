@@ -1,0 +1,8 @@
+// 14-Jan-02 $$1  OTT  Created.
+// 10-Jul-02 $$2  OTT  Change name to ProCONCEPT
+
+(Package conceptonehelp
+    (Name                      "Pro|CONCEPT Help Files")
+    (Installed                 True)
+    (Cdsections                "painthelp")
+)

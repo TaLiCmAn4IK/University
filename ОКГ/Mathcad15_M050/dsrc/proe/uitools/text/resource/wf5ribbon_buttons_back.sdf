@@ -1,0 +1,7 @@
+; 22-Mar-09 L-03-28+ IKAL  $$1  Created.
+
+
+[layoutbody]
+SizingMargins   = 11, 2, 11, 1
+ContentMargins  = 10, 6, 10, 0
+BackgroundImage = styles/ribbon/wf5ribbon/ribbonbuttonsback.png

@@ -1,0 +1,14 @@
+! 11-Dec-06 L-01-22 ARST   $$1 icon provided by Yaniv Lokach
+! 13-Mar-07 L-01-29 ARST   $$2 fixed by Yaniv Lokach
+(Image not_in_geom
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     8)
+    )
+    (Data
+        CBC1FF00CBFF00CBFF00C5FFC415C5FF15C210181015C3FF15C010C015C01015
+        C2FF15C010C015C01015C3FF151018C21015C5FFC415C5FF00CBFF00CBFF00CA
+        C1FF
+    )
+)

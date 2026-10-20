@@ -1,0 +1,24 @@
+# {100} (100) [0] scr_iascfg2.Label
+Application Server Settings
+응용 프로그램 서버 설정
+
+# [1] CommPortLab.Label
+Communication port number
+커뮤니케이션 포트 번호
+
+# [2] FeatureLab.Label
+License feature name
+라이센스 피쳐 이름
+
+# [3] LogFileLab.Label
+File to store server log files
+서버 로그 파일을 저장할 파일
+
+# [4] FeatureModify.Label
+Modify
+수정
+
+# [5] TimeoutLab.Label
+Idle Timeout (minutes)
+유휴 타임아웃 (분)
+

@@ -1,0 +1,72 @@
+# {100} (100) [0] adb_CmdDisplayType.Labels.DefaultStyle
+Default Style
+Дизайн по умолчанию
+
+# [1] adb_CmdDisplayType.Labels.Small
+Small Button
+Малая кнопка
+
+# [2] adb_CmdDisplayType.Labels.SmallImageOnly
+Small Button - No Label
+Малая кнопка - нет метки
+
+# [3] adb_CmdDisplayType.Labels.SmallTextOnly
+Small Button - No Icon
+Малая кнопка - нет значка
+
+# [4] adb_CmdDisplayType.Labels.Large
+Large Button
+Большая кнопка
+
+# [5] adb_CmdWhatsThis.Label
+What's This?
+Что это?
+
+# [6] adb_CmdWhatsThis.HelpText
+Tells what this button does
+Рассказывает, что делает данная кнопка
+
+# [7] adb_ItemCut.Label
+Cut
+Вырезать
+
+# [8] adb_ItemCopy.Label
+Copy
+Копировать
+
+# [9] adb_ItemPaste.Label
+Paste
+Вставлять
+
+# [10] adb_AddSeparator.Label
+Add Separator
+Добавить разделитель
+
+# [11] adb_CascadeBtnSplitType.Label
+Set Split Button
+Задать кнопку разделения
+
+# [12] adb_ItemToOverflow.Label
+Move To Overflow
+Переместить к переполнению
+
+# [13] adb_ItemRename.Label
+Rename
+Переименовать
+
+# [14] adb_ItemDelete.Label
+Delete
+Удалить
+
+# [15] adb_RenameGroup.Label
+Rename Group
+Переименовать группу
+
+# [16] adb_DeleteGroup.Label
+Delete Group
+Удалить группу
+
+# [17] adb_ReorderGroups.Label
+Move Group Before
+Переместить группу перед
+

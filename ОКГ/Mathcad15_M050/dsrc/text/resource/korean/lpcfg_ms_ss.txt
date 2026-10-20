@@ -1,0 +1,12 @@
+# {0} (4) [1] MS_SS_Radio.Labels.MS
+Multi-Site
+복수-사이트
+
+# [2] MS_SS_Radio.Labels.SS
+Single-Site
+단일-사이트
+
+# [3] lpcfg_ms_ss2.Label
+Instructions
+설명
+

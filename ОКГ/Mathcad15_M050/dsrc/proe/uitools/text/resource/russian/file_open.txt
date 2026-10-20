@@ -1,0 +1,72 @@
+# {100} (100) [0] file_open.Label
+Open
+Открыть
+
+# [1] FileLayout.Label
+Open
+Открыть
+
+# [2] Cancel.Label
+&Cancel
+О&тмена
+
+# [3] Open_Rep.Label
+Open Rep...
+Открыть предст...
+
+# [4] Open_Rep.HelpText
+Open Rep of the current object
+Открыть представление текущего объекта
+
+# [5] Open.Label
+Open
+Открыть
+
+# [6] Name_label.Label
+  File name: 
+  Имя файла: 
+
+# [7] Type_label.Label
+Type
+Тип
+
+# [8] Sub_type_label.Label
+Sub-type
+Подтип
+
+# [9] SubType.HelpText
+Select a file sub-type to display
+Выбрать под-тип файла для отображения
+
+# [10] ViewOnly.Label
+View Only
+Только просмотр
+
+# [11] ViewOnly.HelpText
+Retrieve Drawing as View Only
+Открыть Чертеж только для Просмотра
+
+# [12] Open_Content.Label
+Content...
+Содержимое...
+
+# [13] Open_Content.HelpText
+Browse secondary content of the selected model
+Вторичное содержимое браузера выбранной модели
+
+# [14] Open_Locked.Label
+Lock and Open
+Заблокировать и открыть
+
+# [15] Open_Locked.HelpText
+Lock on server and open
+Заблокировать на сервере и открыть
+
+# [16] Open_Mfg_Asm.Label
+Open in Assembly mode
+Открыть в режиме сборки
+
+# [17] Open_Mfg_Asm.HelpText
+Opens a manufacturing model in assembly mode instead of manufacturing mode
+Открывает производственную модель в режиме сборки вместо режима производства
+

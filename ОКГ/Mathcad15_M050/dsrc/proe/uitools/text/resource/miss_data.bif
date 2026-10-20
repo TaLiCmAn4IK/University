@@ -1,0 +1,16 @@
+!
+! 10-Jun-99 I-03-10 AVD $$1 File created.
+! 09-Apr-01 J-01-31 pmu $$2 Updated for high contrast support
+!
+(Image miss_data
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     8)
+    )
+    (Data
+        D2FFC215C7FF15C20B15C5FF15C40B15C4FF150B0B1515C00B15C4FFC015FFFF
+        150B0B15C8FF15C00B15C7FF15C00B15C7FF15C00B15C8FFC115D9FFC115C9FF
+        150B0B15C9FF150B0B15C9FFC115D4FF
+    )
+)

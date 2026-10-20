@@ -1,0 +1,12 @@
+# {100} (100) [0] Label1.Label
+Creo Elements/Pro installation directory
+Creo Elements/Pro 설치 디렉토리
+
+# [1] Label7.Label
+Select Creo Elements/Pro Command
+Creo Elements/Pro 명령어 선택
+
+# [2] lpcfg_mechi2.Label
+Instructions
+설명
+

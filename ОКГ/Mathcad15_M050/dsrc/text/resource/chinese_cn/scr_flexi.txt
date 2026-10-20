@@ -1,0 +1,16 @@
+# {100} (100) [0] RadioGroup1.Labels.1
+Import license information from disk.
+从磁盘导入许可证信息。
+
+# [1] RadioGroup1.Labels.3
+Manually enter license information using a text editor
+利用文本编辑器手工输入许可证信息
+
+# [2] FileLab.Label
+License file path
+许可证文件路径
+
+# [3] scr_flexi3.Label
+Instructions
+指令
+

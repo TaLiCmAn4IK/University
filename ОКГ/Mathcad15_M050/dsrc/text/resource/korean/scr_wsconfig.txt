@@ -1,0 +1,32 @@
+# {100} (100) [0] scr_wsconfig.Label
+Workgroup Manager for PRODUCT_NAME Workspace Configuration
+PRODUCT_NAME Workspace용 Workgroup Manager 구성
+
+# [1] scr_wsconfig2.Label
+Workspace Configuration
+작업공간 구성
+
+# [2] TeamNameLab.Label
+Team Name
+팀 이름
+
+# [3] PartLifecycleLab.Label
+Part Lifecycle
+부품 라이프사이클
+
+# [4] DocLifecycleLab.Label
+Document Lifecycle
+문서 라이프사이클
+
+# [5] PartViewLab.Label
+Part View
+부품 뷰
+
+# [6] LabelRO.Label
+Read-Only
+읽기 전용
+
+# [7] TextArea.Value
+Specify the Workspace Configuration names that are to be saved in the 'site' located preference file and set the permissions for each configuration.
+기본설정 파일에 지정된 '사이트'에 저장될 작업공간 구성의 이름을 지정하고 각 구성에 대한 권한을 설정하십시오.
+

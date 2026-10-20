@@ -1,0 +1,44 @@
+# {0} (11) [0] scr_pasprop2.Label
+PAS Configuration Properties
+PAS コンフィギュレーションプロパティ
+
+# [1] HostnameLab.Label
+Fully Qualified Hostname
+完全認証ホスト名
+
+# [2] WebUrlLab.Label
+Web server alias
+Web サーバーエイリアス
+
+# [3] ServletLab.Label
+Servlet engine alias
+サーブレットエンジンエイリアス
+
+# [4] PortLab.Label
+Port number
+ポート番号
+
+# [5] RevisionMapLab.Label
+Revision mapping ?
+リビジョンマッピング
+
+# [6] RevisionMap.Labels.1
+True
+真
+
+# [7] RevisionMap.Labels.0
+False
+偽
+
+# [8] LogFile.Labels.1
+True
+真
+
+# [9] LogFile.Labels.0
+False
+偽
+
+# [10] LogFileLab.Label
+Logfile ?
+ログファイル
+

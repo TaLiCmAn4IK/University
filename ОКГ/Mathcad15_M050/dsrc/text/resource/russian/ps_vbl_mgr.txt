@@ -1,0 +1,8 @@
+# {100} (100) [0] ps_vbl_mgr.Label
+Variable Manager
+Менеджер переменных
+
+# [1] VarEdit.Label
+Edit
+Править
+

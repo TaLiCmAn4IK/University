@@ -1,0 +1,10 @@
+; 08-Dec-08 L-03-22  ALB  $$1   Created (by jas).
+; 19-Jul-09 L-03-35  ALB  $$2   Revised
+
+; PopupHelp
+
+[popuphelp]
+ContentMargins = 4, 0, 4, 0
+SizingMargins = 4, 4, 4, 4
+Size = 10, 22
+BackgroundImage = keytip.png

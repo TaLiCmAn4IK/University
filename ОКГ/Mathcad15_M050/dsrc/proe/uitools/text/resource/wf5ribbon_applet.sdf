@@ -1,0 +1,12 @@
+; 12-Mar-09 L-03-28  IKAL  $$1  Created.
+; 22-Mar-09 L-03-28+ IKAL  $$2  Updated.
+
+
+[layoutbody]
+SizingMargins  = 3, 3, 3, 0
+BackgroundImage = styles/ribbon/wf5ribbon/ribbonapplet.png
+TransitionDuration = 500
+
+[layoutbody(hot)]
+BackgroundImage = styles/ribbon/wf5ribbon/ribbonapplethot.png
+TransitionDuration = 225

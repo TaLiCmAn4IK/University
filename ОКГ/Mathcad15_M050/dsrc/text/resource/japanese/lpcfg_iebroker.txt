@@ -1,0 +1,32 @@
+# {0} (8) [0] lpcfg_iebroker2.Label
+E-Mail Broker Configuration
+Email Broker コンフィギュレーション
+
+# [1] EmailServerLab.Label
+E-Mail Server Host Name
+電子メールサーバーホスト名
+
+# [2] UsernameLab.Label
+Account User Name
+アカウントユーザー名
+
+# [3] PasswdLab.Label
+Account Password
+アカウントパスワード
+
+# [4] FolderLab.Label
+E-Mail Folder
+電子メールフォルダ
+
+# [5] AdminLab.Label
+Administrator E-Mail Address
+管理者の電子メールアドレス
+
+# [6] TimeLab.Label
+Time Between Checks (seconds)
+チェック間の時間 (秒)
+
+# [7] DelCheckBox.Label
+Delete Processed Messages?
+プロセスしたメッセージを削除しますか?
+

@@ -1,0 +1,44 @@
+# {0} (11) [0] scr_pasprop2.Label
+PAS Configuration Properties
+PAS組態屬性
+
+# [1] HostnameLab.Label
+Fully Qualified Hostname
+完全合格的主機名稱
+
+# [2] WebUrlLab.Label
+Web server alias
+Web 伺服器別名
+
+# [3] ServletLab.Label
+Servlet engine alias
+Servlet 引擎別名
+
+# [4] PortLab.Label
+Port number
+連接埠編號
+
+# [5] RevisionMapLab.Label
+Revision mapping ?
+修訂對映?
+
+# [6] RevisionMap.Labels.1
+True
+正確
+
+# [7] RevisionMap.Labels.0
+False
+錯誤
+
+# [8] LogFile.Labels.1
+True
+正確
+
+# [9] LogFile.Labels.0
+False
+錯誤
+
+# [10] LogFileLab.Label
+Logfile ?
+記錄檔案?
+

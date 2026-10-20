@@ -1,0 +1,8 @@
+# {100} (100) [0] CsdSubLayout.Label
+Conference Server Settings
+Установки Сервера конференций
+
+# [1] Label1.Label
+Hostname
+Имя сервера
+

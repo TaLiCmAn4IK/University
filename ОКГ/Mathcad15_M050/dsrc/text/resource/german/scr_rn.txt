@@ -1,0 +1,12 @@
+# {70111} (3) [0] scr_rn_gateway.Label
+Gateway
+Gateway
+
+# [1] HTTPPortLab.Label
+Port Number
+Portnummer
+
+# [2] DUNSLab.Label
+DUNS Number
+DUNS-Nummer
+

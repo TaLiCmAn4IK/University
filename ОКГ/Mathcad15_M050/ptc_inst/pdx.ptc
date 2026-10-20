@@ -1,0 +1,82 @@
+// 08-Nov-02 J-03-36 $$1  ECW  Created.
+// 12-Nov-02 J-03-37 $$2  ECW  Close Product section
+// 13-Nov-02 J-03-37 $$3  ECW  update convertFilesList
+// 19-Nov-02 J-03-38 $$4  ECW  make package names unique for help string
+// 05-Dec-02 J-03-39 $$5  ECW  remove some binscripts
+// 02-Feb-03 J-03-41 $$6  ECW  changes for production release
+// 07-Feb-03 J-03-41 $$7  ECW  fix convertFilesList entries
+// 21-Apr-08 L-03-07 $$8  TWH  Update for 5.0
+// 22-Sep-09 L-03-35 $$9  TWH  Update for 5.0 again
+// 04-Nov-09 L-03-36 $$10 TWH  Update WF5 images
+// 13-Jan-10 L-03-37 $$11 TWH  Update for 6.0
+// 31-May-10 L-03-39 $$12 TWH  drop wildfire3 files from convert list
+// 20-Sep-11 L-03-45 $$13 TWH  Update for PDX 7
+// 02-Oct-12 L-03-50 $$14 TWH  Update for PDX 7 M010
+
+(Product pdx
+    (Name                      "Progressive Die Extension")
+    (WelcomeImage              "pdx7.png")
+    (ToolTipMsg                "PDX is compatible with Wildfire 4.0, Wildfire 5.0 and Creo 1.0")
+    (Packages                  "pdx_base"
+                               "pdxhelp"
+                               "uninstall")
+    (ProgramFiles              True)
+    (LpDirName                 "pdx")
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+    (SaveList                  "text/config.win"
+                               "text/config.pro")
+    (LicenseSimplification     False)
+    (Ad_list                   "WF5_101"
+                               "WF5_102"
+                               "WF5_103"
+                               "WF5_104"
+                               "WF5_201"
+                               "WF5_202"
+                               "WF5_203"
+                               "WF5_204"
+                               "WF5_301"
+                               "WF5_302"
+                               "WF5_303"
+                               "WF5_304"
+                               "WF5_401"
+                               "WF5_402"
+                               "WF5_403"
+                               "WF5_501"
+                               "WF5_502"
+			                   "WF5_503"
+			                   "WF5_601"
+                               "WF5_602"
+                               "WF5_603"
+                               "WF5_701"
+                               "WF5_702"
+			                   "WF5_703"
+			                   "WF5_801"
+                               "WF5_802"
+                               "WF5_803"
+                               "WF5_901"
+                               "WF5_902"
+			                   "WF5_903")
+)
+
+(Package pdx_base
+    (Name                      "Progressive Die Extension")
+    (Cdsections                "PDX Tree"
+			                   "pdx")
+    (convertFilesList          "_LP_/bin/wildfire4/config.pro=_LP_/bin/wildfire4/config.pro"
+			                   "_LP_/bin/wildfire4/protk.dat=_LP_/bin/wildfire4/protk.dat"
+                               "_LP_/bin/wildfire5/config.pro=_LP_/bin/wildfire5/config.pro"
+			                   "_LP_/bin/wildfire5/protk.dat=_LP_/bin/wildfire5/protk.dat"
+			                   "_LP_/bin/creo1/config.pro=_LP_/bin/creo1/config.pro"
+			                   "_LP_/bin/creo1/protk.dat=_LP_/bin/creo1/protk.dat"
+			                   "_LP_/bin/creo2/config.pro=_LP_/bin/creo2/config.pro"
+			                   "_LP_/bin/creo2/protk.dat=_LP_/bin/creo2/protk.dat")
+    (Installed                 True)
+)
+
+(Package pdxhelp
+    (Name                      "PDX Help Files")
+    (Installed                 True)
+    (Cdsections                "pdxhelp")
+)
+

@@ -1,0 +1,26 @@
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!
+!  License back button
+! 
+!  Date      Release   Name  Ver.   Comments
+!  --------- -------   ----  ----   --------
+!  29-Apr-03 K-01-06   TWH   $$1    Created
+!  25-Jul-03 K-01-11   TWH   $$2    New image from prod def
+!
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+(Image ps_wizard_back
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        0FFFFFFF03F0FD000D100D200D80300D400D500D600D700D800D8C058A07A7C7
+        019C058C0DB40D900D9C0177003399DB02333333A70D00F30DCF0D131AE40D30
+        1D0C1D501D241D003C1D541D901D641D7C1DC01DD01DA41D00E411E411D41D08
+        2DDC1D282DF41D482D001C2D682D342D542D5C2DA82DB82D842D009C2DE82DF8
+        2DC42DDC2D283D383D483D001435243D703D803D903DA03DB03DC03D00D03DE0
+        39
+    )
+)

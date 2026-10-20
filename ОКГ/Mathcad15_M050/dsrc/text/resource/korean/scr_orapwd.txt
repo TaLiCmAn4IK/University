@@ -1,0 +1,8 @@
+# {100} (100) [0] Label6.Label
+Data Server Enter password for Oracle Administrative User 'SYSTEM':
+Data Server Oracle Administrative User 'SYSTEM' 암호 입력:
+
+# [1] Label5.Label
+Enter Internal Data Server password:
+Internal Data Server 암호 입력:
+

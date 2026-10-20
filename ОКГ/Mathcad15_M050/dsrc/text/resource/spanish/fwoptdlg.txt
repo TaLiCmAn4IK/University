@@ -1,0 +1,12 @@
+# {0} (3) [0] fwoptdlg.Label
+Select Floating Options
+Seleccionar opciones flotantes
+
+# [1] OkButton.Label
+&OK
+&Aceptar
+
+# [2] CancelBtn.Label
+&Cancel
+&Cancelar
+

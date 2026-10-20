@@ -1,0 +1,84 @@
+# {100} (100) [0] ps_cmd.Label
+Command Configuration
+コマンドコンフィギュレーション
+
+# [1] CmdName1Lab.Label
+Command Name
+コマンド名
+
+# [2] CmdDesc1Lab.Label
+Command Description
+コマンドの説明
+
+# [3] CmdType1Lab.Label
+Command Type
+コマンドタイプ
+
+# [4] CmdLTRLab.Label
+License To Run
+実行ライセンス
+
+# [5] CmdLTRMod.Label
+Edit
+編集
+
+# [6] CmdLicExtLab.Label
+License Extensions
+エクステンションライセンス
+
+# [7] CmdLicExtMod.Label
+Edit
+編集
+
+# [8] CmdLicFltLab.Label
+Floating Options
+フローティングオプション
+
+# [9] CmdLicFltMod.Label
+Edit
+編集
+
+# [10] CmdName2Lab.Label
+Command Name
+コマンド名
+
+# [11] CmdDesc2Lab.Label
+Command Description
+コマンドの説明
+
+# [12] CmdType2Lab.Label
+Command Type
+コマンドタイプ
+
+# [13] CmdLicLab.Label
+FLEXnet Licenses
+FLEXnet ライセンス
+
+# [14] CmdLicMod.Label
+Modify
+修正
+
+# [15] CmdInfoGrp.Labels.1
+No ConfigID
+コンフィギュレーションIDなし
+
+# [16] CmdInfoGrp.Labels.2
+ConfigID
+コンフィギュレーションID
+
+# [17] CmdInfoGrpLab.Label
+License Scheme:
+ライセンス概要:
+
+# [18] Label19.Label
+Specify configuration options for this startup command
+このスタートアップコマンドのコンフィギュレーションオプションを指定します。
+
+# [19] StdOK.Label
+&OK
+OK(&O)
+
+# [20] StdCancel.Label
+&Cancel
+キャンセル(&C)
+

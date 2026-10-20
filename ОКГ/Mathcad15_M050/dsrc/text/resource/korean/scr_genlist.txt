@@ -1,0 +1,24 @@
+# {100} (100) [0] scr_genlist2.Label
+Advanced
+고급
+
+# [1] AEDadd.Label
+Add
+추가
+
+# [2] AEDedit.Label
+Edit
+편집
+
+# [3] AEDdel.Label
+Delete
+삭제
+
+# [4] AEDinfo.Label
+Info
+정보
+
+# [5] scr_genlist3.Label
+Instructions
+설명
+

@@ -1,0 +1,12 @@
+# {61221} (13) [10] uninstall.Label
+PTC Uninstall
+PTC Deinstallation
+
+# [11] StdButton1.Label
+Uninstall
+Deinstallieren
+
+# [12] StdButton2.Label
+Cancel
+Abbrechen
+

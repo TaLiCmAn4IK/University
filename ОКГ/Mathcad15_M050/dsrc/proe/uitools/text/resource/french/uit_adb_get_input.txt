@@ -1,0 +1,24 @@
+# {100} (100) [0] uit_adb_get_input.Label
+Get Input
+Entrée donnée
+
+# [1] inp_panel_lay.Label
+Please input new label:
+Entrez le nouveau libellé :
+
+# [2] inp_panel.Value
+new_name
+nouveau_nom
+
+# [3] inp_panel.HelpText
+Rename the Menu or Cascade menu
+Renommer le menu ou menu en cascade
+
+# [4] btnOK.Label
+OK
+OK 
+
+# [5] btnCancel.Label
+Cancel
+Annuler
+

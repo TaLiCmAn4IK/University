@@ -1,0 +1,12 @@
+# {100} (100) [0] Label1.Label
+Enter password for Oracle Administrative User 'SYSTEM' 
+Oracle Administrative User 'SYSTEM'의 암호를 입력하십시오 
+
+# [1] InternalLab.Label
+Enter Database User password
+데이터베이스 사용자 암호 입력
+
+# [2] lpcfg_orapwd3.Label
+Instructions
+설명
+

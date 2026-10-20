@@ -1,0 +1,44 @@
+# {0} (11) [0] scr_ieservice1.Label
+Windchill Info*Engine Servlet Configuration
+Windchill Info*Engine Servlet組態
+
+# [1] AppURLLab.Label
+Application URL
+應用程式URL
+
+# [2] AppURL.Value
+Windchill
+Windchill
+
+# [3] scr_ieservice2.Label
+Windchill Info*Engine Configuration Properties
+Windchill Info*Engine組態屬性
+
+# [4] HostnameLab.Label
+Fully Qualified Host Name
+全限定的主機名稱
+
+# [5] TempProcPortLab.Label
+Template Processor Port
+範本處理器連接埠
+
+# [6] TaskProcPortLab.Label
+Task Processor Port
+任務處理器連接埠
+
+# [7] TextArea.Value
+Specify the Windchill Info*Engine servlet name, naming service and logging options.
+指定Windchill Info*Engine servlet名稱，命名服務和登入選項。
+
+# [8] scr_ieservice_logs.Label
+Windchill Info*Engine Logging Options
+Windchill Info*Engine登錄選項
+
+# [9] LogDirLab.Label
+Logs Directory
+記錄目錄
+
+# [10] LogLevel.Label
+Activate All Logging Options?
+啟動全部記錄選項?
+

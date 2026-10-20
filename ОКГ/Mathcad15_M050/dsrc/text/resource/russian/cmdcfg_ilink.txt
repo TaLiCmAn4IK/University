@@ -1,0 +1,20 @@
+# {100} (100) [0] ilink_2.Label
+Pro/ENGINEER Integration (Optional)
+Интеграция Pro/ENGINEER (Опция)
+
+# [1] ProeCmdLab.Label
+Start Command
+Команда запуска
+
+# [2] ProeDirLab.Label
+Installation Directory
+Папка для установки
+
+# [3] ilink_1.Label
+Locate Other Installation Directories (Optional)
+Определить папки других установок (Опция)
+
+# [4] AppMgrDirLab.Label
+PTC Application Manager
+Менеджер приложений PTC
+

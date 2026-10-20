@@ -1,0 +1,28 @@
+# {0} (7) [0] uitools_moreinfo_cont_dlg.Label
+No need to translate
+No need to translate
+
+# [1] msg.Label
+No need to translate 
+No need to translate 
+
+# [2] futureCB.Label
+&In the future, do not show this message
+今後このメッセージを表示しない(&I)
+
+# [3] moreBtn.Label
+&More Info...
+詳細情報(&M)...
+
+# [4] moreBtn.HelpText
+Get more information
+詳細情報を取得
+
+# [5] contBtn.Label
+&Continue
+続行(&C)
+
+# [6] contBtn.HelpText
+Close dialog and continue with the execution of the functionality
+ダイアログを閉じて、機能の実行を続けます。
+

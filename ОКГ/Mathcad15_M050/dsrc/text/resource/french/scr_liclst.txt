@@ -1,0 +1,24 @@
+# {100} (100) [0] PushButton1.Label
+Add
+Ajouter
+
+# [1] PushButton2.Label
+Delete
+Supprimer
+
+# [2] LicSrvLab.Label
+FLEXnet License Servers
+Serveurs de licence FLEXnet
+
+# [3] scr_liclist3.Label
+Instructions
+Instructions
+
+# [4] TreeLegend.Label
+Legend: <ltr> License to Run;  <ext> Startup Extensions;  <flt> Floating options
+Légende : <ltr> Licence d'exécution ;  <ext> Extensions de démarrage ;  <flt> Options flottantes
+
+# [5] PushButton3.Label
+Edit
+Editer
+

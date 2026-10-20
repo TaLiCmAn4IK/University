@@ -1,0 +1,12 @@
+! 13-Dec-06 L-01-22 AW    $$1   Created
+!
+(Image ribbonleftedge
+    (Resources
+        (.Width     5)
+        (.Height    2)
+        (.Depth     24)
+    )
+    (Data
+        CFFF000000F0FDFCF5B8D6FFFB01A3C3EF018DB203E301
+    )
+)

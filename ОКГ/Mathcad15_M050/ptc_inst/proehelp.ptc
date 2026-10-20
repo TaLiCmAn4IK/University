@@ -1,0 +1,8 @@
+// 20-Dec-99 $$1  JJE  Created.
+// 27-Oct-10 $$2  TWH  L-03-41 Rebranding
+
+(Package proehelp
+    (Name                      "Creo Elements/Pro Help Files")
+    (Installed                 True)
+    (Cdsections                "proehelp")
+)

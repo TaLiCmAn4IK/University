@@ -1,0 +1,52 @@
+# {100} (100) [0] lic_serv.Label
+Simple
+單純的
+
+# [1] ServTypeGroup.Labels.1
+Single license server
+單一許可證伺服器
+
+# [2] ServTypeGroup.Labels.2
+Triad license server (fault tolerant)
+三元組許可證伺服器(多主機許可權管理)
+
+# [3] ServTypeGroup.Labels.3
+Locked license file (no server running)
+許可證檔案鎖定(伺服器未執行)
+
+# [4] Label1.Label
+License Server
+許可證伺服器
+
+# [5] Label2.Label
+Hostname
+主機名稱
+
+# [6] Label3.Label
+Port
+連接埠
+
+# [7] Label4.Label
+Triad partner 1
+三元組夥伴1
+
+# [8] Label5.Label
+Hostname
+主機名稱
+
+# [9] Label6.Label
+Port
+連接埠
+
+# [10] Label7.Label
+Triad partner 2
+三元組夥伴2
+
+# [11] Label8.Label
+Triad partner 3
+三元組夥伴3
+
+# [12] Label9.Label
+License file path
+許可證檔案路徑
+

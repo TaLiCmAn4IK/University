@@ -1,0 +1,27 @@
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!
+! License Floating 16x16 bif used in PTC.Setup
+!       - Image created by Tammy Hammack (see her for modifications)
+!
+!  Date      Release   Name  Ver.   Comments
+!  --------- -------   ----  ----   --------
+!  19-May-03 K-01-07   TWH   $$1    Submitted.
+!
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+(Image ps_floating_license
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        0FFFFFFF03F0FD000D100D200D00300D400D500D600D700D800D900DA00D1EA8
+        0192522301B805A80DD00D1CE00DB801E4D57DF706C00D101DC0E80DF809FC0D
+        4C1D5C1D3019666601663F1A881D981DB8057815B815381D70D01D7419701D3C
+        156E3A2F072A07B7AA5B0F2D4B12301D0029601900242924296011C01D7C1160
+        1D582D482D000829882DB429D42DEC2DFC2D0C3D1C3D002C3D3C3D4C3D5C3D6C
+        3D7C3D8C3D9C3D00AC3DBC3DCC3DDC3D
+    )
+)
+

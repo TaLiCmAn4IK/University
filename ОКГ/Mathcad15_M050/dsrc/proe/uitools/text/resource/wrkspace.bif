@@ -1,0 +1,21 @@
+!----------------------------------------------------------------------
+! 05-Dec-97  H-03-32 xw      $$1 Submitted with shortcut toolbar sub.
+! 18-Mar-02  J-03-21  TLH    $$02  Recolored
+! 25-Jun-02  J-03-28 mla     $$03  Revised image.
+! 23-AUG-04  K-03-09 TLH     $$04  Recolored.
+!----------------------------------------------------------------------
+(Image workspace
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        0FFFFFFF03F0FD000D100D200D00300D400D500D600D700D800D900DA00D00B0
+        0DC00DD00DE00DF00D001D101D20190F60615201301D401D501D5813FF530133
+        333301B7AADF5B01FDF8CE731D01E403D57D67127011901D9C15581170150E88
+        11996633BB1288118815201D02281753AB16C415F81DCC1DDC1D581100BC1158
+        1D6019182D202D701D801D582D00602DB01DC01D982DA02DF01D002DD82D00E0
+        2D302D402D183D203D4C3D5C3D7C3D00281D983DBC3DCC3DDC3D
+    )
+)

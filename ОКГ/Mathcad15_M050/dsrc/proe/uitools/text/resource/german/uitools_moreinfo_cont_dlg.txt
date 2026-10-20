@@ -1,0 +1,28 @@
+# {100} (100) [0] uitools_moreinfo_cont_dlg.Label
+No need to translate
+No need to translate
+
+# [1] msg.Label
+No need to translate 
+No need to translate 
+
+# [2] futureCB.Label
+&In the future, do not show this message
+&Diese Mitteilung nicht mehr anzeigen.
+
+# [3] moreBtn.Label
+&More Info...
+&Mehr Info...
+
+# [4] moreBtn.HelpText
+Get more information
+Zusätzliche Info abrufen
+
+# [5] contBtn.Label
+&Continue
+&Weiter
+
+# [6] contBtn.HelpText
+Close dialog and continue with the execution of the functionality
+Dialog schließen und Ausführung der Funktionalität fortsetzen
+

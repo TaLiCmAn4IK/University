@@ -1,0 +1,272 @@
+CONTRAT CLIENT DE PTC
+
+LE PRÉSENT CONTRAT CLIENT DE PTC ("CONTRAT") EST UN ACCORD JURIDIQUE ENTRE LA PERSONNE PHYSIQUE OU LA SOCIÉTÉ OU TOUTE AUTRE ORGANISATION AU NOM DE LAQUELLE LADITE PERSONNE PHYSIQUE ACCEPTE LE PRÉSENT CONTRAT, SOIT (A) EN CLIQUANT SUR "J'ACCEPTE" CI-DESSOUS OU (B) EN INSTALLANT, ACCÉDANT OU UTILISANT TOUT LOGICIEL OU TOUTE DOCUMENTATION FOURNI(E) PAR PTC (LE "CLIENT"), ET PTC INC. OU, SI L'ACHAT A ÉTÉ EFFECTUÉ DANS UN PAYS SPÉCIFIÉ À L'ANNEXE A DU PRÉSENT CONTRAT, LA SOCIÉTÉ AFFILIÉE DE PTC SPÉCIFIÉE À L'ANNEXE A (LE CAS ÉCHÉANT, "PTC").
+
+AVANT D'ACCEPTER LE PRÉSENT CONTRAT, NOUS VOUS INVITONS À LIRE AVEC ATTENTION LES DISPOSITIONS ET CONDITIONS DU PRÉSENT CONTRAT. EN CLIQUANT SUR "J'ACCEPTE" CI-APRÈS OU EN INSTALLANT, ACCÉDANT OU UTILISANT TOUT LOGICIEL OU TOUTE DOCUMENTATION FOURNI(E) PAR PTC, LE CLIENT CONVIENT PAR LE PRÉSENT D'ÊTRE LIÉ PAR LE PRÉSENT CONTRAT ET DÉCLARE QU'IL EST AUTORISÉ À AGIR DE LA SORTE.
+
+SI VOUS N'ACCEPTEZ PAS LA TOTALITÉ DES DISPOSITIONS DU PRÉSENT CONTRAT OU SI VOUS N'ÊTES PAS HABILITÉ(E) À ENGAGER LA SOCIÉTÉ OU TOUTE AUTRE ORGANISATION AU NOM DE LAQUELLE VOUS ACCEPTEZ LE PRÉSENT CONTRAT, CLIQUEZ SUR "JE REFUSE" ET RETOURNEZ PROMPTEMENT À PTC LES PRODUITS LOGICIELS ET LA DOCUMENTATION QUI ACCOMPAGNENT LE PRÉSENT CONTRAT CONFORMÉMENT AUX INSTRUCTIONS FOURNIES LORSQUE VOUS CLIQUEZ SUR LE BOUTON "JE REFUSE". NOTEZ QUE SI VOUS NE VOUS CONFORMEZ PAS À CES INSTRUCTIONS DANS LE DÉLAI SPÉCIFIÉ, VOUS NE POURREZ PLUS PRÉTENDRE AU REMBOURSEMENT DES REDEVANCES PAYÉES. AUCUNE COMMANDE DE PRODUITS SOUS LICENCE EFFECTUÉE AUX TERMES DU PRÉSENT DU CONTRAT NE PEUT ÊTRE ANNULÉE UNE FOIS QUE VOUS AVEZ ACCEPTÉ LES TERMES DUDIT CONTRAT. 
+
+TOUTE LICENCE QUE LE CLIENT N'A PAS OBTENU DIRECTEMENT CHEZ PTC, CHEZ UN DISTRIBUTEUR OU UN REVENDEUR AUTORISÉ PTC OU PAR LE BIAIS DU MAGASIN EN LIGNE DE PTC (WWW.PTC.COM) EST CONSIDÉRÉE COMME ILLÉGALE ET N'EST PAS, À CE TITRE, COUVERTE PAR UNE LICENCE D'UTILISATION LÉGITIME. PTC CONSIDÈRE LE PIRATAGE INFORMATIQUE COMME UN DÉLIT ET POURSUIT, TANT AU CIVIL QU'AU PÉNAL, CEUX QUI LE COMMETTENT OU Y PRENNENT PART. À CES FINS, PTC UTILISE DES TECHNOLOGIES DE SURVEILLANCE ET DE COLLECTE DE DONNÉES AFIN D'OBTENIR ET DE TRANSMETTRE À PTC DES DONNÉES SUR LES UTILISATEURS DE COPIES ILLÉGALES DE PRODUITS SOUS LICENCE. DANS LE CAS OÙ LE CLIENT UTILISE UNE COPIE ILLÉGITIME DU LOGICIEL, IL DOIT CESSER IMMÉDIATEMENT D'UTILISER LA VERSION ILLÉGALE ET PRENDRE CONTACT AVEC PTC POUR OBTENIR UNE COPIE SOUS LICENCE LÉGITIME. EN UTILISANT CE LOGICIEL, VOUS ACCEPTEZ LA COLLECTE, L'UTILISATION ET LE TRANSFERT DE DONNÉES À CARACTÈRE PERSONNEL (Y COMPRIS AUX ÉTATS-UNIS) AUX FINS D'IDENTIFIER LES UTILISATEURS DE COPIES ILLÉGALES DE NOTRE LOGICIEL. CE CONSENTEMENT EST OBLIGATOIRE POUR TOUS LES UTILISATEURS DE CE LOGICIEL, Y COMPRIS LES UTILISATEURS AUTRES QUE VOUS.
+
+AFIN DE COMPRENDRE LES PRÉFÉRENCES DES UTILISATEURS DE NOS LOGICIELS, PTC UTILISE DES TECHNOLOGIES DE SURVEILLANCE DES DONNÉES POUR OBTENIR ET TRANSMETTRE DES DONNÉES SUR L'UTILISATION ET LES PERFORMANCES DU SYSTÈME, POUR COLLECTER DES DONNÉES UTILISATEUR ET POUR MESURER L'UTILISATION QUI EST FAITE DE NOS LOGICIELS. CES DONNÉES SERONT PARTAGÉES AU SEIN DE PTC, DE NOS SOCIÉTÉS AFFILIÉES ET DE NOS PARTENAIRES COMMERCIAUX, Y COMPRIS AUX ÉTATS-UNIS ET DANS D'AUTRES PAYS, À DES FINS TECHNIQUES ET DE MARKETING, ET NOUS VEILLERONS À CE QU'ELLES SOIENT TRANSFÉRÉES ET PROTÉGÉES DE FAÇON ADÉQUATE. NOS LICENCES COMMERCIALES PERMETTENT AUX UTILISATEURS DE REFUSER CETTE COLLECTE DE DONNÉES, ET NOS VERSIONS ÉTUDIANT/ÉDUCATION DES LOGICIELS NE RECUEILLENT QUE DES DONNÉES SUR L'UTILISATION ET LES PERFORMANCES DU SYSTÈME. NOS VERSIONS GRATUITES ET NOS VERSIONS D'ESSAI DE LOGICIELS N'OFFRENT PAS AUX UTILISATEURS LA POSSIBILITÉ DE REFUSER CETTE COLLECTE DE DONNÉES, Y COMPRIS EN CE QUI CONCERNE LES DONNÉES UTILISATEUR.
+
+SI VOUS UTILISEZ LES LOGICIELS PTC, ET VISITEZ UN SITE INTERNET DE PTC OU COMMUNIQUEZ PAR VOIE ÉLECTRONIQUE AVEC NOUS DANS UN PAYS AUTRE QUE LES ÉTATS-UNIS, CES DIFFÉRENTES COMMUNICATIONS IMPLIQUERONT NÉCESSAIREMENT UN TRANSFERT DE CES INFORMATIONS VERS D'AUTRES PAYS.
+
+SI VOUS NE CONSENTEZ PAS À LA COLLECTE ET/OU À LA TRANSMISSION (Y COMPRIS AUX ÉTATS-UNIS) DE VOS DONNÉES TEL QUE DÉCRIT CI-DESSUS, NE TÉLÉCHARGEZ PAS ET N'UTILISEZ PAS LES LOGICIELS PTC. EN (I) UTILISANT LES LOGICIELS EN VERSION GRATUITE OU D'ESSAI OU (II) EN CHOISISSANT DE NE PAS REFUSER LA COLLECTE DE CERTAINES DONNÉES À CARACTÈRE PERSONNEL, TEL QUE RENDU POSSIBLE PAR LES LOGICIELS COMMERCIAUX DE PTC, VOUS AUTORISEZ PAR CONSÉQUENT PTC À COLLECTER, UTILISER ET TRANSFÉRER VOS DONNÉES PERSONNELLES (Y COMPRIS AUX ÉTATS-UNIS).
+
+LES TERMES COMMENÇANT PAR UNE MAJUSCULE QUI NE SONT PAS DÉFINIS DANS LE TEXTE CI-APRÈS LE SONT DANS L'ANNEXE B, À LA FIN DU PRÉSENT CONTRAT.
+
+L'ANNEXE A DU PRÉSENT CONTRAT STIPULE DES CONDITIONS SUPPLÉMENTAIRES (OU ALTERNATIVES) SPÉCIFIQUEMENT APPLICABLES À CERTAINES RÉGIONS.
+
+1. Commandes et paiement.
+
+1.1. Un Client peut commander des Produits sous Licence et/ou des Services de Support en envoyant à PTC (directement ou par l'intermédiaire d'un Revendeur) un Devis dûment complété et tout autre document éventuellement exigé par PTC lors d'une commande. Chaque commande de Produit sous Licence acceptée par PTC est considérée comme séparée et distincte de toute commande de Services de Support placée par le Client. PTC est en droit d'accepter ou de refuser une commande, à sa seule discrétion. LE CLIENT NE PEUT PAS ANNULER UNE COMMANDE QUI A DÉJÀ ÉTÉ ACCEPTÉE PAR PTC. En dehors des éléments permettant de commander des Produits sous Licence et/ou des Services de Support, les dispositions d'un Bon de Commande émis par le Client n'auront en aucune manière pour effet de modifier le présent Contrat, ni ne seront intégrées à celui-ci, ni ne lieront PTC. 
+
+1.2. Le Client est tenu de régler les redevances applicables pour les Produits sous Licence et/ou Services de Support commandés. Toutes les redevances et autres frais applicables en vertu des présentes sont dus et payables en intégralité dans un délai de trente (30) jours à compter de la date de facturation au Client, ou à la date d'échéance spécifiée dans la facture. Le Client a l'obligation d'acquitter toutes les taxes sur la vente, l'utilisation, la valeur ajoutée, le transfert et autres droits de douane imposés par une autorité gouvernementale, fédérale, municipale, d'État ou autres, en relation avec les Licences octroyées ou les Services de Support fournis, en vertu des présentes, à l'exclusion toutefois des taxes relatives aux bénéfices réalisés par PTC. Le Client devra payer des intérêts au taux d'un pour cent et demi (1,5 %) par mois (ou au taux maximum autorisé par la loi, s'il est inférieur) sur toutes les sommes dues en vertu du présent Contrat, et impayées après la date d'échéance de trente (30) jours, lesdits intérêts commençant à courir à partir de la date d'échéance. Le Client devra acquitter également les honoraires d'avocats et autres coûts "raisonnables" imputés à PTC suite au recouvrement des créances résiduelles et/ou à tout différend ou litige découlant du, ou en liaison avec les Produits sous Licence et/ou le présent Contrat, dans le cas où PTC obtiendrait gain de cause au détriment du Client après une telle réclamation.
+
+2. Licence.
+
+2.1. Octroi de Licence. À l'acceptation par PTC d'une commande de Produits sous Licence, PTC octroie au Client une licence d'installation et d'utilisation des Produits sous Licence identifiés sur le Devis pendant toute la Durée de la Licence, uniquement pour des besoins internes du Client et uniquement en conformité avec ce Contrat et l'usage autorisé et les restrictions applicables aux Licences visées sur le Devis et sur la Page Web de Base de Licence. Nonobstant ce qui précède, si le Produit sous Licence est fourni par PTC sur une base d'"évaluation" ou d'"essai", cette Licence servira, au lieu de cela, à installer et à utiliser le Produit sous Licence uniquement aux fins d'évaluation desdits Produits sous Licence, et le Client convient de ne pas utiliser le Produit sous Licence dans toutes applications commerciales ou à des fins de production. En outre, si le Produit sous Licence est vendu sur une base de "démo et test" ou de "non-production" (ou désignation similaire), ce Produit sous Licence ne pourra pas être utilisé dans un environnement de production.
+
+2.2. Pays/Serveurs désignés. Sauf dans le cas d'une Licence Mondiale ou d'une Licence Mondiale Restreinte, le Client peut uniquement installer et exploiter les Produits sous Licence sur le Serveur Désigné applicable situé dans le Pays Désigné. Le Client pourra, à tout moment, changer le Serveur Désigné et/ou le Pays Désigné sur ou dans lequel il souhaite installer ou exploiter un Produit sous Licence, sous réserve, dans chaque cas, que (i) le Client notifie préalablement par écrit ce changement à PTC ; et que, (ii) après avoir transféré les Produits sous Licence dans un Pays Désigné différent, le Client s'acquitte de la totalité des Frais de Relèvement de PTC applicables.
+
+2.3. Restrictions d'utilisation supplémentaires. Le Client s'engage à ne pas autoriser des personnes autres que les Utilisateurs Autorisés à accéder ou utiliser les Produits sous Licence. Le Client s'abstiendra et interdira à tous tiers : 
+
+(i) de modifier ou de créer une quelconque œuvre dérivée à partir d'une quelconque partie des Produits sous Licence ;
+
+(ii) de donner à bail, louer ou prêter les Produits sous Licence ;
+
+(iii) d'utiliser les Produits sous Licence, ou de permettre leur utilisation, aux fins de formation de tiers, pour pourvoir à la mise en œuvre d'un logiciel ou à la prestation de services de conseil à un quelconque tiers, ou en vue d'une utilisation commerciale en temps partagé ou en bureau d'étude à façon ;
+
+(iv) de désassembler ou décompiler l'ingénierie des Produits sous Licence ou le format de fichier des Produits sous Licence, ou de pratiquer une ingénierie inverse, ou autrement de tenter d'accéder au code source ou au format de fichier des Produits sous Licence, excepté dans les cas expressément autorisés en Annexe A, le cas échéant ;
+
+(v) de vendre, céder sous licence, prêter, céder ou transférer de toute autre manière (par le biais d'une vente, d'un échange, d'un cadeau, par effet de la loi ou autrement) à un quelconque tiers les Produits sous Licence, ou toute copie de ceux-ci, ou toute Licence ou autres droits s'y rapportant, en totalité ou en partie, sans, pour chaque cas, l'autorisation écrite préalable de PTC, sauf dans la mesure où une telle action serait autorisée dans le Devis et/ou sur la Page Web de Base de Licence ;
+
+(vi) de modifier, d'ôter ou de masquer quelques avis de droit d'auteur, de secret commercial, de brevet, de marque, de logo, d'exclusivité et/ou juridiques autres sur, ou dans toutes copies des Produits sous Licence ; et
+
+(vii) de copier ou reproduire de toute autre manière les Produits sous Licence, en totalité ou en partie, sauf (a) ainsi que nécessaire pour leur installation dans une mémoire informatique dans le but d'exécuter les Produits sous Licence conformément aux dispositions du présent Article 2 ; et/ou (b) réaliser un nombre raisonnable de copies uniquement à des fins de sauvegarde (sous réserve que toutes ces copies autorisées seront la propriété de PTC, et que le Client reproduira à cet effet la totalité des avis de droit d'auteur, de secret commercial, de brevet, de marque, de logo, d'exclusivité et/ou juridiques autres de PTC contenus dans l'exemplaire original du Produit sous Licence obtenu de PTC).
+
+2.4. Composants Tiers et Produits Tiers Intégrés. Certains des Produits sous Licence peuvent contenir des composants logiciels de tiers auxquels s'appliquent des dispositions supplémentaires (les "Composants Tiers"). Les dispositions supplémentaires actuelles sont stipulées dans l'Annexe des Conditions de Tiers, disponible sur la Page Web de Base de Licence.
+
+2.5. Restrictions supplémentaires. Des dispositions supplémentaires spécifiques concernant les composants logiciels de tiers inclus dans certains Produits sous Licence peuvent s'appliquer aux Produits sous Licence concernés, telles qu'indiquées sur la Page Web de Base de Licence, mentionnée ici à titre de référence.
+
+3. Support.
+
+3.1. Plan des Services de Support ; Niveaux des Services de Support. À l'acceptation par PTC de la commande du Client d'une Licence par souscription ou de Services de Support connexes aux Produits sous Licence, PTC et/ou ses sous-traitants autorisés fourniront les Services de Support conformément aux conditions stipulées pour une période de douze (12) mois ou pour toute autre période spécifiée dans la commande du Client acceptée par PTC (le "Plan des Services de Support"). Si le Client interrompt à un moment donné les Services de Support et s'il souhaite ultérieurement souscrire, ou souscrire de nouveau à des Services de Support, le Client devra payer (i) les redevances alors en vigueur pour les Services de Support, ou (ii) les redevances des Services de Support correspondant à toute période pour laquelle le Client n'a pas acheté des Services de Support, sous réserve, toutefois, que le Client ne doive pas acquérir de nouvelles Licences, si la période d'interruption des Services de Support devait excéder 12 mois. Les niveaux actuels des Services de Support proposés et les services correspondants fournis en vertu des présentes sont décrits sur le site de PTC, à l'adresse http://www.ptc.com/support/maintenance/maintenance_support_policies.htm.
+
+3.2. Un Plan de Services de Support ne peut être annulé par le Client après acceptation par PTC de la commande correspondante. Si le Client choisit des Services de Support pour un Produit sous Licence donné, toutes les Licences du Client correspondant à ce Produit sous Licence doivent être couvertes par les Services de Support ; autrement dit, les commandes de Support partiel ou les renouvellements partiels ne sont pas autorisés.
+
+4. Conformité.
+
+4.1. Évaluations de l'Utilisation des Licences. Pour confirmer le respect, par le Client, des dispositions et conditions de ce Contrat, le Client convient que PTC est en droit de procéder à un examen d'utilisation concernant l'utilisation des Produits sous Licence par le Client. Le Client accepte de permettre à PTC d'accéder à ses installations et systèmes informatiques, et d'assurer la coopération de ses employés et consultants, comme demandé raisonnablement par PTC dans le but de réaliser une telle évaluation, tout cela durant les heures normales d'ouverture des bureaux et suivant un préavis raisonnable de PTC.
+
+4.2. Rapports. Sur demande écrite de PTC, le Client accepte de communiquer à PTC un rapport d'installation et/ou d'utilisation pour les Produits sous Licence (et dans le cas de Produits d'Utilisateurs Enregistrés, tel qu'indiqué sur la Page Web de Base de Licence, ce rapport inclura une liste de toutes les personnes pour lesquels le Client a émis un mot de passe ou tout autre identifiant exclusif en vue de permettre à ladite personne d'utiliser le Produit d'Utilisateur Enregistré). Chaque rapport sera certifié par un représentant autorisé du Client dans les dix (10) jours ouvrés suivant la réception d'une demande écrite de PTC. Pour toute période au cours de laquelle l'utilisation par le Client des Produits sous Licence excède le nombre et/ou le champ des Licences en vigueur pour cette période, le Client accepte de payer cette utilisation excédentaire, y compris les redevances applicables à la Licence et aux Services de Support et, sans limiter les autres droits ou recours dont il peut se prévaloir, tout défaut de paiement entraînera une résiliation conformément à l'Article 9.1 du présent document.
+
+5. Propriété intellectuelle.
+
+PTC et ses concédants sont les seuls propriétaires des Produits sous Licence, ainsi que toutes copies de ceux-ci, et de tous droits d'auteur, secrets commerciaux, brevets, marques et autres droits de propriété intellectuelle ou industrielle sur et afférents aux Produits sous Licence. Toutes copies de Produits sous Licence et de Services de Support, sous quelque forme que ce soit, fournies par PTC ou faites par le Client, seront la propriété de PTC, et ces copies seront réputées constituer un prêt au Client au cours de la Durée de la Licence. Le Client reconnaît que la Licence octroyée en vertu des présentes n'a pas pour effet de lui conférer un quelconque titre de propriété en relation avec les Produits sous Licence ou toutes copies de ceux-ci, ni leur propriété, mais uniquement un droit d'utilisation limité conforme aux dispositions et conditions expresses du présent Contrat. Le Client ne dispose d'aucun droit sur le code source des Produits sous Licence et il convient que seule PTC sera en droit de maintenir, de développer ou de modifier de quelconque manière les Produits sous Licence.
+
+6. Garantie ; Exclusions de garanties.
+
+Reportez-vous à l'Annexe A pour la version modifiée de l'Article 6 concernant les Produits sous Licence et utilisés en Allemagne, en Autriche ou en Suisse.
+
+6.1. Garantie. PTC garantit au Client qu'elle est autorisée à octroyer la/les Licence(s). PTC garantit également que les Produits sous Licence seront dépourvus de toute Erreur durant la Période de Garantie. "Période de Garantie" signifie : (a) pour les Licences perpétuelles, une période de quatre-vingt-dix (90) jours à compter l'expédition initiale par PTC au Client ou à son représentant du Produit sous Licence ; et (b) pour les Licences par souscription, la durée de la souscription. PTC ne sera liée par aucune obligation de garantie en vertu des présentes en relation avec (i) les Nouvelles Versions, (ii) les Erreurs imputables à toutes modifications ou personnalisations des Produits sous Licence, (iii) les Produits sous Licence fournis gratuitement au Client par PTC et/ou (iv) tous Produits Tiers Intégrés (tels que définis à l'Annexe des Conditions de Tiers).
+
+6.2. Recours exclusif. La totalité de la responsabilité de PTC et de celle de ses concédants, ainsi que le seul recours du Client en cas de violation, par PTC, de la garantie stipulée dans l'Article 6.1 ci-dessus sera, à la discrétion exclusive de PTC de (a) soit remplacer le(s) Produit(s) sous Licence contenant l'Erreur ; (b) soit mettre en œuvre les efforts diligents pour réparer l'Erreur. Les obligations incombant à PTC telles que stipulées dans la phrase précédente, ne s'appliqueront que si la notification d'Erreur est reçue par PTC au cours de la Période de Garantie et si le Client fournit toutes informations supplémentaires relatives à l'Erreur que PTC pourra raisonnablement demander. Si PTC ne remplace pas le(s) Produit(s) sous Licence concernés et/ou ne corrige pas l'Erreur (par la fourniture d'un correctif, d'une solution de contournement, ou de toute autre manière) dans un délai raisonnable après que la notification, par le Client, de l'Erreur et d'informations associées ont été reçues par PTC, cette dernière procédera au remboursement de : la redevance payée par le Client pour la Licence perpétuelle du/des Produit(s) sous Licence contenant l'Erreur, ou (ii) les frais de souscription prépayés pour le restant de la période de souscription du/des Produit(s) sous Licence contenant l'Erreur, dans les deux cas à la restitution dudit/desdits Produit(s) sous Licence et de toutes copies de ceux-ci.
+
+6.3. Absence de garanties supplémentaires. Aucun tiers, y compris un employé, associé, distributeur (y compris tout Revendeur) ou agent de PTC ou de l'un ou l'autre de ses Revendeurs ou agents, n'est autorisé à formuler une quelconque déclaration, accorder des garanties, ou prendre des engagements supérieurs ou différents de ceux contenus dans le présent Contrat eu égard à tous Produits sous Licence ou Services de Support, sauf stipulation expresse spécifique dans un accord écrit signé au nom du Client par un représentant autorisé et au nom de PTC par son responsable juridique ou son Contrôleur Financier.
+
+6.4. Exclusions de garantie. SAUF STIPULATION EXPRESSE DANS L'ARTICLE 6, PTC EXCLUT (ET LE CLIENT RENONCE À) TOUTES GARANTIES EXPRESSES, IMPLICITES OU LÉGALES, ÉCRITES OU VERBALES, Y COMPRIS TOUTES GARANTIES DE QUALITÉ MARCHANDE OU SATISFAISANTE, D'ADAPTATION À UN USAGE PARTICULIER, DE NON-CONTREFAÇON ET/OU TOUTE GARANTIE QUE LE CLIENT OBTIENDRA UN QUELCONQUE RENDEMENT SPÉCIFIQUE. LE CLIENT EST SEUL RESPONSABLE DE TOUS RÉSULTATS OBTENUS GRÂCE À L'UTILISATION DES PRODUITS SOUS LICENCE, Y COMPRIS DU CARACTÈRE ADÉQUAT DES TESTS DE FIABILITÉ ET DE SÉCURITÉ INDÉPENDANTS, AINSI QUE DE L'EXACTITUDE DE TOUS ÉLÉMENTS CONÇUS AVEC LES PRODUITS SOUS LICENCE. PTC NE GARANTIT PAS QUE LE FONCTIONNEMENT OU TOUTE AUTRE UTILISATION DES PRODUITS SOUS LICENCE SERA ININTERROMPU OU DEPOURVU D'ERREURS, NI QU'IL N'ENTRAÎNERA AUCUN DOMMAGE À, NI DYSFONCTIONNEMENT DE DONNÉES, D'ORDINATEURS OU DE RÉSEAU DU CLIENT.
+
+7. Indemnisation ; Violation.
+
+7.1. Obligation incombant à PTC d'indemniser le Client. PTC assumera, à ses frais, la défense dans le cadre de toute action à l'encontre d'un Client sur la base d'une demande fondée sur une allégation selon laquelle un Produit sous Licence viole un brevet, des droits d'auteur ou une marque aux États-Unis, dans l'Union européenne ou au Japon, et à son gré règlera cette action, ou acquittera le montant de toute somme que le Client sera condamné à payer par décision de justice définitive rendue à son encontre, sous réserve que : (a)·PTC reçoive promptement du Client toute notification écrite d'une telle demande ; (b)·PTC ait seule le contrôle de la défense en relation avec toute action dans le cadre d'une telle demande, ainsi que de toutes les négociations en vue de son règlement ou de tout compromis, et en supporte la totalité des coûts (sauf lorsqu'une ou plusieurs exclusions de l'Article 7.3 s'appliquent ; et que (c) le Client coopère pleinement, aux frais de PTC, à la défense en relation avec une telle demande, à son règlement ou à la conclusion de tout compromis à cet égard. Le présent Article fait mention de la responsabilité unique et exclusive de PTC, ainsi que de l'unique recours disponible pour le Client, en cas de réclamations liées à une violation d'un quelconque droit de propriété intellectuelle.
+
+7.2. Droit de PTC d'intervenir pour prévenir une demande. Si une demande décrite à l'Article 7.1 survient, ou bien si, de l'avis de PTC, est susceptible de survenir, le Client permettra à PTC, au gré et aux frais de cette dernière : (a) d'obtenir pour le Client le droit de continuer à utiliser le Produit sous Licence ; (b) de modifier le Produit sous Licence pour qu'il ne constitue plus une contrefaçon, sans compromettre de manière importante sa fonctionnalité ; ou (c) de résilier les Licences en cause, d'accepter le retour des Produits sous Licence et d'octroyer au Client un crédit à cet égard. Pour les Licences d'une Durée de Licence perpétuelle, ledit crédit sera égal aux redevances de la Licence acquittées par le Client au titre dudit Produit sous Licence amorti sur cinq ans, sur la base d'un amortissement linéaire. Pour les Licences achetées pour une durée limitée ou par souscription, ledit crédit sera égal aux frais de Licence ou de souscription prépayés pour le restant de la Durée de Licence.
+
+7.3. Exclusions relatives à l'obligation incombant à PTC d'indemniser le Client. PTC n'encourra aucune responsabilité à l'égard du Client, en vertu de l'Article 7.1 des présentes ou autrement, dans la mesure où une contrefaçon ou une demande à cet égard est basée sur : (a) l'utilisation du Produit sous Licence en liaison avec un équipement ou un logiciel non fourni en vertu des présentes, lorsque le Produit sous Licence lui-même ne constituerait pas une contrefaçon ; (b) une utilisation autre qu'une version en cours du/des Produit(s) sous Licence fournis au Client ; ou (c) toute modification du Produit sous Licence par toute personne autre que PTC ou ses employés ou agents.
+
+8. Limitation de responsabilité.
+
+8.1. La garantie et les dispositions en matière d'indemnisation des Articles 6 et 7 des présentes constitueront la totalité de la responsabilité de PTC, de ses filiales et entités liées, ainsi que de chacun de leurs administrateurs, dirigeants, employés ou agents respectifs, en relation avec les Produits sous Licence et les Services de Support, y compris notamment toute responsabilité en cas de violation de garantie, ou de contrefaçon, avérée ou supposée de brevet, droits d'auteur, marque, secret commercial et autres droits de propriété intellectuelle ou de propriété autres par les Produits sous Licence, ou leur utilisation.
+
+8.2. À L'EXCEPTION DES OBLIGATIONS D'INDEMNISATION IMPUTABLES À PTC IDENTIFIÉES A L'ARTICLE 7.1 CI-DESSUS, LA RESPONSABILITÉ MAXIMALE DE PTC ET DE SES AFFILIÉS, REVENDEURS, DISTRIBUTEURS ET CONCÉDANTS DÉCOULANT DE, OU SE RAPPORTANT À LA CRÉATION, LA CESSION SOUS LICENCE, LE FONCTIONNEMENT, L'UTILISATION OU LA FOURNITURE DES PRODUITS SOUS LICENCE OU LA PRESTATION DE SERVICES DE SUPPORT, OU SE RAPPORTANT AUTREMENT AU PRÉSENT CONTRAT, QUE CE SOIT SUR UNE BASE DE GARANTIE, CONTRACTUELLE, QUASI-DÉLICTUEUSE OU AUTRE, NE DOIT PAS : (I) POUR LES LICENCES ACHETÉES POUR UNE DURÉE DE LICENCE PERPÉTUELLE, DÉPASSER LES REDEVANCES PAYÉES PAR LE CLIENT POUR LES PRODUITS SOUS LICENCE OU LES SERVICES DE SUPPORT À L'ORIGINE DE LA DEMANDE, ET (II) POUR LES LICENCES ACHETÉES POUR UNE DURÉE LIMITÉE OU PAR SOUSCRIPTION, DÉPASSER LES REDEVANCES PAYÉES PAR LE CLIENT AU COURS DE LA PÉRIODE DE DOUZE (12) MOIS QUI PRÉCÈDE IMMÉDIATEMENT L'ÉVÉNEMENT CAUSANT LE DOMMAGE POUR LES PRODUITS SOUS LICENCE OU LES SERVICES DE SUPPORT À L'ORIGINE DE LA DEMANDE.
+
+8.3. EN AUCUN CAS, PTC, SES CONCÉDANTS, SES AFFILIÉS (Y COMPRIS SES FILIALES), OU L'UN OU L'AUTRE DE LEURS ADMINISTRATEURS, DIRIGEANTS, EMPLOYÉS OU AGENTS RESPECTIFS NE SERONT RESPONSABLES, DE QUELQUE MANIÈRE QUE CE SOIT ; (A) D'UN QUELCONQUE MANQUE À GAGNER, DE DOMMAGES DÉCOULANT D'UNE PERTE DE JOUISSANCE, DE DÉFECTION DE CLIENTS, DE LA PERTE D'OPPORTUNITÉS COMMERCIALES, DE LA PERTE DE VENTES, D'UNE ATTEINTE À L'IMAGE OU D'UNE PERTE D'ÉPARGNE ANTICIPÉE ; (B) D'UNE QUELCONQUE PERTE OU INEXACTITUDE DE DONNÉES OU D'INFORMATIONS COMMERCIALES, OU DE LA DÉFAILLANCE OU DE L'INADÉQUATION D'UN SYSTÈME OU D'UNE FONCTION DE SÉCURITÉ ; NI (C) D'AUCUN PRÉJUDICE NI D'AUCUNS DOMMAGES SPÉCIAUX, INDIRECTS, QUELLE QU'EN SOIT LA CAUSE, DANS CHAQUE CAS, MÊME SI PTC A ÉTÉ INFORMÉE DE LA POSSIBILITÉ DE TELS DOMMAGES.
+
+8.4. Le Client convient de n'intenter une action à l'encontre de PTC et/ou de ses entités liées et filiales, des concédants de PTC et/ou de leurs administrateurs, dirigeants, employés ou agents respectifs, pour quelque raison que ce soit, plus d'une année après que la cause d'action soit survenue. Les limitations et exclusions stipulées dans le présent Article 8 ne s'appliqueront à aucune demande au titre d'un décès ou d'un dommage corporel.
+
+9. Durée et résiliation des Licences ou Services de Support.
+
+9.1. Événements causant la résiliation. Le présent Contrat et toutes les Licences, ainsi que la fourniture des Services de Support pour les Produits sous Licence, expireront trente (30) jours après la notification écrite par PTC spécifiant un manquement du présent Contrat, y compris le défaut de paiement à échéance attribuable à PTC ou à un Revendeur en liaison avec les Produits sous Licence, si ce manquement n'est pas remédié, à la satisfaction raisonnable de PTC, dans un délai de trente (30) jours.
+
+9.2. Effets de l'expiration ou de la résiliation. À l'expiration d'une Durée de Licence donnée et/ou en cas d'expiration ou de résiliation du présent Contrat, le Client paiera promptement toutes sommes dues par le Client, restituera à PTC les exemplaires originaux de tous les Produits sous Licence pour lesquels la Durée de Licence a expiré ou a été résiliée, détruira et/ou supprimera toutes les copies et sauvegardes de ceux-ci des bibliothèques informatiques, installations de stockage et/ou d'hébergement du Client.
+
+9.3. Survie des dispositions. Les Articles 1.2 et 3 à 10 survivront à l'expiration ou à la résiliation du présent Contrat.
+
+10. Dispositions générales.
+
+10.1. Droit et juridiction du Contrat. Sauf indication contraire dans l'Annexe A, tous différends découlant de, se rapportant à, ou liés, de quelque manière que ce soit, au présent Contrat, seront régis par, et interprétés conformément au droit de l'État du Massachusetts sans référence aux principes en matière de conflit de lois (et spécifiquement, à l'exclusion de la Loi américaine sur l'uniformisation des transactions informatiques (Uniform Computer Information Transactions Act). Par la présente, les parties renoncent expressément à l'application de la Convention des Nations Unies sur les contrats de vente internationale de marchandises. Tous différends découlant de, se rapportant à, ou liés, de quelque manière que ce soit, au présent Contrat, seront de la compétence des tribunaux d'État ou fédéraux situés dans l'État du Massachusetts, et ne relèveront d'aucun autre tribunal ou d'aucune autre juridiction. Nonobstant ce qui précède ou toute disposition contraire, PTC aura le droit de formuler une réclamation devant tout tribunal compétent pour faire appliquer ses droits de propriété intellectuelle et/ou protéger toute information confidentielle. Le Client stipule que l'État et les tribunaux fédéraux situés dans l'État du Massachusetts sont compétents ratione personae à son égard, et par les présentes, le Client (i) reconnaît irrévocablement la compétence personnelle desdits tribunaux ; et (ii) accepte irrévocablement la signification des pièces de procédure, actes de procédure et notification en liaison avec toutes actions initiées devant lesdits tribunaux. Les parties conviennent qu'une décision définitive rendue en liaison avec telle action ou procédure sera péremptoire et obligatoire, et pourra être exécutée dans tout autre pays ou territoire. Chaque partie renonce à son droit à un procès par jury en liaison avec tout différend découlant du présent Contrat.
+
+10.2. Notifications. Toute notification ou communication requise ou autorisée par le présent Contrat sera faite par écrit. Toute notification en vertu de la présente section sera réputée reçue : (a) en cas d'envoi par courrier, cinq (5) jours ouvrables après avoir été postée ; (b) en cas d'envoi par service de coursier express, dans le pays de l'expéditeur, le deuxième jour ouvrable suivant l'envoi ; ou (c) s'agissant d'un envoi par télécopie, à réception par le télécopieur du destinataire.
+
+10.3. Cession, Renonciation, Modification. Le Client ne peut céder, sous licence ou autrement, transférer, déléguer, aucun de ses droits ni aucune des obligations lui incombant en vertu des présentes (y compris notamment, par effet de la loi ou par la vente d'actifs du Client, directement ou par fusion, et tout changement de contrôle du Client sera interprété comme une "cession" aux termes de ce qui précède) sans l'accord préalable de PTC, et toute tentative de délégation, de transfert ou de cession sous licence de ce type sera nulle et constituera une rupture du présent Contrat. Aucune renonciation, aucun accord, aucune modification, aucun amendement ni aucun changement des conditions du présent Contrat n'aura force obligatoire, à moins d'avoir été fait par écrit et signé de PTC et du Client. PTC se réserve le droit de facturer des frais de transfert au titre de toute cession, sous licence ou autre, ou de tout transfert envisagé du présent Contrat.
+
+10.4. Conformité avec les lois.
+
+(i) Chaque partie sera responsable de sa propre conformité avec les lois, les règlements et les autres exigences légales relatives à la conduite de ses affaires et au Contrat. En outre, le Client déclare et garantit qu'il utilisera les Produits sous Licence, ainsi que les services et la technologie liés, en pleine conformité avec les lois et règlements applicables.
+
+(ii) Par la présente, le Client garantit et déclare que ni le Client, ni aucun de ses administrateurs, dirigeants ou entités liées, ne figurent sur une liste du Département du Commerce (U.S. Department of Commerce) telle que la Denied Persons List, l'Entity List ou l'Unverified List, ou du Département d'État (U.S. State Department) telle que la Nonproliferation Sanctions List, ou du Département du Trésor (U.S. Department of Treasury) telle que la List of Specially Designated Nationals and Blocked Persons ou la Sectoral Sanctions Identifications (SSI) List (collectivement, les "Listes des Parties Exclues"). Le Client reconnaît et accepte que les Produits sous Licence et les données techniques et les services connexes sont soumis aux lois et réglementations sur le contrôle des exportations des États-Unis et de tout pays dans lequel les Produits sous Licence ou les données techniques ou services connexes sont développés, reçus, téléchargés, utilisés ou exécutés. En outre, le Client comprend et reconnaît que la remise d'un logiciel ou d'une technologie à une personne qui n'est pas un ressortissant des États-Unis aux États-Unis ou dans un autre pays est réputée être une exportation vers le ou les pays de résidence de cette personne, et que le transfert des Produits sous Licence ou des technologies connexes aux employés du Client, ses sociétés affiliées, ou à des tiers, peut nécessiter une licence du gouvernement des États-Unis et, éventuellement, d'autres autorisations applicables. Le Client sera le seul responsable pour déterminer si son utilisation des Produits sous Licence ou des technologies ou services connexes, ou leur transfert, exige une licence d'exportation ou l'approbation des autorités des États-Unis ou d'autres autorités, et s'il doit obtenir des autorisations.
+
+10.5. Indépendance des clauses. Le fait que l'une ou l'autre des dispositions des présentes ne soit pas susceptible d'application valable ou soit considérée comme invalide n'affectera en rien la validité des autres conditions, et les dispositions tenues pour invalides seront réputées non écrites et remplacées par d'autres aussi proches que possible des intentions de telles dispositions invalides.
+
+10.6. Intégralité du Contrat. Le présent Contrat constitue la stipulation complète et exclusive de l'accord entre PTC et le Client en relation avec l'objet des présentes. Aucune renonciation, aucun accord, aucune modification, aucun amendement ni aucun changement des conditions du présent Contrat n'aura force obligatoire, à moins d'avoir été fait par écrit et signé de PTC et du Client, ou expressément reconnu par eux de toute autre manière.
+
+10.7. Tiers bénéficiaires. Il est convenu par les parties que les tiers fournisseurs de Licence de PTC sont considérés comme bénéficiaires du présent Contrat et qu'ils ont le droit de se prévaloir et de faire appliquer directement ses conditions relativement à leurs produits.
+
+10.8. Marketing. Le Client convient que tant que le présent Contrat sera en vigueur, PTC sera en droit d'identifier le Client en qualité de client/d'utilisateur final des logiciels et des services de PTC (selon le cas) dans des documents de relations publiques et marketing.
+
+10.9. Licences publiques Bénéficiaire. Si le Client est un organisme publique des États-Unis (United States Governmental Entity), il convient que les Produits sous Licence constituent, en vertu de la réglementation des marchés et achats publics fédéraux en vigueur, un "logiciel informatique commercial", et qu'ils sont fournis avec les droits de licence commerciaux et les restrictions décrites par ailleurs dans les présentes. Si le Client acquiert le(s) Produit(s) sous Licence en vertu d'un marché public des États-Unis, le Client convient qu'il inclura dans les Produits sous Licence, tous avis nécessaires et applicables se rapportant aux restrictions en matière de droits, afin de protéger les droits exclusifs de PTC en vertu de la réglementation américaine des marchés et achats publics (Federal Acquisition Regulation, FAR) ou d'autres réglementations similaires d'autres autorités fédérales. Le Client convient de toujours inclure ces avis lorsque les Produits sous Licence sont, ou sont réputés être, fournis dans le cadre d'un marché public.
+
+Annexe A - Achats auprès d'Entités Affiliées PTC
+Si le Client a obtenu une Licence pour un quelconque Produit sous Licence dans l'un des pays ci-après, l'entité octroyant la Licence est spécifiée ci-après, et nonobstant les dispositions de l'Article 10.1 du présent Contrat, le droit applicable et les juridictions compétentes seront tels que stipulés ci-après.
+        Pays
+        Entité PTC Octroyant la Licence
+        Droit Applicable/Juridiction Compétente
+Belgique, Pays-Bas, Luxembourg
+Parametric Technology Nederland B.V.
+Beta Technology & Business Accelerator, Unit K110, High Tech Campus 9, Eindhoven, Netherlands 5656 AE
+Pays-Bas
+Autriche, Allemagne
+Parametric Technology GmbH
+Edisonstrasse 8, 85716 Unterschleissheim, Germany 
+Allemagne
+France
+Parametric Technology S.A.
+1 rue du Petit Clamart, CS 10503, Vélizy-Villacoublay, Cedex, France
+France
+Irlande
+PTC (SSI) Limited
+12 Camden Row, Dublin 8, Ireland
+République d'Irlande
+Italie
+Parametric Technology Italia S.r.l.
+Centro Direzionale Colleoni, Palazzo Sirio 3, Viale Colleoni 11, 20041 Agrate Brianza, Italy
+Italie
+Espagne, Portugal 
+Parametric Technology Espana, S.A.
+Gran Via de les Corts, Catalanes, 130-136, Planta 7°, Barcelona, Spain 08038
+Espagne
+Suisse
+Parametric Technology (Schweiz) AG
+Javastrasse 4, Hegnau, Volketswil, Switzerland 8604
+Allemagne
+Royaume-Uni
+Parametric Technology (UK) Limited
+Chester House, Aerospace Boulevard, Farnborough, England, GU14 6TQ
+Royaume-Uni
+Autres pays de l'Union européenne
+PTC (SSI) Limited
+12 Camden Row, Dublin 8, Ireland
+République d'Irlande
+Turquie, Kosovo, Serbie, Macédoine, Monténégro, Croatie, Bosnie-Herzégovine, Roumanie et Albanie
+PTC (SSI) Limited
+12 Camden Row, Dublin 8, Ireland
+République d'Irlande
+Fédération Russe
+PTC International LLC
+Rusakovaskaya Street 13, Moscow,
+Russia 107140
+Russie/Cour d'Arbitrage Commercial International de la Chambre de Commerce et d'Industrie de la Fédération de Russie à Moscou
+Belarus, Moldavie, Ukraine, Arménie, Géorgie, Azerbaïdjan, Kazakhstan, Kirghizistan, Tadjikistan, Turkménistan et Ouzbékistan
+PTC (SSI) Limited
+12 Camden Row, Dublin 8, Ireland
+République d'Irlande
+Norvège, Suède, Danemark, Finlande, Islande et Îles Féroé
+PTC Suède AB
+Johan Pa Gardas gata 5A
+Gothenburg, Sweden 41250
+Suède
+Moyen-Orient (à l'exception d'Israël)
+PTC (SSI) Limited
+12 Camden Row, Dublin 8, Ireland
+République d'Irlande
+Afrique
+PTC (SSI) Limited
+12 Camden Row, Dublin 8, Ireland
+République d'Irlande
+Israël
+PTC Inc.
+140, Kendrick Street, Needham, MA 02494 USA
+État du Massachusetts, États-Unis
+Japon
+PTC Japan K.K.
+8-1, Nishi-Shinjuku, 6-chome, Shinjuku-ku, Tokyo, Japan
+Japon / Tokyo District Court [Cour fédérale de Tokyo]
+Chine
+Parametric Technology (Shanghai) Software Co., Ltd.
+Unit 008, Floor 8, 888 Wanhangdu Road, Jingan District, Shanghai, China 
+ République Populaire de Chine/Commission d'Arbitrage International Économique et Commercial de Chine à Shanghai 
+Taïwan
+Parametric Technology Taiwan Limited
+15/F Hsin Kee Building, 460-466 Hsin Yi Road, Sec. 4, Taipei, Taiwan 110
+Taïwan
+Inde
+PTC India Limited
+4th Floor, Phoenix Towers, 16, Museum Road, Bangalore, India 560 025
+Inde
+Corée
+Parametric Korea Co. Ltd.
+10th Floor, Cosmo Tower, 1002, Daechi-dong, Gangnam-gu, Seoul, Korea 135-502 
+République de Corée/Tribunaux de Séoul
+Autres pays de l'Asie-Pacifique (y compris l'Australie et la Nouvelle Zélande mais excluant la Chine, le Japon et Taïwan)
+PTC Inc.
+140, Kendrick Street, Needham, MA 02494 USA
+Région administrative spéciale de Hong Kong/Centre d'arbitrage international de Hong Kong
+Canada
+PTC (Canada) Inc.
+3333 Cote Vertu, Suite 620, St. Laurent, Québec H4R 2N1
+Ontario
+Brésil
+Parametric Technology Brasil Ltda.
+Rua Samuel Morse, 120, 3rd Floor, Sao Paulo, Brazil 04576-060
+Brésil
+Tous autres pays
+PTC Inc., ou toute autre Affiliée de PTC désignée par PTC au moment de la commande
+État du Massachusetts, États-Unis
+* Dispositions spécifiques pour l'Autriche, l'Allemagne et la Suisse :
+Pour les Produits sous Licence concédés et utilisés en Autriche, en Allemagne ou en Suisse, les dispositions suivantes s'appliquent. Les dispositions suivantes ne s'appliquent pas aux Produits sous Licence ni aux Services de Support achetés en dehors de l'Autriche, de l'Allemagne ou de la Suisse. Les références aux articles ci-dessous se rapportent aux articles applicables dans le corps du Contrat. 
+. L'Article 2.3 (iv) ci-dessus ne s'applique pas dans la mesure où (i) les processus que le Client entame sont requis afin d'obtenir les informations nécessaires à l'interopérabilité d'un programme d'ordinateur créé de façon indépendante avec d'autres logiciels, (ii) les autres exigences de l'Article 69e de la Loi allemande sur le droit d'auteur sont remplies et (iii) PTC, sur demande écrite du Client, n'a pas mis à disposition les informations requises afférentes dans un délai raisonnable.
+. Les Articles 6.1 (Garantie), 6.2 (Recours exclusif), 6.3 (Absence de garanties supplémentaires) et 6.4 (Exclusions de garanties) sont remplacés par les dispositions suivantes :
+6.1	Période de Garantie, Redémarrages et Devoir d'enquête. Le délai de prescription pour les réclamations de garantie sera de douze (12) mois à compter de la livraison. Aucun remplacement d'un Produit sous Licence et/ou aucune réparation d'Erreurs ne prolonge la période de garantie. La réclamation dans le cadre de la garantie (Mangelanspruche) est assujettie aux conditions suivantes : (i) le Client doit inspecter les Produits sous Licence conformément à l'Article 377 du Code du commerce allemand, (ii) le défaut est une Erreur telle que définie dans le présent Contrat, (iii) l'Erreur existait déjà au moment de la livraison, et (iv) le Client a dûment notifié l'Erreur. Le Client doit notifier par écrit les Erreurs à PTC et fournir les détails spécifiques de l'Erreur, comme jugé raisonnable selon les circonstances particulières. Le Client doit notifier par écrit à PTC les Erreurs évidentes dans un délai d'une semaine à compter de la livraison, et les Erreurs latentes dans un délai d'une semaine à compter de leur découverte. Les périodes indiquées sont des délais de forclusion.
+6.2	Recours. En cas d'Erreur, PTC peut, à sa seule discrétion : (a) remplacer le ou les Produits sous Licence ou (b) réparer l'Erreur, à condition que la notification de l'Erreur soit reçue par PTC dans les délais énoncés dans l'Article 6.1 et que le Client fournisse des informations supplémentaires concernant l'Erreur telles que raisonnablement demandées par PTC. Si la réparation (à l'aide d'un correctif de bogue, d'une solution de contournement ou par tout autre moyen) ou le remplacement n'est pas concluant (après au moins deux tentatives de réparation pour la même Erreur par PTC, dans un délai raisonnable), le Client est en droit, à son choix : (i) de renoncer à la commande concernée afin que PTC puisse rembourser la redevance de Licence payée par le Client pour le ou les Produits sous Licence après le retour de tous les Produits sous Licence et de toutes les copies effectuées, ou (ii) d'obtenir une réduction raisonnable du prix d'achat. Les remplacements ou les réparations doivent être effectués sans reconnaissance d'une obligation juridique et n'ont pas pour effet de suspendre le délai de prescription pour les réclamations de garantie relatives aux Produits sous Licence.
+6.3	Absence de garanties supplémentaires. Aucun employé, associé, distributeur (y compris tout Revendeur) ou agent de PTC ou de l'un ou l'autre de ses revendeurs ou commerciaux, n'est autorisé à formuler de déclaration, accorder des garanties, ou prendre des engagements supérieurs ou différents de ceux contenus dans le présent Contrat, sauf stipulation expresse spécifique dans un accord écrit signé au nom du Client par un représentant autorisé et au nom de PTC par son responsable juridique ou son Contrôleur Financier. Hormis les réclamations pour dommages-intérêts fondées sur des Erreurs qui sont soumises à la limitation de responsabilité énoncée à l'Article 8, les obligations prévues dans le présent Article 6 constituent la responsabilité exclusive de PTC en cas de réclamations de garantie.
+6.4	Responsabilité du Client. Les Produits sous Licence sont destinés à être utilisés par des professionnels formés et ne sauraient remplacer le jugement professionnel, les tests ou les mesures de sécurité ; ils ne peuvent être utilisés dans d'autres buts que ceux visés. Le Client est seul responsable des résultats obtenus grâce à l'utilisation des Produits sous Licence, y compris du caractère adéquat des tests de fiabilité indépendants, ainsi que de l'exactitude de tous éléments conçus avec les Produits sous Licence.
+6.5 	Qualités (Beschaffenheit), garanties. Les qualités des Produits sous Licence annoncées dans les publications de PTC ou déclarées par ses commerciaux, en particulier dans les publicités, dessins, brochures ou autres documents, notamment les présentations sur Internet, ou sur l'emballage et l'étiquetage des Produits sous Licence, ou qui relèvent d'usages commerciaux, ne sont considérées couvertes par la qualité contractuelle des Produits sous Licence que si ces caractéristiques sont expressément énoncées dans une offre ou une confirmation de commande par écrit. Les garanties, notamment les garanties de qualité, lient PTC uniquement dans la mesure où (i) elles figurent dans une offre ou une confirmation de commande par écrit, (ii) elles sont expressément désignées comme des "garanties" ou des "garanties comme préalable à l'acquisition" (Beschaffenheitsgarantie), et (iii) elles prévoient expressément des obligations résultant d'une telle garantie pour PTC.
+. L'Article 8 est remplacé par les dispositions suivantes :
+8.	Limitation de responsabilité
+8.1	Catégories de Responsabilité. PTC est passible de dommages-intérêts, indépendamment des motifs juridiques, uniquement si : (i) PTC manque à une obligation contractuelle importante (devoir fondamental) de manière fautive (c.-à-d. au moins par négligence), ou (ii) le dommage a été causé par une négligence grave ou par un acte délibéré de la part de PTC ou (iii) PTC a assumé une garantie.
+8.2	Prévisibilité. La responsabilité de PTC sera limitée aux dommages typiques et prévisibles : (i) si PTC manque à des obligations contractuelles importantes (devoir fondamental) suite à une négligence légère, ou (ii) si des employés ou des agents de PTC qui ne sont pas des dirigeants ou des membres du conseil d'administration ont violé d'autres obligations par négligence grave, ou (iii) si PTC a assumé une garantie, sauf si une telle garantie est expressément désignée comme une garantie comme préalable à l'acquisition (Beschaffenheitsgarantie).
+8.3	Montant maximal. Dans les cas prévus par l'Article 8.2, sections (i) et (ii), la responsabilité de PTC sera limitée à un montant maximal de 1 000 000 euros ou, en cas de pertes purement financières, à un montant maximal de 100 000 euros.
+8.4	Dommages indirects. Dans les cas prévus par l'Article 8.2, PTC ne pourra être tenue responsable en cas de dommages accessoires, indirects ou de perte de bénéfices.
+8.5	Période de responsabilité. Les réclamations de dommages-intérêts de la part du Client envers PTC et/ou les affiliés de PTC, indépendamment du motif légal, expireront au plus tard dans un délai d'un an à partir du moment où le Client a connaissance du dommage ou, indépendamment de cette connaissance, au plus tard deux ans après l'événement dommageable. Pour les réclamations fondées sur des Erreurs des Produit sous Licence(s), la période de limitation de la garantie s'applique conformément à l'Article 6.1.
+8.6	Responsabilité obligatoire. La responsabilité de PTC conformément à la Loi allemande sur la responsabilité du fait des produits (Produkthaftungsgesetz) en cas de blessures portant atteinte à la vie, au corps et à la santé, en cas de dissimulation frauduleuse d'un défaut ou dans l'hypothèse d'une garantie comme préalable à l'acquisition (Beschaffenheitsgarantie) reste inchangée.
+8.7	Employés. Les Articles 8.1 à 8.6 à s'appliquent également dans le cas d'une réclamation pour dommages-intérêts du Client à l'encontre des employés ou des agents de PTC et/ou d'affiliés de PTC.
+8.8	Négligence contributive. Dans le cas d'une réclamation pour garantie ou responsabilité formée contre PTC, toute faute contributive du Client doit être prise en compte en conséquence, notamment dans le cas d'une notification de défaillance non adéquate ou d'une sécurisation des données insuffisante. La sécurisation des données est jugée insuffisante si, notamment, le Client n'a pas, au moyen de mesures de sécurité de pointe appropriées, pris des précautions contre les attaques extérieures, par exemple les virus informatiques et d'autres menaces, qui pourraient constituer un risque pour des données individuelles ou un ensemble de données.
+
+Annexe B - Définitions
+"Devis" : le bordereau de produits, le devis ou tout autre accord écrit mis à la disposition du Client, ou signé par ce dernier, en liaison avec l'achat des Produits sous Licence ou des Services de Support concernés.
+"Documentation" : les manuels d'utilisation du Produit sous Licence concerné fournis ou mis à disposition par PTC sous forme électronique au moment de l'envoi du Produit sous Licence.
+"Durée de Licence" : la période durant laquelle la Licence sera en vigueur pour le Produit sous Licence concerné, telle qu'indiquée dans le Devis correspondant. En l'absence d'une durée de Licence stipulée, la Durée de Licence est perpétuelle, sous réserve que la Durée de Licence pour des Licences d'évaluation ne peut dépasser trente (30) jours. La Durée de Licence pour des Licences par souscription est telle que spécifiée dans le Devis et/ou la facture.
+"Erreur" : un défaut de conformité substantiel du Produit sous Licence à la Documentation concernée, sous réserve que le Client informe par écrit PTC de tel défaut.
+"Frais de Relèvement" : une redevance basée sur la différence entre la redevance applicable à l'installation du Produit sous Licence concerné dans le Pays Désigné initial et la redevance applicable à l'installation dudit Produit sous Licence dans le Pays Désigné dans lequel un Client souhaite s'installer ou utiliser ce Produit sous Licence.
+"Licence" : le droit non exclusif et non cessible, sans possibilité d'octroyer des sous-licences, d'installer et d'utiliser un Produit sous Licence (sous forme de code objet). 
+"Nouvelle Version" : une version modifiée ou mise à jour d'un Produit sous Licence désigné par PTC comme une nouvelle version de ce produit, et que PTC met généralement à la disposition de ses clients ayant souscrit aux Services de Support.
+"Page Web de Base de Licence" : le document "Base de Licence" disponible à l'adresse http://www.ptc.com/support/customer_agreements/index.htm qui décrit les modalités de base de la Licence d'utilisation des différents produits de PTC et définit certaines conditions générales supplémentaires spécifiquement applicables à chaque produit.
+"Pays Désigné" : le pays d'achat, sauf indication contraire spécifiée par écrit sur le bon de commande au moment de l'achat. 
+"Produits sous Licence" : les produits logiciels identifiés dans le Devis concerné et la Documentation les accompagnant.
+"PTC" : signifie PTC Inc., sauf si le Client a obtenu une Licence pour un quelconque Produit sous Licence dans l'un des pays listés dans le tableau en Annexe A, auquel cas PTC signifie l'entité octroyant la Licence tel que défini dans ce tableau.
+"Revendeur" : un revendeur tiers désigné ou agréé par PTC pour la revente ou la distribution des Produits sous Licence et/ou de Services de Support à un Client.
+"Serveur Désigné" : le serveur informatique, situé dans le Pays Désigné et comportant une instance unique de l'application du Produit sous Licence installé concerné. 
+"Services de Support" : la fourniture de Nouvelles Versions, pouvant inclure, en fonction du niveau de Services de Support commandé, une assistance téléphonique, des outils d'assistance sur Internet et des corrections d'Erreurs.
+"Utilisateur Autorisé" : toute personne autorisée par le Client à utiliser les Produits sous Licence ; cette utilisation doit être strictement conforme aux dispositions et conditions des présentes. Les Utilisateurs Autorisés sont limités aux employés, consultants, sous-traitants, fournisseurs, partenaires commerciaux et clients du Client qui (i) ne sont pas des concurrents de PTC ou des personnes employées par des concurrents de PTC ; et (ii) sont directement impliqués dans l'utilisation des Produits sous Licence aux fins uniques de soutenir des besoins internes du Client. Le Client sera, à tout moment, responsable du respect du présent Contrat par ses Utilisateurs Autorisés.

@@ -1,0 +1,36 @@
+# {100} (100) [0] scr_windows3.Label
+Instructions
+Инструкции
+
+# [1] TextArea.Value
+If you are not installing help locally type in the URL where Mathcad Prime 2.0 help is installed.
+Если справка не устанавливается локально, введите URL-адрес установки справки Mathcad Prime 2.0.
+
+# [2] scr_prime_cfg2.Label
+Help URL
+URL-адрес справки
+
+# [3] helplabel.Label
+You can configure to use your Local Help or choose an external source:
+Можно сконфигурировать для использования локальной справки или выбрать внешний источник:
+
+# [4] helpurl.Label
+<http://host:port/>
+
+
+# [5] RadioGroup1.Labels.local
+Local Help
+Локальная справка
+
+# [6] RadioGroup1.Labels.external
+External Help
+Внешняя справка
+
+# [7] Label1.Label
+Help URL:
+URL-адрес справки:
+
+# [8] Label2.Label
+Help Configuration
+Конфигурация справки
+

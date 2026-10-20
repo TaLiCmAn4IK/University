@@ -1,0 +1,12 @@
+# {70172} (3) [0] fwoptdlg.Label
+Select Floating Options
+Netzwerkoptionen wählen
+
+# [1] OkButton.Label
+&OK
+&OK
+
+# [2] CancelBtn.Label
+&Cancel
+&Abbrechen
+

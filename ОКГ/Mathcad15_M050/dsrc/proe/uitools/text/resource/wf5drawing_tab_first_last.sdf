@@ -1,0 +1,33 @@
+; 02-Jun-09 L-03-33+ IKAL  $$1  Created.
+
+
+[togglebutton]
+SizingMargins = 19, 2, 29, 2
+ContentMargins = 12, 2, 22, 2
+BackgroundImage = styles/overlap_tab/first_last.png
+;ForegroundColor = 48 60 66
+;Font = Arial, 12
+;TextColor = 48 60 66
+
+[togglebutton(hot)]
+BackgroundImage = styles/overlap_tab/first_last_hot.png
+;ForegroundColor = 48 60 66
+;Font = Arial, 12
+;TextColor = 48 60 66
+
+[togglebutton(checked)]
+BackgroundImage = styles/overlap_tab/last_selected.png
+;ForegroundColor = 48 60 66
+;Font = Arial, 12
+;TextColor = 48 60 66
+
+[togglebutton(hotchecked)] = togglebutton(checked)
+
+[togglebutton(pressed)] = togglebutton(hot)
+;BackgroundImage = styles/overlap_tab/button_pressed.png
+;ForegroundColor = 48 60 66
+;Font = Arial, 12
+;TextColor = 48 60 66
+
+
+[toolbutton] = togglebutton

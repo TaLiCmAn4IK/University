@@ -1,0 +1,80 @@
+# {100} (100) [0] prodflexLayout3.Label
+Disk Space
+ディスク領域
+
+# [1] Label7.Label
+Available on C: 9999GB
+C: の空き領域: 9999GB
+
+# [2] Label8.Label
+Required on C: 9999GB
+C: の必要領域: 9999GB
+
+# [3] FlexLPLayout.Label
+Destination Folder
+インストール先フォルダ
+
+# [4] LpReleaseLab.Label
+Dummy Label
+ダミーラベル
+
+# [5] prodflexTreeLayout.Label
+License File
+ライセンスファイル
+
+# [6] PushButton15.HelpText
+Edit license file
+ライセンスファイルを編集
+
+# [7] prodflexTriadLayout.Label
+You are referencing a Triad License file
+3 台構成ライセンスファイルを参照しています
+
+# [8] Label1.Label
+00-00-00-00-00-00
+00-00-00-00-00-00
+
+# [9] Label2.Label
+00-00-00-00-00-00
+00-00-00-00-00-00
+
+# [10] Label4.Label
+Please fill in the other hostnames that will get license server installs:
+ライセンスサーバーをインストールする別のホスト名を入力してください:
+
+# [11] Label5.Label
+00-00-00-00-00-00
+00-00-00-00-00-00
+
+# [12] PushButton6.Label
+FLEXnet Server Options
+FLEXnet サーバーオプション
+
+# [13] UnixLayout.Label
+Unix
+Unix
+
+# [14] Label3.Label
+Server process owner
+サーバープロセスオーナー
+
+# [15] Label9.Label
+Create Links to Directory
+ディレクトリへのリンクを作成
+
+# [16] uCmdLineArgs.Label
+Command Line Arguments
+コマンド行引数
+
+# [17] RebootLab.Label
+Start on Reboot
+再起動時に開始
+
+# [18] wCmdLineArgs.Label
+Command Line Arguments
+コマンド行引数
+
+# [19] RebootLabW.Label
+Start on Reboot
+再起動時に開始
+

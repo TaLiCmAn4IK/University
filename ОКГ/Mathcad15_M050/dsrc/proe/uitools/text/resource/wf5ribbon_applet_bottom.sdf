@@ -1,0 +1,10 @@
+; 12-Mar-09 L-03-28  IKAL  $$1  Created.
+; 22-Mar-09 L-03-28+ IKAL  $$2  Updated.
+
+
+[layoutbody]
+SizingMargins  = 1, 0, 1, 0
+ContentMargins = 2, 0, 2, 0
+SizingType = Stretch
+BackgroundImage = styles/ribbon/wf5ribbon/ribbonappletbottom.png
+;BackgrondColor = UI_COLOR_TRANSPARENT

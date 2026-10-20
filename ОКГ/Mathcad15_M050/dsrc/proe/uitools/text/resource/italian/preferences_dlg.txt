@@ -1,0 +1,16 @@
+# {100} (100) [0] preferences_dlg.Label
+Preferences
+Preferenze
+
+# [1] psh_Ok.Label
+OK
+OK
+
+# [2] psh_cancel.Label
+Cancel
+Annulla
+
+# [3] phs_apply.Label
+&Apply
+&Applica
+

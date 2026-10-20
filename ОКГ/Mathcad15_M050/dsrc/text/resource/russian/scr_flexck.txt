@@ -1,0 +1,24 @@
+# {100} (100) [0] CheckLayout.Label
+Valid Licenses
+Правильные лицензии
+
+# [1] ValidLabel.Label
+Some
+Некоторый
+
+# [2] CheckLayout2.Label
+Invalid Licenses
+Неправильные лицензии
+
+# [3] InvalidLabel.Label
+Some
+Некоторый
+
+# [4] FixBtn.Label
+Modify...
+Изменить...
+
+# [5] CheckBtn.Label
+ReCheck
+Перепроверка
+

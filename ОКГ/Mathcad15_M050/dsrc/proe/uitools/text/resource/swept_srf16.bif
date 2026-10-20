@@ -1,0 +1,20 @@
+! 11-Jul-97 H-03-16 twb $$1 Revised, file created prior to H-03-16
+! 18-Aug-97 H-03-19 twb $$2 Revised, white background
+! 27-Aug-97 H-03-19+ twb $$3 Revised, fixed coloring
+! 02-Dec-97 H-03-31 twb $$4 Recolored for white background.
+! 18-Dec-97 H-03-34 hmt $$5 Changed size to 18x18
+! 29-DEC-97 H-03-35 MCA $$6 Changed size to 16x16 - Removed RED Set Current Box.
+! 13-APR-99 I-03-07 SZH $$7 Used as feature icon.
+(Image swept_srf16
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     4)
+    )
+    (Data
+        C2C1FFC109C8FF0908070F0F09C6FF090008070F09C7FF090008070F09C7FF09
+        0008080709C7FF09090008070909C7FF090000080709C7FF09090008070909C7
+        FF090008070F09C7FF090008070F09C7FF090008070F09C7FFC309C6FF0909C0
+        FF0909C6FF09C1FF09C3FF
+    )
+)

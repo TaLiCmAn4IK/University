@@ -1,0 +1,24 @@
+# {100} (100) [0] CheckLayout.Label
+Valid Licenses
+有效许可证
+
+# [1] ValidLabel.Label
+Some
+部分
+
+# [2] CheckLayout2.Label
+Invalid Licenses
+无效许可证
+
+# [3] InvalidLabel.Label
+Some
+部分
+
+# [4] FixBtn.Label
+Modify...
+修改...
+
+# [5] CheckBtn.Label
+ReCheck
+核查
+

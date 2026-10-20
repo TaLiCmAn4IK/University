@@ -1,0 +1,25 @@
+!  History:  
+!
+!  Date      Release  Name   Ver.  Comments
+!  --------- -------  -----  ----- --------------------------------------------
+!  07-Nov-07 L-01-41  Moti   $$1   Created.
+!
+!  INSERT COMMENT ABOVE THIS LINE
+!  Do not forget to put "!" at the begining of each line in this comment block.
+
+(Image col_sash_right_arrow_std
+    (Resources
+        (.Width     6)
+        (.Height    50)
+        (.Depth     24)
+        (.HotSpot   0)
+    )
+    (Data
+        FFFFFFFF01F1EFE20177D4D0C8F7F2ACA899FFF200F0FD000D100D200D300D40
+        0D500D600D00700D800D900DA00DB00DC00DD00DE00D00F00D001D101D201D30
+        1D401D501D601D00701D801D901DA01DB01DC01DD01DE01907000000EF1DFF16
+        0425E01D1C2500282D382D182D582D082DE81D882D982D00A82DB82DC82DD82D
+        E82DF82D083D183D00283D383D483D583D683D783D883D983D00A83DB83DC83D
+        D83DE83DF83D084D184D00284D384D484D584D684D784D
+    )
+)

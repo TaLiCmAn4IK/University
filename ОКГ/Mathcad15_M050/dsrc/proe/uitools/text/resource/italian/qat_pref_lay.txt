@@ -1,0 +1,44 @@
+# {100} (100) [0] add.Label
+&Add >>
+&Aggiungi >>
+
+# [1] remove.Label
+&Remove
+&Rimuovi
+
+# [2] chk_toolbar_below_ribbon.Label
+S&how Quick Access Toolbar below the Ribbon
+Mos&tra barra di accesso rapido sotto la barra multifunzione
+
+# [3] apply.Label
+Apply
+Applica
+
+# [4] move_up.HelpText
+Move Up
+Sposta in alto
+
+# [5] move_down.HelpText
+Move Down
+Sposta in basso
+
+# [6] reset.Label
+Re&set
+Reimpo&sta
+
+# [7] source_label.Label
+&Choose commands from:
+S&cegli comandi da:
+
+# [8] dest_label.Label
+Customize &Quick Access Toolbar:
+Personalizza &barra di accesso rapido:
+
+# [9] command_filter.Labels.popular
+Popular Commands
+Comandi di uso frequente
+
+# [10] command_filter.Labels.all
+All Commands
+Tutti i comandi
+

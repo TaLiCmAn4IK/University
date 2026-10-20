@@ -1,0 +1,25 @@
+!
+! 17-JUN-97  H-03-14  LUK  $$1 Created.
+! 12-AUG-97  H-03-18  LUK  $$2 Updated from Terry Bleser.
+! 25-AUG-97  H-03-19+ twb  $$3 Made background transparent and resized.
+! 18-Dec-97 H-03-34 hmt $$4 Changed size to 18x18
+! 29-DEC-97 H-03-35 MCA $$5 Changed size to 16x16 - Removed RED Set Current Box.
+! 06-JAN-98  H-03-35  twb  $$6 Recolored to be consistent with tree.
+! 09-Apr-01  J-01-31  pmu  $$7 Updated for high contrast support
+!  4-Dec-2002  J-03-39   TLH  $$8  Recolored for Wildfire.
+(Image wkcell
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        0FFFFFFF03F0FD000D100D200DBC300D400966666601500D33C7333301400D74
+        0D80059999FF9901CCFFCC0199FF7E5200E49901006600630DE04F0DBF0DCF0D
+        5B0A9001E4E4E4006701F70D071D171DEB061C11F401F40107B8B4A33F1D4F1D
+        5B162C1D641980841D941DA015701DA015880D980900030000C71AB41D840DD4
+        1DDC01E81D00F81D082D182D282D382DAC0D942D682D00782DC42DC01DA82DB8
+        2D043D9C019C0100083DF02D003DD02D483D303D5C3D103D00883D703D803D50
+        3DC83D
+    )
+)

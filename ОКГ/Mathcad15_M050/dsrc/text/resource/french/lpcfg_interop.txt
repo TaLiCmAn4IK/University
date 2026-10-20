@@ -1,0 +1,44 @@
+# {0} (11) [0] InstCmdLab.Label
+Start Command:
+Commande de démarrage :
+
+# [1] ReleaseLab.Label
+<name>  <release>  <datecode>
+
+
+# [2] InstLocLab.Label
+Install Location:
+Répertoire d'installation :
+
+# [3] StartInLab.Label
+Start In:
+Démarrer dans :
+
+# [4] interop_2.Label
+Pro/INTRALINK Integration (Optional)
+Intégration Pro/INTRALINK (facultatif)
+
+# [5] grp_layout.Label
+Locate Other Installation Locations (Optional)
+Identifier d'autres répertoires d'installation (facultatif)
+
+# [6] grpCmdLab.Label
+Start Command:
+Commande de démarrage :
+
+# [7] grpReleaseLab.Label
+<name>  <release>  <datecode>
+
+
+# [8] grpLocLab.Label
+Install Location:
+Répertoire d'installation :
+
+# [9] grpStartLab.Label
+Start In:
+Démarrer dans :
+
+# [10] lpcfg_interop3.Label
+Instructions
+Instructions
+

@@ -1,0 +1,72 @@
+# {100} (100) [0] file_open.Label
+Open
+열기
+
+# [1] FileLayout.Label
+Open
+열기
+
+# [2] Cancel.Label
+&Cancel
+취소(&C)
+
+# [3] Open_Rep.Label
+Open Rep...
+단순화표현 열기...
+
+# [4] Open_Rep.HelpText
+Open Rep of the current object
+현재 개체의 참조를 엽니다
+
+# [5] Open.Label
+Open
+열기
+
+# [6] Name_label.Label
+  File name: 
+  파일 이름: 
+
+# [7] Type_label.Label
+Type
+유형
+
+# [8] Sub_type_label.Label
+Sub-type
+하위 유형
+
+# [9] SubType.HelpText
+Select a file sub-type to display
+표시할 파일의 하위 유형 선택
+
+# [10] ViewOnly.Label
+View Only
+뷰 전용
+
+# [11] ViewOnly.HelpText
+Retrieve Drawing as View Only
+뷰 전용으로서 드로잉 읽어들이기
+
+# [12] Open_Content.Label
+Content...
+내용...
+
+# [13] Open_Content.HelpText
+Browse secondary content of the selected model
+선택한 모델의 보조 내용 찾아보기
+
+# [14] Open_Locked.Label
+Lock and Open
+잠금 및 열기
+
+# [15] Open_Locked.HelpText
+Lock on server and open
+서버 잠금 및 열기
+
+# [16] Open_Mfg_Asm.Label
+Open in Assembly mode
+어셈블리 모드에서 열기
+
+# [17] Open_Mfg_Asm.HelpText
+Opens a manufacturing model in assembly mode instead of manufacturing mode
+제조 모델을 제조 모드 대신 어셈블리 모드에서 엽니다.
+

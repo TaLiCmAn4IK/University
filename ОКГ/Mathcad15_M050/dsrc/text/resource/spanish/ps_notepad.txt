@@ -1,0 +1,100 @@
+# {100} (100) [0] ps_notepad.Label
+FLEXnet license editor
+Editor de licencias FLEXnet
+
+# [1] CheckBtn.Label
+ReCheck License(s)
+Volver a verificar licencia(s)
+
+# [2] CheckLab.Label
+License file still has errors
+El fichero de licencia todavía contiene errores
+
+# [3] file.Label
+&File
+&Fichero
+
+# [4] import.Label
+&Import...
+&Importar...
+
+# [5] import.HelpText
+Replace the file contents from another file
+Reemplazar el contenido del fichero por el de otro fichero
+
+# [6] append.Label
+Append...
+Incorporar...
+
+# [7] append.HelpText
+Append another files' contents to this file
+Incorporar el contenido de otros ficheros a este fichero
+
+# [8] save.Label
+&Save
+&Guardar
+
+# [9] save.HelpText
+Save the file contents
+Guardar el contenido del fichero
+
+# [10] save_as.Label
+Save &As...
+Guardar c&omo...
+
+# [11] save_as.HelpText
+Save the contents in another file
+Guardar el contenido en otro fichero
+
+# [12] exit.Label
+E&xit
+Sa&lir
+
+# [13] edit.Label
+&Edit
+&Editar
+
+# [14] undo.Label
+&Undo
+&Anular
+
+# [15] redo.Label
+Redo
+Rehacer
+
+# [16] cut.Label
+Cu&t
+C&ortar
+
+# [17] copy.Label
+&Copy
+&Copiar
+
+# [18] paste.Label
+&Paste
+&Pegar
+
+# [19] delete.Label
+De&lete
+&Borrar
+
+# [20] select_all.Label
+Select &All
+Seleccionar &todo
+
+# [21] search.Label
+&Search
+B&uscar
+
+# [22] find.Label
+&Find...
+&Buscar...
+
+# [23] next.Label
+Find &Next
+Buscar s&iguiente
+
+# [24] replace.Label
+&Replace...
+&Reemplazar...
+

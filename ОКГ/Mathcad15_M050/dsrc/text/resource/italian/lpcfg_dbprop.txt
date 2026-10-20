@@ -1,0 +1,20 @@
+# {100} (100) [0] lpcfg_dbprop2.Label
+Oracle Database Settings
+Impostazioni database Oracle
+
+# [1] UserNameLab.Label
+Windchill Database Username
+Nome utente database Windchill
+
+# [2] UserPassLab.Label
+Windchill Database User Password
+Password utente database Windchill
+
+# [3] ServiceNameLab.Label
+Oracle Database JDBC Connection
+Connessione JDBC database Oracle
+
+# [4] lpcfg_dbprop3.Label
+Instructions
+Istruzioni
+

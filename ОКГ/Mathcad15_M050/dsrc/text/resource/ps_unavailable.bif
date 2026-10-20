@@ -1,0 +1,23 @@
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!
+!  Menu Item image to select none 
+! 
+!  Date      Release   Name  Ver.   Comments
+!  --------- -------   ----  ----   --------
+!  25-Jul-03 K-01-11   TWH   $$1    Created
+!
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+(Image ps_unavailable
+    (Resources
+        (.Width     24)
+        (.Height    9)
+        (.Depth     24)
+    )
+    (Data
+        0FFFFFFF03F0FD000D100D200D3C300D400D990000015405440D00540D7C0D8C
+        0D9C0D680D7809B80DD80D00E80DF80D081DCC09CC0D341D441D541D00641D14
+        1D2C1D941DA41DB41DC41D781D00881DF41D042D142D242DDC1DE41D542D0064
+        2D742D842D482D942D882DC42DD42D008C2DB02DEC2DFC2D243D343D4435
+    )
+)

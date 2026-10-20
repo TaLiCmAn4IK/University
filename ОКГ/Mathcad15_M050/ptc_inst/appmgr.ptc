@@ -1,0 +1,75 @@
+// 12-Apr-99 $$1  JJE  Created.
+// 30-Sep-99 $$2  MAZ  Add uninstall pkg
+// 12-Nov-99 $$3  MYA  add proappmgr
+// 20-Jan-00 $$4  JJE  Add linkpath screen
+// 15-Mar-00 $$5  TWH  Unix only from now on
+// 04-Apr-01 $$6  ALG  CdSections -> Cdsections
+// 12-Nov-01 $$7  MAZ  SPR 901847: Don't select product by default
+// 18-DEC-02 $$8  J-03-39 MTP  Do not ship for linux, but other unix plats
+// 25-Aug-03 $$9  K-01-13 TWH  Add WelcomeImage
+// 07-Oct-03 $$10 K-01-16 TWH  Add Ad list
+// 15-Mar-04 $$11 K-01-25 TWH  New Ad list
+// 28-Feb-05 $$12 K-03-20 TWH  New Ad list
+// 25-OCT-05 $$13 K-03-34 MTP  sun_solaris_x64 support
+// 21-Dec-07 $$14 L-01-41 TWH  New Ad_list
+// 15-Jan-2008 L-01-42+  TWH  $$15  Rename Ads files
+// 27-Jun-08 L-03-12 $$16 TWH  New WelcomeImage
+// 27-Jul-09 L-03-34 $$17 TWH  Update WF5 images
+// 04-Nov-09 L-03-36 $$18 TWH  Update WF5 images
+
+(Product appmgr
+    (Name                      "PTC Application Manager")
+    (WelcomeImage              "appmgr_name.png")
+    (Packages                  "appmgr_pkg"
+                               "uninstall")
+    (ProgramFiles              True)
+    (LpDirName                 "appmgr")
+    (Screens                   "ScreenProd"
+                               "ScreenAppMgr")
+    (Installed                 False)
+    (HostArchs                 "sun4_solaris"
+                               "sun4_solaris_64"
+                               "sun_solaris_x64"
+                               "hpux11_pa32"
+                               "hpux_pa64"
+                               "sgi_elf4")
+   (Ad_list                    "WF5_101"
+                               "WF5_102"
+                               "WF5_103"
+                               "WF5_104"
+                               "WF5_201"
+                               "WF5_202"
+                               "WF5_203"
+                               "WF5_204"
+                               "WF5_301"
+                               "WF5_302"
+                               "WF5_303"
+                               "WF5_304"
+                               "WF5_401"
+                               "WF5_402"
+                               "WF5_403"
+                               "WF5_501"
+                               "WF5_502"
+			       "WF5_503"
+			       "WF5_601"
+                               "WF5_602"
+                               "WF5_603"
+                               "WF5_701"
+                               "WF5_702"
+			       "WF5_703"
+			       "WF5_801"
+                               "WF5_802"
+                               "WF5_803"
+                               "WF5_901"
+                               "WF5_902"
+			       "WF5_903")
+)
+
+(Package appmgr_pkg
+    (Name                      "PTC Application Manager")
+    (Cdsections                "appmgr"
+                               "Install")
+    (Screens                   "LpcfgLinkpath")
+    (Binscripts                "proappmgr")
+    (Installed                 True)
+)

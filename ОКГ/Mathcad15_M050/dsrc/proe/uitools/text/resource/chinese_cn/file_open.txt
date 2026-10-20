@@ -1,0 +1,72 @@
+# {100} (100) [0] file_open.Label
+Open
+打开
+
+# [1] FileLayout.Label
+Open
+打开
+
+# [2] Cancel.Label
+&Cancel
+取消(&C)
+
+# [3] Open_Rep.Label
+Open Rep...
+打开表示...
+
+# [4] Open_Rep.HelpText
+Open Rep of the current object
+打开当前对象的表示
+
+# [5] Open.Label
+Open
+打开
+
+# [6] Name_label.Label
+  File name: 
+  文件名称:
+
+# [7] Type_label.Label
+Type
+类型
+
+# [8] Sub_type_label.Label
+Sub-type
+子类型
+
+# [9] SubType.HelpText
+Select a file sub-type to display
+选取要显示的文件子类型
+
+# [10] ViewOnly.Label
+View Only
+仅查看
+
+# [11] ViewOnly.HelpText
+Retrieve Drawing as View Only
+以仅查看模式检索绘图
+
+# [12] Open_Content.Label
+Content...
+内容...
+
+# [13] Open_Content.HelpText
+Browse secondary content of the selected model
+浏览选定模型的次要内容
+
+# [14] Open_Locked.Label
+Lock and Open
+锁定并打开
+
+# [15] Open_Locked.HelpText
+Lock on server and open
+锁定服务器并打开
+
+# [16] Open_Mfg_Asm.Label
+Open in Assembly mode
+在组件模式中打开
+
+# [17] Open_Mfg_Asm.HelpText
+Opens a manufacturing model in assembly mode instead of manufacturing mode
+在组件模式而非制造模式中打开制造模型
+

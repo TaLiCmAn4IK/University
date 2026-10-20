@@ -1,0 +1,32 @@
+// 27-Dec-99 $$1  JJE  Created.
+// 14-Feb-00 $$2  JJE  No programfiles
+// 31-Jan-02 $$3  MAZ  Use ptchostid script
+// 04-Mar-03 K-01-06  $$4  TWH  LpcfgWindows->ScreenWindows
+// 21-Jul-03 K-01-11 $$5   JJE  Add ptcborrow and ptcreturn scripts
+// 15-Dec-03 K-01-20 $$6  MAZ  Remove borrow scripts
+
+(Product icemsurf
+    (Name                      "ICEM Surf")
+    (Packages                  "icemsurfpkg")
+    (ProgramFiles              False)
+    (LpDirName                 "icemsurf")
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+)
+
+(Package icemsurfpkg
+    (Name                      "ICEM Surf")
+    (Screens                   "ScreenLicList"
+                               "ScreenWindows"
+                               "ScreenDftCmds"
+                               "LpcfgCmdList"
+                               "LpcfgLinkpath")
+    (CmdTypes                  "icem_surf")
+    (Binscripts                "ptchostid"
+                               "ptcflush"
+                               "ptcstatus")
+    (Cdsections                "IcemSurf"
+                               "Install"
+                               "flexclient")
+    (Installed                 True)
+)

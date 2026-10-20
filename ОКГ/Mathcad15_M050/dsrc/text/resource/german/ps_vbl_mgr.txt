@@ -1,0 +1,8 @@
+# {70141} (2) [0] ps_vbl_mgr.Label
+Variable Manager
+Variablen-Manager
+
+# [1] VarEdit.Label
+Edit
+Editieren
+

@@ -1,0 +1,16 @@
+# {100} (100) [0] UnitsLayout.Label
+Standards
+표준
+
+# [1] UnitsChoice.Labels.english
+English
+영어
+
+# [2] UnitsChoice.Labels.metric
+Metric
+미터법
+
+# [3] scr_units2.Label
+Instructions
+설명
+

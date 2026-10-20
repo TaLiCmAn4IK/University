@@ -1,0 +1,23 @@
+!*  02-Jun-97  H-03-13  VIK  $$1  Submitted.
+!*  26-Jun-97  H-03-15  ISH  $$2  Submitted.
+!*  11-Jul-97  H-03-16  TWB  $$3  submitted
+!*  27-Aug-97 H-03-19+ twb $$4 Revised for consistent letter coloring
+! 13-APR-99 I-03-07 SZH $$5 Used as feature icon.
+! 14-Dec-99 I-03-24 TWB $$6 Updated for new look.
+! 07-Apr-00 J-01-06 TWB $$7 Updated all datum icons.
+! 15-Apr-2002  J-03-23  TLH   $$8  Updated colors
+(Image datum_plane16
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        0FFF000000F0FD000D100D200D00300D400D500D600D700D800D900DA00D1EB0
+        0992522301C00DD00DDC0500B00DBC09F00DF40D041D201D441D341D00501D5C
+        1D841D741D901DA01DC41DB41D00E41DDC1D042DF41D102D202D442D342D004C
+        2D5C2D842D742D902DA02DA42DB42D00CC2DF42D043DD82D243D343D443D543D
+        00643D743D843D943DA43DB43DC43DD43D00E435
+    )
+)
+

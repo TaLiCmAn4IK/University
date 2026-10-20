@@ -1,0 +1,13 @@
+! 27-Sep-99  JJE  $$1  Created.
+(Image plus
+    (Resources
+        (.Width     13)
+        (.Height    13)
+        (.Depth     1)
+    )
+    (Data
+        CB00C8FF0000C8FF0000C2FF00C2FF0000C2FF00C2FF0000C2FF00C2FF0000FF
+        FFC400FFFF0000C2FF00C2FF0000C2FF00C2FF0000C2FF00C2FF0000C8FF0000
+        C8FFCB00
+    )
+)

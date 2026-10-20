@@ -1,0 +1,16 @@
+# {100} (100) [0] pro_help.Label
+Help Loadpoint Input
+Ввод каталога установки Системы помощи
+
+# [1] Label1.Label
+Enter the Help URL or full path to Help installation directory
+Введите URL системы помощи или полный путь к папке установки
+
+# [2] StdOK.Label
+&OK
+&OK
+
+# [3] StdCancel.Label
+&Cancel
+О&тмена
+

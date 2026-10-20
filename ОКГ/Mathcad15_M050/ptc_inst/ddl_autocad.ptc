@@ -1,0 +1,35 @@
+// 28-Sep-01       DAR  started 
+// 22-Oct-01       sergz added make jar ez actions
+// 24-Oct-01       MAZ   Add ScreenJava
+// 30-Oct-01  $$1  MAZ   Remove ScreenJava since it lives in windchill
+// 21-Nov-01  $$2  DAR   Add PossibleArchs for DDL 6.1
+// 04-Mar-03 K-01-06  $$3  TWH  LpcfgWindows->ScreenWindows
+//
+
+(Product ddl_autocad
+    (Name                      "PTC DynamicDesignLink")
+    (Packages                  "wman_acad"
+                               "uninstall")
+    (ProgramFiles              False)
+    (LpDirName                 "DynamicDesignLink")
+    (LpEnvVar                  "WT_HOME")
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+    (StandAlone                False)
+    (HostProd                  "wc_dplink")
+    (PropString                "DDL")
+    (VersionDir                False)
+    (PossibleArchs             "sun4_solaris"
+                               "hpux11_pa32"
+                               "i486_nt")   
+)
+(Package wman_acad
+    (Name                      "Workgroup Manager for AutoCAD")
+    (Cdsections                "WManACAD"
+                               "Install")
+    (KeyCdSection              "WManACAD")
+    (Installed                 True)
+    (Screens                   "ScreenWindows")
+    (PropString                "WorkgroupManagerForAutoCAD")
+    (CustomAction              "ez_ddl_make3")
+)

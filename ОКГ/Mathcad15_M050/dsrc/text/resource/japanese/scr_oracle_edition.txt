@@ -1,0 +1,32 @@
+# {0} (8) [0] OracleEd.Label
+Oracle Edition Setting
+Oracle エディション設定
+
+# [1] OracleEdition.ItemHelpText.oee
+OEE
+OEE
+
+# [2] OracleEdition.ItemHelpText.ose
+OSE
+OSE
+
+# [3] OracleEdition.Labels.oee
+Oracle Enterprise Edition
+Oracle Enterprise Edition
+
+# [4] OracleEdition.Labels.ose
+Oracle Standard Edition
+Oracle Standard Edition
+
+# [5] DbVer.Label
+Oracle Database Version
+Oracle データベースバージョン
+
+# [6] DbVersion.Labels.8i
+Oracle8i
+Oracle8i
+
+# [7] DbVersion.Labels.9i
+Oracle9i
+Oracle9i
+

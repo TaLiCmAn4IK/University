@@ -1,0 +1,44 @@
+# {100} (100) [0] add.Label
+&Add >>
+追加(&A) >>
+
+# [1] remove.Label
+&Remove
+除去(&R)
+
+# [2] chk_toolbar_below_ribbon.Label
+S&how Quick Access Toolbar below the Ribbon
+クイックアクセスツールバーをリボンの下に表示(&H)
+
+# [3] apply.Label
+Apply
+適用
+
+# [4] move_up.HelpText
+Move Up
+上に移動
+
+# [5] move_down.HelpText
+Move Down
+下に移動
+
+# [6] reset.Label
+Re&set
+リセット(&S)
+
+# [7] source_label.Label
+&Choose commands from:
+コマンドを選択(&C):
+
+# [8] dest_label.Label
+Customize &Quick Access Toolbar:
+クイックアクセスツールバーをカスタム化(&Q):
+
+# [9] command_filter.Labels.popular
+Popular Commands
+よく使用するコマンド
+
+# [10] command_filter.Labels.all
+All Commands
+すべてのコマンド
+

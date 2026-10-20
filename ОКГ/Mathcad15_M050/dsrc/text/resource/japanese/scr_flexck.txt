@@ -1,0 +1,24 @@
+# {0} (6) [0] CheckLayout.Label
+Valid Licenses
+有効ライセンス
+
+# [1] ValidLabel.Label
+Some
+複数
+
+# [2] CheckLayout2.Label
+Invalid Licenses
+無効ライセンス
+
+# [3] InvalidLabel.Label
+Some
+複数
+
+# [4] FixBtn.Label
+Modify...
+修正...
+
+# [5] CheckBtn.Label
+ReCheck
+再チェック
+

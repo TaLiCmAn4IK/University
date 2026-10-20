@@ -1,0 +1,144 @@
+//
+// File: dsq.ptc
+//
+// 05-Mar-02 $$1  ALG  Created
+// 28-Mar-02      ALG  Product name change: dsqm -> dsm
+// 28-Mar-02      ALG  Activate PSF_EXE
+// 29-Mar-02      ALG  Add "dsqhelp" cdsection to dsq pkg
+// 02-Apr-02 $$2  ALG  SPR 938740: Change shortcut name for CmdType dsm
+// 12-Apr-02 $$3  ALG  Add cdsection "dsq_start" for applstart res/msg files
+// 01-May-02 $$4  ALG  Remove "uninstall" cdsection, add "uninstall" Pkg
+// 10-Jul-02 $$5  MAZ  Use the new ptclogo.ico icon
+// 05-Aug-02 $$6  MAZ  SPR 967917: add PTC to dsq product name
+// 22-Nov-02           ALG        Deactivate PSF_EXE
+// 22-Nov-02  J-03-38  ALG  $$7   SPR 971401: Add "AEOnly" shortcut "dsm_ae"
+//                                  and AEBinscript "ptcdsm_ae"
+// 13-Jan-03  J-03-40  ALG  $$8   Use new dsm icon file
+// 04-Mar-03 K-01-06  $$9  TWH  LpcfgWindows->ScreenWindows
+// 21-Jul-03 K-01-11       JJE  Add ptcborrow and ptcreturn scripts
+// 24-Jul-03 K-01-11 $$10  MAZ  Add DS API packages
+// 25-Aug-03 K-01-13 $$11  TWH  Add WelcomeImage
+// 22-Sep-03 K-01-15 $$12  MAZ  SPR 1048539: fix DS API sub packages
+// 26-Sep-03 K-01-15+ $$13 MAZ  Add dsapi_common and convertFilesList 
+// 01-Oct-03 K-01-16       MAZ  Add more entries to convertFilesList
+// 07-Oct-03 K-01-16  $$14 TWH  Add Ad list
+// 14-Oct-03 K-01-16 $$15  JJE  Remove borrow scripts for now
+// 15-Oct-03 K-01-17 $$16  MAZ  Rm all "ae" scripts
+// 15-Mar-04 K-01-25 $$17  TWH  New Ad list
+// 28-Feb-05 K-03-20 $$18  TWH  New Ad list
+// 21-Dec-07 L-01-41 $$19  TWH  New Ad_list
+// 15-Jan-2008 L-01-42+  TWH  $$20  Rename Ads files
+// 27-Jun-08 L-03-12 $$21 TWH  New WelcomeImage
+// 27-Jul-09 L-03-34 $$22 TWH  Update WF5 images
+// 04-Nov-09 L-03-36 $$23 TWH  Update WF5 images
+// 27-Oct-10 L-03-41 $$24 TWH  Rebranding
+// 01-Dec-10 L-03-42 $$25 TWH  rebranding
+
+(Product dsq
+    (Name                      "Creo Elements/Distributed Services")
+    (WelcomeImage              "distapps_name.png")
+    (LpDirName                 "Creo Elements/Distributed Services")
+    (VersionDir                False)
+    (ProgramFiles              True)
+    (ShortcutFolder            "Creo Elements/Distributed Services")
+    (Installed                 False)
+    (Packages                  "dsq_base"
+                               "ds_api"
+                               "ptcutil"
+                               "uninstall")
+    (Screens                   "ScreenLicAgree"
+                               "ScreenProd")
+    (SaveList                  "text/dsm_preferences.cfg"
+                               "text/dsm_schedules.cfg")
+    (LicenseSimplification     True)
+//  (PSF_EXE                   "ptcdsm.exe")
+    (Ad_list                    "WF5_101"
+                               "WF5_102"
+                               "WF5_103"
+                               "WF5_104"
+                               "WF5_201"
+                               "WF5_202"
+                               "WF5_203"
+                               "WF5_204"
+                               "WF5_301"
+                               "WF5_302"
+                               "WF5_303"
+                               "WF5_304"
+                               "WF5_401"
+                               "WF5_402"
+                               "WF5_403"
+                               "WF5_501"
+                               "WF5_502"
+			       "WF5_503"
+			       "WF5_601"
+                               "WF5_602"
+                               "WF5_603"
+                               "WF5_701"
+                               "WF5_702"
+			       "WF5_703"
+			       "WF5_801"
+                               "WF5_802"
+                               "WF5_803"
+                               "WF5_901"
+                               "WF5_902"
+			       "WF5_903")
+)
+
+(Package dsq_base
+    (Name                      "Creo Elements/Distributed Services Manager")
+    (Screens                   "ScreenLicList"
+                               "ScreenWindows"
+                               "LpcfgLinkpath")
+    (CmdTypes                  "dsm")
+    (Binscripts                "ptcdsm"
+                               "ptchostid"
+                               "ptcflush"
+                               "ptcstatus")
+//    (AEBinscripts              "ptcdsm_ae")
+    (Cdsections                "dsq"
+                               "Install"
+                               "dsq_start"
+                               "dsqhelp"
+                               "flexclient")
+    (Installed                 True)
+)
+
+(Package ds_api
+    (Name                      "API Toolkits")
+    (Binscripts                "dssetup"
+                               "dsshutdown")
+    (SubPackages               "c_dsapi"
+                               "j_dsapi")
+    (Installed                 False)
+)
+
+// *_dsapi_lib cdsection contains dsapi library, sample code and executables
+(Package c_dsapi
+    (Name                      "C API")
+    (Cdsections                "c_dsapi_lib"
+                               "c_dsapi_docs"
+                               "dsapi_common"
+                               "Install")
+    (convertFilesList          "_LP_/ds_api/common/data/ds_samples/simple/task_info.txt=_LP_/ds_api/common/data/ds_samples/simple/task_info.txt"
+                               "_LP_/ds_api/common/data/ds_samples/protoolkit/ptktask_info.txt=_LP_/ds_api/common/data/ds_samples/protoolkit/ptktask_info.txt")
+    (Installed                 False)
+)
+
+(Package j_dsapi
+    (Name                      "Java API")
+    (Cdsections                "j_dsapi_lib"
+                               "j_dsapi_docs"
+                               "dsapi_common"
+                               "Install")
+    (Installed                 False)
+)
+
+(CmdType dsm
+    (Name                      "Creo Elements/Distributed Services Manager")
+    (Type                      "Shortcut")
+    (CmdPath                   "_LP_\bin\ptcdsm.bat")
+    (IconPath                  "_LP_\install\nt\dsm.ico")
+    (IconIndex                 "0")
+)
+
+

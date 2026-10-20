@@ -1,0 +1,64 @@
+# {0} (16) [0] ps_lic_serv.Label
+Specify License Server
+指定许可证服务器
+
+# [1] StdOK.Label
+&OK
+确定(&O)
+
+# [2] StdCancel.Label
+&Cancel
+取消(&C)
+
+# [3] ServTypeGroup.Labels.1
+Single license server
+单个许可证服务器
+
+# [4] ServTypeGroup.Labels.2
+Triad license server (fault tolerant)
+三元组许可证服务器(容错)
+
+# [5] ServTypeGroup.Labels.3
+Locked license file (no server running)
+锁定的许可证文件(服务器未运行)
+
+# [6] lic_serv.Label
+Simple
+简单
+
+# [7] Label1.Label
+License Server
+许可证服务器
+
+# [8] Label2.Label
+Hostname
+主机名
+
+# [9] Label3.Label
+Port
+端口
+
+# [10] Label4.Label
+Triad partner 1
+三元组伙伴1
+
+# [11] Label5.Label
+Hostname
+主机名
+
+# [12] Label6.Label
+Port
+端口
+
+# [13] Label7.Label
+Triad partner 2
+三元组伙伴2
+
+# [14] Label8.Label
+Triad partner 3
+三元组伙伴3
+
+# [15] Label9.Label
+License file path
+许可证文件路径
+

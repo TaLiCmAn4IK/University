@@ -1,0 +1,12 @@
+!  07-Nov-07 L-01-41  Moti  $$1   Created.
+
+(Image col_sash_empty_arrow
+    (Resources
+        (.Width     6)
+        (.Height    50)
+        (.Depth     8)
+    )
+    (Data
+        C9C916
+    )
+)

@@ -1,0 +1,35 @@
+// 25-May-01 ALG $$1  Created
+// 29-May-01 MAZ $$2  Remove sun4_solaris
+// 06-Jun-01 MAZ $$3  Add HostArchTypes WIN32
+// 04-Mar-03 K-01-06  $$4  TWH  LpcfgWindows->ScreenWindows
+
+(Product icempltview
+    (Name                      "ICEM PlotView 5.0")
+    (LpDirName                 "plotview5.0")
+    (VersionDir                False)
+    (ProgramFiles              False)
+    (Packages                  "icempltview_pkg")
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+    (PossibleArchs             "i486_nt"
+                               "i486_win95")
+    (HostArchTypes             "WIN32")
+)
+
+(Package icempltview_pkg
+    (Name                      "ICEM PlotView")
+    (CmdTypes                  "icempltview_cmd")
+    (Screens                   "ScreenWindows")
+    (Cdsections                "icempltview")
+    (Installed                 True)
+)
+
+// Still need CmdPath, IconPath, IconIndex
+(CmdType icempltview_cmd
+    (Name                      "ICEM Plotview")
+    (Type                      "Shortcut")
+    (CmdPath                   "_LP_\plotview.bat")
+    (IconPath                  "_LP_\install\nt\ptc.ico")
+    (IconIndex                 "0")
+)
+

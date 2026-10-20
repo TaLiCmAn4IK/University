@@ -1,0 +1,12 @@
+# {100} (100) [0] TV_Label.Label
+Install location for Thumbnail viewer
+축소판 뷰어 설치 위치
+
+# [1] TV_Status.Label
+Not Installed
+설치되지 않음
+
+# [2] lpcfg_thumbviewer2.Label
+Instructions
+설명
+

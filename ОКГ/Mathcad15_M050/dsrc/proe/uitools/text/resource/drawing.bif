@@ -1,0 +1,29 @@
+!----------------------------------------------------------------------------
+!
+!  Date      Release Name  Ver.  Comments
+! ---------- ------- ----- ----- --------------------------------------------
+! 13-May-97  H-03-10  DXU  $$1  Submitted.
+! 27-Jul-97  H-03-17  DXU  $$2  modified.
+! 26-Aug-97  H-03-19  DRM  $$3   New Image
+! 02-Dec-97  H-03-31  TWB  $$4   Recolored for white background.
+! 29-Apr-02  J-03-24  TLH  $$5 Appearance update for Pro/E Wildfire
+!----------------------------------------------------------------------------
+(Image drawing
+    (Resources
+        (.Width     24)
+        (.Height    18)
+        (.Depth     24)
+    )
+    (Data
+        0FFFFFFF03F0FD000D100D200D00300D400D500D600D700D800D900DA00DC0B0
+        0DC00DD00DE00DF00D001D6666036601141D241D341D4419041D601D00501477
+        1D871D971D9F12501DBC1D701DC0DC1DEC1DFC1DB01D1C2DD01D000001003F26
+        002D582D0C2D782D2C2D3C25009C29AC2DBC2D702DDC2D902DA02D0C3D001C3D
+        D02D3C3DF02D0039683D083D2C3D00983D4C3D043DC83DC03D8C3DF83DAC3D00
+        643D284DDC3DEC3D584D0C4D784D884D00984D4C4DB84D6C4DD84DE84DF84DAC
+        4D20185DCC4D385D1C433E21994F5D5F5A10245D805D345DD03B99475AA05DB0
+        5440835D875D431DFF566051086799FF5D006F5D3B6D4B6D5B6D6B6D7B6D8B6D
+        9B6D0103
+    )
+)
+

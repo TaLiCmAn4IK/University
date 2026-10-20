@@ -1,0 +1,20 @@
+# {0} (5) [0] lpcfg_wgscfg.Label
+Windchill Graphics Server Configurations
+Windchill Graphics 서버 구성
+
+# [1] lpcfg_wgscfg2.Label
+Windchill Graphics Server Settings
+Windchill Graphics 서버 설정
+
+# [2] HostnameLab.Label
+Fully Qualified Hostname
+완결된 등록 호스트이름
+
+# [3] WGSPortLab.Label
+Port Number
+포트 번호
+
+# [4] TextArea.Value
+Specify the Windchill Graphics Server Hostname and Port Number.
+Windchill Graphics 서버의 호스트 이름과 포트 번호를 지정하십시오.
+

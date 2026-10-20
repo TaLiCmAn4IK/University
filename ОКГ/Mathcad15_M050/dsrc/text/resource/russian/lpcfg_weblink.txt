@@ -1,0 +1,4 @@
+# {100} (100) [0] Label1.Label
+Full path to the Netscape plugins directory
+Полный путь к папке дополнительных модулей Netscape
+

@@ -1,0 +1,28 @@
+!----------------------------------------------------------------------------
+!
+!  Date      Release Name  Ver.  Comments
+! ---------- ------- ----- ----- --------------------------------------------
+! 10-Jul-97  H-03-16  DXU  $$1   Submitted
+! 26-Aug-97  H-03-19  DRM  $$2   New Image
+! 15-Jan-01  J-01-25  pmu  $$3   Updated
+! 29-Apr-02  J-03-24  TLH  $$4 Appearance update for Pro/E Wildfire
+!----------------------------------------------------------------------------
+(Image diagram
+    (Resources
+        (.Width     24)
+        (.Height    18)
+        (.Depth     24)
+    )
+    (Data
+        0FFF000000F0FD000D100D200D00300D400D500D600D700D800D900DA00D00B0
+        0DC00DD00DE00DF00D001D101D20190F66666601301D401D201D601D00701D24
+        1D901DA01D801DC01DD01D841D00B01D002D102D202D302DE41DF41D602D0070
+        2D802D902D442D542DC02DD02DE02D00F02DA42DB42D203D303D403DA41D603D
+        00703D803D443DA03D843DC03DD03DE03D00A43D004D104D204D304D404D504D
+        604D00704DB03DE83DA04DB04DC04DD04D844D00944D005D105D205D305D405D
+        505D605D00705D805D905DE04DF84DC05DD05DE05D00F05DA45DB45D206D306D
+        406D506D606D00706D806D906DA069
+    )
+)
+
+

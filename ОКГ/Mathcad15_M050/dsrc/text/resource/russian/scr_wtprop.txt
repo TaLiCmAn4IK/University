@@ -1,0 +1,28 @@
+# {100} (100) [0] scr_wtprop2.Label
+Configuration Properties
+Свойства конфигурации
+
+# [1] HostnameLab.Label
+Fully Qualified Hostname
+Полное имя сервера
+
+# [2] ServerIdLab.Label
+Unique Server ID
+Уникальный идентификатор сервера
+
+# [3] XSLHostLab.Label
+XSL Processor Server Hostname
+Имя сервера процессора XSL
+
+# [4] JvmHomeDirLab.Label
+Java SDK Home Directory
+Домашняя папка Java SDK
+
+# [5] JvmCommandLab.Label
+Java Execution Command
+Команда выполнения Java
+
+# [6] TextArea.Value
+In the fields below, specify the appropriate settings for your Windchill server.
+В полях ниже укажите установки, соответствующие серверу Windchill.
+

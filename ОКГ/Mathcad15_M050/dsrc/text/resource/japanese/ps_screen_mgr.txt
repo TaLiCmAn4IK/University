@@ -1,0 +1,80 @@
+# {0} (20) [0] ps_screen_mgr.Label
+Screen Manager
+スクリーンマネージャ
+
+# [1] FileMenuPane.Label
+File
+ファイル
+
+# [2] LoadTrail.Label
+Load Trail
+トレイルをロード
+
+# [3] Exit.Label
+Exit
+終了
+
+# [4] DebugMenuPane.Label
+Debug
+デバッグ
+
+# [5] RunMode.Label
+Set Runmode
+実行モードを設定
+
+# [6] Dbglvl_cascade.Label
+Set Debug Level
+デバッグレベルを設定
+
+# [7] DebugSave.Label
+Save Debug
+デバッグを保存
+
+# [8] DebugSave.HelpText
+Save text in debug window to a file
+デバッグウィンドウのテキストをファイルに保存
+
+# [9] DumpScreen.Label
+Dump Screen
+スクリーンをダンプ
+
+# [10] DumpTopLevel.Label
+Dump Top Level
+トップレベルをダンプ
+
+# [11] ClearScreen.Label
+Clear Window
+ウィンドウ解除
+
+# [12] DebugShow.Label
+Show
+表示
+
+# [13] Dbglvl.Labels.0
+None
+なし
+
+# [14] Dbglvl.Labels.1
+Abort
+中止
+
+# [15] Dbglvl.Labels.4
+Error
+エラー
+
+# [16] Dbglvl.Labels.7
+Warning
+警告
+
+# [17] Dbglvl.Labels.10
+Diagnose
+診断
+
+# [18] Dbglvl.Labels.13
+Info
+情報
+
+# [19] Dbglvl.Labels.17
+Verbose
+拡張情報
+

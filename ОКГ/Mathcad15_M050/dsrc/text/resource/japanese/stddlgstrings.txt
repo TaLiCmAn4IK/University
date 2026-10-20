@@ -1,0 +1,192 @@
+# {100} (100) [0] Label1.Label
+Color
+カラー
+
+# [1] Label2.Label
+Settings
+設定
+
+# [2] Label3.Label
+&Red
+赤色(&R)
+
+# [3] Label4.Label
+&Green
+緑色(&G)
+
+# [4] Label5.Label
+&Blue
+青色(&B)
+
+# [5] Label6.Label
+Color:
+カラー:
+
+# [6] Label7.Label
+Basic colors
+ベースカラー
+
+# [7] Label8.Label
+Custom colors
+カスタムカラー
+
+# [8] Label9.Label
+OK
+OK
+
+# [9] Label10.Label
+Apply the changes and quit the window
+変更を適用してウィンドウを終了
+
+# [10] Label11.Label
+Cancel
+キャンセル
+
+# [11] Label12.Label
+Abort changes and quit the window
+変更を中止してウィンドウを終了
+
+# [12] Label13.Label
+Choose Directory
+ディレクトリを選択
+
+# [13] Label14.Label
+&Path
+パス(&P)
+
+# [14] Label15.Label
+&OK
+OK(&O)
+
+# [15] Label16.Label
+&Cancel
+キャンセル(&C)
+
+# [16] Label17.Label
+&Directories
+ディレクトリ(&D)
+
+# [17] Label18.Label
+Dri&ves:
+ドライブ(&V):
+
+# [18] Label19.Label
+Open File
+ファイルをオープン
+
+# [19] Label20.Label
+File &Name:
+ファイル名(&N):
+
+# [20] Label21.Label
+List Files of &Type:
+ファイルタイプを表示(&T):
+
+# [21] Label22.Label
+&Folders:
+フォルダ(&F):
+
+# [22] Label23.Label
+cwd
+cwd
+
+# [23] Label24.Label
+Find
+サーチ
+
+# [24] Label25.Label
+Match &Whole Word Only
+単語全体のみ(&W)
+
+# [25] Label26.Label
+Match &Case
+大文字/小文字を識別(&C)
+
+# [26] Label27.Label
+Regular &Expression
+一般定義式(&E)
+
+# [27] Label28.Label
+Direction
+方向
+
+# [28] Label29.Label
+&Up
+上(&U)
+
+# [29] Label30.Label
+&Down
+下(&D)
+
+# [30] Label31.Label
+&Find Next
+次をサーチ(&F)
+
+# [31] Label32.Label
+Replace &All
+全置き換え(&A)
+
+# [32] Label33.Label
+Fi&nd What:
+サーチアイテム(&N):
+
+# [33] Label34.Label
+Re&place With:
+置き換え(&P):
+
+# [34] Label35.Label
+&Replace
+置換(&R)
+
+# [35] Label36.Label
+Replace
+置換
+
+# [36] Label37.Label
+Font
+フォント
+
+# [37] Label38.Label
+&Font:
+フォント(&F):
+
+# [38] Label39.Label
+St&yle:
+スタイル(&Y):
+
+# [39] Label40.Label
+&Size:
+サイズ(&S):
+
+# [40] Label41.Label
+Sample
+サンプル
+
+# [41] Label42.Label
+Error
+エラー
+
+# [42] Label43.Label
+&Abort
+中止(&A)
+
+# [43] Label44.Label
+&Retry
+やり直し(&R)
+
+# [44] Label45.Label
+&Ignore
+無視(&I)
+
+# [45] Label46.Label
+&Yes
+はい(&Y)
+
+# [46] Label47.Label
+&No
+いいえ(&N)
+
+# [47] Label48.Label
+Confirm
+確認
+

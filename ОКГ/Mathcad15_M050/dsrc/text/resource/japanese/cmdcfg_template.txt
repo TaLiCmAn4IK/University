@@ -1,0 +1,8 @@
+# {0} (2) [0] <template>_1.Label
+Locate Other Installation Directories (Optional)
+他のインストールディレクトリのサーチ(オプション)
+
+# [1] <template>_2.Label
+Optional Inputs
+オプショナル入力
+

@@ -1,0 +1,100 @@
+# {100} (100) [0] ps_notepad.Label
+FLEXnet license editor
+FLEXnet 라이센스 편집기
+
+# [1] CheckBtn.Label
+ReCheck License(s)
+라이센스 재점검
+
+# [2] CheckLab.Label
+License file still has errors
+라이센스 파일에 아직 오류가 있습니다
+
+# [3] file.Label
+&File
+파일(&F)
+
+# [4] import.Label
+&Import...
+가져오기 (&I)...
+
+# [5] import.HelpText
+Replace the file contents from another file
+다른 파일로부터 파일 내용을 대체
+
+# [6] append.Label
+Append...
+덧붙이기...
+
+# [7] append.HelpText
+Append another files' contents to this file
+다른 파일의 내용을 이 파일에 덧붙임
+
+# [8] save.Label
+&Save
+저장(&S)
+
+# [9] save.HelpText
+Save the file contents
+파일 내용 저장
+
+# [10] save_as.Label
+Save &As...
+다른 이름으로 저장(&A)...
+
+# [11] save_as.HelpText
+Save the contents in another file
+다른 파일의 내용을 저장
+
+# [12] exit.Label
+E&xit
+종료(&X)
+
+# [13] edit.Label
+&Edit
+편집(&E)
+
+# [14] undo.Label
+&Undo
+명령취소(&U)
+
+# [15] redo.Label
+Redo
+명령복구
+
+# [16] cut.Label
+Cu&t
+컷(&T)
+
+# [17] copy.Label
+&Copy
+복사(&C)
+
+# [18] paste.Label
+&Paste
+붙여넣기(&P)
+
+# [19] delete.Label
+De&lete
+삭제(&L)
+
+# [20] select_all.Label
+Select &All
+전체 선택(&A)
+
+# [21] search.Label
+&Search
+검색 (&S)
+
+# [22] find.Label
+&Find...
+찾기(&F)...
+
+# [23] next.Label
+Find &Next
+다음 찾기(&N)
+
+# [24] replace.Label
+&Replace...
+대체(&R)...
+

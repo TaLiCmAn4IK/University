@@ -1,0 +1,60 @@
+# {100} (100) [0] scr_studentlic2.Label
+License Configuration
+Конфигурация лицензий
+
+# [1] Label5.Label
+A. Automatically generate license file (online mode)
+А. Автоматически создать файл лицензии (оперативный режим)
+
+# [2] onlineModeLab.Label
+This mode requires an Internet connection to access PTC.com
+Для этого режима требуется интернет-подключение к ptc.com
+
+# [3] ActivationCodeLab.Label
+Product Code
+Код изделия
+
+# [4] Label9.Label
+Username
+Имя пользователя
+
+# [5] Label10.Label
+Password
+Пароль
+
+# [6] autoLicBttn.Label
+Generate License File
+Создать файл лицензии
+
+# [7] StudentLicFileLab.Label
+License File Path
+Путь к файлу лицензий
+
+# [8] Label6.Label
+B. Browse to local license file (offline mode)
+B. Найти локальный файл лицензии (автономный режим)
+
+# [9] scr_studentlic3.Label
+Specify License Server
+Указать сервер лицензий
+
+# [10] licServHost.Label
+Hostname
+Имя сервера
+
+# [11] licServPort.Label
+Port
+Порт
+
+# [12] licServLabel.Label
+License Server
+Сервер лицензий
+
+# [13] scr_studentlic4.Label
+Instructions
+Инструкции
+
+# [14] TextArea.Value
+In the area below, please specify the mode to attain the license for your special edition in order to complete the installation.
+Чтобы завершить установку, в области ниже укажите способ доступа к лицензии для вашего специального выпуска.
+

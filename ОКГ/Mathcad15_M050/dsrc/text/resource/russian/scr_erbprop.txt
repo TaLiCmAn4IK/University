@@ -1,0 +1,16 @@
+# {100} (100) [0] scr_erbprop2.Label
+Windchill Info*Engine Settings
+Установки Windchill Info*Engine
+
+# [1] IEWebServerURLLab.Label
+Web Server URL
+URL-адрес веб-сервера
+
+# [2] IEWebServerPortNoLab.Label
+Web Server Port Number
+Номер порта веб-сервера
+
+# [3] IETaskDirectoryAliasLab.Label
+Task Directory Alias
+Сокращение папки задач
+

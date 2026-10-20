@@ -1,0 +1,24 @@
+# {100} (100) [0] pdm_db.Label
+Select Installation Directory
+Выберите папку для установки
+
+# [1] Label1.Label
+Enter Path to PDM Database.
+Введите путь к базе данных PDM.
+
+# [2] StdOK.Label
+&OK
+&OK
+
+# [3] StdCancel.Label
+&Cancel
+О&тмена
+
+# [4] DbDirBrowse.Label
+&Browse
+&Просмотр
+
+# [5] Label2.Label
+Select Browse for a directory browser
+Выберите Просмотр для просмотра содержимого папки.
+

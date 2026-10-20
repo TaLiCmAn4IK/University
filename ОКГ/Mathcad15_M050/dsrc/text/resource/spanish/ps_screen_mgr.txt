@@ -1,0 +1,80 @@
+# {0} (20) [0] ps_screen_mgr.Label
+Screen Manager
+Administrador de Pantallas
+
+# [1] FileMenuPane.Label
+File
+Fichero
+
+# [2] LoadTrail.Label
+Load Trail
+Cargar cola
+
+# [3] Exit.Label
+Exit
+Salir
+
+# [4] DebugMenuPane.Label
+Debug
+Depurar
+
+# [5] RunMode.Label
+Set Runmode
+Definir modo Ejecución
+
+# [6] Dbglvl_cascade.Label
+Set Debug Level
+Definir nivel de depuración
+
+# [7] DebugSave.Label
+Save Debug
+Guardar depuración
+
+# [8] DebugSave.HelpText
+Save text in debug window to a file
+Guardar texto de la ventana de depuración en un fichero
+
+# [9] DumpScreen.Label
+Dump Screen
+Volcar pantalla
+
+# [10] DumpTopLevel.Label
+Dump Top Level
+Volcar nivel superior
+
+# [11] ClearScreen.Label
+Clear Window
+Despejar ventana
+
+# [12] DebugShow.Label
+Show
+Ver
+
+# [13] Dbglvl.Labels.0
+None
+Ninguno
+
+# [14] Dbglvl.Labels.1
+Abort
+Abortar
+
+# [15] Dbglvl.Labels.4
+Error
+Error
+
+# [16] Dbglvl.Labels.7
+Warning
+Aviso
+
+# [17] Dbglvl.Labels.10
+Diagnose
+Diagnóstico
+
+# [18] Dbglvl.Labels.13
+Info
+Información
+
+# [19] Dbglvl.Labels.17
+Verbose
+Verbose
+

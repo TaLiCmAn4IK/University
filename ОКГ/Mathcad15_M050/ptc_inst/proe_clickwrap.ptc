@@ -1,0 +1,210 @@
+// 19-Sep-2005  K-01-42       JJE  Created.
+// 19-Sep-2005  K-03-32  $$1  JJE  Submit to K-03.
+// 29-Sep-2005  K-01-42       JJE  No defaults for China and Korea
+// 29-Sep-2005  K-03-32  $$2  JJE  Submit to K-03.
+// 02-Feb-2006  K-01-44       JJE  Add Norway
+// 06-Feb-2006  K-03-39       JJE  Submit to K-03.
+// 06-Feb-2006  L-01-02  $$3  JJE  Submit to L-01
+
+
+(CountryList all_countries
+    (Countries                 "usa"
+                               "canada"
+                               "other"
+                               "japan"
+                               "taiwan"
+                               "australia"
+                               "china"
+                               "hongkong"
+                               "korea"
+                               "singapore"
+                               "malaysia"
+                               "newzealand"
+                               "philippines"
+                               "thailand"
+                               "vietnam"
+                               "austria"
+                               "belgium"
+                               "denmark"
+                               "finland"
+                               "france"
+                               "germany"
+                               "ireland"
+                               "italy"
+                               "netherlands"
+                               "norway"
+                               "spain"
+                               "sweden"
+                               "switzerland"
+                               "unitedkingdom"
+    )
+)
+
+// North American License Agreement
+
+(Country usa
+    (Name                       "@@Country_Name_usa")
+    (EnglishName                "United States")
+    (Agreement                  "la_na")
+)
+(Country canada
+    (Name                       "@@Country_Name_canada")
+    (EnglishName                "Canada")
+    (Agreement                  "la_na")
+)
+(Country other
+    (Name                       "@@Country_Name_other")
+    (EnglishName                "Other")
+    (Agreement                  "la_na")
+)
+
+// Japanese License Agreement
+// (document available in English and Japanese)
+
+(Country japan
+    (Name                       "@@Country_Name_japan")
+    (EnglishName                "Japan")
+    (Agreement                  "la_japan")
+)
+
+// Taiwan License Agreement
+// (document only available in English)
+
+(Country taiwan
+    (Name                       "@@Country_Name_taiwan")
+    (EnglishName                "Taiwan")
+    (Agreement                  "la_taiwan")
+)
+
+// Pac Rim Asian Agreement
+// (document only available in English, Chinese Simplified and Traditional, Korean)
+
+(Country australia
+    (Name                       "@@Country_Name_australia")
+    (EnglishName                "Australia")
+    (Agreement                  "la_pacrim")
+)
+(Country china
+    (Name                       "@@Country_Name_china")
+    (EnglishName                "China")
+    (Agreement                  "la_pacrim")
+)
+(Country hongkong
+    (Name                       "@@Country_Name_hongkong")
+    (EnglishName                "Hong Kong")
+    (Agreement                  "la_pacrim")
+)
+(Country korea
+    (Name                       "@@Country_Name_korea")
+    (EnglishName                "Korea")
+    (Agreement                  "la_pacrim")
+)
+(Country singapore
+    (Name                       "@@Country_Name_singapore")
+    (EnglishName                "Singapore")
+    (Agreement                  "la_pacrim")
+)
+(Country malaysia
+    (Name                       "@@Country_Name_malaysia")
+    (EnglishName                "Malaysia")
+    (Agreement                  "la_pacrim")
+)
+(Country newzealand
+    (Name                       "@@Country_Name_newzealand")
+    (EnglishName                "New Zealand")
+    (Agreement                  "la_pacrim")
+)
+(Country philippines
+    (Name                       "@@Country_Name_philippines")
+    (EnglishName                "Philippines")
+    (Agreement                  "la_pacrim")
+)
+(Country thailand
+    (Name                       "@@Country_Name_thailand")
+    (EnglishName                "Thailand")
+    (Agreement                  "la_pacrim")
+)
+(Country vietnam
+    (Name                       "@@Country_Name_vietnam")
+    (EnglishName                "Vietnam")
+    (Agreement                  "la_pacrim")
+)
+
+
+// European License Agreement 
+// (document available in English, German, French, Italian and Spanish)
+
+(Country austria
+    (Name                       "@@Country_Name_austria")
+    (EnglishName                "Austria")
+    (Agreement                  "la_austria")
+)
+(Country belgium
+    (Name                       "@@Country_Name_belgium")
+    (EnglishName                "Belgium")
+    (Agreement                  "la_belgium")
+)
+(Country denmark
+    (Name                       "@@Country_Name_denmark")
+    (EnglishName                "Denmark")
+    (Agreement                  "la_denmark")
+)
+(Country finland
+    (Name                       "@@Country_Name_finland")
+    (EnglishName                "Finland")
+    (Agreement                  "la_finland")
+)
+(Country france
+    (Name                       "@@Country_Name_france")
+    (EnglishName                "France")
+    (Agreement                  "la_france")
+    (Default                    "french")
+)
+(Country germany
+    (Name                       "@@Country_Name_germany")
+    (EnglishName                "Germany")
+    (Agreement                  "la_germany")
+    (Default                    "german")
+)
+(Country ireland
+    (Name                       "@@Country_Name_ireland")
+    (EnglishName                "Ireland")
+    (Agreement                  "la_ireland")
+)
+(Country italy
+    (Name                       "@@Country_Name_italy")
+    (EnglishName                "Italy")
+    (Agreement                  "la_italy")
+    (Default                    "italian")
+)
+(Country netherlands
+    (Name                       "@@Country_Name_netherlands")
+    (EnglishName                "Netherlands")
+    (Agreement                  "la_netherlands")
+)
+(Country norway
+    (Name                       "@@Country_Name_norway")
+    (EnglishName                "Norway")
+    (Agreement                  "la_norway")
+)
+(Country spain
+    (Name                       "@@Country_Name_spain")
+    (EnglishName                "Spain")
+    (Agreement                  "la_spain")
+    (Default                    "spanish")
+)
+(Country sweden
+    (Name                       "@@Country_Name_sweden")
+    (EnglishName                "Sweden")
+    (Agreement                  "la_sweden")
+)
+(Country switzerland
+    (Name                       "@@Country_Name_switzerland")
+    (EnglishName                "Switzerland")
+    (Agreement                  "la_switzerland")
+)
+(Country unitedkingdom
+    (Name                       "@@Country_Name_unitedkingdom")
+    (EnglishName                "United Kingdom")
+    (Agreement                  "la_uk")
+)

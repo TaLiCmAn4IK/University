@@ -1,0 +1,24 @@
+# {100} (100) [0] scr_windows3.Label
+Instructions
+Инструкции
+
+# [1] TextArea.Value
+An Enterprise install will require selection of a PTC FLEXlm license server which should already be installed.\nTrial installations do not require setting up licensing in the installer.
+Для корпоративной установки необходимо выбрать сервер лицензий PTC FLEXlm, который должен быть уже установлен.\nДля пробных установок настройка лицензирования в установщике не требуется.
+
+# [2] RgrpMcadTrial.Labels.trial
+Trial/New License
+Пробная/Новая лицензия
+
+# [3] RgrpMcadTrial.Labels.enterprise
+FLEXnet server/License file
+Сервер FLEXnet/Файл лицензии
+
+# [4] RgrpPrimeLic.Labels.trial
+Trial/New License
+Пробная/Новая лицензия
+
+# [5] RgrpPrimeLic.Labels.enterprise
+FLEXnet server/License file
+Сервер FLEXnet/Файл лицензии
+

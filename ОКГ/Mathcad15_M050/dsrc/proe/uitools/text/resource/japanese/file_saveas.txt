@@ -1,0 +1,108 @@
+# {100} (100) [0] file_saveas.Label
+Save a Copy
+コピーを保存
+
+# [1] type_option.Labels.a
+IGES
+IGES
+
+# [2] type_option.Labels.b
+VRML
+VRML
+
+# [3] lab_profile.Label
+Profile: 
+プロファイル: 
+
+# [4] opt_profile.Labels.TIFF_100
+TIFF_100
+TIFF_100
+
+# [5] opt_profile.Labels.TIFF_200
+TIFF_200
+TIFF_200
+
+# [6] check_is_secondary.Label
+Placeholder label for secondary
+二次的なプレースホルダーのラベル
+
+# [7] opt_category.HelpText
+Select a category for the object to be saved.
+保存されるオブジェクトのカテゴリを選択します。
+
+# [8] lab_category.Label
+Category
+カテゴリ
+
+# [9] Label4.Label
+Model Name
+モデル名
+
+# [10] Label5.Label
+New Name
+新規名
+
+# [11] lab_type.Label
+Type
+タイプ
+
+# [12] lab_name.Label
+Model Name
+モデル名
+
+# [13] lab_ph5.Label
+New Name
+新規名
+
+# [14] lab_ph6.Label
+Type
+タイプ
+
+# [15] lab_newname.Label
+New Name
+新規名
+
+# [16] lab_backup.Label
+Backup To
+バックアップ
+
+# [17] label_pcf.Label
+PCF name
+PCF 名
+
+# [18] lab_save_to.Label
+Save To
+保存先
+
+# [19] Inputname.Value
+part007
+部品 007
+
+# [20] OK.Label
+OK
+OK
+
+# [21] Cancel.Label
+Cancel
+キャンセル
+
+# [22] lbl_common_name.Label
+Common Name: 
+共通名: 
+
+# [23] lbl_in_ws_as.Label
+In Workspace As: 
+ワークスペースに保存: 
+
+# [24] opt_in_ws_as.Labels.cad_doc
+CAD Document
+CAD ドキュメント
+
+# [25] opt_in_ws_as.Labels.secondary
+Secondary Content
+セカンダリコンテンツ
+
+# [26] psh_export_opts.Label
+Options...
+オプション...
+

@@ -1,0 +1,36 @@
+# {100} (100) [0] productpointSubLayout.Label
+Install location for ProductPoint
+ProductPoint 安装位置
+
+# [1] sp_exists.Label
+Existing SharePoint Server information
+现有 SharePoint 服务器信息
+
+# [2] Label5.Label
+Name
+名称
+
+# [3] Label6.Label
+Location
+位置
+
+# [4] sp_name.Value
+ProductPoint
+ProductPoint
+
+# [5] sp_url.Value
+http://
+http://
+
+# [6] lpcfg_productpoint2.Label
+Instructions
+指令
+
+# [7] productpointSub2.Label
+Install Status
+安装状态
+
+# [8] PP_Status.Label
+Not Installed\n\n
+未安装\n\n
+

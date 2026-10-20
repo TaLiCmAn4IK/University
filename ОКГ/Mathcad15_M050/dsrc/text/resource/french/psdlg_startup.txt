@@ -1,0 +1,8 @@
+# {0} (2) [0] psdlg_startup.Label
+Initializing PTC.Setup
+Initialisation de PTC.Setup
+
+# [1] StartupLab.Label
+Initializing PTC.Setup, please wait...
+Initialisation de PTC.Setup en cours, veuillez patienter.
+

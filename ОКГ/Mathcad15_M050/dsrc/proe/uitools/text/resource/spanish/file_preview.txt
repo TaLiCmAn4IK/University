@@ -1,0 +1,48 @@
+# {100} (100) [0] MasterPreviewTab.Label
+Open
+Abrir
+
+# [1] PreviewText.Value
+This is a text area.\nMaybe we could put the first \nfew lines of a text file here.
+Esto es un área de texto.\nSe podrían incluir aquí las \nprimeras líneas de un fichero de texto.
+
+# [2] Label1.Label
+Preview not available.
+Vista previa no disponible.
+
+# [3] PreviewCheckButton.HelpText
+Click the image for 3D view
+Pulsar en la imagen para la vista 3D
+
+# [4] SelNameLbl.Label
+foo.prt.1
+foo.prt.1
+
+# [5] lbl_file_name.Label
+File name: 
+Nombre de fichero:
+
+# [6] SelDateLbl.Label
+12-Dec-87 12:22:22 PM
+12-Dic-87 12:22:22 PM
+
+# [7] lbl_file_date.Label
+Date modified: 
+Fecha de modificación:
+
+# [8] ClosePreview.Label
+Preview
+Vista previa
+
+# [9] ClosePreview.HelpText
+Hide Preview
+Ocultar vista previa
+
+# [10] Preview.Label
+Preview
+Vista previa
+
+# [11] Preview.HelpText
+Show Preview
+Ver vista previa
+

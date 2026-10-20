@@ -1,0 +1,26 @@
+! 11-Jul-97 H-03-16 twb $$1 Revised, file created prior to H-03-16
+! 18-Aug-97 H-03-19 twb $$2 Revised, white background
+! 27-Aug-97 H-03-19+ twb $$3 Revised, fixed coloring
+! 02-Dec-97 H-03-31 twb $$4 Recolored for white background.
+! 18-Dec-97 H-03-34 hmt $$5 Changed size to 18x18
+! 29-DEC-97 H-03-35 MCA $$6 Changed size to 16x16 - Removed RED Set Current Box.
+! 13-APR-99 I-03-07 SZH $$7 Used as feature icon.
+! 14-Dec-99 I-03-24 TWB $$8 Updated for new look.
+! 07-Apr-00 J-01-06 TWB $$9 Updated all datum icons.
+! 15-Apr-2002  J-03-23  TLH   $$10  Updated colors
+(Image datum_analysis16
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        CFFF000000F0FD000992520323011001000D240D340D080D400D00440D680D78
+        0D840D880D9805940DBC0D00DC0DCC0DD80D0C1D1C1DF00D001D301D00481D54
+        1D581D6C1D841D800DB01DB81DE0C41DEC1DFC1D0C2D1C2D999999C101302D40
+        2D502D5C2520218080FF8001CCCC3301FFFF01CC732D832D932A70216C25982D
+        BC2D70CC2DD421A829D829666666F32D00033DA32DE327353D453D553DED2820
+        3900743D843D243DB03DC03DD03DDC352021
+    )
+)
+

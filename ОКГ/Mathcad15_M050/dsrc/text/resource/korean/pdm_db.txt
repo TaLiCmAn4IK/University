@@ -1,0 +1,24 @@
+# {100} (100) [0] pdm_db.Label
+Select Installation Directory
+설치 디렉토리 선택
+
+# [1] Label1.Label
+Enter Path to PDM Database.
+PDM 데이터베이스로의 경로 입력
+
+# [2] StdOK.Label
+&OK
+확인(&O)
+
+# [3] StdCancel.Label
+&Cancel
+취소(&C)
+
+# [4] DbDirBrowse.Label
+&Browse
+찾아보기(&B)
+
+# [5] Label2.Label
+Select Browse for a directory browser
+디렉토리 브라우저를 위해 검색 선택
+

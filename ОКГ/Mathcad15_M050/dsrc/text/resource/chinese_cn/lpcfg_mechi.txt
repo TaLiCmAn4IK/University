@@ -1,0 +1,12 @@
+# {100} (100) [0] Label1.Label
+Creo Elements/Pro installation directory
+Creo Elements/Pro安装目录
+
+# [1] Label7.Label
+Select Creo Elements/Pro Command
+选取Creo Elements/Pro命令
+
+# [2] lpcfg_mechi2.Label
+Instructions
+指令
+

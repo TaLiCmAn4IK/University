@@ -1,0 +1,17 @@
+! Icon is introduced due to projects 13022444, 13022451
+! It's name is provided inside GlobalParamDefSet_L03 ND, TransParamSet_L03 ND
+! The ND are generated inside C#, where names are kept as enum GlyphStatuses
+! 11-Jun-09 L-03-33 KS $$1 Created due to SPR#1815576-01
+(Image feat_locked_me
+    (Resources
+        (.Width     9)
+        (.Height    14)
+        (.Depth     24)
+    )
+    (Data
+        0FFFFFFF03F0FD000D100D200DFE2C05E4D57D019252230F016E3A2F43063C01
+        2C094001E03C01640944012C094401F2EBBDFC770D5306B7AA5B0199660133A7
+        0DAF02A4012C01B001640D6C0D0EC809000000F7023C01A401E40D00F405BC05
+        041D141D241D7005481548190050097005440D2C0DA41DB41DC41DD41D
+    )
+)

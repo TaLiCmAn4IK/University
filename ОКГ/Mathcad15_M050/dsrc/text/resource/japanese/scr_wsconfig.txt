@@ -1,0 +1,32 @@
+# {61145} (18) [10] scr_wsconfig.Label
+Workgroup Manager for PRODUCT_NAME Workspace Configuration
+Workgroup Manager for PRODUCT_NAME のワークスペースコンフィギュレーション
+
+# [11] scr_wsconfig2.Label
+Workspace Configuration
+ワークスペースコンフィギュレーション
+
+# [12] TeamNameLab.Label
+Team Name
+チーム名
+
+# [13] PartLifecycleLab.Label
+Part Lifecycle
+部品ライフサイクル
+
+# [14] DocLifecycleLab.Label
+Document Lifecycle
+ドキュメントライフスタイル
+
+# [15] PartViewLab.Label
+Part View
+部品ビュー
+
+# [16] LabelRO.Label
+Read-Only
+読み取り専用
+
+# [17] TextArea.Value
+Specify the Workspace Configuration names that are to be saved in the 'site' located preference file and set the permissions for each configuration.
+プリファレンスファイルの「サイト」に保存するワークスペースコンフィギュレーション名を指定し、各コンフィギュレーションにパーミッションを設定します。
+

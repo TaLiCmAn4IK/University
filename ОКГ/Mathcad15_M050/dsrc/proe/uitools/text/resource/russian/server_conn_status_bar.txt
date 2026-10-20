@@ -1,0 +1,40 @@
+# {100} (100) [0] conn_status_cscbtn.Label
+Not Synchronized
+Не синхронизирован
+
+# [1] conn_status_icon_pshbtn.Label
+Connected
+Связанный
+
+# [2] server_identity.Label
+ProductPoint Server
+Сервер ProductPoint
+
+# [3] server_quick_view_pshbtn.Label
+Server Quick View ...
+Быстрый просмотр сервера ...
+
+# [4] open_server_status_monitor.Label
+Open Server Status Monitor
+Открыть монитор статуса сервера
+
+# [5] set_notification_preferences.Label
+Set Notification Preferences
+Задать настройки уведомлений
+
+# [6] display_change_notification.Label
+Display Change Notifications
+Показывать уведомления об изменениях
+
+# [7] sync_auto_chkbtn.Label
+Synchronize Automatically
+Синхронизировать автоматически
+
+# [8] sync_manual_chkbtn.Label
+Synchronize Manually
+Синхронизировать вручную
+
+# [9] sync_w_conn_srv_pshbtn.Label
+Synchronize Now
+Синхронизировать сейчас
+

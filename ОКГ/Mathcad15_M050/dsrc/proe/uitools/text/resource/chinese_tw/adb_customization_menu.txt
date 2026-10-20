@@ -1,0 +1,32 @@
+# {100} (100) [0] adb_CmdCopyImage.Label
+Copy Button Image
+複製按鈕圖像
+
+# [1] adb_CmdDisplayType.Labels.DefaultStyle
+Default Style
+預設造型
+
+# [2] adb_CmdDisplayType.Labels.Small
+Small Button
+小按紐
+
+# [3] adb_CmdDisplayType.Labels.SmallImageOnly
+Small Button - No Label
+小按鈕 - 無標籤
+
+# [4] adb_CmdDisplayType.Labels.SmallTextOnly
+Small Button - No Icon
+小按鈕 - 無圖示
+
+# [5] adb_CmdDisplayType.Labels.Large
+Large Button
+大按鈕
+
+# [6] adb_CmdWhatsThis.Label
+What's This?
+這是什麼?
+
+# [7] adb_CmdWhatsThis.HelpText
+Tells what this button does
+說明此按鈕作用
+

@@ -1,0 +1,14 @@
+! 13-Dec-06 L-01-22 AW    $$1   Created
+!
+(Image ribbonappletbuttonglyph
+    (Resources
+        (.Width     10)
+        (.Height    10)
+        (.Depth     24)
+    )
+    (Data
+        8FFF000000F0FD000D0C0566878EAF011C0D24010C0D2401FE03FEFF470D330D
+        43065C0D800D6C0900940D7009AC0D2409C00DD80DD00D041D00240D001D3419
+        4C0D341D601D7019
+    )
+)

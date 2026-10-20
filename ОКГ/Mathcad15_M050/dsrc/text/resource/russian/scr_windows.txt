@@ -1,0 +1,52 @@
+# {100} (100) [0] ShortcutLayout.Label
+Windows Shortcut Preferences
+Настройки ярлыков Windows
+
+# [1] FolderLab.Label
+Program Folder
+Папка программ
+
+# [2] StartInDirLab.Label
+Startup Directory
+Каталог запуска
+
+# [3] LocationLab.Label
+Shortcut Location(s)
+Расположение ярлыков
+
+# [4] ScDesktop.Label
+Desktop
+Рабочий стол
+
+# [5] ScStartMenu.Label
+Start Menu
+Стартовое меню
+
+# [6] ScProgramFolder.Label
+Program folder
+Папка программ
+
+# [7] ScQuickLaunch.Label
+Quick Launch
+Быстрый запуск
+
+# [8] StartinDirWarning.Label
+Define the startup directory to a location where all users have read-write access.
+Определите каталогом запуска каталог, к которому у всех пользователей есть доступ с правом чтения и записи.
+
+# [9] PathLayout.Label
+Windows Environment Preferences
+Настройки окружения Windows
+
+# [10] PathChoice.Labels.systempath
+Modify system environment for all users
+Изменить системное окружение для всех пользователей
+
+# [11] PathChoice.Labels.userpath
+Modify current user's environment only
+Изменить системное окружение только для текущего пользователя
+
+# [12] scr_windows3.Label
+Instructions
+Инструкции
+

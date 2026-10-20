@@ -1,0 +1,28 @@
+# {0} (7) [0] scr_wtprop2.Label
+Configuration Properties
+구성 등록 정보
+
+# [1] HostnameLab.Label
+Fully Qualified Hostname
+완결된 등록 호스트이름
+
+# [2] ServerIdLab.Label
+Unique Server ID
+유일 서버 ID
+
+# [3] XSLHostLab.Label
+XSL Processor Server Hostname
+XSL 프로세서 서버 호스트이름
+
+# [4] JvmHomeDirLab.Label
+Java SDK Home Directory
+Java SDK 홈 디렉토리
+
+# [5] JvmCommandLab.Label
+Java Execution Command
+자바 실행 명령어
+
+# [6] TextArea.Value
+In the fields below, specify the appropriate settings for your Windchill server.
+아래 필드에서, Windchill 서버에 관한 적절한 설정을 지정하십시오.
+

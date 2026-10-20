@@ -1,0 +1,52 @@
+# {100} (100) [0] list_SelectFrom.HelpText
+Choose command from list
+從清單上選擇指令
+
+# [1] psh_add.Label
+&Add >>
+新增(&A) >>
+
+# [2] psh_remove.Label
+&Remove
+移除 (&R)
+
+# [3] psh_reset.Label
+Re&set
+重設 (&S)
+
+# [4] psh_reset.HelpText
+Reset the content of the Quick Access Toolbar to the default
+將快速存取工具列的內容重設為預設值
+
+# [5] psh_moveUp.Label
+Move Up
+上移
+
+# [6] psh_moveUp.HelpText
+Move selected command upwards in the list.
+將所選指令往清單上方移動。
+
+# [7] psh_moveDown.Label
+Move Down
+下移
+
+# [8] psh_moveDown.HelpText
+Move selected command downwards in the list.
+將所選指令往清單下方移動。
+
+# [9] lbl_choose_cmd_from.Label
+&Choose command from:
+從下處選擇指令 (&C):
+
+# [10] lbl_qa_toolbar_content.Label
+Customize &Quick Access Toolbar:
+自訂快速存取工具列(&Q):
+
+# [11] opt_choose_cmd_from.Labels.sel_AllCmd
+All Commands
+全部指令
+
+# [12] opt_choose_cmd_from.Labels.separator_tabs
+--------------
+--------------
+

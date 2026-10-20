@@ -1,0 +1,20 @@
+# {100} (100) [0] RgrpMcadCustom.Labels.typical
+Typical
+典型
+
+# [1] RgrpMcadCustom.Labels.custom
+Custom
+定制
+
+# [2] RgrpMcadCustom.Labels.silent
+Create silent installation package
+创建静默安装包
+
+# [3] scr_windows3.Label
+Instructions
+指令
+
+# [4] TextArea.Value
+Typical will proceed immediately to do an installation with all default selections\nCustom installation allows installing languages and changing defaults.\nSilent install goes through the custom selections; but only creates an MSI file for doing installation; an install is not actually performed.
+“典型”安装会立即使用所有缺省选项进行安装\n“定制”安装允许安装语言和更改缺省选项。\n“静默”安装会经过所有定制选项，但仅创建执行安装的 MSI 文件; 安装并不实际执行。
+

@@ -1,0 +1,24 @@
+# {70133} (6) [0] CheckLayout.Label
+Valid Licenses
+Gültige Lizenzen
+
+# [1] ValidLabel.Label
+Some
+Einige
+
+# [2] CheckLayout2.Label
+Invalid Licenses
+Ungültige Lizenzen
+
+# [3] InvalidLabel.Label
+Some
+Einige
+
+# [4] FixBtn.Label
+Modify...
+Ändern...
+
+# [5] CheckBtn.Label
+ReCheck
+Erneut prüfen
+

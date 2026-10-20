@@ -1,0 +1,11 @@
+; 17-May-09 L-03-33  Moti  $$1  Created for file open dialog
+
+
+; Sash
+
+[SashVertFlatButton]
+SizingType = tile
+BackgroundImage = styles/wf5general/wf5tile.png
+Size = 4,0
+
+[SashVertButton] = SashVertFlatButton

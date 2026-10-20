@@ -1,0 +1,30 @@
+!----------------------------------------------------------------------------
+!
+!  Date      Release Name  Ver.  Comments
+! ---------- ------- ----- ----- --------------------------------------------
+! 13-May-97  H-03-10  DXU  $1  Submitted.
+! 27-Jul-97  H-03-17  DXU  $2  modified.
+! 26-Aug-97  H-03-19  DRM  $3   New Image
+! 02-Dec-97  H-03-31  TWB  $4   Recolored for white background.
+! 14-Jul-98  I-01-14  aap  $$5  Submitted to I-01 
+! 18-Mar-02  J-03-21  TLH  $$06  Recolored
+!----------------------------------------------------------------------------
+(Image favorites
+    (Resources
+        (.Width     24)
+        (.Height    18)
+        (.Depth     24)
+    )
+    (Data
+        0FFFFFFF03F0FD000D100D200D00300D400D500D600D700D800D900DA00D80B0
+        0DC00DD00DE00DF00D001D0C1566F76666011C1533333301C00C1D381D481D58
+        1D6819281401E403D57D7F16281D981DA81DB81D701947808000D71DDF12D413
+        80F31D008F1D132D232A0424372D472D572A042DD8742D282D5822EC259B2A00
+        3381999B2DB726682DD42D882D9826FF0FCC01000056210230AD210138001839
+        C82D343DE82DF829083504310C35005C36C12D8D3D9D3D513C683269347C1100
+        6C35AC267534883DF43DA83D583D683D00783DE83D544D084DF82D083D344D48
+        4D00B44D684D184AA52DF14DA54D115DC51D008D10345D445D545D8C1D745D84
+        5D945D00A45DB45DC45DD45DE45DF45D046D146D00246D346D446D546D646D74
+        6D846D946D00A465
+    )
+)

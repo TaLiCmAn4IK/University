@@ -1,0 +1,52 @@
+# {0} (13) [0] lic_serv.Label
+Simple
+Unique
+
+# [1] ServTypeGroup.Labels.1
+Single license server
+Serveur de licences unique
+
+# [2] ServTypeGroup.Labels.2
+Triad license server (fault tolerant)
+Serveur de licences triple (à tolérance de panne)
+
+# [3] ServTypeGroup.Labels.3
+Locked license file (no server running)
+Fichier de licence verrouillé (aucun serveur n'est actif)
+
+# [4] Label1.Label
+License Server
+Serveur de licences
+
+# [5] Label2.Label
+Hostname
+Nom d'hôte
+
+# [6] Label3.Label
+Port
+Port
+
+# [7] Label4.Label
+Triad partner 1
+Serveur 1 de la configuration triple
+
+# [8] Label5.Label
+Hostname
+Nom d'hôte
+
+# [9] Label6.Label
+Port
+Port
+
+# [10] Label7.Label
+Triad partner 2
+Serveur 2 de la configuration triple
+
+# [11] Label8.Label
+Triad partner 3
+Serveur 3 de la configuration triple
+
+# [12] Label9.Label
+License file path
+Chemin du fichier de licence
+

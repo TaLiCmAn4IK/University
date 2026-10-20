@@ -1,0 +1,29 @@
+!************************************************************
+! File : mfg16x16.bif
+!
+!============================================================
+! Date     Release Name   Ver.        Comments
+!------------------------------------------------------------
+!25-NOV-99 I-03-23 Hanoch $$1 Created.
+!06-Dec-99 I-03-23 TWB    $$2 Updated
+! 29-Apr-02  J-03-24  TLH  $$3 Appearance update for Pro/E Wildfire
+! 10-Jun-09  L-03-33  aap  $$4 Submit updated icon from TLH
+!***********************************************************/
+(Image mfg16x16
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        CFFFFFFF03F0FD00099999BF9901B4B4B4010000017F808080013333331701E0
+        FFFD330D070D170D3F0A66E499DD0174090099006306CCCC366200EC25930680
+        80860770051C5801B40504AC7C830AA002950140B5019D0D710D7500C00DE003
+        CCD70D0EE70AB4FFB43312FC0DCC0D1C1D782C1D3C1D4C15B7AA5B0190013094
+        11601D701D801D996662011611FFCC01E4D57D016E3A012FA31DB31D830ACC15
+        DC1DE81DF81D1C00210025F2F2EE1B22542148251000212C2D8008832D01D013
+        B607840107CCCCCC77023429BC2DCC2DFC1900AC2DF82D083D3425E42D143D40
+        3D503D00243D703D803D903D283520292C31B83D00C83DD8392025
+    )
+)
+

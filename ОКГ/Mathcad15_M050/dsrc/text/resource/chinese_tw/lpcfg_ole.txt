@@ -1,0 +1,32 @@
+# {100} (100) [0] ProductConfigLayout.Label
+Creo Elements/Pro OLE Configuration
+Creo Elements/Pro OLE組態
+
+# [1] OleCommandLab.Label
+Startup command
+啟動指令
+
+# [2] OleStartDirLab.Label
+Startup directory
+啟動目錄
+
+# [3] OleProdLangLab.Label
+Language
+語言
+
+# [4] OleConfigLayout.Label
+Creo Elements/Pro OLE Server Configuration
+Creo Elements/Pro OLE 伺服器組態
+
+# [5] OleSearchDirLab.Label
+Start search directory
+啟動搜尋目錄
+
+# [6] OleLangLab.Label
+Language
+語言
+
+# [7] lpcfg_ole3.Label
+Instructions
+指示
+

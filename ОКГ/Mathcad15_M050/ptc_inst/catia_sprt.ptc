@@ -1,0 +1,38 @@
+// 18-Sep-00 $$1  MAZ  Created.
+// 04-Oct-00      MAZ  Add LpEnvVar
+// 09-Oct-00 $$2  MAZ  Not for NT, SPR 844573
+// 02-Nov-00 $$3  MAZ  Use PossibleArchs -> SPR 844575
+// 09-Apr-01 $$4  DAR  added hp8k -> SPR 868111 removed sgi_mips4
+// 11-May-01 $$5  MAZ  Add EzAction place-holder and messages
+// 18-May-01      DAR  Removed PossibleArchs in product (SPR 873580)
+// 21-May-01 $$6  DAR  Modified ez_edit_dec_files entry for script
+// 25-May-01 $$7  DAR  Removed _LP_ from ez_edit_dec_files (SPR 874223)
+
+(Product catia_sprt 
+    (Name                      "WM for CATIA Support Files")
+    (Packages                  "catia_files_pkg")
+    (ProgramFiles              FALSE)
+    (LpDirName                 "catia")
+    (LpEnvVar                  "CAT_CUST")
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+    (StandAlone                False)
+    (HostProd                  "other")
+    (VersionDir                False)
+    (HostArchTypes             "UNIX")
+)
+
+(Package catia_files_pkg
+    (Name                      "Catia Support Files")
+    (Cdsections                "CatiaFiles"
+                               "Install")
+    (Installed                 True)
+    (CustomAction              "ez_edit_dec_files")
+)
+
+(CustomAction ez_edit_dec_files 
+    (MsgValue           "@@EzMsg_edit_dec_files")
+    (CmdPath            "_CDHOME_/ezactions/scripts/catia_update.sh")
+    (ActionType         "PS_EZ_ACTION")
+    (ErrValue           "@@EzErr_edit_dec_files")
+)

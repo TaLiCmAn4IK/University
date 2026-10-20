@@ -1,0 +1,12 @@
+# {70118} (3) [0] scr_optgwsrvc2.Label
+Optegra Gateway Service Settings
+Einstellungen für Optegra Gateway Dienst
+
+# [1] LogFileLab.Label
+Trace Filename
+Protokolldateiname
+
+# [2] CabinetPathLab.Label
+Windchill Cabinet/Folder Name
+Name des Windchill Ablagefachs/Ordners
+

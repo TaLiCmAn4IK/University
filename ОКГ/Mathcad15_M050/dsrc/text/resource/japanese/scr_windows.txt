@@ -1,0 +1,52 @@
+# {100} (100) [0] ShortcutLayout.Label
+Windows Shortcut Preferences
+Windows ショートカット設定
+
+# [1] FolderLab.Label
+Program Folder
+プログラムフォルダ
+
+# [2] StartInDirLab.Label
+Startup Directory
+起動ディレクトリ
+
+# [3] LocationLab.Label
+Shortcut Location(s)
+ショートカット位置
+
+# [4] ScDesktop.Label
+Desktop
+デスクトップ
+
+# [5] ScStartMenu.Label
+Start Menu
+スタートメニュー
+
+# [6] ScProgramFolder.Label
+Program folder
+プログラムフォルダ
+
+# [7] ScQuickLaunch.Label
+Quick Launch
+クイック起動
+
+# [8] StartinDirWarning.Label
+Define the startup directory to a location where all users have read-write access.
+起動ディレクトリを、すべてのユーザーが読み取り/書き込み権を持つ場所に定義します。
+
+# [9] PathLayout.Label
+Windows Environment Preferences
+Windows 環境プリファレンス
+
+# [10] PathChoice.Labels.systempath
+Modify system environment for all users
+全ユーザー用にシステム環境を修正
+
+# [11] PathChoice.Labels.userpath
+Modify current user's environment only
+カレントユーザーの環境のみ修正
+
+# [12] scr_windows3.Label
+Instructions
+インストラクション
+

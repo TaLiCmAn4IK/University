@@ -1,0 +1,16 @@
+# {100} (100) [0] RadioGroup1.Labels.1
+Import license information from disk.
+디스크로부터 라이센스 정보 가져오기
+
+# [1] RadioGroup1.Labels.3
+Manually enter license information using a text editor
+텍스트 편집기를 사용하여 라이센스 정보 수동으로 입력
+
+# [2] FileLab.Label
+License file path
+라이센스 파일 경로
+
+# [3] scr_flexi3.Label
+Instructions
+설명
+

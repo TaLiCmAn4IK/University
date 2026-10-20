@@ -1,0 +1,16 @@
+# {0} (5) [0] scr_dbprop2.Label
+Oracle Database Settings
+Oracle数据库设置
+
+# [1] UserNameLab.Label
+Windchill Database Username
+Windchill数据库用户名
+
+# [2] UserPassLab.Label
+Windchill Database User Password
+Windchill数据库用户密码
+
+# [3] ServiceNameLab.Label
+Oracle Database JDBC Connection
+Oracle数据库JDBC连接
+

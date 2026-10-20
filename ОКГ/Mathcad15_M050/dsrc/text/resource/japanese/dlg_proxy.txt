@@ -1,0 +1,28 @@
+# {100} (100) [0] dlg_proxy.Label
+Proxy Configuration
+プロキシのコンフィギュレーション
+
+# [1] Lab_Proxy.Label
+Please specify your HTTP Proxy
+HTTP プロキシを指定してください
+
+# [2] Lab_Host.Label
+&Host Address:
+ホストのアドレス(&H):
+
+# [3] Lab_Port.Label
+Port:
+ポート:
+
+# [4] OkBtn.Label
+OK
+OK
+
+# [5] CancelBtn.Label
+Cancel
+キャンセル
+
+# [6] Lab_Retry.Label
+Connection failed, please try again.
+接続に失敗しました。再実行してください。
+

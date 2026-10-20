@@ -1,0 +1,40 @@
+# {100} (100) [0] scr_ilgate2.Label
+Gateways Settings
+Установки шлюзов
+
+# [1] LogfileDirLab.Label
+Log File Directory
+Папка файла журнала
+
+# [2] PubAgentLab.Label
+Publishing Agent
+Агент публикаций
+
+# [3] RevMapLab.Label
+Revision Mapping
+Отображение ревизий
+
+# [4] RevMapOption.ItemHelpText.ver_i
+VERSION_ITERATION
+ИТЕРАЦИЯ_ВЕРСИИ
+
+# [5] RevMapOption.ItemHelpText.ver
+VERSION
+ВЕРСИЯ
+
+# [6] RevMapOption.ItemHelpText.none
+NONE
+НЕТ
+
+# [7] RevMapOption.Labels.ver_i
+VERSION_ITERATION
+ИТЕРАЦИЯ_ВЕРСИИ
+
+# [8] RevMapOption.Labels.ver
+VERSION
+ВЕРСИЯ
+
+# [9] RevMapOption.Labels.none
+NONE
+НЕТ
+

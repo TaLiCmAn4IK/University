@@ -1,0 +1,7 @@
+// 17-Jan-00 $$1  JJE  Created.
+
+(Package cdrshelp
+    (Name                      "CDRS Help Files")
+    (Installed                 True)
+    (Cdsections                "cdrshelp")
+)

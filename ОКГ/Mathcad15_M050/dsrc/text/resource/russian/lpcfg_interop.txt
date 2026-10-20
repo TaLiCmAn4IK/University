@@ -1,0 +1,44 @@
+# {100} (100) [0] interop_2.Label
+Pro/INTRALINK Integration (Optional)
+Интеграция Pro/INTRALINK (Опция)
+
+# [1] InstCmdLab.Label
+Start Command:
+Команда запуска:
+
+# [2] ReleaseLab.Label
+<name>  <release>  <datecode>
+
+
+# [3] InstLocLab.Label
+Install Location:
+Расположение инсталляции:
+
+# [4] StartInLab.Label
+Start In:
+Запуск в:
+
+# [5] grp_layout.Label
+Locate Other Installation Locations (Optional)
+Определить папки других установок (Опция)
+
+# [6] grpCmdLab.Label
+Start Command:
+Команда запуска:
+
+# [7] grpReleaseLab.Label
+<name>  <release>  <datecode>
+
+
+# [8] grpLocLab.Label
+Install Location:
+Расположение инсталляции:
+
+# [9] grpStartLab.Label
+Start In:
+Запуск в:
+
+# [10] lpcfg_interop3.Label
+Instructions
+Инструкции
+

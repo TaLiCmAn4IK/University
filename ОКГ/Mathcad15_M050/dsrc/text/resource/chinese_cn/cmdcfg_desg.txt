@@ -1,0 +1,20 @@
+# {0} (5) [0] desg_1.Label
+Locate Other Installation Directories (Optional)
+定位其它安装目录(可选)
+
+# [1] GraphLibDirLab.Label
+PTC Graphic Library
+PTC图形库
+
+# [2] desg_2.Label
+Optional Inputs
+可选输入
+
+# [3] ProeCmdLab.Label
+Pro/ENGINEER Command
+Pro/ENGINEER命令
+
+# [4] PaintCmdLab.Label
+3D Paint Command
+3维绘图命令
+

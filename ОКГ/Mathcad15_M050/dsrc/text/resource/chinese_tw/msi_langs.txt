@@ -1,0 +1,24 @@
+# {100} (100) [0] Layout2.Label
+Select Languages to be Installed
+選取要安裝的語言
+
+# [1] lang_usascii.Label
+English
+英語
+
+# [2] Layout3.Label
+Installation Options
+安裝選項
+
+# [3] postcfg.Label
+Use PTC.Setup for Post Configuration?
+要使用PTC.Setup進行後置組態?
+
+# [4] typereg.Label
+Register PTC file types and extensions?\nPlease view <CD_PATH>\ptc_inst\extensions.csv\nfor a list of file types to be registered.
+註冊 PTC 檔案類型和副檔名?\n請檢視<CD_PATH>\\ptc_inst\\extensions.csv\n以取得待註冊檔案類型清單。
+
+# [5] OkBtn.Label
+     OK     
+     確定
+

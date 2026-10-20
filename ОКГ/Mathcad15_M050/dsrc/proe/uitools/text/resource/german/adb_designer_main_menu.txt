@@ -1,0 +1,48 @@
+# {100} (100) [0] adb_designerShowMenuBar.Label
+Show/Hide MenuBar
+Menüleiste ein-/ausblenden
+
+# [1] adb_designerAddNewPage.Label
+Add Page
+Seite hinzufügen
+
+# [2] adb_designerInheritPage.Label
+Inherit Page
+Seite erben
+
+# [3] adb_designerRenamePage.Label
+Rename Current Page
+Aktuelle Seite umbenennen
+
+# [4] adb_designerRemovePage.Label
+Remove Current Page
+Aktuelle Seite entfernen
+
+# [5] adb_designerAddNewGroup.Label
+Add Group
+Gruppe hinzufügen
+
+# [6] adb_designerInheritGroup.Label
+Inherit Group
+Gruppe erben
+
+# [7] adb_designerAddEGPage.Label
+Add External Groups Page
+Externe Gruppenseite hinzufügen
+
+# [8] adb_designerRemoveEGPage.Label
+Remove External Groups Page
+Externe Gruppenseite entfernen
+
+# [9] adb_designerAddNewAdb.Label
+Create New Ribbon
+Neue Multifunktionsleiste erzeugen
+
+# [10] adb_designerLoadResource.Label
+Load Ribbon
+Multifunktionsleiste laden
+
+# [11] adb_designerStoreResource.Label
+Save Ribbon
+Multifunktionsleiste speichern
+

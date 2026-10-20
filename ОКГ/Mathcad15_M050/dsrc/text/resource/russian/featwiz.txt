@@ -1,0 +1,84 @@
+# {100} (100) [0] featwiz.Label
+Feature Wizard
+Мастер элементов
+
+# [1] HostListAdd.Label
+Add
+Добавить
+
+# [2] HostListEdit.Label
+Edit
+Править
+
+# [3] HostListDelete.Label
+Delete
+Удалить
+
+# [4] HostActionLabel.Label
+Action Label
+Метка операций
+
+# [5] LineTypeList.ColumnLabel
+16
+
+
+# [6] LineTypeList.Labels.0
+SERVER
+СЕРВЕР
+
+# [7] LineTypeList.Labels.1
+DAEMON
+ДЕМОН
+
+# [8] LineTypeList.Labels.2
+INCREMENT
+ПРИРАЩЕНИЕ
+
+# [9] ActionLabel.Label
+ ------- Action line ---------
+ ------- Строка действия ---------
+
+# [10] OptionActionLabel.Label
+Select Options
+Выбрать опции
+
+# [11] OptListMod.Label
+Modify
+Изменить
+
+# [12] ChoiceGroup.Labels.1
+Yes
+Да
+
+# [13] ChoiceGroup.Labels.2
+No
+Нет
+
+# [14] ChoiceLabel.Label
+Action line
+Линия действия
+
+# [15] BackButton.Label
+Back
+Назад
+
+# [16] NextButton.Label
+Next
+Следующий
+
+# [17] HelpButton.Label
+Help
+Справка
+
+# [18] CancelButton.Label
+Cancel
+Отмена
+
+# [19] StepLabel.Label
+License Wizard - Step 1
+Мастер лицензий - Шаг 1
+
+# [20] DALayout.Label
+Sample License Line:
+Пример строки лицензии:
+

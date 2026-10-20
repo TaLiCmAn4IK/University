@@ -1,0 +1,26 @@
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!
+!  Cascade Button image to select feature 
+! 
+!  Date      Release   Name  Ver.   Comments
+!  --------- -------   ----  ----   --------
+!  25-Jul-03 K-01-11   TWH   $$1    Created
+!
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+(Image cascade_select_item
+    (Resources
+        (.Width     32)
+        (.Height    9)
+        (.Depth     24)
+    )
+    (Data
+        CFFFFFFF03F0FDF8F199991F99018080800B0D1B0D27060F66666601F8FD480D
+        580D680D0E0009CCCCCC870D970DA70A3801073333333B0DCB0DDB0DEB0D0702
+        00F000031D131D231A3405BC0D481D581D38681D70112801B4B4B4831D931D0E
+        9B120000009B12341DC01DCC150115AC10DC112411DC18731D9B1D0F2D001F2D
+        B31DCB1DCF1DDF12EC1DF81D380100882D982D3801302D702DCC2DD815D42D00
+        782D241D143D2035B02DF02D4C3D5C3D006C3DA02D8C3D9C3DA8353C3DC43DD4
+        3D00E43DF439B831044D144D244DF43D444D00544D6445
+    )
+)

@@ -1,0 +1,12 @@
+# {100} (100) [0] lbl_customization_title.Label
+Customize The Quick Access Toolbar and keyboard shortcuts.
+自訂化快速存取工具列及鍵盤快速鍵。
+
+# [1] chk_qa_toolbar_below.Label
+&Place quick Access Toolbar below the Ribbon
+將快速存取工具列放在功能區下 (&P)
+
+# [2] chk_qa_toolbar_below.HelpText
+toggle the Quick Access Toolbar location.
+切換快速存取工具列位置。
+

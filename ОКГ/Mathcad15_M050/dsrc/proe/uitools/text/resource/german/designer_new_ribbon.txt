@@ -1,0 +1,180 @@
+# {100} (100) [0] designer_new_ribbon.Label
+New Ribbon
+Neue Multifunktionsleiste
+
+# [1] type_lay.Label
+Type
+Typ
+
+# [2] rdgType.Labels.sketcher_
+ <sketch> Sketch
+ <sketch> Skizze
+
+# [3] rdgType.Labels.prt_
+ <prt><8x18> Part
+ <prt><8x18> Teil
+
+# [4] rdgType.Labels.asm_
+ <asm><8x18> Assembly
+ <asm><8x18> Baugruppe
+
+# [5] rdgType.Labels.mfg_
+ <mfg> Manufacturing
+ <mfg> Fertigung
+
+# [6] rdgType.Labels.drw_
+ <drw> Drawing
+ <drw> Zeichnung
+
+# [7] rdgType.Labels.drw_fmt_
+ <frm> Format
+ <frm> Format
+
+# [8] rdgType.Labels.new_
+<new>New Ribbon
+<new>Neue Multifunktionsleiste
+
+# [9] subtype_lay.Label
+Sub-type
+Untertyp
+
+# [10] sketcher_.Labels.sketcher_
+Standard
+Standard
+
+# [11] prt_layout.Label
+part
+Teil
+
+# [12] prt_.Labels.prt_
+Solid
+Volumenkörper
+
+# [13] prt_.Labels.prt_cmt_
+Composite
+Composite
+
+# [14] prt_.Labels.prt_smt_
+Sheetmetal
+Blech
+
+# [15] prt_.Labels.prt_bulk_
+Bulk
+Massenelement
+
+# [16] prt_.Labels.prt_harn_
+Harness
+Kabelbaum
+
+# [17] asm_.Labels.asm_
+Design
+Design
+
+# [18] asm_.Labels.asm_inchg_
+Interchange
+Austausch
+
+# [19] asm_.Labels.asm_verify_
+Verify
+Verifizieren
+
+# [20] asm_.Labels.asm_plan_
+Process Plan
+Prozessplan
+
+# [21] asm_.Labels.asm_nc_
+NC Model
+NC-Modell
+
+# [22] asm_.Labels.asm_mold_
+Mold Layout
+Spritzgusslayout
+
+# [23] asm_.Labels.asm_spl_smt_
+Split Sheetmetal
+Getrenntes Blech
+
+# [24] asm_.Labels.asm_simp_rep_
+Ext. Simp.Rep.
+Ext. Vereinf Darst
+
+# [25] asm_.Labels.asm_plt_harn_
+Flat Harness
+Abgewickelter Kabelbaum
+
+# [26] asm_.Labels.asm_fig_
+Figure
+Figur
+
+# [27] asm_.Labels.asm_conf_asm_
+Configure Asm
+Baugr konfigurieren
+
+# [28] mfg_.Labels.mfg_asm_
+NC Assembly
+NC-Baugruppe
+
+# [29] mfg_.Labels.mfg_prt_
+NC Part
+NC-Teil
+
+# [30] mfg_.Labels.mfg_feat_
+Expert Machinist
+Expert Machinist
+
+# [31] mfg_.Labels.mfg_exp_tmkr_
+Expert Toolmaker
+Expert Toolmaker
+
+# [32] mfg_.Labels.mfg_cmm_
+CMM
+CMM
+
+# [33] mfg_.Labels.mfg_smt_
+Sheetmetal
+Blech
+
+# [34] mfg_.Labels.mfg_cast_
+Cast Cavity
+Gusskavität
+
+# [35] mfg_.Labels.mfg_mold_
+Mold Cavity
+Spritzgusskavität
+
+# [36] mfg_.Labels.mfg_dief_
+Dieface
+Tiefziehen
+
+# [37] mfg_.Labels.mfg_harn_
+Harness
+Kabelbaum
+
+# [38] mfg_.Labels.mfg_psplg_
+Process Plan
+Prozessplan
+
+# [39] drw_.Labels.drw_
+Standard
+Standard
+
+# [40] drw_fmt_.Labels.drw_fmt_
+Standard
+Standard
+
+# [41] new_.Labels.new_
+Standard
+Standard
+
+# [42] inp_panel.Value
+new_
+neue(s)_
+
+# [43] btnOK.Label
+OK
+OK
+
+# [44] btnCancel.Label
+Cancel
+Abbrechen
+

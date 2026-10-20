@@ -1,0 +1,80 @@
+# {100} (100) [0] ps_screen_mgr.Label
+Screen Manager
+화면 매니저
+
+# [1] FileMenuPane.Label
+File
+파일
+
+# [2] LoadTrail.Label
+Load Trail
+트레일 로드
+
+# [3] Exit.Label
+Exit
+종료
+
+# [4] DebugMenuPane.Label
+Debug
+디버그
+
+# [5] RunMode.Label
+Set Runmode
+실행모드 설정
+
+# [6] Dbglvl_cascade.Label
+Set Debug Level
+디버그 레벨 설정
+
+# [7] DebugSave.Label
+Save Debug
+디버그 저장
+
+# [8] DebugSave.HelpText
+Save text in debug window to a file
+디버그 창의 텍스트를 파일로 저장
+
+# [9] DumpScreen.Label
+Dump Screen
+화면 덤프
+
+# [10] DumpTopLevel.Label
+Dump Top Level
+톱 레벨 덤프
+
+# [11] ClearScreen.Label
+Clear Window
+창 클리어
+
+# [12] DebugShow.Label
+Show
+보기
+
+# [13] Dbglvl.Labels.0
+None
+없음
+
+# [14] Dbglvl.Labels.1
+Abort
+중단
+
+# [15] Dbglvl.Labels.4
+Error
+오류
+
+# [16] Dbglvl.Labels.7
+Warning
+경고
+
+# [17] Dbglvl.Labels.10
+Diagnose
+진단
+
+# [18] Dbglvl.Labels.13
+Info
+정보
+
+# [19] Dbglvl.Labels.17
+Verbose
+자세히
+

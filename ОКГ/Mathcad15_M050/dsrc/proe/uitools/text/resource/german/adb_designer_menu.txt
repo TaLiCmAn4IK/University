@@ -1,0 +1,72 @@
+# {100} (100) [0] adb_CmdDisplayType.Labels.DefaultStyle
+Default Style
+Standardstil
+
+# [1] adb_CmdDisplayType.Labels.Small
+Small Button
+Kleine Schaltfläche
+
+# [2] adb_CmdDisplayType.Labels.SmallImageOnly
+Small Button - No Label
+Kleine Schaltfläche - Keine Beschriftung
+
+# [3] adb_CmdDisplayType.Labels.SmallTextOnly
+Small Button - No Icon
+Kleine Schaltfläche - Kein Symbol
+
+# [4] adb_CmdDisplayType.Labels.Large
+Large Button
+Große Schaltfläche
+
+# [5] adb_CmdWhatsThis.Label
+What's This?
+Was ist das?
+
+# [6] adb_CmdWhatsThis.HelpText
+Tells what this button does
+Beschreibt die Funktion dieser Schaltfläche
+
+# [7] adb_ItemCut.Label
+Cut
+Ausschneiden
+
+# [8] adb_ItemCopy.Label
+Copy
+Kopieren
+
+# [9] adb_ItemPaste.Label
+Paste
+Einfügen
+
+# [10] adb_AddSeparator.Label
+Add Separator
+Trennzeichen hinzufügen
+
+# [11] adb_CascadeBtnSplitType.Label
+Set Split Button
+Schaltfläche zum Trennen einstellen
+
+# [12] adb_ItemToOverflow.Label
+Move To Overflow
+In Überlaufgruppe verschieben
+
+# [13] adb_ItemRename.Label
+Rename
+Umbenennen
+
+# [14] adb_ItemDelete.Label
+Delete
+Löschen
+
+# [15] adb_RenameGroup.Label
+Rename Group
+Gruppe umbenennen
+
+# [16] adb_DeleteGroup.Label
+Delete Group
+Gruppe löschen
+
+# [17] adb_ReorderGroups.Label
+Move Group Before
+Gruppe verschieben vor
+

@@ -1,0 +1,272 @@
+CONTRATTO CLIENTI PTC
+
+IL PRESENTE CONTRATTO CLIENTI PTC ("CONTRATTO") COSTITUISCE UN CONTRATTO LEGALE TRA UN INDIVIDUO, O L'AZIENDA O UN'ALTRA ORGANIZZAZIONE A NOME DELLA QUALE TALE INDIVIDUO ACCETTA IL PRESENTE CONTRATTO (A) FACENDO CLIC SUL PULSANTE "ACCETTO" RIPORTATO DI SEGUITO O (B) TRAMITE L'INSTALLAZIONE, L'ACCESSO O L'UTILIZZO DI UN QUALSIVOGLIA SOFTWARE O UNA QUALSIVOGLIA DOCUMENTAZIONE DI PROPRIETÀ DI PTC ("CLIENTE"), E PTC INC. O, SE L'ACQUISTO È STATO EFFETTUATO IN UN PAESE SPECIFICATO NELL'ALLEGATO A DEL PRESENTE CONTRATTO, LA CONSOCIATA PTC SPECIFICATA NELL'ALLEGATO A (COME APPLICABILE, "PTC").
+
+LEGGERE ATTENTAMENTE I TERMINI E LE CONDIZIONI DEL PRESENTE CONTRATTO PRIMA DI ACCETTARLO. FACENDO CLIC SUL PULSANTE "ACCETTO" RIPORTATO DI SEGUITO O TRAMITE L'INSTALLAZIONE, L'ACCESSO O L'UTILIZZO DI SOFTWARE O DOCUMENTAZIONE DI PROPRIETÀ DI PTC, IL CLIENTE ACCETTA DI ESSERE VINCOLATO DAL PRESENTE CONTRATTO E DICHIARA DI ESSERE AUTORIZZATO A FARLO.
+
+SE NON SI ACCETTANO TUTTI I TERMINI DEL PRESENTE CONTRATTO O NON SI DISPONE DELL'AUTORIZZAZIONE A VINCOLARE L'AZIENDA O UN'ALTRA ORGANIZZAZIONE A NOME DELLA QUALE SI ACCETTA IL PRESENTE CONTRATTO, FARE CLIC SUL PULSANTE "NON ACCETTO" E RESTITUIRE A PTC IL SOFTWARE E LA DOCUMENTAZIONE CONFORMEMENTE ALLE ISTRUZIONI VISUALIZZATE QUANDO SI FA CLIC SUL PULSANTE "NON ACCETTO". SI RICORDA CHE L'INOTTEMPERANZA A TALI ISTRUZIONI ENTRO IL PERIODO DI TEMPO SPECIFICATO ANNULLERÀ QUALSIASI DIRITTO ALTRIMENTI ACQUISITO IN MERITO AL RIMBORSO DI QUALSIASI TARIFFA CORRISPOSTA. GLI ORDINI PER I PRODOTTI LICENZIATI POTREBBERO NON ESSERE ANNULLATI UNA VOLTA CHE IL CONTRATTO È STATO ACCETTATO.
+
+SE IL CLIENTE NON HA RICEVUTO I PRODOTTI LICENZIATI DIRETTAMENTE DA PTC, DA UN DISTRIBUTORE O RIVENDITORE AUTORIZZATO DA PTC O TRAMITE VENDITA ONLINE SUL SITO WWW.PTC.COM, IL CLIENTE STA UTILIZZANDO UNA VERSIONE DEL PRODOTTO LICENZIATO APPLICABILE NON CONCESSA IN LICENZA E OTTENUTA ILLEGALMENTE. PTC CONSIDERA GLI ATTI DI PIRATERIA INFORMATICA COME I CRIMINI CHE ESSI EFFETTIVAMENTE SONO E PERSEGUE (SIA IN SEDE CIVILE CHE IN SEDE PENALE) COLORO CHE PARTECIPANO A TALI ATTIVITÀ. NELL'AMBITO DI TALE IMPEGNO, PTC UTILIZZA TECNOLOGIE DI MONITORAGGIO DEI DATI E DI RICERCA PER OTTENERE E TRASMETTERE A PTC I DATI DI COLORO CHE UTILIZZANO COPIE ILLEGALI DEI PRODOTTI LICENZIATI. IL CLIENTE CHE UTILIZZI UNA COPIA ILLEGALE DI UN SOFTWARE È TENUTO A CESSARE L'USO DELLA VERSIONE ILLEGALE E A CONTATTARE PTC PER OTTENERE UNA COPIA LEGALMENTE CONCESSA IN LICENZA. UTILIZZANDO QUESTO SOFTWARE, SI ACCONSENTE ALLA RACCOLTA, ALL'USO E AL TRASFERIMENTO DI DATI PERSONALI (ANCHE NEGLI STATI UNITI) ALLO SCOPO DI IDENTIFICARE GLI UTENTI DI COPIE ILLEGALI DEL SOFTWARE. TALI CONTENUTI VINCOLANO QUALSIASI UTENTE DI QUESTO SOFTWARE, INCLUSI GLI UTENTI ALL'INFUORI DI VOI STESSI.
+
+PER COMPRENDERE LE PREFERENZE DEGLI UTENTI DEL NOSTRO SOFTWARE, PTC UTILIZZA TECNOLOGIE PER IL MONITORAGGIO DEI DATI AL FINE DI OTTENERE E TRASMETTERE DATI SULL'USO E SULLE PRESTAZIONI DEL SISTEMA E RACCOGLIERE I DATI DELL'UTENTE, NONCHÉ UTILIZZARE LA METRICA SUGLI UTENTI DEL NOSTRO SOFTWARE. CONDIVIDEREMO TALI DATI ALL'INTERNO DI PTC, CON LE SOCIETÀ AFFILIATE E I NOSTRI PARTNER COMMERCIALI, INCLUSO NEGLI STATI UNITI E ALTROVE, PER FINI TECNICI E PUBBLICITARI E CI SFORZEREMO DI ASSICURARE CHE QUALSIASI DATO TRASFERITO SIA ADEGUATAMENTE PROTETTO. LE NOSTRE LICENZE COMMERCIALI PERMETTONO AGLI UTENTI DI NEGARE IL CONSENSO A TALE RACCOLTA DI DATI E LE NOSTRE VERSIONI PER STUDENTI/EDUCATIVE RACCOLGONO ESCLUSIVAMENTE DATI SULL'USO E SULLE PRESTAZIONI DEL SISTEMA. LE VERSIONI GRATUITE E DI PROVA DEL NOSTRO SOFTWARE NON PERMETTONO AGLI UTENTI DI NEGARE IL CONSENSO A TALE RACCOLTA DI DATI, INCLUSI QUELLI RELATIVI AGLI UTENTI.
+
+SE SI STA UTILIZZANDO UN SOFTWARE PTC OPPURE VISITANDO UN SITO WEB PTC O COMUNICANDO ELETTRONICAMENTE CON L'AZIENDA DA UN PAESE ALL'INFUORI DEGLI STATI UNITI, LE VARIE COMUNICAZIONI COMPORTERANNO NECESSARIAMENTE UN TRASFERIMENTO DI INFORMAZIONI OLTRE I CONFINI INTERNAZIONALI.
+
+QUALORA SI DESIDERI NEGARE IL CONSENSO ALLA RACCOLTA E/O ALLA TRASMISSIONE (ANCHE VERSO GLI STATI UNITI) DEI PROPRI DATI COME PRECEDENTEMENTE DESCRITTO, NON SCARICARE OPPURE UTILIZZARE IL SOFTWARE PTC. (I) UTILIZZANDO IL SOFTWARE GRATUITO O DI PROVA OPPURE (II) NON NEGANDO IL CONSENSO ALLA RACCOLTA DI CERTI DATI PERSONALI COME È POSSIBILE FARE CON IL SOFTWARE COMMERCIALE PTC, SI ACCONSENTE ALLA RACCOLTA, ALL'USO E AL TRASFERIMENTO DA PARTE DI PTC DEI PROPRI DATI PERSONALI (ANCHE VERSO GLI STATI UNITI).
+
+I TERMINI CON INIZIALE MAIUSCOLA NON DEFINITI NEL PRESENTE TESTO VENGONO DEFINITI NELL'ALLEGATO B ALLA FINE DEL PRESENTE CONTRATTO.
+
+L'ALLEGATO A DEL PRESENTE CONTRATTO CONTIENE TERMINI AGGIUNTIVI (O ALTERNATIVI) APPLICABILI A SPECIFICHE AREE GEOGRAFICHE.
+
+1. Ordini e pagamenti.
+
+1.1. Un cliente può ordinare Prodotti Licenziati e/o Servizi di Supporto inviando a PTC (direttamente o tramite un Rivenditore) un Preventivo debitamente compilato ed eventuali altri documenti richiesti da PTC al momento dell'ordine. Ciascun ordine di Prodotti Licenziati accettato da PTC è da considerarsi separato e distinto da qualsiasi ordine di Servizi di Supporto effettuato dal Cliente. PTC ha la facoltà di accettare o rifiutare un ordine a sua esclusiva discrezione. IL CLIENTE NON PUÒ ANNULLARE UN ORDINE CHE È GIÀ STATO ACCETTATO DA PTC. Fatta eccezione per le voci necessarie per effettuare l'ordine dei Prodotti Licenziati e/o dei Servizi di Supporto, in nessun caso eventuali altre condizioni dell'ordine di acquisto di un Cliente potranno modificare o far parte del presente Contratto o diventare vincolanti per PTC. 
+
+1.2. Il Cliente è tenuto a corrispondere le commissioni applicabili per i Prodotti Licenziati e/o i Servizi di Supporto ordinati. Tutte le commissioni e tutti gli altri oneri dovuti ai sensi del presente Contratto sono dovuti per intero entro 30 (trenta) giorni dalla data della fattura emessa al Cliente o più tardi, se specificato nella fattura. Il Cliente sarà responsabile per tutte le vendite, l'utilizzo, l'IVA, il trasferimento e altre tasse e imposte previste da qualsiasi autorità federale, statale, comunale o comunque pubblica relativamente alle Licenze concesse o ai Servizi di Supporto forniti ai sensi del presente Contratto, ad esclusione, tuttavia, delle tasse basate sull'utile netto di PTC. Il Cliente dovrà pagare gli interessi al tasso dell'1,5% (uno e mezzo per cento) al mese (o, se inferiore, l'importo massimo consentito dalla legge) su tutte le somme dovute ai sensi del presente Contratto rimaste insolute 30 (trenta) giorni dalla scadenza, con gli interessi calcolati a partire dalla data di scadenza. Il Cliente dovrà pagare le commissioni e le spese legali sostenute in misura ragionevole da PTC nel recupero dei crediti scaduti e/o in qualsiasi controversia derivante o in relazione ai Prodotti Licenziati e/o al presente Contratto in cui il Cliente non prevale rispetto a PTC in tutte le richieste.
+
+2. Licenza.
+
+2.1. Concessione di licenza. All'accettazione da parte di PTC di un ordine di Prodotti Licenziati, PTC concede al Cliente una Licenza per l'installazione e l'uso dei Prodotti Licenziati specificati nel Preventivo durante il Periodo di Validità della Licenza unicamente per le finalità aziendali interne del Cliente ed esclusivamente in conformità al presente Contratto e alle restrizioni di utilizzo e del tipo di licenza applicabili specificate nel Preventivo e nella Pagina Web delle Basi di Licenza. Indipendentemente da quanto sopra riportato, se il Prodotto Licenziato viene fornito da PTC a scopo di "valutazione" o di "prova", tale Licenza sarà impiegata per l'installazione e l'utilizzo del Prodotto Licenziato al solo fine di consentire la valutazione di tali Prodotti Licenziati e il Cliente conviene di non utilizzare il Prodotto Licenziato in alcuna delle sue applicazioni commerciali o per attività produttive. Inoltre, il Prodotto Licenziato venduto come "demo e test" o per finalità "non di produzione" (o designazione simile) non può essere utilizzato in un ambiente di produzione.
+
+2.2. Paese Designato/Server Designati. Salvo che per le Licenze Globali o le Licenze Globali Ristrette, il Cliente potrà installare e far funzionare i Prodotti Licenziati solo sui Server Designati che si trovano nel Paese Designato applicabile. Il Cliente può, di volta in volta, cambiare i Server Designati e/o il Paese Designato in cui intende installare o far funzionare i Prodotti Licenziati, a condizione che, in ciascun caso, (i) informi PTC di tale cambiamento mediante preavviso scritto e (ii) all'atto dello spostamento dei Prodotti Licenziati in un altro Paese Designato paghi tutte le Commissioni Integrative dovute a PTC.
+
+2.3. Ulteriori restrizioni sull'utilizzo. Il Cliente non consentirà ad alcuna persona che non sia un Utente Autorizzato di accedere o utilizzare i Prodotti Licenziati. Il Cliente non effettuerà e non consentirà a terzi di effettuare le seguenti operazioni:
+
+(i) modificare o creare opere derivate da qualsiasi parte dei Prodotti Licenziati;
+
+(ii) noleggiare, affittare o prestare i Prodotti Licenziati;
+
+(iii) utilizzare i Prodotti Licenziati, o consentire che vengano utilizzati, per la formazione di terzi, per fornire servizi di implementazione o consulenza software a terzi o per servizi di time-sharing o service bureau;
+
+(iv) disassemblare, decompilare o retroingegnerizzare i Prodotti Licenziati o il formato dei file dei Prodotti Licenziati, o tentare in altro modo di accedere al codice sorgente o al formato dei file dei Prodotti Licenziati, eccetto ove ciò sia espressamente consentito nell'Allegato A, se applicabile;
+
+(v) vendere, dare in licenza, sublicenziare, prestare, cedere o comunque trasferire (mediante vendita, permuta, donazione, in forza di legge o altro) a qualsivoglia terza parte i Prodotti Licenziati, copie degli stessi o eventuali Licenze o diritti su di essi, interamente o in parte, senza aver ottenuto in ciascun caso il preventivo consenso scritto di PTC, salvo e nella misura in cui quanto sopra riportato sia esplicitamente autorizzato nel Preventivo e/o nella Pagina Web delle Basi di Licenza;
+
+(vi) modificare, rimuovere o occultare avvisi di copyright, segreto commerciale, brevetto, marchio di fabbrica, logo, proprietà e/o altri avvisi legali riportati sui Prodotti Licenziati o su qualsiasi copia degli stessi, e
+
+(vii) copiare o altrimenti riprodurre i Prodotti Licenziati, interamente o in parte, tranne che (a) se richiesto per la loro installazione nella memoria del computer per le finalità di esecuzione dei Prodotti Licenziati in conformità al presente articolo 2 e/o (b) per creare un ragionevole numero di copie unicamente per finalità di riserva, fermo restando che dette copie autorizzate saranno di proprietà di PTC e il Cliente dovrà ivi riprodurre tutti gli avvisi di copyright, segreto commerciale, brevetto, marchio di fabbrica, logo, proprietà e/o altri avvisi legali contenuti nella copia originale del Prodotto Licenziato fornita da PTC.
+
+2.4. Componenti di terzi e prodotti di terzi in bundle. Alcuni dei Prodotti Licenziati possono contenere componenti software incorporati di terzi ai quali trovano applicazione ulteriori condizioni. Gli attuali termini aggiuntivi sono indicati nel Piano dei Termini per le Terze Parti disponibile nella Pagina Web delle Basi di Licenza.
+
+2.5. Ulteriori restrizioni. Ulteriori disposizioni e condizioni specifiche riguardanti i componenti di terzi inclusi nei Prodotti Licenziati possono essere applicate a determinati Prodotti Licenziati, come indicato nella Pagina Web della Basi di Licenza, qui menzionata come riferimento.
+
+3. Supporto.
+
+3.1. Piano dei Servizi di Supporto; Livelli dei Servizi di Supporto. Al momento dell'accettazione da parte di PTC dell'ordine del Cliente relativo a una Licenza in sottoscrizione o ai Servizi di Supporto per i Prodotti Licenziati, PTC e/o i suoi subappaltatori autorizzati forniranno i Servizi di Supporto in conformità ai presenti termini per un periodo di 12 (dodici) mesi o altro periodo specificato nell'ordine del Cliente accettato da PTC ("Piano dei Servizi di Supporto"). Qualora il Cliente in qualsiasi momento cessi l'utilizzo dei Servizi di Supporto e desideri ricevere in un secondo tempo i Servizi di Supporto, deve pagare (i) le tariffe correnti per i Servizi di Supporto e (ii) le tariffe per i Servizi di Supporto relativamente al periodo per il quale non ha acquistato tali servizi. Tuttavia, il Cliente dovrà acquistare nuove Licenze se il periodo di utilizzo dei Servizi di Supporto è superiore a dodici mesi. I livelli correnti dei Servizi di Supporto offerti e i termini e le condizioni del Supporto sono disponibili all'indirizzo http://www.ptc.com/support/maintenance/maintenance_support_policies.htm.
+
+3.2. Un Piano di Servizi di Supporto non può essere annullato dal Cliente dopo l'accettazione da parte di PTC dell'ordine corrispondente. Se il Cliente opta per i Servizi di Supporto per un particolare Prodotto Licenziato, tutte le licenze del Cliente di tale Prodotto Licenziato devono includere i Servizi di Supporto (gli ordini di Supporto parziale o i rinnovi parziali non sono ammessi).
+
+4. Conformità.
+
+4.1. Accertamenti dell'uso della Licenza. Per verificare la conformità del Cliente ai termini e alle condizioni del presente Contratto, il Cliente accetta che PTC possa effettuare accertamenti relativamente all'uso dei Prodotti Licenziati. Il Cliente accetta di consentire a PTC di accedere alle proprie infrastrutture e ai propri sistemi informatici e di garantire la collaborazione dei propri dipendenti e consulenti, come ragionevolmente richiesto da PTC per poter condurre tali accertamenti durante il normale orario lavorativo e a seguito di un ragionevole preavviso da parte di PTC.
+
+4.2. Report. Il Cliente accetta di fornire a PTC , su richiesta scritta di quest'ultima, un'installazione e/o un report d'uso in relazione ai Prodotti Licenziati (e, in caso di Prodotti dell'Utente Registrato, come indicato nella Pagina Web delle Basi di Licenza, tale report dovrà includere un elenco di tutte le persone alle quali il Cliente ha rilasciato una password o un altro codice identificativo univoco tale da consentire a tale persona di utilizzare il Prodotto dell'Utente Registrato). L'accuratezza di tale report sarà certificata da un rappresentante autorizzato del Cliente entro 10 (dieci) giorni lavorativi dal ricevimento di una richiesta scritta di PTC. Per qualsiasi periodo in cui i Prodotti Licenziati vengono utilizzati dal Cliente in misura eccedente il numero e/o l'ambito delle Licenze valide durante tale periodo per tali Prodotti Licenziati, il Cliente accetta di pagare le commissioni per tale utilizzo eccessivo, comprese le commissioni di licenza e per i Servizi di Supporto applicabili e, senza limitare altri diritti o rimedi a sua disposizione, l'inadempimento di tali oneri legittimerà la risoluzione ai sensi dell'articolo 9.1 del presente Contratto.
+
+5. Proprietà intellettuale. 
+
+PTC e i suoi licenzianti sono gli esclusivi proprietari dei Prodotti Licenziati e delle eventuali copie degli stessi, e di tutti i copyright, segreti commerciali, brevetti, marchi di fabbrica e altri diritti di proprietà intellettuale o industriale relativamente ai Prodotti Licenziati. Tutte le copie dei Prodotti Licenziati e tutti i Servizi di Supporto, in qualsiasi forma forniti da PTC o realizzati dal Cliente, resteranno di proprietà di PTC, e le copie saranno considerate concesse in comodato gratuito al Cliente durante il Periodo di Validità della Licenza. Il Cliente dà atto che la Licenza concessa ai sensi del presente Contratto non gli conferisce il diritto sui Prodotti Licenziati o eventuali copie, né la proprietà degli stessi, ma solo un diritto di uso limitato coerentemente con i termini e le condizioni esplicite del presente Contratto. Il Cliente non avrà alcun diritto sul codice sorgente dei Prodotti Licenziati e conviene che solo PTC avrà il diritto di mantenere, migliorare o altrimenti modificare i Prodotti Licenziati.
+
+6. Garanzia; Esclusione di garanzie.
+
+Vedere l'Allegato A per una versione modificata dell'articolo 6 per i Prodotti Licenziati e utilizzati in Germania, Austria o Svizzera.
+
+6.1. Garanzia. PTC garantisce al Cliente di avere facoltà di concedere le Licenze. PTC garantisce inoltre che i Prodotti Licenziati saranno esenti da Errori durante il Periodo di Garanzia. Per "Periodo di Garanzia" si intende: (a) nel caso di licenze software perpetue, il periodo di novanta giorni a partire dalla spedizione iniziale del Prodotto Licenziato effettuata da PTC al Cliente o alla persona da questi designata e (b) nel caso di licenze in sottoscrizione, la durata della sottoscrizione. PTC non avrà obblighi di garanzia ai sensi del presente Contratto per quanto riguarda (i) Nuove Release, (ii) Errori attribuibili a eventuali modifiche o adattamenti personalizzati dei Prodotti Licenziati, (iii) Prodotti Licenziati forniti al Cliente da PTC a titolo gratuito e/o (iv) eventuali Prodotti di Terzi in Bundle (come indicato nel Piano dei Termini per le Terze Parti).
+
+6.2. Rimedio esclusivo. Tutta la responsabilità di PTC e dei suoi licenzianti e l'esclusivo rimedio spettante al Cliente per eventuali violazioni da parte di PTC della garanzia di cui alla seconda frase del precedente articolo 6.1 consisteranno, a esclusiva discrezione di PTC, (a) nella sostituzione dei Prodotti Licenziati contenenti l'Errore o (b) nel tentativo diligente di riparare l'Errore. Gli obblighi di PTC di cui al comma precedente troveranno applicazione solo se PTC avrà ricevuto avviso dell'Errore durante il Periodo di Garanzia e il Cliente avrà fornito le ulteriori informazioni relative all'Errore ragionevolmente richieste da PTC. Se PTC non sostituirà i Prodotti Licenziati e/o non riparerà l'Errore in garanzia (fornendo una correzione del bug, una procedura alternativa o quant'altro) entro un termine ragionevole dalla ricezione della comunicazione scritta dell'Errore e delle relative informazioni da parte del Cliente, alla restituzione dei Prodotti stessi e delle eventuali copie, PTC dovrà rimborsare (i) i diritti di licenza perpetua pagati dal Cliente per i Prodotti Licenziati in garanzia che contengono l'Errore e (ii) i diritti di sottoscrizione prepagata per il resto del periodo di sottoscrizione dei Prodotti Licenziati contenenti l'Errore, in ambo i casi alla restituzione dei Prodotti stessi e delle eventuali copie.
+
+6.3. Assenza di ulteriori garanzie. Nessuna terza parte, inclusi i dipendenti, i soci, i distributori (compresi gli eventuali Rivenditori) o gli agenti di PTC oppure i suoi Rivenditori o agenti di vendita è autorizzata a rilasciare dichiarazioni, garanzie o patti con una portata maggiore o diversa rispetto a quanto previsto dal presente Contratto relativamente ai Prodotti Licenziati o ai Servizi di Supporto, salvo quanto espressamente definito in un contratto scritto firmato per conto del Cliente da un funzionario autorizzato e per conto di PTC da parte del suo consulente legale o di un amministratore della società.
+
+6.4. Esclusione di garanzie. AD ECCEZIONE DI QUANTO ESPRESSAMENTE DICHIARATO NELL'ARTICOLO 6, PTC DECLINA TUTTE LE GARANZIE (E IL CLIENTE VI RINUNCIA), SIA ESPLICITE CHE IMPLICITE, SCRITTE O VERBALI, COMPRESE LE EVENTUALI GARANZIE DI COMMERCIABILITÀ, QUALITÀ SODDISFACENTE, IDONEITÀ PER UNO SCOPO SPECIFICO, NON VIOLAZIONE E/O QUALSIASI GARANZIA RELATIVA AL FATTO CHE IL CLIENTE OTTERRÀ UNO SPECIFICO RENDIMENTO SULL'INVESTIMENTO. IL CLIENTE È RESPONSABILE IN VIA ESCLUSIVA DEGLI EVENTUALI RISULTATI OTTENUTI DALL'USO DEI PRODOTTI LICENZIATI, COMPRESA L'ADEGUATEZZA DEL COLLAUDO INDIPENDENTE DELL'AFFIDABILITÀ, DELLA SICUREZZA E DELL'ACCURATEZZA DI EVENTUALI ELEMENTI PROGETTATI CON L'IMPIEGO DEI PRODOTTI LICENZIATI. PTC NON GARANTISCE CHE IL FUNZIONAMENTO O ALTRI USI DEI PRODOTTI LICENZIATI SARANNO ININTERROTTI O PRIVI DI ERRORE E NON PROVOCHERANNO DANNI O INTERRUZIONI AI DATI, AI COMPUTER O ALLE RETI DEL CLIENTE.
+
+7. Risarcimento; Violazione.
+
+7.1. Obbligo di PTC di risarcire il Cliente. PTC accetta, a proprie spese, di difendere qualsiasi azione intentata contro il Cliente sulla base di una asserita violazione da parte di un Prodotto Licenziato di un brevetto, copyright o marchio di fabbrica degli Stati Uniti e/o dell'Unione europea e, a sua discrezione, potrà pervenire a un accordo transattivo ovvero versare l'importo stabilito da qualsivoglia sentenza definitiva emessa nei confronti del Cliente a condizione che: (a) PTC sia informata tempestivamente per iscritto dal Cliente di tale asserita violazione; (b) PTC abbia il controllo esclusivo della difesa nell'ambito di tale azione nonché di tutte le negoziazioni relative all'accordo transattivo o compromesso e sostenga i costi della stessa (salvo nel caso in cui si applichino una o più esclusioni di cui all'articolo 7.3); e (c) il Cliente offra la sua piena collaborazione a PTC, a spese di quest'ultima, nella difesa ovvero nell'accordo transattivo o compromesso relativo a tale azione. Il presente articolo specifica la responsabilità unica ed esclusiva di PTC, nonché l'esclusivo rimedio del Cliente, nell'eventualità di un'azione legale correlata a una violazione del diritto di proprietà intellettuale.
+
+7.2. Diritto di PTC ad agire per prevenire una rivendicazione. Qualora dovesse verificarsi o, a giudizio di PTC, possa verificarsi una rivendicazione di cui all'articolo 7.1 del presente Contratto, il Cliente dovrà consentire a PTC, a discrezione e spese di quest'ultima, di: (a) fare in modo che il Cliente abbia la facoltà di continuare a utilizzare il Prodotto Licenziato; (b) modificare il Prodotto Licenziato in modo tale da renderlo conforme, senza che ciò comprometta sostanzialmente le sue funzionalità; o (c) revocare le Licenze applicabili, accettare la restituzione dei Prodotti Licenziati e concedere al Cliente il relativo credito. Per le Licenze acquistate con un Periodo di Validità permanente, tale credito sarà pari alle Commissioni di Licenza pagate dal Cliente per tale Prodotto Licenziato svalutato su base quinquennale, secondo il metodo dell'ammortamento a quote constanti. Per le Licenze acquistate con un Periodo di Validità limitato o mediante sottoscrizione, tale credito sarà pari alle Commissioni di Licenza o di sottoscrizione prepagate per la restante parte del Periodo di Validità.
+
+7.3. Esclusioni dell'obbligo di PTC di risarcire il Cliente. PTC non si assume alcuna responsabilità nei confronti del Cliente ai sensi dell'articolo 7.1 del presente Contratto o comunque nella misura in cui le eventuali violazioni o rivendicazioni relative al presente Contratto siano fondate: (a) sull'uso del Prodotto Licenziato insieme ad apparecchiature o a software non forniti ai sensi del presente Contratto qualora il Prodotto Licenziato di per sé non avrebbe comportato violazione; (b) sull'uso di una release diversa da quella corrente del Prodotto Licenziato o dei Prodotti Licenziati forniti al Cliente; o (c) sulla modifica del Prodotto Licenziato da parte di qualsiasi persona diversa da PTC o dai suoi dipendenti o agenti.
+
+8. Limitazione di responsabilità.
+
+8.1. Le disposizioni in materia di garanzia e risarcimento di cui agli articoli 6 e 7 del presente Contratto sanciscono l'intera responsabilità di PTC, delle sue controllate e consociate e dei rispettivi amministratori, funzionari, dipendenti o agenti, per quanto riguarda i Prodotti Licenziati e i Servizi di Supporto, inclusa, senza alcuna limitazione, qualsiasi responsabilità per violazione di garanzia, o violazione o presunta violazione di brevetti, copyright, marchi di fabbrica, segreti commerciali e altri diritti intellettuali o proprietari operata dai Prodotti Licenziati o per mezzo degli stessi.
+
+8.2. FATTA ECCEZIONE PER GLI OBBLIGHI DI RISARCIMENTO DI PTC ESPOSTI NEL PRECEDENTE ARTICOLO 7.1, LA RESPONSABILITÀ MASSIMA DI PTC E DELLE SUE CONSOCIATE, DEI SUOI RIVENDITORI, DISTRIBUTORI E LICENZIANTI DERIVANTE DA, O CORRELATA A, CREAZIONE, LICENZA, FUNZIONAMENTO, USO O FORNITURA DI PRODOTTI LICENZIATI O DI SERVIZI DI SUPPORTO, O COMUNQUE CORRELATA AL PRESENTE CONTRATTO, SIA ESSA FONDATA SU GARANZIE, CONTRATTI, ILLECITI CIVILI O ALTRO, NON DOVRÀ, (I) PER LE LICENZE ACQUISTATE CON UN PERIODO DI VALIDITÀ PERMANENTE, SUPERARE LE COMMISSIONI PAGATE DAL CLIENTE PER I PRODOTTI LICENZIATI O I SERVIZI DI SUPPORTO CHE HANNO DATO LUOGO ALLA PRETESA E (II) PER LE LICENZE ACQUISTATE CON PERIODO DI VALIDITÀ LIMITATO O MEDIANTE SOTTOSCRIZIONE, SUPERARE LE COMMISSIONI PAGATE DAL CLIENTE NEI DODICI MESI IMMEDIATAMENTE PRECEDENTI L'EVENTO CHE HA DETERMINATO L'INSORGERE DEI DANNI PER I PRODOTTI LICENZIATI O I SERVIZI DI SUPPORTO CHE HANNO DATO LUOGO ALLA PRETESA.
+
+8.3. IN NESSUN CASO PTC E LE SUE CONSOCIATE, I SUOI RIVENDITORI, DISTRIBUTORI E LICENZIANTI O I RISPETTIVI AMMINISTRATORI, FUNZIONARI, DIPENDENTI O AGENTI SARANNO RESPONSABILI PER: (A) LUCRO CESSANTE, DANNI CAUSATI DA PERDITA D'USO, PERDITA DI AVVIAMENTO, PERDITA DI OPPORTUNITÀ COMMERCIALI, MANCATE VENDITE, DANNO DELLA REPUTAZIONE O MANCATA REALIZZAZIONE DI RISPARMI PREVISTI; (B) PERDITA O IMPRECISIONE DI DATI O DI INFORMAZIONI COMMERCIALI OPPURE GUASTO O INADEGUATEZZA DI SISTEMI O FUNZIONI DI SICUREZZA; E (C) PERDITE O DANNI SPECIALI, INCIDENTALI, INDIRETTI, PUNITIVI O CONSEQUENZIALI COMUNQUE CAUSATI, IN CIASCUN CASO ANCHE QUALORA PTC SIA STATA AVVISATA DELL'EVENTUALITÀ DI DETTI DANNI.
+
+8.4. Il Cliente conviene di non intentare procedimenti o azioni contro PTC, e/o le sue controllate e consociate, i licenzianti di PTC e/o i rispettivi amministratori, funzionari, dipendenti o agenti, per qualsivoglia ragione, una volta trascorso un anno dal manifestarsi della causa dell'azione. Le limitazioni e le esclusioni di cui al presente articolo 8 non verranno applicate in caso di rivendicazioni per morte o lesioni personali.
+
+9. Durata e cessazione delle Licenze o dei Servizi di Supporto.
+
+9.1. Eventi che causano cessazione. Il presente Contratto, tutte le Licenze e la fornitura dei Servizi di Supporto per i Prodotti Licenziati cesseranno 30 (trenta) giorni dopo la ricezione di una comunicazione scritta da parte di PTC in cui si contesti un inadempimento del presente Contratto, tra cui la mancata esecuzione di un qualsiasi pagamento dovuto a PTC o a un Rivenditore in relazione ai Prodotti Licenziati nei tempi stabiliti, qualora a detto inadempimento non sia stato posto rimedio, con ragionevole soddisfazione di PTC, entro un periodo di 30 (trenta) giorni.
+
+9.2. Effetti della scadenza o della cessazione. Alla scadenza di un dato Periodo di Validità della Licenza e/o alla scadenza o cessazione del presente Contratto, il Cliente dovrà tempestivamente pagare tutte le somme dovute, restituire a PTC gli originali di tutti i Prodotti Licenziati, il cui Periodo di Validità è scaduto o è stato interrotto per effetto della cessazione, distruggere e/o cancellare tutte le copie e le copie di riserva dalle sue librerie informatiche, dai suoi sistemi di memorizzazione e/o dalle sue infrastrutture di hosting.
+
+9.3. Sopravvivenza. Gli articoli 1.2 e dal 3 al 10 sopravvivranno alla scadenza o cessazione del presente Contratto.
+
+10. Disposizioni transitorie e finali.
+
+10.1. Legge e giurisdizione applicabili. Se non diversamente indicato nell'Allegato A, tutte le controversie relative al, derivanti dal, o comunque in relazione con il presente Contratto saranno disciplinate e interpretate in base al diritto del Commonwealth of Massachusetts senza riferimento a conflitti di legge (e in particolare con esclusione dell'Uniform Computer Information Transactions Act). Con il presente documento le parti negano espressamente l'applicazione della convenzione delle Nazioni Unite sulla vendita internazionale di merci. Tutte le controversie relative al, derivanti dal, o comunque correlate al presente Contratto dovranno essere portate esclusivamente davanti a tribunali statali o federali del Commonwealth of Massachusetts, con esclusione di altri tribunali o altre giurisdizioni. Indipendentemente da quanto sopra detto e salvo indicazioni contrarie, PTC avrà il diritto di avviare un'azione legale in qualsiasi giurisdizione competente per salvaguardare i diritti di proprietà intellettuale e/o proteggere qualsivoglia informazione confidenziale. Il Cliente stipula che i tribunali statali e federali del Commonwealth of Massachusetts esercitano la propria giurisdizione personale sulla sua persona e con il presente Contratto irrevocabilmente (i) si sottomette alla giurisdizione personale di detti tribunali e (ii) autorizza la notifica di atti processuali, istanze e avvisi in relazione alle azioni intentate presso detti tribunali. Le parti convengono che una sentenza definitiva emessa nelle azioni e nei procedimenti in discorso sarà conclusiva e vincolante e potrà essere eseguita in qualsiasi altra giurisdizione. Le parti rinunziano al diritto di un processo con la partecipazione della giuria in relazione ad eventuali controversie derivanti dal presente Contratto.
+
+10.2. Avvisi. Tutte le comunicazioni o gli avvisi previsti o consentiti ai sensi del presente Contratto dovranno essere per iscritto. Gli eventuali avvisi inviati ai sensi del presente articolo saranno considerati ricevuti: (a) se inviati per posta, 5 (cinque) giorni lavorativi dall'inoltro; (b) se inviati mediante corriere espresso, il secondo giorno lavorativo successivo alla spedizione; o (c ) se inviati via fax, alla ricezione del messaggio sulla macchina fax del destinatario.
+
+10.3. Cessione, rinuncia, modifica. Il Cliente non potrà cedere, trasferire, delegare o sublicenziare alcuno dei suoi diritti o obblighi ai sensi del presente Contratto (anche, senza intento limitativo, in forza di legge o mediante vendita di attività direttamente o mediante fusione, e un cambiamento gestito dal Cliente dovrà essere considerato come una "cessione" ai fini di quanto sopra riportato) senza il preventivo consenso scritto di PTC e l'eventuale tentativo di delega, cessione, trasferimento o sublicenza sarà privo di validità e costituirà violazione del presente Contratto. La rinunzia, il consenso, la modifica, la variazione o il cambiamento delle condizioni del presente Contratto non saranno vincolanti se non in forma scritta e sottoscritti da PTC e Cliente. PTC si riserva il diritto di addebitare una commissione di trasferimento per eventuali proposte di cessione, trasferimento o sublicenza del presente Contratto.
+
+10.4. Conformità alle leggi.
+
+(i) Ciascuna delle parti sarà responsabile della conformità alle leggi, alle normative e ad altri requisiti legali applicabili correlati alla conduzione della propria attività e al presente Contratto. Inoltre, il Cliente dichiara e garantisce che utilizzerà i Prodotti Licenziati, nonché la tecnologie e i servizi correlati, nel pieno rispetto delle leggi e delle normative applicabili.
+
+(ii) Con il presente documento il Cliente dichiara e garantisce di non essere incluso, e che nessuno dei propri amministratori, funzionari o delle proprie consociate è incluso nelle liste Denied Persons List, Entity List o Unverified List del Dipartimento del Commercio degli Stati Uniti, Nonproliferation Sanctions List del Dipartimento di Stato degli Stati Uniti, List of Specially Designated Nationals and Blocked Persons o Sectoral Sanctions Identifications (SSI) List del Dipartimento del Tesoro degli Stati Uniti (collettivamente, "Liste dei Soggetti Sottoposti a Restrizioni"). Il Cliente riconosce e conviene che i Prodotti Licenziati e i dati tecnici e servizi correlati sono soggetti alle leggi e alle normative sul controllo delle esportazioni degli Stati Uniti e di qualsiasi paese in cui i Prodotti Licenziati e i dati tecnici o i servizi correlati vengono sviluppati, ricevuti, scaricati, utilizzati o eseguiti. Inoltre, il Cliente comprende e riconosce che il rilascio di software o tecnologia a una persona non statunitense all'interno degli Stati Uniti o altrove è considerato un'esportazione nel paese o nei paesi di origine della persona non statunitense e che il trasferimento dei Prodotti Licenziati, o della tecnologia correlata, a dipendenti, consociate o terzi del Cliente può richiedere una licenza rilasciata dal Governo degli Stati Uniti e, se del caso, da altre autorità di competenza. Il Cliente avrà la responsabilità in via esclusiva di stabilire se l'utilizzo o il trasferimento dei Prodotti Licenziati o della tecnologia o dei servizi correlati richieda una licenza di esportazione o un'approvazione da parte degli Stati Uniti o di altre autorità e di acquisire tutte le autorizzazioni necessarie.
+
+10.5. Nullità parziale. La mancata sanzionabilità giuridica o validità di qualsiasi disposizione non pregiudicherà la validità delle restanti disposizioni e le disposizioni risultate non valide dovranno essere considerate divisibili dal presente Contratto e sostituite con condizioni che rispecchino per quanto possibile le finalità delle disposizioni non valide.
+
+10.6. Intero accordo. Il presente Contratto costituisce la manifestazione completa ed esclusiva degli accordi tra PTC e Cliente in relazione all'oggetto contrattuale. La rinunzia, il consenso, la modifica, la variazione o il cambiamento delle condizioni del presente Contratto non saranno vincolanti se non in forma scritta e sottoscritti o comunque riconosciuti da PTC e Cliente.
+
+10.7. Terzi beneficiari. Le parti convengono che i terzi licenzianti di PTC sono considerati beneficiari del presente Contratto e hanno il diritto di basarsi sulle sue condizioni e di sanzionarle giuridicamente per quanto riguarda i loro propri prodotti.
+
+10.8. Marketing. Il Cliente conviene che durante il periodo di validità del presente Contratto, PTC sarà autorizzato a identificare il Cliente come cliente/utente finale del software e dei servizi PTC (nella misura applicabile) nella documentazione di pubbliche relazioni e di marketing.
+
+10.9. Licenziatari governativi. Nel caso in cui sia un'entità del governo degli Stati Uniti, il Cliente conviene che i Prodotti Licenziati costituiscono "software informatico commerciale" ai sensi dei regolamenti di acquisto federali applicabili e vengono forniti con i diritti di licenza commerciale e le restrizioni descritte in altre parti del presente Contratto. Se acquista il Prodotto Licenziato o i Prodotti Licenziati in virtù di un contratto con il Governo degli Stati Uniti, il Cliente conviene di inserire tutte le legende necessarie e applicabili relative alla limitazione dei diritti nei Prodotti Licenziati, allo scopo di tutelare i diritti proprietari di PTC ai sensi del FAR o di regolamenti analoghi di altre agenzie federali. Il Cliente conviene di inserire sempre tali legende ogniqualvolta i Prodotti Licenziati costituiscano un prodotto consegnabile, o siano ritenuti tali, ai sensi di un contratto governativo.
+
+Allegato A - Acquisti da consociate PTC
+Se il Cliente ha ottenuto una Licenza per uno dei Prodotti Licenziati in uno dei seguenti paesi, l'ente che concede la Licenza è quello sotto indicato e, indipendentemente dall'articolo 10.1 del presente Contratto, il diritto applicabile e la giurisdizione sono quelli sotto indicati.
+Paese
+Ente consociato di PTC che concede la licenza
+Diritto applicabile/Giurisdizione
+Belgio, Paesi Bassi e Lussemburgo
+Parametric Technology Nederland B.V.
+Beta Technology & Business Accelerator, Unit K110, High Tech Campus 9, Eindhoven, Netherlands 5656 AE
+Paesi Bassi
+Austria e Germania
+Parametric Technology GmbH
+Edisonstrasse 8, 85716 Unterschleissheim, Germany 
+Diritto tedesco*, Landgericht Munchen I, Germania
+Francia
+Parametric Technology S.A.
+1 rue du Petit Clamart, CS 10503, Velizy, Villacoublay, Cedex, France
+Francia
+Irlanda
+PTC (SSI) Limited
+12 Camden Row, Dublin 8, Ireland
+Repubblica di Irlanda
+Italia
+Parametric Technology Italia S.r.l.
+Centro Direzionale Colleoni, Palazzo Sirio 3, Viale Colleoni 11, 20041 Agrate Brianza
+Italia/Milano
+Spagna e Portogallo 
+Parametric Technology Espana, S.A.
+Gran Via de les Corts, Catalanes, 130-136, Planta 7°, Barcelona, Spain 08038
+Spagna
+Svizzera
+Parametric Technology (Schweiz) AG
+Javastrasse 4, Hegnau, Volketswil, Switzerland 8604
+Diritto tedesco*, Landgericht Munchen I, Germania
+Regno Unito
+Parametric Technology (UK) Limited
+Chester House, Aerospace Boulevard, Farnborough, England, GU14 6TQ
+Regno Unito
+Restanti Paesi dell'Unione Europea
+PTC (SSI) Limited
+12 Camden Row, Dublin 8, Ireland
+Repubblica di Irlanda
+Turchia, Kosovo, Serbia, Macedonia, Montenegro, Croazia, Bosnia ed Erzegovina, Romania e Albania
+PTC (SSI) Limited
+12 Camden Row, Dublin 8, Ireland
+Repubblica di Irlanda
+Federazione Russa
+PTC International LLC
+Rusakovaskaya Street 13, Moscow,
+Russia 107140
+Diritto russo/Tribunale di arbitrato commerciale internazionale presso la Camera di Commercio e dell'Industria della Federazione Russa a Mosca
+Bielorussia, Moldova, Ucraina, Armenia, Georgia, Azerbaijan, Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan e Uzbekistan
+PTC (SSI) Limited
+12 Camden Row, Dublin 8, Ireland
+Repubblica di Irlanda
+Norvegia, Svezia, Danimarca, Finlandia, Islanda e Isole Faroe
+PTC Sweden AB
+Johan Pa Gardas gata 5A
+Gothenburg, Sweden 41250
+Svezia
+Medio Oriente (escluso Israele)
+PTC (SSI) Limited
+12 Camden Row, Dublin 8, Ireland
+Repubblica di Irlanda
+Africa
+PTC (SSI) Limited
+12 Camden Row, Dublin 8, Ireland
+Repubblica di Irlanda
+Israele
+PTC Inc.
+140 Kendrick Street, Needham MA 02494 USA
+Commonwealth of Massachusetts, Stati Uniti
+Giappone
+PTC Japan K.K.
+8-1, Nishi-Shinjuku, 6-chome, Shinjuku-ku, Tokyo, Japan
+Giappone/Corte Distrettuale di Tokio
+Cina
+Parametric Technology (Shanghai) Software Co., Ltd.
+Unit 008, Floor 8, 888 Wanhangdu Road, Jingan District, Shanghai, China
+Repubblica Popolare Cinese/Commissione Internazionale Cinese per l'Arbitrato Economico e Commerciale in Shanghai 
+Taiwan
+Parametric Technology Taiwan Limited
+15/F HsinKee Building, 460-466 Hsin Yi Road, Sec. 4, Taipei, Taiwan 110
+Taiwan/Tribunali di Taipei, Taiwan
+India
+Parametric Technology (India) Private Limited
+4th Floor, Phoenix Towers, 16, Museum Road, Bangalore, India 560 025
+India
+Corea
+Parametric Korea Co. Ltd.
+10th Floor, Cosmo Tower, 1002, Daechi-dong, Gangnam-gu, Seoul, Korea 135-502
+Repubblica di Corea/Tribunali di Seoul
+Altri Paesi dell'Estremo Oriente compresa Australia e Nuova Zelanda, ma escluse Cina, Giappone e Taiwan)
+PTC Inc.
+140 Kendrick Street, Needham MA 02494 USA
+Special Administrative Region of Hong Kong/Centro Arbitrale Internazionale di Hong Kong
+Canada
+PTC (Canada) Inc.
+3333 Cote Vertu, Suite 620, St. Laurent, Quebec H4R 2N1
+Ontario
+Brasile
+Parametric Technology Brasil Ltda.
+Rua Samuel Morse, 120, 3rd Floor, Sao Paulo, Brazil 04576-060
+Brasile
+Ogni altro paese
+PTC Inc. o un'altra società del gruppo PTC che sia designata da PTC al momento dell'ordine
+Commonwealth of Massachusetts, Stati Uniti
+* Disposizioni specifiche per Austria, Germania e Svizzera
+Per i Prodotti Licenziati e utilizzati in Austria, Germania o Svizzera si applicano le disposizioni indicate di seguito. Tali disposizioni non sono applicabili ai Prodotti Licenziati o ai Servizi acquistati al di fuori dell'Austria, della Germania o della Svizzera. I riferimenti agli articoli riportati di seguito sono relativi agli articoli applicabili integrati nel corpo del Contratto. 
+. Il precedente articolo 2.3 (iv) non si applica nella misura in cui (i) i processi intrapresi dal Cliente siano necessari per acquisire le informazioni che consentano di ottenere l'interoperabilità di un programma informatico creato in modo indipendente o di altri programmi software, (ii) gli ulteriori requisiti della sezione 69e della legge sul copyright tedesca siano rispettati e (iii) PTC, su richiesta scritta del Cliente, non abbia reso disponibili le informazioni richieste a tale scopo entro un ragionevole periodo.
+. Gli articoli 6.1 (Garanzia), 6.2 (Rimedio esclusivo), 6.3 (Assenza di ulteriori garanzie) e 6.4 (Esclusione di garanzie) sono sostituiti dai seguenti articoli:
+6.1.	Periodo di Garanzia, ripresa e obbligo di indagine. Il periodo di limitazione per le richieste in garanzia è di 12 (dodici) mesi dalla consegna. Qualsiasi sostituzione di un Prodotto Licenziato o di Prodotti Licenziati e/o riparazione degli Errori non comporterà una ripresa del Periodo di Garanzia. Come prerequisito per le richieste in garanzia del Cliente ("Mangelanspruche") è necessario che: (i) il Cliente sottoponga a ispezione i Prodotti Licenziati in conformità all'articolo 377 del codice commerciale tedesco, (ii) il difetto sia un Errore secondo la definizione fornita nel presente Contratto, (iii) l'Errore fosse già esistente al momento della consegna e (iv) il Cliente effettui un'adeguata comunicazione dell'Errore. Il Cliente provvederà a comunicare gli Errori a PTC in forma scritta e fornirà dettagli specifici dell'Errore secondo quanto ritenuto ragionevole in base alle specifiche circostanze. Il Cliente informerà PTC in forma scritta degli Errori evidenti entro una settimana dalla consegna e degli Errori latenti entro un mese dalla scoperta di tali Errori. I periodi specificati sono periodi di preclusione.
+6.2.	Rimedi. Nell'eventualità di un Errore, PTC può, a sua esclusiva discrezione: (a) sostituire il Prodotto Licenziato o i Prodotti Licenziati o (b) provvedere alla riparazione dell'Errore, a condizione che PTC riceva comunicazione dell'Errore entro i periodi indicati nell'articolo 6.1 e il Cliente fornisca le informazioni aggiuntive riguardanti l'Errore che PTC possa ragionevolmente richiedere. Se la riparazione (effettuata mediante correzione dei bug, procedura alternativa o altro) o la sostituzione non ha esito positivo (dopo almeno due tentativi di riparazione effettuati per lo stesso Errore da PTC entro un ragionevole periodo di tempo), il Cliente avrà diritto, a sua scelta: (i) all'annullamento dell'ordine pertinente in modo che PTC fornisca un rimborso delle Commissioni di Licenza pagate dal Cliente per il Prodotto Licenziato o i Prodotti Licenziati applicabili e le eventuali copie degli stessi o (ii) a una ragionevole riduzione del prezzo di acquisto. Le sostituzioni o le riparazioni verranno effettuate senza riconoscimento di un obbligo legale e non sospenderanno il periodo di limitazione per le richieste in garanzia correlate ai Prodotti Licenziati.
+6.3.	Assenza di ulteriori garanzie. Nessun dipendente, partner, distributore (incluso qualsiasi Rivenditore) o agente di PTC o nessuno dei suoi rivenditori o agenti di vendita è autorizzato a rilasciare dichiarazioni, garanzie o promesse maggiori o diverse da quelle previste nel presente Contratto, salvo quanto espressamente definito in un contratto scritto firmato per conto del Cliente da un funzionario autorizzato e per conto di PTC da parte del suo legale o di un revisore aziendale. Oltre alle richieste di risarcimento dei danni causati da Errori che sono soggette alla limitazione di responsabilità di cui all'articolo 8, gli obblighi di cui al presente articolo 6 saranno di esclusiva responsabilità di PTC in caso di richieste in garanzia.
+6.4.	Responsabilità del Cliente. I Prodotti Licenziati sono destinati all'uso da parte di personale professionale espressamente formato e non sostituiscono la valutazione, i collaudi, la sicurezza e i servizi professionali del Cliente. Il Cliente è responsabile in via esclusiva degli eventuali risultati ottenuti dall'uso dei Prodotti Licenziati, compresa l'adeguatezza del collaudo indipendente dell'affidabilità e l'accuratezza di eventuali elementi progettati con l'impiego dei Prodotti Licenziati.
+6.5.	Qualità (Beschaffenheit), garanzie. Le qualità dei Prodotti Licenziati dichiarate in pubblicazioni di PTC o dal suo personale commerciale, in particolar modo in contenuti pubblicitari, disegni, brochure o altri documenti, incluse le presentazioni in Internet, o sull'imballaggio e nelle etichette dei Prodotti Licenziati, o che rientrano nell'ambito degli utilizzi commerciali, saranno considerate coperte dalla qualità contrattuale dei Prodotti Licenziati se sono espressamente contenute in un'offerta o nella conferma di un ordine effettuata in forma scritta. Le garanzie, in particolar modo le garanzie relative alla qualità, saranno vincolanti per PTC solo nella misura in cui (i) siano contenute in un'offerta o nella conferma di un ordine effettuata in forma scritta, (ii) siano espressamente indicate come "garanzia" o "garanzia di lavoro fatto a regola d'arte" (Beschaffenheitsgarantie) e (iii) indichino espressamente gli obblighi in capo a PTC derivanti da tale garanzia.
+. L'articolo 8 è sostituito dalle seguenti disposizioni:
+8.	Limitazione di responsabilità.
+8.1.	Categorie di responsabilità. PTC sarà responsabile dei danni, indipendentemente dai fondamenti giuridici, solo se: (i) PTC non adempie a un obbligo contrattuale sostanziale (obbligo cardinale) in modo colposo (ovvero almeno negligente) o (ii) i danni siano stati causati da colpa grave o dolo da parte di PTC o (iii) PTC abbia offerto una garanzia.
+8.2.	Prevedibilità. La responsabilità di PTC sarà limitata ai danni tipici e prevedibili: (i) nel caso in cui non ottemperi a obblighi contrattuali sostanziali (obblighi cardinali) con colpa lieve o (ii) se i dipendenti o agenti di PTC che non sono funzionari o dirigenti non abbiano ottemperato ai propri obblighi a causa di colpa grave o (iii) se PTC abbia offerto una garanzia, salvo il caso in cui tale garanzia sia espressamente indicata come tale con riferimento al lavoro fatto a regola d'arte (Beschaffenheitsgarantie).
+8.3.	Importo massimo. Nei casi di cui all'articolo 8.2 (i) e (ii), la responsabilità di PTC sarà limitata all'importo massimo di EURO 1.000.000 o, nel caso di perdite puramente finanziarie, a un importo massimo di EURO 100.000.
+8.4.	Danni indiretti. Nei casi di cui all'articolo 8.2, PTC non sarà responsabile di danni indiretti, consequenziali o del lucro cessante.
+8.5.	Periodo di responsabilità. Le richieste di risarcimento dei danni avanzate dal Cliente nei confronti di PTC e/o delle consociate di PTC, indipendentemente dai fondamenti giuridici, scadranno non oltre un anno dalla data in cui il Cliente viene informato del danno o, a prescindere da tale informazione, non oltre due anni dal verificarsi dell'evento che ha causato il danno. Per le richieste basate su Errori del Prodotto Licenziato o dei Prodotti Licenziati, si applica il periodo di limitazione della garanzia ai sensi dell'articolo 6.1.
+8.6.	Responsabilità civile obbligatoria. La responsabilità di PTC ai sensi della legge tedesca sulla responsabilità di prodotto ("Produkthaftungsgesetz") per gli infortuni che mettono a repentaglio la vita, il corpo e la salute, per l'occultamento fraudolento di un difetto o per l'offerta di una garanzia di lavoro fatto a regola d'arte ("Beschaffenheitsgarantie") resta invariata.
+8.7.	Dipendenti. Gli articoli da 8.1 a 8.6 si applicano inoltre nel caso di richieste di risarcimento dei danni avanzate dal Cliente nei confronti dei dipendenti o agenti di PTC e/o delle consociate di PTC.
+8.8.	Concorso di colpa. Nell'eventualità di richieste in garanzia o derivanti da responsabilità avanzate nei confronti di PTC, qualsiasi concorso di colpa del Cliente deve essere preso in considerazione, in particolar modo nell'eventualità di un'inadeguata comunicazione di malfunzionamento o di un'inadeguata protezione dei dati. Si verifica un'inadeguata protezione dei dati se il Cliente, a titolo di esempio, non adotta opportune precauzioni, per mezzo di appropriate misure di sicurezza allo stato dell'arte, contro influenze esterne, ad esempio virus informatici e altri fenomeni che potrebbero mettere a rischio singoli dati o tutti i dati.
+
+Allegato B - Definizioni
+"Commissione Integrativa" - Commissione basata sulla differenza tra la Commissione di Licenza applicabile all'installazione del Prodotto Licenziato applicabile nel Paese Designato originale e la Commissione di Licenza applicabile all'installazione di tale Prodotto Licenziato nel Paese Designato nel quale il Cliente intende spostare o utilizzare il Prodotto Licenziato.
+"Documentazione" - Manuali dell'utente del Prodotto Licenziato applicabili forniti o messi a disposizione su supporto elettronico da PTC al momento della spedizione del Prodotto Licenziato.
+"Errore" - Mancata conformità sostanziale del Prodotto Licenziato alla Documentazione applicabile, a condizione che il Cliente informi per iscritto PTC di detta non conformità.
+"Licenza" - Diritto non esclusivo, non trasferibile, senza diritto di sublicenza, per l'installazione e l'uso di un Prodotto Licenziato (in forma di codice oggetto).
+"Nuova Release" - Versione modificata o migliorata di un Prodotto Licenziato identificata da PTC come nuova release di tale prodotto e messa genericamente a disposizione dei clienti dei Servizi di Supporto.
+"Paese Designato" - Paese di acquisto se non diversamente specificato per iscritto nella documentazione relativa all'ordine al momento dell'acquisto.  
+"Pagina Web delle Basi di Licenza" - Documenti "Base di Licenza" disponibili all'indirizzo http://www.ptc.com/support/customer_agreements/index.htm, che specificano la base di licenza di diversi prodotti PTC e indicano alcuni termini e condizioni aggiuntivi specifici di un prodotto.
+"Periodo di Validità" - Periodo di tempo durante il quale la Licenza per i Prodotti Licenziati applicabili è valida, come specificato nel nome parte del Prodotto Licenziato o nel Preventivo applicabile. In assenza di uno specifico Periodo di Validità, la licenza dovrà intendersi permanente a patto che il Periodo di Validità della Licenza in caso di Licenze di Valutazione non superi i trenta giorni. Il Periodo di Validità di una Licenza in "sottoscrizione" è indicato nel Preventivo e/o nella fattura.
+"Preventivo" - Scheda del prodotto, preventivo o altro contratto scritto fornito al Cliente o firmato dal Cliente in relazione all'acquisto dei Prodotti Licenziati e/o dei Servizi di Supporto applicabili.
+"Prodotti Licenziati" - Prodotti software informatici identificati nel Preventivo applicabile e nella Documentazione fornita con tali prodotti software informatici.
+"PTC" - PTC Inc., a meno che il Cliente non sia ubicato negli Stati Uniti d'America. In tal caso, per PTC si intende come indicato nell'Allegato 1.
+"Rivenditore" - Rivenditore o distributore autorizzato da PTC a rivendere o distribuire i Prodotti Licenziati e/o i Servizi di Supporto al Cliente.
+"Server Designato" - Server ubicato nel Paese Designato in cui viene eseguita un'unica istanza dell'applicazione del Prodotto Licenziato installato applicabile.
+"Servizi di Supporto" - Fornitura di Nuove Release e, a seconda del livello di Servizi di Supporto ordinato, può inoltre includere supporto telefonico, strumenti di supporto Web e correzione di Errori.
+"Utente Autorizzato" - Persona fisica autorizzata dal Cliente a utilizzare i Prodotti Licenziati, uso che deve essere esclusivamente conforme ai termini e alle condizioni del presente Contratto. Possono essere Utenti Autorizzati solo i dipendenti, consulenti, subappaltatori, fornitori, partner commerciali e clienti del Cliente, che (i) non siano in concorrenza con PTC o alle dipendenze di concorrenti di PTC e (ii) siano direttamente coinvolti nell'uso dei Prodotti Licenziati esclusivamente a supporto delle attività commerciali interne del Cliente. Il Cliente sarà sempre responsabile della conformità al presente Contratto da parte dei propri Utenti Autorizzati.

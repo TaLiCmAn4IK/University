@@ -1,0 +1,48 @@
+# {100} (100) [0] adb_designerShowMenuBar.Label
+Show/Hide MenuBar
+Mostra/Nasconde barra dei menu
+
+# [1] adb_designerAddNewPage.Label
+Add Page
+Aggiungi pagina
+
+# [2] adb_designerInheritPage.Label
+Inherit Page
+Eredita pagina
+
+# [3] adb_designerRenamePage.Label
+Rename Current Page
+Rinomina pagina corrente
+
+# [4] adb_designerRemovePage.Label
+Remove Current Page
+Rimuovi pagina corrente
+
+# [5] adb_designerAddNewGroup.Label
+Add Group
+Aggiungi gruppo
+
+# [6] adb_designerInheritGroup.Label
+Inherit Group
+Eredita gruppo
+
+# [7] adb_designerAddEGPage.Label
+Add External Groups Page
+Aggiungi pagina gruppi esterni
+
+# [8] adb_designerRemoveEGPage.Label
+Remove External Groups Page
+Rimuovi pagina gruppi esterni
+
+# [9] adb_designerAddNewAdb.Label
+Create New Ribbon
+Crea nuova barra multifunzione
+
+# [10] adb_designerLoadResource.Label
+Load Ribbon
+Carica barra multifunzione
+
+# [11] adb_designerStoreResource.Label
+Save Ribbon
+Salva barra multifunzione
+

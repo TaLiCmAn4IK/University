@@ -1,0 +1,8 @@
+# {0} (2) [0] Label1.Label
+Datecode:
+Code de date :
+
+# [1] Label5.Label
+Previous Install Locations:
+Répertoires d'installation précédents :
+

@@ -1,0 +1,28 @@
+# {100} (100) [0] dlg_proxy.Label
+Proxy Configuration
+프록시 구성
+
+# [1] Lab_Proxy.Label
+Please specify your HTTP Proxy
+HTTP 프록시를 지정하십시오.
+
+# [2] Lab_Host.Label
+&Host Address:
+호스트 주소(&H):
+
+# [3] Lab_Port.Label
+Port:
+포트:
+
+# [4] OkBtn.Label
+OK
+확인
+
+# [5] CancelBtn.Label
+Cancel
+취소
+
+# [6] Lab_Retry.Label
+Connection failed, please try again.
+연결하는 데 실패했습니다. 다시 시도하십시오.
+

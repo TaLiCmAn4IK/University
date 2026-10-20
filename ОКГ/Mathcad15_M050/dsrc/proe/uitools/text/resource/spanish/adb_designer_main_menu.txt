@@ -1,0 +1,48 @@
+# {100} (100) [0] adb_designerShowMenuBar.Label
+Show/Hide MenuBar
+Mostrar/Ocultar la barra de menús
+
+# [1] adb_designerAddNewPage.Label
+Add Page
+Añadir página
+
+# [2] adb_designerInheritPage.Label
+Inherit Page
+Heredar página
+
+# [3] adb_designerRenamePage.Label
+Rename Current Page
+Cambiar el nombre de esta página
+
+# [4] adb_designerRemovePage.Label
+Remove Current Page
+Quitar esta página
+
+# [5] adb_designerAddNewGroup.Label
+Add Group
+Añadir grupo
+
+# [6] adb_designerInheritGroup.Label
+Inherit Group
+Heredar grupo
+
+# [7] adb_designerAddEGPage.Label
+Add External Groups Page
+Añadir página de grupos externos
+
+# [8] adb_designerRemoveEGPage.Label
+Remove External Groups Page
+Quitar página de grupos externos
+
+# [9] adb_designerAddNewAdb.Label
+Create New Ribbon
+Crear cinta
+
+# [10] adb_designerLoadResource.Label
+Load Ribbon
+Cargar cinta
+
+# [11] adb_designerStoreResource.Label
+Save Ribbon
+Guardar cinta
+

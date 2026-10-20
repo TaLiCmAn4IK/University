@@ -1,0 +1,81 @@
+// 07-Oct-02 J-03-35 $$1  ECW  Created.
+// 08-Nov-02 J-03-36 $$2  ECW  Add Cdsections for help.
+// 12-Nov-02 J-03-37 $$3  ECW  Close Product section
+// 13-Nov-02 J-03-37 $$4  ECW  Update convertFilesList
+// 19-Nov-02 J-03-38 $$5  ECW  Make package names unique for help strings
+// 05-Dec-02 J-03-39 $$6  ECW  remove some binscripts
+// 21-Apr-08 L-03-07 $$7  TWH  Update from K-03 version
+// 17-Sep-09 L-03-35 $$8  TWH  Update for EMX5 M070
+// 18-Sep-09 L-03-35+$$9  TWH  fix typo
+// 24-Sep-09 L-03-35+$$10 TWH  Update for Ad_list
+// 04-Nov-09 L-03-36 $$11 TWH  Update WF5 images
+// 17-Nov-09 L-03-36 $$12 TWH  Update for EMX 6
+// 20-Sep-11 L-03-45 $$13 TWH  Update for EMX 7
+// 31-Jul-12 L-03-50 $$14 TWH  Update for EMX 7
+
+(Product emx
+    (Name                      "Expert Moldbase Extension")
+    (WelcomeImage              "emx7.png")
+    (ToolTipMsg                "EMX is compatible with Wildfire 4.0, Wildfire 5.0, Creo 1.0 and Creo 2.0")
+    (Packages                  "emx_base"
+                               "emxhelp"
+                               "uninstall")
+    (ProgramFiles              True)
+    (LpDirName                 "emx")
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+    (SaveList                  "text/config.win"
+                               "text/config.pro")
+    (LicenseSimplification     False)
+    (Ad_list                   "WF5_101"
+                               "WF5_102"
+                               "WF5_103"
+                               "WF5_104"
+                               "WF5_201"
+                               "WF5_202"
+                               "WF5_203"
+                               "WF5_204"
+                               "WF5_301"
+                               "WF5_302"
+                               "WF5_303"
+                               "WF5_304"
+                               "WF5_401"
+                               "WF5_402"
+                               "WF5_403"
+                               "WF5_501"
+                               "WF5_502"
+			       "WF5_503"
+			       "WF5_601"
+                               "WF5_602"
+                               "WF5_603"
+                               "WF5_701"
+                               "WF5_702"
+			       "WF5_703"
+			       "WF5_801"
+                               "WF5_802"
+                               "WF5_803"
+                               "WF5_901"
+                               "WF5_902"
+			       "WF5_903")
+)
+
+(Package emx_base
+    (Name                      "Expert Moldbase Extension")
+    (Cdsections                "EMX Tree"
+			       "emx")
+    (convertFilesList          "_LP_/bin/wildfire4/config.pro=_LP_/bin/wildfire4/config.pro"
+			       "_LP_/bin/wildfire4/protk.dat=_LP_/bin/wildfire4/protk.dat"
+                               "_LP_/bin/wildfire5/config.pro=_LP_/bin/wildfire5/config.pro"
+		                   "_LP_/bin/wildfire5/protk.dat=_LP_/bin/wildfire5/protk.dat"
+		                   "_LP_/bin/creo1/config.pro=_LP_/bin/creo1/config.pro"
+		                   "_LP_/bin/creo1/protk.dat=_LP_/bin/creo1/protk.dat"
+		                   "_LP_/bin/creo1/config.pro=_LP_/bin/creo2/config.pro"
+		                   "_LP_/bin/creo1/protk.dat=_LP_/bin/creo2/protk.dat")
+    (Installed                 True)
+)
+
+(Package emxhelp
+    (Name                      "EMX Help Files")
+    (Installed                 True)
+    (Cdsections                "emxhelp")
+)

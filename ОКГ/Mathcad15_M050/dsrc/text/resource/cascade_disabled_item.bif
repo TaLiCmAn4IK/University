@@ -1,0 +1,27 @@
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!
+!  Cascade Button image to select feature (disabled version) 
+! 
+!  Date      Release   Name  Ver.   Comments
+!  --------- -------   ----  ----   --------
+!  29-Apr-03 K-01-06   TWH   $$1    Created
+!  25-Jul-03 K-01-11   TWH   $$2    New image from prod def
+!
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+(Image cascade_disabled_item
+    (Resources
+        (.Width     32)
+        (.Height    9)
+        (.Depth     24)
+    )
+    (Data
+        EFFFFFFF03F0FDB4B4B40101F4F0070D170D270D2F01F3FD4B0D785B0D6B0D03
+        0266666601040170880D980DA80D8401CCCCCC3B0DC0CF0DDF0DFBFDFF0D0F1D
+        1F1D01E403E4E43312BC0D481D581D681DFC05383415881D981D0000009B1A3C
+        1D02C81D15AC10DC112411DC18731D9B1D000F2D1F2DB31DC31DCF1DDF12EC1D
+        F81D07808080872D972D9F22302D402D00CC2DD815D42D782D241D143D2C1DB8
+        2D00443D543D643DF82D843D943DA43D3C3D00C43DD43DE43DF035BC31840104
+        4D144D00244DBC3D444D544D6445
+    )
+)

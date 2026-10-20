@@ -1,0 +1,8 @@
+# {70178} (2) [0] <template>_1.Label
+Locate Other Installation Directories (Optional)
+Andere Installationsverzeichnisse suchen (optional)
+
+# [1] <template>_2.Label
+Optional Inputs
+Optionale Eingaben
+

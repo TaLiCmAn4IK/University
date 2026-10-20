@@ -1,0 +1,20 @@
+//
+// File: w_ptcdsm.pst
+//
+// 28-Mar-02 $$1  ALG  Created
+// 15-Apr-02      ALG  Add NMSD_PATH
+// 15-Apr-02 $$2  ALG  Remove *_FEATURE_NAME lines
+// 11-Jun-02 $$3  ALG  Add __AE_FLAG__ (Will be either " -ae" or "")
+//
+// PTC - PSF file: ptcdsm
+__PSF_COMMENT__ PTC - PSF file: ptcdsm
+__PSF_COMMENT__
+PRODUCT=Distributed Services Manager
+ENV=EZ_MIME_FILE=%PRO_DIRECTORY%\html\conf\mime.types
+ENV=EZ_HTML_ROOT=%PRO_DIRECTORY%\html
+ENV=NMSD_PATH=%PRO_DIRECTORY%\%MC%\nms\nmsd.exe
+ENV=PTC_D_LICENSE_FILE+=__LM_LICENSE_FILE__
+RUN="%PRO_DIRECTORY%\%PRO_MACHINE_TYPE%\obj\dsq.exe"__AE_FLAG__
+__PSF_COMMENT__ USER - PSF
+__PSF_COMMENT__ Add User specific environment or run applications below here
+

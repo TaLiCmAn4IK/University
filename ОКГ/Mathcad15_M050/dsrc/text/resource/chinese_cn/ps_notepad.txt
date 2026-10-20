@@ -1,0 +1,100 @@
+# {100} (100) [0] ps_notepad.Label
+FLEXnet license editor
+FLEXnet 许可证编辑器
+
+# [1] CheckBtn.Label
+ReCheck License(s)
+核查许可证
+
+# [2] CheckLab.Label
+License file still has errors
+许可证文件仍有错误
+
+# [3] file.Label
+&File
+文件(&F)
+
+# [4] import.Label
+&Import...
+导入(&I)...
+
+# [5] import.HelpText
+Replace the file contents from another file
+用另一个文件中的内容替换此文件内容
+
+# [6] append.Label
+Append...
+添加...
+
+# [7] append.HelpText
+Append another files' contents to this file
+将其它文件中的内容添加到此文件中
+
+# [8] save.Label
+&Save
+保存(&S)
+
+# [9] save.HelpText
+Save the file contents
+保存文件内容
+
+# [10] save_as.Label
+Save &As...
+另存为(&A)...
+
+# [11] save_as.HelpText
+Save the contents in another file
+将内容保存至另一个文件中
+
+# [12] exit.Label
+E&xit
+退出(&X)
+
+# [13] edit.Label
+&Edit
+编辑(&E)
+
+# [14] undo.Label
+&Undo
+撤消(&U)
+
+# [15] redo.Label
+Redo
+重做
+
+# [16] cut.Label
+Cu&t
+剪切(&T)
+
+# [17] copy.Label
+&Copy
+复制(&C)
+
+# [18] paste.Label
+&Paste
+粘贴(&P)
+
+# [19] delete.Label
+De&lete
+删除(&L)
+
+# [20] select_all.Label
+Select &All
+全选(&A)
+
+# [21] search.Label
+&Search
+搜索(&S)
+
+# [22] find.Label
+&Find...
+查找(&F)...
+
+# [23] next.Label
+Find &Next
+查找下一个(&N)
+
+# [24] replace.Label
+&Replace...
+替换(&R)...
+

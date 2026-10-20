@@ -1,0 +1,16 @@
+# {0} (4) [0] pro_help.Label
+Help Loadpoint Input
+ヘルプのロードポイントを入力
+
+# [1] Label1.Label
+Enter the Help URL or full path to Help installation directory
+ヘルプのインストールディレクトリへのURLまたはフルパスを入力します。
+
+# [2] StdOK.Label
+&OK
+OK(&O)
+
+# [3] StdCancel.Label
+&Cancel
+キャンセル(&C)
+

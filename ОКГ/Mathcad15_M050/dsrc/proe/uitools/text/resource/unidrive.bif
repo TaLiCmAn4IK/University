@@ -1,0 +1,22 @@
+!----------------------------------------------------------------------------
+!
+!  Date      Release Name  Ver.  Comments
+! ---------- ------- ----- ----- --------------------------------------------
+! 10-Aug-01  J-03-05  PRF  $$1  Submitted.
+!----------------------------------------------------------------------------
+(Image unidrive
+    (Resources
+        (.Width     24)
+        (.Height    18)
+        (.Depth     4)
+    )
+    (Data
+        C8C2FFC200CFFF000B070B070B00CDFF00C403C700C3FF00CD0F00C3FF000F0C
+        070B070C070C070B070C070B0C0B00C3FF000F0C0B070B0C0B0C0B070B0C0B07
+        0C0700C3FF000F0C070B070C070C0C0B070C070B0C0B00C3FF000F0C0B070B0C
+        0B0C0B0C0B0C0B070C0700C3FF000F0C070B070C070C070B0C0C070B0C0B00C3
+        FF000F0C0B070B0C0B0C0B070B0C0B070C0700C3FF000F0C070B070C070C070B
+        070C070B0C0B00C3FF00FF07C00C070B0C0B070B0C0B070C0700C3FF00FF0B07
+        0B070B070B070B070B070B070B00C3FFCF00DAFF
+    )
+)

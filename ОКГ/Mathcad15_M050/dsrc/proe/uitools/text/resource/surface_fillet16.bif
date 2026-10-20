@@ -1,0 +1,20 @@
+! 11-Jul-97 H-03-16 twb $$1 Revised, file created prior to H-03-16
+! 18-Aug-97 H-03-19 twb $$2 Revised, white background
+! 27-Aug-97 H-03-19+ twb $$3 Revised, fixed coloring
+! 02-Dec-97 H-03-31 twb $$4 Recolored for white background.
+! 18-Dec-97 H-03-34 hmt $$5 Changed size to 18x18
+! 29-DEC-97 H-03-35 MCA $$6 Changed size to 16x16 - Removed RED Set Current Box.
+! 13-APR-99 I-03-07 SZH $$7 Used as feature icon.
+(Image surface_fillet16
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     4)
+    )
+    (Data
+        D3FFC60B00C2FF0B0BC3000B0B00C2FF0B00C3FF0B00C2FF0B0B00C2FF0B0B00
+        C2FF0B00C3FF0B00C2FF0B0B00C2FF0B0B00C2FF0B09C3FF0B00C3FF0909C2FF
+        0B0B00C3FF0909C2FF0B00C4FF0909C1FF0B0B00C4FFC009C0FF0B00C6FFC009
+        C00B00C7FF0909C000C3C1FF
+    )
+)

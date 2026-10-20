@@ -1,0 +1,16 @@
+# {0} (4) [0] profly_1.Label
+Locate Other Installation Directories (Optional)
+找出其他安裝目錄(任選)
+
+# [1] IlinkDirLab.Label
+Pro/INTRALINK
+Pro/INTRALINK
+
+# [2] profly_2.Label
+Optional Inputs
+任選性輸入
+
+# [3] ProeCmdLab.Label
+Pro/ENGINEER Command
+Pro/ENGINEER指令
+

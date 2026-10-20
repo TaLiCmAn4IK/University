@@ -1,0 +1,4 @@
+# {0} (1) [0] Label1.Label
+Full path to the Netscape plugins directory
+Netscape plugins ディレクトリへの絶対パス
+

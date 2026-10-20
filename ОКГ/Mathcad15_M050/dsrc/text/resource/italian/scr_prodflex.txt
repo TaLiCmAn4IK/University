@@ -1,0 +1,80 @@
+# {100} (100) [0] prodflexLayout3.Label
+Disk Space
+Spazio disco
+
+# [1] Label7.Label
+Available on C: 9999GB
+Disponibile su C: 9999 GB
+
+# [2] Label8.Label
+Required on C: 9999GB
+Necessario su C: 9999 GB
+
+# [3] FlexLPLayout.Label
+Destination Folder
+Cartella destinazione
+
+# [4] LpReleaseLab.Label
+Dummy Label
+Etichetta fittizia
+
+# [5] prodflexTreeLayout.Label
+License File
+File di licenza
+
+# [6] PushButton15.HelpText
+Edit license file
+Modifica file di licenza
+
+# [7] prodflexTriadLayout.Label
+You are referencing a Triad License file
+Si fa riferimento a un file di licenza Triad
+
+# [8] Label1.Label
+00-00-00-00-00-00
+00-00-00-00-00-00
+
+# [9] Label2.Label
+00-00-00-00-00-00
+00-00-00-00-00-00
+
+# [10] Label4.Label
+Please fill in the other hostnames that will get license server installs:
+Specificare gli altri  nomi host destinatari delle installazioni del server licenze:
+
+# [11] Label5.Label
+00-00-00-00-00-00
+00-00-00-00-00-00
+
+# [12] PushButton6.Label
+FLEXnet Server Options
+Opzioni server FLEXnet
+
+# [13] UnixLayout.Label
+Unix
+UNIX
+
+# [14] Label3.Label
+Server process owner
+Proprietario processo server
+
+# [15] Label9.Label
+Create Links to Directory
+Crea link alla directory
+
+# [16] uCmdLineArgs.Label
+Command Line Arguments
+Argomenti riga di comando
+
+# [17] RebootLab.Label
+Start on Reboot
+Avvia al riavvio
+
+# [18] wCmdLineArgs.Label
+Command Line Arguments
+Argomenti riga di comando
+
+# [19] RebootLabW.Label
+Start on Reboot
+Avvia al riavvio
+

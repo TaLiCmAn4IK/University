@@ -1,0 +1,34 @@
+;
+; 26-Apr-07 L-01-31  AW      $$1  Created
+; 17-May-07 L-01-32  AW      $$2  Added animation times
+;
+
+[toolbutton]
+ContentMargins = 2, 2, 2, 2
+SizingMargins = 3, 2, 1, 1
+TransitionDuration = 250
+BackgroundImage = styles/SAB/middle_button_normal.bif
+
+[toolbutton(hot)]
+TransitionDuration = 250
+BackgroundImage = styles/SAB/middle_button_hot.bif
+
+[toolbutton(pressed)]
+TransitionDuration = 250
+BackgroundImage = styles/SAB/middle_button_pressed.bif
+
+[comboboxbutton]
+ContentMargins = 2, 2, 2, 2
+SizingMargins = 3, 2, 1, 1
+Size = 20, 20
+TransitionDuration = 250
+BackgroundImage = styles/SAB/SAB_transparent.bif
+Glyph = UI OptionMenu image
+
+[comboboxbutton(hot)]
+TransitionDuration = 250
+BackgroundImage = styles/SAB/middle_button_hot.bif
+
+[comboboxbutton(pressed)]
+TransitionDuration = 250
+BackgroundImage = styles/SAB/middle_button_pressed.bif

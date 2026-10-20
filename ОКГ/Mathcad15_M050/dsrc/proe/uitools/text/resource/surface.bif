@@ -1,0 +1,23 @@
+! 11-Jul-97 H-03-16 twb $$1 Revised, file created prior to H-03-16
+! 18-Aug-97 H-03-19 twb $$2 Revised, white background
+! 02-Dec-97 H-03-31 twb $$3 Recolored for white background.
+! 18-Dec-97 H-03-34 hmt $$4 Changed size to 18x18
+! 29-DEC-97 H-03-35 MCA $$5 Changed size to 16x16 - Removed RED Set Current Box.
+! 17-Apr-00 J-01-06 TWB $$6 Updated for new look.
+! 01-Mar-01 J-01-28 TWB $$7 Updated for new look.
+! 22-May-2009 L-03-33 mla $$8 recolored
+(Image surface
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        0FFF000000F0FD000D100D200D3C300D38010099FF01480D5001C8380D6C0D50
+        050F6D008805CCE4008607580D740D880D9809CC01DC05A40D00BC09CC09001D
+        D805E809D809081D181D06E00633992B1A401D781D501D281D00381D901D581D
+        681DC01DF81DD01DA81D00B81DE811482DE811E01DF01D5025AC0D0078064D25
+        292C5002852DC92D952CAC2A00BD2D053D153DDD2D213D453D553D653D00753D
+        853D953DA53DB53DC53DD53DE534
+    )
+)

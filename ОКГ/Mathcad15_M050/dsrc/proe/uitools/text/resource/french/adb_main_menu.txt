@@ -1,0 +1,16 @@
+# {100} (100) [0] adb_pshCommands.Label
+Commands...
+Commandes...
+
+# [1] adb_pshCommands.HelpText
+Activates the customize screen dialog box and displays by default the commands tab
+Active la boîte de dialogue Personnaliser l'écran et affiche l'onglet de commandes par défaut.
+
+# [2] adb_minimizeRibbon.Label
+Mi&nimize the Ribbon
+Mi&nimiser le ruban
+
+# [3] adb_minimizeRibbon.HelpText
+Toggles the display of the application dashboard between expanded and collapsed
+Bascule entre un affichage développé ou réduit du tableau de bord de l'application.
+

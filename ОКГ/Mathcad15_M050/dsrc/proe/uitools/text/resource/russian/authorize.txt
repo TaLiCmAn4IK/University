@@ -1,0 +1,24 @@
+# {100} (100) [0] authorize.Label
+Authorization
+Авторизация
+
+# [1] Authorize_Label_Username.Label
+Username:
+Пользователь:
+
+# [2] Authorize_Label_Password.Label
+Password:
+Пароль:
+
+# [3] Authorize_PB_OK.Label
+&OK
+&OK
+
+# [4] Authorize_PB_Cancel.Label
+&Cancel
+О&тмена
+
+# [5] Label1.Label
+Please type your user name and password.
+Пожалуйста, введите ваше имя и пароль.
+

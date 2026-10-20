@@ -1,0 +1,24 @@
+# {0} (6) [0] pdm_db.Label
+Select Installation Directory
+选取安装目录
+
+# [1] Label1.Label
+Enter Path to PDM Database.
+输入PDM数据库的路径。
+
+# [2] StdOK.Label
+&OK
+确定(&O)
+
+# [3] StdCancel.Label
+&Cancel
+取消(&C)
+
+# [4] DbDirBrowse.Label
+&Browse
+浏览(&B)
+
+# [5] Label2.Label
+Select Browse for a directory browser
+为某个目录浏览器选取浏览
+

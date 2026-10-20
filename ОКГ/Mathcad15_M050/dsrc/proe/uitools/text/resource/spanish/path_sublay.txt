@@ -1,0 +1,92 @@
+# {100} (100) [0] Label289.Label
+Testing
+Prueba
+
+# [1] CascadeOrganize.Label
+<org> Organize
+<org> Organizar
+
+# [2] CascadeOrganize.HelpText
+Manage files and folders
+Gestionar ficheros y carpetas
+
+# [3] DispButton.Label
+<disp> Views
+<disp> Vistas
+
+# [4] DispButton.HelpText
+Select a view type
+Seleccionar un tipo de vista
+
+# [5] CascadeTools.Label
+<tools> Tools
+<tools> Herramientas
+
+# [6] CascadeTools.HelpText
+Manage files and folders
+Gestionar ficheros y carpetas
+
+# [7] up_directory.HelpText
+Up One Level
+Ascender un nivel
+
+# [8] pb_whatis.HelpText
+Context sensitive help
+Ayuda dependiente del contexto
+
+# [9] mp_organize.Label
+Organize
+Organizar
+
+# [10] newdirectory_pb.Label
+New Folder
+Carpeta nueva
+
+# [11] newdirectory_pb.HelpText
+Create New Directory
+Crear directorio nuevo
+
+# [12] Radgp_table.Labels.a
+<a> List
+<a> Lista
+
+# [13] Radgp_table.Labels.b
+<b> Details
+<b> Detalles
+
+# [14] enable_popup_cb.Label
+Show PopUp Viewer
+Ver visualizador emergente
+
+# [15] mp_tools.Label
+Tools
+Herramientas
+
+# [16] DefaultLookin.Label
+Address Default
+Dirección por defecto
+
+# [17] markup_instance_display.Label
+Sort By
+Clasificar por
+
+# [18] SelectAll.Label
+Select All
+Seleccionar todo
+
+# [19] UnselAll.Label
+Unselect All
+Anular selecciones
+
+# [20] RadioGroup3.Labels.a
+Model Name
+Nombre del modelo
+
+# [21] RadioGroup3.Labels.b
+Markup/Instance Name
+Nombre de instancia/anotación
+
+# [22] chk_browser_tb.Label
+Browser Toolbar
+Barra de herramientas del explorador
+

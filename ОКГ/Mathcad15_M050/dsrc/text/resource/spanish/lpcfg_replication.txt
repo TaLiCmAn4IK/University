@@ -1,0 +1,20 @@
+# {0} (5) [0] lpcfg_replication2.Label
+Replication Settings
+Configuración de réplicas
+
+# [1] ServeReplicas.Label
+Replicate data from this server
+Replicar datos de este servidor
+
+# [2] HostReplicas.Label
+Host replica data for other servers
+Host de datos de réplica para otros servidores
+
+# [3] StdDisable.Label
+Disable all non-replication services
+Desactivar todos los servicios que no sean de réplica
+
+# [4] SiteNameLab.Label
+Name of site hosting replica data
+Nombre del sitio que contiene los datos de réplica
+

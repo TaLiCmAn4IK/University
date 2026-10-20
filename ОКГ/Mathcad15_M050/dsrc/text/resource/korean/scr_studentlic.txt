@@ -1,0 +1,60 @@
+# {100} (100) [0] scr_studentlic2.Label
+License Configuration
+라이센스 구성
+
+# [1] Label5.Label
+A. Automatically generate license file (online mode)
+A. 라이센스 파일 자동 생성(온라인 모드)
+
+# [2] onlineModeLab.Label
+This mode requires an Internet connection to access PTC.com
+이 모드는 PTC.com으로 인터넷 연결이 가능해야 합니다.
+
+# [3] ActivationCodeLab.Label
+Product Code
+제품 코드
+
+# [4] Label9.Label
+Username
+사용자 이름
+
+# [5] Label10.Label
+Password
+암호
+
+# [6] autoLicBttn.Label
+Generate License File
+라이센스 파일 생성
+
+# [7] StudentLicFileLab.Label
+License File Path
+라이센스 파일 경로
+
+# [8] Label6.Label
+B. Browse to local license file (offline mode)
+B. 로컬 라이센스 파일 검색(오프라인 모드)
+
+# [9] scr_studentlic3.Label
+Specify License Server
+라이센스 서버 지정
+
+# [10] licServHost.Label
+Hostname
+호스트이름
+
+# [11] licServPort.Label
+Port
+포트
+
+# [12] licServLabel.Label
+License Server
+라이센스 서버
+
+# [13] scr_studentlic4.Label
+Instructions
+설명
+
+# [14] TextArea.Value
+In the area below, please specify the mode to attain the license for your special edition in order to complete the installation.
+설치를 완료하시려면 특별판 라이센스를 가져오기할 모드를 아래에서 선택하십시오.
+

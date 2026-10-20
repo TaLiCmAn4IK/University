@@ -1,0 +1,5 @@
+! Copy Adobe extracted Distribution into this directory
+! Should contain at least: 
+! Distillr.msi
+! Data1.cab
+! MathCAD.mst

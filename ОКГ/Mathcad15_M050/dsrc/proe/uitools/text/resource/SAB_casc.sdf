@@ -1,0 +1,61 @@
+;
+; 15-May-07 L-01-32  AW      $$1  Created
+;
+
+[splittoolbutton]
+ContentMargins = 3, 3, 2, 2
+SizingMargins = 3, 3, 3, 3
+TransitionDuration = 250
+BackgroundImage = styles/SAB/left_button_normal.bif
+
+[splittoolbutton(hot)]
+BackgroundImage = styles/SAB/middle_button_hot.bif
+TransitionDuration = 250
+
+[splittoolbutton(focused)] = splittoolbutton(hot)
+
+[splittoolbutton(hover)]
+BackgroundImage = styles/SAB/SAB_splittoolbutton.bif
+TransitionDuration = 250
+
+[splittoolbutton(pressed)]
+BackgroundImage = styles/SAB/middle_button_pressed.bif
+TransitionDuration = 250
+
+[splittoolbuttonvertbutton]
+ContentMargins = 3, 3, 2, 2
+SizingMargins = 3, 3, 3, 3
+Size = 14, 20
+TransitionDuration = 250
+BackgroundImage = styles/SAB/SAB_transparent.bif
+Glyph = styles/SAB/SAB_arrow_right.bif
+
+[splittoolbuttonvertbutton(hot)]
+TransitionDuration = 250
+BackgroundImage = styles/SAB/right_button_hot.bif
+Glyph = styles/SAB/SAB_arrow_right.bif
+
+[splittoolbuttonvertbutton(focused)] = splittoolbuttonvertbutton(hot)
+[splittoolbuttonvertbutton(hover)] = splittoolbuttonvertbutton(hot)
+
+[splittoolbuttonvertbutton(pressed)]
+TransitionDuration = 250
+BackgroundImage = styles/SAB/right_button_pressed.bif
+Glyph = styles/SAB/SAB_arrow_down.bif
+
+[toolbutton]
+ContentMargins = 3, 3, 2, 2
+SizingMargins = 3, 3, 3, 3
+TransitionDuration = 250
+BackgroundImage = styles/SAB/SAB_transparent.bif
+
+[toolbutton(hot)]
+TransitionDuration = 250
+BackgroundImage = styles/SAB/right_button_hot.bif
+
+[toolbutton(focused)] = toolbutton(hot)
+[toolbutton(hover)] = toolbutton(hot)
+
+[toolbutton(pressed)]
+TransitionDuration = 250
+BackgroundImage = styles/SAB/right_button_pressed.bif

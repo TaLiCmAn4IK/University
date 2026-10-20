@@ -1,0 +1,16 @@
+# {0} (4) [0] pro_help.Label
+Help Loadpoint Input
+도움말 로드포인트 입력
+
+# [1] Label1.Label
+Enter the Help URL or full path to Help installation directory
+도움말 설치 디렉토리로의 전체 경로나 도움말 URL 입력
+
+# [2] StdOK.Label
+&OK
+확인(&O)
+
+# [3] StdCancel.Label
+&Cancel
+취소(&C)
+

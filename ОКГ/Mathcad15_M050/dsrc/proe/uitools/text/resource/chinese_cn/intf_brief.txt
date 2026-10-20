@@ -1,0 +1,12 @@
+# {100} (100) [0] lay_brief_intf_profile.Label
+Profile
+配置文件
+
+# [1] pb_brief_details.Label
+Details...
+细节...
+
+# [2] pb_brief_details.HelpText
+Shows the details of the selected profile.
+显示选定配置文件的详细信息。
+

@@ -1,0 +1,16 @@
+# {100} (100) [0] lpcfg_dcad2.Label
+Distributed Services Settings
+Настройки распределенных служб
+
+# [1] ProeCmdLab.Label
+Creo Elements/Pro startup command
+Команда запуска Creo Elements/Pro
+
+# [2] RunDirLab.Label
+Directory to run in
+Рабочая папка
+
+# [3] lpcfg_dcad3.Label
+Instructions
+Инструкции
+

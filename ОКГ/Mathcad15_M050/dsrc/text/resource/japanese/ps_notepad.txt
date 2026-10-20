@@ -1,0 +1,100 @@
+# {100} (100) [0] ps_notepad.Label
+FLEXnet license editor
+FLEXnet ライセンスエディタ
+
+# [1] CheckBtn.Label
+ReCheck License(s)
+ライセンスを再チェック
+
+# [2] CheckLab.Label
+License file still has errors
+ライセンスファイルにまだエラーがあります。
+
+# [3] file.Label
+&File
+ファイル(&F)
+
+# [4] import.Label
+&Import...
+インポート(&I)...
+
+# [5] import.HelpText
+Replace the file contents from another file
+ファイルの内容を別のファイルで置き換えます。
+
+# [6] append.Label
+Append...
+追加...
+
+# [7] append.HelpText
+Append another files' contents to this file
+別のファイル内容をこのファイルに追加します。
+
+# [8] save.Label
+&Save
+保存(&S)
+
+# [9] save.HelpText
+Save the file contents
+ファイル内容を保存します。
+
+# [10] save_as.Label
+Save &As...
+名前を付けて保存(&A)...
+
+# [11] save_as.HelpText
+Save the contents in another file
+内容を別のファイルに保存します。
+
+# [12] exit.Label
+E&xit
+終了(&X)
+
+# [13] edit.Label
+&Edit
+編集(&E)
+
+# [14] undo.Label
+&Undo
+元に戻す(&U)
+
+# [15] redo.Label
+Redo
+やり直し
+
+# [16] cut.Label
+Cu&t
+カット(&T)
+
+# [17] copy.Label
+&Copy
+コピー(&C)
+
+# [18] paste.Label
+&Paste
+貼り付け(&P)
+
+# [19] delete.Label
+De&lete
+削除(&L)
+
+# [20] select_all.Label
+Select &All
+すべてを選択(&A)
+
+# [21] search.Label
+&Search
+サーチ(&S)
+
+# [22] find.Label
+&Find...
+サーチ(&F)...
+
+# [23] next.Label
+Find &Next
+次をサーチ(&N)
+
+# [24] replace.Label
+&Replace...
+置き換え(&R)...
+

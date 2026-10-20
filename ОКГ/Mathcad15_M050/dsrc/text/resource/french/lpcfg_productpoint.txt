@@ -1,0 +1,36 @@
+# {100} (100) [0] productpointSubLayout.Label
+Install location for ProductPoint
+Emplacement d'installation de Windchill ProductPoint
+
+# [1] sp_exists.Label
+Existing SharePoint Server information
+Informations du serveur SharePoint existant
+
+# [2] Label5.Label
+Name
+Nom
+
+# [3] Label6.Label
+Location
+Emplacement
+
+# [4] sp_name.Value
+ProductPoint
+ProductPoint
+
+# [5] sp_url.Value
+http://
+http://
+
+# [6] lpcfg_productpoint2.Label
+Instructions
+Instructions
+
+# [7] productpointSub2.Label
+Install Status
+Statut de l'installation
+
+# [8] PP_Status.Label
+Not Installed\n\n
+Non installé\n\n
+

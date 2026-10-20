@@ -1,0 +1,24 @@
+! 11-Jul-97 H-03-16 twb $$1 Revised, file created prior to H-03-16
+! 18-Aug-97 H-03-19 twb $$2 Revised, white background
+! 27-Aug-97 H-03-19+ twb $$3 Revised, fixed coloring
+! 02-Dec-97 H-03-31 twb $$4 Recolored for white background.
+! 18-Dec-97 H-03-34 hmt $$5 Changed size to 18x18
+! 29-DEC-97 H-03-35 MCA $$6 Changed size to 16x16 - Removed RED Set Current Box.
+! 13-APR-99 I-03-07 SZH $$7 Used as feature icon.
+! 01-Mar-01 J-01-28 twb $$8 Updated
+!  4-Dec-2002  J-03-39   TLH  $$9  Recolored for Wildfire.
+(Image thread16
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        0FFFFFFF03F0FD000D100D200D00300D400D500D600D700D800D900DA009EF80
+        808001B00D003399FF01CCCCCC01B4B4B4E0CB02C801C401B40DE00199FFFF0C
+        EF06A00001CCF100C401A00DC40200F508F0092019001D101D241D201D401D00
+        501D641D741DFC01C0149F0DFB06A81D00A419801D901DE41DA41D002D102D24
+        2D00202D402D502D642D742DC01DD01D9C1D00A02D802D902DE42DA42D003D10
+        3D243D00203D4035C80D582D7438CB2DBF3DCF3D00DF3A
+    )
+)

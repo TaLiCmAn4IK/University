@@ -1,0 +1,12 @@
+# {0} (3) [0] pdm_1.Label
+Locate Other Installation Directories (Optional)
+定位其它安装目录(可选)
+
+# [1] pdm_2.Label
+Optional Inputs
+可选输入
+
+# [2] ProeCmdLab.Label
+Pro/ENGINEER Command
+Pro/ENGINEER命令
+

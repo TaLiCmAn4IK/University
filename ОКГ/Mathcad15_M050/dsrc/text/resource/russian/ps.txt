@@ -1,0 +1,8 @@
+# {100} (100) [0] ps.Label
+PTC.Setup
+PTC.Setup
+
+# [1] Label2.Label
+Initializing PTC.Setup ...
+Инициализация PTC.Setup ...
+

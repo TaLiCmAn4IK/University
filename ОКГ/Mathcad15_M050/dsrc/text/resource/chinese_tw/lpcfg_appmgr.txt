@@ -1,0 +1,8 @@
+# {0} (2) [0] Label1.Label
+Full path to the Application Manager installation directory
+「應用程式管理員」安裝目錄完整路徑
+
+# [1] AppmgrBrowse.Label
+Browse
+瀏覽
+

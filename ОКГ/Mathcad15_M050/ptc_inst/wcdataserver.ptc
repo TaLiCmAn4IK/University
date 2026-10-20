@@ -1,0 +1,64 @@
+// 28-Dec-99 $$1  TWH  Created.
+// 25-Apr-00      JJE  Name change
+// 05-May-00 $$2  TWH  Fix EnvVarValue
+// 17-Aug-00      MAZ  Use EnvVarValues as a Prop
+// 23-Aug-00 $$3  TWH  Group Submission
+// 28-Nov-00 $$4  TWH  change Product Tag
+// 04-Jan-01 $$5  TWH  external dbsize values
+// 30-Jan-01 $$6  TWH  quote numeric value #5
+// 14-Mar-01 $$7  TWH  Use externalized names
+// 20-Nov-01 $$8  TWH  change adv_cfg to wc_adv_cfg
+
+(Product wcds
+    (Name                      "@@Name_oracle_cfg_util")
+    (Packages                  "dbs"
+                               "wc_adv_cfg")
+    (ProgramFiles              False)
+    (LpDirName                 "WindchillDBTool")
+    (Screens                   "ScreenProd")
+    (Installed                 False)
+    (VersionDir                False)
+    (OldTag                    "wcdataserver")
+    (ShowMigrate               False)
+)
+
+(Package dbs
+    (Name                      "@@Name_oracle_cfg_util")
+    (Screens                   "ScreenDataserver"
+                               "LpcfgOraprops"
+                               "LpcfgOrapwd")
+    (Required                  True)
+    (Cdsections                "dbs"
+                               "ilinkpatches"
+                               "adminutils"
+                               "Install")
+    (Installed                 True)
+    (EnvVarValues              "Append=PATH=_LP_\bin")
+    (dbs_size.0                "700")
+    (dbs_size.1                "900")
+    (dbs_size.2                "1800")
+)
+
+(Package wc_adv_cfg
+    (Name                      "@@Pkg_configuration_options")
+    (ConfigOnly                True)
+    (SubPackages               "RunCfg"
+                               "ExtFV")
+    (Installed                 True)
+)
+
+(Package RunCfg
+    (Name                      "@@Pkg_run_cfg_script")
+    (ConfigOnly                True)
+    (Installed                 True)
+)
+
+(Package ExtFV
+    (Name                      "@@Pkg_use_ext_vaults")
+    (ConfigOnly                True)
+    (Installed                 False)
+    (ExtFV.0                   "100")
+    (ExtFV.1                   "500")
+    (ExtFV.2                   "1800")
+)
+

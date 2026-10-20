@@ -1,0 +1,60 @@
+// 12-Apr-99 $$1  JJE  Created.
+// 26-Apr-99 $$2  MPY  Add ScreenWebPub.
+// 27-Mar-01      TWH  Drop ScreenProd
+// 20-Mar-01 $$3  JJE  Sel pkg by default
+// 25-Aug-03 K-01-13 $$4  TWH  Add WelcomeImage
+// 07-Oct-03 K-01-16 $$5  TWH  Add ad list
+// 15-Mar-04 K-01-25 $$6  TWH  New Ad list
+// 28-Feb-05 K-03-20 $$7  TWH  New Ad list
+// 21-Dec-07 L-01-41 $$8  TWH New Ad_list
+// 15-Jan-2008 L-01-42+  TWH  $$9  Rename Ads files
+// 27-Jun-08 L-03-12 $$10 TWH  New WelcomeImage
+// 27-Jul-09 L-03-34 $$11 TWH  Update WF5 images
+// 04-Nov-09 L-03-36 $$12 TWH  Update WF5 images
+// 27-Oct-10 L-03-41 $$13 TWH  Rebranding
+
+(Product webpub 
+    (Name                      "Web.Publish")
+    (WelcomeImage              "webpub_name.png")
+    (Packages                  "webpub_pkg")
+    (ProgramFiles              True)
+    (LpDirName                 "webpub")
+    (Screens                   "ScreenWebPub")
+(Ad_list                    "WF5_101"
+                               "WF5_102"
+                               "WF5_103"
+                               "WF5_104"
+                               "WF5_201"
+                               "WF5_202"
+                               "WF5_203"
+                               "WF5_204"
+                               "WF5_301"
+                               "WF5_302"
+                               "WF5_303"
+                               "WF5_304"
+                               "WF5_401"
+                               "WF5_402"
+                               "WF5_403"
+                               "WF5_501"
+                               "WF5_502"
+			       "WF5_503"
+			       "WF5_601"
+                               "WF5_602"
+                               "WF5_603"
+                               "WF5_701"
+                               "WF5_702"
+			       "WF5_703"
+			       "WF5_801"
+                               "WF5_802"
+                               "WF5_803"
+                               "WF5_901"
+                               "WF5_902"
+			       "WF5_903")
+)
+
+(Package webpub_pkg
+    (Name                      "Web.Publish")
+    (Cdsections                "procgi"
+                               "proappt")
+    (Installed                 True)
+)

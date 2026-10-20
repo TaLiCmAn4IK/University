@@ -1,0 +1,24 @@
+# {100} (100) [0] scr_iascfg2.Label
+Application Server Settings
+Настройки сервера приложений
+
+# [1] CommPortLab.Label
+Communication port number
+Номер коммуникационного порта
+
+# [2] FeatureLab.Label
+License feature name
+Имя лицензионного модуля
+
+# [3] LogFileLab.Label
+File to store server log files
+Файл для сохранения файлов протокола сервера
+
+# [4] FeatureModify.Label
+Modify
+Изменить
+
+# [5] TimeoutLab.Label
+Idle Timeout (minutes)
+Время ожидания простоя (мин)
+

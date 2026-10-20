@@ -1,0 +1,28 @@
+# {100} (100) [0] psh_add.Label
+&Add >>
+&Aggiungi >>
+
+# [1] psh_remove.Label
+&Remove
+&Rimuovi
+
+# [2] psh_reset.Label
+Re&set
+Reimpo&sta
+
+# [3] psh_moveUp.Label
+Move Up
+Sposta in alto
+
+# [4] psh_moveUp.HelpText
+Move selected item upwards in the list.
+Sposta l'elemento selezionato in alto nella lista.
+
+# [5] psh_moveDown.Label
+Move Down
+Sposta in basso
+
+# [6] psh_moveDown.HelpText
+Move selected item downwards in the list.
+Sposta l'elemento selezionato in basso nella lista.
+

@@ -1,0 +1,20 @@
+# {0} (5) [0] TextArea.Value
+In the fields below, enter the paths to the directories to be used by the ORGA archive.
+아래 필드에 ORGA archive가 사용하게 될 디렉토리 경로명을 입력하십시오.
+
+# [1] orga_admin.Label
+Administrator directory
+관리자 디렉토리
+
+# [2] AdminDirLab.Label
+If the administrator directory for this ORGA Archive\ndatabase already exists (either on this computer or\nelsewhere on the network), enter the path of the\nexisting directory.
+이 데이터베이스에 관리자 디렉토리가 \n이미 있는 경우(이 컴퓨터 상 또는 네트워크 상에),\n 기존 디렉토리 경로명을\n 입력하십시오.
+
+# [3] orga_des.Label
+First designer directory
+첫 설계자 디렉토리
+
+# [4] DesDirLab.Label
+After installation, you may set up additional designers\nby making copies of the subdirectories in this directory.
+설치 후 이 디렉토리에 서브디렉토리 복사본을 만듬으로써\n 추가 설계자를 설정할 수 있습니다.
+

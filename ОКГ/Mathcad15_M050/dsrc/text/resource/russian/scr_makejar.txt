@@ -1,0 +1,16 @@
+# {100} (100) [0] scr_makejar2.Label
+Advanced
+Расширенный
+
+# [1] MakeJarTextArea.Value
+The following is a list of bootstrap JAR files that should be regenerated during or after this installation. Please highlight the JAR files you wish PTC.Setup to automatically generate for you.
+Ниже приведен список JAR-файлов начальной загрузки, которые должны обновиться во время или после установки. Выделите файлы, которые программа PTC.Setup должна создавать автоматически.
+
+# [2] SelAllJars.Label
+Select All
+Выбрать все
+
+# [3] SelNoJars.Label
+Select None
+Не выбирать
+

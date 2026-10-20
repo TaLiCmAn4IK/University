@@ -1,0 +1,60 @@
+# {100} (100) [0] scr_rn_adptr1.Label
+Info*Engine Adapter Settings
+Info*Engine 어댑터 설정
+
+# [1] portnumberLab.Label
+Port Number
+포트 번호
+
+# [2] useridLab.Label
+User Name
+사용자 이름
+
+# [3] passwordLab.Label
+Password
+암호
+
+# [4] scr_rn_adptr2.Label
+Info*Engine Configurations
+Info*Engine 구성
+
+# [5] IEInstallDirLab.Label
+Installation Directory
+설치 디렉토리
+
+# [6] IEInstallDir.Value
+C:\ptc\Windchill
+C:\ptc\Windchill
+
+# [7] IEServiceLab.Label
+Naming Service Name
+Naming Service 이름
+
+# [8] scr_rn_adptr3.Label
+LDAP Directory Access
+LDAP 디렉토리 액세스
+
+# [9] LDAPHostLab.Label
+Server Host Name
+서버 호스트 이름
+
+# [10] LDAPPortLab.Label
+Port Number
+포트 번호
+
+# [11] LDAPPort.Value
+389
+
+
+# [12] LDAPUserLab.Label
+User Distinguished Name
+서버 식별 이름
+
+# [13] LDAPPasswordLab.Label
+User Password
+사용자 암호
+
+# [14] IEPropNameLab.Label
+Info*Engine Properties\nBase Distinguished Name
+Info*Engine 등록정보\n베이스 식별 이름
+

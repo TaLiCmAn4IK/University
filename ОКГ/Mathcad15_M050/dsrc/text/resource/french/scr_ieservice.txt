@@ -1,0 +1,44 @@
+# {0} (11) [0] scr_ieservice1.Label
+Windchill Info*Engine Servlet Configuration
+Configuration du servlet Info*Engine Windchill
+
+# [1] AppURLLab.Label
+Application URL
+URL de l'application
+
+# [2] AppURL.Value
+Windchill
+Windchill
+
+# [3] scr_ieservice2.Label
+Windchill Info*Engine Configuration Properties
+Propriétés de la configuration Info*Engine Windchill
+
+# [4] HostnameLab.Label
+Fully Qualified Host Name
+Nom d'hôte complet
+
+# [5] TempProcPortLab.Label
+Template Processor Port
+Port du processeur de modèles
+
+# [6] TaskProcPortLab.Label
+Task Processor Port
+Port du processeur de tâches
+
+# [7] TextArea.Value
+Specify the Windchill Info*Engine servlet name, naming service and logging options.
+Spécifier le nom du servlet Info*Engine Windchill, en précisant le service et les options de connexion.
+
+# [8] scr_ieservice_logs.Label
+Windchill Info*Engine Logging Options
+Options de connexion Info*Engine Windchill
+
+# [9] LogDirLab.Label
+Logs Directory
+Répertoire des fichiers journaux
+
+# [10] LogLevel.Label
+Activate All Logging Options?
+Activer toutes les options de connexion ?
+

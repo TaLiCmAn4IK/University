@@ -1,0 +1,19 @@
+; 03-May-09 L-03-31+ ALB   $$1  Created.
+; 18-May-09 L-03-33  ALB   $$2  Revised image names
+; 19-May-09 L-03-33  IKAL       Added togglebutton(hotchecked).
+
+
+; ToggleButton
+
+[togglebutton]
+BackgroundImage = styles/col_sash/col_sash_left_arrow_wf5modeltree.png
+Size = 9, 94
+ContentMargins = 1, 1, 1, 1
+
+[togglebutton(hot)]
+BackgroundImage = styles/col_sash/col_sash_left_arrow_wf5modeltree_hot.png
+
+[togglebutton(hotchecked)] = togglebutton(hot)
+
+[togglebutton(pressed)]
+BackgroundImage = styles/col_sash/col_sash_left_arrow_wf5modeltree_pressed.png

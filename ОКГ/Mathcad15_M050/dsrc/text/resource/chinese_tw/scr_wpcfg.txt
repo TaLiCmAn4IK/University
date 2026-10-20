@@ -1,0 +1,12 @@
+# {100} (100) [0] scr_wpcfg2.Label
+Windchill Product Configurator Properties
+「Windchill產品組態管理員」屬性
+
+# [1] JavaClassPartLab.Label
+Java class name for variant parts
+變體零件的 Java 類別名稱
+
+# [2] OrdGenAliasLab.Label
+Order Generator Alias
+訂單產生程式別名
+

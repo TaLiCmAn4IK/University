@@ -1,0 +1,12 @@
+# {0} (3) [0] fwoptdlg.Label
+Select Floating Options
+選取浮動選項
+
+# [1] OkButton.Label
+&OK
+確定(&O)
+
+# [2] CancelBtn.Label
+&Cancel
+取消(&C)
+

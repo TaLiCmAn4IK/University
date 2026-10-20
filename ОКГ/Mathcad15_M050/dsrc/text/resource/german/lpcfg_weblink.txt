@@ -1,0 +1,4 @@
+# {70154} (1) [0] Label1.Label
+Full path to the Netscape plugins directory
+Vollständiger Pfad zum Verzeichnis mit den Netscape Plugins
+

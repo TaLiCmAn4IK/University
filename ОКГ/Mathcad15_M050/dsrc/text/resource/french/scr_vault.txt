@@ -1,0 +1,20 @@
+# {0} (5) [0] FileLab.Label
+File Vault path
+Chemin du coffre-fort de fichiers
+
+# [1] Label5.Label
+Port
+Port
+
+# [2] Label6.Label
+Hostname
+Nom d'hôte
+
+# [3] PasswdLab.Label
+SYSPOOL File Server password
+Mot de passe du serveur de fichiers SYSPOOL
+
+# [4] scr_vault3.Label
+Instructions
+Instructions
+

@@ -1,0 +1,12 @@
+# {0} (3) [0] concept_1.Label
+Locate Other Installation Directories (Optional)
+Localizar otros directorios de instalación (opcional)
+
+# [1] AppMgrDirLab.Label
+PTC Application Manager
+Administrador de Aplicaciones de PTC
+
+# [2] CDRSGraphLibDirLab.Label
+PTC Graphic Library
+Biblioteca de gráficos de PTC
+

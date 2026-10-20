@@ -1,0 +1,24 @@
+# {0} (6) [0] Layout2.Label
+Select Languages to be Installed
+インストールする言語を選択
+
+# [1] lang_usascii.Label
+English
+英語
+
+# [2] Layout3.Label
+Installation Options
+インストールオプション
+
+# [3] postcfg.Label
+Use PTC.Setup for Post Configuration?
+PTC.Setup を設定後に使用しますか?
+
+# [4] typereg.Label
+Register PTC file types and extensions?\nPlease view <CD_PATH>\ptc_inst\extensions.csv\nfor a list of file types to be registered.
+PTC ファイルタイプと拡張子を登録しますか?\n登録するファイルタイプのリストは\n<CD_PATH>\ptc_inst\extensions.csv を参照してください。
+
+# [5] OkBtn.Label
+     OK     
+     OK     
+

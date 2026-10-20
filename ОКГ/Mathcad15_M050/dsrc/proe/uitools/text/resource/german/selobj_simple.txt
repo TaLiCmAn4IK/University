@@ -1,0 +1,4 @@
+# {100} (100) [0] selobj_simple.Label
+Select Object
+Objekt wählen
+

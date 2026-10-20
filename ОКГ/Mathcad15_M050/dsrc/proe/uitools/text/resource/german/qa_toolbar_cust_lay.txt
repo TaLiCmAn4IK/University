@@ -1,0 +1,12 @@
+# {100} (100) [0] lbl_customization_title.Label
+Customize The Quick Access Toolbar and keyboard shortcuts.
+Symbolleiste für Schnellzugriff und Tastenkombination anpassen 
+
+# [1] chk_qa_toolbar_below.Label
+&Place quick Access Toolbar below the Ribbon
+Symbolleiste für Schnellzugriff unter Multifunktionsleiste &platzieren.
+
+# [2] chk_qa_toolbar_below.HelpText
+toggle the Quick Access Toolbar location.
+Ort der Symbolleiste für Schnellzugriff wechseln
+

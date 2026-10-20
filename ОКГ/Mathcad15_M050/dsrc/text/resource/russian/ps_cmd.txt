@@ -1,0 +1,84 @@
+# {100} (100) [0] ps_cmd.Label
+Command Configuration
+Настройка команды
+
+# [1] CmdName1Lab.Label
+Command Name
+Имя команды
+
+# [2] CmdDesc1Lab.Label
+Command Description
+Описание команды
+
+# [3] CmdType1Lab.Label
+Command Type
+Тип команды
+
+# [4] CmdLTRLab.Label
+License To Run
+Лицензия для запуска
+
+# [5] CmdLTRMod.Label
+Edit
+Править
+
+# [6] CmdLicExtLab.Label
+License Extensions
+Лицензия расширения
+
+# [7] CmdLicExtMod.Label
+Edit
+Править
+
+# [8] CmdLicFltLab.Label
+Floating Options
+Плавающие опции
+
+# [9] CmdLicFltMod.Label
+Edit
+Править
+
+# [10] CmdName2Lab.Label
+Command Name
+Имя команды
+
+# [11] CmdDesc2Lab.Label
+Command Description
+Описание команды
+
+# [12] CmdType2Lab.Label
+Command Type
+Тип команды
+
+# [13] CmdLicLab.Label
+FLEXnet Licenses
+Лицензии FLEXnet
+
+# [14] CmdLicMod.Label
+Modify
+Изменить
+
+# [15] CmdInfoGrp.Labels.1
+No ConfigID
+Нет ConfigID
+
+# [16] CmdInfoGrp.Labels.2
+ConfigID
+ConfigID
+
+# [17] CmdInfoGrpLab.Label
+License Scheme:
+Схема лицензии:
+
+# [18] Label19.Label
+Specify configuration options for this startup command
+Задать опции конфигурации для этой команды запуска
+
+# [19] StdOK.Label
+&OK
+&OK
+
+# [20] StdCancel.Label
+&Cancel
+О&тмена
+

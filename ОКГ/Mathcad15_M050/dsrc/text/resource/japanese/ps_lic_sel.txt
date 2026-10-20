@@ -1,0 +1,60 @@
+# {0} (20) [0] ps_lic_sel.Label
+Select Licenses
+ライセンス選択
+
+# [4] StdOK.Label
+&OK
+OK(&O)
+
+# [5] StdCancel.Label
+&Cancel
+キャンセル(&C)
+
+# [8] Label1.Label
+Legend: <ltr> License to Run;  <ext> Startup Extensions;  <flt> Floating options
+凡例: <ltr> 実行ライセンス;  <ext> 起動エクステンション;  <flt> フローティングオプション
+
+# [9] CmdInfoGrp.Labels.1
+No ConfigID
+コンフィギュレーションIDなし
+
+# [10] CmdInfoGrp.Labels.2
+ConfigID
+コンフィギュレーションID
+
+# [11] CmdInfoGrpLab.Label
+License Scheme:
+ライセンス概要:
+
+# [12] CmdName1Lab.Label
+Configuration Name:
+コンフィギュレーション名:
+
+# [13] CmdDesc1Lab.Label
+Configuration Description:
+コンフィギュレーションの説明 :
+
+# [14] CmdType1Lab.Label
+ConfigurationType:
+コンフィギュレーションのタイプ:
+
+# [15] List3.ColumnLabel
+Type
+タイプ
+
+# [16] Layout3.Label
+Available Licenses
+使用可能なライセンス
+
+# [17] Label16.Label
+Startup extensions && floating licenses
+起動エクステンション && フローティングライセンス
+
+# [18] Label3.Label
+Licenses to Run
+実行するライセンス
+
+# [19] Layout4.Label
+Selected Licenses
+選択されたライセンス
+

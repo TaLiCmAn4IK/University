@@ -1,0 +1,56 @@
+# {100} (100) [0] DsRadioSize.Labels.0
+Small (130 MB)
+小(130 MB)
+
+# [1] DsRadioSize.Labels.1
+Medium (420 MB)
+中(420 MB)
+
+# [2] DsRadioSize.Labels.2
+Large (1950 MB)
+大(1950 MB)
+
+# [3] DsRadioSize.Labels.3
+Migrate
+植入
+
+# [4] RunCfg.Label
+Run INTRALINK Configuration
+執行 INTRALINK 組態
+
+# [5] RunCfg.HelpText
+This option runs ds_install.  Uncheck this option only if you are using the \nMigration Procedure to Upgrade from a previous Release of Pro/INTRALINK.  \nSee Installation Guide for more details.
+此選項執行 ds_install。只有使用移轉過程將 Pro/INTRALINK \n從先前版本昇級時，才能取消選取這個選項。\n詳情請見安裝指南。
+
+# [6] LpLab.Label
+Directory for database files
+資料庫檔案的目錄
+
+# [7] LpBrowse.HelpText
+Browse for Installation Directory
+瀏覽安裝目錄
+
+# [8] DSDiskSpaceLayout.Label
+Disk Space
+磁碟空間
+
+# [9] SpaceAvailLab.Label
+Available on C: 9999GB
+C 碟的可用空間: 9999GB
+
+# [10] SpaceReqLab.Label
+Required on C: 9999GB
+C碟需要空間: 9999GB
+
+# [11] scr_dataserver2.Label
+Instructions
+指示
+
+# [12] TextArea.Value
+Identify the location of the database files and choose the size of the database.\n\nFor specific instructions see the Help screen.
+界定資料庫檔案的位置並選擇資料庫的大小。\n\n欲知詳細指示，請參見「說明」畫面。
+
+# [13] CompDescTA.Value
+Select a component or subcomponent to view its description.
+選取一元件或子元件，檢視其說明。
+

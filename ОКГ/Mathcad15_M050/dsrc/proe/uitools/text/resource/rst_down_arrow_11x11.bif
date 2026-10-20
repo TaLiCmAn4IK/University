@@ -1,0 +1,14 @@
+! 17-Dec-07  L-03-01 omir  $$1  Created.
+
+(Image down_arrow_11x11
+    (Resources
+        (.Width     11)
+        (.Height    11)
+        (.Depth     4)
+    )
+    (Data
+        C101C4FF01090901FFFF01C1FF01090901FFFF0101C0FF01090901FFFF010901
+        FFFF010909C101090901FF01C6090101C609C501090901C4FF010901C5FF0101
+        C6FF01C1FF
+    )
+)

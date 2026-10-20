@@ -1,0 +1,12 @@
+# {100} (100) [0] PortLayout.Label
+PDM Server Port Number
+Номер порта сервера PDM
+
+# [1] LPLayout.Label
+PDM Server on <name>
+Сервер PDM на <name>
+
+# [2] PdmServerLpBrowse.Label
+Browse
+Просмотр
+

@@ -1,0 +1,28 @@
+# {0} (7) [0] scr_ldapdir1.Label
+LDAP Directory Access
+LDAP目錄使用
+
+# [1] LDAPHostLab.Label
+Server Host Name
+伺服器主機名稱
+
+# [2] LDAPPortLab.Label
+Port Number
+端口號
+
+# [3] LDAPPort.Value
+389
+389
+
+# [4] AdminNameLab.Label
+Administrator Distinguished Name
+管理員辨認名稱
+
+# [5] AdminPasswdLab.Label
+Administrator Password
+管理員密碼
+
+# [6] IEPropNameLab.Label
+Base Distinguished Name
+基礎辨認名稱
+

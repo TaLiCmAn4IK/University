@@ -1,0 +1,16 @@
+# {100} (100) [0] lpcfg_dcad2.Label
+Distributed Services Settings
+分散サービス設定
+
+# [1] ProeCmdLab.Label
+Creo Elements/Pro startup command
+Creo Elements/Pro スタートアップコマンド
+
+# [2] RunDirLab.Label
+Directory to run in
+実行するディレクトリ
+
+# [3] lpcfg_dcad3.Label
+Instructions
+インストラクション
+

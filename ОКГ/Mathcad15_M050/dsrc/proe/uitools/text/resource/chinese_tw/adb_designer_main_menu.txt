@@ -1,0 +1,48 @@
+# {100} (100) [0] adb_designerShowMenuBar.Label
+Show/Hide MenuBar
+顯示/隱藏功能列
+
+# [1] adb_designerAddNewPage.Label
+Add Page
+新增頁面
+
+# [2] adb_designerInheritPage.Label
+Inherit Page
+繼承頁面
+
+# [3] adb_designerRenamePage.Label
+Rename Current Page
+更名目前頁面
+
+# [4] adb_designerRemovePage.Label
+Remove Current Page
+移除目前頁面
+
+# [5] adb_designerAddNewGroup.Label
+Add Group
+新增群組
+
+# [6] adb_designerInheritGroup.Label
+Inherit Group
+繼承群組
+
+# [7] adb_designerAddEGPage.Label
+Add External Groups Page
+新增外部群組頁面
+
+# [8] adb_designerRemoveEGPage.Label
+Remove External Groups Page
+移除外部群組頁面
+
+# [9] adb_designerAddNewAdb.Label
+Create New Ribbon
+建立新功能區
+
+# [10] adb_designerLoadResource.Label
+Load Ribbon
+載入功能區
+
+# [11] adb_designerStoreResource.Label
+Save Ribbon
+儲存功能區
+

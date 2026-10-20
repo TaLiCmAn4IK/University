@@ -1,0 +1,108 @@
+# {100} (100) [0] file_saveas.Label
+Save a Copy
+Guardar una copia
+
+# [1] type_option.Labels.a
+IGES
+IGES
+
+# [2] type_option.Labels.b
+VRML
+VRML
+
+# [3] lab_profile.Label
+Profile: 
+Perfil: 
+
+# [4] opt_profile.Labels.TIFF_100
+TIFF_100
+TIFF_100
+
+# [5] opt_profile.Labels.TIFF_200
+TIFF_200
+TIFF_200
+
+# [6] check_is_secondary.Label
+Placeholder label for secondary
+Rótulo de marcador para secundario
+
+# [7] opt_category.HelpText
+Select a category for the object to be saved.
+Seleccionar una categoría para el objeto que se desea guardar.
+
+# [8] lab_category.Label
+Category
+Categoría
+
+# [9] Label4.Label
+Model Name
+Nombre del modelo
+
+# [10] Label5.Label
+New Name
+Nombre nuevo
+
+# [11] lab_type.Label
+Type
+Tipo
+
+# [12] lab_name.Label
+Model Name
+Nombre del modelo
+
+# [13] lab_ph5.Label
+New Name
+Nombre nuevo
+
+# [14] lab_ph6.Label
+Type
+Tipo
+
+# [15] lab_newname.Label
+New Name
+Nombre nuevo
+
+# [16] lab_backup.Label
+Backup To
+Copia de seguridad en
+
+# [17] label_pcf.Label
+PCF name
+Nombre PFC
+
+# [18] lab_save_to.Label
+Save To
+Guardar en
+
+# [19] Inputname.Value
+part007
+pieza007
+
+# [20] OK.Label
+OK
+Aceptar
+
+# [21] Cancel.Label
+Cancel
+Cancelar
+
+# [22] lbl_common_name.Label
+Common Name: 
+Nombre común: 
+
+# [23] lbl_in_ws_as.Label
+In Workspace As: 
+En espacio de trabajo como: 
+
+# [24] opt_in_ws_as.Labels.cad_doc
+CAD Document
+Documento CAD
+
+# [25] opt_in_ws_as.Labels.secondary
+Secondary Content
+Contenido secundario
+
+# [26] psh_export_opts.Label
+Options...
+Opciones...
+

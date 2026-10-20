@@ -1,0 +1,36 @@
+# {100} (100) [0] scr_windows3.Label
+Instructions
+インストラクション
+
+# [1] TextArea.Value
+If you are not installing help locally type in the URL where Mathcad Prime 2.0 help is installed.
+ヘルプをローカルにインストールしない場合は、Mathcad Prime 2.0 のヘルプのインストール先 URL を入力してください。
+
+# [2] scr_prime_cfg2.Label
+Help URL
+ヘルプ URL
+
+# [3] helplabel.Label
+You can configure to use your Local Help or choose an external source:
+ローカルヘルプを使用するか、外部ソースを選択できます:
+
+# [4] helpurl.Label
+<http://host:port/>
+
+
+# [5] RadioGroup1.Labels.local
+Local Help
+ローカルヘルプ
+
+# [6] RadioGroup1.Labels.external
+External Help
+外部ヘルプ
+
+# [7] Label1.Label
+Help URL:
+ヘルプ URL:
+
+# [8] Label2.Label
+Help Configuration
+ヘルプコンフィギュレーション
+

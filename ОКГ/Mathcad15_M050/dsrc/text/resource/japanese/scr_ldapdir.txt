@@ -1,0 +1,24 @@
+# {61150} (17) [10] scr_ldapdir1.Label
+LDAP Directory Access
+LDAP ディレクトリアクセス
+
+# [11] LDAPHostLab.Label
+Server Host Name
+サーバーホスト名
+
+# [12] LDAPPortLab.Label
+Port Number
+ポート番号
+
+# [14] AdminNameLab.Label
+Administrator Distinguished Name
+管理者の識別名
+
+# [15] AdminPasswdLab.Label
+Administrator Password
+管理者のパスワード
+
+# [16] IEPropNameLab.Label
+Base Distinguished Name
+ベースの識別名
+

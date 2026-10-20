@@ -1,0 +1,24 @@
+# {4530} (6) [0] cmd_add.Label
+Add
+Hinzufügen
+
+# [1] cmd_edit.Label
+Edit
+Editieren
+
+# [2] cmd_del.Label
+Delete
+Löschen
+
+# [3] Label1.Label
+License Configurations
+Lizenzkonfigurationen
+
+# [4] lpcfg_cmdlist2.Label
+Advanced
+Spezial
+
+# [5] TALayout.Label
+Instructions
+Anweisungen
+

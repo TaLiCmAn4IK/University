@@ -1,0 +1,24 @@
+# {100} (100) [0] getnewdir.Label
+New Folder
+新資料夾
+
+# [1] Cancel_button.Label
+Cancel
+取消
+
+# [2] OK_button.Label
+OK
+確定
+
+# [3] current_dir_label.Label
+Current Directory:
+目前目錄:
+
+# [4] cur_dir_value.Label
+/...
+/...
+
+# [5] new_dir_label.Label
+New Directory:
+新建目錄:
+

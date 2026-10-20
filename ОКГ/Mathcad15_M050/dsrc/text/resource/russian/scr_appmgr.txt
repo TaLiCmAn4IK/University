@@ -1,0 +1,52 @@
+# {100} (100) [0] scr_appmgr.Label
+PTC Application Manager Preferences
+Установки менеджера приложений PTC
+
+# [1] MenuLayout.Label
+Menu
+Меню
+
+# [2] CmdTreeAdd.Label
+Add
+Добавить
+
+# [3] CmdTreeEdit.Label
+Edit
+Править
+
+# [4] CmdTreeDelete.Label
+Delete
+Удалить
+
+# [5] TextArea3.Value
+Create and edit startup commands that appear in the Application Manager's Start menu
+Создать и править команду запуска, появляющуюся в меню Пуск менеджера приложения
+
+# [6] PositionLayout.Label
+Position
+Положение
+
+# [7] AutoHide.Label
+Auto Hide
+Автоскрывать
+
+# [8] PositionType.Labels.horizontal_top
+Horizontal Top
+Горизонт. сверху
+
+# [9] PositionType.Labels.horizontal_bottom
+Horizontal Bottom
+Горизонт. снизу
+
+# [10] PositionType.Labels.vertical_left
+Vertical Left
+Вертик. слева
+
+# [11] PositionType.Labels.vertical_right
+Vertical Right
+Вертик. справа
+
+# [12] TextArea1.Value
+Specify PTC Application Manager start location and window attributes
+Задать начальное расположение и атрибуты окна Менеджера приложений PTC
+

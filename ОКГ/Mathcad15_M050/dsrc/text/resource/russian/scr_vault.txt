@@ -1,0 +1,20 @@
+# {100} (100) [0] FileLab.Label
+File Vault path
+Путь к Хранилищу файлов
+
+# [1] Label5.Label
+Port
+Порт
+
+# [2] Label6.Label
+Hostname
+Имя сервера
+
+# [3] PasswdLab.Label
+SYSPOOL File Server password
+Пароль файл-сервера SYSPOOL
+
+# [4] scr_vault3.Label
+Instructions
+Инструкции
+

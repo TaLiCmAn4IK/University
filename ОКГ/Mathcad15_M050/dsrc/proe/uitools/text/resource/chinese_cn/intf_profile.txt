@@ -1,0 +1,120 @@
+# {100} (100) [0] intf_profile.Label
+<file name> - Import Profile
+<文件名> - 导入配置文件
+
+# [1] tb_psh_new.HelpText
+Opens a new blank import profile.
+打开一个新的空白导入配置文件。
+
+# [2] tb_psh_open.HelpText
+Opens an existing import profile.
+打开现有的导入配置文件。
+
+# [3] tb_psh_save.HelpText
+Saves an import profile. 
+保存导入配置文件。
+
+# [4] tb_psh_save_as.HelpText
+Saves an import profile under a different name.
+以不同的名称保存导入配置文件。
+
+# [5] lay_profile_list.Label
+Profile
+配置文件
+
+# [6] psh_profile_save.Label
+Save
+保存
+
+# [7] psh_profile_save.HelpText
+Saves option settings to the selected profile.
+将选项设置保存到选定的配置文件。
+
+# [8] OkPshBtn.Label
+OK
+确定
+
+# [9] OkPshBtn.HelpText
+Keeps the changes.
+保留更改。
+
+# [10] CancelPshBtn.Label
+Cancel
+取消
+
+# [11] CancelPshBtn.HelpText
+Cancels the changes.
+取消更改。
+
+# [12] Menu_File.Label
+File
+文件
+
+# [13] psh_new.Label
+New
+新建
+
+# [14] psh_new.HelpText
+Opens a new blank import profile.
+打开一个新的空白导入配置文件。
+
+# [15] psh_open.Label
+Open...
+打开...
+
+# [16] psh_open.HelpText
+Opens an existing import profile.
+打开现有的导入配置文件。
+
+# [17] psh_save.Label
+Save
+保存
+
+# [18] psh_save.HelpText
+Saves an import profile. 
+保存导入配置文件。
+
+# [19] psh_save_as.Label
+Save As...
+另存为...
+
+# [20] psh_save_as.HelpText
+Saves an import profile under a different name.
+以不同的名称保存导入配置文件。
+
+# [21] psh_exit.Label
+Exit
+退刀
+
+# [22] psh_exit.HelpText
+Exits from the import profile editor.
+退出导入配置文件编辑器。
+
+# [23] Menu_Edit.Label
+Edit
+编辑
+
+# [24] psh_reset.Label
+Reset to Default
+重置为缺省值
+
+# [25] psh_reset.HelpText
+Resets options back to their system defaults.
+将选项重置回其系统缺省值。
+
+# [26] psh_session_profile.Label
+Set per Current Profile
+根据当前配置文件进行设置
+
+# [27] psh_session_profile.HelpText
+Sets options per Current Profile,\nwhich keeps the options' most recent \nused values.
+根据当前配置文件来设置选项，\n这会保留选项最近\n使用的值。
+
+# [28] psh_set_per_config.Label
+Set per Config Options
+根据配置选项进行设置
+
+# [29] psh_set_per_config.HelpText
+Sets options that have corresponding\nconfig options per the config options'\nvalues in session. Resets other options\nback to their system defaults.
+根据会话中配置选项的值\n来设置具有相应配置选项\n的选项。将其它选项\n重置回其系统缺省值。
+

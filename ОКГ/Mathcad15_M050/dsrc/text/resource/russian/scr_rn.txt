@@ -1,0 +1,12 @@
+# {100} (100) [0] scr_rn_gateway.Label
+Gateway
+Шлюз
+
+# [1] HTTPPortLab.Label
+Port Number
+Номер порта
+
+# [2] DUNSLab.Label
+DUNS Number
+Номер DUNS
+

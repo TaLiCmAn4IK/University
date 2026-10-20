@@ -1,0 +1,36 @@
+# {100} (100) [0] scr_windows3.Label
+Instructions
+指示
+
+# [1] TextArea.Value
+If you are not installing help locally type in the URL where Mathcad Prime 2.0 help is installed.
+若您沒有要在本機安裝說明，請鍵入要安裝 Mathcad Prime 2.0 說明的 URL。
+
+# [2] scr_prime_cfg2.Label
+Help URL
+說明 URL
+
+# [3] helplabel.Label
+You can configure to use your Local Help or choose an external source:
+您可以配置要使用本機說明或選擇外部來源:
+
+# [4] helpurl.Label
+<http://host:port/>
+
+
+# [5] RadioGroup1.Labels.local
+Local Help
+本機說明
+
+# [6] RadioGroup1.Labels.external
+External Help
+外部說明
+
+# [7] Label1.Label
+Help URL:
+說明 URL:
+
+# [8] Label2.Label
+Help Configuration
+說明組態
+

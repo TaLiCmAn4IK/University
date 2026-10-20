@@ -1,0 +1,76 @@
+# {100} (100) [0] ptcsetup.Label
+PTC.Setup
+PTC.Setup
+
+# [1] BackBtn.Label
+< &Back
+< 上一步(&B)
+
+# [2] NextBtn.Label
+&Next >
+下一步(&N) >
+
+# [3] ExitBtn.Label
+&Exit
+退出(&E)
+
+# [4] MainLayout.Label
+Install Product(s)
+安裝產品
+
+# [5] HelpCascadeBtn.Label
+Help
+說明
+
+# [6] Banner_ScreenLabSm.Label
+Define Installation Components
+定義安裝元件
+
+# [7] RTFBtn.Label
+Read this First
+使用前須知
+
+# [8] InstallGuideBtn.Label
+Installation Guide
+安裝指南
+
+# [9] CustomerSupportBtn.Label
+Services and Support
+服務及支援
+
+# [10] item.Label
+<A>  &Install this feature
+<A>  安裝此功能(&I)
+
+# [11] all.Label
+<A>  Install &all sub-features
+<A>  安裝全部子功能(&A)
+
+# [12] none.Label
+<A>  Do &not install this feature
+<A>  不安裝此功能(&N)
+
+# [13] item_2.Label
+<A>  &Install this feature
+<A>  安裝此功能(&I)
+
+# [14] none_2.Label
+<A>  Do &not install this feature
+<A>  不安裝此功能(&N)
+
+# [15] all_d.Label
+<A>  &All sub-features are already installed
+<A>  已安裝全部子功能(&A)
+
+# [16] item_d.Label
+<A>  &Feature is already installed
+<A>  此功能已安裝(&F)
+
+# [17] all_d_2.Label
+<A>  &Some sub-features are already installed
+<A>  有些子功能已經安裝(&S)
+
+# [18] none_3.Label
+<A>  Some sub-features will be &unavailable
+<A>  有些子功能無法使用(&U)
+

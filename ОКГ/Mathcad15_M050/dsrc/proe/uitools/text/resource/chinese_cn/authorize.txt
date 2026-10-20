@@ -1,0 +1,24 @@
+# {100} (100) [0] authorize.Label
+Authorization
+授权
+
+# [1] Authorize_Label_Username.Label
+Username:
+用户名:
+
+# [2] Authorize_Label_Password.Label
+Password:
+密码:
+
+# [3] Authorize_PB_OK.Label
+&OK
+确定(&O)
+
+# [4] Authorize_PB_Cancel.Label
+&Cancel
+取消(&C)
+
+# [5] Label1.Label
+Please type your user name and password.
+请键入您的用户名和密码。
+

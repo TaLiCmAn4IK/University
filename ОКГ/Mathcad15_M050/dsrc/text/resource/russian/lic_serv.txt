@@ -1,0 +1,52 @@
+# {100} (100) [0] lic_serv.Label
+Simple
+Простой
+
+# [1] ServTypeGroup.Labels.1
+Single license server
+Один сервер лицензий
+
+# [2] ServTypeGroup.Labels.2
+Triad license server (fault tolerant)
+Тройной сервер лицензий (отказоустойчивый)
+
+# [3] ServTypeGroup.Labels.3
+Locked license file (no server running)
+Блокированный файл лицензии (без сервера)
+
+# [4] Label1.Label
+License Server
+Сервер лицензий
+
+# [5] Label2.Label
+Hostname
+Имя сервера
+
+# [6] Label3.Label
+Port
+Порт
+
+# [7] Label4.Label
+Triad partner 1
+Партнер 1
+
+# [8] Label5.Label
+Hostname
+Имя сервера
+
+# [9] Label6.Label
+Port
+Порт
+
+# [10] Label7.Label
+Triad partner 2
+Партнер 2
+
+# [11] Label8.Label
+Triad partner 3
+Партнер 3
+
+# [12] Label9.Label
+License file path
+Путь к файлу лицензий
+

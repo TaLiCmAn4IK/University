@@ -1,0 +1,16 @@
+# {0} (4) [0] profly_1.Label
+Locate Other Installation Directories (Optional)
+다른 설치 디렉토리 위치 (선택사항)
+
+# [1] IlinkDirLab.Label
+Pro/INTRALINK
+Pro/INTRALINK
+
+# [2] profly_2.Label
+Optional Inputs
+선택 입력사항
+
+# [3] ProeCmdLab.Label
+Pro/ENGINEER Command
+Pro/ENGINEER 명령어
+

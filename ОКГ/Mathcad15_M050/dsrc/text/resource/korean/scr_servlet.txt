@@ -1,0 +1,64 @@
+# {61189} (26) [10] scr_servlet2.Label
+Servlet Engine Configuration
+서브렛 엔진 구성
+
+# [11] EngineTypeLab.Label
+Servlet Engine Type
+서브렛 엔진 유형
+
+# [12] ServletType.Labels.jrun
+JRun
+JRun
+
+# [13] ServletType.Labels.tomcat
+Tomcat
+Tomcat
+
+# [14] ServletType.Labels.other
+Other / Don't auto-configure
+기타 / 자동-구성하지 않음
+
+# [15] EngineDirLab.Label
+Servlet Engine Home Directory
+서브렛 엔진 홈 디렉토리
+
+# [16] webserver_layout.Label
+Web Server Information
+웹 서버 정보
+
+# [17] WebServerLab.Label
+Web Server Network Address
+웹 서버 네트워크 주소
+
+# [18] PortLab.Label
+Web Server Port Number
+웹 서버 포트 번호
+
+# [19] ServerTypeLab.Label
+Web Server Type
+웹 서버 유형
+
+# [20] ServerType.Labels.apache
+Apache
+아파치
+
+# [21] ServerType.Labels.iis4
+Internet Information Server
+인터넷 정보 서버
+
+# [22] ServerType.Labels.iplanet
+iPlanet
+iPlanet
+
+# [23] ServerType.Labels.other
+Other
+기타
+
+# [24] ServerHomeLab.Label
+https Directory Path
+https 디렉토리 경로
+
+# [25] StopServer.Label
+Stop/Start the server to complete configuration
+구성 완료를 위해 서버 정지/시작
+

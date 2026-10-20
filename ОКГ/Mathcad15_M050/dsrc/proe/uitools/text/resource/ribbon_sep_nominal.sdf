@@ -1,0 +1,10 @@
+; Ribbon nominal separator style definition
+;
+; 12-Aug-07 L-01-39 AlexM    $$1   Created
+; 20-May-08 L-03-09 Asaf  $$2   Updated for beige
+;
+
+[separatorhorz]
+BackgroundImage = styles/ribbon/beige/ribbonnominalsephorz.bif
+[separatorvert]
+BackgroundImage = styles/ribbon/beige/ribbonnominalsepvert.bif

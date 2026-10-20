@@ -1,0 +1,52 @@
+# {100} (100) [0] scr_rn_prop2.Label
+Configuration Properties
+구성 등록 정보
+
+# [1] rmi_port_label.Label
+RMI Registry Port Number
+RMI 레지스트리 포트 번호
+
+# [2] rmi_port.Value
+10011
+
+
+# [3] scr_rn_prop3.Label
+Windchill Gateway for RosettaNet Properties
+RosettaNet을 위한 Windchill 게이트웨이 등록정보
+
+# [4] port_label.Label
+Port Number
+포트 번호
+
+# [5] port.Value
+10080
+
+
+# [6] duns_label.Label
+DUNS Number
+DUNS 번호
+
+# [7] duns.Value
+100000000
+
+
+# [8] scr_rn_prop4.Label
+Windchill RosettaNet Adapter Properties
+Windchill RosettaNet 어댑터 등록정보
+
+# [9] ieport_label.Label
+Port Number
+포트 번호
+
+# [10] user_label.Label
+User Name
+사용자 이름
+
+# [11] passwd_label.Label
+Password
+암호
+
+# [12] ieport.Value
+10066
+
+

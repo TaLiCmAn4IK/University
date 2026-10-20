@@ -1,0 +1,20 @@
+# {100} (100) [0] lpcfg_dbprop2.Label
+Oracle Database Settings
+Oracle 데이터베이스 설정
+
+# [1] UserNameLab.Label
+Windchill Database Username
+Windchill 데이터베이스 사용자이름
+
+# [2] UserPassLab.Label
+Windchill Database User Password
+Windchill 데이터베이스 사용자 암호
+
+# [3] ServiceNameLab.Label
+Oracle Database JDBC Connection
+Oracle 데이터베이스 JDBC 연결
+
+# [4] lpcfg_dbprop3.Label
+Instructions
+설명
+

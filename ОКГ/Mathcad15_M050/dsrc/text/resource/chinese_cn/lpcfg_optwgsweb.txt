@@ -1,0 +1,24 @@
+# {0} (6) [0] lpcfg_optwgsweb.Label
+Windchill Graphics Web Server Access Settings
+Windchill Graphics Web服务器访问设置
+
+# [1] lpcfg_optwgsweb2.Label
+Windchill Graphics Web Server Access Settings
+Windchill Graphics Web服务器访问设置
+
+# [2] HostNameLab.Label
+Web Server Hostname:
+Web服务器主机名:
+
+# [3] UserPassLab.Label
+Password:
+密码:
+
+# [4] UserNameLab.Label
+User Name:
+用户名:
+
+# [5] TextArea.Value
+Specify the Windchill Graphics Web Server and User Name and Password for Authentication
+指定Windchill Graphics Web服务器和用于验证的用户名及密码
+

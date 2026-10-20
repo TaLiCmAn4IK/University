@@ -1,0 +1,12 @@
+# {0} (3) [0] scr_wpcfg2.Label
+Windchill Product Configurator Properties
+Windchill プロダクトコンフィギュレータプロパティ
+
+# [1] JavaClassPartLab.Label
+Java class name for variant parts
+バリアント部品の Java クラス名
+
+# [2] OrdGenAliasLab.Label
+Order Generator Alias
+オーダージェネレータエイリアス
+

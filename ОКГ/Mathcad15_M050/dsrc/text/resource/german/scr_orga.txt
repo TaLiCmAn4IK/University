@@ -1,0 +1,20 @@
+# {70115} (5) [0] TextArea.Value
+In the fields below, enter the paths to the directories to be used by the ORGA archive.
+Geben Sie in den nachstehenden Feldern die Verzeichnisse ein, die das ORGA-Archiv verwenden soll.
+
+# [1] orga_admin.Label
+Administrator directory
+Administrator-Verzeichnis
+
+# [2] AdminDirLab.Label
+If the administrator directory for this ORGA Archive\ndatabase already exists (either on this computer or\nelsewhere on the network), enter the path of the\nexisting directory.
+Falls das Administrator-Verzeichnis für diese ORGA-Archiv-\nDatenbank bereits exsistiert (auf diesem Rechner\noder anderswo im Netzwerk), geben Sie den Pfad zum \nvorhandenen Verzeichnis ein.
+
+# [3] orga_des.Label
+First designer directory
+Verzeichnis des Ersten Konstrukteurs
+
+# [4] DesDirLab.Label
+After installation, you may set up additional designers\nby making copies of the subdirectories in this directory.
+Nach der Installation können Sie durch Kopieren der\nUnterverzeichnisse in diesem Verzeichnis weitere Konstrukteure einrichten.
+

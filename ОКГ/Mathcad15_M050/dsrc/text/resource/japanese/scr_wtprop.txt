@@ -1,0 +1,28 @@
+# {0} (7) [0] scr_wtprop2.Label
+Configuration Properties
+コンフィギュレーションプロパティ
+
+# [1] HostnameLab.Label
+Fully Qualified Hostname
+完全認証ホスト名
+
+# [2] ServerIdLab.Label
+Unique Server ID
+一意のサーバー ID
+
+# [3] XSLHostLab.Label
+XSL Processor Server Hostname
+XSL プロセッササーバーホスト名
+
+# [4] JvmHomeDirLab.Label
+Java SDK Home Directory
+Java SDK ホームディレクトリ
+
+# [5] JvmCommandLab.Label
+Java Execution Command
+Java 実行コマンド
+
+# [6] TextArea.Value
+In the fields below, specify the appropriate settings for your Windchill server.
+次のフィールドで、Windchill サーバーに適切な設定を指定します。
+

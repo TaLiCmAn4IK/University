@@ -1,0 +1,28 @@
+# {100} (100) [0] scr_ldapdir1.Label
+LDAP Directory Access
+Доступ к серверу LDAP
+
+# [1] LDAPHostLab.Label
+Server Host Name
+Имя компьютера сервера
+
+# [2] LDAPPortLab.Label
+Port Number
+Номер порта
+
+# [3] LDAPPort.Value
+389
+
+
+# [4] AdminNameLab.Label
+Administrator Distinguished Name
+Имя администратора в LDAP
+
+# [5] AdminPasswdLab.Label
+Administrator Password
+Пароль администратора
+
+# [6] IEPropNameLab.Label
+Base Distinguished Name
+Имя базы в LDAP
+

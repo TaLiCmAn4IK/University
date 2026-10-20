@@ -1,0 +1,84 @@
+// 20-Oct-99 $$1  OTT  Created.
+// 12-Nov-99 $$2  OTT  Add ptcutil
+// 11-Jan-99 $$3  JJE  Don't use 22 in command names
+// 12-Jan-99 $$4  JJE  Add cdrshelp package
+// 29-Feb-00 $$5  OTT  Add icon path and index
+// 17-Aug-00 $$6  TWH  Fix case ezprop keys
+// 30-Jan-01 $$7  TWH  Add CmdType Prop values
+// 31-Jan-02 $$8  MAZ  Use ptchostid script
+// 04-Mar-03 K-01-06  $$9  TWH  LpcfgWindows->ScreenWindows
+// 21-Jul-03 K-01-11 $$10  JJE  Add ptcborrow and ptcreturn scripts
+// 15-Dec-03 K-01-20 $$11  MAZ  Remove borrow scripts
+// 18-Dec-08 L-03-23 $$12  TWH  Drop LpcfgProHelp
+
+(Product cdrs
+    (Name                      "CDRS")
+    (Packages                  "cdrs" 
+                               "cdrshelp"
+                               "demos"
+                               "ptcutil"
+                               "uninstall")
+    (ProgramFiles              False)
+    (LpDirName                 "cdrs")
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+)
+
+(Package cdrs
+    (Name                      "CDRS")
+    (Screens                   "ScreenLicList"
+                               "ScreenWindows"
+                               "ScreenDftCmds"
+                               "LpcfgCmdList"
+                               "LpcfgLinkpath"
+                               "LpcfgBrowser")
+    (CmdTypes                  "cdrs"
+                               "network_animator")
+    (Binscripts                "ptchostid"
+                               "ptcflush"
+                               "ptcstatus"
+                               "purge"
+                               "convert_image"
+                               "pix2fb"
+                               "PhotoRender"
+                               "rt"
+                               "lightworks"
+                               "net_perm"
+                               "net_rsh")
+    (Cdsections                "cdrs Tree"
+                               "cdrs"
+                               "animatorcdrs"
+                               "Install"
+                               "flexclient")
+    (Installed                 True)
+)
+
+(Package demos
+    (Name                      "Demo Files")
+    (Installed                 False)
+    (Cdsections                "Demos")
+)
+
+(CmdType cdrs
+    (Name                      "cdrs")
+    (Type                      "CDRS")
+    (Prefixes                  "DESIGNER_ CDRSRENDER_ PROE_:72 PROE_:73")
+    (Featvars                  "__DESIGNER_FEATURE_NAME__")
+    (Template                  "prodesg_start")
+    (IconPath                  "_LP_\install\nt\cdrs.ico")
+    (IconIndex                 "0")
+    (UseExtensions             False)
+    (UseOptions                False)
+)
+
+(CmdType network_animator
+    (Name                      "network_animator")
+    (Type                      "Network Animator")
+    (Prefixes                  "ANIMATOR_")
+    (Featvars                  "__ANIMATOR_FEATURE_NAME__")
+    (Template                  "proanimator_start")
+    (IconPath                  "_LP_\install\nt\cdrs.ico")
+    (IconIndex                 "0")
+    (UseExtensions             False)
+    (UseOptions                False)
+)

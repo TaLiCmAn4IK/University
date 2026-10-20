@@ -1,0 +1,192 @@
+# {100} (100) [0] Label1.Label
+Color
+색상
+
+# [1] Label2.Label
+Settings
+설정
+
+# [2] Label3.Label
+&Red
+적색(&R)
+
+# [3] Label4.Label
+&Green
+녹색(&G)
+
+# [4] Label5.Label
+&Blue
+청색(&B)
+
+# [5] Label6.Label
+Color:
+색상:
+
+# [6] Label7.Label
+Basic colors
+기본 색상
+
+# [7] Label8.Label
+Custom colors
+사용자정의 색상
+
+# [8] Label9.Label
+OK
+확인
+
+# [9] Label10.Label
+Apply the changes and quit the window
+변경을 적용하고 창을 닫습니다
+
+# [10] Label11.Label
+Cancel
+취소
+
+# [11] Label12.Label
+Abort changes and quit the window
+변경을 취소하고 창 닫기
+
+# [12] Label13.Label
+Choose Directory
+디렉토리 선택
+
+# [13] Label14.Label
+&Path
+경로(&P)
+
+# [14] Label15.Label
+&OK
+확인(&O)
+
+# [15] Label16.Label
+&Cancel
+취소(&C)
+
+# [16] Label17.Label
+&Directories
+디렉토리(&D)
+
+# [17] Label18.Label
+Dri&ves:
+드라이브(&V):
+
+# [18] Label19.Label
+Open File
+파일 열기
+
+# [19] Label20.Label
+File &Name:
+파일 이름(&N):
+
+# [20] Label21.Label
+List Files of &Type:
+파일 유형 목록(&T):
+
+# [21] Label22.Label
+&Folders:
+폴더(&F):
+
+# [22] Label23.Label
+cwd
+cwd
+
+# [23] Label24.Label
+Find
+찾기
+
+# [24] Label25.Label
+Match &Whole Word Only
+단어 단위로(&W)
+
+# [25] Label26.Label
+Match &Case
+대소문자 구분(&C)
+
+# [26] Label27.Label
+Regular &Expression
+포함하는 표현(&E)
+
+# [27] Label28.Label
+Direction
+방향
+
+# [28] Label29.Label
+&Up
+위로(&U)
+
+# [29] Label30.Label
+&Down
+아래로(&D)
+
+# [30] Label31.Label
+&Find Next
+다음 찾기(&F)
+
+# [31] Label32.Label
+Replace &All
+모두 바꾸기(&A)
+
+# [32] Label33.Label
+Fi&nd What:
+검색 대상(&N):
+
+# [33] Label34.Label
+Re&place With:
+대체 대상(&P):
+
+# [34] Label35.Label
+&Replace
+대체(&R)
+
+# [35] Label36.Label
+Replace
+대체
+
+# [36] Label37.Label
+Font
+글꼴
+
+# [37] Label38.Label
+&Font:
+글꼴(&F):
+
+# [38] Label39.Label
+St&yle:
+유형(&Y):
+
+# [39] Label40.Label
+&Size:
+크기(&S):
+
+# [40] Label41.Label
+Sample
+샘플
+
+# [41] Label42.Label
+Error
+오류
+
+# [42] Label43.Label
+&Abort
+중단(&A)
+
+# [43] Label44.Label
+&Retry
+재시도(&R)
+
+# [44] Label45.Label
+&Ignore
+무시(&I)
+
+# [45] Label46.Label
+&Yes
+예(&Y)
+
+# [46] Label47.Label
+&No
+아니오(&N)
+
+# [47] Label48.Label
+Confirm
+확인
+

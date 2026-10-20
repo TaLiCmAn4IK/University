@@ -1,0 +1,20 @@
+# {100} (100) [0] scr_dbssvr3.Label
+Instructions
+Инструкции
+
+# [1] Label6.Label
+Data Server Hostname
+Имя сервера Data Server
+
+# [2] Label5.Label
+Server Type:
+Тип сервера:
+
+# [3] MS_SS_Radio.Labels.MS
+Multi-Site
+Multi-Site
+
+# [4] MS_SS_Radio.Labels.SS
+Single-Site
+Single-Site
+

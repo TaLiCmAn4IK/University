@@ -1,0 +1,24 @@
+# {0} (6) [0] lpcfg_optieweb.Label
+Info*Engine Web Server Authentication Settings
+Impostazioni di autenticazione server Web Info*Engine
+
+# [1] lpcfg_optieweb2.Label
+Info*Engine Web Server Access Settings
+Impostazioni di accesso al server Web Info*Engine
+
+# [2] HostNameLab.Label
+Web Server Hostname:
+Nome host del server:
+
+# [3] UserPassLab.Label
+Password:
+Password:
+
+# [4] UserNameLab.Label
+User Name:
+Nome utente:
+
+# [5] TextArea.Value
+Specify the Info*Engine Web Server and User Name and Password for Authentication
+Specificare Server Web Info*Engine, Nome utente e Password per l'autenticazione
+

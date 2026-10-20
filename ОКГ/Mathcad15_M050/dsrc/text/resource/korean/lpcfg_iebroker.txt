@@ -1,0 +1,32 @@
+# {100} (100) [0] lpcfg_iebroker2.Label
+E-Mail Broker Configuration
+E-Mail Broker 구성
+
+# [1] EmailServerLab.Label
+E-Mail Server Host Name
+E-Mail 서버 호스트 이름
+
+# [2] UsernameLab.Label
+Account User Name
+계정 사용자 이름
+
+# [3] PasswdLab.Label
+Account Password
+Account 암호
+
+# [4] FolderLab.Label
+E-Mail Folder
+E-Mail 폴더
+
+# [5] AdminLab.Label
+Administrator E-Mail Address
+Administrator E-Mail 주소
+
+# [6] TimeLab.Label
+Time Between Checks (seconds)
+체크 간격(초)
+
+# [7] DelCheckBox.Label
+Delete Processed Messages?
+처리된 메시지를 삭제하시겠습니까?
+

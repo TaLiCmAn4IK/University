@@ -1,0 +1,12 @@
+# {100} (100) [0] lay_brief_intf_profile.Label
+Profile
+Profilo
+
+# [1] pb_brief_details.Label
+Details...
+Dettagli...
+
+# [2] pb_brief_details.HelpText
+Shows the details of the selected profile.
+Mostra i dettagli del profilo selezionato.
+

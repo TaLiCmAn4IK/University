@@ -1,0 +1,19 @@
+// 21-Sep-99      JJE  Created
+// 27-Sep-99 $$1  JJE  Group Submission
+// 06-Jan-00 $$2  JJE  Add logserver section
+// 25-Apr-00      MAZ  Add servlets information
+// 28-Apr-00 $$3  MAZ  Add ScreenServlet
+// 13-Oct-00 $$4  MAZ  Move to 5.1 servlet cfg
+
+(Package pkg_xsl
+    (Name                      "XSL Processor")
+    (Screens                   "ScreenServlet")	
+    (Cdsections                "XSL"
+                               "LogServer")
+    (Installed                 True)
+    (PropString                "XSL")
+    (AppURL                    "TBD")
+    (AppName                   "TBD")
+    (Binscripts                "wttomcat_start")
+)
+

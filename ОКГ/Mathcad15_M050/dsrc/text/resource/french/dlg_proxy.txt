@@ -1,0 +1,28 @@
+# {100} (100) [0] dlg_proxy.Label
+Proxy Configuration
+Configuration du proxy
+
+# [1] Lab_Proxy.Label
+Please specify your HTTP Proxy
+Veuillez spécifier votre proxy HTTP
+
+# [2] Lab_Host.Label
+&Host Address:
+&Adresse de l'hôte :
+
+# [3] Lab_Port.Label
+Port:
+Port :
+
+# [4] OkBtn.Label
+OK
+OK
+
+# [5] CancelBtn.Label
+Cancel
+Annuler
+
+# [6] Lab_Retry.Label
+Connection failed, please try again.
+Echec de la connexion, réessayez.
+

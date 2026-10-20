@@ -1,0 +1,27 @@
+; 26-Apr-09 L-03-31  Moti  $$1  Created.
+; 21-May-09 L-03-33  Moti  $$2  Updated
+; 28-May-09 L-03-33  Moti  $$3  Updated images, and remove hover state.
+
+[toolbutton]
+ContentMargins = 5, 5, 5, 5
+SizingMargins = 3, 3, 3, 3
+Size = 15, 14
+BackgroundImage = styles/ribbon/blank.png
+
+[toolbutton(hot)]
+BackgroundImage = styles/ribbon/wf5ribbon/ribbon_overflow_button_hover.png
+
+[toolbutton(pressed)]
+BackgroundImage = styles/ribbon/wf5ribbon/ribbon_overflow_button_pressed.png
+
+
+[menu]
+ContentMargins = 4, 4, 4, 4
+SizingMargins = 1, 1, 1, 1
+BackgroundImage = styles/ribbon/wf5ribbon/ribbon_overflow_menu_frame.png
+
+[layoutbody]
+SizingMargins  = 3, 3, 3, 3
+BackgroundImage = styles/ribbon/wf5ribbon/ribbonappletoverflow.png
+TransitionDuration = 500
+

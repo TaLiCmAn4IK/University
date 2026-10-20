@@ -1,0 +1,24 @@
+# {100} (100) [0] lpcfg_cmdlist2.Label
+Advanced
+Расширенный
+
+# [1] cmd_add.Label
+Add
+Добавить
+
+# [2] cmd_edit.Label
+Edit
+Править
+
+# [3] cmd_del.Label
+Delete
+Удалить
+
+# [4] Label1.Label
+License Configurations
+Конфигурации лицензий
+
+# [5] TALayout.Label
+Instructions
+Инструкции
+

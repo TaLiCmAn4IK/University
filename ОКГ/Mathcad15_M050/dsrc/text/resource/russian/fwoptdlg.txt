@@ -1,0 +1,12 @@
+# {100} (100) [0] fwoptdlg.Label
+Select Floating Options
+Выбрать плавающие опции
+
+# [1] OkButton.Label
+&OK
+&OK
+
+# [2] CancelBtn.Label
+&Cancel
+О&тмена
+

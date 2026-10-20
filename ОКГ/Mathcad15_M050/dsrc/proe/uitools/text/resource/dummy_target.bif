@@ -1,0 +1,21 @@
+!  History:  
+!
+!  Date      Release  Name   Ver.  Comments
+!  --------- -------  -----  ----- --------------------------------------------
+!  13-Dec-07 L-03-01  AlexM  $$1   Created.
+!
+!  INSERT COMMENT ABOVE THIS LINE
+!  Do not forget to put "!" at the begining of each line in this comment block.
+
+
+
+(Image dummy_target
+    (Resources
+        (.Width     24)
+        (.Height    24)
+        (.Depth     4)
+    )
+    (Data
+        DDD1FF
+    )
+)

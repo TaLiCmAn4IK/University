@@ -1,0 +1,24 @@
+# {0} (6) [0] pdm_srv.Label
+PDM Server
+Servidor PDM
+
+# [1] Label1.Label
+Specify PDM Server Location
+Especificar la ubicación del servidor PDM
+
+# [2] Label2.Label
+HostName
+Nombre de Host
+
+# [3] Label3.Label
+Port
+Puerto
+
+# [4] StdOK.Label
+&OK
+&Aceptar
+
+# [5] StdCancel.Label
+&Cancel
+&Cancelar
+

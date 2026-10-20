@@ -1,0 +1,28 @@
+# {100} (100) [0] uitools_moreinfo_cont_dlg.Label
+No need to translate
+不需平移
+
+# [1] msg.Label
+No need to translate 
+不需平移
+
+# [2] futureCB.Label
+&In the future, do not show this message
+以後不要顯示該訊息(&I)
+
+# [3] moreBtn.Label
+&More Info...
+更多資訊(&M)...
+
+# [4] moreBtn.HelpText
+Get more information
+取得更多資訊
+
+# [5] contBtn.Label
+&Continue
+繼續(&C)
+
+# [6] contBtn.HelpText
+Close dialog and continue with the execution of the functionality
+關閉對話方塊並持續執行功能
+

@@ -1,0 +1,12 @@
+# {0} (3) [0] PortLayout.Label
+PDM Server Port Number
+Numero di porta del server PDM
+
+# [1] LPLayout.Label
+PDM Server on <name>
+Server PDM su <nome>
+
+# [2] PdmServerLpBrowse.Label
+Browse
+Sfoglia
+

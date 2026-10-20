@@ -1,0 +1,60 @@
+# {100} (100) [0] scr_rn_adptr1.Label
+Info*Engine Adapter Settings
+Установки адаптера Info*Engine
+
+# [1] portnumberLab.Label
+Port Number
+Номер порта
+
+# [2] useridLab.Label
+User Name
+Имя пользователя
+
+# [3] passwordLab.Label
+Password
+Пароль
+
+# [4] scr_rn_adptr2.Label
+Info*Engine Configurations
+Конфигурации Info*Engine
+
+# [5] IEInstallDirLab.Label
+Installation Directory
+Папка для установки
+
+# [6] IEInstallDir.Value
+C:\ptc\Windchill
+C:\ptc\Windchill
+
+# [7] IEServiceLab.Label
+Naming Service Name
+Имя службы имен
+
+# [8] scr_rn_adptr3.Label
+LDAP Directory Access
+Доступ к серверу LDAP
+
+# [9] LDAPHostLab.Label
+Server Host Name
+Имя компьютера сервера
+
+# [10] LDAPPortLab.Label
+Port Number
+Номер порта
+
+# [11] LDAPPort.Value
+389
+
+
+# [12] LDAPUserLab.Label
+User Distinguished Name
+Имя пользователя в LDAP
+
+# [13] LDAPPasswordLab.Label
+User Password
+Пароль пользователя
+
+# [14] IEPropNameLab.Label
+Info*Engine Properties\nBase Distinguished Name
+Свойства Info*Engine\nИмя базы в LDAP
+

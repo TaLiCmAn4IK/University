@@ -1,0 +1,49 @@
+// 10-8-01         BS  Adapters cdimage port for DDL
+// 21-Nov-01 $$1   DAR  Added PossibleArchs for DDL 6.1
+
+(Product pview_adapters
+    (Name                      "Pro/ENGINEER Object Adapters")
+    (Packages                  "AdapterUtils"
+                               "ProEngineer"
+                               "uninstall")
+    (ProgramFiles              False)
+    (LpDirName                 "productview_adapters")
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+    (PossibleArchs             "sun4_solaris"
+                               "hpux11_pa32"
+                               "i486_nt")
+)
+
+(Package ProEngineer
+    (Name                      "Pro/ENGINEER Object Adapter")
+    (Installed                 True)
+    (Cdsections                "proe_adapter")
+    (Binscripts                "proe2pv")
+    (SubPackages               "ProEngineer_2000i2"
+                               "ProEngineer_2001")
+)
+
+(Package AdapterUtils
+    (Name                      "Adapter utilities")
+    (Installed                 True)
+    (Binscripts                "rcpedit"
+                               "olstat"
+                               "olchange"
+                               "proe2pv_config"
+                                )
+    (Cdsections                "adapter_utils"
+                                "Install")
+)
+
+(Package ProEngineer_2000i2
+    (Name                      "Pro/ENGINEER 2000i2")
+    (Installed                 False)
+    (Cdsections                "proe2000i2_adapter")
+)
+
+(Package ProEngineer_2001
+    (Name                      "Pro/ENGINEER 2001")
+    (Installed                 True)
+    (Cdsections                "proe2001_adapter")
+)

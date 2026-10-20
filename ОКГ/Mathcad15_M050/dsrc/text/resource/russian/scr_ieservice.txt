@@ -1,0 +1,44 @@
+# {100} (100) [0] scr_ieservice1.Label
+Windchill Info*Engine Servlet Configuration
+Настройка сервлета Windchill Info*Engine
+
+# [1] AppURLLab.Label
+Application URL
+URL приложения
+
+# [2] AppURL.Value
+Windchill
+Windchill
+
+# [3] scr_ieservice2.Label
+Windchill Info*Engine Configuration Properties
+Свойства конфигурации Windchill Info*Engine
+
+# [4] HostnameLab.Label
+Fully Qualified Host Name
+Полное имя сервера
+
+# [5] TempProcPortLab.Label
+Template Processor Port
+Порт процессора шаблонов
+
+# [6] TaskProcPortLab.Label
+Task Processor Port
+Порт процессора задач
+
+# [7] TextArea.Value
+Specify the Windchill Info*Engine servlet name, naming service and logging options.
+Укажите имя сервлета Windchill Info*Engine, службу имен и параметры ведения журналов.
+
+# [8] scr_ieservice_logs.Label
+Windchill Info*Engine Logging Options
+Параметры ведения журналов Windchill Info*Engine
+
+# [9] LogDirLab.Label
+Logs Directory
+Папка журналов
+
+# [10] LogLevel.Label
+Activate All Logging Options?
+Активировать все параметры ведения журналов?
+

@@ -1,0 +1,11 @@
+; Ribbon top right corner style definition
+;
+; 13-Dec-06 L-01-22 AW    $$01  Created
+; 21-May-08 L-03-09 Asaf  $$02  Submitted
+;
+
+[separatorhorz]
+ContentMargins = 1, 0, 4, 2
+SizingMargins = 1, 0, 4, 2
+;Size = 5, 2
+BackgroundImage = styles/ribbon/beige/ribbonrightedge.bif

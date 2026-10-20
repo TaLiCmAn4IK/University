@@ -1,0 +1,52 @@
+# {100} (100) [0] app_mgr_command.Label
+Application Manager Configuration
+응용 프로그램 관리자 구성
+
+# [1] CmdType.Value
+Creo Elements/Pro
+Creo Elements/Pro
+
+# [2] CmdType.Labels.1
+Creo Elements/Pro
+Creo Elements/Pro
+
+# [3] CmdType.Labels.2
+Pro/INTRALINK
+Pro/INTRALINK
+
+# [4] CmdType.Labels.3
+Creo Elements/Pro Mechanica
+Creo Elements/Pro Mechanica
+
+# [5] CmdType.Labels.4
+Pro/FLY-THROUGH
+Pro/FLY-THROUGH
+
+# [6] CmdType.Labels.5
+Other Application
+다른 응용 프로그램
+
+# [7] CmdType.Labels.6
+Sub Folder
+서브 폴더
+
+# [8] StdOK.Label
+&OK
+확인(&O)
+
+# [9] StdCancel.Label
+&Cancel
+취소(&C)
+
+# [10] CmdTypeLab.Label
+Type
+유형
+
+# [11] CmdLabelLab.Label
+Label
+이름표
+
+# [12] CmdLineLab.Label
+Command line
+명령어 라인
+

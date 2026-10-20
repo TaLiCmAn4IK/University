@@ -1,0 +1,12 @@
+# {100} (100) [0] DummyLayout.Label
+Dummy
+더미
+
+# [1] OkPshBtn.Label
+OK
+확인
+
+# [2] CancelPshBtn.Label
+Cancel
+취소
+

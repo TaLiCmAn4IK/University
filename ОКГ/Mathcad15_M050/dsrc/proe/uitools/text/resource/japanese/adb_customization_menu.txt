@@ -1,0 +1,32 @@
+# {100} (100) [0] adb_CmdCopyImage.Label
+Copy Button Image
+ボタンイメージのコピー
+
+# [1] adb_CmdDisplayType.Labels.DefaultStyle
+Default Style
+デフォルトスタイル
+
+# [2] adb_CmdDisplayType.Labels.Small
+Small Button
+小さいボタン
+
+# [3] adb_CmdDisplayType.Labels.SmallImageOnly
+Small Button - No Label
+小さいボタン - ラベルなし
+
+# [4] adb_CmdDisplayType.Labels.SmallTextOnly
+Small Button - No Icon
+小さいボタン - アイコンなし
+
+# [5] adb_CmdDisplayType.Labels.Large
+Large Button
+大きいボタン
+
+# [6] adb_CmdWhatsThis.Label
+What's This?
+ポップアップヘルプ
+
+# [7] adb_CmdWhatsThis.HelpText
+Tells what this button does
+このボタンの意味
+

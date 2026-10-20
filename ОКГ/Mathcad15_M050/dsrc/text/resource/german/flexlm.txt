@@ -1,0 +1,20 @@
+# {100} (100) [0] flexlm.Label
+FLEXnet License Info
+FLEXnet Lizenzinfo
+
+# [1] CascadeButton1.Label
+Licenses to Run
+Ausführlizenzen
+
+# [2] CascadeButton2.Label
+Extensions and Options
+Extensions und Optionen
+
+# [3] LicFileLab.Label
+Showing License file: 7788@Redrocks
+Lizenzdatei wird gezeigt: 7788@Redrocks
+
+# [4] OkButton.Label
+&OK
+&OK
+

@@ -1,0 +1,12 @@
+# {100} (100) [0] pdm_1.Label
+Locate Other Installation Directories (Optional)
+Определить папки других установок (Опция)
+
+# [1] pdm_2.Label
+Optional Inputs
+Дополнительный ввод
+
+# [2] ProeCmdLab.Label
+Pro/ENGINEER Command
+Команда Pro/ENGINEER
+

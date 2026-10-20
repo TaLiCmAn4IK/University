@@ -1,0 +1,62 @@
+// 13-Dec-99      TWH  Created
+// 27-Jun-01 $$1  TWH  Add No_Bin_Dir
+
+(Product lib_obj 
+    (Name                      "@@Prod_Basic_Library")
+    (Packages                  "req_objlib"
+                               "ansi"
+                               "iso"
+                               "jis"
+                               "iso_ansi")
+    (ProgramFiles              False)
+    (LpDirName                 "objlib")
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+    (VersionDir                False)
+    (No_Bin_Dir                True)
+)
+(Package req_objlib
+    (Name                      "@@Prod_Basic_Library")
+    (Cdsections                "mandatory")
+    (Installed                 True)
+    (Required                  True)
+    (Binscripts                "pro_build_library_ctg")
+)
+(Package ansi
+    (Name                      "@@Pkg_ansi_parts")
+    (Cdsections                "ansi")
+    (Installed                 True)
+    (Binscripts                "pro_build_library_ctg")
+)
+(Package iso
+    (Name                      "@@Pkg_iso_parts")
+    (Cdsections                "iso")
+    (Installed                 True)
+    (Binscripts                "pro_build_library_ctg")
+)
+(Package jis
+    (Name                      "@@Pkg_jis_parts")
+    (Installed                 True)
+    (SubPackages               "jis_us_menus"
+                               "jis_jap_menus")
+)
+(Package jis_us_menus
+    (Name                      "@@Pkg_jis_en_parts")
+    (Cdsections                "JIS"
+                               "jis-english menus")
+    (Installed                 True)
+    (Binscripts                "pro_build_library_ctg")
+)
+(Package jis_jap_menus
+    (Name                      "@@Pkg_jis_ja_parts")
+    (Cdsections                "JIS"
+                               "jis-japanese menus")
+    (Installed                 False)
+    (Binscripts                "pro_build_library_ctg")
+)
+(Package iso_ansi
+    (Name                      "@@Pkg_isoansi_parts")
+    (Cdsections                "iso-ansi")
+    (Installed                 True)
+    (Binscripts                "pro_build_library_ctg")
+)

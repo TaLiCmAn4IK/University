@@ -1,0 +1,3412 @@
+%CI Compiling & linking completed successfully.
+ Compiling & linking completed successfully.
+ Erfolgreich kompiliert und gelinkt.
+
+%CP Regenerate to display results.
+ Regenerate to display results.
+ Durch Regenerierung Ergebnisse darstellen.
+
+%CI User program execution completed successfully.
+ User program execution completed successfully.
+ Benutzerprogramm erfolgreich ausgeführt.
+
+%CI%0d Point specified
+%0d Point specified
+%0d Punkt festgelegt
+
+%CI%0d Points specified
+%0d Points specified
+%0d Punkte festgelegt
+
+%CW%0d areas are different.
+%0d areas are different.
+%0d Bereiche sind unterschiedlich.
+
+%CW%0d pixels are different.
+%0d pixels are different.
+%0d Pixel sind unterschiedlich.
+
+%CP%0s group already exists. Renter name [QUIT]:
+%0w group already exists. Renter name [Quit]
+%0w Gruppe existiert bereits. Neuen Namen eingeben [Abbruch]
+
+%CP%0s group does not exist. Renter name [QUIT]:
+%0w group does not exist. Renter name [Quit]
+%0w Gruppe existiert nicht.  Neuen Namen eingeben [Abbruch]
+
+%CP%0s. Reedit ? [Y]:
+%0s. Reedit ?|||Yes
+%0s. Erneut editieren ?|||Ja
+
+%CE%0w is a viewonly drawing and cannot be saved.
+%0w is a viewonly drawing and cannot be saved.
+%0w ist eine 'schreibgeschützte' Zeichnung und kann nicht gespeichert werden.
+
+%CI%0w.img has been created.
+%0w.img has been created.
+%0w.img wurde erzeugt.
+
+%CI%0w.pic has been created.
+%0w.pic has been created.
+%0w.pic wurde erzeugt.
+
+%CP%s has been read in to the drawing. Redraw to display any changes.
+%0w has been read. Repaint if required
+%0w wurde geladen. Bildaufbau vornehmen, wenn nötig.
+
+%CIA total of %0d partitions were created.
+A total of %0d partitions were created.
+Insgesamt wurden %0d Partitionen erzeugt.
+
+%CWAccuracy not changed
+Accuracy has not been changed.
+Genauigkeit wurde nicht verändert.
+
+%CPAll break-outs deleted.  Retain cross-section ?
+All breakouts are deleted.  Do you want it to be a full section view?|||No
+Alle Ausbrüche gelöscht. Volle Schnittansicht gewünscht?|||Nein
+
+%CIAll layouts referenced by model %0s will also be retrieved.
+All layouts referenced by model %0w will also be retrieved.
+Alle von Modell %0w referenzierten Layouts werden ebenfalls aufgerufen.
+
+%CIAll layouts referenced by model %0w will also be stored.
+All layouts referenced by model %0w will also be stored.
+Alle von Modell %0w referenzierten Layouts werden ebenfalls gespeichert.
+
+%CWAll loops are not continuous.
+All loops are not continuous.
+Nicht alle Schleifen sind durchgehend.
+
+%CIAll surfaces selected.
+All surfaces selected.
+Alle Flächen gewählt.
+
+%CEAll the entities must be tangent, projected along pivot direction.
+All the entities must be tangent, projected along pivot direction.
+Alle Elemente müssen tangential sein und entlang Drehrichtung projiziert sein.
+
+%CEAll the entities must be tangent.
+All the entities must be tangent.
+Alle Elemente müssen tangential sein.
+
+%CPApproximate
+Approximate
+Annähern
+
+%CPAre you going to classify any general assembly component as a workpiece? [Y]:
+Are you going to classify any general assembly component as a workpiece?|||Yes
+Sind irgendwelche allgemeine BaugrKomp als Werkstück zu klassifizieren ?|||Ja
+
+%CPAssembly features require unexploded assembly. Unexplode? [y]:
+Assembly features require unexploded assembly. Unexplode?|||Yes
+Baugruppen-KEs benötigen zusammengebaute Baugruppe. Zusammenbauen?|||Ja
+
+%CECan NOT select relation driven dimension.
+Can NOT select relation driven dimension.
+Beziehungsgesteuerte Bemaßung kann NICHT gewählt werden.
+
+%CECan not insert into group or pattern features.
+Can not insert into group or pattern features.
+Einfügen in Gruppen- oder Muster-KEs nicht möglich.
+
+%CECan not insert into merged features.
+Can not insert into merged features.
+Kann nicht in verschmolzene KEs einsetzen.
+
+%CECan not use multi-point datum arrays as thru-points for datum planes.
+Can not use multi-point datum arrays as thru-points for datum planes.
+Bezugsfelder mit mehreren Punkten nicht als Durchpunkte für Bezugsebenen benutzbar.
+
+%CECannot declare items; Instances currently in session.
+Cannot declare items; Instances currently in session.
+Deklaration nicht möglich; Varianten z.Z. in Sitzung.
+
+%CECannot exceed maximum of %0d sections.
+Cannot exceed maximum of %0d sections.
+Maximal sind %0d Schnitte zulässig.
+
+%CECannot intersect or split spline approx. chain element.
+Cannot intersect or split spline approx. chain element.
+Durch Spline angenähertes Kettenelement kann nicht geschnitten oder getrennt werden.
+
+%CECannot intersect or split spline control polygon element.
+Cannot intersect or split spline control polygon element.
+Spline-Steuerpolygon-Element kann nicht geschnitten oder getrennt werden.
+
+%CECannot intersect or split spline with approx. chain.
+Cannot intersect or split spline with approx. chain.
+Spline kann nicht mit angenäherter Kette geschnitten oder getrennt werden.
+
+%CECannot intersect or split spline with control polygon.
+Cannot intersect or split spline with control polygon.
+Kann Spline mit Steuerpolygon nicht schneiden oder trennen.
+
+%CECannot modify spline with approx. chain.
+Cannot modify spline with approx. chain.
+Spline kann nicht mit angenäherter Kette geändert werden.
+
+%CECannot modify spline with dimensions to control polygon entities.
+Cannot modify spline with dimensions to control polygon entities.
+Kann Spline mit Bemaßungen für Polygonelement-Steuerung nicht ändern.
+
+%CECannot move points when section plane is normal to screen.
+Cannot move points when section plane is normal to screen.
+Bewegen der Punkte nicht möglich, wenn Schnittebene senkrecht zum Bildschirm ist.
+
+%CPCannot pick plane parallel to placement plane, select again
+Cannot pick plane parallel to placement plane, select again.
+Zur Platzierungsebene parallele Ebene kann nicht gewählt werden; neu wählen.
+
+%CECannot project onto this surface.
+Cannot project onto this surface.
+Auf diese Fläche kann nicht projiziert werden.
+
+%CECannot trim spline approx. chain element.
+Cannot trim spline approx. chain element.
+Spline-Annäherungskettenelement kann nicht getrimmt werden.
+
+%CECannot trim spline control polygon element.
+Cannot trim spline control polygon element.
+Spline-Steuerpolygonelement kann nicht getrimmt werden.
+
+%CECannot trim spline with approx. chain.
+Cannot trim spline with approx. chain.
+Spline mit Annäherungskette kann nicht getrimmt werden.
+
+%CECannot trim spline with control polygon.
+Cannot trim spline with control polygon.
+Spline mit Steuerpolygon kann nicht getrimmt werden.
+
+%CECannot trim spline with curvature dimensions.
+Cannot trim spline with curvature dimensions.
+Spline mit Krümmungsbemaßungen kann nicht getrimmt werden.
+
+%CECannot trim: entity has unremovable dimensions/alignments at selected point.
+Cannot trim: entity has unremovable dimensions/alignments at selected point.
+Trimmen nicht möglich: Element hat an gewähltem Punkt nicht entfernbare Bemaßungen/Ausrichtungen.
+
+%CECell region is not legally bounded.
+Cell region is not legally bounded.
+Zellenbereich ist nicht korrekt begrenzt.
+
+%CPChange relative accuracy ("1.0" allows "roughest" sketching) [%0f]:
+Change relative accuracy ("1.0" allows "roughest" sketching)|||%0f
+Relative Genauigkeit ändern ('1.0' ermöglicht 'grobes' Skizzieren)|||%0f
+
+%CPChanging accuracy will cause full part regeneration, continue ? [y/n]
+Changing accuracy will cause full part regeneration, continue?|||Yes
+Ändern der Genauigkeit bewirkt vollständige Teile-Regenerierung. Weiter?|||Ja
+
+%CPChoose delete option for group displayed in blue.
+Choose delete option for group displayed in blue.
+Löschoption für die blau angezeigte Gruppe wählen.
+
+%CECircle entities must be Intersected/Divided before they can be trimmed.
+Circle entities must be Intersected/Divided before they can be trimmed.
+Kreiselemente müssen vor dem Trimmen geschnitten/aufgeteilt werden.
+
+%CIConfiguratin file %0w has been loaded.
+Configuration file %0w has been loaded.
+Konfigurationsdatei %0w wurde geladen.
+
+%CPConfirm removal of selected datum planes
+Confirm removal of selected datum planes
+Entfernen gewählter Bezugsebenen bestätigen
+
+%CPConfirm removal of selected surfaces
+Confirm removal of selected surfaces
+Entfernen der gewählten Flächen bestätigen.
+
+%CICoordinate system has been chosen as spin center.
+Coordinate system has been chosen as spin center.
+Koordinatensystem wurde als 3D-Drehmitte gewählt.
+
+%CECould not calculate spline with approximating chain.
+Could not calculate spline with approximating chain.
+Spline konnte nicht mit Annäherungskette berechnet werden.
+
+%CECould not calculate spline with control_poly.
+Could not calculate spline with control_poly.
+Spline konnte nicht mit Steuerpolygon berechnet werden.
+
+%CECould not construct entities
+Could not construct trajectory entities.
+Leitkurven-Elemente konnten nicht erzeugt werden.
+
+%CPCould not construct entities, reselect a point
+Could not construct entities, reselect a point.
+Elemente konnten nicht konstruiert werden; Punkt neu wählen.
+
+%CECould not get neutral curve.
+Could not get neutral curve.
+Neutralkurve konnte nicht gefunden werden.
+
+%CPCreate new line font (type <CR> to modify existing font)? [N]:
+Create new line font (type <CR> to modify existing font)?|||No
+Neue Linienart erzeugen (mit <CR> vorhandene ändern)?|||Nein
+
+%CPCreate or select coordinate system for cutter location output.
+Create or select coordinate system for cutter location output.
+Koordinatensystem für CL-Ausgabe erzeugen oder wählen.
+
+%CPCreate or select coordinate system.
+Create or select coordinate system.
+Koordinatensytem erzeugen oder wählen.
+
+%CPCreate points for the spline to pass through.
+Create points for the spline to pass through.
+Spline-Stützpunkte erzeugen.
+
+%CPCreate trajectory by selecting datum points to be connected
+Create trajectory by selecting datum points to be connected.
+Leitkurve durch Wahl zu verbindender Bezugspunkte erzeugen.
+
+%CICreating %0w.img...
+Creating %0w.img ...
+%0w.img wird erzeugt ...
+
+%CICreating %0w.pic...
+Creating %0w.pic ...
+%0w.pic wird erzeugt ...
+
+%CICurrent drawing model is %0w.
+The current drawing model is now %0w.
+Das aktuelle Modell ist jetzt %0w.
+
+%CICurrent line font is %0w.
+Current line font is %0w.
+Aktuelle Linienart ist %0w.
+
+%CIDatum Curve Composite
+Datum Curve: Composite
+Bezugskurve: Kantenzug
+
+%CIDatum Curve Sketch
+Datum Curve: Sketch
+Bezugskurve: Skizze
+
+%CPDatum has not been set, select again.
+Datum has not been set, select again.
+Bezug wurde nicht eingestellt; neu wählen.
+
+%CEDatum point must be an edge X plane type.
+Datum point must be an "Edge X Plane" type.
+Bezugspunkt muss vom Typ 'Kante X Ebene' sein.
+
+%CEDatum point must be on a draft and reference surface edge.
+Datum point must be on a draft and reference surface edge.
+Bezugspunkt muss auf einer Ausformschräge- und Referenzflächenkante liegen.
+
+%CPDefine translation vector. Pick first point.
+Define translation vector. Pick first point.
+Verschiebungsvektor definieren. Auf ersten Punkt klicken.
+
+%CPDelete points used in spline <Y/N> ?
+Delete points used in spline?|||No
+In Spline benutzte Punkte löschen?|||Nein
+
+%CWDeletion caused yellow feature (internal id = %0d) to fail.
+Deletion caused red feature (internal id = %0d) to fail.
+Löschung bewirkte Fehler bei rotem KE (interne ID = %0d).
+
+%CEDirectory is empty.
+No files or directories found. %0S
+Keine Dateien oder Verzeichnisse gefunden. %0S
+
+%CPDo you really want to delete group %0s [N]:
+Do you really want to delete group %0w|||No
+Gruppe %0w wirklich löschen|||Nein
+
+%CPDo you want existing split(s) to be affected by the classified component? [Y]:
+Do you want existing split(s) to be affected by the classified component?|||Yes
+Sollen klassifizierte Komponenten vorhandene Trennung(en) beeinflussen?|||Ja
+
+%CPDo you want existing split(s) to be affected by the component? [Y]:
+Do you want existing split(s) to be affected by the component?|||Yes
+Sollen vorhandene Trennung(en) von Komponente beeinflusst werden?|||Ja
+
+%CIDrawing format will be included on the plot.
+Drawing format will be included on the plot.
+Zeichnungsrahmen wird mitgeplottet.
+
+%CIDrawing format will not be included on the plot.
+Drawing format will not be included on the plot.
+Zeichnungsrahmen wird nicht mitgeplottet.
+
+%CPDrawing is larger than format. Scale to fit format? [Y]:
+Drawing is larger than format. Scale to fit format?|||Yes
+Zeichnung ist größer als Format. Einpassen?|||Ja
+
+%CPDrawing is smaller than format.  Scale to fit format? [Y]:
+Drawing is smaller than format. Scale to fit format?|||Yes
+Zeichnung ist kleiner als Format. Einpassen?|||Ja
+
+%CIEdge or axis has been chosen as spin center.
+Edge or axis has been chosen as spin center.
+Kante oder Achse wurde als 3D-Drehmitte gewählt.
+
+%CPEnter %0s dimension of the paper(inches):[%1f]
+Enter %0s dimension of the paper (inches)|||%1f
+%0s-Bemaßung des Papiers eingeben (Inch)|||%1f
+
+%CPEnter %0s dimension of the paper(mm):[%1f]
+Enter %0s dimension of the paper (mm)|||%1f
+%0s-Dimension des Papiers eingeben (mm)|||%1f
+
+%CPEnter %0s dimension of the partition(inches):[%1f]
+Enter %0s dimension of the partition (inches)|||%1f
+%0s-Bemaßung der Teilung (Inch) eingeben|||%1f
+
+%CPEnter 'fuzzy' compare epsilon in pixels [%0d]:
+Enter 'fuzzy' compare epsilon in pixels|||%0d
+'fuzzy'-Vergleich-Epsilon in Pixeleinheiten eingeben|||%0d
+
+%CPEnter Configuration file name [%0w]:
+Enter Configuration file name|||%0w
+Konfigurationsdateinamen eingeben|||%0w
+
+%CPEnter Z value of retracting plane [%0f]:
+Enter Z value of retracting plane|||%0f
+Z-Wert für Rückzugsebene eingeben|||%0f
+
+%CPEnter a factor between %0f and %1f for plotting:[1.0]
+Enter a factor between %0f and %1f for plotting|||1.0
+Plot-Faktor zwischen %0f und %1f eingeben|||1.0
+
+%CPEnter a rotation angle for highlighted location [%0f]:
+Enter a rotation angle for highlighted location|||%0f
+Rotationswinkel für die hervorgehobene Position eingeben|||%0f
+
+%CPEnter a rotation angle for highlighted location [%0s]:
+Enter a rotation angle for highlighted location|||%0s
+Rotationswinkel für die hervorgehobene Position eingeben|||%0s
+
+%CPEnter angle for red side (yellow arrow shows positive rotation direction) [%0f] :
+Enter angle for red side (yellow arrow shows positive rotation direction)|||%0f
+Winkel für rote Seite eingeben (gelber Pfeil = positive Drehrichtung)|||%0f
+
+%CPEnter bend radius [%0f] :
+Enter bend radius|||%0f
+Biegeradius eingeben|||%0f
+
+%CPEnter draft angle (yellow arrow shows positive rotation dir'n) [%0f] :
+Enter draft angle (yellow arrow shows positive rotation dir'n)|||%0f
+Schrägenwinkel eingeben (gelber Pfeil = positive Drehrichtung)|||%0f
+
+%CPEnter draft angle (yellow arrow shows positive rotation direction) [%0f]
+Enter draft angle (yellow arrow shows positive rotation direction)|||%0f
+Schrägenwinkel eingeben (gelber Pfeil = positive Drehrichtung)|||%0f
+
+%CPEnter feature regeration number [QUIT]:
+Enter feature regeneration number (%0d - %1d) [Quit]
+KE-Regenerierungsnummer (%0d - %1d) eingeben [Abbruch]
+
+%CPEnter file name [QUIT]:
+Enter file name [Quit]
+Dateinamen eingeben [Abbruch]
+
+%CPEnter group name:
+Enter group name [Quit]
+Namen der Gruppe eingeben [Abbruch]
+
+%CPEnter iges group name [QUIT]:
+Enter IGES group name [Quit]
+IGES Gruppennamen eingeben [Abbruch]
+
+%CPEnter internal feature id [QUIT]:
+Enter internal feature id (%0d - %1d) [Quit]
+Interne KE-ID eingeben (%0d - %1d) [Abbruch]
+
+%CPEnter model scale between %0f and %1f :[1.0]
+Enter model scale between %0f and %1f|||1.0
+Modell-Maßstab zwischen %0f und %1f eingeben|||1.0
+
+%CPEnter new interline spacing factor [%0f]:
+Enter new interline spacing factor|||%0f
+Neuen Zeilenabstand eingeben|||%0f
+
+%CPEnter new line width [%0f]:
+Enter new line width|||%0f
+Neue Linienbreite eingeben|||%0f
+
+%CPEnter new value for text angle (-1 for default) [%0f]:
+Enter new value for text angle (-1 for default)|||%0f
+Neuen Wert für Textwinkel eingeben (-1 für Standard)|||%0f
+
+%CPEnter new value for text slant angle [%0f]:
+Enter new value for text slant angle|||%0f
+Neuen Textneigungswinkel eingeben|||%0f
+
+%CPEnter new value for text width factor (-1 for default) [%0f]:
+Enter new value for text width factor (-1 for default)|||%0f
+Wert für Textbreitenfaktor eingeben (-1 für Standard)|||%0f
+
+%CPEnter number [%0d]:
+Enter number|||%0d
+Zahl eingeben|||%0d
+
+%CPEnter offset distance [ %0f ] :
+Enter offset distance|||%0f
+Versatzabstand eingeben|||%0f
+
+%CPEnter offset distance, <ESC> to quit [ %0f ] :
+Enter offset distance, <ESC> to quit|||%0f
+Versatzwert eingeben, mit <ESC> abbrechen|||%0f
+
+%CPEnter offset in the direction of the arrow[-QUIT-]:
+Enter offset in the direction of the arrow [Quit]
+Versatz in Pfeilrichtung angeben [Abbruch]
+
+%CPEnter parameter along the selected entity [%0f]:
+Enter parameter along the selected entity|||%0f
+Parameter für gewähltes Element eingeben|||%0f
+
+%CPEnter replacement iges file name [%0w]
+Enter replacement IGES file name|||%0w
+Namen der Ersatz-IGES-Datei eingeben|||%0w
+
+%CPEnter rotating y angle :
+Enter %0s rotation angle for section %3d (Range: %1d - %2d)|||%4f
+%0s Rotationswinkel für Schnitt %3d eingeben (Bereich: %1d - %2d)|||%4f
+
+%CPEnter rotational blend angle ( 0.0001 < angle < 120.0 ) :
+Enter rotational blend angle (0.0001 < angle < 120.0): 
+Verbund-Rotationswinkel eingeben (0.0001 < Winkel < 120.0):
+
+%CPEnter scale [%0f]:
+Enter scale|||%0f
+Maßstab eingeben|||%0f
+
+%CPEnter scale for view [%0w] :
+Enter scale for view|||%0w
+Maßstab für Ansicht eingeben|||%0w
+
+%CPEnter surface name.
+Enter surface name.
+Flächennamen eingeben:
+
+%CPEnter symbol for the dimension in the table [%0w]:
+Enter symbol for the dimension in the table|||%0w
+Symbol für die Bemaßung in der Tabelle eingeben|||%0w
+
+%CPEnter symbol for the feature in the table [%0w]:
+Enter symbol for the feature in the table|||%0w
+Symbol für KE in Tabelle eingeben|||%0w
+
+%CPEnter the length (in dwg units) of one unit of the pattern [%0f]:
+Enter the length (in dwg units) of one unit of the pattern|||%0f
+Länge (in Zeichnungseinheiten) einer Einheit des Musters eingeben|||%0f
+
+%CPEnter the new line font name [%0w]:
+Enter the new line font name|||%0w
+Namen der neuen Linienart eingeben|||%0w
+
+%CPEnter translation offset in the %0s direction(%1s):[%2f]
+Enter translation offset in the %0s direction(%1s):|||%2f
+Verschiebungsversatz in %0s Richtung (%1s) eingeben:|||%2f
+
+%CPEnter value [quit]:
+Enter value [Quit]
+Wert eingeben [Abbruch]
+
+%CPEnter value offset
+Enter offset value in the %0s|||%1f
+Versatzwert in %0s eingeben|||%1f
+
+%CPEnter variable number.
+Enter %0ws|||%1d
+%0ws eingeben|||%1d
+
+%CPEnter xhatch angle [%0f]
+Enter cross-hatch angle|||%0f
+Schraffurwinkel eingeben|||%0f
+
+%CPEnter xhatch spacing [%0f]
+Enter cross-hatch spacing|||%0f
+Schraffur-Zwischenabstand eingeben|||%0f
+
+%CPErase all arrows and circles associated with view %0w?
+Erase all arrows and circles associated with view %0w?|||No
+Alle mit Ansicht %0w assoziierten Pfeile und Kreise löschen?|||Nein
+
+%CEError(s) in %0w. See datafile.ers
+Error(s) in %0w. See datafile.ers.
+Fehler in %0w. Siehe datafile.ers.
+
+%CEError(s) in configuration file %0w.
+Error(s) in configuration file %0w. Check message(s) in startup window.
+Fehler in Konfigurationsdatei %0w. Prüfen Sie Meldung(en) im Start-Fenster.
+
+%CLExact
+Exact
+Exakt
+
+%CEFeature ID %0d is already included.
+Feature ID %0d is already included.
+KE ID %0d ist bereits eingeschlossen.
+
+%CEFeature Num %0d is invalid.
+Feature Num %0d is invalid.
+KE ID %0d ist ungültig.
+
+%CEFeature aborted. Angle between sections too large.
+Feature aborted. Angle between sections too large.
+KE abgebrochen. Winkel zwischen Schnitten zu groß.
+
+%CWFeature creation resulted in invalid part geometry.
+WARNING: Feature creation resulted in overlapping part geometry.
+WARNUNG: KE-Erzeugung führte zu überlappender Teilgeometrie.
+
+%CIFeatures up to and including feat id %0d are now read only
+Features up to and including feat ID %0d are now read only.
+KEs bis einschließlich KE ID %0d sind jetzt schreibgeschützt.
+
+%CPFile contains different number of points. Do you want to continue?
+File contains different number of points. Do you want to continue?|||Yes
+Datei enthält unterschiedliche Punkteanzahl. Weiter?|||Ja
+
+%CEFilled area cannot be displayed or plotted. Too many points!
+Filled area cannot be displayed or plotted. Too many points!
+Gefüllter Bereich kann nicht angezeigt oder geplottet werden. Zu viele Punkte!
+
+%CEFilled area cannot be plotted. Too many points!
+Filled area cannot be plotted. Too many points!
+Gefüllter Bereich kann nicht geplottet werden. Zu viele Punkte!
+
+%CEFont index file %0w was not found.
+Font index file %0w was not found.
+Schriftart-Indexdatei %0w wurde nicht gefunden.
+
+%CPGive the value of ambient temperature:
+Enter ambient temperature|||%0w
+Umgebungstemperatur eingeben|||%0w
+
+%CPGive the value of convection coefficient:
+Enter convection coefficient|||%0w
+Wärmeübergangskoeffizient eingeben|||%0w
+
+%CEGlobal %0w not availiable to this model.
+Global %0w not available to this model.
+Globale %0w in diesem Modell nicht verfügbar.
+
+%CIGroup %0w has been created.
+Group %0w has been created.
+Gruppe %0w wurde erzeugt.
+
+%CPGroup %0w is table driven; select instance from menu.
+Group %0w is table driven; select instance from menu.
+Gruppe %0w ist tabellengesteuert; Variante aus Menü wählen.
+
+%CPGroup all features in between ? <NO>:
+Group all features in between?|||No
+Alle KEs dazwischen gruppieren?|||Nein
+
+%CEGroup name %s is invalid.
+Group name %0w is invalid.
+Gruppenname %0w ist ungültig.
+
+%CPGroup unit is %0w. Select scaling option from menu.
+Group unit is %0w. Select scaling option from menu.
+Gruppeneinheit ist %0w. Skalierungsoption aus dem Menü wählen.
+
+%CIHardware communications enabled.
+Hardware communications enabled.
+Hardware-Kommunikation aktiviert.
+
+%CEHighlighted geometry is invalid.
+Highlighted geometry is invalid.
+Hervorgehobene Geometrie ist ungültig.
+
+%CIHighlighting dimension d%0d which is driven by d%1d.
+Highlighting dimension d%0d which is driven by d%1d.
+Bemaßung d%0d, die durch d%1d gesteuert ist, ist hervorgehoben.
+
+%CEIges file contains 3D section. Cannot read 3D sections into sketcher.
+IGES file contains 3D section. Cannot read 3D sections into sketcher.
+IGES Datei enthält 3D-Schnitt. Kann den 3D-Schnitt nicht im Modus Skizze laden.
+
+%CEImported surface %0w cannot be read
+Imported surface %0w cannot be read
+Importierte Fläche %0w kann nicht gelesen werden.
+
+%CEImported surface class %0w not initialized
+Imported surface class "%0w" not initialized.
+Importierte Flächenklasse '%0w' wurde nicht initialisiert.
+
+%CWIn current insert mode the component does not affect on existing split(s).
+In current insert mode the component does not affect on existing split(s).
+Im aktuellen Einfügemodus beeinflusst die Komp. vorhandene Trennung(en) nicht.
+
+%CPIncomplete Datum Point Array info. Abort? [N]
+Incomplete Datum Point Array info. Abort?|||No
+Unvollständige Bezugspunktarray-Info. Abbrechen?|||Nein
+
+%CPIncrement values:
+Increment values:%0s Select again.
+Inkremental-Werte: %0s; neu wählen.
+
+%CIInformation written to file %0w.
+Information written to file %0w.
+Information in Datei %0w geschrieben.
+
+%CEInvalid dimension value : %0f.
+Invalid dimension value : %0f.
+Ungültiger Bemaßungswert: %0f.
+
+%CEInvalid feature(ID %0d). Only operation features allowed.
+Invalid feature(ID %0d). Only NC Sequences or their material removal allowed.
+Ungültiges KE (ID %0d). Nur NC-Folgen und deren Materialentfernungen erlaubt.
+
+%CEInvalid group name %s. %s is non-existant.
+Invalid group name %0w. %0w is non-existent.
+Ungültiger Gruppen-Name %0w; %0w existiert nicht.
+
+%CPInvalid plane select again
+Invalid plane select again.
+Ungültige Ebene; neu wählen.
+
+%CWItem does not belong to any group.
+Item does not belong to any group.
+Element gehört zu keiner Gruppe.
+
+%CWItems already found in another group were ignored.
+Items already found in another group were ignored.
+Elemente bereits in einer anderen Gruppe gefunden - ignoriert.
+
+%CWMaximum partition size for media selected is %0f x %1f.
+Maximum partition size for media selected is %0f x %1f.
+Maximale Partitionsgröße für gewähltes Medium ist %0f x %1f.
+
+%CPMerge reference part missing. new
+Merge reference part %0w missing; enter replacing model name [Quit]
+Verschmelzungs-Referenzteil  %0w fehlt. Ersatzmodell-Namen eingeben [Abbruch]
+
+%CIMiscellaneous options
+Miscellaneous options
+Verschiedene Optionen
+
+%CEModel %0w already in dwg %1w.
+Model %0w already is used by drawing %1w.
+Modell %0w bereits in Zeichnung %1w benutzt.
+
+%CPModel %0w could not be retrieved.  Press <RETURN>.
+Model %0w could not be retrieved.  Press <CR> to continue.
+Modell %0w konnte nicht aufgerufen werden.  Mit <CR> fortfahren.
+
+%CPModel %0w is not in this directory.  Press <RETURN>.
+Model %0w is not in this directory.  Press <CR> to continue.
+Modell %0w ist nicht in diesem Verzeichnis.  Mit <CR> fortfahren.
+
+%CIModel center has been chosen as spin center.
+Model center has been chosen as spin center.
+Modellmitte wurde als 3D-Drehmitte gewählt.
+
+%CWModel has been replaced.
+Model has been replaced.
+Modell wurde ersetzt.
+
+%CPModify pattern number to 1 before doing this kind of redefine.
+Do DEL PATTERN of feature before doing this kind of redefine.
+Vor dieser Art von Neudefinition Muster für KE löschen.
+
+%CPMove bottom left corner of drawing to screen origin? [Y]:
+Move bottom left corner of drawing to screen origin?|||Yes
+Untere linke Ecke der Zeichnung zum Bildschirmursprung bewegen?|||Ja
+
+%CPMust use on surface datum point, select again
+Must use on surface datum point, select again.
+Flächen-Bezugspunkt muss verwendet werden; neu wählen.
+
+%CPNew value 1 [%0f] :
+Enter a new value|||%0f
+Neuen Wert eingeben|||%0f
+
+%CPNew value s [%0s] :
+Enter a new value|||%0s
+Neuen Wert eingeben|||%0s
+
+%CINo Xhatch
+Closed curve sections will NOT be cross hatched
+Geschlossene Kurvenschnitte werden nicht schraffiert
+
+%CINo reference information about this sketch.
+No reference information about this sketch.
+Keine Referenzinformation zu dieser Skizze.
+
+%CINormal -- green; %0s curvature -- %1s; %2s curvature -- %3s.
+Normal -- green; %0s curvature -- %1s; %2s curvature -- %3s.
+Senkrechte -- grün; %0s Krümmung -- %1s; %2s Krümmung -- %3s.
+
+%CWNormal is undefined at this point.
+Normal is undefined at this point.
+Senkrechte ist nicht definiert in diesem Punkt.
+
+%CPNot enough sections: do you want to reselect points ? [y]
+Not enough sections: do you want to reselect points?|||Yes
+Nicht genügend Schnitte: Punkte neu wählen?|||Ja
+
+%CPNumber of points will be reduced from %0d to %1d. Select Confirm or Cancel.
+Number of points will be reduced from %0d to %1d. Select Confirm or Cancel.
+Punkteanzahl wird von %0d auf %1d verkleinert. Bestätigen oder Abbrechen.
+
+%CEOS limitation: name '%0w' is too long. Creation of object failed.
+OS limitation: name '%0w' is too long. Creation of object failed.
+OS Beschränkung: Name '%0w' ist zu lang. Erzeugung des Objekts fehlerhaft.
+
+%CEOffset aborted. Geometry could not be constructed.
+Offset aborted. Geometry could not be constructed.
+Versetzen abgebrochen. Geometrie konnte nicht erstellt werden.
+
+%CEOnly %0d loops allowed in this section
+Only %0d loops allowed in this section
+Nur %0d Schleifen sind in diesem Schnitt zulässig.
+
+%CEOnly assembly datums for this kind of view.
+You can select only assembly datums for this kind of view in assembly drawings.
+Nur Baugruppenbezüge für diese Ansichtsart in Baugruppenzeichnungen wählbar.
+
+%CEOnly first cell may contain something.
+Only first cell may contain something.
+Nur die erste Zelle kann etwas enthalten.
+
+%CWOriginal reference not found, using alternate.
+Original reference not found, using alternate.
+Ursprüngliche Referenz nicht gefunden; Ersatz wird verwendet.
+
+%CIOutput file %0w has been written
+Output file %0w has been written.
+Ausgabedatei %0w wurde geschrieben.
+
+%CIParents are highlighted in Reference Color.
+Parents are highlighted in Reference Color.
+Eltern werden in Referenzfarbe hervorgehoben.
+
+%CEPart %0s is marked as read only - regeneration is not allowed
+Part %0w is marked as read only - regeneration is not allowed.
+Teil %0w ist als schreibgeschützt gekennzeichnet - Regenerieren unzulässig.
+
+%CIPart '%0s' not changed since last regen
+Part '%0w' not changed since last regen.
+Teil '%0w' seit letzter Regenerierung nicht verändert.
+
+%CPPart has been merged by ref, please modify ref part %0w
+This instance of %0w is intersected by assembly feature.
+Diese Variante von %0w wird von Baugruppen-KE geschnitten.
+
+%CWPart information written to file %0s.
+Part information written to file %0w.
+Teil-Info in Datei %0w geschrieben.
+
+%CIPattern creation successful
+Pattern creation successful.
+Mustererzeugung erfolgreich.
+
+%CPPick another table cell.
+Pick another table cell.
+Auf eine andere Tabellenzelle klicken.
+
+%CPPick dimension to clip.(Middle button to finish selections).
+Pick dimensions or ref dims to clip.(Middle button to finish selections).
+Zu wählende (Referenz)-Bemaßungen wählen; (MMT = Auswahl abschließen).
+
+%CPPick final destination point.
+Pick final destination point.
+Auf Endzielpunkt klicken.
+
+%CPPick first point for draft datum target.
+Pick first point for draft datum target.
+Auf ersten Punkt für 2D-Bezugsziel klicken.
+
+%CPPick global parameter, or select NAME to type in a name.
+Pick global parameter, or select NAME to type in a name.
+Auf globalen Parameter klicken oder Namen eingeben.
+
+%CPPick new location for the selected point.
+Pick new location for the selected point.
+Auf neue Position für gewählten Punkt klicken.
+
+%CPPick second point for draft datum target.
+Pick second point for draft datum target.
+Auf zweiten Punkt für 2D-Bezugsziel klicken.
+
+%CPPick table cell for one corner.
+Pick table cell for one corner.
+Auf Tabellenzelle für eine Ecke klicken.
+
+%CEPipe aborted. Geometry could not be constructed.
+Pipe aborted. Geometry could not be constructed.
+Rohr abgebrochen. Geometrie konnte nicht erstellt werden.
+
+%CEPipe aborted. Trajectory geometry could not be constructed.
+Pipe aborted. Trajectory geometry could not be constructed.
+Rohr abgebrochen. Leitkurvengeometrie konnte nicht erstellt werden.
+
+%CPPlane must be parallel select again
+Plane must be parallel select again.
+Ebene muss parallel sein; neu wählen.
+
+%CIPlot will be %0s x %1s inches.
+Plot will be %0s x %1s inches.
+Plotgröße wird %0s x %1s Inch sein.
+
+%CIPlot will be scaled about the factor of %0f
+Plot will be scaled by %0f.
+Plot wird um %0f skaliert.
+
+%CWPoint entity is missing
+Point entity is missing.
+Punktelement fehlt.
+
+%CPPoint has been set, try again.
+Point has been set, try again.
+Punkt wurde definiert, neu versuchen.
+
+%CIPoint or vertex has been chosen as spin center.
+Point or vertex has been chosen as spin center.
+Punkt oder Eckpunkt wurde als 3D-Drehmitte gewählt.
+
+%CEReplacement aborted. Geometry could not be constructed.
+Replacement aborted. Geometry could not be constructed.
+Ersetzen abgebrochen. Geometrie konnte nicht erstellt werden.
+
+%CPRestore member of this assembly ? [N]
+Restore component of this assembly?|||No
+Komponente dieser Baugruppe wiederherstellen?|||Nein
+
+%CPResulting curve(s) are in green. Select Confirm or Cancel.
+Resulting curve(s) are in green. Select Confirm or Cancel.
+Reultierende Kurve(n) sind grün. Bestätigen oder Abbrechen wählen.
+
+%CPRetain this line style for further sketching? [N]:
+Retain this line style for further sketching?|||No
+Mit diesem Linienstil weiterhin skizzieren?|||Nein
+
+%CIScreen center has been chosen as spin center.
+Screen center has been chosen as spin center.
+Bildschirmmitte wurde als 3D-Drehmitte gewählt.
+
+%CESection nonparametric. Can't modify.
+The section is non-parametric and cannot be modified.
+Schnitt ist nicht-parametrisch und kann nicht geändert werden.
+
+%CPSelect DIMENSION or REF DIM to flip arrow
+Select DIMENSION or REF DIM to flip arrow.
+Mit BEMASSUNG oder REF BEMASS Pfeilrichtung umschalten.
+
+%CPSelect Datum Surface or Quilt to use for cut.
+Select Datum Surface or Quilt to use for cut.
+Bezugsfläche oder Sammelfläche für Materialschnitt wählen.
+
+%CPSelect Datum Surface or Quilt to use for protrusion.
+Select Datum Surface or Quilt to use for protrusion.
+Bezugsfläche oder Sammelfläche für Profilkörper-Erzeugung wählen.
+
+%CPSelect a detail boundary to delete.
+Select a detail boundary to delete.
+Zu löschende Detail-Berandung wählen.
+
+%CPSelect a detail boundary to modify.
+Select a detail boundary to modify.
+Zu ändernde Detail-Berandung wählen.
+
+%CPSelect a detail item to move attach.
+Select a detail item to modify its attachment.
+Detailelement wählen, um seinen Ansatz zu ändern.
+
+%CPSelect a detail item to move text.
+Select a detail item to move text.
+Detailelement wählen, um den Text zu bewegen.
+
+%CPSelect a detail item to move.
+Select a detail item to move.
+Zu bewegendes Detailelement wählen.
+
+%CPSelect a detail item to switch view.
+Select a detail item to switch view.
+Detailelement für Ansichtswechsel wählen.
+
+%CPSelect a draft group.
+Select a draft group.
+2D-Gruppe wählen.
+
+%CPSelect a location for the point.
+Select a location for the point.
+Position für den Punkt wählen.
+
+%CPSelect a point
+Select a point.
+Punkt wählen
+
+%CPSelect a vertex
+Select a vertex
+Eckpunkt wählen
+
+%CPSelect a vertex through which to make a horizontal/vertical witness line.
+Select a vertex through which to make a horizontal/vertical witness line.
+Eckpunkt wählen, durch den horizontale/vertikale Maßhilfslinie zu legen ist.
+
+%CPSelect an approximate tangent location ABOVE the draft line.
+Select an approximate tangent location ABOVE the draft line.
+Annähernde Tangentenposition ÜBER der Schrägenlinie wählen.
+
+%CPSelect an approximate tangent location BELOW the draft line.
+Select an approximate tangent location BELOW the draft line.
+Annähernde Tangentenposition UNTER der Schrägenlinie wählen.
+
+%CPSelect an approximate tangent location on a surface.
+Select an approximate tangent location on a surface.
+Annähernde Tangentenposition auf einer Fläche wählen.
+
+%CPSelect another dimension for FIRST direction, increment type, or Done.
+Select another dimension for FIRST direction, increment type, or "Done".
+Andere Bemaßung für ERSTE Richtung, Inkrementtyp oder 'Fertig' wählen.
+
+%CPSelect another dimension for SECOND direction, increment type, or Done.
+Select another dimension for SECOND direction, increment type, or "Done".
+Andere Bemaßung für ZWEITE Richtung, Inkrementtyp oder 'Fertig' wählen.
+
+%CPSelect another normal axis.
+Select another normal axis.
+Andere senkrechte Achse wählen.
+
+%CPSelect back edge, surface, or csys axis.
+Select back edge, surface, or csys axis.
+Hintere Kante, Flächen oder Koordinatensystem-Achse wählen.
+
+%CPSelect back surface or csys axis.
+Select back surface or csys axis.
+Hintere Fläche oder Koordinatensystem-Achse wählen.
+
+%CPSelect bottom edge, surface, or csys axis.
+Select bottom edge, surface, or csys axis.
+Untere Kante, Fläche oder Koordinatensystem-Achse wählen.
+
+%CPSelect bottom surface or csys axis.
+Select bottom surface or csys axis.
+Untere Fläche oder Koordinatensystem-Achse wählen.
+
+%CPSelect breakout to modify.
+Select breakout to modify.
+Zu ändernden Ausbruch wählen.
+
+%CPSelect center point for rotation.
+Select center point for rotation.
+Mittelpunkt für die Drehung wählen.
+
+%CPSelect circle
+Select circle
+Kreis wählen
+
+%CPSelect class of surface
+Select class of surface.
+Klasse der Fläche wählen.
+
+%CPSelect coordinate system from menu.
+Select coordinate system from menu.
+Koordinatensystem aus dem Menü wählen.
+
+%CPSelect coordinate system to be matched with the surface anchor point
+Select coordinate system to be matched with the surface anchor point.
+Koordinatensystem zum Anordnen im Flächenankerpunkt wählen.
+
+%CPSelect datum points.
+Select datum points.
+Bezugspunkte wählen
+
+%CPSelect detail item(s) to clip.
+Select detail item(s) to clip.
+Zu clippende Detailelemente wählen.
+
+%CPSelect detail item(s) to delete.
+Select detail item(s) to delete.
+Zu löschende(s) Detailelement(e) wählen.
+
+%CPSelect dimension for %0w
+Select dimension for %0w
+Bemaßung für %0w wählen
+
+%CPSelect draft entities to add to selected group.
+Select draft entities to add to selected group.
+2D-Elemente wählen, die der Gruppe hinzuzufügen sind.
+
+%CPSelect draft entities to create group.
+Select draft entities to create group.
+2D-Elemente wählen, um Gruppe zu erzeugen.
+
+%CPSelect draft entities to remove from selected group.
+Select draft entities to remove from selected group.
+2D-Elemente wählen, die aus gewählter Gruppe zu entfernen sind.
+
+%CPSelect drawing size.
+Select drawing size.
+Zeichnungsgröße wählen
+
+%CPSelect edge X plane datum points as additional draft points.
+Select "Edge X Plane" datum points as additional draft points.
+'Kante X Ebene' Bezugspunkte als zusätzliche 2D-Punkte wählen.
+
+%CPSelect entities to make xsec in an order.
+Select draft entities in a closed loop to make the cross-section.
+2D-Elemente in geschlossener Schleife wählen, um Querschnitt anzulegen.
+
+%CPSelect entity.
+Select entity.
+Element wählen
+
+%CPSelect feature for reference display.
+Select feature for reference display.
+KE für die Referenzdarstellung wählen.
+
+%CPSelect format size.
+Select format size.
+Formatgröße wählen
+
+%CPSelect from menu to set up driving table.
+Select from menu to set up driving table.
+Menüpunkt zum Erzeugen einer Steuerungstabelle wählen.
+
+%CPSelect front edge, surface, or csys axis.
+Select front edge, surface, or csys axis.
+Vordere Kante, Fläche oder Koordinatensystem-Achse wählen.
+
+%CPSelect front surface or csys axis.
+Select front surface or csys axis.
+Vordere Fläche oder Koordinatensystem-Achse wählen.
+
+%CPSelect horizontal axis.
+Select horizontal axis.
+Horizontale Achse wählen.
+
+%CPSelect items from the same part.
+Select items from the same part.
+Elemente aus demselben Teil wählen.
+
+%CPSelect items from the same view.
+Select items from the same view.
+Elemente aus gleicher Ansicht wählen.
+
+%CPSelect left edge, surface, or csys axis.
+Select left edge, surface, or csys axis.
+Linke Kante, Fläche oder Koordinatensystem-Achse wählen.
+
+%CPSelect left surface or csys axis.
+Select left surface or csys axis.
+Linke Fläche oder Koordinatensystem-Achse wählen.
+
+%CPSelect location on dimension witness line.
+Select location on dimension witness line.
+Punkt auf der Maßhilfslinie wählen.
+
+%CPSelect material side for rotation.
+Select material side for rotation.
+Materialseite für Rotation wählen.
+
+%CPSelect member to restore.
+Select component to restore.
+Wiederherzustellende Komponente wählen.
+
+%CPSelect member to simplify.
+Select component to simplify.
+Zu vereinfachende Komponente wählen.
+
+%CPSelect neutral (pivot) plane.
+Select neutral (pivot) plane.
+Neutralebene wählen
+
+%CPSelect new drawing size.
+Select new drawing size.
+Neue Zeichnungsgröße wählen.
+
+%CPSelect new location for (sub)section start point.
+Select new location for (sub)section start point.
+Neue Position für Startpunkt des (Unter)Schnitts wählen.
+
+%CPSelect new location for the dimension
+Select new location for the dimension
+Neue Position für die Bemaßung wählen.
+
+%CPSelect new point of detail.
+Select new point of detail.
+Neuen Punkt für Detail wählen.
+
+%CPSelect new text font from menu [Present font: %0w]
+Select new text font from menu. Present font is %0w.
+Neue Schriftart aus Menü wählen. Vorhandene Schriftart ist %0w.
+
+%CPSelect normal axis.
+Select normal axis.
+Senkrechte Achse wählen.
+
+%CPSelect option to specify depth of the thread.
+Select option to specify depth of the thread.
+Option für die Angabe der Gewindetiefe wählen.
+
+%CPSelect or pick on the screen the the new current drawing model.
+Select or pick on the screen the new current drawing model.    
+Auf neues aktuelles Zeichnungsmodell im Arbeitsfenster klicken.
+
+%CPSelect paper size.
+Select paper size.
+Papiergröße wählen
+
+%CPSelect placement point(s).
+Select placement point(s).
+Platzierungspunkt(e) wählen.
+
+%CPSelect placement point.
+Select placement point.
+Platzierungspunkt wählen
+
+%CPSelect point.
+Select point.
+Punkt wählen
+
+%CPSelect replacing instance from menu.
+Select replacing instance from menu.
+Ersetzende Variante aus Menü wählen.
+
+%CPSelect right edge, surface, or csys axis.
+Select right edge, surface, or csys axis.
+Rechte Kante, Fläche oder Koordinatensystem-Achse wählen.
+
+%CPSelect right surface or csys axis.
+Select right surface or csys axis.
+Rechte Fläche oder Koordinatensystem-Achse wählen.
+
+%CPSelect rotational direction for Spring Back.
+Select rotational direction for Spring Back.
+Rotationsrichtung für Rückfederung wählen.
+
+%CPSelect set datum plane or axis for targeting.
+Select set datum plane or axis for targeting.
+Festgelegte Bezugsebene oder Achse als Ziel wählen.
+
+%CPSelect surface to be replaced
+Select surface to be replaced.
+Zu ersetzende Fläche wählen.
+
+%CPSelect the second reference.
+Select the second reference.
+Zweite Referenz wählen.
+
+%CPSelect thread start surface.
+Select thread start surface.
+Startfläche für das Gewinde wählen.
+
+%CPSelect thread surface.
+Select thread surface.
+Gewindefläche wählen
+
+%CPSelect top edge, surface, or csys axis.
+Select top edge, surface, or csys axis.
+Obere Kante, Fläche oder Koordinatensystem-Achse wählen.
+
+%CPSelect top surface or csys axis.
+Select top surface or csys axis.
+Obere Fläche oder Koordinatensystem-Achse wählen.
+
+%CPSelect value to modify.
+Select value to modify.
+Zu ändernden Wert wählen.
+
+%CPSelect vertical axis.
+Select vertical axis.
+Vertikale Achse wählen.
+
+%CPSelect view to modify.
+Select view to modify.
+Zu ändernde Ansicht wählen.
+
+%CESelected draft surfaces must be contiguous.
+Selected draft surfaces must be contiguous.
+Gewählte Schrägenflächen müssen zusammenhängend sein.
+
+%CESelected group has references to views on page %0d.
+Group has reference to views on sheet %0d; cannot resume on this one.
+Gruppe besitzt Referenz zu Ansichten auf Blatt %0d; kann hier nicht einblenden.
+
+%CESelected model does not belong to any family.
+Selected model does not belong to any family.
+Gewähltes Modell gehört zu keiner Familie.
+
+%CPSelected plane and axis must be parallel, select again
+Selected plane and axis must be parallel, select again.
+Gewählte Ebene und Achse müssen parallel sein; neu wählen.
+
+%CPSelected plane and entity must be parallel, select again
+Selected plane and entity must be parallel, select again.
+Gewählte Ebene und Element müssen parallel sein. Neu wählen.
+
+%CESelected point is not coaxial with the set datum axis.
+Selected point is not coaxial with the set datum axis.
+Gewählter Punkt ist nicht koaxial zu festgelegter Bezugsachse.
+
+%CESelected point not in the adjustment range.
+Selected point not in the adjustment range.
+Gewählter Punkt ist nicht in Nachstellbereich.
+
+%CPSelected surface is invalid.  Reselect cylindrical or conic surface.
+Selected surface is invalid.  Reselect cylindrical or conic surface.
+Gewählte Fläche ist ungültig. Zylindrische oder konische Fläche neu wählen.
+
+%CPShould be at least one point between selected points. Select again.
+Should be at least one point between selected points. Select again.
+Es sollte mindestens 1 Pkt zwischen den gewählten Punkten liegen. Neu wählen.
+
+%CISoftware (Xon/Xoff) communications enabled.
+Software (Xon/Xoff) communications enabled.
+Software (Xon/Xoff) Kommunikation aktiviert.
+
+%CPSpecify coordinate system that file entities are with respect to
+Specify coordinate system that file entities are with respect to.
+Koordinatensystem festlegen, dessen Dateielemente in Bezug dazu sind.
+
+%CPSpecify corners of area to be plotted.
+Specify corners of area to be plotted.
+Ecken des Plotausschnitts wählen.
+
+%CPSpecify parting curve.
+Specify parting curve.
+Trennkurve angeben.
+
+%CPSpecify pull direction.
+Specify pull direction.
+Öffnungsrichtung angeben.
+
+%CPSpecify surfaces for Spring Back feature.
+Specify surfaces for Spring Back feature.
+Flächen für Rückfederungs-KE wählen.
+
+%CPSpecify surfaces or datum planes
+Specify surfaces or datum planes onto which the curve will be projected
+Flächen oder Bezugsebenen angeben, auf die die Kurve projiziert werden soll.
+
+%CPSpecify surfaces to close open ends.
+Specify surfaces to close open ends.
+Flächen zum Schließen offener Enden bestimmen.
+
+%CPSpecify the neutral curve.
+Specify the neutral curve.
+Neutralkurve angeben.
+
+%CISpin Center will be displayed.
+Spin Center will be displayed.
+3D-Drehmitte wird angezeigt.
+
+%CISpin Center will not be displayed.
+Spin Center will not be displayed.
+3D-Drehmitte wird nicht angezeigt.
+
+%CPSpline containes too few points. please resketch.
+Spline contains too few points, please resketch.
+Spline enthält nicht genügend Punkte; neu skizzieren.
+
+%CESubordinate items may not be added to groups
+Subordinate drawing items may not be added to groups.
+Untergeordnete Zeichnungselemente dürfen nicht zu Gruppen hinzugefügt werden.
+
+%CPSuppress member of this assembly ? [N]
+Suppress component of this assembly?|||No
+Komponente dieser Baugruppe unterdrücken?|||Nein
+
+%CESuppression caused yellow feature (internal id = %0d) to fail.
+Suppression caused red feature (internal id = %0d) to fail.
+Unterdrückung bewirkte Fehler bei rotem KE (interne ID = %0d).
+
+%CESurface aborted. Geometry could not be constructed.
+Surface aborted. Geometry could not be constructed.
+Fläche abgebrochen. Geometrie konnte nicht erstellt werden.
+
+%CISymbol [%0w] has been stored.
+Symbol [%0w] has been stored.
+Symbol [%0w] wurde gespeichert.
+
+%CITangent edges will be dimmed.
+Tangent edges will be dimmed.
+Tangentialkanten werden abgeblendet dargestellt.
+
+%CITangent edges will be displayed in centerline font.
+Tangent edges will be displayed in centerline font.
+Tangentialkanten werden in Linienart 'Mittellinie' angezeigt.
+
+%CITangent edges will be displayed in phantom font.
+Tangent edges will be displayed in phantom font.
+Tangentialkanten werden in Phantomlinienart dagestellt.
+
+%CITangent edges will be displayed.
+Tangent edges will be displayed as solid lines.
+Tangentialkanten werden als Volllinien dargestellt.
+
+%CITangent edges will not be displayed.
+Tangent edges will not be displayed.
+Tangentialkanten werden nicht dargestellt.
+
+%CEThe .fnt file in %0w was not found.
+The .fnt file in %0w was not found.
+.fnt Datei in %0w wurde nicht gefunden.
+
+%CEThe SHADE file %s is incompatible with this machine.
+The SHADE file %0w is incompatible with this machine.
+Schattierungsdatei %0w ist nicht kompatibel zu diesem Rechner.
+
+%CIThe current drawing model will be displayed normally.
+The current drawing model will be displayed normally.
+Aktuelles Modell wird normal angezeigt.
+
+%CEThe input configuration file %0w does not exist.
+The input configuration file %0w does not exist.
+Konfigurationsdatei %0w existiert nicht.
+
+%CPThere is no child for this feature.
+There is no child for this feature. Select again.
+KE hat kein Kind; neu wählen.
+
+%CPThere is no parent for this feature.
+There is no parent for this feature. Select again.
+KE hat keine Eltern. Neu wählen.
+
+%CEThere is no room for font %0d.
+There is no room for font %0d.
+Kein Platz für Schriftart %0d.
+
+%CIThese options control axes
+These options control axes
+Optionen steuern Achsen
+
+%CIThese options control cross sections and their arrows
+These options control cross sections and their arrows
+Optionen steuern Querschnitte und ihre Pfeile.
+
+%CIThese options control diagram-specific items
+These options control diagram-specific items
+Diese Optionen steuern diagrammspezifische Elemente
+
+%CIThese options control dimensions
+These options control dimensions
+Optionen steuern Bemaßungen
+
+%CIThese options control geometric tolerancing information
+These options control geometric tolerancing information
+Optionen steuern Informationen zu Geometrischen Toleranzen.
+
+%CIThese options control layers
+These options control layers
+Diese Optionen steuern Folien.
+
+%CIThese options control leaders
+These options control leaders
+Optionen steuern Hinweislinien.
+
+%CIThese options control model grids
+These options control model grids
+Optionen steuern Modellraster
+
+%CIThese options control solids shown in views
+These options control solids shown in views
+Optionen steuern in Ansichten dargestellte Volumenkörper
+
+%CIThese options control tables, repeat regions, and BOM balloons
+These options control tables, repeat regions, and BOM balloons
+Optionen steuern Tabellen, Wiederholbereiche und Stücklistenballons
+
+%CIThese options control text and line fonts
+These options control text and line fonts
+Optionen steuern Schrift- und Linienarten
+
+%CIThese options control text not subject to other options
+These options control text not subject to other options
+Diese Optionen steuern Text, der von keinen anderen Optionen gesteuert wird
+
+%CIThese options control views and their annotations
+These options control views and their annotations
+Optionen steuern Ansichten und deren Anmerkungen.
+
+%CWThis drawing does not have multiple models.
+This drawing does not have multiple models.
+Zeichnung enthält keine Mehrfachmodelle.
+
+%CWThis view has been frozen because of illegal view instructions.
+This view has been frozen because of illegal view instructions.
+Ansicht wurde wegen ungültiger Ansichtsanweisungen eingefroren.
+
+%CLTo
+TO
+BIS
+
+%CITop level assembly.
+Top level assembly.
+Oberste Baugruppe.
+
+%CPType global name:
+Type global name: 
+Globalen Namen eingeben:
+
+%CPUnderdimensioned three dimensional section.
+Underdimensioned section.  Please align to part or add dimensions.
+Unterbemaßter Schnitt. An Teil ausrichten oder Bemaßungen hinzufügen.
+
+%CPUnderdimensioned two dimensional section.
+Underdimensioned section.  Please add dimensions.
+Unterbemaßter Schnitt. Bemaßungen hinzufügen.
+
+%CPUngroup the feature? <Y/N>:
+Ungroup the feature? (Y/N): 
+KE aus der Gruppe lösen? (J/N):
+
+%CPUnpattern the group? <Y/N>:
+Unpattern the group? (Y/N): 
+Muster der Gruppe auflösen? (J/N):
+
+%CPView origin has been set;
+View origin has been set; select another view to modify.
+Ansichtsursprung wurde festgelegt; andere zu ändernde Ansicht wählen.
+
+%CIViews of the current dwg model will be enclosed by a box.
+Views of the current dwg model will be enclosed by a box.
+Ansichten des aktuellen Modells werden in einem Rechteck angezeigt.
+
+%CWWARNING ! Model geometry for drawing view is missing.
+WARNING: Model geometry for drawing view is missing.
+WARNUNG: Modell-Geometrie für Zeichnungsansicht fehlt.
+
+%CWWARNING:  vertex endpoint might not be aligned to both edges of the part.
+WARNING: Vertex endpoint might not be aligned to both edges of the part.
+Warnung: Eck/Endpunkt möglicherweise nicht mit beiden Teilekanten ausgerichtet.
+
+%CWWARNING: %0s does not support 8 pens; switching to %1d.
+WARNING: %0s does not support 8 pens; switching to %1d.
+WARNUNG: %0s unterstützt nicht 8 Stifte; es wird zu %1d gewechselt.
+
+%CWWARNING: Lost network license; application may suspend within minutes!
+WARNING: Lost network license; %0s may suspend within minutes!
+Warnung: Netzwerklizenz verloren; %0s kann innerhalb weniger Minuten abbrechen!
+
+%CWWARNING: Thread geometry will be created outside the geometry of the part.
+WARNING: Thread geometry will be created outside the geometry of the part.
+Warnung: Gewindegeometrie wird außerhalb der Teilegeometrie erzeugt.
+
+%CWWARNING: cross-section %0w may be incomplete.
+WARNING: Cross-section %0w may be incomplete.
+WARNUNG: Querschnitt %0w möglicherweise unvollständig.
+
+%CWWARNING: external reference not present, SPRING BACK frozen (feat id: %0d).
+WARNING: external reference not present, SPRING BACK frozen (feat id: %0d).
+Warnung: Externe Ref nicht vorhanden, RÜCKFEDERUNG eingefroren (KE-ID: %0d).
+
+%CWWarning: All entities of the Neutral Curve must be tangent.
+WARNING: All entities of the Neutral Curve must be tangent.
+Warnung: Alle Elemente der Neutralkurve müssen tangential sein.
+
+%CWWarning: Feature %0d contains surfaces that have no area.
+Warning: Feature %0d contains surfaces that have no area.
+Warnung: KE %0d enthält Flächen, die keinen Bereich haben.
+
+%CWWarning: This %0w is more recent than %1d of its models.
+WARNING: This %0w is more recent than %1d of its models.
+Warnung: %0w ist jüngeren Datums als %1d der zugehörigen Modelle.
+
+%CWWarning: This %0w is more recent than the model.
+WARNING: This %0w is more recent than the model.
+Warnung: %0w ist jüngeren Datums als das Modell.
+
+%CPWhich directory ? [%0w]:
+Which directory ?|||%0w
+Welches Verzeichnis ?|||%0w
+
+%CIXhatch
+Closed curve sections will be cross hatched
+Geschlossene Kurvernschnitte werden schraffiert.
+
+%CPXsec is used by feature [%0d].  Delete feature first.
+Xsec is used by feature %0d.  Delete feature first.
+Querschnitt wird in KE %0d benutzt; KE zuerst löschen.
+
+%CLa cosmetic sketched entity
+a cosmetic sketched entity
+ein kosmetisches skizziertes Element
+
+%CLa datum point
+a datum point
+ein Bezugspunkt
+
+%CLa dimension
+a dimension
+eine Bemaßung
+
+%CLa vertex
+a vertex
+ein Eckpunkt
+
+%CLan edge
+an edge
+eine Kante
+
+%CLan entity
+an entity
+ein Element
+
+%CLaxes
+axes
+Achsen
+
+%CIaxis name
+Enter AXIS NAME:
+Achsennamen eingeben:
+
+%CEcannot retrieve part containing assembly features
+This is not a user-created model. Cannot retrieve.
+Dieses Modell ist nicht benutzererzeugt. Nicht aufrufbar.
+
+%CIcolor index.
+Color code: Surface - Yellow; Edges - Blue; Axis, Datum, Feature - Red.
+Farbcode: Fläche: gelb; Kanten: blau; Achse, Bezug, KE: rot.
+
+%CLcosmetic sketched entities
+cosmetic sketched entities
+kosmetische skizzierte Elemente
+
+%CLcyan
+cyan
+zyan
+
+%CLdatum points
+datum points
+Bezugspunkte
+
+%CLdimensions
+dimensions
+Bemaßungen
+
+%CLedges
+edges
+Kanten
+
+%CLentities
+entities
+Elemente
+
+%CPlast instruction overrides %0d instrs. delete [y]
+Last instruction overrides %0d previous instruction(s). Delete|||Yes
+Letzte Anweisung überschreibt %0d vorige Anweisung(en). Löschen|||Ja
+
+%CLleast neg.
+least neg.
+am wenigsten negativ
+
+%CLleast pos.
+least pos.
+am wenigsten positiv
+
+%CLmost neg.
+most neg.
+negativste
+
+%CLmost pos.
+most pos.
+positivste
+
+%CLorange
+orange
+orange
+
+%CPpart have been added, repaint to see change
+Selected parts have been added to the list, repaint to display change.
+Gewählte Teile wurden zu Liste hinzugefügt. Bildaufbau zeigt Änderungen an.
+
+%CPpart have been removed, repaint to see change
+Selected parts have been removed from list, repaint to display change.
+Gewählte Teile wurden aus Liste entfernt; Bildaufbau zeigt Änderungen an.
+
+%CPplacement of feature %0d of %1s wasn't retrieved. <cr> ...
+Placement of feature %0d of part %1s was not retrieved. <CR> to continue: 
+Platzierung von KE %0d des Teils %1s wurde nicht aufgerufen. Weiter mit <CR>:
+
+%CPreally delete %0w [N]:
+Do you really want to delete %0w|||No
+%0w wirklich löschen|||Nein
+
+%CPregen parts intersected by assembly feature?
+Regenerate parts intersected by assembly feature(s)?|||Yes
+Von Baugruppen-KE(s) geschnittene Teile regenerieren|||Ja
+
+%CPselect %0w
+Select %0w.
+%0w wählen
+
+%CPselect %0w %1w
+Select %0w or %1w.
+%0w oder %1w wählen.
+
+%CPselect %0w %1w %2w %3w
+Select %0w, %1w, %2w or %3w.
+%0w, %1w, %2w oder %3w wählen.
+
+%CPselect %0w %1w %2w %3w %4w
+Select %0w, %1w, %2w, %3w or %4w.
+%0w, %1w, %2w, %3w oder %4w wählen.
+
+%CPselect %0w %1w %2w %3w %4w %5w
+Select %0w, %1w, %2w, %3w, %4w or %5w.
+%0w, %1w, %2w, %3w, %4w oder %5w wählen.
+
+%CPselect %0w %1w %2w %3w %4w %5w %6w
+Select %0w, %1w, %2w, %3w, %4w, %5w or %6w.
+%0w, %1w, %2w, %3w, %4w, %5w oder %6w wählen.
+
+%CPselect %0w %1w %2w %3w %4w %5w %6w %7w
+Select %0w, %1w, %2w, %3w, %4w, %5w, %6w or %7w.
+%0w, %1w, %2w, %3w, %4w, %5w, %6w oder %7w wählen.
+
+%CPselect %0w %1w %2w %3w %4w %5w %6w %7w %8w
+Select %0w, %1w, %2w, %3w, %4w, %5w, %6w, %7w or %8w.
+%0w, %1w, %2w, %3w, %4w, %5w, %6w, %7w oder %8w wählen.
+
+%CPselect assembly feature
+Select assembly feature.
+Baugruppen-KE wählen.
+
+%CPselect draft entities.
+Select draft entities to specify geometric tolerance.
+2D-Elemente zum Festlegen der geometrischen Toleranz wählen.
+
+%CEthis feature cannot be intersected
+This feature cannot be intersected.
+KE kann nicht geschnitten werden.
+
+%CLvertices
+vertices
+Eckpunkte
+
+%CLyellow
+yellow
+gelb
+
+%CIINFO PT/Modeler Loadpoint: %0w
+INFO PT/Modeler Loadpoint: %0w
+INFO PT/Modeler Installationspfad: %0w
+
+%CLEdit this object's text.
+Edit this text of the current object.
+Text des aktuellen Objekts editieren.
+
+%CPSpecify sketched datum curve attributes.
+Specify sketched datum curve attributes.
+Attribute der skizzierten Bezugskurve festlegen.
+
+%CPSpecify depth of extrusion.
+Specify depth of extrusion.
+Tiefe des Profilkörpers festlegen.
+
+%CPSpecify feature attributes.
+Specify feature attributes.
+KE-Attribute festlegen.
+
+%CP Specify depth option.
+ Specify depth option.
+ Tiefen-Optionen festlegen.
+
+%CP Enter depth [%0f] : 
+ Enter depth|||%0f
+ Tiefe eingeben|||%0f
+
+%CP Specify accuracy of composite curve with respect to curve references.
+ Specify accuracy of composite curve with respect to curve references.
+ Genauigkeit des Kurvenzugs bezüglich der Kurvenreferenz festlegen.
+
+%CIDatum CrossHatch
+Closed sections of the datum curve will be cross hatched
+Geschlossene Abschnitte der Bezugskurve werden schraffiert
+
+%CIDatum No CrossHatch
+Closed sections of the datum curve will NOT be cross hatched
+Geschlossene Abschnitte der Bezugskurve werden NICHT schraffiert
+
+%CPSelect datum plane.
+Select datum plane.
+Bezugsebene wählen
+
+%CPSpecify surfaces or datum plane.
+Specify surfaces or datum plane.
+Flächen oder Bezugsebene festlegen.
+
+%CWConfirm removal of Surface references.
+Confirm removal of Surface references.
+Entfernen der Flächen-Referenzen bestätigen.
+
+%CWConfirm removal of Datum Plane references.
+Confirm removal of Datum Plane references.
+Entfernen der Bezugsebenen-Referenzen bestätigen.
+
+%CEOld image file; not supported.
+Old image file; not supported.
+Alte Bilddatei; nicht unterstützt.
+
+%CPSelect a reference to specify the projection direction.
+Select a reference to specify the projection direction.
+Referenz wählen, um die Projektionsrichtung festzulegen.
+
+%CPSpecify type of curve to be projected.
+Specify type of curve to be projected.
+Typ der zu projizierenden Kurve festlegen.
+
+%CPSpecify the projection type.
+Specify the projection type.
+Prjektionsart festlegen
+
+%CIAlong Dir
+Along Dir
+Entlang Richt
+
+%CINorm to Surf
+Norm to Surf
+Senkr zu Flä
+
+%CINorm to Sket
+Norm to Sket
+Senkr zu Skiz
+
+%CEThere is no DIRECT child for this feature. Select again.
+There is no DIRECT child for this feature. Select again.
+Kein direktes Kind für dieses KE vorhanden; neu wählen.
+
+%CWLost option
+Lost %0s license; corresponding modes are inaccessible.
+%0s Lizenz verloren; zugehörige Modi sind nicht verfügbar.
+
+%CWLost option warning
+WARNING: Lost %0s license; quit from current mode immediately.
+Warnung: %0s Lizenz verloren; den aktuellen Modus sofort abbrechen.
+
+%CE Errors in user program compling or linking.
+ Errors in user program compiling or linking.
+ Fehler beim Kompilieren oder Linken.
+
+%CE User program execution failed.
+ User program execution failed.
+ Benutzerprogramm-Ausführung fehlgeschlagen.
+
+%CEAll comp. curve components must be tangent, projected along pivot direction.
+All comp. curve components must be tangent, projected along pivot direction.
+Alle Kurvenzugkomponenten müssen tangential sein; projiziert entlang Drehrichtung.
+
+%CEAll composite curve components must be tangent.
+All composite curve components must be tangent.
+Alle Kurvenzug-Komponenten müssen tangential sein.
+
+%CEAnother group with the same name already exists.
+Another group with the same name already exists.
+Gleichnamige Gruppe existiert bereits.
+
+%CEBitmaps are of unequal size; cannot continue.
+Bitmaps are of unequal size; cannot continue.
+Bitmaps haben unterschiedliche Größen; kann nicht fortgesetzt werden.
+
+%CEBoth points must be in the same table.
+Both points must be in the same table.
+Beide Punkte müssen in derselben Tabelle stehen.
+
+%CECan NOT select table driven dimension.
+Can NOT select table driven dimension.
+Tabellengesteuerte Bemaßung kann NICHT gewählt werden.
+
+%CECan not replace assembly datum.
+Can not replace assembly datum.
+Baugruppenbezug kann nicht ersetzt werden.
+
+%CECannot add curvature dimension to spline with control polygon.
+Cannot add curvature dimension to spline with control polygon.
+Kann keine Krümmungsbemaßung zu Spline mit Steuerpolygon hinzufügen.
+
+%CECannot change "on point" placement type.
+Cannot change "on point" placement type.
+Platzierungstyp 'Auf Punkt' kann nicht geändert werden.
+
+%CECannot create auxiliary view of selected edge.
+Cannot create auxiliary view of selected edge.
+Hilfsansicht der gewählten Kante kann nicht erzeugt werden.
+
+%CECannot declare items for an instance.
+Cannot declare items for an instance.
+Für Varianten können keine Elemente deklariert werden.
+
+%CECannot dimension aligned spline to coordinate system.
+Cannot dimension aligned spline to coordinate system.
+Ausgerichteter Spline kann  nicht an KSys bemaßt werden.
+
+%CECannot dimension spline with control polygon to coordinate system.
+Cannot dimension spline with control polygon to coordinate system.
+Spline mit Steuerpolygon kann nicht zu KSys bemaßt werden.
+
+%CECannot edit read_only draft groups.
+Cannot edit read-only draft groups.
+Schreibgeschützte 2D-Gruppen können nicht editiert werden.
+
+%CECannot explode read_only draft groups.
+Cannot explode read-only draft groups.
+Schreibgeschützte 2D-Gruppen können nicht explodiert werden.
+
+%CECannot modify aligned spline.
+Cannot modify aligned spline.
+Ausgerichteter Spline ist nicht änderbar.
+
+%CECannot open input file.
+Cannot open input file.
+Eingabedatei kann nicht geöffnet werden.
+
+%CECannot retrieve default surface finish symbol!
+Cannot retrieve default surface finish symbol - deleting all surface finishes!
+Standard-Oberflächengütesymbol nicht aufrufbar - alle Oberflächengüten werden gelöscht!
+
+%CEColumns to merge must be similar vertically.
+Columns to merge must be similar vertically.
+Zu verschmelzende Spalten müssen vertikal ähnlich angeordnet sein.
+
+%CECurrent object and bitmap object types do not match.
+Current object and bitmap object types do not match.
+Aktuelles Objekt- und Bitmap-Objekttypen stimmen nicht überein.
+
+%CEDatum points array can not be used to set targets.
+Datum points array can not be used to set targets.
+Bezugspunktarray kann nicht verwendet werden, um Ziel zu definieren.
+
+%CEDraft axes may not be erased.
+Draft axes may not be erased.
+2D-Achsen dürfen nicht weggenommen werden.
+
+%CEDraft datums may not be erased.
+Draft datums may not be erased.
+2D-Bezüge dürfen nicht weggenommen werden.
+
+%CEDraft group creation aborted.
+Draft group creation aborted.
+Generierung der 2D-Gruppe abgebrochen.
+
+%CEEntity belonging to a group cannot be modified.
+Entity belonging to a group cannot be modified.
+Elemente in einer Gruppe können nicht geändert werden.
+
+%CEError - Invalid directory specification.
+Error - Invalid directory specification.
+Fehler - ungültige Verzeichnisangabe.
+
+%CEError reading bitmap color info.
+Error reading bitmap color info.
+Fehler beim Lesen der Bitmap-Farbinfo
+
+%CEError writing bitmap file. Bitmap may be incomplete.
+Error writing bitmap file. Bitmap may be incomplete.
+Fehler beim Schreiben der Bitmap-Datei; Bitmap ist u.U. unvollständig.
+
+%CEFilled cross-sections cannot be modified.
+Filled cross-sections cannot be modified.
+Gefüllte Querschnitte können nicht geändert werden.
+
+%CEGTOLs may not be attached to reference dimensions.
+GTOLs may not be attached to reference dimensions.
+GTOLs sind u.U. nicht an Referenzbemaßungen angesetzt.
+
+%CEGrouped entities cannot be chosen for creation of x-hatch.
+Grouped entities cannot be chosen for creation of cross-hatch.
+Gruppierte Elemente können nicht für Schraffur-Erzeugung gewählt werden.
+
+%CEHighlighted selection is invalid.
+Highlighted selection is invalid.
+Hervorgehobene Auswahl ist ungültig.
+
+%CEInsufficient system memory.
+Insufficient system memory.
+Ungenügend Systemspeicher.
+
+%CEModel replacement aborted.
+Model replacement aborted.
+Ersetzen des Modells abgebrochen.
+
+%CENo draft angle break points created.
+No draft angle break points created.
+Keine Schrägenwinkel-Unterbrechungspunkte erzeugt.
+
+%CENo invalid geometry was found.
+No invalid geometry was found.
+Keine ungültige Geometrie gefunden.
+
+%CENo such iges file.
+Cannot find IGES file with that name.
+IGES Datei mit diesem Namen nicht gefunden.
+
+%CENo trajectory created - Feature aborted
+No trajectory created - Feature aborted.
+Keine Leitkurve generiert - KE abgebrochen.
+
+%CENo views found
+No views found.
+Keine Ansichten gefunden.
+
+%CEPart is marked as read only - modification is not allowed
+Part is marked as read only - modification is not allowed.
+Teil ist schreibgeschützt - Änderung unzulässig.
+
+%CEPartition option cancelled; only available with 'Fit Paper'.
+Partition option cancelled; only available with "Fit Paper".
+Partitionsoption abgebrochen; nur unter 'Papieranpassung' verfügbar.
+
+%CEPartition option cancelled; only available with 'Scale Model'.
+Partition option cancelled; only available with "Scale Model".
+Partitionsoption abgebrochen; nur unter 'Modell-Maßstab' verfügbar.
+
+%CERange option cancelled; not available with segmented plots.
+Range option cancelled; not available with segmented plots.
+Bereichs-Option abgebrochen; nicht verfügbar bei segmentierten Plots.
+
+%CERows to merge must be similar horizontally.
+Rows to merge must be similar horizontally.
+Zu kombinierende Reihen müssen horizontal ähnlich angeordnet sein.
+
+%CESelected group is already active.
+Selected group is already active.
+Gewählte Gruppe ist bereits aktiv.
+
+%CESelected group is already suppressed.
+Selected group is already suppressed.
+Gewählte Gruppe ist bereits unterdrückt.
+
+%CEThe first and the last entities must be tangent.
+The first and the last entities must be tangent.
+Erstes und letztes Element müssen tangential sein.
+
+%CEThe selected symbol text can't be modified.
+The selected symbol text can't be modified.
+Gewähltes Textsymbol kann nicht geändert werden.
+
+%CEThere are no text fonts defined for this drawing.
+There are no text fonts defined for this drawing.
+Es gibt keine definierten Schriftarten in dieser Zeichnung.
+
+%CEThere is no room for the default text font.
+There is no room for the default text font.
+Kein Platz für die Standard-Schriftart.
+
+%CEThis functionality is not supported with GL graphics.
+This functionality is not supported with GL graphics.
+Funktion wird in GL Grafiken nicht unterstützt.
+
+%CEUnable to modify spacing between text lines.
+Unable to modify spacing between text lines.
+Abstand zwischen Textzeilen kann nicht geändert werden.
+
+%CEYou cannot edit suppressed groups.
+You cannot edit suppressed groups.
+Unterdrückte Gruppen können nicht editiert werden.
+
+%CEYou cannot explode suppressed groups.
+You cannot explode suppressed groups.
+Unterdrückte Gruppen können nicht explodiert werden.
+
+%CEYou cannot mix draft and model edges.
+You cannot mix draft and model edges.
+2D- und Modellkanten können nicht gemischt werden.
+
+%CEYou cannot reference a draft datum in a model gtol.
+You cannot reference a draft datum in a model gtol.
+2D-Bezug in Gtol eines Modells ist nicht referenzierbar.
+
+%CEYou cannot switch the view of a draft, iges or space note.
+You cannot switch the view of a draft, IGES or space note.
+Ansicht von 2D, IGES oder Leernotiz kann nicht gewechselt werden.
+
+%CEfile was not found
+File was not found.
+Datei wurde nicht gefunden.
+
+%CIBitmaps are identical.
+Bitmaps are identical.
+Bitmaps sind identisch.
+
+%CIModel remains unchanged.
+Model remains unchanged.
+Modell bleibt unverändert.
+
+%CIPerforming fuzzy pixel comparison...
+Performing fuzzy pixel comparison ...
+'fuzzy'-Pixelvergleich wird durchgeführt...
+
+%CIScanning...
+Scanning ...
+Wird abgetastet...
+
+%CIthis feature belongs to the assembly
+This feature belongs to the assembly.
+KE gehört zur Baugruppe.
+
+%CPAt least one point has to be selected. Please reselect.
+At least one point has to be selected. Please reselect.
+Mindestens 1 Punkt muss gewählt werden; neu wählen.
+
+%CPInvalid group to add to. Create group first.
+Invalid group to add to. Create group first.
+Hinzufügen zu dieser Gruppe ungültig. Gruppe zuerst erzeugen.
+
+%CPLine font "%0w" exists. Enter new line font name [%1w]:
+Line font "%0w" exists. Enter new line font name|||%1w
+Linienart '%0w' existiert. Neuen Linienart-Namen eingeben|||%1w
+
+%CPPick entities created by an iges file.
+Pick entities created by an IGES file.
+Auf durch IGES-Datei erzeugte Elemente klicken.
+
+%CPPlease confirm to ungroup feature.
+Please confirm to ungroup feature.
+Aufhebung der Gruppierung für das KE bestätigen.
+
+%CPPlease regenerate this part in the assembly ...
+Please regenerate this part in the assembly where feature was created.
+Teil in der Baugruppe regenerieren, in der KE erzeugt wurde.
+
+%CPPlease select a second '2 Point' reference before placing the dimension.
+Please select a second '2 Point' reference before placing the dimension.
+Vor Platzierung der Bemaßung eine zweite '2 Punkt'-Referenz wählen.
+
+%CPPlease select instance part upon which the feature ...
+Please select the instance part upon which the feature was created.
+Variantenteil wählen, auf dem das KE erzeugt wurde.
+
+%CPPlease select surfaces from reference model.
+Please select surfaces from reference model.
+Flächen vom Referenzmodell wählen.
+
+%CPPlease specify at least two points for Spring Back angles.
+Please specify at least two points for Spring Back angles.
+Mindestens zwei Punkte für Rückfederungswinkel angeben.
+
+%CPPlease specify points at both ends.
+Please specify points at both ends.
+Punkte an beiden Enden angeben.
+
+%CPPlease specify pull direction and draft line first.
+Please specify pull direction and draft line first.
+Öffnungsrichtung und Schrägenlinie zuerst bestimmen.
+
+%CPRead-only values cannot be selected for use in Family Table. Try again.
+Read-only values cannot be selected for use in Family Table. Try again.
+Schreibgeschützte Werte nicht für Familientabelle wählbar; neu versuchen.
+
+%CPSect. geometry has changed the topology. Can't modify.
+Section geometry has changed topology and cannot be modified.
+Schnittgeometrie hat veränderte Topologie und kann nicht geändert werden.
+
+%CPSelect a coordinate system, or choose 'No csys'.
+Select a coordinate system, or choose "No csys" from menu.
+Koordinatensystem oder 'Kein KSys' aus Menü wählen.
+
+%CPSelect a drawing model by picking ON the model.
+Select a drawing model by picking ON the model.
+Zeichnungsmodell durch Klicken auf Modell wählen.
+
+%CPSelect a member coordinate system from the menu.
+Select a component coordinate system from the menu.
+Komponenten-Koordinatensystem aus dem Menü wählen.
+
+%CPSelect an assembly coordinate system from the menu.
+Select an assembly coordinate system from the menu.
+Baugruppen-Koordinatensystem aus dem Menü wählen.
+
+%CPSelect detail item(s) to translate.
+Select detail item(s) to translate.
+Zu verschiebene(s) Detailelement(e) wählen.
+
+%CPSelect from the same view.
+Select from the same view.
+Aus derselben Ansicht wählen.
+
+%CPSelect geometry to which surface finish is associated.
+Select geometry to which surface finish is associated.
+Geometrie wählen, mit der  Oberflächengüte assoziiert ist.
+
+%CPSelect items belonging to the same part/member.
+Select items belonging to the same part/member.
+Zum selben Teil/Mitglied gehörige Elemente wählen.
+
+%CPSelect which axis the datum plane will be normal to.
+Select which axis the datum plane will be normal to.
+Wählen, welche Achse senkrecht auf der Bezugsebene steht.
+
+%CPSelected point is coincident with previous point.  Select again.
+Selected point is coincident with previous point.  Select again.
+Gewählter Punkt liegt auf vorigem Punkt. Neu wählen.
+
+%CPView origin has been cleared;
+View origin has been cleared; select another view to modify.
+Ansichtsursprung wurde beseitigt; andere zu ändernde Ansicht wählen.
+
+%CPYou cannot switch the view of a datum target symbol; use show by view.
+You cannot switch the view of a datum target symbol; use show by view.
+Ansicht eines Bezugsziel-Symbols nicht wechselbar; nach Ansicht zeigen.
+
+%CPZero is not allowed, Please re-enter :
+Zero is not allowed, Please re-enter: 
+Null ist unzulässig; neu eingeben:
+
+%CWDatum is missing. Drawing view normally
+The datum is missing for this view. Drawing view normally.
+Für diese Ansicht fehlt der Bezug. Ansicht wird normal erstellt.
+
+%CWMake sure window is fully visible on screen.
+Make sure window is fully visible on screen.
+Darauf achten, dass Fenster auf dem Schirm vollständig sichtbar ist.
+
+%CWModel not added to dwg.
+The model could not be added to the drawing.
+Modell konnte nicht zur Zeichnung hinzugefügt werden.
+
+%CWMore than one datum plane for projection. 
+More than one datum plane for projection. First one will be used. 
+Mehr als 1 Projektions-Bezugsebene. Die erste wird verwendet.
+
+%CWReference missing - using previous trajectory
+Reference missing - using previous trajectory.
+Referenz fehlt - vorige Leitkurve wird verwendet.
+
+%CWThese points do not lie on the same plane with the first point.
+These points do not lie on the same plane with the first point.
+Punkte liegen nicht auf derselben Ebene wie der erste Punkt.
+
+%CWWARNING: composite curve components not exactly tangent.
+WARNING: composite curve components not exactly tangent.
+WARNUNG: Kurvenzugkomponenten nicht genau tangential.
+
+%CWWARNING: object name and picture name mismatch.
+WARNING: Object name and picture name mismatch.
+WARNUNG: Objektname und Bildname stimmen nicht überein.
+
+%CWWARNING: the first and the last entities not exactly tangent.
+WARNING: the first and the last entities not exactly tangent.
+WARNUNG: Erstes und letztes Elemente sind genau tangential.
+
+%CWWARNING: z values have been reset to zero.
+WARNING: z values have been reset to zero.
+WARNUNG: Z-Werte wurden auf Null zurückgesetzt.
+
+%CWWarning: All points must lie on the Neutral Curve.
+WARNING: All points must lie on the Neutral Curve.
+Warnung: Alle Punkte müssen auf der Neutralkurve liegen.
+
+%CWWarning: Portion(s) of some surface(s) could not be rotated.
+WARNING: Portion(s) of some surface(s) could not be rotated.
+Warnung: Bereiche einiger Flächen konnten nicht rotiert werden.
+
+%CIChildren are highlited in reference color.
+Children are highlighted in reference color.
+Kinder werden in Referenzfarbe hervorgehoben.
+
+%CECan not replace with the quilt, it is used by another feature.
+Can not replace with the quilt, it is used by another feature.
+Kann durch Sammelfläche nicht ersetzt werden; wird von anderem KE verwendet.
+
+%CEFeature aborted. RIB failed.
+Feature aborted. RIB failed.
+KE abgebrochen. RIPPE fehlgeschlagen.
+
+%CPSpecifiy whether  the replacement quilt should be kept after the tweak.
+Specifiy whether  the replacement quilt should be kept after the tweak.
+Festlegen, ob Ersatz-Sammelfläche nach Verformung erhalten bleibt.
+
+%CLTLBPart
+Part
+Teil
+
+%CLTLBConcept Part
+Concept Part
+Konzeptteil
+
+%CLTLBAssembly
+Assembly
+Baugruppe
+
+%CLTLBDrawing
+Drawing
+Zeichnung
+
+%CLTLBLayout
+Layout
+Layout
+
+%CLTLBSketch
+Sketch
+Skizze
+
+%CLTLB3D Sec
+3D Sec
+3D-Schnitt
+
+%CLTLBSketcher
+Sketcher
+Skizzierer
+
+%CLTLBFormat
+Format
+Format
+
+%CLTLBInterchange (pre v.13)
+Interchange (pre v.13)
+Austausch (vor v.13)
+
+%CLTLBProject
+Project
+Projekt
+
+%CLTLBOld Project
+Old Project
+Altes Projekt
+
+%CLTLBManufacturing
+Manufacturing
+Fertigung
+
+%CLTLBGroup
+Group
+Gruppe
+
+%CLTLBUser Symbol
+User Symbol
+Benutzersymbol
+
+%CLTLBEco
+Eco
+Eco
+
+%CLTLBTool
+Tool
+Werkzeug
+
+%CLTLBMachining
+Machining
+Bearbeitung
+
+%CLTLBConf Param
+Conf Param
+Konf Param
+
+%CLTLBProject Report
+Project Report
+Projektbericht
+
+%CLTLBReport
+Report
+Bericht
+
+%CLTLBXhatch Style
+Xhatch Style
+Schraffurstil
+
+%CLTLBDXhatch Style
+DXhatch Style
+DSchraffurstil
+
+%CLTLBLight
+Light
+Lichtquelle
+
+%CLTLBWorkflow
+Workflow
+Arbeitsablauf
+
+%CLTLBSubform
+Subform
+Unterform
+
+%CLTLBIndex File
+Index File
+Indexdatei
+
+%CLTLBMarkup
+Markup
+Markierung
+
+%CLTLBSyscol
+Syscol
+Syscol
+
+%CLTLBDiagram
+Diagram
+Diagramm
+
+%CLTLBDraft
+Draft
+2D-Element
+
+%CLTLBMaterial
+Material
+Material
+
+%CLTLBSpool
+Spool
+Spule
+
+%CLTLBTable Drawing
+Table Drawing
+Tabellenzeichnung
+
+%CLTLBTable Draft
+Table Draft
+Tabellen-2D
+
+%CLTLBPicture
+Picture
+Bild
+
+%CLTLBNC Check
+NC Check
+NC-Kontrolle
+
+%CLTLBIGES
+IGES
+IGES
+
+%CLTLBECAD IDF
+ECAD IDF
+ECAD IDF
+
+%CLTLBECAD VISULA
+ECAD VISULA
+ECAD VISULA
+
+%CLTLBECAD ALLEGRO
+ECAD ALLEGRO
+ECAD ALLEGRO
+
+%CLTLBECAD DAZIX
+ECAD DAZIX
+ECAD DAZIX
+
+%CLTLBECAD Lib IDF
+ECAD Lib IDF
+ECAD Lib IDF
+
+%CLTLBECAD Lib VISULA
+ECAD Lib VISULA
+ECAD Lib VISULA
+
+%CLTLBECAD Lib ALLEGRO
+ECAD Lib ALLEGRO
+ECAD Lib ALLEGRO
+
+%CLTLBECAD Lib DAZIX
+ECAD Lib DAZIX
+ECAD Lib DAZIX
+
+%CLTLBECAD Pla ALLEGRO
+ECAD Pla ALLEGRO
+ECAD Pla ALLEGRO
+
+%CLTLBSET
+SET
+SET
+
+%CLTLBVDA
+VDA
+VDA
+
+%CLTLBDXF
+DXF
+DXF
+
+%CLTLBIdx
+Idx
+Idx
+
+%CLTLBImage
+Image
+Bild
+
+%CLTLBCable
+Cable
+Kabel
+
+%CLTLBConnector
+Connector
+Stecker
+
+%CLTLBPat Table
+Pat Table
+Mustertabelle
+
+%CLTLBPcf
+Pcf
+Pcf
+
+%CLTLBLine Stock
+Line Stock
+Leitungsdatensatz
+
+%CLTLBDirectory
+Directory
+Verzeichnis
+
+%CLTLBTool Param
+Tool Param
+Wkzg-Param
+
+%CLTLBNeutral
+Neutral
+Neutral
+
+%CLTLBCADAM
+CADAM
+CADAM
+
+%CLTLBPrint Table
+Print Table
+Tabelle drucken
+
+%CLTLBSite Table
+Site Table
+Anwenderumgebungstabelle
+
+%CLTLBMill Table
+Mill Table
+Frästabelle
+
+%CLTLBConfigure File
+Configure File
+Konfigurationsdatei
+
+%CLTLBBaseline
+Baseline
+Basislinie
+
+%CLTLBOld Mail
+Old Mail
+Alte Mail
+
+%CLTLBNew Mail
+New Mail
+Neue Post
+
+%CLTLBDif Report
+Dif Report
+Dif-Bericht
+
+%CLTLBTerm Table
+Term Table
+AderendhülsTab
+
+%CLTLBCADAM Draft
+CADAM Draft
+CADAM Draft
+
+%CLTLBLinestyle
+Linestyle
+Linienstil
+
+%CLTLBIntegr Proj
+Integr Proj
+Proj integr
+
+%CLTLBFPP FEI
+FPP FEI
+FPP FEI
+
+%CLTLBFPP FES
+FPP FES
+FPP FES
+
+%CLTLBFPP FMR
+FPP FMR
+FPP FMR
+
+%CLTLBCMDSYN
+CMDSYN
+CMDSYN
+
+%CLTLBCL File
+CL File
+CL-Datei
+
+%CLTLBDrawing Setup
+Drawing Setup
+Zeichnungseinrichtung
+
+%CLTLBSnapshot
+Snapshot
+Schnappschuss
+
+%CLTLBStrip Table
+Strip Table
+Abisoliertabelle
+
+%CLTLBDiagram MVC Def
+Diagram MVC Def
+Diagramm-MAK-Def
+
+%CLTLBWelding Rod
+Welding Rod
+Schweißstab
+
+%CLTLBWelding Params
+Welding Params
+Schweiß-Param
+
+%CLTLBTool Path
+Tool Path
+Werkzeugweg
+
+%CLTLBSubharness
+Subharness
+Unterkabelbaum
+
+%CLTLBBeam Cross Sect Prop
+Beam Cross Sect Prop
+Balkenquerschnitt-Eigensch
+
+%CLTLBInst Part
+Inst Part
+Variantenteil
+
+%CLTLBInst Assembly
+Inst Assembly
+Variantenbaugruppe
+
+%CLTLBSolid Config
+Solid Config
+VolKörper-Konfig
+
+%CLTLBFEM Model
+FEM Model
+FEM-Modell
+
+%CLTLBFEM Neutral File
+FEM Neutral File
+FEM-Neutraldatei
+
+%CLTLBDat file
+Dat file
+Dat-Datei
+
+%CLTLBCAV Deviation File
+CAV Deviation File
+CAV Abweichungsdatei
+
+%CLTLBCAV Ibl File
+Ibl File
+Ibl File
+
+%CLTLBCAV Pts File
+Pts File
+Pts File
+
+%CLTLBComp Group Def
+Comp Group Def
+KompGruppenDef
+
+%CLTLBAppearance Map
+Appearance Map
+Farbeffekte-Mapping
+
+%CLTLBShaded Image
+Shaded Image
+Schattiertes Bild
+
+%CLTLBPostscript
+Postscript
+Postscript
+
+%CLTLBPTC Image
+PTC Image
+PTC Bild
+
+%CLTLBPTC Bumpmap
+PTC Bumpmap
+PTC Bump-Map
+
+%CLTLBPTC Color Texture
+PTC Color Texture
+PTC Farbtextur
+
+%CLTLBPTC Decal
+PTC Decal
+PTC Decal
+
+%CLTLBTGA
+TGA
+TGA
+
+%CLTLBSHIMA-SEIKI
+SHIMA-SEIKI
+SHIMA-SEIKI
+
+%CLTLBRGB
+RGB
+RGB
+
+%CLTLBRLA
+RLA
+RLA
+
+%CLTLBRoom
+Room
+Raum
+
+%CLTLBBif
+Bif
+Bif
+
+%CLTLBEPS 
+EPS 
+EPS
+
+%CLTLBSTEP
+STEP
+STEP
+
+%CLTLBCadra
+Cadra
+Cadra
+
+%CLTLBFiat
+Fiat
+Fiat
+
+%CLTLBPATRAN
+PATRAN
+PATRAN
+
+%CLTLBCosmos
+Cosmos
+Cosmos
+
+%CLTLBCATIA to/from File
+CATIA to/from File
+CATIA in/aus Datei
+
+%CLTLBCDRS
+CDRS
+CDRS
+
+%CLTLBCATIA Facets
+CATIA Facets
+CATIA Facets
+
+%CLTLBSTL
+STL
+STL
+
+%CLTLBRCS
+RCS
+RCS
+
+%CLTLBInventor
+Inventor
+Inventor
+
+%CLTLB3DPaint
+Wavefront
+Wavefront
+
+%CLTLBRender
+Render
+Render
+
+%CLTLBPhoto Render
+Photo Render
+PhotoRender
+
+%CLTLBSuperTab
+SuperTab
+SuperTab
+
+%CLTLBVRML
+VRML
+VRML
+
+%CLTLBPlotter
+Plotter
+Plotter
+
+%CLTLBTIFF
+TIFF
+TIFF
+
+%CLTLBTIFF (Snapshot)
+TIFF (Snapshot)
+TIFF (Schnappschuss)
+
+%CLTLBCGM
+CGM
+CGM
+
+%CLTLBJPEG
+JPEG
+JPEG
+
+%CLTLBGIF
+GIF
+GIF
+
+%CLTLBCADAM CPTR Neutral
+CADAM CPTR Neutral
+CADAM CPTR Neutral
+
+%CLTLBWindow Customization
+Window Customization
+Fensteranpassung
+
+%CLTLBANSYS geom
+ANSYS geom
+ANSYS geom
+
+%CLTLBMFG PARAM
+MFG PARAM
+MFG-PARAM
+
+%CLTLBAll File
+All File
+Alle Dateien
+
+%CLTLBPDGS to/from File
+PDGS to/from File
+PDGS in/aus Datei
+
+%CLTLBCATIA Direct
+CATIA Direct
+CATIA Direkt
+
+%CLTLBCATIA IIF
+CATIA IIF
+CATIA IIF
+
+%CLTLBCadam Direct
+Cadam Direct
+Cadam Direkt
+
+%CLTLBTablet
+Tablet
+Tablett
+
+%CLTLBDWG
+DWG
+ZEICHN.
+
+%CLTLBCommonspace
+Commonspace
+Commonspace
+
+%CLTLBWorkspace
+Workspace
+Workspace
+
+%CLTLBPro/Library
+Pro/Library
+Pro/Library
+
+%CIDWGRename
+Rename
+Umbenennen
+
+%CISplit Surface
+Split Surface
+Fläche trennen
+
+%CISplit Volume
+Split Volume
+Volumen trennen
+
+%CLTLBCADDS5
+CADDS5
+CADDS5
+
+%CESelected point is not coplanar with the set datum plane.
+Point must be defined on the set datum plane surface.
+Punkt muss auf eingestellter Bezugsebenenfläche definiert werden.
+
+%CEThere is no room for font %0w.
+There is no room for font %0w.
+Nicht genug Platz für Linienart %0w.
+
+%CLTLBPipe Line
+Pipe Line
+Rohrleitung
+
+%CLTLBNeutral Wire List
+Neutral Wire List
+Neutrale Drahtliste
+
+%CIDraft Line Split
+Datum Curve: Split
+Bezugskurve: Trennen
+
+%CLTLBJava Class Archive
+Java Class Archive
+Java Klassenarchiv
+
+%CIModel %0w has been added to dwg %1w.
+%0w has been added to drawing %1w.
+%0w wurde Zeichnung %1w hinzugefügt.
+
+%CLTLBICEM
+ICEM
+ICEM
+
+%CLTLBCavity Layout Rule
+Cavity Layout Rule
+Kavitätenlayout-Regel
+
+%CLTLBFrames File
+Frames File
+Frames-Datei
+
+%CLDWGDefault Wit Line
+Default Wit Line
+Standard-Maßhilfslinie
+
+%CPSet the witness lines to default.
+Set the witness lines to default.
+Maßhilfslinie auf Standard einstellen.
+
+%CLTLBPro/Desktop
+Pro/Desktop
+Pro/Desktop
+
+%CLTLBFEM Nastran File
+FEM Nastran File
+FEM Nastran Datei
+
+%CLTLBFEM XDB File
+FEM XDB File
+FEM XDB Datei
+
+%CIDatum Curve Projected
+Datum Curve: Projected
+Bezugskurve: Projiziert
+
+%CPLost license, will hibernate
+Lost floating license! Select "Save", "Retry", or "Exit".
+Netzwerklizenz verloren! 'Speichern', 'Wiederholen' oder 'Ende' wählen.
+
+%CWLost option, will hibernate
+Lost %0s license. Select "Save", "Retry", or "Exit".
+%0s Lizenz verloren! 'Speichern', 'Wiederholen' oder 'Ende' wählen.
+
+%CICurve From Equation
+From Equation
+Aus Gleichung
+
+%CICurve Composite
+Composite
+Kurvenzug
+
+%CICurve Sketch
+Sketched
+Skizziert
+
+%CICurve Projected Sket Sec
+Projected, Sketched Section
+Projizierter skizzierter Schnitt
+
+%CICurve Projected Sel Sec
+Projected, Selected Section
+Projizierter gewählter Schnitt
+
+%CLTLBCatalog Rule
+Catalog Rule
+Katalogregel
+
+%CLTLBGeomToolModel
+GeomToolModel
+GeomWkzgModel
+
+%CPDo you want existing molding(s) to be affected by the component? [Y]:
+Do you want existing molding(s) to be affected by the component?|||Yes
+Soll Komponente sich auf vorhandene Spritzpresse(n) auswirken?|||Ja
+
+%CPDo you want existing cast result(s) to be affected by the component? [Y]:
+Do you want existing cast result(s) to be affected by the component?|||Yes
+Soll Komponente sich auf vorhandene Rohling(e) auswirken?|||Ja
+
+%CPSelect curve for spine.
+Select curve for spine.
+Kurve für Steuerkurve wählen.
+
+%CLTBLMPEG
+MPEG
+MPEG
+
+%CLTLBWelding Process
+Welding Process
+Schweißprozess
+
+%CLTLBNC Strategy File
+NC Strategy File
+NC-Strategie-Datei
+
+%CLTLBOptegra Vis
+Optegra Vis
+Optegra Vis
+
+%CLTLBMedusa
+Medusa
+Medusa
+
+%CLTLBXPatch
+XPatch
+XPatch
+
+%CLTLBShrinkwrap
+Shrinkwrap
+SchrumpfVerpack
+
+%CLTLBMotion Envlp
+Motion Envlp
+Beweg Hülle
+
+%CLTLB
+4D Navigator
+4D Navigator
+
+%CLTLBCATIA Session Direct
+CATIA Session Direct
+CATIA Sitzung Direkt
+
+%CWSelected point is not on cylinder surface.
+Selected point is not on cylinder surface.
+Gewählter Punkt ist nicht auf der Zylinderfläche.
+
+%CLTLB4D Navigator
+4D Navigator
+4D Navigator
+
+%CLTLBACIS File
+ACIS File
+ACIS Datei
+
+%CLTLBWeld Process
+Weld Process
+Schweißprozess
+
+%CLTLBParameter
+Parameter
+Parameter
+
+%CLTLBGeom Type
+Geom Type
+Geom-Typ
+
+%CLTLBX-Sec Plane
+X-Sec Plane
+QSchnittEbene
+
+%CLTLBTraj direction
+Traj direction
+LeitkRichtung
+
+%CLTLBBMP
+BMP
+BMP
+
+%CLTLBPNG
+PNG
+PNG
+
+%CLTLBWWW
+WWW
+WWW
+
+%CLTLBPOLTXT
+POLTXT
+POLTXT
+
+%CLTLBSymbol Parameters
+Symbol Parameters
+Symbolparameter
+
+%CLTLBSHIP-IT
+SHIP-IT
+SHIP-IT
+
+%CLTLBMedusa (s.*)
+Medusa (s.*)
+Medusa (s.*)
+
+%CLTLBMedusa (*.she)
+Medusa (*.she)
+Medusa (*.she)
+
+%CLTLBBend Table
+Bend Table
+Biegetabelle
+
+%CLTLBXML
+XML
+XML
+
+%CLTLBHPGL2
+HPGL2
+HPGL2
+
+%CLTLBGERBER
+GERBER
+GERBER
+
+%CLTLBHPGL
+HPGL
+HPGL
+
+%CECurrently modified volume cannot be used as a replacement quilt.
+Currently modified volume cannot be used as a replacement quilt.
+Z.Z. geändertes Volumen nicht als Ersatz-Sammelfläche verwendbar.
+
+%CEFeature aborted. Revolve angle too small.
+Feature aborted. Revolve angle too small.
+KE abgebrochen. Drehwinkel zu klein.
+
+%CLTLBGranite File
+Granite File
+Granite-Datei
+
+TLBParasolid
+Parasolid
+Parasolid
+
+%CLTLBAppearance
+Appearance
+Farbeffekt
+
+%CLTLBAdobe Illustrator
+Adobe Illustrator
+Adobe Illustrator
+
+%CI Setting File Names
+ Setting File Names
+ Namen der Einstellungsdatei
+
+%CI General Setting
+ General Setting
+ Allgemeine Einstellung
+
+%CI Orientation Setting
+ Orientation Setting
+ Orientierung-Einstellung
+
+%CI Curve Setting
+ Curve Setting
+ Kurven-Einstellung
+
+%CI Stiffener Setting
+ Stiffener Setting
+ Versteifungs-Einstellung
+
+%CI IGES Setting
+ IGES Setting
+ IGES-Einstellung
+
+%CLTLBGranite Application File
+Granite Application File
+Granite Applikationsdatei
+
+%CLTLBPro/Desktop Direct
+Pro/DESKTOP Direct
+Pro/DESKTOP Direct
+
+%CENo Plug-In available for %0s
+No Plug-In available for %0s
+Kein Plugin verfügbar für %0s
+
+%CIPlug-in %0s supports file type %1s
+Plug-in %0s supports file type %1s
+Plugin %0s unterstützt Dateityp %1s
+
+%CEPlug-in %0s failed to open file %1s
+Plug-in %0s failed to open file %1s
+Plugin %0s konnte Datei %1s nicht öffnen
+
+%CEFailed to load Plug-in %0s
+Failed to load Plug-in %0s
+Plugin %0s konnte nicht geladen werden
+
+%CENone of the available Plug-ins can load the file %0s
+None of the available Plug-ins can load the file %0s
+Keines der verfügbaren Plugins kann Datei %0s laden
+
+%CI Shell Expansion Setting
+ Shell Expansion Setting
+ Einstellung für Plattenabwicklung
+
+%CLTLBTerminator
+Terminator
+Aderendhülse
+
+%CLTLBWeb Page
+Web Page
+Website
+
+%CLTLBText File
+Text File
+Textdatei
+
+%CIRegained license
+Regained %0s license; you can resume working.
+%0s Lizenz zurückerhalten; Weiterarbeiten möglich.
+
+%CIRegained option
+Regained %0s license.
+%0s Lizenz zurückerhalten.
+
+%CLTLBPDGS Direct
+PDGS Direct
+PDGS Direct
+
+%CLTLBProductView
+ProductView
+ProductView
+
+%CLTLBThermal Modeler Data
+Thermal Modeler Data
+Thermal Modeler Daten
+
+%CLTLBFEM Mesh Part
+FEM Mesh Part
+FEM-Netzteil
+
+%CLTLBFEM Mesh Assembly
+FEM Mesh Assembly
+FEM-Netzbaugruppe
+
+%CLTLBFEM Results Part
+FEM Results Part
+FEM-Ergebnisteil
+
+%CLTLBFEM Results Assembly
+FEM Results Assembly
+FEM-Ergebnisbaugruppe
+
+%CLTLBFEM Results
+FEM Results
+FEM-Ergebnisse
+
+%CLTLBFEM Mesh/Results
+FEM Mesh/Results
+FEM-Netz/Ergebnisse
+
+%CLTLBMdl Tree Config
+Model Tree Configuration File
+Modellbaum-Konfigurationsdatei
+
+%CIDatum Curve Formed
+Datum Curve: Formed
+Bezugskurve: Geformt
+
+%CIDatum Curve Two Projs
+Datum Curve: Two Projections
+Bezugskurve: Zwei Projektionen
+
+%CIDatum Curve Intr. Srf
+Datum Curve: Surface Intersection 
+Bezugskurve: Flächenüberschneidung
+
+%CLTLBServer configuration
+Servers Configuration File
+Server-Konfigurationsdatei
+
+%CLTLBVtx File
+Vtx File
+Vtx-Datei
+
+%CLTLBACS File
+ACS File
+ACS-Datei
+
+%CLTLBMechanica Mesh Part
+Mechanica Mesh Part
+Mechanica-Netz Teil
+
+%CLTLBMechanica Mesh Assembly
+Mechanica Mesh Assembly
+Mechanica-Netz Baugruppe
+
+%CLTLBMechanica/FEM Common DB
+Mechanica/FEM Common DB
+Mechanica/FEM Gemeinsame DB
+
+%CLTLBMechanica Table Data
+Mechanica Table Data
+Mechanica Tabellendaten
+
+%CLTLBMechanism Playback File
+Mechanism Playback File
+Mechanism Wiedergabedatei
+
+%CLTLBAnimation Playback File
+Animation Playback File
+Animation Wiedergabedatei
+
+%CLTLBMechanism Frame File
+Mechanism Frame File
+Mechanism Einzelbilddatei
+
+%CLTLBGraph Tabular File
+Graph Tabular File
+Graphtabellendatei
+
+%CLTLBZip File
+Zip File
+Zip-Datei
+
+%CLTLBDbatch File
+Distributed Batch File
+Verteilte Batch-Datei
+
+%CLTLBEnvironment
+Environment
+Umgebung
+
+%CLTLBWavefront
+Wavefront
+Wavefront
+
+%CIDiameter = %g, Depth = %g
+Diameter = %0g, Depth = %1g
+Durchmesser = %0g, Tiefe = %1g
+
+%CLTLBVersatec
+Versatec
+Versatec
+
+%CLTLBCalcomp
+Calcomp
+Calcomp
+
+%CWWARNING: obsolete group %w has been ungrouped.
+WARNING: obsolete group %0w has been ungrouped.
+WARNUNG: Veraltete Gruppe %0w wurde aufgelöst.
+
+%CPSelect a point to move (BUTTONS: L=Select, M=Done, R=Query Sel).
+Select a point to move. (Mouse buttons: Left = Select, Middle = OK, Right = Query).
+Zu bewegenden Punkt wählen (Maus: LMT = Auswahl, MMT = OK, RMT = Abfrage).
+
+%CEInvalid group id %d. %d is non-existant.
+Invalid group id %0d. %1d is non-existent.
+Ungültige Gruppen-ID %0d; %1d existiert nicht.
+
+%CLTLBPro Table
+Pro Table
+Pro Table
+
+%CLTLBInput File
+Input File
+Eingabedatei
+
+%CLTLBI-DEAS Model
+I-DEAS Model
+I-DEAS Modell
+
+%CLTLBI-DEAS Package
+I-DEAS Package
+I-DEAS Paket
+
+%CPselect %0w %1w %2w
+Select %0w, %1w or %2w.
+%0w, %1w oder %2w wählen.
+
+%CPselect %0w %1w %2w %3w %4w %5w %6w %7w %8w %9w
+Select %0w, %1w, %2w, %3w, %4w, %5w, %6w, %7w, %8w or %9w.
+%0w, %1w, %2w, %3w, %4w, %5w, %6w, %7w ,%8w oder %9w wählen.
+
+%CPselect %0w %1w %2w %3w %4w %5w %6w %7w %8w %9w %10w
+Select %0w, %1w, %2w, %3w, %4w, %5w, %6w, %7w, %8w, %9w or %10w.
+%0w, %1w, %2w, %3w, %4w, %5w, %6w, %7w, %8w, %9w oder %10w wählen.
+
+%CPselect %0w %1w %2w %3w %4w %5w %6w %7w %8w %9w %10w %11w
+Select %0w, %1w, %2w, %3w, %4w, %5w, %6w, %7w, %8w, %9w, %10w or %11w.
+%0w, %1w, %2w, %3w, %4w, %5w, %6w, %7w, %8w, %9w, %10w oder %11w wählen.
+
+%CPselect %0w %1w %2w %3w %4w %5w %6w %7w %8w %9w %10w %11w %12w
+Select %0w, %1w, %2w, %3w, %4w, %5w, %6w, %7w, %8w, %9w, %10w, %11w or %12w.
+%0w, %1w, %2w, %3w, %4w, %5w, %6w, %7w, %8w, %9w, %10w, %11w oder %12w wählen.
+
+%CPselect %0w %1w %2w %3w %4w %5w %6w %7w %8w %9w %10w %11w %12w %13w
+Select %0w, %1w, %2w, %3w, %4w, %5w, %6w, %7w, %8w, %9w, %10w, %11w, %12w or %13w.
+%0w, %1w, %2w, %3w, %4w, %5w, %6w, %7w, %8w, %9w, %10w, %11w, %12w oder %13w wählen.
+
+%CLTLBXML GPI file
+XML GPI file 
+XML-GPI-Datei
+
+%CLTLBCSV File
+CSV File
+CSV-Datei
+
+%CLTLBMech Results Directory
+Mech Results Directory
+Mech Ergebnisverzeichnis
+
+%CLTLBLightworksArchive
+Lightworks Archive
+Lightworks-Archiv
+
+%CLTLBScene
+Render Scene
+Szene rendern
+
+%CLTLBECAD 3DIC 
+ECAD 3DIC
+ECAD 3DIC
+
+%CLTLBECAD 3DIC OA
+ECAD 3DIC OA
+ECAD 3DIC OA
+
+%CLTLBNASTRAN input
+NASTRAN input
+NASTRAN-Eingabe
+
+%%CLTLBParameter UI config
+Parameter UI config
+Konfiguration für Parameter-UI
+
+%CLTLBCSV Table Drawing
+CSV Table Drawing
+CSV-Tabellenzeichnung
+
+%CLTLBECAD EDA 
+ECAD EDA
+ECAD EDA
+
+%CLTLBHDR
+HDR
+HDR
+
+%CLTLBEXR
+EXR
+EXR
+
+%CIThese options control dimension tolerances
+These options control dimension tolerances
+Optionen steuern Bemaßungstoleranzen
+
+%CLa draft datum point
+a draft datum point
+2D-Bezugspunkt
+
+%CLan axis endpoint
+an axis endpoint
+Achsenendpunkt
+
+%CLaxis endpoints
+axis endpoints
+Achsenendpunkte
+
+%CLa coordinate system vector
+a coordinate system vector
+Koordinatensystemvektor
+
+%CLcoordinate system vectors
+coordinate system vectors
+Koordinatensystemvektoren
+
+%CLTLBParameter UI Config
+Parameter UI Config
+Konfiguration für Parameter-UI
+
+%CPEnter thickness [-QUIT-]:
+Enter thickness [-Quit-]:
+Dicke eingeben [-Abbruch-]:
+

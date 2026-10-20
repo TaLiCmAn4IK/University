@@ -1,0 +1,120 @@
+# {100} (100) [0] intf_profile.Label
+<file name> - Import Profile
+<ファイル名> - インポートプロファイル
+
+# [1] tb_psh_new.HelpText
+Opens a new blank import profile.
+新しい空のインポートプロファイルを開きます。
+
+# [2] tb_psh_open.HelpText
+Opens an existing import profile.
+既存のインポートプロファイルを開きます。
+
+# [3] tb_psh_save.HelpText
+Saves an import profile. 
+インポートプロファイルを保存します。 
+
+# [4] tb_psh_save_as.HelpText
+Saves an import profile under a different name.
+インポートプロファイルを別の名前で保存します。
+
+# [5] lay_profile_list.Label
+Profile
+プロファイル
+
+# [6] psh_profile_save.Label
+Save
+保存
+
+# [7] psh_profile_save.HelpText
+Saves option settings to the selected profile.
+選択したプロファイルにオプション設定を保存します。
+
+# [8] OkPshBtn.Label
+OK
+OK
+
+# [9] OkPshBtn.HelpText
+Keeps the changes.
+変更を保存します。
+
+# [10] CancelPshBtn.Label
+Cancel
+キャンセル
+
+# [11] CancelPshBtn.HelpText
+Cancels the changes.
+変更をキャンセルします。
+
+# [12] Menu_File.Label
+File
+ファイル
+
+# [13] psh_new.Label
+New
+新規
+
+# [14] psh_new.HelpText
+Opens a new blank import profile.
+新しい空のインポートプロファイルを開きます。
+
+# [15] psh_open.Label
+Open...
+オープン...
+
+# [16] psh_open.HelpText
+Opens an existing import profile.
+既存のインポートプロファイルを開きます。
+
+# [17] psh_save.Label
+Save
+保存
+
+# [18] psh_save.HelpText
+Saves an import profile. 
+インポートプロファイルを保存します。
+
+# [19] psh_save_as.Label
+Save As...
+名前を付けて保存...
+
+# [20] psh_save_as.HelpText
+Saves an import profile under a different name.
+インポートプロファイルを別の名前で保存します。
+
+# [21] psh_exit.Label
+Exit
+終了
+
+# [22] psh_exit.HelpText
+Exits from the import profile editor.
+インポートプロファイルエディタを終了します。
+
+# [23] Menu_Edit.Label
+Edit
+編集
+
+# [24] psh_reset.Label
+Reset to Default
+デフォルトにリセット
+
+# [25] psh_reset.HelpText
+Resets options back to their system defaults.
+オプションをシステムのデフォルト値にリセットします。
+
+# [26] psh_session_profile.Label
+Set per Current Profile
+カレントプロファイルに従って設定
+
+# [27] psh_session_profile.HelpText
+Sets options per Current Profile,\nwhich keeps the options' most recent \nused values.
+カレントプロファイルに従ってオプションが設定されます。\n最後に使用されたオプションの値が\n使用されます。
+
+# [28] psh_set_per_config.Label
+Set per Config Options
+コンフィグオプションに従って設定
+
+# [29] psh_set_per_config.HelpText
+Sets options that have corresponding\nconfig options per the config options'\nvalues in session. Resets other options\nback to their system defaults.
+対応するコンフィグオプションがあるオプションは\nセッション内のコンフィグオプションの値に従って\n設定されます。その他のオプションは\nシステムのデフォルト値にリセットされます。
+

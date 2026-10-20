@@ -1,0 +1,56 @@
+# {100} (100) [0] DsRadioSize.Labels.0
+Small (130 MB)
+Petite (130 Mo)
+
+# [1] DsRadioSize.Labels.1
+Medium (420 MB)
+Moyenne (420 Mo)
+
+# [2] DsRadioSize.Labels.2
+Large (1950 MB)
+Grande (1950 Mo)
+
+# [3] DsRadioSize.Labels.3
+Migrate
+Effectuer la migration
+
+# [4] RunCfg.Label
+Run INTRALINK Configuration
+Exécuter la configuration INTRALINK
+
+# [5] RunCfg.HelpText
+This option runs ds_install.  Uncheck this option only if you are using the \nMigration Procedure to Upgrade from a previous Release of Pro/INTRALINK.  \nSee Installation Guide for more details.
+Cette option exécute ds_install. Ne désactivez cette case à cocher que si vous utilisez la procédure de migration pour effectuer une mise à jour à partir d'une version précédente de Pro/INTRALINK. Pour plus d'informations, consultez le guide d'installation.
+
+# [6] LpLab.Label
+Directory for database files
+Répertoire des fichiers de la base de données
+
+# [7] LpBrowse.HelpText
+Browse for Installation Directory
+Parcourir le répertoire d'installation
+
+# [8] DSDiskSpaceLayout.Label
+Disk Space
+Espace disque
+
+# [9] SpaceAvailLab.Label
+Available on C: 9999GB
+Disponible sur C : 9999 Go
+
+# [10] SpaceReqLab.Label
+Required on C: 9999GB
+Requis sur C : 9999 Go
+
+# [11] scr_dataserver2.Label
+Instructions
+Instructions
+
+# [12] TextArea.Value
+Identify the location of the database files and choose the size of the database.\n\nFor specific instructions see the Help screen.
+Indiquer l'emplacement des fichiers de la base de données et la taille de la base de données.\n\nPour de plus amples renseignements, consultez l'écran d'aide.
+
+# [13] CompDescTA.Value
+Select a component or subcomponent to view its description.
+Sélectionner un composant ou sous-composant pour afficher sa description.
+

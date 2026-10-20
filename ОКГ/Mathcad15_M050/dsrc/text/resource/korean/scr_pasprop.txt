@@ -1,0 +1,44 @@
+# {100} (100) [0] scr_pasprop2.Label
+PAS Configuration Properties
+PAS 구성 등록정보
+
+# [1] HostnameLab.Label
+Fully Qualified Hostname
+완결된 등록 호스트이름
+
+# [2] WebUrlLab.Label
+Web server alias
+웹 서버 앨리어스
+
+# [3] ServletLab.Label
+Servlet engine alias
+Servlet engine 앨리어스
+
+# [4] PortLab.Label
+Port number
+포트 번호
+
+# [5] RevisionMapLab.Label
+Revision mapping ?
+개정 매핑 ?
+
+# [6] RevisionMap.Labels.1
+True
+True
+
+# [7] RevisionMap.Labels.0
+False
+False
+
+# [8] LogFile.Labels.1
+True
+True
+
+# [9] LogFile.Labels.0
+False
+False
+
+# [10] LogFileLab.Label
+Logfile ?
+로그파일 ?
+

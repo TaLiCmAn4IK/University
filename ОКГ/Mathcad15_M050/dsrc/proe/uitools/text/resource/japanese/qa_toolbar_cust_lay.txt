@@ -1,0 +1,12 @@
+# {100} (100) [0] lbl_customization_title.Label
+Customize The Quick Access Toolbar and keyboard shortcuts.
+クイックアクセスツールバーおよびキーボードショートカットをカスタム化します。
+
+# [1] chk_qa_toolbar_below.Label
+&Place quick Access Toolbar below the Ribbon
+クイックアクセスツールバーをリボンの下に配置(&P)
+
+# [2] chk_qa_toolbar_below.HelpText
+toggle the Quick Access Toolbar location.
+クイックアクセスツールバーの位置を切り替えます。
+

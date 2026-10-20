@@ -1,0 +1,12 @@
+# {100} (100) [0] Label1.Label
+Enter password for Oracle Administrative User 'SYSTEM' 
+輸入 Oracle 管理使用者'SYSTEM' 密碼
+
+# [1] InternalLab.Label
+Enter Database User password
+輸入資料庫使用者密碼
+
+# [2] lpcfg_orapwd3.Label
+Instructions
+指示
+

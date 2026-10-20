@@ -1,0 +1,60 @@
+# {100} (100) [0] scr_studentlic2.Label
+License Configuration
+许可证配置
+
+# [1] Label5.Label
+A. Automatically generate license file (online mode)
+A. 自动生成许可证文件 (在线模式)
+
+# [2] onlineModeLab.Label
+This mode requires an Internet connection to access PTC.com
+此模式需要 Internet 连接以访问 ptc.com
+
+# [3] ActivationCodeLab.Label
+Product Code
+产品代码
+
+# [4] Label9.Label
+Username
+用户名
+
+# [5] Label10.Label
+Password
+密码
+
+# [6] autoLicBttn.Label
+Generate License File
+生成许可证文件
+
+# [7] StudentLicFileLab.Label
+License File Path
+许可证文件路径
+
+# [8] Label6.Label
+B. Browse to local license file (offline mode)
+B. 浏览到本机许可证文件 (离线模式)
+
+# [9] scr_studentlic3.Label
+Specify License Server
+指定许可证服务器
+
+# [10] licServHost.Label
+Hostname
+主机名
+
+# [11] licServPort.Label
+Port
+端口
+
+# [12] licServLabel.Label
+License Server
+许可证服务器
+
+# [13] scr_studentlic4.Label
+Instructions
+指令
+
+# [14] TextArea.Value
+In the area below, please specify the mode to attain the license for your special edition in order to complete the installation.
+请在以下区域中为您的特殊版本指定许可证模式，以便完成安装。
+

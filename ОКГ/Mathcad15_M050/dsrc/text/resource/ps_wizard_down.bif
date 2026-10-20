@@ -1,0 +1,25 @@
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!
+!  License ordering - down arrow
+! 
+!  Date      Release   Name  Ver.   Comments
+!  --------- -------   ----  ----   --------
+!  29-Apr-03 K-01-06   TWH   $$1    Created
+!  25-Jul-03 K-01-11   TWH   $$2    New image from prod def
+!
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+(Image ps_wizard_down
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        0FFFFFFF03F0FD000D100D200DE0300D400D500D600D68018AA7C7C101780D88
+        0D9809680D980100337199BB0DCB0DD302333333A70D00B30D031DDB0DEB0DF7
+        0D431D171D2B1D00331D831D5B1DA31D771DC31D971DE31D00B31DCB1DDB1D23
+        2DF71D072D172D632D00732D432A582DA02DB02D842D942DE02D00F02D7009D4
+        2D1C3D2C3D003D103D5C3D006C3D7C3D8C3D9C3DAC3DBC3DCC3DDC3D
+    )
+)

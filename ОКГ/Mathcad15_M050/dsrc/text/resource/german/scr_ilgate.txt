@@ -1,0 +1,40 @@
+# {70126} (10) [0] scr_ilgate2.Label
+Gateways Settings
+Gateways-Einstellungen
+
+# [1] LogfileDirLab.Label
+Log File Directory
+Protokolldatei-Verzeichnis
+
+# [2] PubAgentLab.Label
+Publishing Agent
+Herausgebender Agent
+
+# [3] RevMapLab.Label
+Revision Mapping
+Änderungsstand-Mapping
+
+# [4] RevMapOption.ItemHelpText.ver_i
+VERSION_ITERATION
+VERSION_ITERATION
+
+# [5] RevMapOption.ItemHelpText.ver
+VERSION
+VERSION
+
+# [6] RevMapOption.ItemHelpText.none
+NONE
+KEINE
+
+# [7] RevMapOption.Labels.ver_i
+VERSION_ITERATION
+VERSION_ITERATION
+
+# [8] RevMapOption.Labels.ver
+VERSION
+VERSION
+
+# [9] RevMapOption.Labels.none
+NONE
+KEINE
+

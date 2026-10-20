@@ -1,0 +1,19 @@
+; 05-Apr-09 L-03-30  IKAL  $$1  Created.
+; 05-May-09 L-03-33  ALB   $$2  Modified image, added states.
+
+
+; ToggleButton
+
+[togglebutton]
+BackgroundImage = styles/col_sash/col_sash_right_arrow_wf5browser.png
+Size = 9, 94
+ContentMargins = 1, 1, 1, 1
+
+[togglebutton(hot)]
+BackgroundImage = styles/col_sash/col_sash_right_arrow_wf5browser_hot.png
+
+[togglebutton(checked)]
+BackgroundImage = styles/col_sash/col_sash_right_arrow_wf5browser_selected.png
+
+[togglebutton(pressed)]
+BackgroundImage = styles/col_sash/col_sash_right_arrow_wf5browser_pressed.png

@@ -1,0 +1,12 @@
+# {100} (100) [0] Label1.Label
+Enter password for Oracle Administrative User 'SYSTEM' 
+Введите пароль для имени 'SYSTEM' - администратора ORACLE 
+
+# [1] InternalLab.Label
+Enter Database User password
+Введите пароль пользователя Database
+
+# [2] lpcfg_orapwd3.Label
+Instructions
+Инструкции
+

@@ -1,0 +1,16 @@
+# {100} (100) [0] pro_help.Label
+Help Loadpoint Input
+输入帮助文件加载点
+
+# [1] Label1.Label
+Enter the Help URL or full path to Help installation directory
+输入帮助文件URL或帮助文件安装目录的完整路径
+
+# [2] StdOK.Label
+&OK
+确定(&O)
+
+# [3] StdCancel.Label
+&Cancel
+取消(&C)
+

@@ -1,0 +1,120 @@
+# {100} (100) [0] intf_profile.Label
+<file name> - Import Profile
+<file name> - 가져오기 프로파일
+
+# [1] tb_psh_new.HelpText
+Opens a new blank import profile.
+비어 있는 새 가져오기 프로파일을 엽니다.
+
+# [2] tb_psh_open.HelpText
+Opens an existing import profile.
+기존의 가져오기 프로파일을 엽니다.
+
+# [3] tb_psh_save.HelpText
+Saves an import profile. 
+가져오기 프로파일을 저장합니다.
+
+# [4] tb_psh_save_as.HelpText
+Saves an import profile under a different name.
+가져오기 프로파일을 다른 이름으로 저장합니다.
+
+# [5] lay_profile_list.Label
+Profile
+프로파일
+
+# [6] psh_profile_save.Label
+Save
+저장
+
+# [7] psh_profile_save.HelpText
+Saves option settings to the selected profile.
+선택된 프로파일에 옵션 설정을 저장합니다. 
+
+# [8] OkPshBtn.Label
+OK
+확인
+
+# [9] OkPshBtn.HelpText
+Keeps the changes.
+변경 사항을 유지합니다.
+
+# [10] CancelPshBtn.Label
+Cancel
+취소
+
+# [11] CancelPshBtn.HelpText
+Cancels the changes.
+변경 사항을 취소합니다.
+
+# [12] Menu_File.Label
+File
+파일
+
+# [13] psh_new.Label
+New
+새로 만들기
+
+# [14] psh_new.HelpText
+Opens a new blank import profile.
+비어 있는 새 가져오기 프로파일을 엽니다.
+
+# [15] psh_open.Label
+Open...
+열기...
+
+# [16] psh_open.HelpText
+Opens an existing import profile.
+기존의 가져오기 프로파일을 엽니다.
+
+# [17] psh_save.Label
+Save
+저장
+
+# [18] psh_save.HelpText
+Saves an import profile. 
+가져오기 프로파일을 저장합니다. 
+
+# [19] psh_save_as.Label
+Save As...
+다른 이름으로 저장...
+
+# [20] psh_save_as.HelpText
+Saves an import profile under a different name.
+가져오기 프로파일을 다른 이름으로 저장합니다.
+
+# [21] psh_exit.Label
+Exit
+종료
+
+# [22] psh_exit.HelpText
+Exits from the import profile editor.
+가져오기 프로파일 편집기에서 나갑니다.
+
+# [23] Menu_Edit.Label
+Edit
+편집
+
+# [24] psh_reset.Label
+Reset to Default
+기본값으로 재설정
+
+# [25] psh_reset.HelpText
+Resets options back to their system defaults.
+시스템 기본값으로 옵션을 재설정합니다.
+
+# [26] psh_session_profile.Label
+Set per Current Profile
+현재 프로파일별 설정
+
+# [27] psh_session_profile.HelpText
+Sets options per Current Profile,\nwhich keeps the options' most recent \nused values.
+현재 프로파일별로 옵션을\n설정하여 옵션에 최근 사용된 \n값으로 유지합니다.
+
+# [28] psh_set_per_config.Label
+Set per Config Options
+구성 옵션별 설정
+
+# [29] psh_set_per_config.HelpText
+Sets options that have corresponding\nconfig options per the config options'\nvalues in session. Resets other options\nback to their system defaults.
+실행 중인 구성 옵션의 값별로 해당\n구성 옵션이 있는 옵션을 설정합니다.\n시스템 기본값으로 복원하도록 다른\n옵션을 재설정합니다.
+

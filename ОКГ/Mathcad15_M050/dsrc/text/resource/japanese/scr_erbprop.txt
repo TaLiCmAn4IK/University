@@ -1,0 +1,16 @@
+# {0} (4) [0] scr_erbprop2.Label
+Windchill Info*Engine Settings
+Windchill Info*Engine の設定
+
+# [1] IEWebServerURLLab.Label
+Web Server URL
+Web サーバー URL
+
+# [2] IEWebServerPortNoLab.Label
+Web Server Port Number
+Web サーバーポート番号
+
+# [3] IETaskDirectoryAliasLab.Label
+Task Directory Alias
+タスクディレクトリエイリアス
+

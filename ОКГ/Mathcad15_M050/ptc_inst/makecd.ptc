@@ -1,0 +1,14 @@
+// 06-Feb-2004  K-01-25  $$1   JJE  Created
+// 27-Jun-08 L-03-12 $$2 TWH  New WelcomeImage
+// 27-Oct-10 L-03-41 $$3 TWH  Rebranding
+
+(Product makecd
+    (Name                      "Custom Installer")
+    (WelcomeImage              "makecd_name.png")
+    (Packages                  "ptcutil")
+    (ProgramFiles              True)
+    (LpDirName                 "ptc_custom")
+    (Screens                   "ScreenProd")
+    (VersionDir                False)
+    (ToolTipMsg                "@@Prod_makecd_Desc")
+)

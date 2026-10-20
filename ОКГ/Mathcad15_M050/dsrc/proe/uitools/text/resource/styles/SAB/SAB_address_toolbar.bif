@@ -1,0 +1,16 @@
+!  History:
+!
+!  Date      Release Name  Ver.  Comments
+!  --------- ------- ----- ----- ----------------------------------------------
+!  29-Oct-07 L-01-41 AW    $$1   Created
+!
+(Image SAB_address_toolbar
+    (Resources
+        (.Width     8)
+        (.Height    8)
+        (.Depth     8)
+    )
+    (Data
+        C613C3FF1313C3FF1313C3FF1313C3FF1313C3FF1313C3FFC613
+    )
+)

@@ -1,0 +1,72 @@
+# {0} (20) [0] StructUILab.Label
+Structure UI
+UI Structure
+
+# [1] StructEngLab.Label
+Structure Engine
+Motore Structure
+
+# [2] MotionUILab.Label
+Motion UI
+UI Motion
+
+# [3] MotionEngLab.Label
+Motion Engine
+Motore Motion
+
+# [4] ThermalUILab.Label
+Thermal UI
+UI Thermal
+
+# [5] ThermalEngLab.Label
+Thermal Engine
+Motore Thermal
+
+# [6] EqRuntimeLab.Label
+Equations Runtime
+Esecuzione equazioni
+
+# [8] TireModelLab.Label
+Tire Model
+Modello gomma
+
+# [9] StructUIModify.Label
+Modify
+Modifica
+
+# [10] StructEngModify.Label
+Modify
+Modifica
+
+# [11] MotionUIModify.Label
+Modify
+Modifica
+
+# [12] MotionEngModify.Label
+Modify
+Modifica
+
+# [13] ThermalUIModify.Label
+Modify
+Modifica
+
+# [14] ThermalEngModify.Label
+Modify
+Modifica
+
+# [15] EqRuntimeModify.Label
+Modify
+Modifica
+
+# [17] TireModelModify.Label
+Modify
+Modifica
+
+# [18] Label10.Label
+Mechanica Module
+Modulo Mechanica
+
+# [19] Label11.Label
+Licenses associated with the module
+Licenze associate al modulo
+

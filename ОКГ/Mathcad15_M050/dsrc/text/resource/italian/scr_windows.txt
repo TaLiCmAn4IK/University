@@ -1,0 +1,52 @@
+# {100} (100) [0] ShortcutLayout.Label
+Windows Shortcut Preferences
+Preferenze scelte rapide Windows
+
+# [1] FolderLab.Label
+Program Folder
+Cartella Programmi
+
+# [2] StartInDirLab.Label
+Startup Directory
+Directory di avvio
+
+# [3] LocationLab.Label
+Shortcut Location(s)
+Posizioni scelte rapide
+
+# [4] ScDesktop.Label
+Desktop
+Desktop
+
+# [5] ScStartMenu.Label
+Start Menu
+Menu Start
+
+# [6] ScProgramFolder.Label
+Program folder
+Cartella Programmi
+
+# [7] ScQuickLaunch.Label
+Quick Launch
+Avvio rapido
+
+# [8] StartinDirWarning.Label
+Define the startup directory to a location where all users have read-write access.
+Definire la directory di avvio in una posizione accessibile in lettura-scrittura da tutti gli utenti.
+
+# [9] PathLayout.Label
+Windows Environment Preferences
+Preferenze di ambiente Windows
+
+# [10] PathChoice.Labels.systempath
+Modify system environment for all users
+Modifica ambiente sistema per tutti gli utenti
+
+# [11] PathChoice.Labels.userpath
+Modify current user's environment only
+Modifica solamente l'ambiente dell'utente corrente
+
+# [12] scr_windows3.Label
+Instructions
+Istruzioni
+

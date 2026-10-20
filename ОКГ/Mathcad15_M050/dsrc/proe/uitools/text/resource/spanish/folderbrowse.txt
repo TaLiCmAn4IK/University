@@ -1,0 +1,204 @@
+# {100} (100) [0] working_dir0.Label
+Extra Directory
+Directorio adicional
+
+# [1] lbl_common_places.Label
+Common Folders
+Carpetas comunes
+
+# [2] folders.TreeNodeTypeHelpTexts.1:
+part
+pieza
+
+# [3] folders.TreeNodeTypeHelpTexts.2:
+assembly
+conjunto
+
+# [4] folders.TreeNodeTypeHelpTexts.3:
+drawing
+plano
+
+# [5] folders.TreeNodeTypeHelpTexts.4:
+drawform
+formato de plano
+
+# [6] folders.TreeNodeTypeHelpTexts.5:
+manufacturing
+mecanizado
+
+# [7] folders.TreeNodeTypeHelpTexts.6:
+directory
+directorio
+
+# [8] folders.TreeNodeTypeHelpTexts.7:
+foreign
+externo
+
+# [9] folders.TreeNodeTypeHelpTexts.8:
+other ptc file
+otros ficheros PTC
+
+# [10] folders.TreeNodeTypeHelpTexts.9:
+markup
+anotación
+
+# [11] folders.TreeNodeTypeHelpTexts.10:
+layout
+esquema
+
+# [12] folders.TreeNodeTypeHelpTexts.11:
+diagram
+diagrama
+
+# [13] folders.TreeNodeTypeHelpTexts.12:
+report
+informe
+
+# [14] folders.TreeNodeTypeHelpTexts.13:
+2D section
+sección 2D
+
+# [15] folders.TreeNodeTypeHelpTexts.14:
+3D section
+sección 3D
+
+# [16] folders.TreeNodeTypeHelpTexts.15:
+sketcher
+esbozo
+
+# [17] folders.TreeNodeTypeHelpTexts.16:
+param mill
+fresado param.
+
+# [18] folders.TreeNodeTypeHelpTexts.17:
+param turn
+torneado param.
+
+# [19] folders.TreeNodeTypeHelpTexts.18:
+param drill
+taladro param.
+
+# [20] folders.TreeNodeTypeHelpTexts.19:
+param aux
+aux parám.
+
+# [21] folders.TreeNodeTypeHelpTexts.20:
+param cel
+celda param.
+
+# [22] folders.TreeNodeTypeHelpTexts.21:
+param opr
+operación parám.
+
+# [23] folders.TreeNodeTypeHelpTexts.22:
+param mea
+medida parám.
+
+# [24] folders.TreeNodeTypeHelpTexts.23:
+tool param
+parám. de herramienta
+
+# [25] folders.TreeNodeTypeHelpTexts.24:
+mfg mold
+moldeo mzdo.
+
+# [26] folders.TreeNodeTypeHelpTexts.25:
+mfg cast
+colada mzdo.
+
+# [27] folders.TreeNodeTypeHelpTexts.26:
+skeleton
+esqueleto
+
+# [28] folders.TreeNodeTypeHelpTexts.27:
+diagram mvc def
+def. diagrama CVM
+
+# [29] folders.TreeNodeTypeHelpTexts.28:
+comp group def
+def. grupo componetes
+
+# [30] folders.TreeNodeTypeHelpTexts.1015:
+directory
+directorio
+
+# [31] folders.TreeNodeTypeHelpTexts.1016:
+directory
+directorio
+
+# [32] folders.TreeNodeTypeHelpTexts.1017:
+directory
+directorio
+
+# [33] folders.TreeNodeTypeHelpTexts.1018:
+directory
+directorio
+
+# [34] folders.TreeNodeTypeHelpTexts.1019:
+directory
+directorio
+
+# [35] folders.TreeNodeTypeHelpTexts.1020:
+directory
+directorio
+
+# [36] folders.TreeNodeTypeHelpTexts.1021:
+directory
+directorio
+
+# [37] folders.TreeNodeTypeHelpTexts.1022:
+directory
+directorio
+
+# [38] folders.TreeNodeTypeHelpTexts.1023:
+directory
+directorio
+
+# [39] folders.TreeNodeTypeHelpTexts.1024:
+directory
+directorio
+
+# [40] folders.TreeNodeTypeHelpTexts.1025:
+directory
+directorio
+
+# [41] folders.TreeNodeTypeHelpTexts.1026:
+Network Neighborhood
+Entorno de red
+
+# [42] folders.TreeNodeTypeHelpTexts.1027:
+directory
+directorio
+
+# [43] folders.TreeNodeTypeHelpTexts.1028:
+Desktop
+Escritorio
+
+# [44] folders.TreeNodeTypeHelpTexts.1029:
+Computer
+Ordenador
+
+# [45] folders.TreeNodeTypeHelpTexts.1030:
+directory
+directorio
+
+# [46] folders.TreeNodeTypeHelpTexts.1031:
+directory
+directorio
+
+# [47] folders.TreeNodeTypeHelpTexts.1032:
+directory
+directorio
+
+# [48] FT_Expand_Btn.Label
+Folder Tree
+Árbol de carpetas
+
+# [49] psh_new_folder.HelpText
+Create a new folder
+Crear una carpeta nueva
+
+# [50] psh_delete_folder.HelpText
+Delete selected folders
+Borrar las carpetas seleccionadas
+

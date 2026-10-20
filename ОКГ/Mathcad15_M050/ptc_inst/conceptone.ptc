@@ -1,0 +1,69 @@
+// 28-Nov-01 $$1  OTT  Created.
+// 10-Jul-02 $$2  OTT  Change ConceptONE to concept
+// 24-Jul-02 $$3  OTT  use ptchostid instead of cpu_id. Add Tutorial
+// 04-Mar-03 K-01-06  $$4  TWH  LpcfgWindows->ScreenWindows
+// 21-Jul-03 K-01-11 $$5   JJE  Add ptcborrow and ptcreturn scripts
+// 06-Oct-03 K-01-16       TWH/OTT  Add ProductInteraction
+// 06-Oct-03 K-01-16  $$6  TWH/OTT  Add addlist; Add LpcfgInterOpt
+// 15-Dec-03 K-01-20 $$7  MAZ  Remove borrow scripts
+// 15-Mar-04 K-01-25 $$8  TWH  New Ad list
+// 08-Jan-05 K-03-17 $$9  MCS  Remove LpcfgInterOpt.
+// 12-Mar-07 L-01-28 $$10 JJE  Update Ad_list
+// 18-Dec-08 L-03-23 $$11  TWH  Drop LpcfgProHelp
+
+(Product conceptone
+    (Name                      "Pro|CONCEPT")
+    (Packages                  "conceptone" 
+                               "ptcutil"
+                               "uninstall")
+    (ProgramFiles              False)
+    (LpDirName                 "concept")
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+    (Ad_list                   "concept_01"
+                               "concept_02"
+                               "concept_03"
+                               "concept_04"
+                               "concept_05"
+                               "concept_06")
+)
+
+(Package conceptone
+    (Name                      "Pro|CONCEPT")
+    (Screens                   "ScreenLicList"
+                               "ScreenWindows"
+                               "ScreenDftCmds"
+                               "LpcfgCmdList"
+                               "LpcfgLinkpath"
+                               "LpcfgBrowser")
+    (CmdTypes                  "concept")
+    (Binscripts                "ptchostid"
+                               "ptcflush"
+                               "ptcstatus")
+    (Cdsections                "3dpaint Tree"
+                               "3dpaint"
+                               "painthelp"
+                               "Demos"
+                               "Tutorial"
+                               "Install"
+                               "flexclient")
+    (Installed                 True)
+)
+
+(Package demos
+    (Name                      "Demo Files")
+    (Installed                 False)
+    (Cdsections                "Demos")
+)
+
+(CmdType concept
+    (Name                      "concept")
+    (Type                      "CONCEPT")
+    (Prefixes                  "CONCEPT_")
+    (Featvars                  "__CONCEPT_FEATURE_NAME__")
+    (Template                  "conceptone_start")
+    (IconPath                  "_LP_\install\nt\concept.ico")
+    (IconIndex                 "0")
+    (UseExtensions             False)
+    (UseOptions                False)
+)

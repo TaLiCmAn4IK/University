@@ -1,0 +1,55 @@
+// 14-Jul-01 $$1  TWH  Created
+// 25-Jul-01      TWH  Enhancements
+// 02-Aug-01 $$2  TWH  Add PossibleLangs
+//           $$3  JJE  Fix missing comment number
+// 31-Jan-02 $$4  MAZ  Use ptchostid script
+// 21-Jul-03 K-01-11 $$5   JJE  Add ptcborrow and ptcreturn scripts
+// 15-Dec-03 K-01-20 $$6  MAZ  Remove borrow scripts
+
+(Product cnvclient
+    (Name                "Pro/CONVERT Client")
+    (Packages            "clientpkg")
+    (ProgramFiles        False)
+    (LpDirName           "procnvt")
+    (Screens             "ScreenProd")
+    (Installed           True)
+    (SaveList            "text/pdmlog.txt"
+                         "text/pdmpath.txt"
+                         "text/pdmtrans.txt"
+                         "text/server_config.pdm"
+                         "text/server_log"
+                         "pdm/text/pdm_major_rev.txt"
+                         "pdm/text/pdm_minor_rev.txt"
+                         "pdm/text/usascii/views"
+                         "pdm/text/japanese/views"
+                         "pdm/text/french/views"
+                         "pdm/text/german/views"
+                         "pdm/text/spanish/views")
+    (PossibleLangs       "usascii"
+                         "french"
+                         "german"
+                         "japanese")
+    (ScreenPdmPort.UsePortLayout True)
+)
+
+(Package clientpkg
+    (Name                "Pro/CONVERT Client")
+    (Screens             "ScreenPdmPort"
+                         "ScreenDbssvr")
+    (Required            True)
+    (Cdsections          "convertclient"
+                         "oraruntime"
+                         "Install"
+                         "PdmK"
+                         "flexclient")
+    (Binscripts          "ptchostid"
+                         "cnvpdm_startup"
+                         "pdmshell"
+                         "ptcflush"
+                         "ptcstatus"
+                         "tnsping"
+                         "replicate_folder")
+    (Installed           True)
+    (Required            True)
+)
+

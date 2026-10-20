@@ -1,0 +1,7 @@
+// 17-Jan-00 $$1  JJE  Created.
+
+(Package painthelp
+    (Name                      "3DPAINT Help Files")
+    (Installed                 True)
+    (Cdsections                "painthelp")
+)

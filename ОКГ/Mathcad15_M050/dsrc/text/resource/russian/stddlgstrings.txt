@@ -1,0 +1,192 @@
+# {100} (100) [0] Label1.Label
+Color
+Цвет
+
+# [1] Label2.Label
+Settings
+Настройки
+
+# [2] Label3.Label
+&Red
+&Красный
+
+# [3] Label4.Label
+&Green
+&Зеленый
+
+# [4] Label5.Label
+&Blue
+&Синий
+
+# [5] Label6.Label
+Color:
+Цвет:
+
+# [6] Label7.Label
+Basic colors
+Основные цвета
+
+# [7] Label8.Label
+Custom colors
+Настроенные цвета
+
+# [8] Label9.Label
+OK
+OK
+
+# [9] Label10.Label
+Apply the changes and quit the window
+Принять изменения и выйти из окна
+
+# [10] Label11.Label
+Cancel
+Отмена
+
+# [11] Label12.Label
+Abort changes and quit the window
+Прервать изменения и покинуть окно
+
+# [12] Label13.Label
+Choose Directory
+Выбрать папку
+
+# [13] Label14.Label
+&Path
+&Путь
+
+# [14] Label15.Label
+&OK
+&OK
+
+# [15] Label16.Label
+&Cancel
+О&тмена
+
+# [16] Label17.Label
+&Directories
+К&аталоги
+
+# [17] Label18.Label
+Dri&ves:
+&Диски:
+
+# [18] Label19.Label
+Open File
+Открыть файл
+
+# [19] Label20.Label
+File &Name:
+&Имя файла:
+
+# [20] Label21.Label
+List Files of &Type:
+Список файлов &типа:
+
+# [21] Label22.Label
+&Folders:
+Пап&ки:
+
+# [22] Label23.Label
+cwd
+cwd
+
+# [23] Label24.Label
+Find
+Поиск
+
+# [24] Label25.Label
+Match &Whole Word Only
+Сравнивать только &целое слово
+
+# [25] Label26.Label
+Match &Case
+С учетом &регистра
+
+# [26] Label27.Label
+Regular &Expression
+Обычное &выражение
+
+# [27] Label28.Label
+Direction
+Направление
+
+# [28] Label29.Label
+&Up
+&Вверх
+
+# [29] Label30.Label
+&Down
+В&низ
+
+# [30] Label31.Label
+&Find Next
+&Найти следующий
+
+# [31] Label32.Label
+Replace &All
+За&менить все
+
+# [32] Label33.Label
+Fi&nd What:
+Что ис&кать:
+
+# [33] Label34.Label
+Re&place With:
+Зам&енить на:
+
+# [34] Label35.Label
+&Replace
+&Заменить
+
+# [35] Label36.Label
+Replace
+Заменить
+
+# [36] Label37.Label
+Font
+Шрифт
+
+# [37] Label38.Label
+&Font:
+&Шрифт:
+
+# [38] Label39.Label
+St&yle:
+Ст&иль:
+
+# [39] Label40.Label
+&Size:
+Ра&змер:
+
+# [40] Label41.Label
+Sample
+Выборка
+
+# [41] Label42.Label
+Error
+Ошибка
+
+# [42] Label43.Label
+&Abort
+&Прервать
+
+# [43] Label44.Label
+&Retry
+&Повторить
+
+# [44] Label45.Label
+&Ignore
+И&гнорировать
+
+# [45] Label46.Label
+&Yes
+&Да
+
+# [46] Label47.Label
+&No
+&Нет
+
+# [47] Label48.Label
+Confirm
+Подтвердить
+

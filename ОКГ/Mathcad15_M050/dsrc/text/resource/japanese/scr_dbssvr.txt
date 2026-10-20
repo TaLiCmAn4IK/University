@@ -1,0 +1,20 @@
+# {100} (100) [0] scr_dbssvr3.Label
+Instructions
+インストラクション
+
+# [1] Label6.Label
+Data Server Hostname
+データサーバーホスト名
+
+# [2] Label5.Label
+Server Type:
+サーバータイプ:
+
+# [3] MS_SS_Radio.Labels.MS
+Multi-Site
+マルチサイト
+
+# [4] MS_SS_Radio.Labels.SS
+Single-Site
+シングルサイト
+

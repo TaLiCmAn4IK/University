@@ -1,0 +1,32 @@
+# {100} (100) [0] adb_CmdCopyImage.Label
+Copy Button Image
+Копировать изображение кнопки
+
+# [1] adb_CmdDisplayType.Labels.DefaultStyle
+Default Style
+Стиль по умолчанию
+
+# [2] adb_CmdDisplayType.Labels.Small
+Small Button
+Малая кнопка
+
+# [3] adb_CmdDisplayType.Labels.SmallImageOnly
+Small Button - No Label
+Малая кнопка - нет метки
+
+# [4] adb_CmdDisplayType.Labels.SmallTextOnly
+Small Button - No Icon
+Малая кнопка - нет значка
+
+# [5] adb_CmdDisplayType.Labels.Large
+Large Button
+Большая кнопка
+
+# [6] adb_CmdWhatsThis.Label
+What's This?
+Что это?
+
+# [7] adb_CmdWhatsThis.HelpText
+Tells what this button does
+Рассказывает, что делает данная кнопка
+

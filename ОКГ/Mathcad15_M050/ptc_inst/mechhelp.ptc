@@ -1,0 +1,12 @@
+// 02-Apr-02 $$1  TWH  Created.
+// 12-Jul-02 $$2  JJE  Fix name to Name
+// 16-Oct-03 K-01-16+  $$3  MAZ  SPR 1055312: use Mechanica in pkg name
+// 08-May-06 L-01-08   $$4  JJE  Change name
+// 27-Oct-10 L-03-41   $$5  TWH  Rebranding
+// 01-Dec-10 L-03-42   $$6  TWH  rebranding
+
+(Package mechhelp
+	(Name		"Creo Elements/Pro Mechanica independent Mode Help Files")
+	(Cdsections	"mechhelp")
+	(Installed	False)
+)

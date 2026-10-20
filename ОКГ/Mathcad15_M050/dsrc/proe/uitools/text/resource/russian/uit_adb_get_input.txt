@@ -1,0 +1,24 @@
+# {100} (100) [0] uit_adb_get_input.Label
+Get Input
+Получить Ввод
+
+# [1] inp_panel_lay.Label
+Please input new label:
+Введите новую метку:
+
+# [2] inp_panel.Value
+new_name
+новое_имя
+
+# [3] inp_panel.HelpText
+Rename the Menu or Cascade menu
+Переименовать меню или каскадное меню
+
+# [4] btnOK.Label
+OK
+OK
+
+# [5] btnCancel.Label
+Cancel
+Отмена
+

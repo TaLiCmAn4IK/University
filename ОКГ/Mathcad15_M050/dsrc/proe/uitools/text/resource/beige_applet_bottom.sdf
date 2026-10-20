@@ -1,0 +1,28 @@
+; Applet bottom half layout
+;
+; 24-Aug-08 L-03-16 Asaf  $$1   Created (from PV, then PD)
+;
+
+[layoutbody]
+ContentMargins = 4, 0, 4, 3
+SizingMargins = 3, 0, 3, 3
+;TextColor = 51 94 168
+BackgroundImage = styles/ribbon/beige/ribbonappletbottom.png
+
+[toolbutton]
+ContentMargins 2, 2, 2, 2
+SizingMargins 1, 1, 1, 1
+Size = 16, 16
+BackgroundImage = styles/ribbon/blank.png
+
+[toolbutton(hot)]
+ContentMargins = 3, 2, 2, 2
+SizingMargins  = 2, 2, 2, 2
+SizingType = Stretch
+BackgroundImage = styles/ribbon/beige/toolbuttonhot.png
+
+[toolbutton(pressed)]
+ContentMargins  = 2, 2, 3, 2
+SizingMargins  = 2, 2, 2, 2
+SizingType = Stretch
+BackgroundImage = styles/ribbon/beige/toolbuttonpressed.png

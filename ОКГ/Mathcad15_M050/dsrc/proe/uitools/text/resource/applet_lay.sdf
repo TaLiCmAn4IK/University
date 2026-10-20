@@ -1,0 +1,10 @@
+; Applet upper half layout
+;
+; 13-Dec-06 L-01-26 AW    $$1   Created
+;
+
+[layout]
+ContentMargins = 4, 3, 4, 3
+SizingMargins = 3, 3, 3, 3
+;TextColor = 51 94 168
+BackgroundImage = styles/ribbon/ribbonappletlay.bif

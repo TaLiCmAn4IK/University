@@ -1,0 +1,103 @@
+// 12-Apr-99 $$1  JJE  Created.
+// 11-May-99 $$2  TWH  Add ScreenFlexCk LpcfgFlexCfg
+// 30-Sep-99 $$3  MAZ  Add uninstall pkg
+// 15-Dec-99 $$4  JJE  Add ptc prefix
+// 15-Dec-99 $$5  MYA  Set version dir to false
+// 21-Dec-99 $$6  JJE  Add linkpath screen
+// 10-Jan-00      TWH  Add Version float as string;lmtools
+// 11-Jan-00 $$7  MAZ  Add shortcut to lmtools
+// 31-Jan-00 $$8  JJE  Use ptc for icon name
+// 22-Mar-00 $$9  TWH  Drop ScreenFlexFW
+// 15-May-00 $$10 JJE  Possible langs are just usascii
+// 17-Aug-00 $$11 TWH  Fix case of key names
+// 26-Oct-01 $$12 ALG  SPR 903758: Change flexlm.Version 7.0 -> 7.2
+// 12-Nov-01 $$13 MAZ  SPR 901847: Don't select product by default
+// 31-Jan-02 $$14 MAZ  Use ptchostid script
+// 01-Apr-02 $$15 JJE  Change product name
+// 10-Jul-02 $$16 MAZ  Use new ptclogo.ico icon
+// 08-Aug-02 $$17 JJE  Rm ptcmonitor
+// 25-Oct-02 $$18 MAZ  SPR 985733: use UseInstallDirKey for one install/machine
+// 29-Apr-03 K-01-06 $$19  TWH  Use ScreenProdFlex
+// 19-May-03 K-01-07 $$20  TWH  Add Advert image list
+// 21-Jul-03 K-01-11 $$21  JJE  Add ptcborrow and ptcreturn scripts
+// 25-Aug-03 K-01-13 $$22  TWH  Add WelcomeImage
+// 17-Sep-03 K-01-15 $$23  TWH  Update ad list
+// 07-Oct-03 K-01-16 $$24  TWH  Update ad list
+// 14-Oct-03 K-01-16 $$25  JJE  Remove borrow scripts for now
+// 19-Feb-04 K-01-24 $$26  TWH  Replace ptclogo.ico with license_server.ico
+// 15-Mar-04 K-01-25 $$27  TWH  New Ad list
+// 28-Feb-05 K-03-20 $$28  TWH  New Ad list
+// 04-Aug-05 K-03-30 $$29  TWH  FLEXlm -> FLEXnet
+// 21-Dec-07 L-01-41 $$30  TWH  New Ad_list
+// 15-Jan-2008 L-01-42+  TWH  $$31  Rename Ads files
+// 27-Jun-08 L-03-12 $$32 TWH  New WelcomeImage
+// 27-Jul-09 L-03-34 $$33 TWH  Update WF5 images
+// 04-Nov-09 L-03-36 $$34 TWH  Update WF5 images
+
+(Product flexlm
+    (Name                      "PTC License Server") 
+    (WelcomeImage              "flexlm_name.png")
+    (Packages                  "flexlm_pkg" 
+                               "uninstall" 
+                               "ptcutil")
+    (ProgramFiles              True)
+    (LpDirName                 "flexnet")
+    (Screens                   "ScreenProdFlex")
+    (Installed                 False)
+    (VersionDir                False)
+    (Version                   "7.2")
+    (PossibleLangs             "usascii")
+    (UseInstallDirKey          True)
+(Ad_list                    "WF5_101"
+                               "WF5_102"
+                               "WF5_103"
+                               "WF5_104"
+                               "WF5_201"
+                               "WF5_202"
+                               "WF5_203"
+                               "WF5_204"
+                               "WF5_301"
+                               "WF5_302"
+                               "WF5_303"
+                               "WF5_304"
+                               "WF5_401"
+                               "WF5_402"
+                               "WF5_403"
+                               "WF5_501"
+                               "WF5_502"
+			       "WF5_503"
+			       "WF5_601"
+                               "WF5_602"
+                               "WF5_603"
+                               "WF5_701"
+                               "WF5_702"
+			       "WF5_703"
+			       "WF5_801"
+                               "WF5_802"
+                               "WF5_803"
+                               "WF5_901"
+                               "WF5_902"
+			       "WF5_903")
+)
+
+(Package flexlm_pkg
+    (Name                      "FLEXnet License Server")
+    (Cdsections                "flexserver"
+                               "Install")
+    (Binscripts                "ptchostid"
+                               "lmutil"
+                               "lmtools"
+                               "ptcflush"
+                               "ptcshutdown"
+                               "ptcstartserver"
+                               "ptcstatus")
+    (Installed                 True)
+    (CmdTypes                  "lmtools")
+)
+(CmdType lmtools 
+    (Name                      "_PROD_NAME_ tools")
+    (Type                      "Shortcut")
+    (CmdPath                   "_LP_\_ARCH_\obj\lmtools.exe")
+    (IconPath                  "_LP_\install\nt\license_server.ico")
+    (IconIndex                 "0")
+)

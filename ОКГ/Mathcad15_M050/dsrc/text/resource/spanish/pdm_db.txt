@@ -1,0 +1,24 @@
+# {0} (6) [0] pdm_db.Label
+Select Installation Directory
+Seleccionar el directorio de instalación
+
+# [1] Label1.Label
+Enter Path to PDM Database.
+Introducir ruta de la base de datos PDM.
+
+# [2] StdOK.Label
+&OK
+&Aceptar
+
+# [3] StdCancel.Label
+&Cancel
+&Cancelar
+
+# [4] DbDirBrowse.Label
+&Browse
+&Inspeccionar
+
+# [5] Label2.Label
+Select Browse for a directory browser
+Seleccione "Inspeccionar" para navegar por los directorios
+

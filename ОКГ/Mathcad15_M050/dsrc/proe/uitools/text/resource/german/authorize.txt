@@ -1,0 +1,24 @@
+# {100} (100) [0] authorize.Label
+Authorization
+Berechtigung
+
+# [1] Authorize_Label_Username.Label
+Username:
+Benutzername:
+
+# [2] Authorize_Label_Password.Label
+Password:
+Passwort:
+
+# [3] Authorize_PB_OK.Label
+&OK
+&OK
+
+# [4] Authorize_PB_Cancel.Label
+&Cancel
+&Abbrechen
+
+# [5] Label1.Label
+Please type your user name and password.
+Benutzernamen und Passwort eingeben.
+

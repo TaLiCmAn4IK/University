@@ -1,0 +1,3412 @@
+%CI Compiling & linking completed successfully.
+ Compiling & linking completed successfully.
+ 编译和连接成功完成。
+
+%CP Regenerate to display results.
+ Regenerate to display results.
+ 再生以显示结果。
+
+%CI User program execution completed successfully.
+ User program execution completed successfully.
+ 用户程序的执行成功完成。
+
+%CI%0d Point specified
+%0d Point specified
+指定%0d点
+
+%CI%0d Points specified
+%0d Points specified
+指定 %0d 个点
+
+%CW%0d areas are different.
+%0d areas are different.
+%0d 面积不同。
+
+%CW%0d pixels are different.
+%0d pixels are different.
+%0d 象素不同。
+
+%CP%0s group already exists. Renter name [QUIT]:
+%0w group already exists. Renter name [Quit]
+%0w 组已经存在了。重新输入名称[退出]
+
+%CP%0s group does not exist. Renter name [QUIT]:
+%0w group does not exist. Renter name [Quit]
+%0w 组不存在。重新输入名称[退出]
+
+%CP%0s. Reedit ? [Y]:
+%0s. Reedit ?|||Yes
+%0s。重编辑否?|||是
+
+%CE%0w is a viewonly drawing and cannot be saved.
+%0w is a viewonly drawing and cannot be saved.
+%0w是一只显绘图，不能存盘。
+
+%CI%0w.img has been created.
+%0w.img has been created.
+%0w.img已经创建。
+
+%CI%0w.pic has been created.
+%0w.pic has been created.
+%0w.pic已经创建。
+
+%CP%s has been read in to the drawing. Redraw to display any changes.
+%0w has been read. Repaint if required
+%0w已被读取。需要则重画
+
+%CIA total of %0d partitions were created.
+A total of %0d partitions were created.
+创建了总计%0d的分割。
+
+%CWAccuracy not changed
+Accuracy has not been changed.
+精度未更改。
+
+%CPAll break-outs deleted.  Retain cross-section ?
+All breakouts are deleted.  Do you want it to be a full section view?|||No
+所有间断都删除了。是否想获得一全剖视图?|||否
+
+%CIAll layouts referenced by model %0s will also be retrieved.
+All layouts referenced by model %0w will also be retrieved.
+所有被模型%0w参照的布局也将被检索。
+
+%CIAll layouts referenced by model %0w will also be stored.
+All layouts referenced by model %0w will also be stored.
+所有模型%0w参照的布局都将被存储。
+
+%CWAll loops are not continuous.
+All loops are not continuous.
+所有环均不是连续的。
+
+%CIAll surfaces selected.
+All surfaces selected.
+选取了所有曲面。
+
+%CEAll the entities must be tangent, projected along pivot direction.
+All the entities must be tangent, projected along pivot direction.
+所有图元必须相切，沿轴枢方向投影。
+
+%CEAll the entities must be tangent.
+All the entities must be tangent.
+所有图元都必须相切。
+
+%CPApproximate
+Approximate
+逼近
+
+%CPAre you going to classify any general assembly component as a workpiece? [Y]:
+Are you going to classify any general assembly component as a workpiece?|||Yes
+是否将把任何普通组件元件分类为工件?|||是
+
+%CPAssembly features require unexploded assembly. Unexplode? [y]:
+Assembly features require unexploded assembly. Unexplode?|||Yes
+组件特征要求重组的组件。重组否?|||是
+
+%CECan NOT select relation driven dimension.
+Can NOT select relation driven dimension.
+不能选取关系驱动的尺寸。
+
+%CECan not insert into group or pattern features.
+Can not insert into group or pattern features.
+不能插入到组或阵列特征。
+
+%CECan not insert into merged features.
+Can not insert into merged features.
+不能插入到合并的特征的中。
+
+%CECan not use multi-point datum arrays as thru-points for datum planes.
+Can not use multi-point datum arrays as thru-points for datum planes.
+不能用复合点基准阵列作为基准平面的经过点。
+
+%CECannot declare items; Instances currently in session.
+Cannot declare items; Instances currently in session.
+不能声明项目; 实例当前在会话中。
+
+%CECannot exceed maximum of %0d sections.
+Cannot exceed maximum of %0d sections.
+最大不能超过%0d截面。
+
+%CECannot intersect or split spline approx. chain element.
+Cannot intersect or split spline approx. chain element.
+不能用逼近链成员相交或分割样条。
+
+%CECannot intersect or split spline control polygon element.
+Cannot intersect or split spline control polygon element.
+不能相交或分割样条控制多边形元素。
+
+%CECannot intersect or split spline with approx. chain.
+Cannot intersect or split spline with approx. chain.
+不能用逼近链相交或分割样条。
+
+%CECannot intersect or split spline with control polygon.
+Cannot intersect or split spline with control polygon.
+不能相交或分割带有控制多边形的样条。
+
+%CECannot modify spline with approx. chain.
+Cannot modify spline with approx. chain.
+不能用近似链修改样条。
+
+%CECannot modify spline with dimensions to control polygon entities.
+Cannot modify spline with dimensions to control polygon entities.
+不能将带有尺寸的样条修改为控制多边形图元。
+
+%CECannot move points when section plane is normal to screen.
+Cannot move points when section plane is normal to screen.
+当截平面垂直于屏幕时不能移动点。
+
+%CPCannot pick plane parallel to placement plane, select again
+Cannot pick plane parallel to placement plane, select again.
+不能拾取平行于放置平面的平面，再选。
+
+%CECannot project onto this surface.
+Cannot project onto this surface.
+不能投影到这一曲面上。
+
+%CECannot trim spline approx. chain element.
+Cannot trim spline approx. chain element.
+不能用逼近链元素修剪样条。
+
+%CECannot trim spline control polygon element.
+Cannot trim spline control polygon element.
+不能修剪样条控制多边形元素。
+
+%CECannot trim spline with approx. chain.
+Cannot trim spline with approx. chain.
+不能用逼近链修剪样条。
+
+%CECannot trim spline with control polygon.
+Cannot trim spline with control polygon.
+不能修剪带有控制多边形的样条。
+
+%CECannot trim spline with curvature dimensions.
+Cannot trim spline with curvature dimensions.
+不能修剪带有曲率尺寸的样条。
+
+%CECannot trim: entity has unremovable dimensions/alignments at selected point.
+Cannot trim: entity has unremovable dimensions/alignments at selected point.
+无法修剪: 图元在选定点处有不可移除的尺寸/对齐。
+
+%CECell region is not legally bounded.
+Cell region is not legally bounded.
+单元区域没有正确界定。
+
+%CPChange relative accuracy ("1.0" allows "roughest" sketching) [%0f]:
+Change relative accuracy ("1.0" allows "roughest" sketching)|||%0f
+更改相对精度("1.0" 允许"最粗糙"的草绘)|||%0f
+
+%CPChanging accuracy will cause full part regeneration, continue ? [y/n]
+Changing accuracy will cause full part regeneration, continue?|||Yes
+更改精度将引起整个零件再生，是否继续?|||是
+
+%CPChoose delete option for group displayed in blue.
+Choose delete option for group displayed in blue.
+为蓝色显示的组选取删除选项。
+
+%CECircle entities must be Intersected/Divided before they can be trimmed.
+Circle entities must be Intersected/Divided before they can be trimmed.
+圆图元在修剪之前，必须被相交/分隔。
+
+%CIConfiguratin file %0w has been loaded.
+Configuration file %0w has been loaded.
+配置文件%0w已经装入。
+
+%CPConfirm removal of selected datum planes
+Confirm removal of selected datum planes
+确认选定基准平面的移除
+
+%CPConfirm removal of selected surfaces
+Confirm removal of selected surfaces
+确认选定曲面的移除
+
+%CICoordinate system has been chosen as spin center.
+Coordinate system has been chosen as spin center.
+坐标系已被选为旋转中心。
+
+%CECould not calculate spline with approximating chain.
+Could not calculate spline with approximating chain.
+不能计算带有逼近链的样条。
+
+%CECould not calculate spline with control_poly.
+Could not calculate spline with control_poly.
+不能计算带有控制多边形的样条。
+
+%CECould not construct entities
+Could not construct trajectory entities.
+不能构造轨线图元。
+
+%CPCould not construct entities, reselect a point
+Could not construct entities, reselect a point.
+不能构造图元，重选一点。
+
+%CECould not get neutral curve.
+Could not get neutral curve.
+不能获得中性曲线。
+
+%CPCreate new line font (type <CR> to modify existing font)? [N]:
+Create new line font (type <CR> to modify existing font)?|||No
+是否创建新的线型 (按<CR> 修改已存字体)?|||否
+
+%CPCreate or select coordinate system for cutter location output.
+Create or select coordinate system for cutter location output.
+为刀具位置的输出创建或选取坐标系。
+
+%CPCreate or select coordinate system.
+Create or select coordinate system.
+创建或选取坐标系。
+
+%CPCreate points for the spline to pass through.
+Create points for the spline to pass through.
+为样条创建要经过的点。
+
+%CPCreate trajectory by selecting datum points to be connected
+Create trajectory by selecting datum points to be connected.
+通过选取要连接的基准点来创建轨线。
+
+%CICreating %0w.img...
+Creating %0w.img ...
+创建%0w.img ...
+
+%CICreating %0w.pic...
+Creating %0w.pic ...
+创建%0w.pic ...
+
+%CICurrent drawing model is %0w.
+The current drawing model is now %0w.
+当前绘图模型是%0w。
+
+%CICurrent line font is %0w.
+Current line font is %0w.
+当前线型是 %0w。
+
+%CIDatum Curve Composite
+Datum Curve: Composite
+基准曲线:复合。
+
+%CIDatum Curve Sketch
+Datum Curve: Sketch
+基准曲线:草绘
+
+%CPDatum has not been set, select again.
+Datum has not been set, select again.
+未设置基准，重选。
+
+%CEDatum point must be an edge X plane type.
+Datum point must be an "Edge X Plane" type.
+基准点必须是"边X平面"类型。
+
+%CEDatum point must be on a draft and reference surface edge.
+Datum point must be on a draft and reference surface edge.
+基准点必须在一绘制和参照曲面边上。
+
+%CPDefine translation vector. Pick first point.
+Define translation vector. Pick first point.
+定义平移向量。选出第一个点。
+
+%CPDelete points used in spline <Y/N> ?
+Delete points used in spline?|||No
+是否删除用于样条的点?|||否
+
+%CWDeletion caused yellow feature (internal id = %0d) to fail.
+Deletion caused red feature (internal id = %0d) to fail.
+删除引起红色特征(内部标识 = %0d)失败。
+
+%CEDirectory is empty.
+No files or directories found. %0S
+未找到文件或目录。%0S
+
+%CPDo you really want to delete group %0s [N]:
+Do you really want to delete group %0w|||No
+是否真想删除组%0w|||否
+
+%CPDo you want existing split(s) to be affected by the classified component? [Y]:
+Do you want existing split(s) to be affected by the classified component?|||Yes
+是否想让分类的元件影响已存分割?|||是
+
+%CPDo you want existing split(s) to be affected by the component? [Y]:
+Do you want existing split(s) to be affected by the component?|||Yes
+是否想让元件影响已存分割?|||是
+
+%CIDrawing format will be included on the plot.
+Drawing format will be included on the plot.
+出图时将带有绘图格式。
+
+%CIDrawing format will not be included on the plot.
+Drawing format will not be included on the plot.
+出图时将不带有绘图格式。
+
+%CPDrawing is larger than format. Scale to fit format? [Y]:
+Drawing is larger than format. Scale to fit format?|||Yes
+绘图比格式大。是否缩放以适合格式?|||是
+
+%CPDrawing is smaller than format.  Scale to fit format? [Y]:
+Drawing is smaller than format. Scale to fit format?|||Yes
+绘图比格式小。是否缩放以适合格式?|||是
+
+%CIEdge or axis has been chosen as spin center.
+Edge or axis has been chosen as spin center.
+边或轴已被选为旋转中心。
+
+%CPEnter %0s dimension of the paper(inches):[%1f]
+Enter %0s dimension of the paper (inches)|||%1f
+输入纸页的尺寸%0s (英寸)|||%1f
+
+%CPEnter %0s dimension of the paper(mm):[%1f]
+Enter %0s dimension of the paper (mm)|||%1f
+输入纸页的%0s 尺寸(mm)|||%1f
+
+%CPEnter %0s dimension of the partition(inches):[%1f]
+Enter %0s dimension of the partition (inches)|||%1f
+输入分割的%0s 尺寸(英寸)|||%1f
+
+%CPEnter 'fuzzy' compare epsilon in pixels [%0d]:
+Enter 'fuzzy' compare epsilon in pixels|||%0d
+于象素中输入"模糊"比较的小量|||%0d
+
+%CPEnter Configuration file name [%0w]:
+Enter Configuration file name|||%0w
+输入配置文件名|||%0w
+
+%CPEnter Z value of retracting plane [%0f]:
+Enter Z value of retracting plane|||%0f
+输入退刀平面的Z值|||%0f
+
+%CPEnter a factor between %0f and %1f for plotting:[1.0]
+Enter a factor between %0f and %1f for plotting|||1.0
+为出图输入一个在%0f 和%1f的间的因子|||1.0
+
+%CPEnter a rotation angle for highlighted location [%0f]:
+Enter a rotation angle for highlighted location|||%0f
+给加亮的位置输入一个旋转角度|||%0f
+
+%CPEnter a rotation angle for highlighted location [%0s]:
+Enter a rotation angle for highlighted location|||%0s
+给加亮的位置输入一旋转角|||%0s
+
+%CPEnter angle for red side (yellow arrow shows positive rotation direction) [%0f] :
+Enter angle for red side (yellow arrow shows positive rotation direction)|||%0f
+给红色的侧输入角度(黄色箭头显示正向旋转方向)|||%0f
+
+%CPEnter bend radius [%0f] :
+Enter bend radius|||%0f
+输入折弯半径|||%0f
+
+%CPEnter draft angle (yellow arrow shows positive rotation dir'n) [%0f] :
+Enter draft angle (yellow arrow shows positive rotation dir'n)|||%0f
+输入拔模角 (黄色箭头显示正的旋转方向)|||%0f
+
+%CPEnter draft angle (yellow arrow shows positive rotation direction) [%0f]
+Enter draft angle (yellow arrow shows positive rotation direction)|||%0f
+输入拔模角 (黄箭头显示正向旋转方向)|||%0f
+
+%CPEnter feature regeration number [QUIT]:
+Enter feature regeneration number (%0d - %1d) [Quit]
+输入特征再生数(%0d - %1d)[退出]
+
+%CPEnter file name [QUIT]:
+Enter file name [Quit]
+输入文件名[退出]
+
+%CPEnter group name:
+Enter group name [Quit]
+输入组名[退出]
+
+%CPEnter iges group name [QUIT]:
+Enter IGES group name [Quit]
+输入IGES组名称[退出]
+
+%CPEnter internal feature id [QUIT]:
+Enter internal feature id (%0d - %1d) [Quit]
+输入内部特征标识(%0d - %1d) [退出]
+
+%CPEnter model scale between %0f and %1f :[1.0]
+Enter model scale between %0f and %1f|||1.0
+在%0f 和%1f的间输入模型比例|||1.0
+
+%CPEnter new interline spacing factor [%0f]:
+Enter new interline spacing factor|||%0f
+输入新的行间距因子|||%0f
+
+%CPEnter new line width [%0f]:
+Enter new line width|||%0f
+输入新行宽|||%0f
+
+%CPEnter new value for text angle (-1 for default) [%0f]:
+Enter new value for text angle (-1 for default)|||%0f
+给文本倾斜角输入新值(缺省值-1)|||%0f
+
+%CPEnter new value for text slant angle [%0f]:
+Enter new value for text slant angle|||%0f
+为文本倾斜角输入新值|||%0f
+
+%CPEnter new value for text width factor (-1 for default) [%0f]:
+Enter new value for text width factor (-1 for default)|||%0f
+输入字宽因子的新值(缺省为-1)|||%0f
+
+%CPEnter number [%0d]:
+Enter number|||%0d
+输入数字|||%0d
+
+%CPEnter offset distance [ %0f ] :
+Enter offset distance|||%0f
+输入偏移距离|||%0f
+
+%CPEnter offset distance, <ESC> to quit [ %0f ] :
+Enter offset distance, <ESC> to quit|||%0f
+输入偏移距离。<ESC> 退出|||%0f
+
+%CPEnter offset in the direction of the arrow[-QUIT-]:
+Enter offset in the direction of the arrow [Quit]
+于箭头方向输入偏移[退出]
+
+%CPEnter parameter along the selected entity [%0f]:
+Enter parameter along the selected entity|||%0f
+沿选定图元输入参数|||%0f
+
+%CPEnter replacement iges file name [%0w]
+Enter replacement IGES file name|||%0w
+输入替换IGES 文件名|||%0w
+
+%CPEnter rotating y angle :
+Enter %0s rotation angle for section %3d (Range: %1d - %2d)|||%4f
+为截面%3d 输入%0s 旋转角(范围: %1d - %2d)|||%4f
+
+%CPEnter rotational blend angle ( 0.0001 < angle < 120.0 ) :
+Enter rotational blend angle (0.0001 < angle < 120.0): 
+输入旋转混合角度(0.0001 < 角 < 120.0)
+
+%CPEnter scale [%0f]:
+Enter scale|||%0f
+输入比例|||%0f
+
+%CPEnter scale for view [%0w] :
+Enter scale for view|||%0w
+为视图输入比例|||%0w
+
+%CPEnter surface name.
+Enter surface name.
+输入曲面名。
+
+%CPEnter symbol for the dimension in the table [%0w]:
+Enter symbol for the dimension in the table|||%0w
+为表中尺寸输入标志符|||%0w
+
+%CPEnter symbol for the feature in the table [%0w]:
+Enter symbol for the feature in the table|||%0w
+为表中特征输入标志符|||%0w
+
+%CPEnter the length (in dwg units) of one unit of the pattern [%0f]:
+Enter the length (in dwg units) of one unit of the pattern|||%0f
+输入一个阵列单元的长度(dwg 单位)|||%0f
+
+%CPEnter the new line font name [%0w]:
+Enter the new line font name|||%0w
+输入新的线型名|||%0w
+
+%CPEnter translation offset in the %0s direction(%1s):[%2f]
+Enter translation offset in the %0s direction(%1s):|||%2f
+于%0s 方向(%1s)上输入平移偏移:|||%2f
+
+%CPEnter value [quit]:
+Enter value [Quit]
+输入值[退出]
+
+%CPEnter value offset
+Enter offset value in the %0s|||%1f
+在%0s 中输入偏移值|||%1f
+
+%CPEnter variable number.
+Enter %0ws|||%1d
+输入%0ws|||%1d
+
+%CPEnter xhatch angle [%0f]
+Enter cross-hatch angle|||%0f
+输入断面线角|||%0f
+
+%CPEnter xhatch spacing [%0f]
+Enter cross-hatch spacing|||%0f
+输入断面线间距|||%0f
+
+%CPErase all arrows and circles associated with view %0w?
+Erase all arrows and circles associated with view %0w?|||No
+抹掉所有与视图%0w 关联的箭头和圆?|||否
+
+%CEError(s) in %0w. See datafile.ers
+Error(s) in %0w. See datafile.ers.
+%0w 中出错。查看 datafile.ers。
+
+%CEError(s) in configuration file %0w.
+Error(s) in configuration file %0w. Check message(s) in startup window.
+配置文件%0w 错误。检查起始窗口中的信息。
+
+%CLExact
+Exact
+精确
+
+%CEFeature ID %0d is already included.
+Feature ID %0d is already included.
+特征标识%0d已经包含了。
+
+%CEFeature Num %0d is invalid.
+Feature Num %0d is invalid.
+特征号%0d无效。
+
+%CEFeature aborted. Angle between sections too large.
+Feature aborted. Angle between sections too large.
+特征中止。截面间的角太大。
+
+%CWFeature creation resulted in invalid part geometry.
+WARNING: Feature creation resulted in overlapping part geometry.
+警告: 特征创建导致重叠的分界几何。
+
+%CIFeatures up to and including feat id %0d are now read only
+Features up to and including feat ID %0d are now read only.
+直到并包括特征标识%0d的特征现在是只读的。
+
+%CPFile contains different number of points. Do you want to continue?
+File contains different number of points. Do you want to continue?|||Yes
+文件包含不同点数。您是否要继续?|||是
+
+%CEFilled area cannot be displayed or plotted. Too many points!
+Filled area cannot be displayed or plotted. Too many points!
+填充区域不能显示或出图。点太多!
+
+%CEFilled area cannot be plotted. Too many points!
+Filled area cannot be plotted. Too many points!
+填充区域不能出图。点太多!
+
+%CEFont index file %0w was not found.
+Font index file %0w was not found.
+字体索引文件%0w 没找到。
+
+%CPGive the value of ambient temperature:
+Enter ambient temperature|||%0w
+输入环境温度|||%0w
+
+%CPGive the value of convection coefficient:
+Enter convection coefficient|||%0w
+输入对流系数|||%0w
+
+%CEGlobal %0w not availiable to this model.
+Global %0w not available to this model.
+对此模型全局%0w不可用。
+
+%CIGroup %0w has been created.
+Group %0w has been created.
+组%0w已被创建。
+
+%CPGroup %0w is table driven; select instance from menu.
+Group %0w is table driven; select instance from menu.
+组 %0w 是表驱动的; 从菜单选取实例。
+
+%CPGroup all features in between ? <NO>:
+Group all features in between?|||No
+是否组合所有其间的特征?|||否
+
+%CEGroup name %s is invalid.
+Group name %0w is invalid.
+组名%0w无效。
+
+%CPGroup unit is %0w. Select scaling option from menu.
+Group unit is %0w. Select scaling option from menu.
+组单元为%0w。从菜单选取比例选项。
+
+%CIHardware communications enabled.
+Hardware communications enabled.
+允许硬件通讯。
+
+%CEHighlighted geometry is invalid.
+Highlighted geometry is invalid.
+加亮的几何是无效的。
+
+%CIHighlighting dimension d%0d which is driven by d%1d.
+Highlighting dimension d%0d which is driven by d%1d.
+加亮由d%1d驱动的尺寸标注d%0d。
+
+%CEIges file contains 3D section. Cannot read 3D sections into sketcher.
+IGES file contains 3D section. Cannot read 3D sections into sketcher.
+IGES文件含有3维截面。不能读3维截面到草绘器。
+
+%CEImported surface %0w cannot be read
+Imported surface %0w cannot be read
+不能读取导入曲面 %0w
+
+%CEImported surface class %0w not initialized
+Imported surface class "%0w" not initialized.
+导入曲面类 "%0w" 未初始化。
+
+%CWIn current insert mode the component does not affect on existing split(s).
+In current insert mode the component does not affect on existing split(s).
+在当前插入模式元件不影响已存分割。
+
+%CPIncomplete Datum Point Array info. Abort? [N]
+Incomplete Datum Point Array info. Abort?|||No
+未完成基准点阵。中止否?|||否
+
+%CPIncrement values:
+Increment values:%0s Select again.
+增量值:%0s 重选。
+
+%CIInformation written to file %0w.
+Information written to file %0w.
+信息写入文件%0w。
+
+%CEInvalid dimension value : %0f.
+Invalid dimension value : %0f.
+无效尺寸值: %0f。
+
+%CEInvalid feature(ID %0d). Only operation features allowed.
+Invalid feature(ID %0d). Only NC Sequences or their material removal allowed.
+无效特征(标识%0d)。仅允许 NC 序列或其材料移除。
+
+%CEInvalid group name %s. %s is non-existant.
+Invalid group name %0w. %0w is non-existent.
+无效组名%0w。%0w 不存在。
+
+%CPInvalid plane select again
+Invalid plane select again.
+无效平面，重选。
+
+%CWItem does not belong to any group.
+Item does not belong to any group.
+项目不属于任何组。
+
+%CWItems already found in another group were ignored.
+Items already found in another group were ignored.
+已在另一组中找到的项目被忽略。
+
+%CWMaximum partition size for media selected is %0f x %1f.
+Maximum partition size for media selected is %0f x %1f.
+对选取的中介的最大分割尺寸是%0f x %1f。
+
+%CPMerge reference part missing. new
+Merge reference part %0w missing; enter replacing model name [Quit]
+缺少合并参照零件 %0w; 输入替代模型名 [退出]
+
+%CIMiscellaneous options
+Miscellaneous options
+杂项选项
+
+%CEModel %0w already in dwg %1w.
+Model %0w already is used by drawing %1w.
+模型%0w已被绘图%1w 使用。
+
+%CPModel %0w could not be retrieved.  Press <RETURN>.
+Model %0w could not be retrieved.  Press <CR> to continue.
+模型%0w 不能检索。按<CR> 继续。
+
+%CPModel %0w is not in this directory.  Press <RETURN>.
+Model %0w is not in this directory.  Press <CR> to continue.
+模型%0w 不在此目录中。按<CR> 继续。
+
+%CIModel center has been chosen as spin center.
+Model center has been chosen as spin center.
+模型中心已被选为旋转中心。
+
+%CWModel has been replaced.
+Model has been replaced.
+模型已被替换。
+
+%CPModify pattern number to 1 before doing this kind of redefine.
+Do DEL PATTERN of feature before doing this kind of redefine.
+在进行这类重新定义前进行特征的阵列删除。
+
+%CPMove bottom left corner of drawing to screen origin? [Y]:
+Move bottom left corner of drawing to screen origin?|||Yes
+是否把绘图的左下角移动到屏幕原点?|||是
+
+%CPMust use on surface datum point, select again
+Must use on surface datum point, select again.
+必须用在曲面基准点上，再选。
+
+%CPNew value 1 [%0f] :
+Enter a new value|||%0f
+输入一新值|||%0f
+
+%CPNew value s [%0s] :
+Enter a new value|||%0s
+输入一新值|||%0s
+
+%CINo Xhatch
+Closed curve sections will NOT be cross hatched
+闭合曲线截面将不被网格化
+
+%CINo reference information about this sketch.
+No reference information about this sketch.
+没有关于这一草绘的参照信息。
+
+%CINormal -- green; %0s curvature -- %1s; %2s curvature -- %3s.
+Normal -- green; %0s curvature -- %1s; %2s curvature -- %3s.
+法线 -- 绿色;%0s 曲率 -- %1s; %2s 曲率 -- %3s。
+
+%CWNormal is undefined at this point.
+Normal is undefined at this point.
+在这一点法向未定义。
+
+%CPNot enough sections: do you want to reselect points ? [y]
+Not enough sections: do you want to reselect points?|||Yes
+没有足够截面:是否重新选取点?|||是
+
+%CPNumber of points will be reduced from %0d to %1d. Select Confirm or Cancel.
+Number of points will be reduced from %0d to %1d. Select Confirm or Cancel.
+点的数目将从 %0d降至%1d.选取确认或取消。
+
+%CEOS limitation: name '%0w' is too long. Creation of object failed.
+OS limitation: name '%0w' is too long. Creation of object failed.
+操作系统限制:名字'%0w' 太长。对象的创建失败。
+
+%CEOffset aborted. Geometry could not be constructed.
+Offset aborted. Geometry could not be constructed.
+偏移中止。不能构造几何。
+
+%CEOnly %0d loops allowed in this section
+Only %0d loops allowed in this section
+在此截面中仅允许%0d个环。
+
+%CEOnly assembly datums for this kind of view.
+You can select only assembly datums for this kind of view in assembly drawings.
+对在组件绘图中的此种视图只可选取组件基准。
+
+%CEOnly first cell may contain something.
+Only first cell may contain something.
+只有第一个单元可能包含些东西。
+
+%CWOriginal reference not found, using alternate.
+Original reference not found, using alternate.
+原始参照未找到，使用替代参照。
+
+%CIOutput file %0w has been written
+Output file %0w has been written.
+已经写入输出文件%0w。
+
+%CIParents are highlighted in Reference Color.
+Parents are highlighted in Reference Color.
+父项加亮为参照颜色。
+
+%CEPart %0s is marked as read only - regeneration is not allowed
+Part %0w is marked as read only - regeneration is not allowed.
+零件%0w 标记为只读的 - 不允许再生。
+
+%CIPart '%0s' not changed since last regen
+Part '%0w' not changed since last regen.
+从上次再生起零件'%0w'未被更改。
+
+%CPPart has been merged by ref, please modify ref part %0w
+This instance of %0w is intersected by assembly feature.
+%0w的这一实例被组件特征所相交。
+
+%CWPart information written to file %0s.
+Part information written to file %0w.
+零件信息写入文件%0w。
+
+%CIPattern creation successful
+Pattern creation successful.
+阵列创建成功。
+
+%CPPick another table cell.
+Pick another table cell.
+拾取另一个表单元。
+
+%CPPick dimension to clip.(Middle button to finish selections).
+Pick dimensions or ref dims to clip.(Middle button to finish selections).
+选择要剪贴的尺寸或参照尺寸。(中键结束选取)。
+
+%CPPick final destination point.
+Pick final destination point.
+选出最终目标点。
+
+%CPPick first point for draft datum target.
+Pick first point for draft datum target.
+为绘制基准目标拾取第一点。
+
+%CPPick global parameter, or select NAME to type in a name.
+Pick global parameter, or select NAME to type in a name.
+选出全局参数，或选取命名来键入一名称。
+
+%CPPick new location for the selected point.
+Pick new location for the selected point.
+为选取的点选出新位置。
+
+%CPPick second point for draft datum target.
+Pick second point for draft datum target.
+为绘制基准目标拾取第二点。
+
+%CPPick table cell for one corner.
+Pick table cell for one corner.
+为一个拐角选出表单元。
+
+%CEPipe aborted. Geometry could not be constructed.
+Pipe aborted. Geometry could not be constructed.
+管道被中止。几何不能构造。
+
+%CEPipe aborted. Trajectory geometry could not be constructed.
+Pipe aborted. Trajectory geometry could not be constructed.
+管道中止。轨线几何不能构造。
+
+%CPPlane must be parallel select again
+Plane must be parallel select again.
+平面必须平行，重选。
+
+%CIPlot will be %0s x %1s inches.
+Plot will be %0s x %1s inches.
+出图将是%0s x %1s 英寸。
+
+%CIPlot will be scaled about the factor of %0f
+Plot will be scaled by %0f.
+出图将被缩放%0f。
+
+%CWPoint entity is missing
+Point entity is missing.
+缺少点图元。
+
+%CPPoint has been set, try again.
+Point has been set, try again.
+点已被设置，再试。
+
+%CIPoint or vertex has been chosen as spin center.
+Point or vertex has been chosen as spin center.
+点或顶点已被选为旋转中心。
+
+%CEReplacement aborted. Geometry could not be constructed.
+Replacement aborted. Geometry could not be constructed.
+替换中止。不能构造几何。
+
+%CPRestore member of this assembly ? [N]
+Restore component of this assembly?|||No
+恢复此组件的元件否?|||否
+
+%CPResulting curve(s) are in green. Select Confirm or Cancel.
+Resulting curve(s) are in green. Select Confirm or Cancel.
+生成曲线用绿色.选取确认或取消。
+
+%CPRetain this line style for further sketching? [N]:
+Retain this line style for further sketching?|||No
+是否为进一步的草绘保留此线造型?|||否
+
+%CIScreen center has been chosen as spin center.
+Screen center has been chosen as spin center.
+屏幕中心已被选为旋转中心。
+
+%CESection nonparametric. Can't modify.
+The section is non-parametric and cannot be modified.
+此截面是非参数的，不能修改。
+
+%CPSelect DIMENSION or REF DIM to flip arrow
+Select DIMENSION or REF DIM to flip arrow.
+选取尺寸或参照尺寸以反向箭头。
+
+%CPSelect Datum Surface or Quilt to use for cut.
+Select Datum Surface or Quilt to use for cut.
+选取基准曲面或面组用于切减材料。
+
+%CPSelect Datum Surface or Quilt to use for protrusion.
+Select Datum Surface or Quilt to use for protrusion.
+对加材料选取基准曲面或面组来使用。
+
+%CPSelect a detail boundary to delete.
+Select a detail boundary to delete.
+选取要删除的详细边界。
+
+%CPSelect a detail boundary to modify.
+Select a detail boundary to modify.
+选取要修改的详细边界。
+
+%CPSelect a detail item to move attach.
+Select a detail item to modify its attachment.
+选取详图项目修改它的附件。
+
+%CPSelect a detail item to move text.
+Select a detail item to move text.
+选取一详图项目来移动文本。
+
+%CPSelect a detail item to move.
+Select a detail item to move.
+选取一详图项目来移动。
+
+%CPSelect a detail item to switch view.
+Select a detail item to switch view.
+选取一详图项目来切换视图。
+
+%CPSelect a draft group.
+Select a draft group.
+选取一绘制组。
+
+%CPSelect a location for the point.
+Select a location for the point.
+为此点选取位置。
+
+%CPSelect a point
+Select a point.
+选取一个点。
+
+%CPSelect a vertex
+Select a vertex
+选取一顶点
+
+%CPSelect a vertex through which to make a horizontal/vertical witness line.
+Select a vertex through which to make a horizontal/vertical witness line.
+选取通过其作一水平/竖直尺寸界线的顶点。
+
+%CPSelect an approximate tangent location ABOVE the draft line.
+Select an approximate tangent location ABOVE the draft line.
+在拔模线上选取一个近似切点位置。
+
+%CPSelect an approximate tangent location BELOW the draft line.
+Select an approximate tangent location BELOW the draft line.
+在拔模线下选取一个近似切点位置。
+
+%CPSelect an approximate tangent location on a surface.
+Select an approximate tangent location on a surface.
+在一曲面上选取一个近似的切点位置。
+
+%CPSelect another dimension for FIRST direction, increment type, or Done.
+Select another dimension for FIRST direction, increment type, or "Done".
+为第一方向选取另一尺寸，增量类型，或"确认"。
+
+%CPSelect another dimension for SECOND direction, increment type, or Done.
+Select another dimension for SECOND direction, increment type, or "Done".
+为第二方向，选取另一尺寸，增量类型，或"确认"。
+
+%CPSelect another normal axis.
+Select another normal axis.
+选取另一法向轴。
+
+%CPSelect back edge, surface, or csys axis.
+Select back edge, surface, or csys axis.
+选取后边，曲面，或坐标系轴。
+
+%CPSelect back surface or csys axis.
+Select back surface or csys axis.
+选取后曲面或坐标系轴。
+
+%CPSelect bottom edge, surface, or csys axis.
+Select bottom edge, surface, or csys axis.
+选取底边，曲面，或坐标系轴。
+
+%CPSelect bottom surface or csys axis.
+Select bottom surface or csys axis.
+选取底曲面或坐标系轴。
+
+%CPSelect breakout to modify.
+Select breakout to modify.
+选取要修改的断开。
+
+%CPSelect center point for rotation.
+Select center point for rotation.
+选取旋转的中心点。
+
+%CPSelect circle
+Select circle
+选取圆
+
+%CPSelect class of surface
+Select class of surface.
+选取曲面类。
+
+%CPSelect coordinate system from menu.
+Select coordinate system from menu.
+从菜单选取坐标系。
+
+%CPSelect coordinate system to be matched with the surface anchor point
+Select coordinate system to be matched with the surface anchor point.
+选取与曲面锚点匹配的坐标系。
+
+%CPSelect datum points.
+Select datum points.
+选取基准点。
+
+%CPSelect detail item(s) to clip.
+Select detail item(s) to clip.
+选取详图项目来剪贴。
+
+%CPSelect detail item(s) to delete.
+Select detail item(s) to delete.
+选取详图项目来删除。
+
+%CPSelect dimension for %0w
+Select dimension for %0w
+为%0w 选取尺寸。
+
+%CPSelect draft entities to add to selected group.
+Select draft entities to add to selected group.
+选取要加入到选定组的绘制图元。
+
+%CPSelect draft entities to create group.
+Select draft entities to create group.
+选取绘制图元来创建组。
+
+%CPSelect draft entities to remove from selected group.
+Select draft entities to remove from selected group.
+从选定组中选取要移除的绘制图元。
+
+%CPSelect drawing size.
+Select drawing size.
+选取绘图尺寸。
+
+%CPSelect edge X plane datum points as additional draft points.
+Select "Edge X Plane" datum points as additional draft points.
+选取"边 X 平面"基准点作为附加绘制点。
+
+%CPSelect entities to make xsec in an order.
+Select draft entities in a closed loop to make the cross-section.
+在一个闭合环中选取绘制图元以作出横截面。
+
+%CPSelect entity.
+Select entity.
+选取图元。
+
+%CPSelect feature for reference display.
+Select feature for reference display.
+为参照显示选取特征。
+
+%CPSelect format size.
+Select format size.
+选取格式尺寸。
+
+%CPSelect from menu to set up driving table.
+Select from menu to set up driving table.
+从菜单选取来设置驱动表。
+
+%CPSelect front edge, surface, or csys axis.
+Select front edge, surface, or csys axis.
+选取前边，曲面，或坐标系轴。
+
+%CPSelect front surface or csys axis.
+Select front surface or csys axis.
+选取前曲面或坐标系轴。
+
+%CPSelect horizontal axis.
+Select horizontal axis.
+选取水平轴。
+
+%CPSelect items from the same part.
+Select items from the same part.
+从同一零件选取项目。
+
+%CPSelect items from the same view.
+Select items from the same view.
+从同一视图选取项目。
+
+%CPSelect left edge, surface, or csys axis.
+Select left edge, surface, or csys axis.
+选取左边，曲面，或坐标系轴。
+
+%CPSelect left surface or csys axis.
+Select left surface or csys axis.
+选取左曲面或坐标系轴。
+
+%CPSelect location on dimension witness line.
+Select location on dimension witness line.
+在尺寸界线上选取位置。
+
+%CPSelect material side for rotation.
+Select material side for rotation.
+为旋转选取材料的侧。
+
+%CPSelect member to restore.
+Select component to restore.
+选取要存储元件。
+
+%CPSelect member to simplify.
+Select component to simplify.
+选取要简化的元件。
+
+%CPSelect neutral (pivot) plane.
+Select neutral (pivot) plane.
+选取中性(枢)平面。
+
+%CPSelect new drawing size.
+Select new drawing size.
+选取新绘图尺寸。
+
+%CPSelect new location for (sub)section start point.
+Select new location for (sub)section start point.
+选取 (子) 截面起点的新位置。
+
+%CPSelect new location for the dimension
+Select new location for the dimension
+为尺寸选取新位置。
+
+%CPSelect new point of detail.
+Select new point of detail.
+选取细节的新点。
+
+%CPSelect new text font from menu [Present font: %0w]
+Select new text font from menu. Present font is %0w.
+从菜单选取新字体。当前字体为%0w。
+
+%CPSelect normal axis.
+Select normal axis.
+选取法向轴。
+
+%CPSelect option to specify depth of the thread.
+Select option to specify depth of the thread.
+选取选项以指定螺纹的深度。
+
+%CPSelect or pick on the screen the the new current drawing model.
+Select or pick on the screen the new current drawing model.    
+选取或在屏幕上拾取当前绘图的新模型。
+
+%CPSelect paper size.
+Select paper size.
+选取纸页的尺寸。
+
+%CPSelect placement point(s).
+Select placement point(s).
+选取置位点。
+
+%CPSelect placement point.
+Select placement point.
+选取置位点。
+
+%CPSelect point.
+Select point.
+选取点。
+
+%CPSelect replacing instance from menu.
+Select replacing instance from menu.
+从菜单选取替换实例。
+
+%CPSelect right edge, surface, or csys axis.
+Select right edge, surface, or csys axis.
+选取右边，曲面，或坐标系轴。
+
+%CPSelect right surface or csys axis.
+Select right surface or csys axis.
+选取右曲面或坐标系轴。
+
+%CPSelect rotational direction for Spring Back.
+Select rotational direction for Spring Back.
+选取回弹旋转方向。
+
+%CPSelect set datum plane or axis for targeting.
+Select set datum plane or axis for targeting.
+为目标选取设置基准平面或轴。
+
+%CPSelect surface to be replaced
+Select surface to be replaced.
+选取要被替换的曲面。
+
+%CPSelect the second reference.
+Select the second reference.
+选取第二参照。
+
+%CPSelect thread start surface.
+Select thread start surface.
+选取螺纹的起始曲面
+
+%CPSelect thread surface.
+Select thread surface.
+选取螺纹曲面
+
+%CPSelect top edge, surface, or csys axis.
+Select top edge, surface, or csys axis.
+选取顶边，曲面，或坐标系轴。
+
+%CPSelect top surface or csys axis.
+Select top surface or csys axis.
+选取顶曲面或坐标系轴。
+
+%CPSelect value to modify.
+Select value to modify.
+选取要修改的值。
+
+%CPSelect vertical axis.
+Select vertical axis.
+选取竖直轴。
+
+%CPSelect view to modify.
+Select view to modify.
+选取要修改的视图。
+
+%CESelected draft surfaces must be contiguous.
+Selected draft surfaces must be contiguous.
+选取的拔模曲面必须是邻接的。
+
+%CESelected group has references to views on page %0d.
+Group has reference to views on sheet %0d; cannot resume on this one.
+组有对页面%0d 上的视图的参照;不能在其上恢复。
+
+%CESelected model does not belong to any family.
+Selected model does not belong to any family.
+选取不属于任何族的模型。
+
+%CPSelected plane and axis must be parallel, select again
+Selected plane and axis must be parallel, select again.
+选取的平面和轴必须平行，重选。
+
+%CPSelected plane and entity must be parallel, select again
+Selected plane and entity must be parallel, select again.
+选取的面和图元必须平行，重选。
+
+%CESelected point is not coaxial with the set datum axis.
+Selected point is not coaxial with the set datum axis.
+选取的点与设置的基准轴不同轴。
+
+%CESelected point not in the adjustment range.
+Selected point not in the adjustment range.
+选取的点不在调整范围内。
+
+%CPSelected surface is invalid.  Reselect cylindrical or conic surface.
+Selected surface is invalid.  Reselect cylindrical or conic surface.
+选取的曲面无效。重新选取圆柱面或圆锥面。
+
+%CPShould be at least one point between selected points. Select again.
+Should be at least one point between selected points. Select again.
+在选定点间至少应有一个点。重选。
+
+%CISoftware (Xon/Xoff) communications enabled.
+Software (Xon/Xoff) communications enabled.
+允许软件(Xon/Xoff) 通讯。
+
+%CPSpecify coordinate system that file entities are with respect to
+Specify coordinate system that file entities are with respect to.
+指定锉刀图元的相对坐标系。
+
+%CPSpecify corners of area to be plotted.
+Specify corners of area to be plotted.
+指定要出图的区域的角。
+
+%CPSpecify parting curve.
+Specify parting curve.
+指定分型曲线。
+
+%CPSpecify pull direction.
+Specify pull direction.
+指定拉伸方向。
+
+%CPSpecify surfaces for Spring Back feature.
+Specify surfaces for Spring Back feature.
+给回弹特征指定曲面。
+
+%CPSpecify surfaces or datum planes
+Specify surfaces or datum planes onto which the curve will be projected
+指定曲线将被投影上去的曲面或基准平面。
+
+%CPSpecify surfaces to close open ends.
+Specify surfaces to close open ends.
+指定要封闭开放端的曲面。
+
+%CPSpecify the neutral curve.
+Specify the neutral curve.
+指定中性曲线。
+
+%CISpin Center will be displayed.
+Spin Center will be displayed.
+将显示旋转中心。
+
+%CISpin Center will not be displayed.
+Spin Center will not be displayed.
+将不显示旋转中心。
+
+%CPSpline containes too few points. please resketch.
+Spline contains too few points, please resketch.
+样条包含太少点，请重新草绘。
+
+%CESubordinate items may not be added to groups
+Subordinate drawing items may not be added to groups.
+子图项目可能未被加到组中。
+
+%CPSuppress member of this assembly ? [N]
+Suppress component of this assembly?|||No
+禁止此组件的元件否?|||否
+
+%CESuppression caused yellow feature (internal id = %0d) to fail.
+Suppression caused red feature (internal id = %0d) to fail.
+禁止引起红色特征(内部标识 = %0d)失败。
+
+%CESurface aborted. Geometry could not be constructed.
+Surface aborted. Geometry could not be constructed.
+曲面中止。不能构造几何。
+
+%CISymbol [%0w] has been stored.
+Symbol [%0w] has been stored.
+标志符[%0w]已被存储。
+
+%CITangent edges will be dimmed.
+Tangent edges will be dimmed.
+切边将变灰。
+
+%CITangent edges will be displayed in centerline font.
+Tangent edges will be displayed in centerline font.
+切边将用中心线型显示。
+
+%CITangent edges will be displayed in phantom font.
+Tangent edges will be displayed in phantom font.
+切边将以幻影字体显示。
+
+%CITangent edges will be displayed.
+Tangent edges will be displayed as solid lines.
+切边将显示为实线。
+
+%CITangent edges will not be displayed.
+Tangent edges will not be displayed.
+切边将不显示。
+
+%CEThe .fnt file in %0w was not found.
+The .fnt file in %0w was not found.
+%0w 中的.fnt 文件没找到。
+
+%CEThe SHADE file %s is incompatible with this machine.
+The SHADE file %0w is incompatible with this machine.
+光照文件%0w 与此加工不匹配。
+
+%CIThe current drawing model will be displayed normally.
+The current drawing model will be displayed normally.
+当前绘图模型将正常显示。
+
+%CEThe input configuration file %0w does not exist.
+The input configuration file %0w does not exist.
+输入配置文件%0w 不存在。
+
+%CPThere is no child for this feature.
+There is no child for this feature. Select again.
+此特征没有子特征。重选。
+
+%CPThere is no parent for this feature.
+There is no parent for this feature. Select again.
+此特征没有父特征。重选。
+
+%CEThere is no room for font %0d.
+There is no room for font %0d.
+没有空间给字体%0d。
+
+%CIThese options control axes
+These options control axes
+这些选项控制轴
+
+%CIThese options control cross sections and their arrows
+These options control cross sections and their arrows
+这些选项控制横截面和它们的箭头
+
+%CIThese options control diagram-specific items
+These options control diagram-specific items
+这些选项控制特定布线图项目
+
+%CIThese options control dimensions
+These options control dimensions
+这些选项控制尺寸
+
+%CIThese options control geometric tolerancing information
+These options control geometric tolerancing information
+这些选项控制几何公差信息
+
+%CIThese options control layers
+These options control layers
+这些选项控制层
+
+%CIThese options control leaders
+These options control leaders
+这些选项控制引线
+
+%CIThese options control model grids
+These options control model grids
+这些选项控制模型栅格
+
+%CIThese options control solids shown in views
+These options control solids shown in views
+这些选项控制在视图中显示的实体
+
+%CIThese options control tables, repeat regions, and BOM balloons
+These options control tables, repeat regions, and BOM balloons
+这些选项控制表，重复区域和 BOM 球标
+
+%CIThese options control text and line fonts
+These options control text and line fonts
+这些选项控制文本和线型
+
+%CIThese options control text not subject to other options
+These options control text not subject to other options
+这些选项控制与其他选项无关的文本
+
+%CIThese options control views and their annotations
+These options control views and their annotations
+这些选项控制视图和它们的注释
+
+%CWThis drawing does not have multiple models.
+This drawing does not have multiple models.
+此绘图没有多重模型。
+
+%CWThis view has been frozen because of illegal view instructions.
+This view has been frozen because of illegal view instructions.
+因为非法视图指令，此视图已被冻结。
+
+%CLTo
+TO
+TO
+
+%CITop level assembly.
+Top level assembly.
+顶级组件。
+
+%CPType global name:
+Type global name: 
+键入全局名称:
+
+%CPUnderdimensioned three dimensional section.
+Underdimensioned section.  Please align to part or add dimensions.
+不足尺寸的截面。请与组件对齐或增加尺寸。
+
+%CPUnderdimensioned two dimensional section.
+Underdimensioned section.  Please add dimensions.
+不足尺寸的截面。请增加尺寸。
+
+%CPUngroup the feature? <Y/N>:
+Ungroup the feature? (Y/N): 
+是否把此特征解组?(Y/N):
+
+%CPUnpattern the group? <Y/N>:
+Unpattern the group? (Y/N): 
+是否把此特征取消阵列化?(Y/N):
+
+%CPView origin has been set;
+View origin has been set; select another view to modify.
+视图原点已经设置;选取另一视图来修改。
+
+%CIViews of the current dwg model will be enclosed by a box.
+Views of the current dwg model will be enclosed by a box.
+当前绘图模型的视图将被一个框包围。
+
+%CWWARNING ! Model geometry for drawing view is missing.
+WARNING: Model geometry for drawing view is missing.
+警告: 缺少绘制视图的模型几何。
+
+%CWWARNING:  vertex endpoint might not be aligned to both edges of the part.
+WARNING: Vertex endpoint might not be aligned to both edges of the part.
+警告: 顶端点可能未与零件的两边同时对齐。
+
+%CWWARNING: %0s does not support 8 pens; switching to %1d.
+WARNING: %0s does not support 8 pens; switching to %1d.
+警告:%0s不支持8支笔;切换到%1d。
+
+%CWWARNING: Lost network license; application may suspend within minutes!
+WARNING: Lost network license; %0s may suspend within minutes!
+警告:失去网络许可;%0s可能在几分钟内中止!
+
+%CWWARNING: Thread geometry will be created outside the geometry of the part.
+WARNING: Thread geometry will be created outside the geometry of the part.
+警告: 螺纹几何将在零件几何的外部创建。
+
+%CWWARNING: cross-section %0w may be incomplete.
+WARNING: Cross-section %0w may be incomplete.
+警告: 相交横截面 %0w 可能未完成。
+
+%CWWARNING: external reference not present, SPRING BACK frozen (feat id: %0d).
+WARNING: external reference not present, SPRING BACK frozen (feat id: %0d).
+警告:没有外部参照，回弹冻结(特征标识:%0d)。
+
+%CWWarning: All entities of the Neutral Curve must be tangent.
+WARNING: All entities of the Neutral Curve must be tangent.
+警告: 中性曲线的所有图元都必须相切。
+
+%CWWarning: Feature %0d contains surfaces that have no area.
+Warning: Feature %0d contains surfaces that have no area.
+警告:特征%0d包含没有面积的曲面。
+
+%CWWarning: This %0w is more recent than %1d of its models.
+WARNING: This %0w is more recent than %1d of its models.
+警告:这一%0w比其模型的%1d要新近。
+
+%CWWarning: This %0w is more recent than the model.
+WARNING: This %0w is more recent than the model.
+警告:这一%0w比模型要新近。
+
+%CPWhich directory ? [%0w]:
+Which directory ?|||%0w
+哪一个路径?|||%0w
+
+%CIXhatch
+Closed curve sections will be cross hatched
+闭合曲线截面将剖面线填充
+
+%CPXsec is used by feature [%0d].  Delete feature first.
+Xsec is used by feature %0d.  Delete feature first.
+横截面由特征 %0d 所用。先删除特征。
+
+%CLa cosmetic sketched entity
+a cosmetic sketched entity
+一修饰草绘图元
+
+%CLa datum point
+a datum point
+一个基准点
+
+%CLa dimension
+a dimension
+一个尺寸
+
+%CLa vertex
+a vertex
+一顶点
+
+%CLan edge
+an edge
+一个边
+
+%CLan entity
+an entity
+一个图元
+
+%CLaxes
+axes
+多个轴
+
+%CIaxis name
+Enter AXIS NAME:
+输入轴名:
+
+%CEcannot retrieve part containing assembly features
+This is not a user-created model. Cannot retrieve.
+这不是一个用户创建模型，不能检索。
+
+%CIcolor index.
+Color code: Surface - Yellow; Edges - Blue; Axis, Datum, Feature - Red.
+颜色码: 曲面 - 黄色; 边 - 蓝色; 轴、基准、特征 - 红色。
+
+%CLcosmetic sketched entities
+cosmetic sketched entities
+修饰草绘图元
+
+%CLcyan
+cyan
+青色
+
+%CLdatum points
+datum points
+基准点
+
+%CLdimensions
+dimensions
+多个尺寸
+
+%CLedges
+edges
+多边
+
+%CLentities
+entities
+多个图元
+
+%CPlast instruction overrides %0d instrs. delete [y]
+Last instruction overrides %0d previous instruction(s). Delete|||Yes
+上一说明覆盖了%0d 前面的说明。删除否|||是
+
+%CLleast neg.
+least neg.
+最小负数。
+
+%CLleast pos.
+least pos.
+最小正数。
+
+%CLmost neg.
+most neg.
+最大负数。
+
+%CLmost pos.
+most pos.
+最大正数。
+
+%CLorange
+orange
+橙色
+
+%CPpart have been added, repaint to see change
+Selected parts have been added to the list, repaint to display change.
+选取的零件已加入列表，重画来显示更改。
+
+%CPpart have been removed, repaint to see change
+Selected parts have been removed from list, repaint to display change.
+选取的零件已从列表移除，重画来显示更改。
+
+%CPplacement of feature %0d of %1s wasn't retrieved. <cr> ...
+Placement of feature %0d of part %1s was not retrieved. <CR> to continue: 
+未检索到零件%1s的特征%0d的位置。<CR> 继续:
+
+%CPreally delete %0w [N]:
+Do you really want to delete %0w|||No
+是否真想删除%0w|||否
+
+%CPregen parts intersected by assembly feature?
+Regenerate parts intersected by assembly feature(s)?|||Yes
+是否再生被组件特征相交的零件?|||是
+
+%CPselect %0w
+Select %0w.
+选取 %0w。
+
+%CPselect %0w %1w
+Select %0w or %1w.
+选取%0w或%1w。
+
+%CPselect %0w %1w %2w %3w
+Select %0w, %1w, %2w or %3w.
+选取%0w，%1w，%2w 或%3w。
+
+%CPselect %0w %1w %2w %3w %4w
+Select %0w, %1w, %2w, %3w or %4w.
+选取%0w，%1w，%2w，%3w 或%4w。
+
+%CPselect %0w %1w %2w %3w %4w %5w
+Select %0w, %1w, %2w, %3w, %4w or %5w.
+选取%0w，%1w，%2w，%3w，%4w 或%5w。
+
+%CPselect %0w %1w %2w %3w %4w %5w %6w
+Select %0w, %1w, %2w, %3w, %4w, %5w or %6w.
+选取%0w，%1w，%2w，%3w，%4w，%5w 或%6w。
+
+%CPselect %0w %1w %2w %3w %4w %5w %6w %7w
+Select %0w, %1w, %2w, %3w, %4w, %5w, %6w or %7w.
+选取%0w，%1w，%2w，%3w，%4w，%5w，%6w 或%7w。
+
+%CPselect %0w %1w %2w %3w %4w %5w %6w %7w %8w
+Select %0w, %1w, %2w, %3w, %4w, %5w, %6w, %7w or %8w.
+选取%0w，%1w，%2w，%3w，%4w，%5w，%6w，%7w 或%8w。
+
+%CPselect assembly feature
+Select assembly feature.
+选取组件特征。
+
+%CPselect draft entities.
+Select draft entities to specify geometric tolerance.
+选取绘制图元以指定几何公差。
+
+%CEthis feature cannot be intersected
+This feature cannot be intersected.
+不能与此特征相交。
+
+%CLvertices
+vertices
+顶点
+
+%CLyellow
+yellow
+黄色
+
+%CIINFO PT/Modeler Loadpoint: %0w
+INFO PT/Modeler Loadpoint: %0w
+信息 PT/Modeler 加载点:%0w
+
+%CLEdit this object's text.
+Edit this text of the current object.
+编辑当前对象的文本。
+
+%CPSpecify sketched datum curve attributes.
+Specify sketched datum curve attributes.
+指定草绘基准曲线属性。
+
+%CPSpecify depth of extrusion.
+Specify depth of extrusion.
+指定拉伸深度。
+
+%CPSpecify feature attributes.
+Specify feature attributes.
+指定特征属性。
+
+%CP Specify depth option.
+ Specify depth option.
+ 指定深度选项。
+
+%CP Enter depth [%0f] : 
+ Enter depth|||%0f
+ 输入深度|||%0f
+
+%CP Specify accuracy of composite curve with respect to curve references.
+ Specify accuracy of composite curve with respect to curve references.
+ 指定复合曲线关于曲线参照的精度。
+
+%CIDatum CrossHatch
+Closed sections of the datum curve will be cross hatched
+基准曲线的闭合截面将填充剖面线。
+
+%CIDatum No CrossHatch
+Closed sections of the datum curve will NOT be cross hatched
+基准曲线的闭合截面将不填充剖面线
+
+%CPSelect datum plane.
+Select datum plane.
+选取基准面。
+
+%CPSpecify surfaces or datum plane.
+Specify surfaces or datum plane.
+指定曲面或基准平面。
+
+%CWConfirm removal of Surface references.
+Confirm removal of Surface references.
+确认曲面参照的移除。
+
+%CWConfirm removal of Datum Plane references.
+Confirm removal of Datum Plane references.
+确认基准平面参照的移除。
+
+%CEOld image file; not supported.
+Old image file; not supported.
+旧图像文件;不支持。
+
+%CPSelect a reference to specify the projection direction.
+Select a reference to specify the projection direction.
+选取要指定投影方向的参照。
+
+%CPSpecify type of curve to be projected.
+Specify type of curve to be projected.
+指定要投影的曲线类型。
+
+%CPSpecify the projection type.
+Specify the projection type.
+指定投影类型。
+
+%CIAlong Dir
+Along Dir
+沿方向
+
+%CINorm to Surf
+Norm to Surf
+垂直于曲面
+
+%CINorm to Sket
+Norm to Sket
+垂直于草绘
+
+%CEThere is no DIRECT child for this feature. Select again.
+There is no DIRECT child for this feature. Select again.
+没有此特征的直接子单元。再选。
+
+%CWLost option
+Lost %0s license; corresponding modes are inaccessible.
+失去%0s许可;相应模式不可访问。
+
+%CWLost option warning
+WARNING: Lost %0s license; quit from current mode immediately.
+警告:失去%0s许可;从当前模式立即退出。
+
+%CE Errors in user program compling or linking.
+ Errors in user program compiling or linking.
+ 用户程序编译或连接错误。
+
+%CE User program execution failed.
+ User program execution failed.
+ 用户程序执行失败。
+
+%CEAll comp. curve components must be tangent, projected along pivot direction.
+All comp. curve components must be tangent, projected along pivot direction.
+所有复合曲线元件必须相切，沿枢轴方向投影。
+
+%CEAll composite curve components must be tangent.
+All composite curve components must be tangent.
+所有复合曲线元件必须相切。
+
+%CEAnother group with the same name already exists.
+Another group with the same name already exists.
+已经存在另一同名组。
+
+%CEBitmaps are of unequal size; cannot continue.
+Bitmaps are of unequal size; cannot continue.
+位图大小不一样;不能继续。
+
+%CEBoth points must be in the same table.
+Both points must be in the same table.
+两点必须在相同表中。
+
+%CECan NOT select table driven dimension.
+Can NOT select table driven dimension.
+不能选取表从动尺寸。
+
+%CECan not replace assembly datum.
+Can not replace assembly datum.
+不能替换组件基准。
+
+%CECannot add curvature dimension to spline with control polygon.
+Cannot add curvature dimension to spline with control polygon.
+不能把曲率尺寸加入带有控制多边形的样条。
+
+%CECannot change "on point" placement type.
+Cannot change "on point" placement type.
+不能更改"在点上"位置类型。
+
+%CECannot create auxiliary view of selected edge.
+Cannot create auxiliary view of selected edge.
+不能创建选定边的辅助视图。
+
+%CECannot declare items for an instance.
+Cannot declare items for an instance.
+不能为一实例声明项目。
+
+%CECannot dimension aligned spline to coordinate system.
+Cannot dimension aligned spline to coordinate system.
+不能标注与坐标系对齐的样条尺寸。
+
+%CECannot dimension spline with control polygon to coordinate system.
+Cannot dimension spline with control polygon to coordinate system.
+不能给带有控制多边形的样条按坐标系标注尺寸。
+
+%CECannot edit read_only draft groups.
+Cannot edit read-only draft groups.
+不能编辑只读绘制组。
+
+%CECannot explode read_only draft groups.
+Cannot explode read-only draft groups.
+不能分解只读绘制组。
+
+%CECannot modify aligned spline.
+Cannot modify aligned spline.
+不能修改对齐的样条。
+
+%CECannot open input file.
+Cannot open input file.
+不能打开输入文件。
+
+%CECannot retrieve default surface finish symbol!
+Cannot retrieve default surface finish symbol - deleting all surface finishes!
+不能检索缺省表面粗糙度符号 - 删除所有的表面粗糙度符号!
+
+%CEColumns to merge must be similar vertically.
+Columns to merge must be similar vertically.
+合并的列必须接近于竖直。
+
+%CECurrent object and bitmap object types do not match.
+Current object and bitmap object types do not match.
+当前对象和位图对象类型不匹配。
+
+%CEDatum points array can not be used to set targets.
+Datum points array can not be used to set targets.
+基准点阵不能用于设置目标。
+
+%CEDraft axes may not be erased.
+Draft axes may not be erased.
+绘制轴不可拭除。
+
+%CEDraft datums may not be erased.
+Draft datums may not be erased.
+绘制基准不可拭除。
+
+%CEDraft group creation aborted.
+Draft group creation aborted.
+绘制组的创建被中止。
+
+%CEEntity belonging to a group cannot be modified.
+Entity belonging to a group cannot be modified.
+属于一组的图元不能被修改。
+
+%CEError - Invalid directory specification.
+Error - Invalid directory specification.
+错误 - 指定了无效目录。
+
+%CEError reading bitmap color info.
+Error reading bitmap color info.
+读取位图颜色信息出错。
+
+%CEError writing bitmap file. Bitmap may be incomplete.
+Error writing bitmap file. Bitmap may be incomplete.
+写 BMP 文件出错。位图可能未完成。
+
+%CEFilled cross-sections cannot be modified.
+Filled cross-sections cannot be modified.
+不能修改填充的横截面。
+
+%CEGTOLs may not be attached to reference dimensions.
+GTOLs may not be attached to reference dimensions.
+几何公差不可连接到参照尺寸。
+
+%CEGrouped entities cannot be chosen for creation of x-hatch.
+Grouped entities cannot be chosen for creation of cross-hatch.
+不能选择分组的图元来创建剖面线。
+
+%CEHighlighted selection is invalid.
+Highlighted selection is invalid.
+加亮的选取无效。
+
+%CEInsufficient system memory.
+Insufficient system memory.
+系统内存不足。
+
+%CEModel replacement aborted.
+Model replacement aborted.
+模型替换中止。
+
+%CENo draft angle break points created.
+No draft angle break points created.
+没有创建拔模角度断点。
+
+%CENo invalid geometry was found.
+No invalid geometry was found.
+未发现无效几何。
+
+%CENo such iges file.
+Cannot find IGES file with that name.
+找不到该名称的 IGES 文件。
+
+%CENo trajectory created - Feature aborted
+No trajectory created - Feature aborted.
+无轨线创建 - 特征中止。
+
+%CENo views found
+No views found.
+未发现视图。
+
+%CEPart is marked as read only - modification is not allowed
+Part is marked as read only - modification is not allowed.
+零件标记为只读的 - 不允许修改。
+
+%CEPartition option cancelled; only available with 'Fit Paper'.
+Partition option cancelled; only available with "Fit Paper".
+分割选项取消;仅可用"适合纸页"。
+
+%CEPartition option cancelled; only available with 'Scale Model'.
+Partition option cancelled; only available with "Scale Model".
+分割选项被取消;仅可用"比例模型"。
+
+%CERange option cancelled; not available with segmented plots.
+Range option cancelled; not available with segmented plots.
+范围选项取消;不可用分段的出图。
+
+%CERows to merge must be similar horizontally.
+Rows to merge must be similar horizontally.
+合并的行必须接近于水平。
+
+%CESelected group is already active.
+Selected group is already active.
+选取的组已经激活。
+
+%CESelected group is already suppressed.
+Selected group is already suppressed.
+选取的组已被隐含。
+
+%CEThe first and the last entities must be tangent.
+The first and the last entities must be tangent.
+第一个和最后一个图元必须相切。
+
+%CEThe selected symbol text can't be modified.
+The selected symbol text can't be modified.
+选取的标志符文本不能修改。
+
+%CEThere are no text fonts defined for this drawing.
+There are no text fonts defined for this drawing.
+没有为此绘图定义的字体。
+
+%CEThere is no room for the default text font.
+There is no room for the default text font.
+没有空间给缺省字体。
+
+%CEThis functionality is not supported with GL graphics.
+This functionality is not supported with GL graphics.
+GL 控制曲线不支持这一功能。
+
+%CEUnable to modify spacing between text lines.
+Unable to modify spacing between text lines.
+不能修改文本行间距。
+
+%CEYou cannot edit suppressed groups.
+You cannot edit suppressed groups.
+不能编辑隐含的组。
+
+%CEYou cannot explode suppressed groups.
+You cannot explode suppressed groups.
+不能分解隐含的组。
+
+%CEYou cannot mix draft and model edges.
+You cannot mix draft and model edges.
+不能混淆拔模边和模型边。
+
+%CEYou cannot reference a draft datum in a model gtol.
+You cannot reference a draft datum in a model gtol.
+不能在模型几何公差中参照绘制基准。
+
+%CEYou cannot switch the view of a draft, iges or space note.
+You cannot switch the view of a draft, IGES or space note.
+不能切换一草图、IGES 或空白注解的视图。
+
+%CEfile was not found
+File was not found.
+文件未找到。
+
+%CIBitmaps are identical.
+Bitmaps are identical.
+位图相同。
+
+%CIModel remains unchanged.
+Model remains unchanged.
+模型仍未更改。
+
+%CIPerforming fuzzy pixel comparison...
+Performing fuzzy pixel comparison ...
+执行模糊象素比较 ...
+
+%CIScanning...
+Scanning ...
+扫描 ...
+
+%CIthis feature belongs to the assembly
+This feature belongs to the assembly.
+此特征属于组件。
+
+%CPAt least one point has to be selected. Please reselect.
+At least one point has to be selected. Please reselect.
+至少选取一点。重新选取。
+
+%CPInvalid group to add to. Create group first.
+Invalid group to add to. Create group first.
+要增加的无效组。首先创建组。
+
+%CPLine font "%0w" exists. Enter new line font name [%1w]:
+Line font "%0w" exists. Enter new line font name|||%1w
+线型 "%0w" 存在。输入新的线型名|||%1w
+
+%CPPick entities created by an iges file.
+Pick entities created by an IGES file.
+拾取由IGES文件创建的图元。
+
+%CPPlease confirm to ungroup feature.
+Please confirm to ungroup feature.
+确认解组特征。
+
+%CPPlease regenerate this part in the assembly ...
+Please regenerate this part in the assembly where feature was created.
+在创建特征的组件中再生此零件。
+
+%CPPlease select a second '2 Point' reference before placing the dimension.
+Please select a second '2 Point' reference before placing the dimension.
+在放置尺寸前选取第二 '2点'参照。
+
+%CPPlease select instance part upon which the feature ...
+Please select the instance part upon which the feature was created.
+选取在其上创建特征的实例零件。
+
+%CPPlease select surfaces from reference model.
+Please select surfaces from reference model.
+请从参照模型选取曲面。
+
+%CPPlease specify at least two points for Spring Back angles.
+Please specify at least two points for Spring Back angles.
+至少给回弹角指定二个点。
+
+%CPPlease specify points at both ends.
+Please specify points at both ends.
+请在两边都指定点。
+
+%CPPlease specify pull direction and draft line first.
+Please specify pull direction and draft line first.
+请先指定拖拉方向和拔模线。
+
+%CPRead-only values cannot be selected for use in Family Table. Try again.
+Read-only values cannot be selected for use in Family Table. Try again.
+只读值不能选用于族表。再试。
+
+%CPSect. geometry has changed the topology. Can't modify.
+Section geometry has changed topology and cannot be modified.
+截面几何更改了拓扑结构，不能更改。
+
+%CPSelect a coordinate system, or choose 'No csys'.
+Select a coordinate system, or choose "No csys" from menu.
+选取一坐标系，或从菜单选取"无坐标系"。
+
+%CPSelect a drawing model by picking ON the model.
+Select a drawing model by picking ON the model.
+通过在模型上拾取来选取一绘图模型。
+
+%CPSelect a member coordinate system from the menu.
+Select a component coordinate system from the menu.
+从菜单选取一个元件坐标系。
+
+%CPSelect an assembly coordinate system from the menu.
+Select an assembly coordinate system from the menu.
+从菜单选取一组件坐标系。
+
+%CPSelect detail item(s) to translate.
+Select detail item(s) to translate.
+选取要传递的详图项目。
+
+%CPSelect from the same view.
+Select from the same view.
+从同一视图选取。
+
+%CPSelect geometry to which surface finish is associated.
+Select geometry to which surface finish is associated.
+选取与表面粗糙度值关联的几何。
+
+%CPSelect items belonging to the same part/member.
+Select items belonging to the same part/member.
+选取属于同一零件/部件的项目。
+
+%CPSelect which axis the datum plane will be normal to.
+Select which axis the datum plane will be normal to.
+选取与基准平面垂直的轴。
+
+%CPSelected point is coincident with previous point.  Select again.
+Selected point is coincident with previous point.  Select again.
+选取的点与先前点一样。重选。
+
+%CPView origin has been cleared;
+View origin has been cleared; select another view to modify.
+视图源点已经删除;选取另一视图来修改。
+
+%CPYou cannot switch the view of a datum target symbol; use show by view.
+You cannot switch the view of a datum target symbol; use show by view.
+不能切换一个基准目标标志符的视图;通过视图显示。
+
+%CPZero is not allowed, Please re-enter :
+Zero is not allowed, Please re-enter: 
+不允许输入零，重新输入:
+
+%CWDatum is missing. Drawing view normally
+The datum is missing for this view. Drawing view normally.
+此视图的基准丢失。正常绘制视图。
+
+%CWMake sure window is fully visible on screen.
+Make sure window is fully visible on screen.
+确保窗口在屏幕上都是可见的。
+
+%CWModel not added to dwg.
+The model could not be added to the drawing.
+此模型不能被加入此绘图。
+
+%CWMore than one datum plane for projection. 
+More than one datum plane for projection. First one will be used. 
+有多个投影基准平面。将使用第一个。
+
+%CWReference missing - using previous trajectory
+Reference missing - using previous trajectory.
+缺少参照 - 使用先前的轨迹。
+
+%CWThese points do not lie on the same plane with the first point.
+These points do not lie on the same plane with the first point.
+这些点与第一点不位于同一平面。
+
+%CWWARNING: composite curve components not exactly tangent.
+WARNING: composite curve components not exactly tangent.
+警告: 合成的曲线元件没有严格相切。
+
+%CWWARNING: object name and picture name mismatch.
+WARNING: Object name and picture name mismatch.
+警告:对象名和图像名不匹配。
+
+%CWWARNING: the first and the last entities not exactly tangent.
+WARNING: the first and the last entities not exactly tangent.
+警告:第一个和最后一个图元未精确相切。
+
+%CWWARNING: z values have been reset to zero.
+WARNING: z values have been reset to zero.
+警告: z 值已被复位为零。
+
+%CWWarning: All points must lie on the Neutral Curve.
+WARNING: All points must lie on the Neutral Curve.
+警告: 所有的点都必须位于中性曲线上。
+
+%CWWarning: Portion(s) of some surface(s) could not be rotated.
+WARNING: Portion(s) of some surface(s) could not be rotated.
+警告:曲面有些部分不能旋转。
+
+%CIChildren are highlited in reference color.
+Children are highlighted in reference color.
+子项用参照颜色加亮。
+
+%CECan not replace with the quilt, it is used by another feature.
+Can not replace with the quilt, it is used by another feature.
+不能用面组替换，它被另一特征使用。
+
+%CEFeature aborted. RIB failed.
+Feature aborted. RIB failed.
+特征中止。筋失败。
+
+%CPSpecifiy whether  the replacement quilt should be kept after the tweak.
+Specifiy whether  the replacement quilt should be kept after the tweak.
+指定替换面组在扭曲后是否保持。
+
+%CLTLBPart
+Part
+零件
+
+%CLTLBConcept Part
+Concept Part
+概念零件
+
+%CLTLBAssembly
+Assembly
+组件
+
+%CLTLBDrawing
+Drawing
+绘图
+
+%CLTLBLayout
+Layout
+布局
+
+%CLTLBSketch
+Sketch
+草绘
+
+%CLTLB3D Sec
+3D Sec
+3维截面
+
+%CLTLBSketcher
+Sketcher
+草绘器
+
+%CLTLBFormat
+Format
+格式
+
+%CLTLBInterchange (pre v.13)
+Interchange (pre v.13)
+交互(v.13之前)
+
+%CLTLBProject
+Project
+投影
+
+%CLTLBOld Project
+Old Project
+旧投影
+
+%CLTLBManufacturing
+Manufacturing
+制造
+
+%CLTLBGroup
+Group
+组
+
+%CLTLBUser Symbol
+User Symbol
+用户符号
+
+%CLTLBEco
+Eco
+Eco
+
+%CLTLBTool
+Tool
+刀具
+
+%CLTLBMachining
+Machining
+加工
+
+%CLTLBConf Param
+Conf Param
+Conf参数
+
+%CLTLBProject Report
+Project Report
+投影报告
+
+%CLTLBReport
+Report
+报告
+
+%CLTLBXhatch Style
+Xhatch Style
+剖面线线型
+
+%CLTLBDXhatch Style
+DXhatch Style
+D剖面线线型
+
+%CLTLBLight
+Light
+光
+
+%CLTLBWorkflow
+Workflow
+工作流
+
+%CLTLBSubform
+Subform
+子印贴
+
+%CLTLBIndex File
+Index File
+索引文件
+
+%CLTLBMarkup
+Markup
+标记
+
+%CLTLBSyscol
+Syscol
+Syscol
+
+%CLTLBDiagram
+Diagram
+布线图
+
+%CLTLBDraft
+Draft
+绘制
+
+%CLTLBMaterial
+Material
+材料
+
+%CLTLBSpool
+Spool
+线轴
+
+%CLTLBTable Drawing
+Table Drawing
+表制图
+
+%CLTLBTable Draft
+Table Draft
+表绘制
+
+%CLTLBPicture
+Picture
+图片
+
+%CLTLBNC Check
+NC Check
+NC 检查
+
+%CLTLBIGES
+IGES
+IGES
+
+%CLTLBECAD IDF
+ECAD IDF
+ECAD IDF
+
+%CLTLBECAD VISULA
+ECAD VISULA
+ECAD VISULA
+
+%CLTLBECAD ALLEGRO
+ECAD ALLEGRO
+ECAD ALLEGRO
+
+%CLTLBECAD DAZIX
+ECAD DAZIX
+ECAD DAZIX
+
+%CLTLBECAD Lib IDF
+ECAD Lib IDF
+ECAD Lib IDF
+
+%CLTLBECAD Lib VISULA
+ECAD Lib VISULA
+ECAD Lib VISULA
+
+%CLTLBECAD Lib ALLEGRO
+ECAD Lib ALLEGRO
+ECAD Lib ALLEGRO
+
+%CLTLBECAD Lib DAZIX
+ECAD Lib DAZIX
+ECAD Lib DAZIX
+
+%CLTLBECAD Pla ALLEGRO
+ECAD Pla ALLEGRO
+ECAD Pla ALLEGRO
+
+%CLTLBSET
+SET
+SET
+
+%CLTLBVDA
+VDA
+VDA
+
+%CLTLBDXF
+DXF
+DXF
+
+%CLTLBIdx
+Idx
+Idx
+
+%CLTLBImage
+Image
+图像
+
+%CLTLBCable
+Cable
+电缆
+
+%CLTLBConnector
+Connector
+连接器
+
+%CLTLBPat Table
+Pat Table
+Pat表
+
+%CLTLBPcf
+Pcf
+Pcf
+
+%CLTLBLine Stock
+Line Stock
+管线库
+
+%CLTLBDirectory
+Directory
+目录
+
+%CLTLBTool Param
+Tool Param
+刀具参数
+
+%CLTLBNeutral
+Neutral
+中性
+
+%CLTLBCADAM
+CADAM
+CADAM
+
+%CLTLBPrint Table
+Print Table
+打印表
+
+%CLTLBSite Table
+Site Table
+地址表
+
+%CLTLBMill Table
+Mill Table
+铣削表
+
+%CLTLBConfigure File
+Configure File
+配置文件
+
+%CLTLBBaseline
+Baseline
+基线
+
+%CLTLBOld Mail
+Old Mail
+旧邮件
+
+%CLTLBNew Mail
+New Mail
+新邮件
+
+%CLTLBDif Report
+Dif Report
+不同报告
+
+%CLTLBTerm Table
+Term Table
+终止表
+
+%CLTLBCADAM Draft
+CADAM Draft
+CADAM Draft
+
+%CLTLBLinestyle
+Linestyle
+线型
+
+%CLTLBIntegr Proj
+Integr Proj
+集成投影
+
+%CLTLBFPP FEI
+FPP FEI
+FPP FEI
+
+%CLTLBFPP FES
+FPP FES
+FPP FES
+
+%CLTLBFPP FMR
+FPP FMR
+FPP FMR
+
+%CLTLBCMDSYN
+CMDSYN
+CMDSYN
+
+%CLTLBCL File
+CL File
+CL 文件
+
+%CLTLBDrawing Setup
+Drawing Setup
+绘图设定
+
+%CLTLBSnapshot
+Snapshot
+快照
+
+%CLTLBStrip Table
+Strip Table
+带表
+
+%CLTLBDiagram MVC Def
+Diagram MVC Def
+布线图MVC定义
+
+%CLTLBWelding Rod
+Welding Rod
+焊条
+
+%CLTLBWelding Params
+Welding Params
+焊接参数
+
+%CLTLBTool Path
+Tool Path
+刀具路径
+
+%CLTLBSubharness
+Subharness
+子线束
+
+%CLTLBBeam Cross Sect Prop
+Beam Cross Sect Prop
+梁横截面属性
+
+%CLTLBInst Part
+Inst Part
+实例零件
+
+%CLTLBInst Assembly
+Inst Assembly
+实例组件
+
+%CLTLBSolid Config
+Solid Config
+实体配置
+
+%CLTLBFEM Model
+FEM Model
+FEM 模型
+
+%CLTLBFEM Neutral File
+FEM Neutral File
+FEM 中性文件
+
+%CLTLBDat file
+Dat file
+Dat文件
+
+%CLTLBCAV Deviation File
+CAV Deviation File
+CAV偏差文件
+
+%CLTLBCAV Ibl File
+Ibl File
+Ibl文件
+
+%CLTLBCAV Pts File
+Pts File
+点文件
+
+%CLTLBComp Group Def
+Comp Group Def
+复合元件定义
+
+%CLTLBAppearance Map
+Appearance Map
+外观映射
+
+%CLTLBShaded Image
+Shaded Image
+着色图像
+
+%CLTLBPostscript
+Postscript
+Postscript
+
+%CLTLBPTC Image
+PTC Image
+PTC图像
+
+%CLTLBPTC Bumpmap
+PTC Bumpmap
+PTC凹凸图
+
+%CLTLBPTC Color Texture
+PTC Color Texture
+PTC 颜色纹理
+
+%CLTLBPTC Decal
+PTC Decal
+PTC贴花
+
+%CLTLBTGA
+TGA
+TGA
+
+%CLTLBSHIMA-SEIKI
+SHIMA-SEIKI
+SHIMA-SEIKI
+
+%CLTLBRGB
+RGB
+RGB
+
+%CLTLBRLA
+RLA
+RLA
+
+%CLTLBRoom
+Room
+房间
+
+%CLTLBBif
+Bif
+Bif
+
+%CLTLBEPS 
+EPS 
+EPS
+
+%CLTLBSTEP
+STEP
+STEP
+
+%CLTLBCadra
+Cadra
+Cadra
+
+%CLTLBFiat
+Fiat
+Fiat
+
+%CLTLBPATRAN
+PATRAN
+PATRAN
+
+%CLTLBCosmos
+Cosmos
+Cosmos
+
+%CLTLBCATIA to/from File
+CATIA to/from File
+CATIA到/从文件
+
+%CLTLBCDRS
+CDRS
+CDRS
+
+%CLTLBCATIA Facets
+CATIA Facets
+CATIA 小平面
+
+%CLTLBSTL
+STL
+STL
+
+%CLTLBRCS
+RCS
+RCS
+
+%CLTLBInventor
+Inventor
+创始人
+
+%CLTLB3DPaint
+Wavefront
+Wavefront
+
+%CLTLBRender
+Render
+渲染
+
+%CLTLBPhoto Render
+Photo Render
+图片渲染
+
+%CLTLBSuperTab
+SuperTab
+总表格
+
+%CLTLBVRML
+VRML
+VRML
+
+%CLTLBPlotter
+Plotter
+绘图仪
+
+%CLTLBTIFF
+TIFF
+TIFF
+
+%CLTLBTIFF (Snapshot)
+TIFF (Snapshot)
+TIFF (捕捉)
+
+%CLTLBCGM
+CGM
+CGM
+
+%CLTLBJPEG
+JPEG
+JPEG
+
+%CLTLBGIF
+GIF
+GIF
+
+%CLTLBCADAM CPTR Neutral
+CADAM CPTR Neutral
+CADAM CPTR 中性
+
+%CLTLBWindow Customization
+Window Customization
+窗口定制
+
+%CLTLBANSYS geom
+ANSYS geom
+分析几何
+
+%CLTLBMFG PARAM
+MFG PARAM
+制造参数
+
+%CLTLBAll File
+All File
+所有文件
+
+%CLTLBPDGS to/from File
+PDGS to/from File
+PDGS到/从文件
+
+%CLTLBCATIA Direct
+CATIA Direct
+CATIA直接
+
+%CLTLBCATIA IIF
+CATIA IIF
+CATIA IIF
+
+%CLTLBCadam Direct
+Cadam Direct
+Cadam直接
+
+%CLTLBTablet
+Tablet
+粘贴板
+
+%CLTLBDWG
+DWG
+DWG
+
+%CLTLBCommonspace
+Commonspace
+公用区
+
+%CLTLBWorkspace
+Workspace
+工作区
+
+%CLTLBPro/Library
+Pro/Library
+Pro/Library
+
+%CIDWGRename
+Rename
+重命名
+
+%CISplit Surface
+Split Surface
+分裂曲面
+
+%CISplit Volume
+Split Volume
+分割体积块
+
+%CLTLBCADDS5
+CADDS5
+CADDS5
+
+%CESelected point is not coplanar with the set datum plane.
+Point must be defined on the set datum plane surface.
+点必须在规定的基准平面表面上定义。
+
+%CEThere is no room for font %0w.
+There is no room for font %0w.
+没有字体%0w的空间。
+
+%CLTLBPipe Line
+Pipe Line
+管线
+
+%CLTLBNeutral Wire List
+Neutral Wire List
+中性线列表
+
+%CIDraft Line Split
+Datum Curve: Split
+基准曲线:分裂
+
+%CLTLBJava Class Archive
+Java Class Archive
+java等级档案
+
+%CIModel %0w has been added to dwg %1w.
+%0w has been added to drawing %1w.
+%0w已被加入绘图%1w。
+
+%CLTLBICEM
+ICEM
+ICEM
+
+%CLTLBCavity Layout Rule
+Cavity Layout Rule
+腔孔布局规则
+
+%CLTLBFrames File
+Frames File
+帧文件
+
+%CLDWGDefault Wit Line
+Default Wit Line
+缺省的尺寸界线
+
+%CPSet the witness lines to default.
+Set the witness lines to default.
+将尺寸界线设置为缺省。
+
+%CLTLBPro/Desktop
+Pro/Desktop
+Pro/Desktop
+
+%CLTLBFEM Nastran File
+FEM Nastran File
+FEM Nastran 文件
+
+%CLTLBFEM XDB File
+FEM XDB File
+FEM XDB 文件
+
+%CIDatum Curve Projected
+Datum Curve: Projected
+基准曲线:投影的
+
+%CPLost license, will hibernate
+Lost floating license! Select "Save", "Retry", or "Exit".
+失去浮动许可证! 选择"保存"、"重试"或"退出"。
+
+%CWLost option, will hibernate
+Lost %0s license. Select "Save", "Retry", or "Exit".
+失去%0s许可证。选择"保存"、"重试"或"退出"。
+
+%CICurve From Equation
+From Equation
+从方程
+
+%CICurve Composite
+Composite
+复合
+
+%CICurve Sketch
+Sketched
+草绘
+
+%CICurve Projected Sket Sec
+Projected, Sketched Section
+投影、草绘的截面
+
+%CICurve Projected Sel Sec
+Projected, Selected Section
+投影、选取的截面
+
+%CLTLBCatalog Rule
+Catalog Rule
+目录规则
+
+%CLTLBGeomToolModel
+GeomToolModel
+几何刀具模型
+
+%CPDo you want existing molding(s) to be affected by the component? [Y]:
+Do you want existing molding(s) to be affected by the component?|||Yes
+是否要使已有的模型受元件影响?|||是
+
+%CPDo you want existing cast result(s) to be affected by the component? [Y]:
+Do you want existing cast result(s) to be affected by the component?|||Yes
+是否要使现有的铸件受元件影响?|||是
+
+%CPSelect curve for spine.
+Select curve for spine.
+选取骨架曲线。
+
+%CLTBLMPEG
+MPEG
+MPEG
+
+%CLTLBWelding Process
+Welding Process
+焊接工艺
+
+%CLTLBNC Strategy File
+NC Strategy File
+NC策略文件
+
+%CLTLBOptegra Vis
+Optegra Vis
+Optegra Vis
+
+%CLTLBMedusa
+Medusa
+Medusa
+
+%CLTLBXPatch
+XPatch
+XPatch
+
+%CLTLBShrinkwrap
+Shrinkwrap
+收缩包络
+
+%CLTLBMotion Envlp
+Motion Envlp
+运动包络
+
+%CLTLB
+4D Navigator
+4D导航器
+
+%CLTLBCATIA Session Direct
+CATIA Session Direct
+直接进入CATIA 会话
+
+%CWSelected point is not on cylinder surface.
+Selected point is not on cylinder surface.
+选取的点不在圆柱面上。
+
+%CLTLB4D Navigator
+4D Navigator
+4D导航器
+
+%CLTLBACIS File
+ACIS File
+ACIS文件
+
+%CLTLBWeld Process
+Weld Process
+焊接工艺
+
+%CLTLBParameter
+Parameter
+参数
+
+%CLTLBGeom Type
+Geom Type
+几何类型
+
+%CLTLBX-Sec Plane
+X-Sec Plane
+横截平面
+
+%CLTLBTraj direction
+Traj direction
+轨迹方向
+
+%CLTLBBMP
+BMP
+BMP
+
+%CLTLBPNG
+PNG
+PNG
+
+%CLTLBWWW
+WWW
+WWW
+
+%CLTLBPOLTXT
+POLTXT
+POLTXT
+
+%CLTLBSymbol Parameters
+Symbol Parameters
+符号参数
+
+%CLTLBSHIP-IT
+SHIP-IT
+SHIP-IT
+
+%CLTLBMedusa (s.*)
+Medusa (s.*)
+Medusa (s.*)
+
+%CLTLBMedusa (*.she)
+Medusa (*.she)
+Medusa (*.she)
+
+%CLTLBBend Table
+Bend Table
+折弯表
+
+%CLTLBXML
+XML
+XML
+
+%CLTLBHPGL2
+HPGL2
+HPGL2
+
+%CLTLBGERBER
+GERBER
+GERBER
+
+%CLTLBHPGL
+HPGL
+HPGL
+
+%CECurrently modified volume cannot be used as a replacement quilt.
+Currently modified volume cannot be used as a replacement quilt.
+当前已修改的体积块无法用作替换面组。
+
+%CEFeature aborted. Revolve angle too small.
+Feature aborted. Revolve angle too small.
+特征中止。旋转角度过小。
+
+%CLTLBGranite File
+Granite File
+Granite文件
+
+TLBParasolid
+Parasolid
+Parasolid
+
+%CLTLBAppearance
+Appearance
+外观
+
+%CLTLBAdobe Illustrator
+Adobe Illustrator
+Adobe Illustrator
+
+%CI Setting File Names
+ Setting File Names
+ 设置文件名
+
+%CI General Setting
+ General Setting
+ 一般设置
+
+%CI Orientation Setting
+ Orientation Setting
+ 方向设置
+
+%CI Curve Setting
+ Curve Setting
+ 曲线设置
+
+%CI Stiffener Setting
+ Stiffener Setting
+ 加固件设置
+
+%CI IGES Setting
+ IGES Setting
+ IGES设置
+
+%CLTLBGranite Application File
+Granite Application File
+Granite应用程序文件
+
+%CLTLBPro/Desktop Direct
+Pro/DESKTOP Direct
+Pro/DESKTOP指南
+
+%CENo Plug-In available for %0s
+No Plug-In available for %0s
+对于 %0s，无可用插件
+
+%CIPlug-in %0s supports file type %1s
+Plug-in %0s supports file type %1s
+插件 %0s 支持文件类型 %1s
+
+%CEPlug-in %0s failed to open file %1s
+Plug-in %0s failed to open file %1s
+插件 %0s 打开文件 %1s 失败
+
+%CEFailed to load Plug-in %0s
+Failed to load Plug-in %0s
+加载插件 %0s 失败
+
+%CENone of the available Plug-ins can load the file %0s
+None of the available Plug-ins can load the file %0s
+可用的插件都不能加载文件 %0s
+
+%CI Shell Expansion Setting
+ Shell Expansion Setting
+ 壳延展设置
+
+%CLTLBTerminator
+Terminator
+终结器
+
+%CLTLBWeb Page
+Web Page
+网页
+
+%CLTLBText File
+Text File
+文本文件
+
+%CIRegained license
+Regained %0s license; you can resume working.
+重新获得%0s许可证;可以恢复工作。
+
+%CIRegained option
+Regained %0s license.
+重新获得%0s许可证。
+
+%CLTLBPDGS Direct
+PDGS Direct
+PDGS指南
+
+%CLTLBProductView
+ProductView
+ProductView
+
+%CLTLBThermal Modeler Data
+Thermal Modeler Data
+热建模器数据
+
+%CLTLBFEM Mesh Part
+FEM Mesh Part
+FEM网格零件
+
+%CLTLBFEM Mesh Assembly
+FEM Mesh Assembly
+FEM网格组件
+
+%CLTLBFEM Results Part
+FEM Results Part
+FEM结果零件
+
+%CLTLBFEM Results Assembly
+FEM Results Assembly
+FEM结果组件
+
+%CLTLBFEM Results
+FEM Results
+FEM结果
+
+%CLTLBFEM Mesh/Results
+FEM Mesh/Results
+FEM网格/结果
+
+%CLTLBMdl Tree Config
+Model Tree Configuration File
+模型树配置文件
+
+%CIDatum Curve Formed
+Datum Curve: Formed
+基准曲线:成形
+
+%CIDatum Curve Two Projs
+Datum Curve: Two Projections
+基准曲线:两个投影
+
+%CIDatum Curve Intr. Srf
+Datum Curve: Surface Intersection 
+基准曲线:曲面相交
+
+%CLTLBServer configuration
+Servers Configuration File
+服务器配置文件
+
+%CLTLBVtx File
+Vtx File
+顶点文件
+
+%CLTLBACS File
+ACS File
+ACS文件
+
+%CLTLBMechanica Mesh Part
+Mechanica Mesh Part
+Mechanica 网格零件
+
+%CLTLBMechanica Mesh Assembly
+Mechanica Mesh Assembly
+Mechanica 网格组件
+
+%CLTLBMechanica/FEM Common DB
+Mechanica/FEM Common DB
+Mechanica/FEM 公用数据库
+
+%CLTLBMechanica Table Data
+Mechanica Table Data
+机械表数据
+
+%CLTLBMechanism Playback File
+Mechanism Playback File
+机构回放文件
+
+%CLTLBAnimation Playback File
+Animation Playback File
+动画回放文件
+
+%CLTLBMechanism Frame File
+Mechanism Frame File
+机构帧文件
+
+%CLTLBGraph Tabular File
+Graph Tabular File
+图表文件
+
+%CLTLBZip File
+Zip File
+Zip文件
+
+%CLTLBDbatch File
+Distributed Batch File
+分布式批处理文件
+
+%CLTLBEnvironment
+Environment
+环境
+
+%CLTLBWavefront
+Wavefront
+Wavefront
+
+%CIDiameter = %g, Depth = %g
+Diameter = %0g, Depth = %1g
+直径=%0g，深度=%1g
+
+%CLTLBVersatec
+Versatec
+Versatec
+
+%CLTLBCalcomp
+Calcomp
+Calcomp
+
+%CWWARNING: obsolete group %w has been ungrouped.
+WARNING: obsolete group %0w has been ungrouped.
+警告:废弃的组%0w已被解组。
+
+%CPSelect a point to move (BUTTONS: L=Select, M=Done, R=Query Sel).
+Select a point to move. (Mouse buttons: Left = Select, Middle = OK, Right = Query).
+选取要移动的点。(鼠标键:左＝选取，中＝确定，右＝查询)。
+
+%CEInvalid group id %d. %d is non-existant.
+Invalid group id %0d. %1d is non-existent.
+无效组id%0d。%1d不存在。
+
+%CLTLBPro Table
+Pro Table
+Pro表
+
+%CLTLBInput File
+Input File
+输入文件
+
+%CLTLBI-DEAS Model
+I-DEAS Model
+I-DEAS 模型
+
+%CLTLBI-DEAS Package
+I-DEAS Package
+I-DEAS 封装
+
+%CPselect %0w %1w %2w
+Select %0w, %1w or %2w.
+选取%0w、%1w或%2w。
+
+%CPselect %0w %1w %2w %3w %4w %5w %6w %7w %8w %9w
+Select %0w, %1w, %2w, %3w, %4w, %5w, %6w, %7w, %8w or %9w.
+选取%0w、%1w 、%2w 、%3w 、%4w 、%5w 、%6w 、%7w、 %8w或%9w。
+
+%CPselect %0w %1w %2w %3w %4w %5w %6w %7w %8w %9w %10w
+Select %0w, %1w, %2w, %3w, %4w, %5w, %6w, %7w, %8w, %9w or %10w.
+选择%0w 、%1w 、%2w、 %3w 、%4w 、%5w 、%6w 、%7w 、%8w 、%9w 或%10w。
+
+%CPselect %0w %1w %2w %3w %4w %5w %6w %7w %8w %9w %10w %11w
+Select %0w, %1w, %2w, %3w, %4w, %5w, %6w, %7w, %8w, %9w, %10w or %11w.
+选取%0w 、%1w 、%2w 、%3w 、%4w 、%5w、 %6w、 %7w 、%8w 、%9w 、%10w或%11w。
+
+%CPselect %0w %1w %2w %3w %4w %5w %6w %7w %8w %9w %10w %11w %12w
+Select %0w, %1w, %2w, %3w, %4w, %5w, %6w, %7w, %8w, %9w, %10w, %11w or %12w.
+选取%0w、 %1w 、%2w 、%3w 、%4w 、%5w 、%6w 、%7w 、%8w、 %9w 、%10w 、%11w 或%12w。
+
+%CPselect %0w %1w %2w %3w %4w %5w %6w %7w %8w %9w %10w %11w %12w %13w
+Select %0w, %1w, %2w, %3w, %4w, %5w, %6w, %7w, %8w, %9w, %10w, %11w, %12w or %13w.
+选取%0w、 %1w 、%2w、 %3w 、%4w 、%5w、 %6w、 %7w 、%8w 、%9w 、%10w 、%11w 、%12w或%13w。
+
+%CLTLBXML GPI file
+XML GPI file 
+XML GPI 文件
+
+%CLTLBCSV File
+CSV File
+CSV 文件
+
+%CLTLBMech Results Directory
+Mech Results Directory
+Mech 结果目录
+
+%CLTLBLightworksArchive
+Lightworks Archive
+Lightworks 存档
+
+%CLTLBScene
+Render Scene
+渲染场景
+
+%CLTLBECAD 3DIC 
+ECAD 3DIC
+ECAD 3DIC
+
+%CLTLBECAD 3DIC OA
+ECAD 3DIC OA
+ECAD 3DIC OA
+
+%CLTLBNASTRAN input
+NASTRAN input
+NASTRAN 输入
+
+%%CLTLBParameter UI config
+Parameter UI config
+参数用户界面配置
+
+%CLTLBCSV Table Drawing
+CSV Table Drawing
+CSV 表绘图
+
+%CLTLBECAD EDA 
+ECAD EDA
+ECAD EDA
+
+%CLTLBHDR
+HDR
+HDR
+
+%CLTLBEXR
+EXR
+EXR
+
+%CIThese options control dimension tolerances
+These options control dimension tolerances
+这些选项控制尺寸公差
+
+%CLa draft datum point
+a draft datum point
+绘制基准点
+
+%CLan axis endpoint
+an axis endpoint
+一个轴端点
+
+%CLaxis endpoints
+axis endpoints
+多个轴端点
+
+%CLa coordinate system vector
+a coordinate system vector
+一个坐标系向量
+
+%CLcoordinate system vectors
+coordinate system vectors
+多个坐标系向量
+
+%CLTLBParameter UI Config
+Parameter UI Config
+参数用户界面配置
+
+%CPEnter thickness [-QUIT-]:
+Enter thickness [-Quit-]:
+输入厚度 [-退出-]:
+

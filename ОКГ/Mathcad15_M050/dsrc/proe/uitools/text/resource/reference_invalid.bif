@@ -1,0 +1,14 @@
+!
+! 09-Mar-07  L-01-28  TRV    $$1 Created.
+!
+(Image reference_invalid
+    (Resources
+        (.Width     6)
+        (.Height    11)
+        (.Depth     24)
+    )
+    (Data
+        0FFFFFFF03F0FD000D100D200DFE2C05E4E4E401666666703F063C012C014001
+        B4B4B45706004001500D600D700D380D4809B00DC00D00D00DE00DF001
+    )
+)

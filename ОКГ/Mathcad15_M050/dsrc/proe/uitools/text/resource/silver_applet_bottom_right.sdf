@@ -1,0 +1,10 @@
+; Applet bottom half layout (right)
+;
+; 30-Jul-07 L-03-01 AW    $$1   Created
+;
+
+[layoutbody]
+ContentMargins = 4, 3, 4, 3
+SizingMargins = 3, 3, 3, 3
+;TextColor = 51 94 168
+BackgroundImage = styles/ribbon/ribbonappletbottomright.bif

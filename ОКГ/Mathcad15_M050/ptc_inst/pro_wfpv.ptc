@@ -1,0 +1,88 @@
+// 26-Apr-02      JJE  Created.
+// 08-May-02 $$1  MAZ  Add PSF_EXE and Extensions
+// 01-Jul-02 $$2  MAZ  Rm pdgs script 
+// 04-Mar-03 K-01-06  $$3  TWH  LpcfgWindows->ScreenWindows
+// 21-Jul-03 K-01-11 $$4   JJE  Add ptcborrow and ptcreturn scripts
+// 15-Dec-03 K-01-20 $$5  MAZ  Remove borrow scripts
+// 10-Sep-08 L-03-17 $$6  TWH  Remove pro_batch
+// 12-Mar-10 L-03-38 $$7  TWH  Add iculibs
+
+(Product wfpv 
+    (Name                      "Pro/ENGINEER Sneak Peek")
+    (Packages                  "proe_base"
+                               "proehelp"
+                               "ptcutil"
+                               "uninstall")
+    (ProgramFiles              True)
+    (LpDirName                 "proe")
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+    (SaveList                  "text/menu_def.pro"
+                               "text/config.pro")
+    (PSF_EXE                   "proe.exe")
+    (Extensions                "psf=psfFile=PTC Startup File"
+                               "asm=asmFile=Pro/E Assembly File"
+                               "dgm=dgmFile=Pro/E Diagram File"
+                               "drw=drwFile=Pro/E Drawing File"
+                               "frm=frmFile=Pro/E Format File"
+                               "lay=layFile=Pro/E Layout File"
+                               "mfg=mfgFile=Pro/E Manufacturing File"
+                               "mrk=mrkFile=Pro/E Markup File"
+                               "prt=prtFile=Pro/E Part File"
+                               "sec=secFile=Pro/E Sketcher Section File")
+)
+
+(Package proe_base
+    (Name                      "Pro/ENGINEER")
+    (Screens                   "ScreenLicAgree"
+                               "ScreenWindows"
+                               "LpcfgOle")
+    (CmdTypes                  "proe")
+    (Binscripts                "ptchostid"
+                               "tempmgr"
+                               "batch_status"
+                               "pro_b_exec"
+                               "protk_unlock"
+                               "proigsutil"
+                               "ptcflush"
+                               "ptcstatus"
+                               "propostl"
+                               "propostq"
+                               "propostg"
+                               "purge"
+                               "protab"
+                               "pro_mcs_comp"
+                               "pro_ncl_cvt"
+                               "procvter"
+                               "procvtutil"
+                               "convert_image"
+                               "image_to_mip"
+                               "pix2fb"
+                               "showmip"
+                               "ptcportmap"
+                               "pro_build_library_ctg")
+    (Cdsections                "ProE Tree"
+                               "iculibs"
+                               "proe"
+                               "Install"
+                               "apps_data"
+                               "animation"
+                               "mechanism"
+                               "ncexpert"
+                               "licensefiles"
+                               "flexclient")
+    (Installed                 True)
+)
+
+(CmdType proe
+    (Name                      "proe")
+    (DefName                   "proe")
+    (Type                      "Pro/ENGINEER")
+    (Prefixes                  "PROE_")
+    (Featvars                  "__PROE_FEATURE_NAME__")
+    (Template                  "proengineer_start")
+    (IconPath                  "_LP_\install\nt\proe.ico")
+    (IconIndex                 "0")
+    (UseExtensions             True)
+    (UseOptions                True)
+)

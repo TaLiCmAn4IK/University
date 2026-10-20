@@ -1,0 +1,24 @@
+# {0} (6) [0] scr_genlist2.Label
+Advanced
+Avanzato
+
+# [1] AEDadd.Label
+Add
+Aggiungi
+
+# [2] AEDedit.Label
+Edit
+Modifica
+
+# [3] AEDdel.Label
+Delete
+Elimina
+
+# [4] AEDinfo.Label
+Info
+Info
+
+# [5] scr_genlist3.Label
+Instructions
+Istruzioni
+

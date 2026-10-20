@@ -1,0 +1,120 @@
+# {100} (100) [0] intf_profile.Label
+<file name> - Import Profile
+<file name> - 匯入設定檔
+
+# [1] tb_psh_new.HelpText
+Opens a new blank import profile.
+開啟新的空白匯入設定檔。
+
+# [2] tb_psh_open.HelpText
+Opens an existing import profile.
+開啟現有匯入設定檔。
+
+# [3] tb_psh_save.HelpText
+Saves an import profile. 
+儲存匯入設定檔。
+
+# [4] tb_psh_save_as.HelpText
+Saves an import profile under a different name.
+用不同名稱儲存匯入設定檔。
+
+# [5] lay_profile_list.Label
+Profile
+輪廓
+
+# [6] psh_profile_save.Label
+Save
+儲存
+
+# [7] psh_profile_save.HelpText
+Saves option settings to the selected profile.
+將選項設定儲存到所選設定檔。
+
+# [8] OkPshBtn.Label
+OK
+確定
+
+# [9] OkPshBtn.HelpText
+Keeps the changes.
+保持變更。
+
+# [10] CancelPshBtn.Label
+Cancel
+取消
+
+# [11] CancelPshBtn.HelpText
+Cancels the changes.
+取消變更。
+
+# [12] Menu_File.Label
+File
+檔案
+
+# [13] psh_new.Label
+New
+新建
+
+# [14] psh_new.HelpText
+Opens a new blank import profile.
+開啟新的空白匯入設定檔。
+
+# [15] psh_open.Label
+Open...
+開啟...
+
+# [16] psh_open.HelpText
+Opens an existing import profile.
+開啟現有匯入設定檔。
+
+# [17] psh_save.Label
+Save
+儲存
+
+# [18] psh_save.HelpText
+Saves an import profile. 
+儲存匯入設定檔。
+
+# [19] psh_save_as.Label
+Save As...
+另存新檔...
+
+# [20] psh_save_as.HelpText
+Saves an import profile under a different name.
+用不同名稱儲存匯入設定檔。
+
+# [21] psh_exit.Label
+Exit
+退出
+
+# [22] psh_exit.HelpText
+Exits from the import profile editor.
+從匯入設定檔編輯器退出。
+
+# [23] Menu_Edit.Label
+Edit
+編輯
+
+# [24] psh_reset.Label
+Reset to Default
+重設為預設值
+
+# [25] psh_reset.HelpText
+Resets options back to their system defaults.
+將選項重設回它們的系統預設值。
+
+# [26] psh_session_profile.Label
+Set per Current Profile
+根據目前輪廓設定
+
+# [27] psh_session_profile.HelpText
+Sets options per Current Profile,\nwhich keeps the options' most recent \nused values.
+根據目前輪廓設定選項，\n它會保持選項的最近\n使用的值。
+
+# [28] psh_set_per_config.Label
+Set per Config Options
+根據組態選項設定
+
+# [29] psh_set_per_config.HelpText
+Sets options that have corresponding\nconfig options per the config options'\nvalues in session. Resets other options\nback to their system defaults.
+根據作業階段中組態選項\n的值設定具有對應組態選項\n的選項。將其他選項\n重設回其系統預設值。
+

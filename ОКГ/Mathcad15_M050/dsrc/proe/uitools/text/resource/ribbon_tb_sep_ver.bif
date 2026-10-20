@@ -1,0 +1,15 @@
+!
+! 29-Aug-06 L-01-16 AlexM $$1 Created.
+!
+!
+(Image ribbon_tb_sep_ver
+    (Resources
+        (.Width     5)
+        (.Height    20)
+        (.Depth     8)
+    )
+    (Data
+        FFFF0BC1FF08C1FF0BC1FF08C1FF0BC1FF08C1FF0BC1FF08C1FF0BC1FF08C1FF
+        0BC1FF08C1FF0BC1FF08C1FF0BC1FF08C1FF0BC1FF08C1FF0BC1FF08FFFF
+    )
+)

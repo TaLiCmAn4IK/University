@@ -1,0 +1,36 @@
+# {100} (100) [0] productpointSubLayout.Label
+Install location for ProductPoint
+ProductPoint のインストール位置
+
+# [1] sp_exists.Label
+Existing SharePoint Server information
+既存の SharePoint サーバー情報
+
+# [2] Label5.Label
+Name
+名前
+
+# [3] Label6.Label
+Location
+場所
+
+# [4] sp_name.Value
+ProductPoint
+ProductPoint
+
+# [5] sp_url.Value
+http://
+http://
+
+# [6] lpcfg_productpoint2.Label
+Instructions
+インストラクション
+
+# [7] productpointSub2.Label
+Install Status
+インストールステータス
+
+# [8] PP_Status.Label
+Not Installed\n\n
+インストールされていません\n\n
+

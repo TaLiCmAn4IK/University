@@ -1,0 +1,20 @@
+# {0} (5) [0] TextArea.Value
+In the fields below, enter the paths to the directories to be used by the ORGA archive.
+以下のフィールドに、ORGA アーカイブが使用するディレクトリへのパスを入力します。
+
+# [1] orga_admin.Label
+Administrator directory
+管理者ディレクトリ
+
+# [2] AdminDirLab.Label
+If the administrator directory for this ORGA Archive\ndatabase already exists (either on this computer or\nelsewhere on the network), enter the path of the\nexisting directory.
+ORGA アーカイブデータベースの管理者ディレクトリが\nすでにある場合は(このコンピュータ上\nまたはネットワーク上に)、既存のディレクトリへの\nパスを入力します。
+
+# [3] orga_des.Label
+First designer directory
+最初の設計者ディレクトリ
+
+# [4] DesDirLab.Label
+After installation, you may set up additional designers\nby making copies of the subdirectories in this directory.
+インストール後、このディレクトリにサブディレクトリのコピーを作成し、\nさらに設計者を設定できます。
+

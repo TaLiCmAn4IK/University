@@ -1,0 +1,12 @@
+# {0} (3) [0] fwoptdlg.Label
+Select Floating Options
+부동 옵션 선택
+
+# [1] OkButton.Label
+&OK
+확인(&O)
+
+# [2] CancelBtn.Label
+&Cancel
+취소(&C)
+

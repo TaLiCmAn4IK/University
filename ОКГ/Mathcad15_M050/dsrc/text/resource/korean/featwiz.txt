@@ -1,0 +1,84 @@
+# {100} (100) [0] featwiz.Label
+Feature Wizard
+피쳐 마법사
+
+# [1] HostListAdd.Label
+Add
+추가
+
+# [2] HostListEdit.Label
+Edit
+편집
+
+# [3] HostListDelete.Label
+Delete
+삭제
+
+# [4] HostActionLabel.Label
+Action Label
+작업 라벨
+
+# [5] LineTypeList.ColumnLabel
+16
+
+
+# [6] LineTypeList.Labels.0
+SERVER
+서버
+
+# [7] LineTypeList.Labels.1
+DAEMON
+디몬
+
+# [8] LineTypeList.Labels.2
+INCREMENT
+증가
+
+# [9] ActionLabel.Label
+ ------- Action line ---------
+ ------- 작업 라인 ---------
+
+# [10] OptionActionLabel.Label
+Select Options
+옵션 선택
+
+# [11] OptListMod.Label
+Modify
+수정
+
+# [12] ChoiceGroup.Labels.1
+Yes
+예
+
+# [13] ChoiceGroup.Labels.2
+No
+아니오
+
+# [14] ChoiceLabel.Label
+Action line
+작업 라인
+
+# [15] BackButton.Label
+Back
+뒤로
+
+# [16] NextButton.Label
+Next
+다음
+
+# [17] HelpButton.Label
+Help
+도움말
+
+# [18] CancelButton.Label
+Cancel
+취소
+
+# [19] StepLabel.Label
+License Wizard - Step 1
+라이센스 마법사 - 단계 1
+
+# [20] DALayout.Label
+Sample License Line:
+샘플 라이센스 라인:
+

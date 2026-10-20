@@ -1,0 +1,36 @@
+# {100} (100) [0] button_edit.Label
+Button Editor
+按鈕編輯器
+
+# [1] OK.Label
+OK
+確定
+
+# [2] Cancel.Label
+Cancel
+取消
+
+# [3] Clear.Label
+Clear
+清除
+
+# [4] lay_pic.Label
+Picture
+圖片
+
+# [5] lay_colors.Label
+Colors
+顏色
+
+# [6] lbl_erase.Label
+Erase:
+拭除:
+
+# [7] lay_move.Label
+Move
+移動
+
+# [8] lay_preview.Label
+Preview
+預覽
+

@@ -1,0 +1,6 @@
+; 17-May-09 L-03-33  Moti  $$1  Created for file open dialog
+
+[layoutbody]
+ContentMargins = 0, 0, 0, 0
+SizingMargins = 0, 0, 0, 0
+BackgroundImage = styles/wf5general/wf5navigator_body.png

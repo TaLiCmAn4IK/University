@@ -1,0 +1,12 @@
+; 26-May-09 L-03-33  IKAL  $$1  Created.
+; 15-Oct-09 L-03-36  IKAL  $$2  Updated ContentMargins for new global skin.
+
+; Layout
+
+[layout]
+ContentMargins = 8, 6, 8, 0
+
+; ToolButton
+
+[toolbutton]
+Font = -1

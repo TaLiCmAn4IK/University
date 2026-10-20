@@ -1,0 +1,14 @@
+!
+! 18-Oct-07 L-01-40  AW      $$1  Created
+!
+
+(Image file_open_history_casc
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     8)
+    )
+    (Data
+        DDC7FF
+    )
+)

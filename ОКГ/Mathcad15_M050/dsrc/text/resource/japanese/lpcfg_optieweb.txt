@@ -1,0 +1,24 @@
+# {0} (6) [0] lpcfg_optieweb.Label
+Info*Engine Web Server Authentication Settings
+Info*Engine Webサーバー認証設定
+
+# [1] lpcfg_optieweb2.Label
+Info*Engine Web Server Access Settings
+Info*Engine Webサーバーアクセス設定
+
+# [2] HostNameLab.Label
+Web Server Hostname:
+Webサーバーホスト名:
+
+# [3] UserPassLab.Label
+Password:
+パスワード:
+
+# [4] UserNameLab.Label
+User Name:
+ユーザー名:
+
+# [5] TextArea.Value
+Specify the Info*Engine Web Server and User Name and Password for Authentication
+認証に Info*Engine Web サーバー、ユーザー名およびパスワードを指定します。
+

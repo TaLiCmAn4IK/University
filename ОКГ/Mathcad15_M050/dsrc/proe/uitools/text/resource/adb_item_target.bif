@@ -1,0 +1,22 @@
+!
+!  History:  
+!
+!  Date      Release  Name   Ver.  Comments
+!  --------- -------  -----  ----- --------------------------------------------
+!  17-Sep-08 L-03-18  AlexM  $$1   Created.
+!
+!  INSERT COMMENT ABOVE THIS LINE
+!  Do not forget to put "!" at the begining of each line in this comment block.
+
+(Image adb_item_target
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     4)
+    )
+    (Data
+        CC080F08CA0F080F080FC9FF080F080FC9FF080F080FC9FF080F080FC9FF080F
+        080FC9FF080F080FC9FF080F080FC9FF080F080FC9FF080F080FC9FF080F080F
+        C9FF080F080FC9FF080F080FC9FF080FCC08CE0F
+    )
+)

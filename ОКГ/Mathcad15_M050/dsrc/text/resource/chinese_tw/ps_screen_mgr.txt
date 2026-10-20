@@ -1,0 +1,80 @@
+# {0} (20) [0] ps_screen_mgr.Label
+Screen Manager
+螢幕管理員
+
+# [1] FileMenuPane.Label
+File
+檔案
+
+# [2] LoadTrail.Label
+Load Trail
+載入軌跡
+
+# [3] Exit.Label
+Exit
+退出
+
+# [4] DebugMenuPane.Label
+Debug
+偵錯
+
+# [5] RunMode.Label
+Set Runmode
+設定執行模式
+
+# [6] Dbglvl_cascade.Label
+Set Debug Level
+設定偵錯等級
+
+# [7] DebugSave.Label
+Save Debug
+儲存偵錯
+
+# [8] DebugSave.HelpText
+Save text in debug window to a file
+將偵錯視窗中的文字儲存到檔案
+
+# [9] DumpScreen.Label
+Dump Screen
+轉儲螢幕
+
+# [10] DumpTopLevel.Label
+Dump Top Level
+轉儲頂層
+
+# [11] ClearScreen.Label
+Clear Window
+清除視窗
+
+# [12] DebugShow.Label
+Show
+顯示
+
+# [13] Dbglvl.Labels.0
+None
+無  
+
+# [14] Dbglvl.Labels.1
+Abort
+中止
+
+# [15] Dbglvl.Labels.4
+Error
+錯誤
+
+# [16] Dbglvl.Labels.7
+Warning
+警告
+
+# [17] Dbglvl.Labels.10
+Diagnose
+診斷
+
+# [18] Dbglvl.Labels.13
+Info
+資訊
+
+# [19] Dbglvl.Labels.17
+Verbose
+全部
+

@@ -1,0 +1,21 @@
+!-----------------------------------------------------------------------------
+! Date        Release Name  Ver.  Comments
+! ----------- ------- ----- ----- --------------------------------------------
+! 12-Oct-2007 L-01-40 AW    $$1   Created
+! 07-Aug-2008 L-03-15 ALB   $$2   Removed HotSpot line
+!
+(Image file_open_organize
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        CFB4B4B401F0FD0009FFFFC3FF03100D20090C043306C7C51DB23B069999990F
+        0D5B0D2F0D1C330A4C01A1A192070D630D7B0D02430CF18706A00DAC0D3C09D4
+        07D20700900DEC0DF80D0C1DD001480D301D001D00501D141D701DC00D901DD4
+        08D702B01D38800DD01DE01D8080802F2D3B2600182D1C2DD80DF01D002D5C2D
+        6C2D3C2D00402D9C2DAC2D742D083D8409601DB02D00443DCC2DE82D743D003D
+        943D683DB43D00403DD43DD425
+    )
+)

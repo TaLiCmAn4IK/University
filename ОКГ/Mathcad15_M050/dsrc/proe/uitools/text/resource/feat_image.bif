@@ -1,0 +1,23 @@
+! 11-Jul-97 H-03-16 twb $$1 Revised, file created prior to H-03-16
+! 18-Aug-97 H-03-19 twb $$2 Revised, white background
+! 27-Aug-97 H-03-19+ twb $$3 Revised, fixed coloring
+! 02-Dec-97 H-03-31 twb $$4 Recolored for white background.
+! 18-Dec-97 H-03-34 hmt $$5 Changed size to 18x18
+! 29-DEC-97 H-03-35 MCA $$6 Changed size to 16x16 - Removed RED Set Current Box.
+! 22-Dec-99 I-03-25 TWB $$7 Updated for new Model Tree look.
+!  4-Dec-2002  J-03-39   TLH  $$8  Recolored for Wildfire.
+(Image feat_image
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        0FFFFFFF03F0FD000D100D200D00300D400D500D600D700D800D900DA00DC0B0
+        0DC00DD00DE00DF00DF801285B7BC501081500339901F80D1C241DFC0D99CCEE
+        17114712481107000080171D671D3F1D4716801500141DA81D04158819501510
+        12591DE91D0E05148AA7C74F16D415541D242D00F81D0C2D9C119C1D682D7425
+        5C21042100502A1D2DA52D752D5924582DDC2DEC2D00FC2D0C3D1C3D2C3D3C3D
+        4C3D5C3D6C3D007C3D8C3D9C3DAC3DBC3DCC3DDC3D
+    )
+)

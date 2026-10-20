@@ -1,0 +1,40 @@
+# {100} (100) [0] conn_status_cscbtn.Label
+Not Synchronized
+동기화되지 않음
+
+# [1] conn_status_icon_pshbtn.Label
+Connected
+연결됨
+
+# [2] server_identity.Label
+ProductPoint Server
+ProductPoint 서버
+
+# [3] server_quick_view_pshbtn.Label
+Server Quick View ...
+서버 빨리 보기...
+
+# [4] open_server_status_monitor.Label
+Open Server Status Monitor
+서버 상태 모니터 열기
+
+# [5] set_notification_preferences.Label
+Set Notification Preferences
+알림 기본 설정
+
+# [6] display_change_notification.Label
+Display Change Notifications
+변경 알림 표시
+
+# [7] sync_auto_chkbtn.Label
+Synchronize Automatically
+자동으로 동기화
+
+# [8] sync_manual_chkbtn.Label
+Synchronize Manually
+수동으로 동기화
+
+# [9] sync_w_conn_srv_pshbtn.Label
+Synchronize Now
+지금 동기화
+

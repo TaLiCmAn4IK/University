@@ -1,0 +1,11 @@
+; 24-May-09 L-03-33  Moti  $$1  Created.
+
+
+[border]
+BackgroundImage = styles/proe_window/wf5_proe_window_bl_br_border.bif
+ContentMargins = 0, 0, 0, 0
+SizingMargins = 4, 4, 4, 4
+
+[mask]
+BackgroundImage = styles/proe_window/wf5_proe_window_bl_br_mask.bif
+SizingMargins = 4, 4, 4, 4

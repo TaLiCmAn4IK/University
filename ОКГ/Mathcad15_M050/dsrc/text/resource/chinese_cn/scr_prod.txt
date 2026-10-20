@@ -1,0 +1,36 @@
+# {100} (100) [0] LpLayout.Label
+Destination Folder
+目标文件夹
+
+# [1] LpLab.Label
+Destination Folder
+目标文件夹
+
+# [2] LpBrowse.HelpText
+Browse for Installation Directory
+浏览安装目录
+
+# [3] LpReleaseLab.Label
+Dummy Label
+虚拟标签
+
+# [4] DiskSpaceLayout.Label
+Disk Space
+磁盘空间
+
+# [5] SpaceAvailLab.Label
+Available on C: 9999GB
+C盘的可用空间:9999GB
+
+# [6] SpaceReqLab.Label
+Required on C: 9999GB
+所需C盘空间:9999GB
+
+# [7] CompDescTA.Value
+Select a product feature to view its description.
+选取产品功能查看其说明。
+
+# [8] ProdTreeLab.Label
+Features to Install
+要安装的功能
+

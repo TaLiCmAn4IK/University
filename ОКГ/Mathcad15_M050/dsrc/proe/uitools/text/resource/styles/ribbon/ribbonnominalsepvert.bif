@@ -1,0 +1,24 @@
+!  History:  
+!
+!  Date      Release  Name   Ver.  Comments
+!  --------- -------  -----  ----- --------------------------------------------
+!  09-Sep-07 L-01-39  AlexM  $$1   Created.
+!
+!  INSERT COMMENT ABOVE THIS LINE
+!  Do not forget to put "!" at the begining of each line in this comment block.
+
+
+
+(Image ribbonnominalsepvert
+    (Resources
+        (.Width     1)
+        (.Height    23)
+        (.Depth     24)
+    )
+    (Data
+        FFB7D4F901B4D0F601FFAFCCF201A7C5ED01FF9EBEE70196B5E201FF90B1DE01
+        8CAEDC01FF89ACDA0186A9D901FF83A7D70181A5D601FF7FA3D4017DA2D301FF
+        7CA0D2017A9FD101FF799ED001789DCF01FF779CCE01769BCD01DF769ACC0175
+        4100749903CB01
+    )
+)

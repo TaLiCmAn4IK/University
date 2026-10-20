@@ -1,0 +1,31 @@
+// 13-Apr-01      JJE  Created for J-02
+// 09-Jan-02 $$1  JJE  Sub to J-03 and add LpcfgProHelp
+// 29-Jan-02 $$2  JJE  Add LpcfgBrowser
+// 21-Jul-03 K-01-11 $$3   JJE  Add ptcborrow and ptcreturn scripts
+// 15-Dec-03 K-01-20 $$4  MAZ  Remove borrow scripts
+// 18-Dec-08 L-03-23 $$5  TWH  Drop LpcfgProHelp
+
+(Product thermmod 
+    (Name                      "Thermal Modeler") 
+    (Packages                  "thmod_pkg" 
+                               "ptcutil"
+                               "uninstall") 
+    (ProgramFiles              True)
+    (LpDirName                 "thermalmodeler")
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+)
+
+(Package thmod_pkg
+    (Name                      "Thermal Modeler") 
+    (Cdsections                "ThermalModeler"
+                               "TMMech"
+                               "flexclient"
+                               "Install")
+    (Screens                   "ScreenLicList"
+                               "LpcfgBrowser")
+    (Binscripts                "cpu_id"
+                               "ptcflush"
+                               "ptcstatus")
+    (Installed                 True)
+)

@@ -1,0 +1,13 @@
+! 17-Apr-00 J-01-06 twb $$1 Created for new model tree look
+! 01-Mar-01 J-01-28 twb $$2 Updated
+(Image surface_flat
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     4)
+    )
+    (Data
+        D1C2FFC90DC0FF0DC00F07C00F070F0F05C0FF0D0F0F07C00F07C00F05C0FF0D
+        0F07C00F07C00F0705C0FF0DC805C1C3FF
+    )
+)

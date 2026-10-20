@@ -1,0 +1,26 @@
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!
+!  closed advanced area arrow
+!  right pointed arrow on selected window background 
+! 
+!  Date      Release   Name  Ver.   Comments
+!  --------- -------   ----  ----   --------
+!  29-Apr-03 K-01-06   TWH   $$1    Created
+!  25-Jul-03 K-01-11   TWH   $$2    New image from prod def
+!
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+(Image ps_collapsed
+    (Resources
+        (.Width     14)
+        (.Height    14)
+        (.Depth     24)
+    )
+    (Data
+        0FFFFFFF03F0FD000D100D200D1E30098AA7C701300D500D600DE03C05400D88
+        0D980D3C05003399007B0DC30DD30DAF06B40DFC0D0C1DE80900F00D381D141D
+        24192C1D741D501D6019073333336F1DB31D8F1DA31DE31D00BF1DD31D132D23
+        2DAF060C2D4C2D5C2D006C11402D802D902D9821742DB42DC42D00D42DE42DF4
+        25
+    )
+)

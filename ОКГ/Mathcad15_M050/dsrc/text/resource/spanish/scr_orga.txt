@@ -1,0 +1,20 @@
+# {0} (5) [0] TextArea.Value
+In the fields below, enter the paths to the directories to be used by the ORGA archive.
+En los siguientes campos, introduzca las rutas de los directorios que serán utilizados por el archivo ORGA.
+
+# [1] orga_admin.Label
+Administrator directory
+Directorio del administrador
+
+# [2] AdminDirLab.Label
+If the administrator directory for this ORGA Archive\ndatabase already exists (either on this computer or\nelsewhere on the network), enter the path of the\nexisting directory.
+Si el directorio del administrador ya existe para\nesta base de datos del archivo ORGA (en este ordenador\no en otro punto de la red), introduzca la ruta del\ndirectorio existente.
+
+# [3] orga_des.Label
+First designer directory
+Directorio del primer diseñador
+
+# [4] DesDirLab.Label
+After installation, you may set up additional designers\nby making copies of the subdirectories in this directory.
+Después de la instalación, es posible configurar más diseñadores\ncreando copias de los subdirectorios de este directorio.
+

@@ -1,0 +1,12 @@
+# {100} (100) [0] lpcfg_ms_ss2.Label
+Instructions
+Инструкции
+
+# [1] MS_SS_Radio.Labels.MS
+Multi-Site
+Multi-Site
+
+# [2] MS_SS_Radio.Labels.SS
+Single-Site
+Single-Site
+

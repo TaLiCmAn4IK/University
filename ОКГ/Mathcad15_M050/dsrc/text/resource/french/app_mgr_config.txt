@@ -1,0 +1,20 @@
+# {0} (5) [0] app_mgr_config.Label
+PTC Application Manager - Installation Configuration
+Configuration de l'installation du gestionnaire d'applications de PTC
+
+# [1] Menu.Label
+Menu
+Menu
+
+# [2] CmdTreeAdd.Label
+Add
+Ajouter
+
+# [3] CmdTreeEdit.Label
+Edit
+Editer
+
+# [4] CmdTreeDelete.Label
+Delete
+Détruire
+

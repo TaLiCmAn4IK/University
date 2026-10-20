@@ -1,0 +1,20 @@
+# {0} (5) [0] lpcfg_replication2.Label
+Replication Settings
+复制设置
+
+# [1] ServeReplicas.Label
+Replicate data from this server
+从该服务器复制数据
+
+# [2] HostReplicas.Label
+Host replica data for other servers
+用于其它服务器的主机复制数据
+
+# [3] StdDisable.Label
+Disable all non-replication services
+禁用全部非复制服务
+
+# [4] SiteNameLab.Label
+Name of site hosting replica data
+地址集合复制数据的名称
+

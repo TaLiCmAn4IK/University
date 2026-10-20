@@ -1,0 +1,4 @@
+# {100} (100) [0] MsiLabel.Label
+Run Windows Installer
+Запустить установщик Windows
+

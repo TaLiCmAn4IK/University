@@ -1,0 +1,196 @@
+# {100} (100) [0] ribbon_designer_main.Label
+Ribbon Designer
+リボンデザイナ
+
+# [1] CommandsLayout.Label
+Commands
+コマンド
+
+# [2] CommandsTable.ColumnLabels.menu
+Container
+コンテナ
+
+# [3] CommandsTable.ColumnLabels.label
+Cascade / Item
+カスケード / アイテム
+
+# [4] CommandsTable.ColumnLabels.cascade
+Item
+アイテム
+
+# [5] CommandsTable.ColumnLabels.icon
+Icon
+アイコン
+
+# [6] CommandsTable.ColumnLabels.name
+Command Name
+コマンド名
+
+# [7] CommandsTable.ColumnLabels.help
+Help Text
+ヘルプテキスト
+
+# [8] FilterLayout.Label
+Show Only :
+表示 :
+
+# [9] FilterRadioGroup.Labels.not_in_ribbon
+Not In Ribbon
+リボン以外
+
+# [10] FilterRadioGroup.Labels.not_in_page
+Not In Page
+ページ以外
+
+# [11] FilterRadioGroup.Labels.all
+All Commands
+すべてのコマンド
+
+# [12] SaveRibbonPushButton.Label
+Save &Ribbon
+リボンを保存(&R)
+
+# [13] ToolsLayout.Label
+Tools
+ツール
+
+# [14] NewItemsList.Labels.newCascadeButton
+New Cascade Button
+新規カスケードボタン
+
+# [15] NewItemsList.Labels.newFlyoutButton
+New Flyout Button
+新規サブメニューボタン
+
+# [16] ribbon.Label
+&Ribbon
+リボン(&R)
+
+# [17] ribbon.HelpText
+Ribbon
+リボン
+
+# [18] adb_designerAddNewRibbon.Label
+New
+新規
+
+# [19] adb_designerLoadRibbon.Label
+Open
+開く
+
+# [20] adb_designerSaveRibbon.Label
+Save
+保存
+
+# [21] pshAddExternalGroupPage.Label
+Add External Groups
+外部グループを追加
+
+# [22] pshRemoveExternalGroupPage.Label
+Remove External Groups
+外部グループを除去
+
+# [23] page.Label
+&Page
+ページ(&P)
+
+# [24] page.HelpText
+Page
+ページ
+
+# [25] pshAddNewPage.Label
+New
+新規
+
+# [26] pshAddNewPage.HelpText
+Add new page
+新規ページを追加
+
+# [27] pshInheritPage.Label
+Inherit
+継承
+
+# [28] pshRenameCurPage.Label
+Re&name
+名前変更(&N)
+
+# [29] pshRemoveCurPage.Label
+Delete
+削除
+
+# [30] group.Label
+&Group
+グループ(&G)
+
+# [31] group.HelpText
+Group
+グループ
+
+# [32] pshAddNewGroup.Label
+New
+新規
+
+# [33] pshAddNewGroup.HelpText
+Add new group
+新規グループを追加
+
+# [34] pshInheritGroup.Label
+Inherit
+継承
+
+# [35] pshAddExistingGroup.Label
+Add Existing
+既存を追加
+
+# [36] eggroup.Label
+&EG
+拡張グループ(&E)
+
+# [37] eggroup.HelpText
+Extended Group
+拡張グループ
+
+# [38] pshAddNewExternalGroup.Label
+New
+新規
+
+# [39] pshAddNewExternalGroup.HelpText
+Add new group to extended page
+拡張ページに新しいグループを追加
+
+# [40] pshInheritExternalGroup.Label
+Inherit
+継承
+
+# [41] pshAddExistingExternalGroup.Label
+Add Existing
+既存を追加
+
+# [42] commands.Label
+&Commands
+コマンド(&C)
+
+# [43] commands.HelpText
+Commands
+コマンド
+
+# [44] ExportPushButton.Label
+Export to CSV File
+CSV ファイルにエクスポート
+
+# [45] debug.Label
+&Debug
+デバッグ(&D)
+
+# [46] debug.HelpText
+Debug
+デバッグ
+
+# [47] pshSpy.Label
+Spy...
+スパイ...
+
+# [48] pshSpy.HelpText
+Db Walker
+Db Walker
+

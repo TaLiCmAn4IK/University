@@ -1,0 +1,37 @@
+// 17-Apr-00 $$1  MAZ  Created.
+// 18-Sep-00 $$2  MAZ  Add new BinScript and shortcut
+// 04-Oct-00 $$3  MAZ  Use $EPD_HOME for LpEnvVar
+// 04-Mar-03 K-01-06  $$4  TWH  LpcfgWindows->ScreenWindows
+
+(Product opt_ie_adptr 
+    (Name                      "Optegra Info*Engine Adapter") 
+    (Packages                  "opt_ie_adpt_pkg") 
+    (ProgramFiles              FALSE)
+    (LpDirName                 "epd")
+    (LpEnvVar                  "EPD_HOME")
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+    (StandAlone                False)
+    (HostProd                  "other")
+    (VersionDir                False)
+)
+
+(Package opt_ie_adpt_pkg 
+    (Name                      "Adapter Files")
+    (Cdsections                "OptIEAdpt"
+                               "Install")
+    (Screens                   "ScreenWindows"
+                               "ScreenOptIEAdpt")
+    (Installed                 True)
+    (Binscripts                "optegra_adapter")
+    (CmdTypes                  "adapter_cmd")
+)
+
+(CmdType adapter_cmd 
+    (Name                      "IE Adapter")
+    (Type                      "Shortcut")
+    (CmdPath                   "_LP_\bin\optegra_adapter.bat")
+    (IconPath                  "_LP_\install\nt\ptc.ico")
+    (IconIndex                 "0")
+)
+

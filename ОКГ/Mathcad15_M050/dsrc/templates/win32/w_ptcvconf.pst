@@ -1,0 +1,10 @@
+// 15-Apr-03 K-01-05  $$1   MAZ  Copied from w_ptcvconf.tpl
+// PTC - PSF file: ptcvconf
+
+__PSF_COMMENT__ PTC - PSF file: ptcvconf
+__PSF_COMMENT__
+PRODUCT=PTC Conference Center
+DESC=PTC Conference Center
+ENV=NMSD_TIMEOUT=600
+RUN="%PRO_DIRECTORY%\%PRO_MACHINE_TYPE%\nms\nmsd.exe" -noservice -dcad -timeout %NMSD_TIMEOUT% &
+RUN="%PRO_DIRECTORY%\%PRO_MACHINE_TYPE%\obj\ptcvconf.exe"

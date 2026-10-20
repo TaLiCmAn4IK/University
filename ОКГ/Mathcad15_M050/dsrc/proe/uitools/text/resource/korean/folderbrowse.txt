@@ -1,0 +1,204 @@
+# {100} (100) [0] working_dir0.Label
+Extra Directory
+추가 디렉토리
+
+# [1] lbl_common_places.Label
+Common Folders
+공통 폴더
+
+# [2] folders.TreeNodeTypeHelpTexts.1:
+part
+부품
+
+# [3] folders.TreeNodeTypeHelpTexts.2:
+assembly
+어셈블리
+
+# [4] folders.TreeNodeTypeHelpTexts.3:
+drawing
+드로잉
+
+# [5] folders.TreeNodeTypeHelpTexts.4:
+drawform
+그리기 형식
+
+# [6] folders.TreeNodeTypeHelpTexts.5:
+manufacturing
+제조
+
+# [7] folders.TreeNodeTypeHelpTexts.6:
+directory
+디렉토리
+
+# [8] folders.TreeNodeTypeHelpTexts.7:
+foreign
+외부
+
+# [9] folders.TreeNodeTypeHelpTexts.8:
+other ptc file
+다른 ptc 파일
+
+# [10] folders.TreeNodeTypeHelpTexts.9:
+markup
+마크업
+
+# [11] folders.TreeNodeTypeHelpTexts.10:
+layout
+레이아웃
+
+# [12] folders.TreeNodeTypeHelpTexts.11:
+diagram
+다이어그램
+
+# [13] folders.TreeNodeTypeHelpTexts.12:
+report
+리포트
+
+# [14] folders.TreeNodeTypeHelpTexts.13:
+2D section
+2D 단면
+
+# [15] folders.TreeNodeTypeHelpTexts.14:
+3D section
+3D 단면
+
+# [16] folders.TreeNodeTypeHelpTexts.15:
+sketcher
+스케쳐
+
+# [17] folders.TreeNodeTypeHelpTexts.16:
+param mill
+매개변수 밀링
+
+# [18] folders.TreeNodeTypeHelpTexts.17:
+param turn
+매개변수 선반
+
+# [19] folders.TreeNodeTypeHelpTexts.18:
+param drill
+매개변수 드릴
+
+# [20] folders.TreeNodeTypeHelpTexts.19:
+param aux
+매개변수 보조
+
+# [21] folders.TreeNodeTypeHelpTexts.20:
+param cel
+매개변수 셀
+
+# [22] folders.TreeNodeTypeHelpTexts.21:
+param opr
+매개변수 작업
+
+# [23] folders.TreeNodeTypeHelpTexts.22:
+param mea
+매개변수 측정
+
+# [24] folders.TreeNodeTypeHelpTexts.23:
+tool param
+공구 매개변수
+
+# [25] folders.TreeNodeTypeHelpTexts.24:
+mfg mold
+제조 몰드
+
+# [26] folders.TreeNodeTypeHelpTexts.25:
+mfg cast
+제조 캐스트
+
+# [27] folders.TreeNodeTypeHelpTexts.26:
+skeleton
+뼈대
+
+# [28] folders.TreeNodeTypeHelpTexts.27:
+diagram mvc def
+다이어그램 mvc 기본
+
+# [29] folders.TreeNodeTypeHelpTexts.28:
+comp group def
+구성 그룹 기본
+
+# [30] folders.TreeNodeTypeHelpTexts.1015:
+directory
+디렉토리
+
+# [31] folders.TreeNodeTypeHelpTexts.1016:
+directory
+디렉토리
+
+# [32] folders.TreeNodeTypeHelpTexts.1017:
+directory
+디렉토리
+
+# [33] folders.TreeNodeTypeHelpTexts.1018:
+directory
+디렉토리
+
+# [34] folders.TreeNodeTypeHelpTexts.1019:
+directory
+디렉토리
+
+# [35] folders.TreeNodeTypeHelpTexts.1020:
+directory
+디렉토리
+
+# [36] folders.TreeNodeTypeHelpTexts.1021:
+directory
+디렉토리
+
+# [37] folders.TreeNodeTypeHelpTexts.1022:
+directory
+디렉토리
+
+# [38] folders.TreeNodeTypeHelpTexts.1023:
+directory
+디렉토리
+
+# [39] folders.TreeNodeTypeHelpTexts.1024:
+directory
+디렉토리
+
+# [40] folders.TreeNodeTypeHelpTexts.1025:
+directory
+디렉토리
+
+# [41] folders.TreeNodeTypeHelpTexts.1026:
+Network Neighborhood
+네트워크 환경
+
+# [42] folders.TreeNodeTypeHelpTexts.1027:
+directory
+디렉토리
+
+# [43] folders.TreeNodeTypeHelpTexts.1028:
+Desktop
+데스크탑
+
+# [44] folders.TreeNodeTypeHelpTexts.1029:
+Computer
+컴퓨터
+
+# [45] folders.TreeNodeTypeHelpTexts.1030:
+directory
+디렉토리
+
+# [46] folders.TreeNodeTypeHelpTexts.1031:
+directory
+디렉토리
+
+# [47] folders.TreeNodeTypeHelpTexts.1032:
+directory
+디렉토리
+
+# [48] FT_Expand_Btn.Label
+Folder Tree
+폴더 트리
+
+# [49] psh_new_folder.HelpText
+Create a new folder
+새 폴더 생성
+
+# [50] psh_delete_folder.HelpText
+Delete selected folders
+선택된 폴더 삭제
+

@@ -1,0 +1,16 @@
+# {0} (4) [0] RadioMime.Labels.0
+Modify current user MIME type information only
+僅修改目前使用者MIME類型資訊
+
+# [1] RadioMime.Labels.1
+Modify global Netscape MIME type registration information
+修改整體 Netscape MIME 類型記錄資訊
+
+# [2] Label1.Label
+Specify directory where global mime.types and mailcap files reside
+指定整體 mime.types和mailcap 檔案所在的目錄
+
+# [3] GlobalDirBrowse.Label
+Browse
+瀏覽
+

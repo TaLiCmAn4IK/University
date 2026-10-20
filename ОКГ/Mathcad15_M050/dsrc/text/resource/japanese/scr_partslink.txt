@@ -1,0 +1,80 @@
+# {61149} (31) [10] scr_partslink_common.Label
+Configuration Properties
+コンフィギュレーションプロパティ
+
+# [11] RMIPortLab.Label
+RMI Registry Port
+RMI レジストリポート
+
+# [12] JvmHomeDirLab.Label
+Java SDK Home Directory
+Java SDK ホームディレクトリ
+
+# [13] scr_partslink_ports.Label
+Interface Ports
+インタフェースポート
+
+# [15] UpdateLab.Label
+Content Update
+コンテンツの更新
+
+# [16] scr_partslink_stats.Label
+Statistics
+統計値
+
+# [17] StorageSizeLab.Label
+Maximum Statistics\nStorage Size (Mb)
+最大統計値\n保管サイズ(MB)
+
+# [18] StartDateLab.Label
+Fiscal Year Start Date
+会計年度の開始日
+
+# [19] StartDateMenu.Labels.1
+January
+１月
+
+# [20] StartDateMenu.Labels.2
+February
+２月
+
+# [21] StartDateMenu.Labels.3
+March
+３月
+
+# [22] StartDateMenu.Labels.4
+April
+４月
+
+# [23] StartDateMenu.Labels.5
+May
+５月
+
+# [24] StartDateMenu.Labels.6
+June
+６月
+
+# [25] StartDateMenu.Labels.7
+July
+７月
+
+# [26] StartDateMenu.Labels.8
+August
+８月
+
+# [27] StartDateMenu.Labels.9
+September
+９月
+
+# [28] StartDateMenu.Labels.10
+October
+10月
+
+# [29] StartDateMenu.Labels.11
+November
+11月
+
+# [30] StartDateMenu.Labels.12
+December
+12月
+

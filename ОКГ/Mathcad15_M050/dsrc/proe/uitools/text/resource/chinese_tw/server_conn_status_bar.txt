@@ -1,0 +1,40 @@
+# {100} (100) [0] conn_status_cscbtn.Label
+Not Synchronized
+未同步化
+
+# [1] conn_status_icon_pshbtn.Label
+Connected
+已連接
+
+# [2] server_identity.Label
+ProductPoint Server
+ProductPoint 伺服器
+
+# [3] server_quick_view_pshbtn.Label
+Server Quick View ...
+伺服器快速檢視 ...
+
+# [4] open_server_status_monitor.Label
+Open Server Status Monitor
+開啟伺服器狀態監視器
+
+# [5] set_notification_preferences.Label
+Set Notification Preferences
+設定通知偏好
+
+# [6] display_change_notification.Label
+Display Change Notifications
+顯示變更通知
+
+# [7] sync_auto_chkbtn.Label
+Synchronize Automatically
+自動同步化
+
+# [8] sync_manual_chkbtn.Label
+Synchronize Manually
+手動同步化
+
+# [9] sync_w_conn_srv_pshbtn.Label
+Synchronize Now
+現在同步化
+

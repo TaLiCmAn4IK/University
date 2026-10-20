@@ -1,0 +1,21 @@
+!  History:  
+!
+!  Date      Release  Name   Ver.  Comments
+!  --------- -------  -----  ----- --------------------------------------------
+!  29-Jul-08 L-03-15  AlexM  $$1   Created.
+!  25-Sep-08 L-03-18+ Moti   $$2   Updated image from Tammy
+!
+!  INSERT COMMENT ABOVE THIS LINE
+!  Do not forget to put "!" at the begining of each line in this comment block.
+
+(Image adb_group_overflow
+    (Resources
+        (.Width     7)
+        (.Height    8)
+        (.Depth     24)
+    )
+    (Data
+        FFFFFFFF031500000000F0F1F8F5F4F9F4F1F4F51009080D200D00FCFD440D58
+        0D280D7C0D780D900D6C0D00C405
+    )
+)

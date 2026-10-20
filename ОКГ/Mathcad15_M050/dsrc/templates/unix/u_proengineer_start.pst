@@ -1,0 +1,11 @@
+// 15-Apr-03 K-01-05  $$1   MAZ  Created
+// PTC - PSF file: proe 
+
+__PSF_COMMENT__ PTC - PSF file: proe
+__PSF_COMMENT__
+PRODUCT=Pro/ENGINEER
+DESC=__PSF_DESC__
+RUN="$PRO_DIRECTORY/bin/__SCRIPT_NAME__"
+__PSF_COMMENT__ USER - PSF
+__PSF_COMMENT__ Add User specific environment or run applications below here
+

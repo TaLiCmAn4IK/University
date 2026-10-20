@@ -1,0 +1,28 @@
+# {100} (100) [0] cdrs_1.Label
+Locate Other Installation Directories (Optional)
+다른 설치 디렉토리 위치 (선택사항)
+
+# [1] AppMgrDirLab.Label
+PTC Application Manager
+PTC 응용 프로그램 관리자
+
+# [2] CDRSGraphLibDirLab.Label
+PTC Graphic Library
+PTC 그래픽 라이브러리
+
+# [3] DivisionDirLab.Label
+DIVSION MockUp
+DIVSION MockUp
+
+# [4] cdrs_2.Label
+Optional Inputs
+선택 입력사항
+
+# [5] ProeCmdLab.Label
+Pro/ENGINEER Command
+Pro/ENGINEER 명령어
+
+# [6] PaintCmdLab.Label
+3DPAINT Command
+3DPAINT 명령어
+

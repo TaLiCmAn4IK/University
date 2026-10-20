@@ -1,0 +1,32 @@
+# {61155} (18) [10] scr_wsconfig.Label
+Workgroup Manager for PRODUCT_NAME Workspace Configuration
+Configuration de l'espace de travail du gestionnaire de groupes de travail de NOM_PRODUIT
+
+# [11] scr_wsconfig2.Label
+Workspace Configuration
+Configuration de l'espace de travail
+
+# [12] TeamNameLab.Label
+Team Name
+Nom de l'équipe
+
+# [13] PartLifecycleLab.Label
+Part Lifecycle
+Cycle de vie de l'article
+
+# [14] DocLifecycleLab.Label
+Document Lifecycle
+Cycle de vie du document
+
+# [15] PartViewLab.Label
+Part View
+Vue de l'article
+
+# [16] LabelRO.Label
+Read-Only
+Lecture seule
+
+# [17] TextArea.Value
+Specify the Workspace Configuration names that are to be saved in the 'site' located preference file and set the permissions for each configuration.
+Spécifier les noms de configuration d'espace de travail à enregistrer dans le fichier de préférences du site et définir les permissions de chaque configuration.
+

@@ -1,0 +1,328 @@
+// 25-May-01 ALG $$1  Created
+// 29-May-01 MAZ $$2  Remove sun4_solaris
+// 31-May-01 MAZ $$3  Remove sgi_elf2
+// 04-Mar-03 K-01-06  $$4  TWH  LpcfgWindows->ScreenWindows
+
+(Product icemddn
+    (Name                      "ICEM DDN 5.0")
+    (LpDirName                 "ddn")
+    (ProgramFiles              False)
+    (Packages                  "icemddn_core"
+                               "icemddn_help"
+                               "icemddn_trans"
+                               "icemddn_dm"
+                               "icemddn_ds"
+                               "icemddn_tut"
+                               "icemddn_other"
+                               "uninstall")
+    (EnvVarValues              "Replace=ICEM_ACN=_LP_"
+                               "Replace=ICEM_WORKDIR=_{ScreenWindows.StartInDir}_")
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+    (PossibleArchs             "i486_nt"
+                               "i486_win95"
+                               "sgi_mips4")
+)
+
+(Package icemddn_core
+    (Name                      "ICEM DDN")
+    (Cdsections                "ddn_core")
+    (CmdTypes                  "ddn_cmd"
+                               "ddn_parts_cmd"
+                               "ddn_patterns_cmd"
+                               "ddn_plots_cmd")
+    (Screens                   "ScreenWindows")
+    (Installed                 True)
+    (Required                  False)
+)
+
+(Package icemddn_help
+    (Name                      "ICEM Reference Manuals")
+    (SubPackages               "icemddn_helpeng_html"
+                               "icemddn_helpeng_pdf"
+                               "icemddn_helpger_html"
+                               "icemddn_helpger_pdf")
+    (CmdTypes                  "ddn_parts_cmd"
+                               "ddn_patterns_cmd"
+                               "ddn_plots_cmd")
+    (Screens                   "ScreenWindows")
+)
+
+(Package icemddn_helpeng_html
+    (Name                      "English HTML Manuals")
+    (Cdsections                "ddnhelpeng_html")
+    (CmdTypes                  "helpeng_html_cmd")
+)
+
+(Package icemddn_helpeng_pdf
+    (Name                      "English PDF Manuals")
+    (Cdsections                "ddnhelpeng_pdf")
+    (CmdTypes                  "helpeng_pdf_cmd")
+)
+
+(Package icemddn_helpger_html
+    (Name                      "German HTML Manuals")
+    (Cdsections                "ddnhelpger_html")
+    (CmdTypes                  "helpger_html_cmd")
+)
+
+(Package icemddn_helpger_pdf
+    (Name                      "German PDF Manuals")
+    (Cdsections                "ddnhelpger_pdf")
+    (CmdTypes                  "helpger_pdf_cmd")
+)
+
+(Package icemddn_trans
+    (Name                      "ICEM Translators")
+    (SubPackages               "icemddn_trans_iges"
+                               "icemddn_trans_dxf"
+                               "icemddn_trans_tvda"
+                               "icemddn_trans_cadds"
+                               "icemddn_trans_catia"
+                               "icemddn_trans_ug")
+    (CmdTypes                  "ddn_trans_cmd"
+                               "ddn_parts_cmd"
+                               "ddn_patterns_cmd"
+                               "ddn_plots_cmd")
+    (Screens                   "ScreenWindows")
+)
+
+(Package icemddn_trans_iges
+    (Name                      "IGES and Pro/ENGINEER")
+    (Cdsections                "ddntrans_iges")
+)
+
+(Package icemddn_trans_dxf
+    (Name                      "DXF")
+    (Cdsections                "ddntrans_dxf")
+)
+
+(Package icemddn_trans_tvda
+    (Name                      "TVDA")
+    (Cdsections                "ddntrans_tvda")
+)
+
+(Package icemddn_trans_cadds
+    (Name                      "CADDS Direct Interface")
+    (Cdsections                "ddntrans_cadds")
+)
+
+(Package icemddn_trans_catia
+    (Name                      "CATIA Direct Interface")
+    (Cdsections                "ddntrans_catia")
+)
+
+(Package icemddn_trans_ug
+    (Name                      "Unigraphics Direct Interface")
+    (Cdsections                "ddntrans_ug")
+)
+
+(Package icemddn_dm
+    (Name                      "ICEM Data Management")
+    (Cdsections                "ddn_dm")
+    (CmdTypes                  "ddn_parts_cmd"
+                               "ddn_patterns_cmd"
+                               "ddn_plots_cmd")
+    (Screens                   "ScreenWindows")
+)
+
+(Package icemddn_ds
+    (Name                      "ICEM DataShare")
+    (Cdsections                "ddn_ds")
+    (CmdTypes                  "ddn_ds_cmd"
+                               "ddn_parts_cmd"
+                               "ddn_patterns_cmd"
+                               "ddn_plots_cmd")
+    (Screens                   "ScreenWindows")
+)
+
+(Package icemddn_tut
+    (Name                      "Interactive Tutorial")
+    (Cdsections                "ddn_tut")
+    (CmdTypes                  "ddn_tut_cmd"
+                               "ddn_parts_cmd"
+                               "ddn_patterns_cmd"
+                               "ddn_plots_cmd")
+    (Screens                   "ScreenWindows")
+)
+
+(Package icemddn_other
+    (Name                      "Additional ICEM Items")
+    (SubPackages               "icemddn_imgtools"
+                               "icemddn_gpl"
+                               "icemddn_orga"
+                               "icemddn_util"
+                               "icemddn_asm"
+                               "icemddn_plot"
+                               "icemddn_tablet"
+                               "icemddn_stdprts_ddn"
+                               "icemddn_stdprts_orga")
+    (CmdTypes                  "ddn_parts_cmd"
+                               "ddn_patterns_cmd"
+                               "ddn_plots_cmd")
+    (Screens                   "ScreenWindows")
+)
+
+(Package icemddn_imgtools
+    (Name                      "Imaging Tools")
+    (Cdsections                "ddn_img")
+)
+
+(Package icemddn_gpl
+    (Name                      "GPL Compiler")
+    (Cdsections                "ddn_gpl")
+)
+
+(Package icemddn_orga
+    (Name                      "ORGA Archive")
+    (Cdsections                "ddn_orga")
+    (Screens                   "ScreenOrga")
+    (CmdTypes                  "orga_admin_cmd"
+                               "orga_des_cmd")
+    (EnvVarValues              "Replace=ICEM_ORGA_ADMIN=_{ScreenOrga.AdminDir}_"
+                               "Replace=ICEM_ORGA_DES=_{ScreenOrga.DesDir}_")
+    (AdminArchive              "orga_admin.zip")
+    (DesignerArchive           "orga_designer.zip")
+    (AdminDirDefault           "/users/archive")
+    (DesignerDirDefault        "/users/designer")
+)
+
+(Package icemddn_util
+    (Name                      "Utilities")
+    (Cdsections                "ddn_util")
+)
+
+(Package icemddn_asm
+    (Name                      "Advanced Surface Milling")
+    (Cdsections                "ddn_asm")
+)
+
+(Package icemddn_plot
+    (Name                      "Plotting")
+    (Cdsections                "ddn_plot")
+)
+
+(Package icemddn_tablet
+    (Name                      "Tablet Picture DB")
+    (Cdsections                "ddn_tablet")
+)
+
+(Package icemddn_stdprts_ddn
+    (Name                      "DDN Std Parts Norm/VDAPS")
+    (Cdsections                "ddn_stdprts_ddn")
+)
+
+(Package icemddn_stdprts_orga
+    (Name                      "ORGA Std Parts/BOM/Archive")
+    (Cdsections                "ddn_stdprts_orga")
+)
+
+
+(CmdType ddn_cmd
+    (Name                      "ICEM DDN")
+    (Type                      "Shortcut")
+    (CmdPath                   "_LP_\bin\icemddn.bat")
+    (IconPath                  "_LP_\bin\icemddn.exe")
+    (IconIndex                 "0")
+)
+
+(CmdType helpeng_html_cmd
+    (Name                      "English HTML Manuals")
+    (Type                      "Shortcut")
+    (CmdPath                   "_LP_\icem_html_manuals\english\book_list.htm")
+    (IconPath                  "_LP_\bin\icemddn.exe")
+    (IconIndex                 "1")
+)
+
+(CmdType helpeng_pdf_cmd
+    (Name                      "English PDF Manuals")
+    (Type                      "Shortcut")
+    (CmdPath                   "_LP_\icem_pdf_manuals\english\book_list.pdf")
+    (IconPath                  "_LP_\bin\icemddn.exe")
+    (IconIndex                 "1")
+)
+
+(CmdType helpger_html_cmd
+    (Name                      "German HTML Manuals")
+    (Type                      "Shortcut")
+    (CmdPath                   "_LP_\icem_html_manuals\german\book_list.htm")
+    (IconPath                  "_LP_\bin\icemddn.exe")
+    (IconIndex                 "1")
+)
+
+(CmdType helpger_pdf_cmd
+    (Name                      "German PDF Manuals")
+    (Type                      "Shortcut")
+    (CmdPath                   "_LP_\icem_pdf_manuals\german\book_list.pdf")
+    (IconPath                  "_LP_\bin\icemddn.exe")
+    (IconIndex                 "1")
+)
+
+(CmdType ddn_ds_cmd
+    (Name                      "ICEM DataShare")
+    (Type                      "Shortcut")
+    (CmdPath                   "_LP_\bin\icemds.bat")
+    (IconPath                  "_LP_\bin\icemds.exe")
+    (IconIndex                 "0")
+)
+
+(CmdType ddn_trans_cmd
+    (Name                      "ICEM Translators")
+    (Type                      "Shortcut")
+    (CmdPath                   "_LP_\bin\trans.bat")
+    (IconPath                  "_LP_\bin\trans.exe")
+    (IconIndex                 "0")
+)
+
+(CmdType ddn_tut_cmd
+    (Name                      "New Features Tutorial")
+    (Type                      "Shortcut")
+    (CmdPath                   "_LP_\bin\nft.bat")
+    (IconPath                  "_LP_\bin\icemddn.exe")
+    (IconIndex                 "2")
+)
+
+(CmdType ddn_parts_cmd
+    (Name                      "Parts")
+    (Type                      "Shortcut")
+    (CmdPath                   "explorer.exe")
+    (CmdArgs                   "_{ScreenWindows.StartInDir}_\parts")
+    (IconPath                  "_SYSDIR_\shell32.dll")
+    (IconIndex                 "3")
+)
+
+(CmdType ddn_patterns_cmd
+    (Name                      "Patterns")
+    (Type                      "Shortcut")
+    (CmdPath                   "explorer.exe")
+    (CmdArgs                   "_{ScreenWindows.StartInDir}_\patterns")
+    (IconPath                  "_SYSDIR_\shell32.dll")
+    (IconIndex                 "3")
+)
+
+(CmdType ddn_plots_cmd
+    (Name                      "Plots")
+    (Type                      "Shortcut")
+    (CmdPath                   "explorer.exe")
+    (CmdArgs                   "_{ScreenWindows.StartInDir}_\plots")
+    (IconPath                  "_SYSDIR_\shell32.dll")
+    (IconIndex                 "3")
+)
+
+
+(CmdType orga_admin_cmd
+    (Name                      "ORGA Archive Administrator")
+    (Type                      "Shortcut")
+    (CmdPath                   "_LP_\bin\orgaa.bat")
+    (IconPath                  "_SYSDIR_\shell32.dll")
+    (IconIndex                 "60")
+)
+
+(CmdType orga_des_cmd
+    (Name                      "ORGA Archive Designer")
+    (Type                      "Shortcut")
+    (CmdPath                   "_LP_\bin\orgad.bat")
+    (IconPath                  "_SYSDIR_\shell32.dll")
+    (IconIndex                 "60")
+)
+

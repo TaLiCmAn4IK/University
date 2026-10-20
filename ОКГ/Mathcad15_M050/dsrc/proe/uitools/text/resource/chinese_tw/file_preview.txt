@@ -1,0 +1,48 @@
+# {100} (100) [0] MasterPreviewTab.Label
+Open
+開啟
+
+# [1] PreviewText.Value
+This is a text area.\nMaybe we could put the first \nfew lines of a text file here.
+這是文字區。\n也許可將文字檔案的\n前幾行放在這兒。
+
+# [2] Label1.Label
+Preview not available.
+無法進行預覽。
+
+# [3] PreviewCheckButton.HelpText
+Click the image for 3D view
+變更 3D 視圖的圖像
+
+# [4] SelNameLbl.Label
+foo.prt.1
+foo.prt.1
+
+# [5] lbl_file_name.Label
+File name: 
+檔名:
+
+# [6] SelDateLbl.Label
+12-Dec-87 12:22:22 PM
+12-Dec-87 12:22:22 PM
+
+# [7] lbl_file_date.Label
+Date modified: 
+修改日期:
+
+# [8] ClosePreview.Label
+Preview
+預覽
+
+# [9] ClosePreview.HelpText
+Hide Preview
+隱藏預覽
+
+# [10] Preview.Label
+Preview
+預覽
+
+# [11] Preview.HelpText
+Show Preview
+顯示預覽
+

@@ -1,0 +1,36 @@
+# {61168} (19) [10] scr_uddi_pub.Label
+PTC PartsLink Publishing Information
+Informazioni di pubblicazione PartsLink PTC
+
+# [11] ServiceKeyLab.Label
+Service Key
+Chiave servizio
+
+# [12] DescLab.Label
+Product Catalog Description
+Descrizione catalogo prodotti
+
+# [13] scr_uddi_op.Label
+UDDI Business Registry
+Registro aziendale UDDI
+
+# [14] OperatorLab.Label
+Operator
+Operatore
+
+# [15] OperatorMenu.DefaultHelpText
+16
+16
+
+# [16] IDLab.Label
+User ID
+ID utente
+
+# [17] BusinessKeyLab.Label
+Business Key
+Chiave aziendale
+
+# [18] PasswordLab.Label
+Password
+Password
+

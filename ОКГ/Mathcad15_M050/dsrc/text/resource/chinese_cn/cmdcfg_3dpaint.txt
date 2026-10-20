@@ -1,0 +1,12 @@
+# {100} (100) [0] 3dpaint_1.Label
+Locate Other Installation Directories (Optional)
+定位其它安装目录(可选)
+
+# [1] AppMgrDirLab.Label
+PTC Application Manager
+PTC 应用程序管理器
+
+# [2] CDRSGraphLibDirLab.Label
+PTC Graphic Library
+PTC图形库
+

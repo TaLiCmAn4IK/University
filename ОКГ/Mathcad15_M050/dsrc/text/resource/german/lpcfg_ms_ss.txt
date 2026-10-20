@@ -1,0 +1,12 @@
+# {2553} (4) [1] MS_SS_Radio.Labels.MS
+Multi-Site
+Multi-Site
+
+# [2] MS_SS_Radio.Labels.SS
+Single-Site
+Single-Site
+
+# [3] lpcfg_ms_ss2.Label
+Instructions
+Anweisungen
+

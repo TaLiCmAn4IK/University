@@ -1,0 +1,44 @@
+# {100} (100) [0] scr_ieservice1.Label
+Windchill Info*Engine Servlet Configuration
+Windchill Info*Engine Servlet 서브렛 구성
+
+# [1] AppURLLab.Label
+Application URL
+응용 프로그램 URL
+
+# [2] AppURL.Value
+Windchill
+Windchill
+
+# [3] scr_ieservice2.Label
+Windchill Info*Engine Configuration Properties
+Windchill Info*Engine 구성 등록정보
+
+# [4] HostnameLab.Label
+Fully Qualified Host Name
+완결된 등록 호스트 이름
+
+# [5] TempProcPortLab.Label
+Template Processor Port
+템플릿 프로세스 포트
+
+# [6] TaskProcPortLab.Label
+Task Processor Port
+태스크 프로세스 포트
+
+# [7] TextArea.Value
+Specify the Windchill Info*Engine servlet name, naming service and logging options.
+Windchill Info*Engine 서브렛 이름, 네이밍 서비스와 로그인 옵션을 지정하십시오.
+
+# [8] scr_ieservice_logs.Label
+Windchill Info*Engine Logging Options
+Windchill Info*Engine 로깅 옵션
+
+# [9] LogDirLab.Label
+Logs Directory
+로그 디렉토리
+
+# [10] LogLevel.Label
+Activate All Logging Options?
+모든 로그인 옵션을 활성화하시겠습니까?
+

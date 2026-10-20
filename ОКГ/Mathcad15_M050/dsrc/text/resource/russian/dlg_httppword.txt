@@ -1,0 +1,36 @@
+# {100} (100) [0] dlg_httppword.Label
+Web Site Authentication
+Идентификация для веб-сайта
+
+# [1] Lab_Please.Label
+Please type your user name and password.
+Пожалуйста введите ваше имя и пароль.
+
+# [2] Lab_Realm.Label
+Realm:
+Область:
+
+# [3] Inp_Realm.Label
+Web site realm
+Область веб-сайта
+
+# [4] Lab_User.Label
+&User Name
+&Имя пользователя
+
+# [5] Lab_PWord.Label
+Password
+Пароль
+
+# [6] OkBtn.Label
+OK
+OK
+
+# [7] CancelBtn.Label
+Cancel
+Отмена
+
+# [8] Lab_Retry.Label
+Authentication failed, please try again.
+Сбой идентификации, пожалуйста попробуйте еще раз.
+

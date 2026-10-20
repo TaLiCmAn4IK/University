@@ -1,0 +1,13 @@
+; 17-May-09 L-03-33  Moti  $$1  Created for file open dialog
+
+
+; Border
+
+[border]
+BackgroundImage = styles/SAB/wf5SAB_da_border.png
+SizingMargins = 3, 2, 3, 2
+ContentMargins = 4, 2, 4, 2
+
+[border(disabled)]
+BackgroundImage = styles/SAB/wf5SAB_da_disabled_border.png
+

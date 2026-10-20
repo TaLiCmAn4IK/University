@@ -1,0 +1,36 @@
+# {0} (9) [0] Lab_Please.Label
+Please type your user name and password.
+ユーザー名およびパスワードを入力してください。
+
+# [1] Lab_Realm.Label
+Realm:
+ドメイン:
+
+# [2] Inp_Realm.Label
+Web site realm
+Web サイトドメイン
+
+# [3] Lab_User.Label
+&User Name
+ユーザー名(&U)
+
+# [4] Lab_PWord.Label
+Password
+パスワード
+
+# [5] dlg_httppword.Label
+Web Site Authentication
+Web サイト認証
+
+# [6] OkBtn.Label
+OK
+OK
+
+# [7] CancelBtn.Label
+Cancel
+キャンセル
+
+# [8] Lab_Retry.Label
+Authentication failed, please try again.
+認証に失敗しました。再実行してください。
+

@@ -1,0 +1,28 @@
+# {100} (100) [0] Label2.Label
+Click for more:
+詳細は次をクリック:
+
+# [1] PushButton1.Label
+Minimum Requirements
+最小要件
+
+# [2] PushButton2.Label
+Install Guide
+インストールガイド
+
+# [3] PushButton5.Label
+PTC License Server Installation
+PTC ライセンスサーバーのインストール
+
+# [4] PushButton3.Label
+Continue
+続行
+
+# [5] PushButton4.Label
+Exit
+終了
+
+# [6] Label1.Label
+Welcome to Pro/ENGINEER 30-Day Trial
+Pro/ENGINEER 30 日間試供版
+

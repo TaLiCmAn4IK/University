@@ -1,0 +1,17 @@
+;
+; 26-Apr-07 L-01-32  AW      $$1  Created
+;
+
+[toolbutton]
+ContentMargins = 3, 3, 2, 2
+SizingMargins = 3, 3, 3, 3
+TransitionDuration = 250
+BackgroundImage = styles/SAB/left_button_normal.bif
+
+[toolbutton(hot)]
+TransitionDuration = 250
+BackgroundImage = styles/SAB/middle_button_hot.bif
+
+[toolbutton(pressed)]
+TransitionDuration = 250
+BackgroundImage = styles/SAB/middle_button_pressed.bif

@@ -1,0 +1,14 @@
+!
+! 15-May-07 L-01-32  AW      $$1  Created
+!
+
+(Image SAB_arrow_right
+    (Resources
+        (.Width     8)
+        (.Height    8)
+        (.Depth     1)
+    )
+    (Data
+        FFFF00C4FF0000C3FFC000C2FFC100C1FFC000C2FF0000C3FF00CAFF
+    )
+)

@@ -1,0 +1,106 @@
+// 13-Dec-99      TWH  Created
+// 27-Jun-01      TWH  Fix typo in hasco_metric
+// 27-Jun-01 $$1  TWH  Add No_Bin_Dir
+
+(Product lib_mold 
+    (Name                      "@@Prod_mold_base_lib")
+    (Packages                  "req_moldlib"
+                               "dme_standard"
+                               "dme_metric"
+                               "dms_metric"
+                               "hasco_standard"
+                               "hasco_metric"
+                               "fut_cparts"
+                               "fut_assy"
+                               "national_standard")
+    (ProgramFiles              False)
+    (LpDirName                 "moldlib")
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+    (VersionDir                False)
+    (No_Bin_Dir                True)
+)
+(Package req_moldlib
+    (Name                      "@@Prod_mold_base_lib")
+    (Cdsections                "mandatory")
+    (Installed                 True)
+    (Required                  True)
+    (Binscripts                "pro_build_library_ctg")
+)
+(Package dme_standard
+    (Name                      "@@Pkg_dme_standard")
+    (Cdsections                "dme_standard")
+    (Installed                 True)
+    (Binscripts                "pro_build_library_ctg")
+)
+(Package dme_metric
+    (Name                      "@@Pkg_dme_metric")
+    (Cdsections                "dme_metric")
+    (Installed                 True)
+    (Binscripts                "pro_build_library_ctg")
+)
+(Package dms_metric
+    (Name                      "@@Pkg_dms_metric")
+    (Cdsections                "dms_metric")
+    (Installed                 True)
+    (Binscripts                "pro_build_library_ctg")
+)
+(Package hasco_standard
+    (Name                      "@@Pkg_hasco_standard")
+    (Cdsections                "hasco_standard")
+    (Installed                 True)
+    (Binscripts                "pro_build_library_ctg")
+)
+(Package hasco_metric
+    (Name                      "@@Pkg_hasco_metric")
+    (Cdsections                "hasco_metric")
+    (Installed                 True)
+    (Binscripts                "pro_build_library_ctg")
+)
+(Package fut_cparts
+    (Name                      "@@Pkg_fut_cparts")
+    (Installed                 True)
+    (SubPackages               "fut_comp_us"
+                               "fut_comp_jap")
+)
+(Package fut_comp_us
+    (Name                      "@@Pkg_comp_us")
+    (Cdsections                "fut_comp"
+                               "fut_comp-english menus")
+    (Installed                 True)
+    (Binscripts                "pro_build_library_ctg")
+)
+(Package fut_comp_jap
+    (Name                      "@@Pkg_comp_jap")
+    (Cdsections                "fut_comp"
+                               "fut_comp-japanese menus")
+    (Installed                 False)
+    (Binscripts                "pro_build_library_ctg")
+)
+(Package fut_assy
+    (Name                      "@@Pkg_fut_assy")
+    (Installed                 True)
+    (SubPackages               "fut_assy_us"
+                               "fut_assy_jap")
+)
+(Package fut_assy_us
+    (Name                      "@@Pkg_fut_assy_us")
+    (Cdsections                "fut_assy"
+                               "fut_assy-english menus")
+    (Installed                 True)
+    (Binscripts                "pro_build_library_ctg")
+)
+(Package fut_assy_jap
+    (Name                      "@@Pkg_fut_assy_jap")
+    (Cdsections                "fut_assy"
+                               "fut_assy-japanese menus")
+    (Installed                 False)
+    (Binscripts                "pro_build_library_ctg")
+)
+(Package national_standard
+    (Name                      "@@Pkg_national_standard")
+    (Cdsections                "national_standard")
+    (Installed                 True)
+    (Binscripts                "pro_build_library_ctg")
+)
+

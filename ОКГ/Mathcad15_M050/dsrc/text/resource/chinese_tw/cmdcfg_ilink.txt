@@ -1,0 +1,20 @@
+# {100} (100) [0] ilink_2.Label
+Pro/ENGINEER Integration (Optional)
+Pro/ENGINEER Integration (任選)
+
+# [1] ProeCmdLab.Label
+Start Command
+啟動指令
+
+# [2] ProeDirLab.Label
+Installation Directory
+安裝目錄
+
+# [3] ilink_1.Label
+Locate Other Installation Directories (Optional)
+找出其他安裝目錄(任選)
+
+# [4] AppMgrDirLab.Label
+PTC Application Manager
+PTC 應用程式管理員
+

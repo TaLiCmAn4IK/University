@@ -1,0 +1,28 @@
+# {0} (7) [0] scr_ieserver2.Label
+Windchill Info*Engine Server and Servlet Configuration
+Windchill Info*Engine伺服器和Servlet組態
+
+# [1] AppURLLab.Label
+Application URL
+應用程式URL
+
+# [2] AppURL.Value
+infoengine
+infoengine
+
+# [3] scr_auth.Label
+Windchill Info*Engine Servlet Authentication
+Windchill Info*Engine Servlet鑑定
+
+# [4] AuthRealmLab.Label
+Authentication HTTP Realm
+鑑定HTTP領域
+
+# [5] IdleTimeoutLab.Label
+Idle Timeout (minutes)
+閒置逾時(分鐘)
+
+# [6] AuthTaskLab.Label
+Authentication Task Relative Path 
+鑑定任務相對路徑
+

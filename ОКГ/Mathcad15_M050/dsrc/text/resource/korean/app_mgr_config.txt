@@ -1,0 +1,20 @@
+# {100} (100) [0] app_mgr_config.Label
+PTC Application Manager - Installation Configuration
+PTC 응용 프로그램 관리자 - 설치 구성
+
+# [1] Menu.Label
+Menu
+메뉴
+
+# [2] CmdTreeAdd.Label
+Add
+추가
+
+# [3] CmdTreeEdit.Label
+Edit
+편집
+
+# [4] CmdTreeDelete.Label
+Delete
+삭제
+

@@ -1,0 +1,22 @@
+!----------------------------------------------------------------------------
+!
+!  Date      Release Name  Ver.  Comments
+! ---------- ------- ----- ----- --------------------------------------------
+! 24-Mar-97  H-03-04  DXU  $$1  Submitted.
+! 13-May-97  H-03-10  DXU  $$2  updated.
+! 18-Aug-97  H-03-19  dxu  $$3 resize the icon.
+! 16-Sep-97  H-03-22  twb  $$4 New image
+! 15-Jan-01  J-01-25  pmu  $$5 Updated
+!----------------------------------------------------------------------------
+(Image seltzer
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     8)
+    )
+    (Data
+        C0FF1010CBFF101015CAFF101015C7FFC51008C4FFC51008C5FF15151010C515
+        C3FF101015FFFFC215C3FF101015FFFFC215C4FF1515FFFFC215C8FFC215C8FF
+        C215C6FFC615C5FFC415C7FFC215C9FFC015CBFF15C2FF
+    )
+)

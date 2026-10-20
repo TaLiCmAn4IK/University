@@ -1,0 +1,180 @@
+# {100} (100) [0] designer_new_ribbon.Label
+New Ribbon
+리본 새로 만들기
+
+# [1] type_lay.Label
+Type
+종류
+
+# [2] rdgType.Labels.sketcher_
+ <sketch> Sketch
+ <sketch> 스케치
+
+# [3] rdgType.Labels.prt_
+ <prt><8x18> Part
+ <prt><8x18> 부품
+
+# [4] rdgType.Labels.asm_
+ <asm><8x18> Assembly
+ <asm><8x18> 어셈블리
+
+# [5] rdgType.Labels.mfg_
+ <mfg> Manufacturing
+ <mfg> 제조
+
+# [6] rdgType.Labels.drw_
+ <drw> Drawing
+ <drw> 드로잉
+
+# [7] rdgType.Labels.drw_fmt_
+ <frm> Format
+ <frm> 형식
+
+# [8] rdgType.Labels.new_
+<new>New Ribbon
+<new>리본 새로 만들기
+
+# [9] subtype_lay.Label
+Sub-type
+하위 유형
+
+# [10] sketcher_.Labels.sketcher_
+Standard
+표준
+
+# [11] prt_layout.Label
+part
+부품
+
+# [12] prt_.Labels.prt_
+Solid
+솔리드
+
+# [13] prt_.Labels.prt_cmt_
+Composite
+복합소재
+
+# [14] prt_.Labels.prt_smt_
+Sheetmetal
+판금
+
+# [15] prt_.Labels.prt_bulk_
+Bulk
+벌크
+
+# [16] prt_.Labels.prt_harn_
+Harness
+하네스
+
+# [17] asm_.Labels.asm_
+Design
+설계
+
+# [18] asm_.Labels.asm_inchg_
+Interchange
+교환
+
+# [19] asm_.Labels.asm_verify_
+Verify
+검증
+
+# [20] asm_.Labels.asm_plan_
+Process Plan
+공정 계획
+
+# [21] asm_.Labels.asm_nc_
+NC Model
+NC 모델
+
+# [22] asm_.Labels.asm_mold_
+Mold Layout
+몰드 레이아웃
+
+# [23] asm_.Labels.asm_spl_smt_
+Split Sheetmetal
+분할 판금
+
+# [24] asm_.Labels.asm_simp_rep_
+Ext. Simp.Rep.
+외부단순화 표현
+
+# [25] asm_.Labels.asm_plt_harn_
+Flat Harness
+플랫 하네스
+
+# [26] asm_.Labels.asm_fig_
+Figure
+그림
+
+# [27] asm_.Labels.asm_conf_asm_
+Configure Asm
+어셈블리 구성
+
+# [28] mfg_.Labels.mfg_asm_
+NC Assembly
+NC 어셈블리
+
+# [29] mfg_.Labels.mfg_prt_
+NC Part
+NC 부품
+
+# [30] mfg_.Labels.mfg_feat_
+Expert Machinist
+Expert Machinist
+
+# [31] mfg_.Labels.mfg_exp_tmkr_
+Expert Toolmaker
+Expert Toolmaker
+
+# [32] mfg_.Labels.mfg_cmm_
+CMM
+CMM
+
+# [33] mfg_.Labels.mfg_smt_
+Sheetmetal
+판금
+
+# [34] mfg_.Labels.mfg_cast_
+Cast Cavity
+캐스트 캐비티
+
+# [35] mfg_.Labels.mfg_mold_
+Mold Cavity
+몰드 캐비티
+
+# [36] mfg_.Labels.mfg_dief_
+Dieface
+다이페이스
+
+# [37] mfg_.Labels.mfg_harn_
+Harness
+하네스
+
+# [38] mfg_.Labels.mfg_psplg_
+Process Plan
+공정 계획
+
+# [39] drw_.Labels.drw_
+Standard
+표준
+
+# [40] drw_fmt_.Labels.drw_fmt_
+Standard
+표준
+
+# [41] new_.Labels.new_
+Standard
+표준
+
+# [42] inp_panel.Value
+new_
+new_
+
+# [43] btnOK.Label
+OK
+확인
+
+# [44] btnCancel.Label
+Cancel
+취소
+

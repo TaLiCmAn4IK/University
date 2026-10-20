@@ -1,0 +1,22 @@
+! 11-Jul-97 H-03-16 twb $$1 Revised, file created prior to H-03-16
+! 18-Aug-97 H-03-19 twb $$2 Revised, white background
+! 02-Dec-97 H-03-31 twb $$3 Recolored for white background.
+! 18-Dec-97 H-03-34 hmt $$4 Changed size to 18x18
+! 29-DEC-97 H-03-35 MCA $$5 Changed size to 16x16 - Removed RED Set Current Box.
+! 14-Dec-99 I-03-24 TWB $$6 Updated for new look.
+! 08-Aug-02 J-03-31 TLH $$7 Updated for Wildfire again
+(Image prt_image
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        0FFFFFFF03F0FD000D100D200DE0300D400D500D600D6C056666664F01808080
+        7F0D8F0D017C01E06C0D9401A800BB0DCB0D0100990D99A30D0399E100D00D04
+        1D0C1108F401E00DF005991911391D491D1D1D002D1D791D891D5D1D6D1DB91D
+        C91D9D1D00AD1DF91D092DDD1DED1D392D492D1D2D002D2D792D892D5D2D6D2D
+        B92DC92D9D2407333333A72DCB2D033D9726A42D00B405343D443D5035243D6C
+        3D7C3D8C3D009C3DAC3DBC3DCC3DDC3D
+    )
+)

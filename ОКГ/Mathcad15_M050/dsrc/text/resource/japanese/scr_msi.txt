@@ -1,0 +1,4 @@
+# {0} (1) [0] MsiLabel.Label
+Run Windows Installer
+Windows インストーラの実行
+

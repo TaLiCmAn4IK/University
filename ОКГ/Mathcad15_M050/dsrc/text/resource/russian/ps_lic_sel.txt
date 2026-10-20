@@ -1,0 +1,60 @@
+# {100} (100) [0] ps_lic_sel.Label
+Select Licenses
+Выбрать лицензии
+
+# [1] CmdInfoGrp.Labels.1
+No ConfigID
+Нет ConfigID
+
+# [2] CmdInfoGrp.Labels.2
+ConfigID
+ConfigID
+
+# [3] CmdInfoGrpLab.Label
+License Scheme:
+Схема лицензии:
+
+# [4] CmdName1Lab.Label
+Configuration Name:
+Имя конфигурации:
+
+# [5] CmdDesc1Lab.Label
+Configuration Description:
+Описание конфигурации:
+
+# [6] CmdType1Lab.Label
+ConfigurationType:
+Тип конфигурации:
+
+# [7] Layout3.Label
+Available Licenses
+Доступные лицензии
+
+# [8] List3.ColumnLabel
+Type
+Тип
+
+# [9] Layout4.Label
+Selected Licenses
+Выбранные лицензии
+
+# [10] Label16.Label
+Startup extensions && floating licenses
+Запуск расширений и плавающих лицензий
+
+# [11] Label3.Label
+Licenses to Run
+Лицензии для запуска
+
+# [12] StdOK.Label
+&OK
+&OK
+
+# [13] StdCancel.Label
+&Cancel
+О&тмена
+
+# [14] Label1.Label
+Legend: <ltr> License to Run;  <ext> Startup Extensions;  <flt> Floating options
+Подпись: <ltr> Лицензии для запуска;  <ext> Старт расширений;  <flt> Плавающие опции
+

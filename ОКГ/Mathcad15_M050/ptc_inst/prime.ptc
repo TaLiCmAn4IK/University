@@ -1,0 +1,190 @@
+// 15-Jul-09 L-03-34  $$1  TWH  Created
+// 10-Sep-09 L-03-35+ $$2  TWH  Update for help
+// 17-Sep-09 L-03-35+ $$3  TWH  PRIME pkg required
+// 18-Nov-09 L-03-36+ $$4  TWH  Add placeholder Ad_list entries
+//                              Chg Product Name to Mathcad Prime
+// 04-Dec-09 L-03-36+ $$5  TWH  Update ad_list
+// 12-Jul-10 L-03-40  $$6  TWH  Update for Prime 1.0 release setup chgs
+// 12-OCt-10 L-03-41  $$7  TWH  Chg regkeys for NSEX lookup
+// 20-Sep-11 L-03-45  $$8  TWH  Prime 2.0 update
+// 03-Oct-11 L-03-45  $$9  TWH  Add INSTALLER_MATHCAD
+// 03-Nov-11 L-03-46  $$10 TWH  Drop Use_x86_ flag
+// 16-Nov-11 L-03-46  $$11 TWH  Update Prime ad list
+
+(Product prime
+	(Name                      "Mathcad Prime")
+	(WelcomeImage              "prime_name.png")
+	(Packages                  "PRIME"
+                               "PRIME_ENGINE"
+                               "help_prime")
+	(ProgramFiles              True)
+	(LpDirName                 "Mathcad\Mathcad Prime 2.0")
+	(VersionDir                False)
+	(Screens                   "ScreenProd"
+	                           "ScreenMathcadTrial"
+                               "ScreenMathcadCustom")
+	(Installed                 True)
+	(ScreenProdPostFunc.AllowPreCheck True)
+	(ScreenProductHidePlats    True)
+	(ScreenProductHideLangs    True)
+	(ScreenWindows.HideEnv     True)
+	(ScreenWindows.HideStartDir True)
+	(ScreenWindows.HideProgFolder True)
+	(ScreenWindows.ShowQuickLaunch True)
+        (ScreenWindows.ScDesktop   True)
+        (ScreenWindows.ScStartMenu True)
+        (ScreenWindows.ScQuickLaunch True)
+	(LicenseSimplification     True)
+	(MsiGetFeatureCost         True)
+	(MATHCAD_license_type      "trial")
+	(MATHCAD_install_type       "typical")
+	(MATHCAD15_upgrade_code    "{9848B3F8-BB46-4678-A786-DB06BB6C637E}")
+	(MATHCAD15_URL             "http://www.ptc.com/cgi/cs/apps/SftUpd/SftUpdProd.pl")
+	(INSTALLER_DOTNET          "http://www.microsoft.com/download/en/details.aspx?id=17851")
+	(INSTALLER_MATHCAD         "http://www.ptc.com/cgi/cs/apps/SftUpd/SftUpdProd.pl")
+	(Ad_list                   "Prime0"
+	                           "Prime1"
+                               "Prime2"
+                               "Prime3"
+                               "Prime4"
+                               "Prime5"
+                               "Prime6"
+				               "Prime7"
+				               "Prime8"
+				               "Prime9"
+				               "Prime10"
+				               "Prime11"
+				               "Prime12"
+				               "Prime13"
+				               "Prime14")
+				               				               
+)
+
+(Package PRIME
+	(Name                      "Prime 2.0")
+	(Screens                   "ScreenPrimeCfg"
+                               "ScreenLicList"
+                               "ScreenWindows")
+	(Installed                 True)
+	(Cdsections                "PRIME")
+	(Required                  True)
+	(MSI_NAME                  "Application")
+    (MSI_INSTALLDIR            "[INSTALLLOCATION]")
+)
+
+(Package PRIME_ENGINE
+	(Name                      "engine")
+	(Installed                 True)
+	(Cdsections                "PRIME_ENGINE")
+	(Required                  True)
+	(Visible                   FALSE)
+	(MSI_NAME                  "Engine")
+	(MSI_INSTALLDIR            "[INSTALLLOCATION]")
+)
+
+(Package help_prime
+    (Name                      "@@Prime_help_name")
+    (SubPackages               "PRIME_HELP"
+                               "PRIME_HELP_DE"
+                               "PRIME_HELP_ES"
+                               "PRIME_HELP_IT"
+                               "PRIME_HELP_JA"
+                               "PRIME_HELP_FR" 
+                               "PRIME_HELP_KO"
+                               "PRIME_HELP_RU"
+                               "PRIME_HELP_HANS"
+                               "PRIME_HELP_HANT")
+    (Installed                 True)
+)
+
+(Package PRIME_HELP
+	(Name                      "@@Lang_usascii")
+    (Installed                 True)
+    (Cdsections                "PRIME_HELP")
+    (MSI_NAME                  "Help_en")
+    (MSI_INSTALLDIR            "[INSTALLLOCATION]")
+)
+
+(Package PRIME_HELP_DE
+	(Name                      "@@Lang_german")
+    (Installed                 False)
+    (Cdsections                "PRIME_HELP_DE")
+    (MSI_NAME                  "Help_de")
+    (MSI_INSTALLDIR            "[INSTALLLOCATION]")
+)
+
+(Package PRIME_HELP_ES
+	(Name                      "@@Lang_spanish")
+    (Installed                 False)
+    (Cdsections                "PRIME_HELP_ES")
+    (MSI_NAME                  "Help_es")
+    (MSI_INSTALLDIR            "[INSTALLLOCATION]")
+)
+
+(Package PRIME_HELP_FR
+	(Name                      "@@Lang_french")
+    (Installed                 False)
+    (Cdsections                "PRIME_HELP_FR")
+    (MSI_NAME                  "Help_fr")
+    (MSI_INSTALLDIR            "[INSTALLLOCATION]")
+)
+
+(Package PRIME_HELP_IT
+	(Name                      "@@Lang_italian")
+    (Installed                 False)
+    (Cdsections                "PRIME_HELP_IT")
+    (MSI_NAME                  "Help_it")
+    (MSI_INSTALLDIR            "[INSTALLLOCATION]")
+)
+
+(Package PRIME_HELP_JA
+	(Name                      "@@Lang_japanese")
+    (Installed                 False)
+    (Cdsections                "PRIME_HELP_JA")
+    (MSI_NAME                  "Help_ja")
+    (MSI_INSTALLDIR            "[INSTALLLOCATION]")
+)
+
+(Package PRIME_HELP_KO
+	(Name                      "@@Lang_korean")
+    (Installed                 False)
+    (Cdsections                "PRIME_HELP_KO")
+    (MSI_NAME                  "Help_ko")
+    (MSI_INSTALLDIR            "[INSTALLLOCATION]")
+)
+
+(Package PRIME_HELP_RU
+	(Name                      "@@Lang_russian")
+    (Installed                 False)
+    (Cdsections                "PRIME_HELP_RU")
+    (MSI_NAME                  "Help_ru")
+    (MSI_INSTALLDIR            "[INSTALLLOCATION]")
+)
+
+(Package PRIME_HELP_HANS
+	(Name                      "@@Lang_chinese_cn")
+    (Installed                 False)
+    (Cdsections                "PRIME_HELP_HANS")
+    (MSI_NAME                  "Help_zh_hans")
+    (MSI_INSTALLDIR            "[INSTALLLOCATION]")
+)
+
+(Package PRIME_HELP_HANT
+	(Name                      "@@Lang_chinese_tw")
+    (Installed                 False)
+    (Cdsections                "PRIME_HELP_HANT")
+    (MSI_NAME                  "Help_zh_hant")
+    (MSI_INSTALLDIR            "[INSTALLLOCATION]")
+)
+
+(MSIAddon adobe
+	(Name                      "Distillr")
+	(MSI                       "_LP_\adobe\Distillr.msi")
+	(Features                  "AUM"
+	                           "Requirements"
+	                           "Distiller"
+	                           "InstallCache"
+	                           "Uninstall"
+	                           "AdobeCommonTypeSpt"
+	                           "AcroHelp_Standard")
+)

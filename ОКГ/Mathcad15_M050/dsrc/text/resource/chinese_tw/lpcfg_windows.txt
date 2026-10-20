@@ -1,0 +1,40 @@
+# {100} (100) [0] ShortcutLayout.Label
+Windows Shortcut Preferences
+Windows捷徑偏好
+
+# [1] FolderLab.Label
+Program Folder
+程式資料夾
+
+# [2] StartInDirLab.Label
+Startup Directory
+啟動目錄
+
+# [3] LocationLab.Label
+Shortcut Location(s)
+捷徑位置
+
+# [4] ScProgramFolder.Label
+Program folder
+程式資料夾
+
+# [5] ScStartMenu.Label
+Start Menu
+開始選單
+
+# [6] ScDesktop.Label
+Desktop
+桌面
+
+# [7] PathLayout.Label
+Windows Environment Preferences
+Windows 環境偏好
+
+# [8] PathChoice.Labels.systempath
+Modify system environment for all users
+為所有使用者修改系統環境
+
+# [9] PathChoice.Labels.userpath
+Modify current user's environment only
+僅修改現有使用者的環境
+

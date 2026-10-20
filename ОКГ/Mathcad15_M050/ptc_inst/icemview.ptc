@@ -1,0 +1,84 @@
+// 25-May-01 ALG $$1  Created
+// 29-May-01 MAZ $$2  Remove sun4_solaris and i486_nt
+// 31-May-01 MAZ      Remove sgi_elf2
+// 04-Jun-01 MAZ $$3  Just on UNIX, not selected by default
+
+(Product icemview
+    (Name                      "ICEM View 4.3")
+    (LpDirName                 "view4.3")
+    (VersionDir                False)
+    (ProgramFiles              False)
+    (Packages                  "icemview_ddn"
+                               "icemview_iges"
+                               "icemview_vda"
+                               "icemview_dxf"
+                               "icemview_catia"
+                               "icemview_cadds"
+                               "icemview_nc"
+                               "icemview_duct"
+                               "icemview_powermill"
+                               "icemview_surf"
+                               "icemview_gnc")
+    (Screens                   "ScreenProd")
+    (EndInstallMsg             "@@icem_ddn_end_inst_msg")
+    (Installed                 False)
+    (PossibleArchs             "sgi_mips4")
+    (HostArchTypes             "UNIX")
+)
+
+(Package icemview_ddn
+    (Name                      "DDN module")
+    (Cdsections                "icemview")
+    (Installed                 True)
+)
+
+(Package icemview_iges
+    (Name                      "IGES module")
+    (Cdsections                "icemview")
+)
+
+(Package icemview_vda
+    (Name                      "VDA module")
+    (Cdsections                "icemview")
+)
+
+(Package icemview_dxf
+    (Name                      "DXF module")
+    (Cdsections                "icemview")
+)
+
+(Package icemview_catia
+    (Name                      "DICATIA module")
+    (Cdsections                "icemview")
+)
+
+(Package icemview_cadds
+    (Name                      "DICADDS module")
+    (Cdsections                "icemview")
+)
+
+(Package icemview_nc
+    (Name                      "NC module")
+    (Cdsections                "icemview")
+)
+
+(Package icemview_duct
+    (Name                      "DUCT module")
+    (Cdsections                "icemview")
+)
+
+(Package icemview_powermill
+    (Name                      "POWERMILL module")
+    (Cdsections                "icemview")
+)
+
+(Package icemview_surf
+    (Name                      "SURF module")
+    (Cdsections                "icemview")
+)
+
+(Package icemview_gnc
+    (Name                      "GNC module")
+    (Cdsections                "icemview")
+)
+

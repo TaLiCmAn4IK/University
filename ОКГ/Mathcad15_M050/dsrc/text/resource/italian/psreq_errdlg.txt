@@ -1,0 +1,12 @@
+# {100} (100) [0] StdButton1.Label
+OK
+OK
+
+# [1] icon.Labels.error
+Error
+Errore
+
+# [2] RestartLabel.Label
+After you have done so, you will need to restart Mathcad installation.
+Dopo aver completato l'operazione sarà necessario riavviare l'installazione di Mathcad.
+

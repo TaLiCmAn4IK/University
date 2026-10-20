@@ -1,0 +1,12 @@
+! 13-Mar-06  L-01-04  SII  $$1  Created.
+(Image top_arrow_11x11
+    (Resources
+        (.Width     11)
+        (.Height    11)
+        (.Depth     4)
+    )
+    (Data
+        C800C2FF00C6FF000800C4FF00C00800C2FF00C20800C0FF00C40800FFC100C0
+        08C100C0FF00C00800C3FF00C00800C3FF00C00800C3FFC200C0FF
+    )
+)

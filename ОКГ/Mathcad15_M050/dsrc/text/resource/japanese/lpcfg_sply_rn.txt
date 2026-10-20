@@ -1,0 +1,36 @@
+# {0} (13) [0] lpcfg_sply_rn2.Label
+Configuration Properties
+コンフィギュレーションプロパティ
+
+# [1] rmi_port_label.Label
+RMI Registry Port Number
+RMI レジストリポート番号
+
+# [3] lpcfg_sply_rn3.Label
+Windchill Gateway for RosettaNet Properties
+Windchill Gateway for RosettaNet プロパティ
+
+# [4] port_label.Label
+Port Number
+ポート番号
+
+# [6] duns_label.Label
+DUNS Number
+DUNS 番号
+
+# [8] lpcfg_sply_rn4.Label
+Windchill RosettaNet Adapter Properties
+Windchill RosettaNet アダプタプロパティ
+
+# [9] ieport_label.Label
+Port Number
+ポート番号
+
+# [10] user_label.Label
+User Name
+ユーザー名
+
+# [11] passwd_label.Label
+Password
+パスワード
+

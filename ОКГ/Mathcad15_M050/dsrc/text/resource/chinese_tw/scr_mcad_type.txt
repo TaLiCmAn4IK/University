@@ -1,0 +1,20 @@
+# {100} (100) [0] RgrpMcadCustom.Labels.typical
+Typical
+一般安裝
+
+# [1] RgrpMcadCustom.Labels.custom
+Custom
+自訂安裝
+
+# [2] RgrpMcadCustom.Labels.silent
+Create silent installation package
+建立無訊息安裝套件
+
+# [3] scr_windows3.Label
+Instructions
+指示
+
+# [4] TextArea.Value
+Typical will proceed immediately to do an installation with all default selections\nCustom installation allows installing languages and changing defaults.\nSilent install goes through the custom selections; but only creates an MSI file for doing installation; an install is not actually performed.
+一般安裝會立刻以預設選取項進行安裝\n自訂安裝允許安裝語言並變更預設值。\n靜默安裝會檢查自訂選取項，但僅會建立安裝用的 MSI 檔案; 並未實際執行安裝動作。
+

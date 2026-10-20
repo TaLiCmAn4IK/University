@@ -1,0 +1,28 @@
+# {100} (100) [0] Label2.Label
+Click for more:
+Klicken Sie für mehr:
+
+# [1] PushButton1.Label
+Minimum Requirements
+Mindestanforderungen
+
+# [2] PushButton2.Label
+Install Guide
+Installationshandbuch
+
+# [3] PushButton5.Label
+PTC License Server Installation
+PTC Lizenzserver-Installation
+
+# [4] PushButton3.Label
+Continue
+Weiter
+
+# [5] PushButton4.Label
+Exit
+Beenden
+
+# [6] Label1.Label
+Welcome to Pro/ENGINEER 30-Day Trial
+Willkommen bei Pro/ENGINEER 30-Tage Testversion
+

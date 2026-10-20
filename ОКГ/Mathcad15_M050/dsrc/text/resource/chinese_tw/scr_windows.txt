@@ -1,0 +1,52 @@
+# {100} (100) [0] ShortcutLayout.Label
+Windows Shortcut Preferences
+Windows捷徑偏好
+
+# [1] FolderLab.Label
+Program Folder
+程式資料夾
+
+# [2] StartInDirLab.Label
+Startup Directory
+啟動目錄
+
+# [3] LocationLab.Label
+Shortcut Location(s)
+捷徑位置
+
+# [4] ScDesktop.Label
+Desktop
+桌面
+
+# [5] ScStartMenu.Label
+Start Menu
+開始選單
+
+# [6] ScProgramFolder.Label
+Program folder
+程式資料夾
+
+# [7] ScQuickLaunch.Label
+Quick Launch
+快速啟動
+
+# [8] StartinDirWarning.Label
+Define the startup directory to a location where all users have read-write access.
+將啟動目錄定義到全部使用者皆具備讀取-寫入權限的位置。
+
+# [9] PathLayout.Label
+Windows Environment Preferences
+Windows 環境偏好
+
+# [10] PathChoice.Labels.systempath
+Modify system environment for all users
+為所有使用者修改系統環境
+
+# [11] PathChoice.Labels.userpath
+Modify current user's environment only
+僅修改現有使用者的環境
+
+# [12] scr_windows3.Label
+Instructions
+指示
+

@@ -1,0 +1,26 @@
+; 12-Mar-09 L-03-28  IKAL  $$1  Created.
+; 22-Mar-09 L-03-28+ IKAL  $$2  Updated.
+; 03-May-09 L-03-32 Moti  $$3  Added TextColor for checked state
+; 18-May-09 L-03-33  IKAL  $$4  Fixed the TextColor.
+; 02-Jun-09 L-03-33+ IKAL  $$5  Fixed the SizingMargins.
+
+
+[togglebutton]
+SizingMargins = 5, 4, 5, 0
+ContentMargins = 6, 4, 6, 4
+BackgroundImage = styles/smart_tab/button_normal.png
+;Font = Arial, 10, Regular
+;TextColor = 48 60 66
+
+[togglebutton(hot)]
+BackgroundImage = styles/smart_tab/button_hot.png
+
+[togglebutton(checked)]
+BackgroundImage = styles/smart_tab/button_active.png
+TextColor = 2 24 35
+
+[togglebutton(hotchecked)] = togglebutton(checked)
+
+[togglebutton(pressed)]
+BackgroundImage = styles/smart_tab/button_pressed.png
+

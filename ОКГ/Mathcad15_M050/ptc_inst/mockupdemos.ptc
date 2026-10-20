@@ -1,0 +1,27 @@
+// 17-Jan-05 J-01-68+     Bruno Created 
+// 24-Jan-05 K-03-18  $$1 MAZ    Submit to K-03
+//
+(Product mockupdemos
+    (Name                      "DIVISION MockUp Demos")
+    (Packages                  "demos")
+    (ProgramFiles              True)
+    (LpDirName                 "mockup")
+    (Screens                   "ScreenProd")
+    (Installed                 True)
+)
+
+(Package demos
+    (Name                      "Demos")
+    (Cdsections                "demos")
+    (Binscripts                "dvisedemos")
+    (Installed                 True)
+)
+
+// No longer use because we don't ship obj/dvisedemos any more
+(CmdType dvisedemosBin 
+    (Name                      "DIVISION MockUp Demos")
+    (Type                      "Shortcut")
+    (CmdPath                   "_LP_\bin\dvisedemos.bat")
+    (IconPath                  "_LP_\i486_nt\obj\ptc.ico")
+    (IconIndex                 "0")
+)

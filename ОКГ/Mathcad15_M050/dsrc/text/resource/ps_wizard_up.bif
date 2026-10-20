@@ -1,0 +1,25 @@
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!
+!  License ordering - up arrow
+! 
+!  Date      Release   Name  Ver.   Comments
+!  --------- -------   ----  ----   --------
+!  29-Apr-03 K-01-06   TWH   $$1    Created
+!  25-Jul-03 K-01-11   TWH   $$2    New image from prod def
+!
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+(Image ps_wizard_up
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        0FFFFFFF03F0FD000D100D200DC0300D400D500D600D700D7C058AA73FC70133
+        3333017C0DA00DC0B00D840DBC0DE00DF00DC805003301990B12D00D201D301D
+        041D141D601D00701D48194C1D9C1DAC1D801D901DDC1D00EC1DC41DCC1DF01D
+        2C2D002D102D302D00342D4C2D8C2D5C2D702D902DCC2DA02D00B42DFC2D0C3D
+        DC2DC40D3C3D4C3D583500283D743D843D943DA43DB43DC43DD43D00E435
+    )
+)

@@ -1,0 +1,7 @@
+; 17-May-09 L-03-33  Moti  $$1  Created for file open dialog
+
+
+[layoutbody]
+ContentMargins = 0, 0, 0, 0
+SizingType = tile
+BackgroundImage = styles/wf5general/wf5tile.png

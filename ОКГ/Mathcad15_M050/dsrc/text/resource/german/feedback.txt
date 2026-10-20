@@ -1,0 +1,8 @@
+# {70174} (2) [0] DismissBtn.Label
+Hide/Done
+Ausblenden/Fertig
+
+# [1] WaitLab.Label
+Please wait...
+Bitte warten...
+

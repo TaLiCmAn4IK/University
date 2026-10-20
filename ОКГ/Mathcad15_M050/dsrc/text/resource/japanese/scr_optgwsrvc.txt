@@ -1,0 +1,12 @@
+# {0} (3) [0] scr_optgwsrvc2.Label
+Optegra Gateway Service Settings
+Optegra Gateway サービス設定
+
+# [1] LogFileLab.Label
+Trace Filename
+ファイル名をトレース
+
+# [2] CabinetPathLab.Label
+Windchill Cabinet/Folder Name
+Windchill キャビネット/フォルダ名
+

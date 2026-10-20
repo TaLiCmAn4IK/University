@@ -1,0 +1,52 @@
+# {100} (100) [0] WCDSCompDescLayout.Label
+Description
+설명
+
+# [1] CompDescTA.Value
+Select a component or subcomponent to view its description.
+설명을 보고자하는 구성요소나 하위구성요소를 선택하십시오
+
+# [2] WCDSLayout2.Label
+Database size
+데이터베이스 크기
+
+# [3] DsRadioSize.Labels.0
+Small (700 MB)
+소 (700 MB)
+
+# [4] DsRadioSize.Labels.1
+Medium (900 MB)
+중 (900 MB)
+
+# [5] DsRadioSize.Labels.2
+Large (1800 MB)
+대 (1800 MB)
+
+# [6] DsVaultCheck.Label
+Exclusively use external file vaults
+외부 파일 보관소만 사용
+
+# [7] LpLab.Label
+Directory for database files
+데이터베이스 파일 디렉토리
+
+# [8] LpBrowse.HelpText
+Browse for Installation Directory
+설치 디렉토리 검색
+
+# [9] WCDSDiskSpaceLayout.Label
+Disk Space
+디스크 공간
+
+# [10] SpaceAvailLab.Label
+Available on C: 9999GB
+C 여유 공간 : 9999GB
+
+# [11] SpaceReqLab.Label
+Required on C: 9999GB
+C 필요 공간: 9999GB
+
+# [12] TextArea.Value
+Identify the location of the database files and choose the size of the database.\n\nFor specific instructions see the Help screen.
+데이터베이스 파일 위치를 지정하고 데이터베이스 크기를 선택하십시오.\n\n자세한 설명은 도움말 화면을 참조하십시오.
+

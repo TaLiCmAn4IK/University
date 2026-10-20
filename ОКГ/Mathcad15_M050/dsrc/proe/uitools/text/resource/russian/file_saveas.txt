@@ -1,0 +1,108 @@
+# {100} (100) [0] file_saveas.Label
+Save a Copy
+Сохранить копию
+
+# [1] type_option.Labels.a
+IGES
+IGES
+
+# [2] type_option.Labels.b
+VRML
+VRML
+
+# [3] lab_profile.Label
+Profile: 
+Профиль:
+
+# [4] opt_profile.Labels.TIFF_100
+TIFF_100
+TIFF_100
+
+# [5] opt_profile.Labels.TIFF_200
+TIFF_200
+TIFF_200
+
+# [6] check_is_secondary.Label
+Placeholder label for secondary
+Метка указателя для вторичного
+
+# [7] opt_category.HelpText
+Select a category for the object to be saved.
+Выберите категорию для сохраняемого объекта.
+
+# [8] lab_category.Label
+Category
+Категория
+
+# [9] Label4.Label
+Model Name
+Имя модели
+
+# [10] Label5.Label
+New Name
+Новое имя
+
+# [11] lab_type.Label
+Type
+Тип
+
+# [12] lab_name.Label
+Model Name
+Имя модели
+
+# [13] lab_ph5.Label
+New Name
+Новое имя
+
+# [14] lab_ph6.Label
+Type
+Тип
+
+# [15] lab_newname.Label
+New Name
+Новое имя
+
+# [16] lab_backup.Label
+Backup To
+Дублировать в
+
+# [17] label_pcf.Label
+PCF name
+PCF имя
+
+# [18] lab_save_to.Label
+Save To
+Сохранить в
+
+# [19] Inputname.Value
+part007
+part007
+
+# [20] OK.Label
+OK
+OK
+
+# [21] Cancel.Label
+Cancel
+Отмена
+
+# [22] lbl_common_name.Label
+Common Name: 
+Общее имя:
+
+# [23] lbl_in_ws_as.Label
+In Workspace As: 
+В Рабочей области как: 
+
+# [24] opt_in_ws_as.Labels.cad_doc
+CAD Document
+CAD-документ
+
+# [25] opt_in_ws_as.Labels.secondary
+Secondary Content
+Вторичное содержимое
+
+# [26] psh_export_opts.Label
+Options...
+Опции...
+

@@ -1,0 +1,19 @@
+; Normal sized history forward button
+;
+; 21-Feb-07 L-01-27 AW    $$1   Created
+; 15-Oct-07 L-01-40 AW    $$2   Use Size
+;
+
+[toolbutton]
+Size = 25, 25
+SizingMargins = 0, 0, 0, 0
+BackgroundImage = styles/history/browser_forward_enabled.png
+
+[toolbutton(hot)]
+BackgroundImage = styles/history/browser_forward_hot.png
+
+[toolbutton(pressed)]
+BackgroundImage = styles/history/browser_forward_pressed.png
+
+[toolbutton(disabled)]
+BackgroundImage = styles/history/browser_forward_disabled.png

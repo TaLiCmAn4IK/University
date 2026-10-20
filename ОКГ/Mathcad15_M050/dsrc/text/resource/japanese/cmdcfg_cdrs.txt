@@ -1,0 +1,28 @@
+# {0} (7) [0] cdrs_1.Label
+Locate Other Installation Directories (Optional)
+他のインストールディレクトリのサーチ(オプション)
+
+# [1] AppMgrDirLab.Label
+PTC Application Manager
+PTC アプリケーションマネージャ
+
+# [2] CDRSGraphLibDirLab.Label
+PTC Graphic Library
+PTC グラフィックライブラリ
+
+# [3] DivisionDirLab.Label
+DIVSION MockUp
+DIVSION MockUp
+
+# [4] cdrs_2.Label
+Optional Inputs
+オプショナル入力
+
+# [5] ProeCmdLab.Label
+Pro/ENGINEER Command
+Pro/ENGINEER コマンド
+
+# [6] PaintCmdLab.Label
+3DPAINT Command
+3DPAINTコマンド
+

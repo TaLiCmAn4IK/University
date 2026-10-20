@@ -1,0 +1,8 @@
+# {100} (100) [0] SIDLab.Label
+Oracle SID
+Oracle SID
+
+# [1] UsernameLab.Label
+Windchill Database Username
+Имя пользователя базы Windchill
+

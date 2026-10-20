@@ -1,0 +1,26 @@
+!************************************************************
+! File : sketcher16x16.bif
+!
+!============================================================
+! Date     Release Name   Ver.        Comments
+!------------------------------------------------------------
+!25-NOV-99 I-03-23 Hanoch $$1 Created.
+!06-Dec-99 I-03-23 TWB    $$2 Updated
+! 29-Apr-02  J-03-24  TLH  $$3 Appearance update for Pro/E Wildfire
+! 10-Jun-09  L-03-33  aap  $$4 Submit updated icon from TLH
+!***********************************************************/
+(Image sketcher16x16
+    (Resources
+        (.Width     16)
+        (.Height    16)
+        (.Depth     24)
+    )
+    (Data
+        0FFFFFFF03F0FD000D100D20090F00339901280D380D480D580D00700D800D90
+        0DA00DB00D240DD00DC40D00E80DCC0D101DF40D301D141D341D601DC0381D4C
+        1D901D741DA41D2011B4B401B4231DCF1DAF1D7F1D9F1D172D272D0043162C2D
+        502D302D342D6C2D882D982D00742D602DD02DE02DF02D003D103DB02D00283D
+        383D483D583D703D803D903DA03D00B03DC03DD03DE039
+    )
+)
+

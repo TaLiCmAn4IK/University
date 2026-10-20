@@ -1,0 +1,20 @@
+# {100} (100) [0] scr_optieadpt2.Label
+Optegra Info*Engine Adapter Settings
+Установки адаптера Optegra Info*Engine
+
+# [1] HostnameLab.Label
+Optegra Vault Host Name
+Имя сервера архива Optegra
+
+# [2] ListenerPortLab.Label
+Optegra Vault Oracle Listener Port Number
+Имя порта слушателя архива Optegra Oracle
+
+# [3] OracleSIDLab.Label
+Optegra Vault Oracle SID
+SID архива Optegra Oracle
+
+# [4] AdapterPortLab.Label
+Optegra Info*Engine Adapter Port Number
+Имя порта адаптера Optegra Info*Engine
+

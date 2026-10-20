@@ -1,0 +1,40 @@
+# {100} (100) [0] LpLab.Label
+Temporary Directory for Migration Process
+Временная папка для процесса миграции
+
+# [1] LpBrowse.HelpText
+Browse for Installation Directory
+Просмотр папки для установки
+
+# [2] MigDiskSpaceLayout.Label
+Disk Space
+Дисковое пространство
+
+# [3] SpaceAvailLab.Label
+Available on C: 9999GB
+Доступно на C: 9999 Гб
+
+# [4] SpaceReqLab.Label
+Required on C: 9999GB
+Требуется на C: 9999 Гб
+
+# [5] Label6.Label
+Oracle 'SYSTEM' Password
+Пароль Oracle 'SYSTEM'
+
+# [6] MigrateGroup.Labels.0
+Generate report on Data Server configuration only
+Создать отчет только о конфигурации сервера данных
+
+# [7] MigrateGroup.Labels.1
+Perform export migration step with report generation
+Выполнить шаг перехода экспорта с созданием отчета
+
+# [8] Label7.Label
+Status:
+Статус:
+
+# [9] Status.Label
+Migration Required
+Требуется перенос
+

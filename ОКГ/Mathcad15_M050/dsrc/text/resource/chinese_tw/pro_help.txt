@@ -1,0 +1,16 @@
+# {0} (4) [0] pro_help.Label
+Help Loadpoint Input
+說明檔案載入點輸入
+
+# [1] Label1.Label
+Enter the Help URL or full path to Help installation directory
+輸入說明檔案URL或說明檔案安裝目錄的完整路徑
+
+# [2] StdOK.Label
+&OK
+確定(&O)
+
+# [3] StdCancel.Label
+&Cancel
+取消(&C)
+

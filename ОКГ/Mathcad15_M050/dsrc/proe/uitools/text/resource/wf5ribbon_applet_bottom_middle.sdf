@@ -1,0 +1,11 @@
+; 12-Mar-09 L-03-28  IKAL  $$1  Created.
+
+
+[layout]
+ContentMargins = 2, 3, 2, 2
+SizingMargins = 2, 2, 2, 2
+BackgroundImage = styles/ribbon/ribbonappletbottommiddle.bif
+
+[layoutbody]
+SizingMargins = 1, 1, 1, 1
+BackgroundImage = styles/ribbon/ribbonappletbottommiddleinner.bif

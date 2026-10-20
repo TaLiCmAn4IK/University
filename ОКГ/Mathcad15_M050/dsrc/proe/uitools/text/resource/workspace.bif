@@ -1,0 +1,28 @@
+!----------------------------------------------------------------------------
+!
+!  Date      Release Name  Ver.  Comments
+! ---------- ------- ----- ----- --------------------------------------------
+! 10-Jul-97  H-03-16  DXU  $$1   Submitted
+! 02-Dec-97  H-03-31  TWB  $$2   Recolored for white background.
+! 18-Mar-02 J-03-21 TLH $$03  Recolored
+!----------------------------------------------------------------------------
+(Image workspace
+    (Resources
+        (.Width     24)
+        (.Height    18)
+        (.Depth     24)
+    )
+    (Data
+        0FFFFFFF03F0FD000D100D200D00300D400D500D600D700D800D900DA00D00B0
+        0DC00DD00DE00DF00D001D101D201DE0301D401D501D601D7019925223810180
+        1D901DA019701DBC1DCC19993F663301B7AA5BDF1DEF1D70FB16AC1D182DD01D
+        E4D57D3B2D004B2D53220825DC11282D7C2D7C15542D00A42D5C2D682DD42D88
+        2DF42D043DA41D00C82D343DE82DFC11243D683D543D643D00983D743D843DC8
+        3DB43DC43DF83DD43D00104D284D144D244D584D344D644D884D00744DA84DB8
+        4D944DC44DE84DD44D085D00185DF44D245D485D345D685D785D885D00985DA8
+        5DB85DC85DD85DE85DF85D086D00186D286D386D486D586D686D786D886D0098
+        6DA861
+    )
+)
+
+

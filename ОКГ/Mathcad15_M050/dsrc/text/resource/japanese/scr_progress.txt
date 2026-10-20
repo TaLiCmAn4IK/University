@@ -1,0 +1,20 @@
+# {61148} (17) [12] StatusLayout.Label
+Installation Progress
+インストレーション進行状況
+
+# [13] ProgressCancel.Label
+Cancel
+キャンセル
+
+# [14] ProgressLab.Label
+Ready to begin installation.
+インストレーション開始準備完了
+
+# [15] Label5.Label
+Installation Complete
+インストール完了
+
+# [16] Label6.Label
+Download Progress
+ダウンロード進行状況
+

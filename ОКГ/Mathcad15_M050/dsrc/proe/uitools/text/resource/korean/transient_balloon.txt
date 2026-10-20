@@ -1,0 +1,8 @@
+# {100} (100) [0] transient_balloon.Label
+Error
+오류
+
+# [1] message.Label
+Error
+오류
+

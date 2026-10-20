@@ -1,0 +1,16 @@
+# {100} (100) [0] preferences_dlg.Label
+Preferences
+偏好
+
+# [1] psh_Ok.Label
+OK
+確定
+
+# [2] psh_cancel.Label
+Cancel
+取消
+
+# [3] phs_apply.Label
+&Apply
+應用(&A)
+

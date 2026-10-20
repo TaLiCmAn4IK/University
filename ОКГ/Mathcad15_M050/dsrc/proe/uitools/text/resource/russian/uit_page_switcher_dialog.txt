@@ -1,0 +1,8 @@
+# {100} (100) [0] OkPshBtn.Label
+OK
+OK
+
+# [1] CancelPshBtn.Label
+Cancel
+Отмена
+

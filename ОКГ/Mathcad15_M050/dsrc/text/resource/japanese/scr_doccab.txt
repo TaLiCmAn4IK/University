@@ -1,0 +1,24 @@
+# {0} (6) [0] scr_doccab1.Label
+Windchill Document Cabinet Setting
+Windchill ドキュメントキャビネット設定
+
+# [1] DocumentCabinetLab.Label
+Default Document Cabinet Name
+デフォルトドキュメントキャビネット名
+
+# [2] scr_doccab2.Label
+Windchill CAD Template Files
+Windchill CAD テンプレートファイル
+
+# [3] ComponentNameLab.Label
+CAD Component Document Name
+CAD コンポーネントドキュメント名
+
+# [4] AssemblyNameLab.Label
+CAD Assembly Document Name
+CAD アセンブリドキュメント名
+
+# [5] DrawingNameLab.Label
+CAD Drawing Document Name
+CAD 図面ドキュメント名
+

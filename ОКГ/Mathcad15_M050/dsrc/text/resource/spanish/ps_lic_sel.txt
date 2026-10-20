@@ -1,0 +1,60 @@
+# {100} (100) [0] ps_lic_sel.Label
+Select Licenses
+Seleccionar licencias
+
+# [1] CmdInfoGrp.Labels.1
+No ConfigID
+Sin ID. de configuración
+
+# [2] CmdInfoGrp.Labels.2
+ConfigID
+ID. de configuración
+
+# [3] CmdInfoGrpLab.Label
+License Scheme:
+Disposición de licencias:
+
+# [4] CmdName1Lab.Label
+Configuration Name:
+Nombre de configuración:
+
+# [5] CmdDesc1Lab.Label
+Configuration Description:
+Descripción de configuración:
+
+# [6] CmdType1Lab.Label
+ConfigurationType:
+Tipo de configuración:
+
+# [7] Layout3.Label
+Available Licenses
+Licencias disponibles
+
+# [8] List3.ColumnLabel
+Type
+Tipo
+
+# [9] Layout4.Label
+Selected Licenses
+Licencias seleccionadas
+
+# [10] Label16.Label
+Startup extensions && floating licenses
+Extensiones de ejecución y opciones flotantes
+
+# [11] Label3.Label
+Licenses to Run
+Licencias de ejecución
+
+# [12] StdOK.Label
+&OK
+&Aceptar
+
+# [13] StdCancel.Label
+&Cancel
+&Cancelar
+
+# [14] Label1.Label
+Legend: <ltr> License to Run;  <ext> Startup Extensions;  <flt> Floating options
+Clave: <ltr> Licencia de ejecución;  <ext> Extensiones de ejecución;  <flt> Opciones flotantes
+

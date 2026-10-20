@@ -1,0 +1,26 @@
+// 13-Sep-99      MAZ  Created
+// 15-Sep-99      MAZ  Add ArchType
+// 17-Sep-99      MAZ  Use HostArchTypes instead of ArchType
+// 21-Sep-99 $$1  JJE  Group Submission
+// 29-Sep-99      JJE  Use xtop for icon name
+// 01-Oct-99 $$2  MAZ  pad instlog path with quotes
+// 11-Oct-99 $$3  MAZ  Add prod name to cmdType name
+// 21-Dec-99 $$4  MYA  Add MSIVisible
+// 10-Jan-00 $$5  MAZ  Add OldTag
+// 31-Jan-00 $$6  JJE  Use ptc for icon name
+// 16-Aug-00 $$7  TWH  fix Ezprop case
+// 06-Jun-01 $$8  MAZ  Add Install cdsection to get ptc.ico
+// 01-May-02 $$9  ALG  SPR 919642: Add "(Visible FALSE)"; Remove CmdType
+// 27-Oct-10 $$10 TWH  L-03-41 Rebranding
+
+(Package uninstall
+    (Name                      "Uninstaller")
+    (OldTag                    "ptcuninstall")
+    (Cdsections                "uninstall"
+                               "Install")
+    (Installed                 True)
+    (MSIVisible                False)
+    (Visible                   False)
+    (HostArchTypes             "WIN32")
+)
+

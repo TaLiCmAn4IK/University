@@ -1,0 +1,26 @@
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+!
+!  Menu Item image to select feature (disabled version)
+! 
+!  Date      Release   Name  Ver.   Comments
+!  --------- -------   ----  ----   --------
+!  29-Apr-03 K-01-06   TWH   $$1    Created
+!  25-Jul-03 K-01-11   TWH   $$2    New image from prod def
+!
+!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+(Image ps_disabled_item
+    (Resources
+        (.Width     24)
+        (.Height    9)
+        (.Depth     24)
+    )
+    (Data
+        EFFFFFFF03F0F1B4B4B40101F0F0FBFD0B0D1B0D2301F3F2340D3C4409F8F166
+        666601F8F15C0D386C0D7C0D5801CCCCCC2F0D4B0A70200DC00DD00DD801E4E4
+        E4E702C0900DFC0DB005E8051C1D2C1D000001002F1AF00D5C1D101D7C1D8C1D
+        9C1D38501DBC1D7019808080DB1DEB1D00F312A41DB41DC41DE405D80D482DE0
+        0D000C2D782D2C2D982DA82DB82D702DD82D008825D0215801F82D083D183DD0
+        2D383D004831
+    )
+)

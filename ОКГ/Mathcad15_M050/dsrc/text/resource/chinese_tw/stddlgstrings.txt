@@ -1,0 +1,192 @@
+# {100} (100) [0] Label1.Label
+Color
+顏色
+
+# [1] Label2.Label
+Settings
+設定
+
+# [2] Label3.Label
+&Red
+紅色(&R)
+
+# [3] Label4.Label
+&Green
+綠色(&G)
+
+# [4] Label5.Label
+&Blue
+藍色(&B)
+
+# [5] Label6.Label
+Color:
+顏色:
+
+# [6] Label7.Label
+Basic colors
+基本顏色
+
+# [7] Label8.Label
+Custom colors
+自訂顏色
+
+# [8] Label9.Label
+OK
+確定
+
+# [9] Label10.Label
+Apply the changes and quit the window
+應用變更並退出該視窗
+
+# [10] Label11.Label
+Cancel
+取消
+
+# [11] Label12.Label
+Abort changes and quit the window
+中止變更並退出該視窗
+
+# [12] Label13.Label
+Choose Directory
+選擇目錄
+
+# [13] Label14.Label
+&Path
+路徑(&P)
+
+# [14] Label15.Label
+&OK
+確定(&O)
+
+# [15] Label16.Label
+&Cancel
+取消(&C)
+
+# [16] Label17.Label
+&Directories
+目錄(&D)
+
+# [17] Label18.Label
+Dri&ves:
+磁碟機(&V):
+
+# [18] Label19.Label
+Open File
+開啟檔案
+
+# [19] Label20.Label
+File &Name:
+檔案名稱(&N):
+
+# [20] Label21.Label
+List Files of &Type:
+列出檔案類型(&T):
+
+# [21] Label22.Label
+&Folders:
+資料夾(&F):
+
+# [22] Label23.Label
+cwd
+cwd
+
+# [23] Label24.Label
+Find
+尋找
+
+# [24] Label25.Label
+Match &Whole Word Only
+須全字相符(&W)
+
+# [25] Label26.Label
+Match &Case
+大小寫須相符(&C)
+
+# [26] Label27.Label
+Regular &Expression
+正規運算式(&E)
+
+# [27] Label28.Label
+Direction
+方向
+
+# [28] Label29.Label
+&Up
+向上(&U)
+
+# [29] Label30.Label
+&Down
+下移(&D)
+
+# [30] Label31.Label
+&Find Next
+尋找下一個(&F)
+
+# [31] Label32.Label
+Replace &All
+全部取代(&A)
+
+# [32] Label33.Label
+Fi&nd What:
+尋找(&N):
+
+# [33] Label34.Label
+Re&place With:
+取代為(&P):
+
+# [34] Label35.Label
+&Replace
+取代(&R)
+
+# [35] Label36.Label
+Replace
+取代
+
+# [36] Label37.Label
+Font
+字型
+
+# [37] Label38.Label
+&Font:
+字型(&F):
+
+# [38] Label39.Label
+St&yle:
+造型(&Y):
+
+# [39] Label40.Label
+&Size:
+大小(&S):
+
+# [40] Label41.Label
+Sample
+樣本
+
+# [41] Label42.Label
+Error
+錯誤
+
+# [42] Label43.Label
+&Abort
+中止(&A)
+
+# [43] Label44.Label
+&Retry
+重試(&R)
+
+# [44] Label45.Label
+&Ignore
+略過(&I)
+
+# [45] Label46.Label
+&Yes
+是(&Y)
+
+# [46] Label47.Label
+&No
+否(&N)
+
+# [47] Label48.Label
+Confirm
+確認
+

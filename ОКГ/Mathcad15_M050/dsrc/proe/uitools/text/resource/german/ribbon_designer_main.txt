@@ -1,0 +1,196 @@
+# {100} (100) [0] ribbon_designer_main.Label
+Ribbon Designer
+Multifunktionsleisten-Designer
+
+# [1] CommandsLayout.Label
+Commands
+Befehle
+
+# [2] CommandsTable.ColumnLabels.menu
+Container
+Container
+
+# [3] CommandsTable.ColumnLabels.label
+Cascade / Item
+Überlappen / Element
+
+# [4] CommandsTable.ColumnLabels.cascade
+Item
+Element
+
+# [5] CommandsTable.ColumnLabels.icon
+Icon
+Symbol
+
+# [6] CommandsTable.ColumnLabels.name
+Command Name
+Befehlsname
+
+# [7] CommandsTable.ColumnLabels.help
+Help Text
+Hilfetext
+
+# [8] FilterLayout.Label
+Show Only :
+Nur anzeigen:
+
+# [9] FilterRadioGroup.Labels.not_in_ribbon
+Not In Ribbon
+Nicht in Multifunktionsleiste
+
+# [10] FilterRadioGroup.Labels.not_in_page
+Not In Page
+Nicht in Seite
+
+# [11] FilterRadioGroup.Labels.all
+All Commands
+Alle Befehle
+
+# [12] SaveRibbonPushButton.Label
+Save &Ribbon
+Multifu&nktionsleiste speichern
+
+# [13] ToolsLayout.Label
+Tools
+Tools
+
+# [14] NewItemsList.Labels.newCascadeButton
+New Cascade Button
+Neue überlappende Schaltfläche
+
+# [15] NewItemsList.Labels.newFlyoutButton
+New Flyout Button
+Neue Flyout-Schaltfläche
+
+# [16] ribbon.Label
+&Ribbon
+&Multifunktionsleiste
+
+# [17] ribbon.HelpText
+Ribbon
+Multifunktionsleiste
+
+# [18] adb_designerAddNewRibbon.Label
+New
+Neu
+
+# [19] adb_designerLoadRibbon.Label
+Open
+Öffnen
+
+# [20] adb_designerSaveRibbon.Label
+Save
+Speichern
+
+# [21] pshAddExternalGroupPage.Label
+Add External Groups
+Externe Gruppen hinzufügen
+
+# [22] pshRemoveExternalGroupPage.Label
+Remove External Groups
+Externe Gruppen entfernen
+
+# [23] page.Label
+&Page
+&Seite
+
+# [24] page.HelpText
+Page
+Seite
+
+# [25] pshAddNewPage.Label
+New
+Neu
+
+# [26] pshAddNewPage.HelpText
+Add new page
+Neue Seite hinzufügen
+
+# [27] pshInheritPage.Label
+Inherit
+Erben
+
+# [28] pshRenameCurPage.Label
+Re&name
+&Umbenennen
+
+# [29] pshRemoveCurPage.Label
+Delete
+Löschen
+
+# [30] group.Label
+&Group
+&Gruppe
+
+# [31] group.HelpText
+Group
+Gruppe
+
+# [32] pshAddNewGroup.Label
+New
+Neu
+
+# [33] pshAddNewGroup.HelpText
+Add new group
+Neue Gruppe hinzufügen
+
+# [34] pshInheritGroup.Label
+Inherit
+Erben
+
+# [35] pshAddExistingGroup.Label
+Add Existing
+Vorhandene hinzufügen
+
+# [36] eggroup.Label
+&EG
+&EG
+
+# [37] eggroup.HelpText
+Extended Group
+Erweiterte Gruppe
+
+# [38] pshAddNewExternalGroup.Label
+New
+Neu
+
+# [39] pshAddNewExternalGroup.HelpText
+Add new group to extended page
+Neue Gruppe zur erweiterten Seite hinzufügen
+
+# [40] pshInheritExternalGroup.Label
+Inherit
+Erben
+
+# [41] pshAddExistingExternalGroup.Label
+Add Existing
+Vorhandene hinzufügen
+
+# [42] commands.Label
+&Commands
+&Befehle
+
+# [43] commands.HelpText
+Commands
+Befehle
+
+# [44] ExportPushButton.Label
+Export to CSV File
+In CSV-Datei exportieren
+
+# [45] debug.Label
+&Debug
+&Debug
+
+# [46] debug.HelpText
+Debug
+Debug
+
+# [47] pshSpy.Label
+Spy...
+Spionieren...
+
+# [48] pshSpy.HelpText
+Db Walker
+Db Walker
+

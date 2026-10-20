@@ -1,0 +1,52 @@
+# {100} (100) [0] list_SelectFrom.HelpText
+Choose command from list
+リストからコマンドを選択
+
+# [1] psh_add.Label
+&Add >>
+追加(&A) >>
+
+# [2] psh_remove.Label
+&Remove
+除去(&R)
+
+# [3] psh_reset.Label
+Re&set
+リセット(&S)
+
+# [4] psh_reset.HelpText
+Reset the content of the Quick Access Toolbar to the default
+クイックアクセスツールバーの内容をデフォルトにリセット
+
+# [5] psh_moveUp.Label
+Move Up
+上に移動
+
+# [6] psh_moveUp.HelpText
+Move selected command upwards in the list.
+選択したコマンドをリストの上に移動します。
+
+# [7] psh_moveDown.Label
+Move Down
+下に移動
+
+# [8] psh_moveDown.HelpText
+Move selected command downwards in the list.
+選択したコマンドをリストの下に移動します。
+
+# [9] lbl_choose_cmd_from.Label
+&Choose command from:
+コマンドを選択(&C):
+
+# [10] lbl_qa_toolbar_content.Label
+Customize &Quick Access Toolbar:
+クイックアクセスツールバーをカスタム化(&Q):
+
+# [11] opt_choose_cmd_from.Labels.sel_AllCmd
+All Commands
+すべてのコマンド
+
+# [12] opt_choose_cmd_from.Labels.separator_tabs
+--------------
+--------------
+

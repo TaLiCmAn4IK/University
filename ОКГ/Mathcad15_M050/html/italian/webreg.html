@@ -1,0 +1,99 @@
+<html><head><title>__INSTBLE__</title></head>
+
+<!--beginheaderreplacement-->
+<STYLE TYPE="text/css"><!--
+body		{margin-top: 0px; margin-left: 0px; margin-right: 0px; margin-bottom: 0px;}
+p, div		{font-family: Verdana, Arial, Helvetica; font-size: 9pt}
+td,th,ol,ul     {font-family: Verdana, Arial, Helvetica; font-size: 9pt}
+
+h3		{font-family: Verdana, Arial, Helvetica; font-size: 14pt; font-weight: 600; color: #E41F1F;}
+.header3	{font-family: Verdana, Arial, Helvetica; font-size: 14pt; font-weight: 600; color: #E41F1F;}
+h4		{font-family: Verdana, Arial, Helvetica; font-size: 14pt; font-weight: 600; color: #40637A;}
+.header4        {font-family: Verdana, Arial, Helvetica; font-size: 14pt; font-weight: 600; color: #40637A;}
+h5		{font-family: Verdana, Arial, Helvetica; font-size: 14pt; font-weight: 400; color: #40637A;}
+.header5        {font-family: Verdana, Arial, Helvetica; font-size: 14pt; font-weight: 400; color: #40637A;}
+
+A:link          {font-weight: bold; text-decoration: none; color: #40637A;}
+A:visited       {font-weight: bold; text-decoration: none; color: #89A2B3;}
+A:active        {font-weight: bold; text-decoration: none; color: #E41F1F;}
+A:hover         {font-weight: bold; text-decoration: none; color: #E41F1F;}
+
+.title		{font-family: Verdana, Arial, Helvetica; font-size: 14pt; font-family: Verdana, Arial, Helvetica; font-weight: 600; color: #E41F1F;}
+.smfont		{font-family: Verdana, Arial, Helvetica; font-size: 8pt}
+.normal		{font-family: Verdana, Arial, Helvetica; font-size: 9pt}
+.tablehead	{font-family: Verdana, Arial, Helvetica; font-size: 9pt; font-weight: bold; color: #FFFFFF;}
+.smallred	{font-family: Verdana, Arial, Helvetica; font-size: 8pt; font-weight: normal; color: #E41F1F;}
+.smallwhite	{font-family: Verdana, Arial, Helvetica; font-size: 8pt; font-weight: normal; color: #FFFFFF;}
+.note		{font-family: Verdana, Arial, Helvetica; font-size: 8pt; font-weight: 400; color: #40637A;}
+.error		{font-family: Verdana, Arial, Helvetica; font-size: 9pt; font-weight: 400; color: #E41F1F;}
+.footernolink	{font-family: Verdana, Arial, Helvetica; font-size: 9pt; font-weight: bold; color: #FFFFFF;}
+.footernolink2	{font-family: Verdana, Arial, Helvetica; font-size: 9pt; font-weight: normal; color: #CAD9E2;}
+
+.nobold:link	 {font-weight: normal; font-size: 8pt;}
+.nobold:visited	 {font-weight: normal; font-size: 8pt;}
+.nobold:active	 {font-weight: normal; font-size: 8pt;}
+.nobold:hover	 {font-weight: normal; font-size: 8pt;}
+
+--></STYLE>
+
+<body leftmargin="0" rightmargin="0" topmargin="0" bottommargin="0" marginheight="0" marginwidth="0">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr> 
+<td align="left" valign="top" bgcolor="#CAD9E2" height="64"><a href="http://www.ptc.com"><img src="images/ptc_logo2.gif" width="157" height="64" alt="PTC" border="0"></a></td>
+<td align="right" valign="top" bgcolor="#CAD9E2" height="64"><img src="images/red_bar.gif" width="11" height="64" alt=""></td>
+</tr>
+
+<tr>
+<td colspan="2"><img src="/images/common/dot_clear.gif" width="1" height="20"></td>
+</tr>  
+
+<tr>
+<td align="left" valign="top" colspan="2">
+<table cellspacing="3" cellpadding="3" border="0"><tr><td>
+<!--endheaderreplacement-->
+
+<h3>__INSTBLE__</h3>
+<p>
+Per continuare con l'installazione, &egrave; necessario registrare la copia di __INSTBLE__ accedendo all'URL sottostante.
+
+<p>
+Queste informazioni saranno necessarie per completare la registrazione on-line.
+<ul>
+<li>ID host: __HOSTID__.  
+<li>ID programma: __PROGRAMID__
+</ul>
+
+<p>
+<a href="http://www.ptc.com/appserver/lm/programs/index.jsp?hostid=__HOSTID__&program=__PROGRAMID__">http://www.ptc.com/appserver/lm/programs/index.jsp?hostid=__HOSTID__&amp;program=__PROGRAMID__</a>
+<p>
+
+
+<!--beginfooterreplacement-->
+</td></tr></table>
+
+</td>
+</tr>
+
+<tr> 
+<td align="left" valign="top" bgcolor="#CAD9E2" height="32">&nbsp;</td>
+<td align="right" valign="top" bgcolor="#CAD9E2" height="32"><img src="images/red_bar.gif" width="11" height="32" alt=""></td>
+</tr>
+</table>
+<form name="banana">
+<input type="hidden" name="hostid" value="__HOSTID__">
+<input type="hidden" name="programid" value="__PROGRAMID__">
+<input type="hidden" name="urltogo">
+</form>
+</body>
+</html>
+<!--endfooterreplacement-->
+<script LANGUAGE="JavaScript1.2">
+var urltogo = "http://www.ptc.com/appserver/lm/programs/index.jsp?hostid=";
+urltogo = urltogo + document.banana.hostid.value;
+urltogo = urltogo + "&program=" + document.banana.programid.value;
+document.banana.urltogo.value = urltogo;
+// window.location.href=document.banana.urltogo.value; 
+</script>
+<script LANGUAGE="JavaScript1.2" src="http://www.ptc.com/cgi/community/check_remote_student.csh">
+</script>

@@ -1,0 +1,72 @@
+# {100} (100) [0] adb_CmdDisplayType.Labels.DefaultStyle
+Default Style
+デフォルトスタイル
+
+# [1] adb_CmdDisplayType.Labels.Small
+Small Button
+小さいボタン
+
+# [2] adb_CmdDisplayType.Labels.SmallImageOnly
+Small Button - No Label
+小さいボタン - ラベルなし
+
+# [3] adb_CmdDisplayType.Labels.SmallTextOnly
+Small Button - No Icon
+小さいボタン - アイコンなし
+
+# [4] adb_CmdDisplayType.Labels.Large
+Large Button
+大きいボタン
+
+# [5] adb_CmdWhatsThis.Label
+What's This?
+ポップアップヘルプ
+
+# [6] adb_CmdWhatsThis.HelpText
+Tells what this button does
+このボタンの意味
+
+# [7] adb_ItemCut.Label
+Cut
+切り取り
+
+# [8] adb_ItemCopy.Label
+Copy
+コピー
+
+# [9] adb_ItemPaste.Label
+Paste
+貼り付け
+
+# [10] adb_AddSeparator.Label
+Add Separator
+セパレータを追加
+
+# [11] adb_CascadeBtnSplitType.Label
+Set Split Button
+分割ボタンを設定
+
+# [12] adb_ItemToOverflow.Label
+Move To Overflow
+オーバーフローに移動
+
+# [13] adb_ItemRename.Label
+Rename
+名前変更
+
+# [14] adb_ItemDelete.Label
+Delete
+削除
+
+# [15] adb_RenameGroup.Label
+Rename Group
+グループ名の変更
+
+# [16] adb_DeleteGroup.Label
+Delete Group
+グループを削除
+
+# [17] adb_ReorderGroups.Label
+Move Group Before
+グループを次の前に移動
+

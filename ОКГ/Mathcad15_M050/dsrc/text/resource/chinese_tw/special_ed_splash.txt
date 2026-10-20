@@ -1,0 +1,28 @@
+# {100} (100) [0] Label2.Label
+Click for more:
+更多資訊請按:
+
+# [1] PushButton1.Label
+Minimum Requirements
+最低要求
+
+# [2] PushButton2.Label
+Install Guide
+安裝指南
+
+# [3] PushButton5.Label
+PTC License Server Installation
+PTC 許可證伺服器安裝
+
+# [4] PushButton3.Label
+Continue
+繼續
+
+# [5] PushButton4.Label
+Exit
+退出
+
+# [6] Label1.Label
+Welcome to Pro/ENGINEER 30-Day Trial
+歡迎使用 Pro/ENGINEER 30 日試用版
+

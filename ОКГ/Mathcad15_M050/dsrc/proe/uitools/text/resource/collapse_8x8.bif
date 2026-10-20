@@ -1,0 +1,13 @@
+!
+! 15-Dec-08 L-03-23  IKAL  $$1  Created.
+!
+(Image expand_8x8
+    (Resources
+        (.Width     8)
+        (.Height    8)
+        (.Depth     4)
+    )
+    (Data
+        C9FF00C4FF0000C3FFC000C2FFC100C1FFC000C2FF0000C3FF00C0FF
+    )
+)
