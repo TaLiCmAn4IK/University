@@ -1,0 +1,30 @@
+# Visual Studio / C++ временные файлы
+.vs/
+[Dd]ebug/
+[Rr]elease/
+*.user
+*.aps
+*.suo
+*.ncb
+*.lkshw
+*.tmp
+*.ipch
+
+# Unity кэш и метаданные (генерируются автоматически)
+/[Cc]onfig/
+/[Ex]port/
+/[Ll]ibrary/
+/[Lo]gs/
+/[Ob]jectLayoutMaturity/
+/[Oo]bj/
+/[Pp]ackage[Cc]ache/
+/[Un]ity[Cc]onfiguration/
+/[Us]er[Se]ttings/
+
+# Блокировка потенциально тяжелых архивов и бинарников
+*.zip
+*.rar
+*.7z
+*.exe
+*.dll
+*.pdb
