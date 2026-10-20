@@ -1,0 +1,45 @@
+@model DAL_Celebrity_MSSQL.Celebrity
+@{
+    var events    = ViewData["Events"] as List<DAL_Celebrity_MSSQL.Lifeevent> ?? new();
+    var wikiLinks = ViewData["WikiLinks"] as List<ASPA008_1.Filters.WikiLink> ?? new();
+    var country   = ViewData["Country"] as string ?? Model.Nationality;
+}
+
+<div class="text-center mb-4">
+    @Html.CelebrityFoto(Model, width: 320, height: 320, css: "shadow")
+    <h3 class="mt-3">@Model.FullName</h3>
+    <p class="text-muted">Национальность: <b>@country</b> (@Model.Nationality)</p>
+
+    <div class="btn-group">
+        <a class="btn btn-warning" asp-action="Edit" asp-route-id="@Model.Id">✎ Edit</a>
+        <a class="btn btn-danger"  asp-action="Delete" asp-route-id="@Model.Id">✖ Delete</a>
+        <a class="btn btn-secondary" asp-action="Index">← Назад</a>
+    </div>
+</div>
+
+@if (events.Any())
+{
+    <div class="p-3 mb-4" style="background:#2c3e50; color:white; border-radius:10px;">
+        <h4 style="color:#ffd700;">События жизни</h4>
+        @foreach (var e in events)
+        {
+            <div class="d-flex gap-3 p-2 mb-2" style="background:#34495e; border-radius:6px;">
+                <b style="color:#ffd700; min-width:110px;">@(e.Date?.ToString("dd.MM.yyyy") ?? "—")</b>
+                <span>@e.Description</span>
+            </div>
+        }
+    </div>
+}
+
+@*
+    Клавиши с именами внизу формируются динамически в Action-фильтре
+    WikipediaLinksFilter и ведут на соответствующие статьи Wikipedia.
+*@
+<h5 class="text-center mb-2">Wikipedia</h5>
+<div class="d-flex flex-wrap justify-content-center gap-2">
+    @foreach (var link in wikiLinks)
+    {
+        var cls = link.Id == Model.Id ? "btn btn-primary" : "btn btn-outline-primary";
+        <a class="@cls" href="@link.Url" target="_blank" rel="noopener">@link.FullName</a>
+    }
+</div>

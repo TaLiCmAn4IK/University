@@ -1,0 +1,6 @@
+{
+  "Celebrities": {
+    "PhotosFolder": "C:\\Photos\\Celebrities\\Photo",
+    "ConnectionString": "Data source=DESKTOP-IMNOJB5; Initial Catalog=LES01; TrustServerCertificate=True; Integrated Security=True"
+  }
+}

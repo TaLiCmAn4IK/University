@@ -1,0 +1,56 @@
+﻿@hp=https://localhost:7043
+
+### 1. Все знаменитости
+GET {{hp}}/api/Celebrities
+
+### 2. Знаменитость по ID (7)
+GET {{hp}}/api/Celebrities/7
+
+### 3. Знаменитость по ID события (7)
+GET {{hp}}/api/Celebrities/Lifeevents/7
+
+### 4. Удалить знаменитость (4)
+DELETE {{hp}}/api/Celebrities/4
+
+### 5. Добавить знаменитость
+POST {{hp}}/api/Celebrities
+Content-Type: application/json
+
+{
+    "fullName": "Ершов Андрей",
+    "nationality": "RU",
+    "reqPhotoPath": "Ershov.jpg"
+}
+
+### 6. Все события
+GET {{hp}}/api/Lifeevents
+
+### 7. Событие по ID (10)
+GET {{hp}}/api/Lifeevents/10
+
+### 8. События знаменитости (3)
+GET {{hp}}/api/Lifeevents/Celebrities/3
+
+### 9. Добавить событие
+POST {{hp}}/api/Lifeevents
+Content-Type: application/json
+
+{
+    "celebrityId": 13,
+    "date": "1931-04-19T00:00:00",
+    "description": "Дата рождения",
+    "reqPhotoPath": null
+}
+
+### 10. Обновить знаменитость (13)
+PUT {{hp}}/api/Celebrities/13
+Content-Type: application/json
+
+{
+    "fullName": "Ершов Андрей Петрович",
+    "nationality": "RU",
+    "reqPhotoPath": "Ershov.jpg"
+}
+
+### 11. Получить фото
+GET {{hp}}/api/Celebrities/photo/Ershov.jpg

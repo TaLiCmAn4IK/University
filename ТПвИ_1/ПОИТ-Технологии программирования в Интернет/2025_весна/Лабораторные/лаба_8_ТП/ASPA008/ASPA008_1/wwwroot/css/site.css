@@ -1,0 +1,7 @@
+html, body { height: 100%; }
+body { font-family: 'Segoe UI', Arial, sans-serif; background: #f7f7fa; }
+
+.text-decoration-none img { transition: transform .15s ease; }
+.text-decoration-none:hover img { transform: scale(1.04); box-shadow: 0 6px 16px rgba(0,0,0,.15); }
+
+footer { font-size: .9rem; }

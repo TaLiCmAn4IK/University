@@ -1,0 +1,41 @@
+@page "{id:int}"
+@model PhotoModel
+@{
+    ViewData["Title"] = Model.Celebrity?.FullName ?? "Фото";
+}
+
+@if (Model.Celebrity != null)
+{
+    <div class="text-center mb-4">
+        <img src="/photo/@Model.Celebrity.ReqPhotoPath" alt="@Model.Celebrity.FullName"
+             style="max-width:400px; border-radius:12px; box-shadow: 0 8px 24px rgba(0,0,0,0.2);"
+             onerror="this.src='https://via.placeholder.com/400?text=No+Photo'" />
+        <h3 class="mt-3">@Model.Celebrity.FullName</h3>
+        <p style="color:#666;">Национальность: @Model.Celebrity.Nationality</p>
+    </div>
+
+    @if (Model.Events.Any())
+    {
+        <div style="background:#2c3e50; color:white; padding:20px; border-radius:10px;">
+            <h4 style="color:#ffd700;">События жизни</h4>
+            @foreach (var e in Model.Events)
+            {
+                <div style="background:#34495e; padding:10px; margin:8px 0; border-radius:6px; display:flex; gap:15px;">
+                    <b style="color:#ffd700; min-width:110px;">@(e.Date?.ToString("dd.MM.yyyy") ?? "—")</b>
+                    <span>@e.Description</span>
+                </div>
+            }
+        </div>
+    }
+
+    <div class="text-center mt-3">
+        <a asp-page="/Index" class="btn btn-primary">← Назад</a>
+    </div>
+}
+else
+{
+    <div class="alert alert-warning text-center">
+        Знаменитость не найдена.
+        <a asp-page="/Index">Назад</a>
+    </div>
+}

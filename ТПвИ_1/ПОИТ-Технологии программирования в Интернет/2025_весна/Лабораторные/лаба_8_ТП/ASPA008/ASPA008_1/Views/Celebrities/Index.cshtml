@@ -1,0 +1,24 @@
+@model IEnumerable<DAL_Celebrity_MSSQL.Celebrity>
+
+<h2 class="text-center mb-4">Знаменитости</h2>
+
+<div class="d-flex flex-wrap justify-content-center gap-3">
+
+    @* Клик на бриллиант открывает форму добавления *@
+    <a asp-action="Add" class="text-decoration-none text-center text-dark" title="Добавить знаменитость">
+        <img src="~/images/NewCelebrity.jpg" alt="Добавить"
+             width="180" height="180"
+             style="object-fit:cover; border-radius:50%;" />
+        <div class="mt-2"><b>Добавить</b></div>
+    </a>
+
+    @* Клик на фотографию — переход на Details *@
+    @foreach (var c in Model)
+    {
+        <a asp-action="Details" asp-route-id="@c.Id" class="text-decoration-none text-center text-dark">
+            @Html.CelebrityFoto(c, width: 180, height: 180)
+            <div class="mt-2"><b>@c.FullName</b></div>
+            <div class="text-muted small">@c.Nationality</div>
+        </a>
+    }
+</div>

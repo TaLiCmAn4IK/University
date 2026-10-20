@@ -1,0 +1,233 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebrities - Life Events</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+
+        h1 {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 2em;
+        }
+
+        .celebrities-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .celebrity-card {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 15px;
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+            .celebrity-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            }
+
+            .celebrity-card.selected {
+                background: #e3f2fd;
+                border: 2px solid #2196f3;
+            }
+
+        .celebrity-photo {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 3px solid #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .celebrity-name {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .celebrity-nationality {
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .events-panel {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+            .events-panel h3 {
+                margin-bottom: 15px;
+                color: #ffd700;
+            }
+
+        .event-item {
+            background: #34495e;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 8px;
+            display: flex;
+            gap: 15px;
+        }
+
+        .event-date {
+            font-weight: bold;
+            color: #ffd700;
+            min-width: 120px;
+        }
+
+        .event-description {
+            flex: 1;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+        }
+
+        .error {
+            color: red;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Celebrities - Life Events</h1>
+        <div id="celebritiesGrid" class="celebrities-grid">
+            <div class="loading">Загрузка знаменитостей...</div>
+        </div>
+        <div id="eventsPanel" class="events-panel">
+            <h3>События жизни</h3>
+            <div id="eventsContent">Нажмите на фотографию знаменитости, чтобы увидеть события</div>
+        </div>
+    </div>
+
+    <script>
+        const apiBase = '/api/Celebrities';
+        const lifeeventsApi = '/api/Lifeevents';
+        let celebrities = [];
+
+        // Загрузка всех знаменитостей
+        async function loadCelebrities() {
+            try {
+                const response = await fetch(apiBase);
+                if (!response.ok) throw new Error('Ошибка загрузки');
+                celebrities = await response.json();
+                renderCelebrities();
+            } catch (error) {
+                document.getElementById('celebritiesGrid').innerHTML = `<div class="error">Ошибка загрузки: ${error.message}</div>`;
+            }
+        }
+
+        // Отображение знаменитостей
+        function renderCelebrities() {
+            const grid = document.getElementById('celebritiesGrid');
+            if (!celebrities.length) {
+                grid.innerHTML = '<div class="loading">Нет данных</div>';
+                return;
+            }
+
+            grid.innerHTML = celebrities.map(celebrity => `
+                <div class="celebrity-card" data-id="${celebrity.id}" onclick="loadEvents(${celebrity.id})">
+                    <img class="celebrity-photo"
+                         src="/api/Celebrities/photo/${celebrity.reqPhotoPath}"
+                         alt="${celebrity.fullName}"
+                         onerror="this.src='https://via.placeholder.com/200?text=No+Photo'">
+                    <div class="celebrity-name">${escapeHtml(celebrity.fullName)}</div>
+                    <div class="celebrity-nationality"> ${celebrity.nationality}</div>
+                </div>
+            `).join('');
+        }
+
+        // Загрузка событий для выбранной знаменитости
+        async function loadEvents(celebrityId) {
+            // Подсветка выбранной карточки
+            document.querySelectorAll('.celebrity-card').forEach(card => {
+                card.classList.remove('selected');
+                if (parseInt(card.dataset.id) === celebrityId) {
+                    card.classList.add('selected');
+                }
+            });
+
+            try {
+                const response = await fetch(`${lifeeventsApi}/Celebrities/${celebrityId}`);
+                if (!response.ok) throw new Error('Ошибка загрузки событий');
+                const events = await response.json();
+                renderEvents(events);
+            } catch (error) {
+                document.getElementById('eventsContent').innerHTML = `<div class="error">Ошибка: ${error.message}</div>`;
+            }
+        }
+
+        // Отображение событий
+        function renderEvents(events) {
+            const container = document.getElementById('eventsContent');
+            if (!events || events.length === 0) {
+                container.innerHTML = '<div style="text-align:center;">Нет событий для этой знаменитости</div>';
+                return;
+            }
+
+            container.innerHTML = events.map(event => `
+                <div class="event-item">
+                    <div class="event-date"> ${formatDate(event.date)}</div>
+                    <div class="event-description">${escapeHtml(event.description)}</div>
+                </div>
+            `).join('');
+        }
+
+        // Форматирование даты
+        function formatDate(dateString) {
+            if (!dateString) return 'Дата неизвестна';
+            const date = new Date(dateString);
+            return date.toLocaleDateString('ru-RU');
+        }
+
+        // Защита от XSS
+        function escapeHtml(text) {
+            if (!text) return '';
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Загрузка при старте
+        loadCelebrities();
+    </script>
+</body>
+</html>

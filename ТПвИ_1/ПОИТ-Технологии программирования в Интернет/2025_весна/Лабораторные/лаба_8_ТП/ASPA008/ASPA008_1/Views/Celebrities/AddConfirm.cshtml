@@ -1,0 +1,49 @@
+@model ASPA008_1.Models.CelebrityInputModel
+@inject ASPA008_1.Services.ICountryCodesService Countries
+@{
+    var tempName = ViewData["TempFileName"] as string;
+    var country  = Countries.GetLabel(Model.Nationality) ?? Model.Nationality;
+}
+
+<h2 class="text-center mb-4">Подтверждение добавления</h2>
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Проверьте данные:</h5>
+                <dl class="row mb-3">
+                    <dt class="col-sm-4">Полное имя</dt>
+                    <dd class="col-sm-8">@Model.FullName</dd>
+
+                    <dt class="col-sm-4">Национальность</dt>
+                    <dd class="col-sm-8">@country (@Model.Nationality)</dd>
+
+                    <dt class="col-sm-4">Фото</dt>
+                    <dd class="col-sm-8">@(Model.ReqPhotoPath ?? "—")</dd>
+                </dl>
+
+                @if (!string.IsNullOrEmpty(tempName))
+                {
+                    <div class="text-center mb-3">
+                        <img src="~/images/@tempName" style="max-width:240px; border-radius:8px;" />
+                    </div>
+                }
+
+                @using (Html.BeginForm("AddConfirm", "Celebrities", FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.HiddenFor(m => m.FullName)
+                    @Html.HiddenFor(m => m.Nationality)
+                    @Html.HiddenFor(m => m.ReqPhotoPath)
+                    <input type="hidden" name="tempFileName" value="@tempName" />
+
+                    <div class="d-flex justify-content-between">
+                        <a class="btn btn-secondary" asp-action="Add">← Назад</a>
+                        <button type="submit" class="btn btn-primary">Подтвердить ✓</button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

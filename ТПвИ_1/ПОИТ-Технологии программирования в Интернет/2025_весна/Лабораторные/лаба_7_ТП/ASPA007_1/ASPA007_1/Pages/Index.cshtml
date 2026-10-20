@@ -1,0 +1,24 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Знаменитости";
+}
+
+<h2 class="text-center mb-4">Знаменитости</h2>
+
+<div class="photo-grid">
+    <a asp-page="/Add" class="photo-card add-card">
+        <img src="~/images/NewCelebrity.jpg" alt="Добавить" style="width:180px; height:180px; border-radius:50%;" />
+        <div><b>Добавить</b></div>
+    </a>
+
+    @foreach (var c in Model.Celebrities)
+    {
+        <a asp-page="/Photo" asp-route-id="@c.Id" class="photo-card">
+            <img src="/photo/@c.ReqPhotoPath" alt="@c.FullName"
+                 onerror="this.src='https://via.placeholder.com/180?text=No+Photo'" />
+            <div><b>@c.FullName</b></div>
+            <div style="color:#666; font-size:0.9em;">@c.Nationality</div>
+        </a>
+    }
+</div>
