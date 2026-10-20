@@ -1,0 +1,157 @@
+<?=PAGE-HEADER=?>
+
+<script>
+
+var bEnabled = "<?=ENABLED=?>";
+
+function ptOnload()
+{
+	document.forms[0].status.value = bEnabled;
+}
+
+function submitAction()
+{
+	var msg = validateIp(document.forms[0].IP_addr.value);
+	if (msg != null)
+	{
+		alert("Invalid IP Address Provided\n\nCould not set the community status.");
+		return;
+	}
+
+	debugMsg("<submitAction>");
+	var noerror = true;
+	if(thisFormAttrs != null)
+		noerror = validateForm(document.forms[0],thisFormAttrs);
+	if(noerror && businessLogicImplemented)
+		noerror = validateBusinessLogic(document.forms[0].thisFormAttrs);
+	if(noerror)
+	{
+		document.forms[0].buttonClicked.value = SUBMIT_CLICKED;
+
+		top.CHttpFormExtractor.clearKeyValues();
+		top.CHttpFormExtractor.addKeyValue("buttonClicked", document.forms[0].buttonClicked.value);
+
+		top.CHttpFormExtractor.addKeyValue("comm_name", document.forms[0].comm_name.value);
+		top.CHttpFormExtractor.addKeyValue("old_comm_name", document.forms[0].old_comm_name.value);
+		top.CHttpFormExtractor.addKeyValue("IP_addr", document.forms[0].IP_addr.value);
+		top.CHttpFormExtractor.addKeyValue("status", document.forms[0].status.value);
+
+		document.forms[0].submit();
+	}
+
+	return false;
+}
+</script>
+
+<script>
+	var snmpTextAttrs = new Array();
+	var notAllowedValues = new Array();
+	var notAllowedChars = new Array();
+	notAllowedChars[0] = " ";
+	snmpTextAttrs[0] = new textAttr("comm_name","Community Name",32,notAllowedChars,notAllowedValues,true);
+
+
+	thisFormAttrs = new formAttrs(null,snmpTextAttrs,null,null);
+	<!-- END of USMWEB_NATIVE_IPV6_SUPPORTED -->
+
+	function showIpsecparams(){
+		var field_obj = document.getElementById("trap_ipsec_param_table");
+		var showIpsec = document.forms[0].snmp_trap_ipsec.checked;
+		if(showIpsec){
+			field_obj.style.display = "block";
+		}else
+		field_obj.style.display = "none";
+
+	}
+
+	</script>
+
+        <script>
+            drawHeader();
+            </script>
+        <FORM method="post" ACTION="frameSNMPTrapReceiverEdit.html">
+            <INPUT TYPE="hidden" NAME="access_control" SIZE="16" MAXLENGTH="15" VALUE="1">
+                <INPUT TYPE="hidden" NAME="csrf_token" SIZE="32" MAXLENGTH="32" VALUE="PYcAnDwz9RRJZV0Rom69GWcwn5nahVy">
+
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+                        <tr>
+                            <td class="pageTitle">
+                                <h1>SNMP Trap Receiver &gt; Edit</h1>
+                            </td>
+                            <td align="right" class="pageTitle">
+                                <script>getHtmlForBackButton();</script>
+                                &nbsp;&nbsp;&nbsp;
+                                <script>getHtmlForButton("apply","Apply","buttonStretch","submitAction()"); </script>
+                                <script>getHtmlForHelpButton("SNMP_Trap_Receiver_New","/helppages/wwhelp.htm");</script>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <table border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <TD class = "label2">Community Name</TD>
+                                        <TD class = "label2">
+                                        <INPUT type="TEXT" name="comm_name" id="comm_name" SIZE="36" MAXLENGTH="32" VALUE="<?=COMMUNITY-NAME=?>">
+                                        <INPUT type="hidden" name="old_comm_name" id="old_comm_name" SIZE="36" MAXLENGTH="32" VALUE="<?=COMMUNITY-NAME=?>">
+                                        </TD>
+                                    </TR>
+                                    <TR>
+                                        <TD class = "label2">IP Address(Ipv4/Ipv6)</TD>
+                                        <TD class = "label2"><INPUT type="TEXT" name="IP_addr" id="IP_addr" SIZE="50" MAXLENGTH="50" VALUE="<?=RECEIVER-IP=?>"></TD>
+                                    </TR>
+                                    <TR>
+                                        <TD class = "label2" width="200">Status</TD>
+                                        <TD class = "label2">
+                                            <SELECT name="status" id="status" SIZE="1">
+                                                <OPTION value="Enable" >Enable</option>  <!-- Enable -->
+                                                <OPTION value="Disable" >Disable</option> <!-- Disable -->
+                                            </SELECT>
+                                        </TD>
+                                    </TR>
+                                    <TR>
+                                        <TD class = "label2">IPSec</TD>
+                                        <TD class = "label2 notSupported">
+                                            <INPUT type="checkbox" name="snmp_trap_ipsec" id="snmp_trap_ipsec" value="false" onClick="showIpsecparams()" >
+                                                </TD>
+                                    </TR>
+                                    <TR>
+                                        <TD colspan="2">
+                                            <div id="trap_ipsec_param_table" style="display:none">
+                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                    <TR>
+                                                        <TD class="label2" width="215">IPSec Profile Name</TD>
+                                                        <TD>
+                                                            <SELECT name="ipsec_nameTrap" id="ipsec_nameTrap">
+                                                                <OPTION value="none" SELECTED>none</SELECT>
+                                                        </TD>
+                                                    </TR>
+                                                </table>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <TR></TR>
+                        <TR>
+                            <TD ALIGN=left><INPUT TYPE="hidden" NAME="err_flag" SIZE="16" MAXLENGTH="15" VALUE=""></TD>
+                        </TR>
+
+                        <TR>
+                            <TD ALIGN=left><INPUT TYPE="hidden" NAME="err_msg" SIZE="32" MAXLENGTH="31" VALUE=""></TD>
+                        </TR>
+                        <TR>
+                            <TD ALIGN=left><INPUT TYPE="hidden" NAME="info_flag" SIZE="16" MAXLENGTH="15" VALUE=""></TD>
+                        </TR>
+
+                        <TR>
+                            <TD ALIGN=left><INPUT TYPE="hidden" NAME="info_msg" SIZE="32" MAXLENGTH="31" VALUE=""></TD>
+                        </TR>
+                        <TR>
+                            <TD ALIGN=left><INPUT TYPE="hidden" NAME="buttonClicked" SIZE="16" MAXLENGTH="15" VALUE=""></TD>
+                        </TR>
+                    </TABLE>
+        </FORM>
+
+<?=PAGE-FOOTER=?>

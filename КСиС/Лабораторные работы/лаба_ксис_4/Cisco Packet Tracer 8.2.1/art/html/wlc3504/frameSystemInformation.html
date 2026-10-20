@@ -1,0 +1,105 @@
+<?=PAGE-HEADER=?>
+
+<script>
+
+function ptOnload() {
+}
+</script>
+
+        <FORM method="post" ACTION="/screens/base/tech_supp_summary.html">
+            <INPUT TYPE="hidden" NAME="access_control" SIZE="16" MAXLENGTH="15" VALUE="1">
+                <INPUT TYPE="hidden" NAME="csrf_token" SIZE="32" MAXLENGTH="32" VALUE="lhivGlfjFFZuEpYIJDDRFiDkN3GICmS">
+
+                    <table CELLSPACING=0  WIDTH="100%" cellpadding="0" border="0">
+                        <tr>
+                            <td nowrap class="pageTitle">
+                                <h1>System Resource Information</h1>
+                            </td>
+                            <td nowrap class="pageTitle" align="right">
+                                <script>getHtmlForHelpButton("System_Resource_Information","/helppages/wwhelp.htm");</script>
+                            </td>
+                        </tr>
+                    </table>
+                    <table CELLSPACING=1 cellpadding="0" border="0" style="margin-top: 11px">
+                        <tr valign="bottom">
+
+                            <td class="label1">Current CPU(s) Usage</td>
+
+                            <td class="label2">
+                                <INPUT type=TEXT name="cpu_usage" id="cpu_usage" class="statictextbox" readonly SIZE="9" MAXLENGTH="8" VALUE="0%">
+                                    </td>
+                        </tr>
+
+                        <tr>
+                            <td class="label1">Individual CPU Usage</td>
+                            <td class="label2">
+                                <INPUT type=TEXT name="indiv_cpu_usage" id="indiv_cpu_usage" class="statictextbox" readonly SIZE="110" MAXLENGTH="109" VALUE="0%/1%, 0%/1%, 0%/1%, 0%/0%">
+                                    </td>
+                        </tr>
+
+                    </table>
+
+                    <table CELLSPACING=1 cellpadding="0" border="0" style="margin-top: 11px">
+                        <tr>
+                            <td class="label1">System Buffers</td>
+                        </tr>
+                        <tr>
+                            <td class="label2">Max Free Buffers</td>
+                            <td>
+                                <INPUT type=TEXT name="max_free_buffers" id="max_free_buffers" class="statictextboxlist" readonly SIZE="9" MAXLENGTH="8" VALUE="24576">
+                                    </td>
+                        </tr>
+                        <tr>
+                            <td class="label2">Free Buffers</td>
+                            <td>
+                                <INPUT type=TEXT name="free_buffers" id="free_buffers" class="statictextboxlist" readonly SIZE="9" MAXLENGTH="8" VALUE="24560">
+                                    </td>
+                        </tr>
+                        <tr>
+                            <td class="label2">Buffers In Use</td>
+                            <td>
+                                <INPUT type=TEXT name="buffers_in_use" id="buffers_in_use" class="statictextboxlist" readonly SIZE="9" MAXLENGTH="8" VALUE="16">
+                                    </td>
+                        </tr>
+                    </table>
+
+                    <table cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                            <td class="label1">Web Server Buffers</td>
+                        </tr>
+                        <tr>
+                            <td class="label2">Descriptors Allocated</td>
+                            <td>
+                                <INPUT type=TEXT name="open_file_descriptors" id="open_file_descriptors" class="statictextboxlist" readonly SIZE="9" MAXLENGTH="8" VALUE="147">
+                                    </td>
+                        </tr>
+                        <tr>
+                            <td class="label2">Descriptors Used</td>
+                            <td>
+                                <INPUT type=TEXT name="web_buffers_in_use" id="web_buffers_in_use" class="statictextboxlist" readonly SIZE="9" MAXLENGTH="8" VALUE="5">
+                                    </td>
+                        </tr>
+                        <tr>
+                            <td class="label2">Segments Allocated</td>
+                            <td>
+                                <INPUT type=TEXT name="web_max_buffers_used" id="web_max_buffers_used" class="statictextboxlist" readonly SIZE="9" MAXLENGTH="8" VALUE="147">
+                                    </td>
+                        </tr>
+                        <tr>
+                            <td class="label2">Segments Used</td>
+                            <td>
+                                <INPUT type=TEXT name="web_segments_used" id="web_segments_used" class="statictextboxlist" readonly SIZE="9" MAXLENGTH="8" VALUE="5">
+                                    </td>
+                        </tr>
+                    </table>
+
+                    <INPUT TYPE="hidden" NAME="err_flag" SIZE="16" MAXLENGTH="15" VALUE="0">
+                        <INPUT TYPE="hidden" NAME="err_msg" SIZE="512" MAXLENGTH="511" VALUE="">
+                            <INPUT TYPE="hidden" NAME="info_flag" SIZE="16" MAXLENGTH="15" VALUE="0">
+                                <INPUT TYPE="hidden" NAME="info_msg" SIZE="512" MAXLENGTH="511" VALUE="">
+                                    <INPUT TYPE="hidden" NAME="buttonClicked" SIZE="16" MAXLENGTH="15" VALUE="0">
+        </FORM>
+
+<?=PAGE-FOOTER=?>
+
+

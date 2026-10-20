@@ -1,0 +1,99 @@
+<?=PAGE-HEADER=?>
+
+<script>
+
+function ptOnload() {
+}
+
+function submitAction()
+{
+	debugMsg("<submitAction>");
+	var noerror = true;
+	if(thisFormAttrs != null)
+		noerror = validateForm(document.forms[0],thisFormAttrs);
+	if(noerror && businessLogicImplemented)
+		noerror = validateBusinessLogic(document.forms[0].thisFormAttrs);
+	if(noerror)
+	{
+		document.forms[0].buttonClicked.value = CLEAR_CLICKED;
+
+		top.CHttpFormExtractor.clearKeyValues();
+		top.CHttpFormExtractor.addKeyValue("buttonClicked", document.forms[0].buttonClicked.value);
+
+		document.forms[0].submit();
+	}
+
+	return false;
+}
+</script>
+
+<script>
+	//top.subFormImplemented=true;
+	//top.subFormUrl="base/msg_log.html"
+	//function submitAction() {
+	//	document.forms[1].buttonClicked.value = SUBMIT_CLICKED;
+	//	debugMsg("<submitAction> Calling submit");
+	//	document.forms[1].submit();
+	//}
+</script>
+
+
+<FORM method="post" ACTION="frameManagementMessageLogs.html">
+	<INPUT TYPE="hidden" NAME="access_control" SIZE="16" MAXLENGTH="15" VALUE="1">
+		<INPUT TYPE="hidden" NAME="csrf_token" SIZE="32" MAXLENGTH="32" VALUE="lhivGlfjFFZuEpYIJDDRFiDkN3GICmS">
+
+			<table CELLSPACING=0  WIDTH =" 100%" nowrap cellpadding="0" border="0">
+				<!-- the header as part of the table -->
+
+				<tr>
+					<td nowrap class="pageTitle">
+						<h1>Message Logs</h1>
+					</td>
+					<td align="right" class="pageTitle">
+						<script>getHtmlForButton("apply", "Clear", "buttonStretch", "submitAction()"); </script>
+					</td>
+					<td nowrap align="right" class="pageTitle">
+						<script>getHtmlForHelpButton("Message_Logs","/helppages/wwhelp.htm");</script>
+					</td>
+				</tr>
+
+				<tr>
+					<td colspan="3" style="padding-top: 13px">
+						<table border="0" cellspacing="1" cellpadding="0">
+							<tr><td colspan ="2"><TEXTAREA name="msglog" id="msglog" READONLY ROWS="30" COLS="80">
+<?=LOG-MSG=?>
+							</TEXTAREA></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<TR>
+					<TD ALIGN=left><INPUT TYPE="hidden" NAME="buttonClicked" SIZE="16" MAXLENGTH="15" VALUE=""></TD>
+				</TR>
+				<TR>
+					<TD ALIGN=left><INPUT TYPE="hidden" NAME="err_flag" SIZE="16" MAXLENGTH="15" VALUE=""></TD>
+				</TR>
+
+				<TR>
+					<TD ALIGN=left><INPUT TYPE="hidden" NAME="err_msg" SIZE="512" MAXLENGTH="511" VALUE=""></TD>
+				</TR>
+				<TR>
+					<TD ALIGN=left><INPUT TYPE="hidden" NAME="info_flag" SIZE="16" MAXLENGTH="15" VALUE=""></TD>
+				</TR>
+				<TR>
+					<TD ALIGN=left><INPUT TYPE="hidden" NAME="info_msg" SIZE="512" MAXLENGTH="511" VALUE=""></TD>
+				</TR>
+				<TR>
+					<TD ALIGN=left><INPUT TYPE="hidden" NAME="submitForm1" SIZE="6" MAXLENGTH="6" VALUE="true"></TD>
+				</TR>
+			</TABLE>
+</FORM>
+<script>
+	document.writeln('<FORM name="ClearForm" method="post" ACTION="/screens/base/msg_log.html">');
+	document.writeln('<INPUT TYPE="hidden" NAME="csrf_token" SIZE="32" MAXLENGTH="32" VALUE="lhivGlfjFFZuEpYIJDDRFiDkN3GICmS">');
+	document.writeln('<INPUT TYPE="hidden" NAME="submitForm1" VALUE="">');
+	document.writeln('<INPUT TYPE="hidden" NAME="buttonClicked" VALUE="">');
+	document.writeln('</FORM>');
+</script>
+
+<?=PAGE-FOOTER=?>

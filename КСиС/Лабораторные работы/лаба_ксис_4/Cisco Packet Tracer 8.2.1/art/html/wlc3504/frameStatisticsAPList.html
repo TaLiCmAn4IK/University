@@ -1,0 +1,766 @@
+<?=PAGE-HEADER=?>
+
+<script>
+
+function ptOnload() {
+}
+
+function clearAction()
+{
+	document.forms[0].buttonClicked.value = CLEAR_CLICKED;
+
+	top.CHttpFormExtractor.clearKeyValues();
+	top.CHttpFormExtractor.addKeyValue("buttonClicked", document.forms[0].buttonClicked.value);
+
+	document.forms[0].submit();
+}
+
+function receiverDeleteAction(apIndex)
+{
+   	document.forms[0].ap_index.value = apIndex;
+   	document.forms[0].buttonClicked.value = DELETE_CLICKED;
+
+	top.CHttpFormExtractor.clearKeyValues();
+	top.CHttpFormExtractor.addKeyValue("buttonClicked", document.forms[0].buttonClicked.value);
+	top.CHttpFormExtractor.addKeyValue("ap_index", document.forms[0].ap_index.value);
+
+   	document.forms[0].submit();
+}
+
+
+function getDetail(apName)
+{
+   	document.forms[0].buttonClicked.value = EDIT_CLICKED;
+   	document.forms[0].ap_name.value = apName;
+
+	top.CHttpFormExtractor.clearKeyValues();
+	top.CHttpFormExtractor.addKeyValue("buttonClicked", document.forms[0].buttonClicked.value);
+	top.CHttpFormExtractor.addKeyValue("ap_name", document.forms[0].ap_name.value);
+
+   	document.forms[0].submit();
+}
+
+</script>
+                    <script>
+                        //for refresh
+                        //top.subFormImplemented=true;
+                        var url = 'ap_join_stats_list.html';
+                        var list_size = 25;
+
+                        function changeMacSearchLabel()
+                        {
+                            document.getElementById("mac_label").innerHTML = "Ethernet MAC Address";
+                            var filter_mac = document.getElementById("filter");
+                        }
+
+                    function getMacAddr(index)
+                    {
+                        var elms=document.forms[0].elements;
+                        for ( loop = 0;loop < elms.length;loop++){
+                            var str = elms[loop].name;
+                            if(str.match(/\d.base_mac_addr/g) != null){
+                                var id = str.match(/\d+/g);
+                                if(id != null && id[1] == index){
+                                    return elms[loop].value;
+                                }
+                            }
+                        }
+                    }
+
+
+
+                    function editAction(index)
+                    {
+                        var macAddr=getMacAddr(index);
+                        document.forms[0].macAddr.value = macAddr;
+                        document.forms[0].buttonClicked.value = EDIT_CLICKED;
+                        document.forms[0].submit();
+                    }
+                    function deleteAction(index) {
+                        var macAddr=getMacAddr(index);
+                        document.forms[0].macAddr.value = macAddr;
+                        document.forms[0].buttonClicked.value = DELETE_CLICKED;
+
+                        if(!confirm(top.ARE_YOU_SURE_DELETE))
+                        return;
+                        document.forms[0].submit();
+                    }
+                    function submitAction() {
+
+                        document.forms[0].buttonClicked.value = SUBMIT_CLICKED;
+                        document.forms[0].submit();
+                    }
+
+                        </script>
+
+        <FORM method="post" ACTION="frameStatisticsAPList.html">
+		<INPUT TYPE="hidden" NAME="ap_index" VALUE="">
+		<INPUT TYPE="hidden" NAME="ap_name" VALUE="">
+
+                                <table CELLSPACING=0  WIDTH =" 100%" nowrap cellpadding="0" border="0">
+                                    <tr>
+                                        <td nowrap class="pageTitle">
+                                            <h1>AP Join Statistics</h1>
+                                        </td>
+                                        <td align="right" valign="top" >
+                                            <!-- To display paging in top right corner-->
+                                            <!-- <div id=pagingStr>
+                                                <table cellSpacing=0 cellPadding=0 border=0 >
+                                                    <tr align="left" valign=top>
+                                                        <td colspan="25" class="headerNoBorder" style="COLOR: #666666; " align="center" noWrap>
+                                                            <SCRIPT>getPagingStr();</SCRIPT>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <div id=pagingDiv style="display:none">
+                                                <TABLE cellSpacing=0 cellPadding=0 border=0 >
+                                                    <tr align="left" valign=top>
+                                                        <td colspan="25" class="header" style="COLOR: #666666; " align="center" noWrap>
+                                                            <SCRIPT>getPagingStr();</SCRIPT>
+                                                        </td>
+                                                    </tr>
+                                                    <TR vAlign=top align=center  >
+                                                        <TD><NOBR><A id=pager_first href="javascript:getPage('first');"><IMG
+                                                            alt=First height=16
+                                                            src="/images/first.gif" width=20
+                                                            border=0 ></A> </NOBR>
+                                                        </TD>
+                                                        <TD align=center id="prev_disabled" style="display:none"><NOBR>
+                                                            <IMG alt="Show previous 5" height=16 src="/images/previous_disabled.gif" width=20
+                                                                border=0> </NOBR>
+                                                        </TD>
+                                                        <TD align=center id="prev" style="display:none"><NOBR>
+                                                            <A id=pager_first href="javascript:getPage('previous');">
+                                                                <IMG alt="Show previous 5" height=16 src="/images/previous.gif" width=20
+                                                                    border=0>
+                                                                    </A>  </NOBR>
+                                                        </TD>
+                                                        <td><script>getPages();</script></td>
+                                                        <TD id="next" style="display:none"><NOBR><A id=pager_next
+                                                            href="javascript:getPage('next');"><IMG
+                                                                alt="Show Next 5" height=16 src="/images/next.gif"
+                                                                width=20 border=0></A> </NOBR></TD>
+                                                        <TD id="next_disabled" style="display:none"><NOBR><IMG
+                                                            alt="Show Next 5" height=16 src="/images/next_disabled.gif"
+                                                            width=20 border=0></NOBR></TD>
+                                                        <TD><NOBR><A id=pager_last
+                                                            href="javascript:getPage('last');"><IMG
+                                                                alt=Last height=16 src="/images/last.gif"
+                                                                width=20 border=0></A>
+                                                        </NOBR></TD>
+                                                    </TR>
+                                                </TABLE>
+                                            </div> -->
+
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table   width="100%" border="0" cellpadding="0" cellspacing="0">
+                                    <tbody><tr>
+                                        <TD width=150 id="noguestsec" >
+                                            <table cellSpacing=0 cellPadding=0  border=0 width=100%>
+                                                <tr>
+                                                    <td class=headerNoBorder vAlign=top nowrap>Current Filter:</td>
+                                                    <td class=label2PadBottom id='filter' nowrap vAlign=top></td>
+                                                </tr>
+                                            </table>
+                                        </TD>
+                                        <td>&nbsp;</td>
+                                        <td valign="top" align="left" width="35%" id="noguestsec1 notSupported" >
+                                            [<a href="javascript:notSupported();" id="change_filter" disabled="true">Change Filter</a>]
+                                            [<a href="javascript:notSupported('ap_join_stats_list.html');" id="clear_filter" disabled="true">Clear Filter</a>]
+                                        </td>
+                                    </tr>
+                                    <td align="left">
+                                           <script>getHtmlForButton("clear","Clear Statistics on all APs","buttonStretch","clearAction()");</script>
+                                    </td>
+                                    <tr>
+                                        <td colspan="4">&nbsp;</td>
+                                    </tr>
+                                    </table>
+
+                                <td colspan="2" >
+                                    <table border="0" cellspacing="1" cellpadding="0">
+                                        <tr>
+                                            <th align="left">Base Radio MAC</th>
+                                            <th align="left">AP Name</th>
+                                            <TH align="left">Status</Th>
+                                            <th align="left">Ethernet MAC</Th>
+                                            <th align="left">IP Address(Ipv4/Ipv6)</Th>
+                                            <th align="left">Last Join Time</Th>
+                                            <th>&nbsp;</th>
+                                        </tr>
+                                        <label for="table elements">
+<?=AP-ENTRY-begin=?>
+<tr>
+	<td class="listNoPad" width="150">
+		<input type="text" name="2.<?=AP-INDEX=?>.<?=AP-COUNT=?>.base_radio_mac" id="2.<?=AP-INDEX=?>.<?=AP-COUNT=?>.base_radio_mac" class="statictextboxlink" onclick="getDetail('<?=AP-NAME=?>')"readonly="" size="20" maxlength="32" value="<?=BASE-RADIO-MAC=?>">
+	</td>
+	<td class="listNoPad" width="150">
+		<input type="text" name="2.<?=AP-INDEX=?>.<?=AP-COUNT=?>.ap_name" id="2.<?=AP-INDEX=?>.<?=AP-COUNT=?>.ap_name" class="statictextboxlist" readonly="" size="30" maxlength="30" value="<?=AP-NAME=?>">
+	</td>
+	<td class="listNoPad" width="150">
+		<input type="text" name="2.<?=AP-INDEX=?>.<?=AP-COUNT=?>.status" id="2.<?=AP-INDEX=?>.<?=AP-COUNT=?>.status" class="statictextboxlist" readonly="" size="10" maxlength="10" value="<?=STATUS=?>">
+	</td>
+	<td class="listNoPad" width="150">
+		<input type="text" name="2.<?=AP-INDEX=?>.<?=AP-COUNT=?>.ap_mac" id="2.<?=AP-INDEX=?>.<?=AP-COUNT=?>.ap_mac" class="statictextboxlist" readonly="" size="20" maxlength="32" value="<?=AP-MAC=?>">
+	</td>
+	<td class="listNoPad" width="150">
+		<input type="text" name="2.<?=AP-INDEX=?>.<?=AP-COUNT=?>.ip_address" id="2.<?=AP-INDEX=?>.<?=AP-COUNT=?>.ip_address" class="statictextboxlist" readonly="" size="20" maxlength="32" value="<?=IP-ADDRESS=?>">
+	</td>
+	<td class="listNoPad" width="150">
+		<input type="text" name="2.<?=AP-INDEX=?>.<?=AP-COUNT=?>.last_joined_date" id="2.<?=AP-INDEX=?>.<?=AP-COUNT=?>.last_joined_date" class="statictextboxlist" readonly="" size="25" maxlength="25" value="<?=LAST-JOINED-DATE=?>">
+	</td>
+	<TD class="listNoPad"><a href="javascript:receiverDeleteAction('<?=AP-INDEX=?>');" id="2.<?=AP-INDEX=?>.<?=AP-COUNT=?>.remove">Remove</a></TD>
+</tr>
+<?=AP-ENTRY-end=?>
+                                        </label>
+                                    </table>
+                                </td>
+                                </tr>
+                                </table>
+
+                                <TABLE>
+                                    <TR>
+                                        <TD ALIGN=left><INPUT TYPE="hidden" NAME="indexClicked" SIZE="16" MAXLENGTH="15" VALUE="0"></TD>
+                                        <TD ALIGN=left><INPUT TYPE="hidden" NAME="buttonClicked" SIZE="16" MAXLENGTH="15" VALUE="0"></TD>
+                                        <TD ALIGN=left><INPUT TYPE="hidden" NAME="listSize" SIZE="16" MAXLENGTH="15" VALUE="0"></TD>
+                                    </TR>
+                                    <TR>
+                                        <TD ALIGN=left><INPUT TYPE="hidden" NAME="macAddr" SIZE="18" MAXLENGTH="17" VALUE=""></TD>
+                                        </TR
+                                        <TR>
+                                        <TD ALIGN=left><INPUT TYPE="hidden" NAME="err_flag" SIZE="16" MAXLENGTH="15" VALUE="0"></TD>
+                                    </TR>
+
+                                    <TR>
+                                        <TD ALIGN=left><INPUT TYPE="hidden" NAME="err_msg" SIZE="512" MAXLENGTH="511" VALUE=""></TD>
+                                    </TR>
+                                    <TR>
+                                        <TD ALIGN=left><INPUT TYPE="hidden" NAME="info_flag" SIZE="16" MAXLENGTH="15" VALUE="0"></TD>
+                                    </TR>
+                                    <TR>
+                                        <TD ALIGN=left><INPUT TYPE="hidden" NAME="info_msg" SIZE="512" MAXLENGTH="511" VALUE=""></TD>
+                                    </TR>
+                                    <TR>
+
+                                </TABLE>
+        </FORM>
+        <script>buildMenu();</script>
+        <style>
+            .dragme{
+                cursor:move;
+                outline-style: none;
+                outline-width: 0;
+                padding-top: 0px;
+                padding-bottom: 4px;
+            }
+        </style>
+        <script>
+
+            var ie=document.all;
+            var nonIeElem=document.getElementById&&!document.all;
+            var isdrag=false;
+            var x,y;
+            var dragObj;
+            function movemouse(nEvent)
+            {
+                if (isdrag)
+                {
+                    dragObj.style.left = nonIeElem ? tx + nEvent.clientX - x : tx + event.clientX - x;
+                    dragObj.style.top  = nonIeElem ? ty + nEvent.clientY - y : ty + event.clientY - y;
+                    return false;
+                }
+            }
+
+        function selectmouse(nEvent)
+        {
+            var fobj       = nonIeElem ? nEvent.target : event.srcElement;
+            var topelement = nonIeElem ? "HTML" : "BODY";
+
+            while (fobj.tagName != topelement && fobj.className != "dragme")
+            {
+                fobj = nonIeElem ? fobj.parentNode : fobj.parentElement;
+            }
+
+            if (fobj.className=="dragme")
+            {
+                isdrag = true;
+                dragObj = document.getElementById("searchDialog");
+                tx = parseInt(dragObj.style.left+0);
+                ty = parseInt(dragObj.style.top+0);
+                x = nonIeElem ? nEvent.clientX : event.clientX;
+                y = nonIeElem ? nEvent.clientY : event.clientY;
+                document.onmousemove=movemouse;
+                return false;
+            }
+        }
+        document.onmousedown=selectmouse;
+        document.onmouseup=new Function("isdrag=false");
+            </script>
+
+
+        <script>
+            var dlg2;
+            var fromEscArr = new Array();
+            var toEscArr = new Array();
+            fromEscArr[0] = '?';
+            fromEscArr[1] = '+';
+            fromEscArr[2] = ' ';
+            fromEscArr[3] = '&';
+            fromEscArr[4] = '=';
+            fromEscArr[5] = '#';
+
+            toEscArr[0] = '|?????|'; //?
+            toEscArr[1] = '|????|'; //+
+            toEscArr[2] = '+'; //sp
+            toEscArr[3] = '|?|'; //&
+            toEscArr[4] = '|??|'; //=
+            toEscArr[5] = '|???|'; //#
+
+            var textAttrs = new Array();
+            var notAllowedChars = new Array("'");
+            var notAllowedChars1 = new Array();
+            notAllowedChars1[0] = " ";
+            notAllowedChars1[1] = "'";
+            textAttrs[0] = new textAttr("ap_name","AP Name",33,notAllowedChars,null,false);
+            textAttrs[1] = new textAttr("apMac","Mac String",17,notAllowedChars1,null,false);
+
+            thisFormAttrs = new formAttrs(null,textAttrs,null,null);
+
+            function regexpressionescape(str)
+            {
+                var re = RegExp("\\|","g");
+                str = str.replace(re,'\\|');
+                re = RegExp("\\?","g");
+                str = str.replace(re,"\\?");
+                re = RegExp("\\+","g");
+                str = str.replace(re,"\\+");
+                return str;
+            }
+
+        function init2(e) {
+            dlg2 = dojo.widget.byId("searchDialog");
+            var btn2 = document.getElementById("hider2");
+            dlg2.setCloseControl(btn2);
+        }
+
+        function showSearchFilter(ctrlEnable, secId)
+        {
+            var macDisableVar = false;
+            document.getElementById(secId).style.display = ctrlEnable?'inline':'none';
+            // make MAC address an exclusive one
+            if(secId == 'filterMac' )
+            {
+                //if filter MAC is enabled disable other two sections.
+                disableleSearchSection("apName",ctrlEnable);
+                disableleSearchSection("cleanAirStatus",ctrlEnable);
+                disableleSearchSection("radio_role",ctrlEnable);
+            } else {
+                if(document.forms["searchForm"].selectapName.checked)
+                {
+                    macDisableVar = true;
+                }
+                if(!macDisableVar&&document.forms["searchForm"].selectcleanAirStatus.checked)
+                {
+                    macDisableVar = true;
+                }
+                disableleSearchSection("Mac",macDisableVar);
+            }
+        }
+
+        function disableleSearchSection(serchcolname,disableflag)
+        {
+            if(disableflag)
+            document.getElementById('select' + serchcolname).checked = false;
+            document.getElementById('select' + serchcolname).disabled = disableflag;
+        }
+
+
+
+
+        // search params.
+        //create the searchCol objects for each search param: name and display.
+        var radSearchObjs = [ new SearchCol("Mac", "MAC Address"),
+                             new SearchCol("apName", "AP Name"),
+                             new SearchCol("cleanAirStatus","CleanAir Status"),
+                             new SearchCol("radio_role","Radio Role")
+                             ];
+                             //create the main search object.
+                             var radSearch = new Search(radSearchObjs, url, document.forms[0].query_str.value);
+
+                             function getCleanAirQuery()
+                             {
+                                 var cleanAirStatusArr = new Array();
+                                 var count = 0;
+                                 if(document.forms["searchForm"].cleanAirSatusUp.checked)
+                                 {
+                                     cleanAirStatusArr[count++] = "UP";
+                                 }
+
+                                 if(document.forms["searchForm"].cleanAirStatusDown.checked)
+                                 {
+                                     cleanAirStatusArr[count++] = "DOWN";
+                                 }
+
+                                 if(document.forms["searchForm"].cleanAirStatusError.checked)
+                                 {
+                                     cleanAirStatusArr[count++] = "ERROR";
+                                 }
+
+                                 if(document.forms["searchForm"].cleanAirStatusNA.checked)
+                                 {
+                                     cleanAirStatusArr[count++] = "NA";
+                                 }
+
+                                 if(count > 0)
+                                 return cleanAirStatusArr.join(',');
+                             }
+        function getradioQuery()
+        {
+            var radioStatusArr = new Array();
+            var count = 0;
+            if(document.forms["searchForm"].radio2_4.checked)
+            {
+                radioStatusArr[count++] = "2.4GHz";
+            }
+
+            if(document.forms["searchForm"].radio5.checked)
+            {
+                radioStatusArr[count++] = "5GHz";
+            }
+
+            if(document.forms["searchForm"].radio_mointor.checked)
+            {
+                radioStatusArr[count++] = "Monitor";
+            }
+
+            if(document.forms["searchForm"].radio_sniffer.checked)
+            {
+                radioStatusArr[count++] = "Sniffer";
+            }
+            if(document.forms["searchForm"].radio_sensor.checked)
+            {
+                radioStatusArr[count++] = "Sensor";
+            }
+
+            if(count > 0)
+            return radioStatusArr.join(',');
+        }
+
+
+        //get the values for search param.
+        function getTheSearchQueryValue(skey)
+        {
+            switch (skey)
+            {
+                case "apName":
+                return escapefunction(document.forms["searchForm"].ap_name.value,fromEscArr,toEscArr);
+                case "cleanAirStatus":
+                return getCleanAirQuery();
+
+                case "Mac":
+                return document.forms["searchForm"].apMac.value;
+                case "radio_role":
+                return getradioQuery();
+            }
+            return "";
+        }
+
+        function showSearchFilterCleanAir(value)
+        {
+            if(value == null)
+            return value;
+            var cleanAirStatsArr = new Array();
+            cleanAirStatsArr = value.split(',');
+            for(var count = 0 ; count < cleanAirStatsArr.length ; ++count)
+            {
+                if(cleanAirStatsArr[count] == "UP")
+                {
+                    document.forms["searchForm"].cleanAirSatusUp.checked = true;
+                }
+                if(cleanAirStatsArr[count] == "DOWN")
+                {
+                    document.forms["searchForm"].cleanAirStatusDown.checked = true;
+                }
+                if(cleanAirStatsArr[count] == "ERROR")
+                {
+                    document.forms["searchForm"].cleanAirStatusError.checked = true;
+                }
+                if(cleanAirStatsArr[count] == "NA")
+                {
+                    document.forms["searchForm"].cleanAirStatusNA.checked = true;
+                }
+            }
+        }
+
+        function showSearchFilterRadio(value)
+        {
+            if(value == null)
+            return value;
+            var radioStatsArr = new Array();
+            radioStatsArr = value.split(',');
+            for(var count = 0 ; count < radioStatsArr.length ; ++count)
+            {
+                if(radioStatsArr[count] == "2.4GHz")
+                {
+                    document.forms["searchForm"].radio2_4.checked = true;
+                }
+                if(radioStatsArr[count] == "5GHz")
+                {
+                    document.forms["searchForm"].radio5.checked = true;
+                }
+                if(radioStatsArr[count] == "Monitor")
+                {
+                    document.forms["searchForm"].radio_mointor.checked = true;
+                }
+                if(radioStatsArr[count] == "Sniffer")
+                {
+                    document.forms["searchForm"].radio_sniffer.checked = true;
+                }
+                if(radioStatsArr[count] == "Sensor")
+                {
+                    document.forms["searchForm"].radio_sensor.checked = true;
+                }
+            }
+        }
+
+        //populate values to the dialog from the url.
+        function showFilterSection(skey, value)
+        {
+            switch(key)
+            {
+                case "apName":
+                showSearchFilter(true,'filterapName');
+                document.forms["searchForm"].ap_name.value = unEscapeFunction(value,fromEscArr,toEscArr);
+                break;
+
+                case "cleanAirStatus":
+                showSearchFilter(true,'filtercleanAirStatus');
+                showSearchFilterCleanAir(value);
+                break;
+
+                case "Mac":
+                showSearchFilter(true,'filterMac');
+                document.forms["searchForm"].apMac.value = value;
+                break;
+
+                case "radio_role":
+                showRadioFilter();
+                showSearchFilterRadio(value);
+                break;
+            }
+        }
+
+        // this function shows the current search criteria in the top of the page.
+        function  showSearchCriteria()
+        {
+            var searchCriteria = radSearch.getDisplayFilter(getQueryParams());
+            searchCriteria = unEscapeFunction(searchCriteria,fromEscArr,toEscArr);
+            if(searchCriteria == null ||searchCriteria == "")
+            {
+                searchCriteria = "None";
+            }
+            document.getElementById('filter').innerHTML = searchCriteria;
+        }
+
+
+        dojo.addOnLoad(onLoadFn);
+
+        function onLoadFn(){
+            init2();
+            showCurrentFilter();
+            showPaging();
+            showSearchCriteria();
+            CheckError();
+            radSearch.populateSearchParams();
+        }
+
+        function searchPage()
+        {
+            var noerror = validateForm(document.forms["searchForm"],thisFormAttrs);
+            if(noerror){
+                var qrl = radSearch.getQueryUrl(false);
+                if (qrl == null)
+                return;
+                window.location = qrl;
+            }
+        }
+
+        function showRadioFilter(){
+            if(document.getElementById('selectradio_role').checked){
+                document.getElementById('filterradio_role').style.display = 'inline';
+            }
+            else{
+                document.getElementById('filterradio_role').style.display = 'none';
+            }
+        }
+
+            </script>
+
+        <DIV id=searchDialog toggle="fade" bgOpacity="0.4" bgColor="#F0F0F0"
+            dojoType="dialog" style="display:none" toggleDuration="100">
+            <FORM name="searchForm" id="searchForm">
+                <INPUT TYPE="hidden" NAME="csrf_token" SIZE="32" MAXLENGTH="32" VALUE="u7r1YbGDqJIjcv1efnb4xczJQdsRAAJ">
+                    <table cellpadding="0" cellspacing="0" border="0" >
+                        <tr>
+                            <td colspan="2" class="dragme">
+                                <div>
+                                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                        <tr>
+                                            <td class=label1 width=120>Search AP</Td>
+                                            <td align="right" valign="bottom" style="padding-bottom:4px" colspan="2"><a href="javascript:dlg2.hide();"><img src="/images/close.gif" width="15" height="15" id="hider2" alt="close popup dialog" /></a></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="horizLine" colspan="3" width="360"><img src="/images/spacer.gif" width="1" height="1" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div style="width: 350px; height: 90px; overflow: auto;">
+                                    <table cellpadding="0" cellspacing="0" border="0">
+                                        <tr>
+                                            <td id="mac_label" class="label2" width=120>
+                                                MAC Address
+                                            </td>
+                                            <td align="left" width=200>
+                                                <table cellpadding="0" cellspacing="0" border="0" >
+                                                    <tr>
+                                                        <td align="left">
+                                                            <INPUT type="checkbox" name="selectMac" id="selectMac" onclick="showSearchFilter(this.checked,'filterMac')">
+                                                                </td>
+                                                        <td id="filterMac" style="display:none">
+                                                            <INPUT type="text" name="apMac" id="apMac" value="" size="20" maxlength="32">
+                                                                </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="label2" width=120>
+                                                AP Name
+                                            </td>
+                                            <td align="left" width=200>
+                                                <table cellpadding="0" cellspacing="0" border="0" >
+                                                    <tr>
+                                                        <td align="left">
+                                                            <INPUT type="checkbox" name="selectapName" id="selectapName" onclick="showSearchFilter(this.checked,'filterapName')">
+                                                                </td>
+                                                        <td id="filterapName" style="display:none">
+                                                            <INPUT type="text" name="ap_name" id="ap_name" value="" size="20" maxlength="32">
+                                                                </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <div id="cleanId" style="display:none">
+                                                    <table cellpadding="0" cellspacing="0" border="0">
+                                                        <tr>
+                                                            <td class="label2" valign="top" nowrap style="padding-top:5px;">
+                                                                CleanAir Oper Status
+                                                            </td>
+                                                            <td align="left" width="200">
+                                                                <table cellpadding="0" cellspacing="0" border="0">
+                                                                    <tr>
+                                                                        <td valign="top">
+                                                                            <INPUT type="checkbox" name="selectcleanAirStatus" id="selectcleanAirStatus" onclick="showSearchFilter(this.checked,'filtercleanAirStatus')">
+                                                                                </td>
+                                                                        <td id="filtercleanAirStatus" valign="top" style="display:none;">
+                                                                            <table cellpadding="0" cellspacing="0" border="0" >
+                                                                                <tr>
+                                                                                    <td><INPUT type="checkbox" name="cleanAirSatusUp" id="cleanAirSatusUp"></td>
+                                                                                    <td>&nbsp;UP</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td><INPUT type="checkbox" name="cleanAirStatusDown" id="cleanAirStatusDown"></td>
+                                                                                    <td >&nbsp;DOWN</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td><INPUT type="checkbox" name="cleanAirStatusError" id="cleanAirStatusError"></td>
+                                                                                    <td >&nbsp;ERROR</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td><INPUT type="checkbox" name="cleanAirStatusNA" id="cleanAirStatusNA"></td>
+                                                                                    <td >&nbsp;N/A</td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="label2" valign="top" nowrap style="padding-top:5px;">
+                                                Radio Role
+                                            </td>
+                                            <td align="left" width="200">
+                                                <table cellpadding="0" cellspacing="0" border="0">
+                                                    <tr>
+                                                        <td valign="top">
+                                                            <INPUT type="checkbox" name="selectradio_role" id="selectradio_role" onclick="showRadioFilter()">
+                                                                </td>
+                                                        <td id="filterradio_role" valign="top" style="display:none;">
+                                                            <table cellpadding="0" cellspacing="0" border="0" >
+                                                                <tr>
+                                                                    <td><INPUT type="checkbox" name="radio2_4" id="radio2_4"></td>
+                                                                    <td>&nbsp;2.4GHz</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><INPUT type="checkbox" name="radio5" id="radio5"></td>
+                                                                    <td >&nbsp;5GHz</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><INPUT type="checkbox" name="radio_mointor" id="radio_mintor"></td>
+                                                                    <td >&nbsp;Monitor</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><INPUT type="checkbox" name="radio_sniffer" id="radio_sniffer"></td>
+                                                                    <td >&nbsp;Sniffer</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><INPUT type="checkbox" name="radio_sensor" id="radio_sensor"></td>
+                                                                    <td >&nbsp;Sensor</td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td colspan="2" align="center">
+                                                &nbsp;
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <INPUT type="button" class="button" id='search' value="Find" onClick="javascript:searchPage()">
+                                    </td>
+                        </tr>
+                    </table>
+                    </FORM>
+        </div>
+
+
+
+        <script>changeMacSearchLabel();</script>
+        </script>
+
+<?=PAGE-FOOTER=?>
+

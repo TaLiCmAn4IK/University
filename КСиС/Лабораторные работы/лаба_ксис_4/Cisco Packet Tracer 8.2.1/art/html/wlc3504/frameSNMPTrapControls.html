@@ -1,0 +1,621 @@
+<?=PAGE-HEADER=?>
+
+<script>
+
+///////////////////////////////////////
+// PT71: re-implemented tab widgets
+var lastTab = {
+	label: 'tabLabel1',
+	tab: 'tab1'
+};
+var lastSecTab = {
+	label: 'sectabLabel1',
+	tab: 'sectab1'
+};
+
+function clickTab(last, prefix, num)
+{
+	document.getElementById(last.label).className = "dojoTabPaneTab";
+	document.getElementById(last.tab).style.display = "none";
+	last.label = prefix + 'Label' + num;
+	last.tab = prefix + num;
+	document.getElementById(last.label).className = "dojoTabPaneTab current";
+	document.getElementById(last.tab).style.display = "block";
+}
+///////////////////////////////////////
+
+var bPortUpDown = <?=PORT-UPDOWN=?>;
+var bConfigSave = <?=CONFIG-SAVE=?>;
+var bMaxClientLimit = <?=MAX-CLIENT=?>;
+var uiMaxClientLimitThreshold = <?=MAX-CLIENT-THRESHOLD=?>;
+var bNACAlert = <?=NAC-ALERT=?>;
+//var bWebAuthUserLogin = <?=WEBUSER-LOGIN=?>;
+//var bWebAuthUserLogout = <?=WEBUSER-LOGOUT=?>;
+var bAPRegister = <?=AP-REGISTER=?>;
+var bUserAuthentication = <?=USER-AUTHEN?>;
+var bRadiusServerNotResponding = <?=RADIUS-SERVER-NO-RESPONSE=?>;
+
+function ptOnload()
+{
+	OnLoadFn();
+
+	document.forms[0].trap_link.checked = bPortUpDown;
+	document.forms[0].trap_configsave.checked = bConfigSave;
+	document.forms[0].trap_maxClientsLimit.checked = bMaxClientLimit;
+	document.forms[0].maxClients_threshold.value = uiMaxClientLimitThreshold;
+	document.forms[0].trap_nacAlert.checked = bNACAlert;
+	//document.forms[0].trap_userLogin.checked = bWebAuthUserLogin;
+	//document.forms[0].trap_userLogout.checked = bWebAuthUserLogout;
+	document.forms[0].trap_register.checked = bAPRegister;
+	document.forms[0].trap_authentication.checked = bUserAuthentication;
+	document.forms[0].trap_servers.checked = bRadiusServerNotResponding;
+}
+
+function submitAction()
+{
+	debugMsg("<submitAction>");
+	var noerror = true;
+	if(thisFormAttrs != null)
+		noerror = validateForm(document.forms[0],thisFormAttrs);
+	if(noerror && businessLogicImplemented)
+		noerror = validateBusinessLogic(document.forms[0].thisFormAttrs);
+	if(noerror)
+	{
+		document.forms[0].buttonClicked.value = SUBMIT_CLICKED;
+
+		top.CHttpFormExtractor.clearKeyValues();
+		top.CHttpFormExtractor.addKeyValue("buttonClicked", document.forms[0].buttonClicked.value);
+
+		top.CHttpFormExtractor.addKeyValue("trap_link", document.forms[0].trap_link.checked ? "true" : "false");
+		top.CHttpFormExtractor.addKeyValue("trap_configsave", document.forms[0].trap_configsave.checked ? "true" : "false");
+		top.CHttpFormExtractor.addKeyValue("trap_maxClientsLimit", document.forms[0].trap_maxClientsLimit.checked ? "true" : "false");
+		top.CHttpFormExtractor.addKeyValue("maxClients_threshold", document.forms[0].maxClients_threshold.value);
+		top.CHttpFormExtractor.addKeyValue("trap_nacAlert", document.forms[0].trap_nacAlert.checked ? "true" : "false");
+		//top.CHttpFormExtractor.addKeyValue("trap_userLogin", document.forms[0].trap_userLogin.checked ? "true" : "false");
+		//top.CHttpFormExtractor.addKeyValue("trap_userLogout", document.forms[0].trap_userLogout.checked ? "true" : "false");
+		top.CHttpFormExtractor.addKeyValue("trap_register", document.forms[0].trap_register.checked ? "true" : "false");
+		top.CHttpFormExtractor.addKeyValue("trap_authentication", document.forms[0].trap_authentication.checked ? "true" : "false");
+		top.CHttpFormExtractor.addKeyValue("trap_servers", document.forms[0].trap_servers.checked ? "true" : "false");
+
+		document.forms[0].submit();
+	}
+
+	return false;
+}
+
+</script>
+
+
+<!-- <link rel="stylesheet" href="wlc-3504:styles/style.css" type="text/css"> -->
+<!-- <link rel="stylesheet" href="wlc-3504:styles/oma.css" type="text/css"> -->
+<!-- <link rel="stylesheet" href="wlc-3504:styles/HtmlTabContainer.css" type="text/css"> -->
+
+<style type="text/css">
+<?=HTML-TAB-CONTAINER=?>
+</style>
+
+<!-- <script language="JavaScript" src="wlc-3504:javascript/dojo.js"></script> -->
+
+
+
+<script type="text/javascript">
+
+var numAttrs = new Array();
+var initThresholdValue;
+var old_trap_rogueap;
+var old_trap_adj_rogueap;
+numAttrs[0] = new numberAttr("rfid_threshold","RFID Threshold",80,100,null,true);
+thisFormAttrs = new formAttrs(numAttrs,null,null,null);
+businessLogicImplemented = true;
+
+function validateBusinessLogic()
+{
+	if(( true == document.forms[0].trap_rogueap.checked) && (true == document.forms[0].trap_adj_rogueap.checked )) {
+		if(1 == old_trap_rogueap) {
+			alert("Error! Rogue AP trapflag is already enabled. Please disable it and try again!");
+			document.forms[0].trap_adj_rogueap.checked = false;
+		}
+		else if(1 == old_trap_adj_rogueap) {
+			alert("Error! Adjacent Channel Rogue trapflag is already enabled. Please disable it and try again!");
+			document.forms[0].trap_rogueap.checked = false;
+		}
+		else {
+			alert("can not enable both Rogue Ap and Adjacent Channel Rogue. Please enable anyone");
+			document.forms[0].trap_adj_rogueap.checked = false;
+			document.forms[0].trap_rogueap.checked = false;
+		}
+		return false;
+	}
+	return true;
+}
+
+function checkAll(divid, item)
+{
+	var div=document.getElementById(divid);
+	var x=div.getElementsByTagName('input');
+	var i=0;
+	for (i=0; i < x.length; i++)
+	{
+		x[i].checked = item.checked;
+	}
+}
+
+function recordInitialValues()
+{
+	initThresholdValue = document.getElementById("maxClients_threshold").value;
+	old_trap_rogueap = document.forms[0].trap_rogueap.checked;
+	old_trap_adj_rogueap= document.forms[0].trap_adj_rogueap.checked;
+}
+
+function OnLoadFn()
+{
+	recordInitialValues();
+	CheckError();
+	showThreshold();
+}
+
+//dojo.addOnLoad(OnLoadFn);
+
+function showThreshold()
+{
+	if(true == document.forms[0].trap_maxClientsLimit.checked)
+	{
+		document.getElementById("threshold").style.display ="inline";
+		document.getElementById("maxClients_threshold").style.display ="inline";
+		document.getElementById("maxClients_threshold").disabled = false;
+	}
+	else
+	{
+		document.getElementById("threshold").style.display ="none";
+		document.getElementById("maxClients_threshold").style.display ="none";
+		document.getElementById("maxClients_threshold").disabled = true;
+	}
+}
+
+</script>
+
+
+<FORM method="post" ACTION="frameSNMPTrapControls.html">
+<INPUT TYPE="hidden" NAME="access_control" SIZE="16" MAXLENGTH="15" VALUE="1">
+
+<table CELLSPACING=0  WIDTH =" 100%" cellpadding="0" border="0">
+	<tr>
+		<td class ="pageTitle" nowrap>
+			<h1>SNMP Trap Controls</h1>
+		</td>
+		<td align="right">
+			<script>getHtmlForButton("apply","Apply","buttonStretch","submitAction()"); </script>
+			<script>getHtmlForHelpButton("SNMP_Trap_Controls","/helppages/wwhelp.htm");</script>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp</td>
+	</tr>
+</table>
+
+<!-- <div id="mainTabContainer" dojoType="TabContainer" templateCssPath="styles/HtmlTabContainer.css" style="width: 90%;height:90%;" selectedTab="tab1"> -->
+<div id="mainTabContainer" class="dojoTabContainer dojoLayoutContainer" wairole="tabpanel" role="wairole:tabpanel" style="width: 98%; height: 550px;">
+	<div dojoattachpoint="dojoTabLabels" class="dojoTabLabels-top dojoAlignTop" style="left: 0px; top: 0px; bottom: auto; right: auto; width: 100%;">
+		<div role="wairole:tab" class="dojoTabPaneTab current" id="tabLabel1" onclick="clickTab(lastTab, 'tab', '1');"><span>General</span></div>
+		<div role="wairole:tab" class="dojoTabPaneTab" id="tabLabel2" onclick="clickTab(lastTab, 'tab', '2');"><span>Client</span></div>
+		<div role="wairole:tab" class="dojoTabPaneTab" id="tabLabel3" onclick="clickTab(lastTab, 'tab', '3');"><span>AP</span></div>
+		<div role="wairole:tab" class="dojoTabPaneTab" id="tabLabel4" onclick="clickTab(lastTab, 'tab', '4');"><span>Security</span></div>
+		<div role="wairole:tab" class="dojoTabPaneTab" id="tabLabel5" onclick="clickTab(lastTab, 'tab', '5');"><span>Auto RF</span></div>
+		<div role="wairole:tab" class="dojoTabPaneTab" id="tabLabel6" onclick="clickTab(lastTab, 'tab', '6');"><span>Mesh</span></div>
+	</div>
+
+	<div class="dojoTabPaneWrapper dojoAlignClient" dojoattachpoint="containerNode" style="left: 0px; top: 22px; bottom: auto; right: auto; width: 100%; height: 525px;">
+
+		<!-- Start 'General' tab code -->
+ 		<div id="tab1" dojotype="ContentPane" label="General" style="top: 0px; left: 0px; width: 100%; height: 425px; display: block; overflow: auto" class="dojoTabPane">
+			<div class="tabcontent">
+
+				<table border="0" cellspacing="0" cellpadding="0" width="100%">
+					<table align=right>
+						<tr class="notSupported">
+							<td align="right">
+								<td class="label3"><INPUT type="checkbox" name="general_sel_desel" id="general_sel_desel_l" onClick="checkAll('tab1',this)" ></td>
+								<td class="label3"><label for="general_sel_desel_l">Select All</label></td>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td class="label2"><INPUT type="checkbox" name="trap_link" id="trap_link_l"></td>
+							<td width="200"><label for="trap_link_l">Link (port) Up/Down</label></td>
+						</tr>
+						<tr>
+							<td class="label2"><INPUT type="checkbox" name="trap_configsave" id="trap_configsave_l"></td>
+							<td><label for="trap_configsave_l">Config Save</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2"><INPUT type="checkbox" name="trap_rfidLimit" id="trap_rfidLimit"></td>
+							<td><label for="trap_rfidLimit">RFID Limit Reached</label></td>
+							<td><label>Threshold</label>&nbsp;&nbsp;&nbsp;&nbsp;<INPUT type=TEXT name="rfid_threshold" SIZE="7" MAXLENGTH="7" VALUE="90" class="notSupported"></td>
+						</tr>
+					</table>
+				</table>
+
+			</div>
+		</div>
+		<!-- End of General Tab -->
+
+		<!-- Start of Client Tab -->
+ 		<div id="tab2" dojotype="ContentPane" label="Client" style="display:none">
+			<div class="tabcontent">
+
+				<table>
+					<table align=right>
+						<tr class="notSupported">
+							<td align="right">
+								<td class="label3"><INPUT type="checkbox" name="client_sel_desel" id="client_sel_desel_l" onClick="checkAll('tab2',this)"></td>
+								<td><label for="client_sel_desel_l">Select All</label></td>
+							</td>
+						</tr>
+					</table>
+					<table>
+						<tr class="notSupported">
+							<td class="label2"><INPUT type="checkbox" name="trap_association" id="trap_association_l"></td>
+							<td><label for="trap_association_l">802.11 Association</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2"><INPUT type="checkbox" name="enhance_trap_association" id="enhance_trap_association_l"></td>
+							<td><label for="enhance_trap_association_l"> Enhanced 802.11 Association</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2"><INPUT type="checkbox" name="trap_disassociation" id="trap_disassociation_l"></td>
+							<td><label for="trap_disassociation_l">802.11 Disassociation</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2"><INPUT type="checkbox" name="trap_deauth" id="trap_deauth_l"></td>
+							<td><label for="trap_deauth_l">802.11 Deauthentication</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2"><INPUT type="checkbox" name="enhance_trap_deauth" id="enhance_trap_deauth_l"></td>
+							<td><label for="enhance_trap_deauth_l">Enhanced 802.11 Deauthentication</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2"><INPUT type="checkbox" name="trap_authfail" id="trap_authfail_l"></td>
+							<td nowrap><label for="trap_authfail_l">802.11 Failed Authentication</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2"><INPUT type="checkbox" name="trap_assocfail" id="trap_assocfail_l"></td>
+							<td nowrap><label for="trap_assocfail_l">802.11 Failed Association</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2"><INPUT type="checkbox" name="trap_blacklist" id="trap_blacklist_l"></td>
+							<td nowrap><label for="trap_blacklist_l">Exclusion</label></td>
+						</tr>
+						<tr  class="notSupported">
+							<td class="label2"><INPUT type="checkbox" name="trap_runState" id="trap_runState_l" ></td>
+							<td nowrap><label for="trap_runState_l">Authentication</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2"><INPUT type="checkbox" name="enhance_trap_runState" id="enhance_trap_runState_l"></td>
+							<td nowrap><label for="enhance_trap_runState_l">Enhanced Authentication</label></td>
+						</tr>
+						<tr>
+							<td class="label2"><INPUT type="checkbox" name="trap_maxClientsLimit" id="trap_maxClientsLimit" onchange="showThreshold();"></td>
+							<td><label for="trap_maxClientsLimit">MaxClients Limit Reached</label></td>
+							<td><label id="threshold">Threshold</label>&nbsp;&nbsp;&nbsp;<INPUT type=TEXT name="maxClients_threshold" id="maxClients_threshold" SIZE="7" MAXLENGTH="7" VALUE="90"></td>
+						</tr>
+						<tr>
+							<td class="label2"><INPUT type="checkbox" name="trap_nacAlert" id="trap_nacAlert"></td>
+							<td><label for="trap_nacAlert_l">Nac Alert</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2"><INPUT type="checkbox" name="trap_802_11_assocStats" id="trap_802_11_assocStats_1"></td>
+							<td nowrap><label for="trap_802_11_assocStats_1">802.11 Assoc Stats</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2"><INPUT type="checkbox" name="trap_assocStats" id="trap_assocStats_l"></td>
+							<td nowrap><label for="trap_assocStats_l">Association with Stats</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2"><INPUT type="checkbox" name="trap_disassocStats" id="trap_disassocStats_l"></td>
+							<td nowrap><label for="trap_disassocStats_l">Disassociation with Stats</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2"><INPUT type="checkbox" name="trap_userLogin" id="trap_userLogin_l"></td>
+							<td nowrap><label for="trap_userLogin_l">WebAuth User Login</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2"><INPUT type="checkbox" name="trap_userLogout" id="trap_userLogout_l"></td>
+							<td nowrap><label for="trap_userLogout_l">Webauth User Logout</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2"><INPUT type="checkbox" name="trap_neighborClientDetection" id="trap_neighborClientDetection_l" ></td>
+							<td nowrap><label for="trap_neighborClientDetection_l">Neighbor Client Detection</label></td>
+						</tr>
+					</table>
+				</table>
+			</div>
+		</div>
+		<!-- End of Client Tab -->
+
+		<!-- Start of AP Tab -->
+ 		<div id="tab3" dojotype="ContentPane" label="AP" style="display:none">
+			<div class="tabcontent">
+				<table>
+					<table align=right>
+						<tr class="notSupported">
+							<td class="label3"><INPUT type="checkbox" name="ap_sel_desel" id="ap_sel_desel_l" onClick="checkAll('tab3',this)" ></td>
+							<td><label for="ap_sel_desel_l">Select All</label></td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td class="label2"><INPUT type="checkbox" name="trap_register" id="trap_register_l"></td>
+							<td><label for="trap_register_l">AP Register</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2"><INPUT type="checkbox" name="trap_cellup" id="trap_cellup_l"></td>
+							<td><label for="trap_cellup_l">AP Interface Up/Down</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2"><INPUT type="checkbox" name="trap_apauth" id="trap_apauth"></td>
+							<td><label for="trap_apauth">AP Authorization</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2"><INPUT type="checkbox" name="trap_ssid_key_conflict" id="trap_ssid_key_conflict" ></td>
+							<td><label for="trap_ssid_key_conflict">AP Ssid Key Conflict</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2"><INPUT type="checkbox" name="trap_apmodechg" id="trap_apmodechg"></td>
+							<td><label for="trap_apauth">Ap mode change</label></td>
+						</tr>
+					</table>
+				</table>
+			</div>
+		</div>
+		<!-- End of AP Tab -->
+
+		<!-- Start of Security Tab -->
+ 		<div id="tab4" dojotype="ContentPane" label="Security" style="display:none">
+			<div class="tabcontent">
+				<table>
+					<table align=right>
+						<tr class="notSupported">
+							<td class="label3"><INPUT type="checkbox" name="sec_sel_desel" id="sec_sel_desel_l" onClick="checkAll('tab4',this)"></td>
+							<td><label for="sec_sel_desel_l">Select All</label></td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td colspan="2" class="label1">AAA Traps</td>
+						</tr>
+						<tr>
+							<td class="label2"><INPUT type="checkbox" name="trap_authentication" id="trap_authentication_l"></td>
+							<td><label for="trap_authentication_l">User Authentication</label></td>
+						</tr>
+						<tr>
+							<td class="label2"><INPUT type="checkbox" name="trap_servers" id="trap_servers_l"></td>
+							<td nowrap width="200"><label for="trap_servers_l">RADIUS Servers Not Responding</label></td>
+						</tr>
+						<tr>
+							<td colspan="2" class="label1">802.11 Security Traps</td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2"><INPUT type="checkbox" name="trap_wep_decrypt_error" id="trap_wep_decrypt_error_l"></td>
+							<td><label for="trap_wep_decrypt_error_l">WEP/WPA Decrypt Error</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2"><INPUT type="checkbox" name="trap_ids_signature_attack" id="trap_ids_signature_attack_l"></td>
+							<td><label for="trap_wep_ids_signature_attack_l">IDS Signature Attack</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2"><INPUT type="checkbox" name="trap_mfp" id="trap_mfp_l"></td>
+							<td><label for="trap_mfp_l">Mfp</label></td>
+						</tr>
+						<tr>
+							<td colspan="2" class="label1">Rogues</td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2"><INPUT type="checkbox" name="trap_rogueap" id="trap_rogueap_l" value="0"></td>
+							<td><label for="trap_rogueap_l">Rogue AP</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2"><INPUT type="checkbox" name="trap_adj_rogueap" id="trap_adj_rogueap_l" value="0"></td>
+							<td><label for="trap_adj_rogueap_l">Adjacent Channel Rogue</label></td>
+						</tr>
+						<tr>
+							<td colspan="2" class="label1">Management Traps</td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2"><INPUT type="checkbox" name="trap_authen" id="trap_authen_l"></td>
+							<td width="150"><label for="trap_authen_l">SNMP Authentication</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2"><INPUT type="checkbox" name="trap_multipleusers" id="trap_multipleusers_l"></td>
+							<td><label for="trap_multipleusers_l">Multiple Users</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2"><INPUT type="checkbox" name="trap_strongpwd" id="trap_strongpwd_l"></td>
+							<td><label for="trap_strongpwd_l">Strong Password</label></td>
+						</tr>
+					</table>
+
+				</table>
+			</div>
+		</div>
+		<!-- End of Security Tab -->
+
+
+		<!-- Start of Auto RF Tab -->
+ 		<div id="tab5" dojotype="ContentPane" label="Auto RF" style="display:none">
+			<div class="tabcontent">
+
+				<table>
+					<table align=right>
+						<tr class="notSupported">
+							<td class="label3"><INPUT type="checkbox" name="autorf_sel_desel" id="autorf_sel_desel_id" onClick="checkAll('tab5',this)" ></td>
+							<td><label for="autorf_sel_desel_id">Select All</label></td>
+						</tr>
+					</table>
+
+					<table>
+						<tr>
+							<td colspan="2" class="label1">Auto RF Profile Traps</td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2">
+								<INPUT type="checkbox" name="trap_load" id="trap_load_l">
+
+									</td>
+							<td width="150"><label for="trap_load_l"> Load Profile</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td  class="label2">
+								<INPUT type="checkbox" name="trap_noise" id="trap_noise_l">
+									</td>
+							<td><label for="trap_noise_l">Noise Profile</label></td>
+
+						</tr>
+						<tr class="notSupported">
+							<td class="label2">
+								<INPUT type="checkbox" name="trap_interference" id="trap_interference_l">
+									</td>
+							<td nowrap><label for="trap_interference_l">Interference Profile</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2">
+								<INPUT type="checkbox" name="trap_coverage" id="trap_coverage_l">
+									</td>
+							<td><label for="trap_coverage_l">Coverage Profile</label></td>
+						</tr>
+						<tr>
+							<td class="label1" colspan="2" nowrap>Auto RF Update Traps</td>
+						</tr>
+
+						<tr class="notSupported">
+							<td class="label2">
+								<INPUT type="checkbox" name="trap_channel" id="trap_channel_l">
+									</td>
+							<td><label for="trap_channel_l">Channel Update</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2">
+								<INPUT type="checkbox" name="trap_power" id="trap_power_l">
+									</td>
+							<td><label for="trap_power_l">Tx Power Update</label></td>
+						</tr>
+					</table>
+
+				</table>
+			</div>
+		</div>
+		<!-- End of Auto-RF Tab -->
+
+
+		<!-- Start of Mesh Tab -->
+		<div id="tab6" dojoType="ContentPane" label="Mesh" style="display:none">
+			<div class="tabcontent">
+
+				<table>
+
+					<table align=right>
+						<tr class="notSupported">
+							<td class="label3">
+								<INPUT type="checkbox" name="mesh_sel_desel" id="mesh_sel_desel_l" onClick="checkAll('tab6',this)" >
+									</td>
+							<td><label for="mesh_sel_desel_l">Select All</label></td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td colspan="2" class="label1">Mesh Traps</td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2">
+								<INPUT type="checkbox" name="child_excluded_parent" id="child_excluded_parent_l">
+									</td>
+							<td><label for="child_excluded_parent_l">Child Excluded Parent</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2">
+								<INPUT type="checkbox" name="parent_change" id="parent_change_l">
+									</td>
+							<td><label for="parent_change_l">Parent Change</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2">
+								<INPUT type="checkbox" name="authfailure_mesh" id="authfailure_mesh_l">
+									</td>
+							<td><label for="authfailure_mesh_l">Authfailure Mesh</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2">
+								<INPUT type="checkbox" name="child_moved" id="child_moved_l">
+									</td>
+							<td><label for="child_moved_l">Child Moved</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2">
+								<INPUT type="checkbox" name="excessive_parent_change" id="excessive_parent_change_l">
+									</td>
+							<td><label for="excessive_parent_change_l">Excessive Parent Change</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2">
+								<INPUT type="checkbox" name="excessive_children" id="excessive_children_l">
+									</td>
+							<td><label for="excessive_children_l">Excessive Children</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2">
+								<INPUT type="checkbox" name="poor_snr" id="poor_snr_l">
+									</td>
+							<td><label for="poor_snr_l">Poor SNR (Onset SNR and Abate SNR)</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2">
+								<INPUT type="checkbox" name="console_login" id="console_login_l">
+									</td>
+							<td><label for="console_login_l">Console Login</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2">
+								<INPUT type="checkbox" name="excessive_association" id="excessive_association_l">
+									</td>
+							<td><label for="excessive_association_l">Excessive Association</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2">
+								<INPUT type="checkbox" name="default_bgn" id="default_bgn_l">
+									</td>
+							<td><label for="default_bgn_l">Default Bridge Group Name</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2">
+								<INPUT type="checkbox" name="excessive_hopcount" id="excessive_hopcount_l" >
+									</td>
+							<td><label for="excessive_hopcount_l">Excessive Hopcount</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2">
+								<INPUT type="checkbox" name="sec_bh_change" id="sec_bh_change_l" >
+									</td>
+							<td><label for="sec_bh_change_l">Secondary Backhaul Change</label></td>
+						</tr>
+						<tr class="notSupported">
+							<td class="label2">
+								<INPUT type="checkbox" name="psk_auth_fail" id="psk_auth_fail_l" >
+									</td>
+							<td><label for="psk_auth_fail_l">PSK Auth Failure</label></td>
+						</tr>
+					</table>
+					</div>
+		</div>
+		<!-- End of Mesh Tab -->
+
+	</div>
+	<INPUT TYPE="hidden" NAME="buttonClicked" SIZE="16" MAXLENGTH="15" VALUE="0">
+	<INPUT TYPE="hidden" NAME="err_flag" SIZE="16" MAXLENGTH="15" VALUE="0">
+	<INPUT TYPE="hidden" NAME="err_msg" SIZE="512" MAXLENGTH="511" VALUE="">
+	<INPUT TYPE="hidden" NAME="info_flag" SIZE="16" MAXLENGTH="15" VALUE="0">
+	<INPUT TYPE="hidden" NAME="info_msg" SIZE="512" MAXLENGTH="511" VALUE="">
+
+</FORM>
+
+<?=PAGE-FOOTER=?>
+

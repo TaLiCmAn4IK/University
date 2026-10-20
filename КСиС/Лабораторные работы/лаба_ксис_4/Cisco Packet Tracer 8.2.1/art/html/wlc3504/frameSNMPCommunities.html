@@ -1,0 +1,149 @@
+<?=PAGE-HEADER=?>
+
+<script>
+
+function ptOnload() {
+}
+</script>
+
+                <!-- <script language="javascript" src="../../popup.js"></script> -->
+                <script>
+                    var numAttrs = new Array();
+                    thisFormAttrs = new formAttrs(numAttrs,null,null,null);
+                    businessLogicImplemented = true;
+                    function validateBusinessLogic(attrs) {
+                        // check if total entries is == 6 then don't allow
+                        // any more create
+                        var totalEntries = 0;
+                        for(var loop=0; loop < document.forms[0].elements.length;loop++){
+                            if(document.forms[0].elements[loop].name && (document.forms[0].elements[loop].name.indexOf("comm_name") > -1))
+                            totalEntries++;
+                        }
+                        if(totalEntries > 7)
+                        {
+                            alert("Can't create more than 6 entries");
+                            return false;
+                        }
+                        return true;
+
+                    }
+
+
+
+                function showIpsecparams(){
+                    var field_obj = document.getElementById("comm_ipsec_param_table");
+                    var showIpsec = document.forms[0].snmp_comm_ipsec.checked;
+                    if(showIpsec){
+                        field_obj.style.display = "block";
+                    }else
+                    field_obj.style.display = "none";
+                }
+                </script>
+    </head>
+
+        <FORM method="post" ACTION="/screens/snmp/snmp_comm_list.html">
+            <INPUT TYPE="hidden" NAME="access_control" SIZE="16" MAXLENGTH="15" VALUE="1">
+                <INPUT TYPE="hidden" NAME="csrf_token" SIZE="32" MAXLENGTH="32" VALUE="Vhnybety40W0gIeojP0kFGRUvcAjdCE">
+
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td class="pageTitle">
+                                <h1>SNMP v1 / v2c Community</h1>
+
+                            </td>
+                            <td align="right" class="pageTitle notSupported">
+                                <script>getHtmlForApplyButton();</script>
+                                <script>getHtmlForCreateNewButton("snmp_comm_create.html");</script>
+                                <script>getHtmlForHelpButton("SNMP_v1_v2c_Community","/helppages/wwhelp.htm");</script>
+                            </td>
+                        </tr>
+                        <tr>
+                            <table cellspacing="1" cellpadding="0" border="0" style="margin-top: 13px">
+                                <tr>
+                                    <th align="left">Community Name</th>
+                                    <th align="left">IP Address(Ipv4/Ipv6)</th>
+                                    <th align="left">IP Mask/Prefix Length</th>
+                                    <th align="left">Access Mode</th>
+                                    <th align="left">Status</th>
+                                    <th align="left">&nbsp;</th>
+                                </tr>
+
+
+<?=COMMUNITY-ENTRY-begin=?>
+                                <TR>
+                                    <TD class="listNoPad"><INPUT type="TEXT" name="1.0.2.comm_name" id="1.0.2.comm_name" class="statictextboxlist" readonly SIZE="36" MAXLENGTH="36" VALUE="<?=COMMUNITY-NAME=?>"></TD>
+                                    <TD class="listNoPad"><INPUT type="TEXT" name="1.0.2.cli_IP_addr" id="1.0.2.cli_IP_addr" class="statictextboxlist" readonly SIZE="50" MAXLENGTH="50" VALUE="0.0.0.0"></TD>
+                                    <TD class="listNoPad"><INPUT type="TEXT" name="1.0.2.cli_IP_mask" id="1.0.2.cli_IP_mask" class="statictextboxlist" readonly SIZE="16" MAXLENGTH="15" VALUE="0.0.0.0"></TD>
+                                    <TD class="listNoPad"><INPUT type="TEXT" name="1.0.2.acc_mode" id="1.0.2.acc_mode" class="statictextboxlist" readonly SIZE="16" MAXLENGTH="15" VALUE="<?=ACCESS-MODE=?>"></TD>
+                                    <TD class="listNoPad"><INPUT type="TEXT" name="1.0.2.status" id="1.0.2.status" class="statictextboxlist" readonly SIZE="16" MAXLENGTH="15" VALUE="Enable"></TD>
+                                    <script>addMenuItem("Remove","deleteAction",indexVal);</script>
+                                    <TD class=listNoPad><script>getHtmlForPopupMenu(indexVal);</script></TD>
+                                </tr>
+<?=COMMUNITY-ENTRY-end=?>
+
+<!--
+                                <TR>
+                                    <TD class="listNoPad">
+                                        <script>
+                                            var indexVal =0;
+                                            </script>
+
+                                        <INPUT TYPE="hidden" NAME="1.0.2.index" SIZE="16" MAXLENGTH="15" VALUE="0">
+                                            <SCRIPT>getHtmlForEdit(indexVal);</SCRIPT>
+                                            <INPUT type="TEXT" name="1.0.2.comm_name" class="statictextboxlink" readonly SIZE="36" MAXLENGTH="36" VALUE="public">
+                                                <SCRIPT>endHtmlEdit();</SCRIPT>
+                                    </TD>
+                                    <TD class="listNoPad"><INPUT type="TEXT" name="1.0.2.cli_IP_addr" class="statictextboxlist" readonly SIZE="50" MAXLENGTH="50" VALUE="0.0.0.0"></TD>
+                                    <TD class="listNoPad"><INPUT type="TEXT" name="1.0.2.cli_IP_mask" class="statictextboxlist" readonly SIZE="16" MAXLENGTH="15" VALUE="0.0.0.0"></TD>
+                                    <TD class="listNoPad"><INPUT type="TEXT" name="1.0.2.acc_mode" class="statictextboxlist" readonly SIZE="16" MAXLENGTH="15" VALUE="Read-Only"></TD>
+                                    <TD class="listNoPad"><INPUT type="TEXT" name="1.0.2.status" class="statictextboxlist" readonly SIZE="16" MAXLENGTH="15" VALUE="Enable"></TD>
+                                    <script>addMenuItem("Remove","deleteAction",indexVal);</script>
+                                    <TD class=listNoPad><script>getHtmlForPopupMenu(indexVal);</script></TD>
+                                </tr>
+-->
+                                <tr>
+                                    <td class="label1" width="200">IPSec Parameters</td>
+                                    <td width="160">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3" class="horizLine"><img src="../../images/spacer.gif" alt="" width="1" height="1"></td>
+                                </tr>
+
+                                <tr>
+                                    <td class="label2 notSupported" width="235">IPSec</td>
+                                    <td class="notSupported">
+                                        <INPUT type="checkbox" name="snmp_comm_ipsec" id="snmp_comm_ipsec" value="false" onClick="showIpsecparams()" >
+                                            </td>
+                                </tr>
+                            </table>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div id="comm_ipsec_param_table">
+                                    <table cellpadding="0" cellspacing="0" border="0">
+                                        <tr>
+                                            <table cellpadding="0" cellspacing="0" border="0">
+                                                <tr class="notSupported">
+                                                    <td class="label2" width="250">IPSec Profile Name</td>
+                                                    <td><SELECT name="ipsec_nameSnmp" id="ipsec_nameSnmp"><OPTION value="none" SELECTED>none</SELECT>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </td>
+                        </tr>
+                        <INPUT TYPE="hidden" NAME="indexClicked" SIZE="16" MAXLENGTH="15" VALUE="">
+                            <INPUT TYPE="hidden" NAME="buttonClicked" SIZE="16" MAXLENGTH="15" VALUE="">
+                                <INPUT TYPE="hidden" NAME="err_flag" SIZE="16" MAXLENGTH="15" VALUE="0">
+                                    <INPUT TYPE="hidden" NAME="err_msg" SIZE="512" MAXLENGTH="511" VALUE="">
+                                        <INPUT TYPE="hidden" NAME="info_flag" SIZE="16" MAXLENGTH="15" VALUE="">
+                                            <INPUT TYPE="hidden" NAME="info_msg" SIZE="512" MAXLENGTH="511" VALUE="">
+                                                </table>
+        </FORM>
+
+<?=PAGE-FOOTER=?>
+
+
+

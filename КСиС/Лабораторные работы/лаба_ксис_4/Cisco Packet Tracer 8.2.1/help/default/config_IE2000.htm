@@ -1,0 +1,152 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<title>Configuring ASA</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="styleNormal.css">
+	</head>
+	<body>
+
+
+		<p class="MainHeading1">
+			Configuring IE 2000
+			<hr>
+
+		<p>The <strong>Config</strong> tab for the IE 2000 offers four general levels of configuration: global, switching, and interface. The global level, switching and interface levels offer the same settings as a switch. Note that the <strong>Config</strong> tab provides an alternative to the CLI only for some simple, common features; to access the full set of switch commands that have been modeled you must use the CLI tab.</p>
+		<p>Throughout your configurations in the <strong>Config</strong> tab, the lower window will display the equivalent CLI commands for all your actions.</p>
+		<p>&nbsp;</p>
+
+		<p class="MainHeading2">Global Settings, Algorithm Settings, VLAN Database, Interface</p>
+		<p class="myList">For these sections of the <strong>Config</strong> tab, please refer to the Switches page as they function similarly with the switch config tab</p>
+
+		<p>&nbsp;</p>
+
+		<p class="MainHeading2">Resilient Ethernet Protocol (REP)</p>
+		<p class="myList">
+			Please refer to <a href="model_layer2.htm">Modeling > Layer 2</a> to understand how REP works.
+
+			<br>
+			<br>
+			The commands, used to configure L2NAT, are as follows: <br>
+			<blockquote>
+				<br>Switch# <strong>configure</strong><br>
+				<br>Switch(config)# <strong>l2nat instance</strong><br>
+				<br>Switch(config-l2nat)# <strong>inside from</strong><br>
+				<br>Switch(config-l2nat)# <strong>outside from</strong><br>
+				<br>Switch(config)# <strong>interface (GigabitEthernet ...)</strong><br>
+				<br>Switch(config-if)# <strong>l2nat</strong><br>
+				<br>Switch# <strong>show l2nat instance</strong><br>
+				<br>Switch# <strong>show l2nat statistics</strong><br>
+			</blockquote>
+			<br />
+		</p>
+
+		<p class="MainHeading2">Precision Time Protocol (PTP)</p>
+		<p class="myList">
+			Please refer to <a href="model_layer2.htm">Modeling > Layer 2</a> to understand how PTP works.
+			<br>
+			<br>
+			<strong>Configuring Layer 2 PTP Default Profile:</strong> To configure Layer 2 PTP globally, follow these steps:<br>
+			<blockquote>
+				<br>Switch# <strong>configure terminal</strong><br>
+				<br>Switch(config)# <strong>ptp mode</strong> { boundary | e2etransparent | forward }<br>
+				<br>Switch(config)# <strong>interface</strong> interface-id<br>
+				<br>Switch(config-if)# <strong>switchport mode</strong> { access | trunk }<br>
+				<br>Switch(config-if)# <strong>switchport trunk allowed vlan</strong>  { {add | except | remove } vlan_list | all | none }<br>
+				<br>Switch(config-if)# <strong>switchport access vlan</strong> vlan-id<br>
+				<br>Switch(config-if)# <strong>ptp vlan</strong> vlan-id<br>
+				<br>Switch(config-if)# <strong>end</strong><br>
+			</blockquote>
+			<br>
+
+			<strong>Disabling PTP on an interface:</strong>  ** PTP is enabled on all the ports, by default. To disable PTP on an interface, follow these steps:<br>
+			<blockquote>
+				<br>Switch# <strong>configure terminal</strong><br>
+				<br>Switch(config)# <strong>interface</strong> interface-id<br>
+				<br>Switch(config-if)# <strong>[no] ptp enable</strong><br>
+				<br>Switch(config-if)# <strong>end</strong><br>
+			</blockquote>:
+			<br>
+
+			<strong>Configuring PTP Timers:</strong> To change the PTP timer values from default to required values, follow these steps:<br>
+			<blockquote>
+				<br>Switch# <strong>configure terminal</strong><br>
+				<br>Switch(config)# <strong>interface</strong> interface-id<br>
+				<br>Switch(config-if)# (optional) <strong>ptp announce</strong>  { interval seconds | timeout count } <br>
+				<br>Switch(config-if)# (optional) <strong>ptp sync</strong>  { interval seconds | limit offset-value } <br>
+				<br>Switch(config-if)# (optional) <strong> ptp delay-req interval</strong> seconds<br>
+				<br>Switch(config-if)# <strong>end</strong><br>
+			</blockquote>
+			<br>
+
+			<strong>Configuring the values of PTP clocks:</strong> You can configure the values of ptp clock priority1 and priority2 using the commands below:<br>
+			<blockquote>
+				<br>Switch# <strong>configure terminal</strong><br>
+				<br>Switch(config)# <strong>interface</strong> interface-id<br>
+				<br>Switch(config-if)# <strong>ptp priority1</strong> value<br>
+				<br>Switch(config-if)# <strong>ptp pirority2</strong> value<br>
+				<br>Switch(config-if)# <strong>end</strong><br>
+			</blockquote>
+			<br />
+		</p>
+
+		<p>&nbsp;</p>
+		<p class="MainHeading2">Layer-2 NAT</p>
+		<p class="myList">
+			Please refer to <a href="model_layer2.htm">Modeling > Layer 2</a> to understand how L2NAT works.
+			<br>
+			<br>
+			The commands, used to configure L2NAT, are as follows: <br>
+			<blockquote>
+				<br>Switch# <strong>configure terminal</strong><br>
+				<br>Switch(config)# <strong>l2nat instance</strong><br>
+				<br>Switch(config-l2nat)# <strong>inside from</strong><br>
+				<br>Switch(config-l2nat)# <strong>outside from</strong><br>
+				<br>Switch(config)# <strong>interface</strong> interface-id<br>
+				<br>Switch(config-if)# <strong>l2nat</strong><br>
+				<br>Switch# <strong>show l2nat instance</strong><br>
+				<br>Switch# <strong>show l2nat statistics</strong><br>
+			</blockquote>
+		</p>
+
+		<p>&nbsp;</p>
+		<p class="MainHeading2">DHCP Server Port-Based Address Allocation</p>
+		<p class="myList">
+			Please refer to <a href="model_layer2.htm">Modeling > Layer 2</a> to understand how the DHCP Server Port-Based Address Allocation works.
+			<br>
+			<br>
+			The commands, used to configure L2 DHCP, are as follows: <br>
+			<blockquote>
+				<br>Switch# <strong>configure terminal</strong><br>
+				<br>Switch(config)# <strong>ip dhcp use</strong> subscriber-id client-id<br>
+				<br>Switch(config)# <strong>ip dhcp pool</strong> WORD<br>
+				<br>Switch(dhcp-config)# <strong>address X.X.X.X client-id</strong> WORD ascii<br>
+				<br>Switch(dhcp-config)# <strong>address X.X.X.X hardware-address</strong> WORD<br>
+			</blockquote>
+		</p>
+		<p>&nbsp;</p>
+		<p class="MainHeading2">Licensing Upgrade</p>
+		<p class="myList">
+			Four different licenses on the switch IE 2000:<br><br>
+			<ul>
+				<li><strong>LAN Lite</strong> — Reduced Layer 2 functionality without the loss of critical security features such as SSH and SNMPv3.</li>
+				<li><strong>LAN Base</strong> — Full Layer 2 switching features including quality of service (QoS), port security, 1588v2 PTP, and static routing features.</li>
+				<li><strong>Enhanced LAN Base</strong> — Includes all LAN Base features plus Layer 2 Network Address Translation.</li>
+				<li><strong>IP Lite</strong> — Basic layer 3 functionality and IPv6 support.</li>
+			</ul>
+			<br>
+			The commands, used to configure the IE 2000 license upgrade, are as follows: <br>
+			<blockquote>
+				<br>Switch# <strong>configure terminal</strong><br>
+				<br>Switch(config)# <strong>[no] license boot level enhancedlanbase</strong><br>
+				<br>Switch(config)# <strong>[no] license boot level lanbase</strong><br>
+				<br>Switch# <strong>show license</strong><br>
+				<br>Switch# <strong>show license udi</strong><br>
+				<br>Switch# <strong>show license feature</strong><br>
+				<br>Switch# <strong>show license detail</strong><br>
+				<br>Switch# <strong>show license all</strong><br>
+			</blockquote>
+			<br />
+		</p>
+	</body>
+</html>

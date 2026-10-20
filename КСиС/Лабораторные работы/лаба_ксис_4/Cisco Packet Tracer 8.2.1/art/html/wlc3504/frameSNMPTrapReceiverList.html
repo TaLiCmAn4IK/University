@@ -1,0 +1,125 @@
+<?=PAGE-HEADER=?>
+
+<script language="JavaScript">
+
+function ptOnload()
+{
+}
+
+function receiverEditAction(community, ip, status)
+{
+   document.forms[0].comm_name.value = community;
+   document.forms[0].IP_addr.value = ip;
+   document.forms[0].status.value = status;
+   document.forms[0].buttonClicked.value = EDIT_CLICKED;
+   submitTheDataForm();
+}
+
+function receiverDeleteAction(community)
+{
+   document.forms[0].comm_name.value = community;
+   document.forms[0].buttonClicked.value = DELETE_CLICKED;
+   submitTheDataForm();
+}
+
+function submitTheDataForm()
+{
+  top.CHttpFormExtractor.clearKeyValues();
+  top.CHttpFormExtractor.addKeyValue("buttonClicked", document.forms[0].buttonClicked.value);
+  top.CHttpFormExtractor.addKeyValue("comm_name", document.forms[0].comm_name.value);
+  top.CHttpFormExtractor.addKeyValue("IP_addr", document.forms[0].IP_addr.value);
+  top.CHttpFormExtractor.addKeyValue("status", document.forms[0].status.value);
+
+  document.forms[0].submit();
+  return false;
+}
+
+</script>
+
+
+<FORM method="post" ACTION="frameSNMPTrapReceiverList.html">
+<INPUT TYPE="hidden" NAME="comm_name" VALUE="">
+<INPUT TYPE="hidden" NAME="IP_addr" VALUE="">
+<INPUT TYPE="hidden" NAME="status" VALUE="">
+
+
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td class="pageTitle">
+                                <h1>SNMP Trap Receiver</h1>
+
+                            </td>
+                            <td align="right" class="pageTitle">
+                                <script>
+                                    getHtmlForCreateNewButton("frameSNMPTrapReceiverCreate.html");
+                                    </script>
+
+                                &nbsp;&nbsp;&nbsp;
+                                <script>getHtmlForHelpButton("SNMP_Trap_Receiver","/helppages/wwhelp.htm");</script>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <table border="0" cellspacing="0" cellpadding="0">
+
+                                    <tr>
+                                        <td style="padding-top: 13px">
+                                            <table border="0" cellspacing="1" cellpadding="0" width="600">
+                                                <tr>
+                                                    <th align="left">SNMP Trap Receiver Name</Th>
+                                                    <th align="left">IP Address(Ipv4/Ipv6)</Th>
+                                                    <th align="left">Status</Th>
+                                                    <th align="left">IPSec</Th>
+                                                    <th align="left">&nbsp;</th>
+                                                </TR>
+
+<?=TRAP-RECEIVER-begin=?>
+<TR>
+	<TD class="listNoPad">
+		<INPUT type="TEXT" name="1.<?=RECEIVER-INDEX=?>.<?=RECEIVER-COUNT=?>.comm_name" id="1.<?=RECEIVER-INDEX=?>.<?=RECEIVER-COUNT=?>.comm_name" class="statictextboxlink" onclick="javascript:receiverEditAction('<?=COMMUNITY-NAME=?>', '<?=RECEIVER-IP=?>', '<?=RECEIVER-ENABLED=?>')" readonly SIZE="36" MAXLENGTH="35" VALUE="<?=COMMUNITY-NAME=?>">
+	</TD>
+	<TD class="listNoPad">
+		<INPUT type="TEXT" name="1.<?=RECEIVER-INDEX=?>.<?=RECEIVER-COUNT=?>.IP_addr" id="1.<?=RECEIVER-INDEX=?>.<?=RECEIVER-COUNT=?>.IP_addr" class="statictextboxlist" readonly SIZE="50" MAXLENGTH="50" VALUE="<?=RECEIVER-IP=?>">
+	</TD>
+	<TD class="listNoPad">
+		<INPUT type="TEXT" name="1.<?=RECEIVER-INDEX=?>.<?=RECEIVER-COUNT=?>.status" id="1.<?=RECEIVER-INDEX=?>.<?=RECEIVER-COUNT=?>.status" class="statictextboxlist" readonly SIZE="16" MAXLENGTH="16" VALUE="<?=RECEIVER-ENABLED=?>">
+	</TD>
+	<TD class="listNoPad">
+		<INPUT type="TEXT" name="1.<?=RECEIVER-INDEX=?>.<?=RECEIVER-COUNT=?>.trap_ipsec" id="1.<?=RECEIVER-INDEX=?>.<?=RECEIVER-COUNT=?>.trap_ipsec" class="statictextboxlist" readonly SIZE="16" MAXLENGTH="16" VALUE="Disable"></TD>
+	</TD class="listNoPad">
+	<TD class=listNoPad><a href="javascript:receiverDeleteAction('<?=COMMUNITY-NAME=?>');" id="1.<?=RECEIVER-INDEX=?>.<?=RECEIVER-COUNT=?>.remove">Remove</a></TD>
+</tr>
+<?=TRAP-RECEIVER-end=?>
+
+
+                                            </table>
+                                        </td>
+
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <TR>
+                            <TD ALIGN=left><INPUT TYPE="hidden" NAME="indexClicked" SIZE="16" MAXLENGTH="15" VALUE=""></TD>
+                            <TD ALIGN=left><INPUT TYPE="hidden" NAME="buttonClicked" SIZE="16" MAXLENGTH="15" VALUE=""></TD>
+                        </TR>
+                        <TR>
+                            <TD ALIGN=left><INPUT TYPE="hidden" NAME="err_flag" SIZE="16" MAXLENGTH="15" VALUE="0"></TD>
+                        </TR>
+
+                        <TR>
+                            <TD ALIGN=left><INPUT TYPE="hidden" NAME="err_msg" SIZE="32" MAXLENGTH="31" VALUE=""></TD>
+                        </TR>
+                        <TR>
+                            <TD ALIGN=left><INPUT TYPE="hidden" NAME="info_flag" SIZE="16" MAXLENGTH="15" VALUE=""></TD>
+                        </TR>
+                        <TR>
+                            <TD ALIGN=left><INPUT TYPE="hidden" NAME="info_msg" SIZE="32" MAXLENGTH="31" VALUE=""></TD>
+                        </TR>
+
+                    </TABLE>
+        </FORM>
+
+<?=PAGE-FOOTER=?>
+
+

@@ -1,0 +1,557 @@
+<?=PAGE-HEADER=?>
+
+<script>
+
+function ptOnload() {
+}
+
+function clearAction(portNum)
+{
+	debugMsg("<submitAction>");
+	var noerror = true;
+	if(thisFormAttrs != null)
+		noerror = validateForm(document.forms[0],thisFormAttrs);
+	if(noerror && businessLogicImplemented)
+		noerror = validateBusinessLogic(document.forms[0].thisFormAttrs);
+	if(noerror)
+	{
+		document.forms[0].buttonClicked.value = CLEAR_CLICKED;
+
+		top.CHttpFormExtractor.clearKeyValues();
+		top.CHttpFormExtractor.addKeyValue("buttonClicked", document.forms[0].buttonClicked.value);
+		top.CHttpFormExtractor.addKeyValue("portNum", portNum);
+
+		document.forms[0].submit();
+	}
+
+	return false;
+}
+
+</script>
+
+        <FORM method="post" ACTION="frameStatisticsPort.html">
+            <INPUT TYPE="hidden" NAME="access_control" SIZE="16" MAXLENGTH="15" VALUE="1">
+                <INPUT TYPE="hidden" NAME="csrf_token" SIZE="32" MAXLENGTH="32" VALUE="u7r1YbGDqJIjcv1efnb4xczJQdsRAAJ">
+                    <table CELLSPACING="0" WIDTH="100%" cellpadding="0" border="0">
+
+                        <tr>
+                            <td nowrap class="pageTitle">
+                                <h1>Ports &gt; Statistics</h1>
+                            </td>
+                            <td align="right" class="pageTitle">
+                                <!-- <script>getHtmlForBackButton();</script> -->
+                                <input type="button" name="back" id="back" value="< Back" class="button"  onClick="window.location.href='frameStatisticsPortList.html'">
+                                &nbsp;&nbsp;&nbsp;
+                                <script>getHtmlForHelpButton("Ports_Statistics1","/helppages/wwhelp.htm");</script>
+                            </td>
+                        </tr>
+                    </table>
+                    <table border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td width="105" class="label1">Port Number</td>
+                            <td class="label1">
+                                <INPUT type=TEXT class="statictextboxlistright" name="stats_intf" id="stats_intf" readonly SIZE="10" MAXLENGTH="9" VALUE="<?=PORT-NUM=?>">
+                                    </td>
+
+                        </tr>
+                    </table>
+                    <table border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td valign="top">
+                                <table cellspacing=1 cellpadding="0" border="0" style="margin-top: 11px">
+                                    <tr>
+                                        <th align="left" width="180">Traffic</th>
+                                        <th align="right">Received</th>
+
+                                        <th align="right">Transmitted</th>
+                                    </tr>
+                                    <tr>
+                                        <td class="list" ><b>Total Bytes</b></td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="Octets" id="Octets" readonly SIZE="21" MAXLENGTH="20" VALUE="<?=IN-BYTES=?>">
+                                                </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="tot_tx_octets" id="tot_tx_octets" readonly SIZE="21" MAXLENGTH="20" VALUE="<?=OUT-BYTES=?>">
+
+                                                </td>
+                                        <!-- etherStatsOctets -->
+                                    </tr>
+                                    <tr>
+                                        <td class="list" >Packets (64 Octets)</td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="Octets64" id="Octets64" readonly SIZE="21" MAXLENGTH="20" VALUE="<?=IN-64PACKETS=?>">
+                                                </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="TXOctets64" id="TXOctets64" readonly SIZE="21" MAXLENGTH="20" VALUE="<?=OUT-64PACKETS=?>">
+
+                                                </td>
+                                        <!-- etherStats64Octets -->
+                                    </tr>
+                                    <tr>
+                                        <td class="list" >Packets (65 - 127 Octets) </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="Octets65to127" id="Octets65to127" readonly SIZE="21" MAXLENGTH="20" VALUE="<?=IN-65TO127PACKETS=?>">
+                                                </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="TXOctets65to127" id="TXOctets65to127" readonly SIZE="21" MAXLENGTH="20" VALUE="<?=OUT-65TO127PACKETS=?>">
+
+                                                </td>
+                                        <!-- etherStats65to127Octets -->
+                                    </tr>
+                                    <tr>
+                                        <td class="list" >Packets (128 - 255 Octets) </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="Octets128to255" id="Octets128to255" readonly SIZE="21" MAXLENGTH="20" VALUE="<?=IN-128TO255PACKETS=?>">
+                                                </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="TXOctets128to255" id="TXOctets128to255" readonly SIZE="21" MAXLENGTH="20" VALUE="<?=OUT-128TO255PACKETS=?>">
+
+                                                </td>
+                                        <!-- etherStats128to255Octets -->
+                                    </tr>
+                                    <tr>
+                                        <td class="list" >Packets (256 - 511 Octets) </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="Octets256to511" id="Octets256to511" readonly SIZE="21" MAXLENGTH="20" VALUE="<?=IN-256TO511PACKETS=?>">
+                                                </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="TXOctets256to511" id="TXOctets256to511" readonly SIZE="21" MAXLENGTH="20" VALUE="<?=OUT-256TO511PACKETS=?>">
+
+                                                </td>
+                                        <!-- etherStats256to511Octets -->
+                                    </tr>
+                                    <tr>
+                                        <td class="list" >Packets (512 - 1023 Octets) </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="Octets512to1023" id="Octets512to1023" readonly SIZE="21" MAXLENGTH="20" VALUE="<?=IN-512TO1023PACKETS=?>">
+                                                </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="TXOctets512to1023" id="TXOctets512to1023" readonly SIZE="21" MAXLENGTH="20" VALUE="<?=OUT-512TO1023PACKETS=?>">
+
+                                                </td>
+                                        <!-- etherStats512to1023Octets -->
+                                    </tr>
+                                    <tr>
+                                        <td class="list" >Packets (1024 - 1518 Octets) </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="Octets1024to1518" id="Octets1024to1518" readonly SIZE="21" MAXLENGTH="20" VALUE="<?=IN-1024TO1518PACKETS=?>">
+                                                </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="TXOctets1024to1518" id="TXOctets1024to1518" readonly SIZE="21" MAXLENGTH="20" VALUE="<?=OUT-1024TO1518PACKETS=?>">
+                                                </td>
+                                        <!-- etherStats1024to5180Octets -->
+                                    </tr>
+
+                                    <tr>
+                                        <td class="list" >Packets (1519 - 1530 Octets) </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="Octets1519to1530" id="Octets1519to1530" readonly SIZE="21" MAXLENGTH="20" VALUE="<?=IN-1519TO1530PACKETS=?>">
+                                                </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="TXOctets1519to1530" id="TXOctets1519to1530" readonly SIZE="21" MAXLENGTH="20" VALUE="<?=OUT-1519TO1530PACKETS=?>">
+
+                                                </td>
+                                    </tr>
+                                    <tr>
+                                        <!-- etherStatsOversizePkts -->
+                                        <td class="list" >Packets (> 1530 Octets) </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="GT1530" id="GT1530" readonly SIZE="21" MAXLENGTH="20" VALUE="<?=IN-GREATER1530PACKETS=?>">
+                                                </td>
+                                        <td class="listNoPad">&nbsp; </td>
+
+                                        <!-- etherStatsOversizePkts -->
+                                    </tr>
+
+
+                                </table>
+                                <table cellpadding="0" cellspacing="1" border="0" style="margin-top: 11px">
+                                    <tr>
+                                        <th align="left" nowrap width="180" >Maximum Info size allowed</th>
+                                        <td align="left" class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="max_info" id="max_info" readonly SIZE="21" MAXLENGTH="20" VALUE="1522">
+                                                </td>
+                                    </tr>
+                                </table>
+                                <table cellpadding="0" cellspacing="1" border="0" style="margin-top: 11px">
+                                    <!-- Received Packets without error -->
+                                    <tr>
+                                        <th align="left" width="180">Successful Packets</th>
+                                        <th align="right">Received</th>
+
+                                        <th align="right">Transmitted</th>
+                                    </tr>
+                                    <tr>
+                                        <td class="list" ><b>Total </b></td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="RxGoodPkts" id="RxGoodPkts" readonly SIZE="21" MAXLENGTH="20" VALUE="<?=IN-TOTALPACKETS=?>">
+                                                </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="PortOutFrames" id="PortOutFrames" readonly SIZE="21" MAXLENGTH="20" VALUE="<?=OUT-TOTALPACKETS=?>">
+
+                                                </td>
+                                        <!-- Pkts Rx Successfully -->
+                                    </tr>
+                                    <tr>
+                                        <td class="list" >Unicast Packets </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="IfInUPkts" id="IfInUPkts" readonly SIZE="21" MAXLENGTH="20" VALUE="<?=IN-TOTALUNICASTPACKETS=?>">
+                                                </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="IfOutUcastPkts" id="IfOutUcastPkts" readonly SIZE="21" MAXLENGTH="20" VALUE="<?=OUT-TOTALUNICASTPACKETS=?>">
+
+                                                </td>
+                                        <!-- ifInUcastPkts -->
+                                    </tr>
+                                    <tr>
+                                        <td class="list" >Multicast Packets </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="McastPkts" id="McastPkts" readonly SIZE="21" MAXLENGTH="20" VALUE="<?=IN-TOTALMULTICASTPACKETS=?>">
+                                                </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="TxMcastPkts" id="TxMcastPkts" readonly SIZE="21" MAXLENGTH="20" VALUE="<?=OUT-TOTALMULTICASTPACKETS=?>">
+
+                                                </td>
+                                        <!-- etherStatsMulticastPKts -->
+                                    </tr>
+                                    <tr>
+                                        <td class="list" nowrap >Broadcast Packets </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="BcastPkts" id="BcastPkts" readonly SIZE="21" MAXLENGTH="20" VALUE="<?=IN-TOTALBROADCASTPACKETS=?>">
+                                                </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="TxBcastPkts" id="TxBcastPkts" readonly SIZE="21" MAXLENGTH="20" VALUE="<?=OUT-TOTALBROADCASTPACKETS=?>">
+
+                                                </td>
+                                        <!-- etherStatsBroadcastPKts -->
+                                    </tr>
+                                </table>
+                                <table cellpadding="0" border="0" cellspacing="1" style="margin-top: 11px">
+                                    <tr>
+                                        <th align="left" width="180">Protocol Statistics</th>
+                                        <th align="right">Received</th>
+
+                                        <th align="right">Transmitted </th>
+                                        <!-- tx_total_errors -->
+                                    </tr>
+                                    <!-- discards -->
+                                    <!-- Protocol Stastics-->
+
+
+                                    <tr>
+                                        <td class="list" >BPDUs</td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="BpdusRx" id="BpdusRx" readonly SIZE="21" MAXLENGTH="20" VALUE="0">
+
+                                                </td>
+                                        <!-- BPDU's Received -->
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="BpdusTx" id="BpdusTx" readonly SIZE="21" MAXLENGTH="20" VALUE="0">
+                                                </td>
+                                    </tr>
+                                    <!--  End of USMWEB_IF_NOT_NEW_FP_CODE_AND_NOT_NP3454 -->
+                                    <!--<tr>
+                                     <td class="list" >GVRP PDs</td>
+                                     <td class="listNoPad">
+                                     <INPUT type=TEXT class="statictextboxlistright" name="GvrpPdusRx" readonly SIZE="10" MAXLENGTH="9" VALUE="0">
+
+                                     </td>
+                                     <td class="listNoPad">
+                                     <INPUT type=TEXT class="statictextboxlistright" name="GvrpPdusTx" readonly SIZE="10" MAXLENGTH="9" VALUE="0">
+                                     </td>
+                                     </tr>-->
+                                    <tr>
+                                        <td class="list" >802.3x Pause Frames Received </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="InPauseFrames" id="InPauseFrames" readonly SIZE="21" MAXLENGTH="20" VALUE="0">
+
+                                                </td>
+                                        <!-- dot3InPauseFrames -->
+                                        <td class="listNoPad">&nbsp; </td>
+                                    </tr>
+                                    <!--<tr>
+                                     <td class="list" >GVRP Failed Registrations</td>
+                                     <td class="listNoPad">&nbsp; </td>
+                                     <td class="listNoPad">
+                                     <INPUT type=TEXT class="statictextboxlistright" name="GvrpFailedReg" readonly SIZE="10" MAXLENGTH="9" VALUE="0">
+                                     </td>
+                                     </tr>-->
+                                </table>
+                                <table cellpadding="0" cellspacing="1" border="0" style="margin-top: 11px">
+                                    <tr>
+                                        <th align="left" nowrap width="263" >Time Since Counters Last Cleared</th>
+                                        <!-- Time Since Counters last cleared -->
+
+                                    </tr>
+                                    <tr>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlist" name="TimeSnceCntrClear" id="TimeSnceCntrClear" readonly SIZE="30" MAXLENGTH="30" VALUE="<?=LAST-CLEARED-DT=?>">
+                                                </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <script>getHtmlForButton("clear","Clear Counters","buttonStretch","clearAction('<?=PORT-NUM=?>')"); </script>
+                                        </td>
+                                    </tr>
+
+
+                                </table>
+                            </td>
+                            <td width="26">&nbsp;</td>
+                            <td valign="top">
+                                <table cellpadding="0" border="0" cellspacing="1" style="margin-top: 11px">
+                                    <!-- Received Packets with Mac Errors -->
+                                    <tr>
+                                        <th  colspan="2" align="left">Received Packets with MAC Errors</th>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="list" width="180" ><b>Total </b></td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="IfInErrors" id="IfInErrors" readonly SIZE="10" MAXLENGTH="9" VALUE="0">
+                                                </td>
+                                        <!-- Total -->
+                                    </tr>
+                                    <tr>
+                                        <td class="list" >Jabbers </td>
+
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="Jabbers" id="Jabbers" readonly SIZE="10" MAXLENGTH="9" VALUE="0">
+                                                </td>
+                                        <!-- etherStatsJabbers -->
+                                    </tr>
+                                    <tr>
+                                        <td class="list" >Fragments/Undersize </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="Fragments" id="Fragments" readonly SIZE="10" MAXLENGTH="9" VALUE="0">
+                                                </td>
+
+                                        <!-- etherStatsFragments -->
+                                    </tr>
+                                    <tr>
+                                        <td class="list" >Alignment Errors </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="AlgnErrors" id="AlgnErrors" readonly SIZE="10" MAXLENGTH="9" VALUE="0">
+                                                </td>
+                                        <!-- dot3StatsAlignmentErrors -->
+                                    </tr>
+
+                                    <tr>
+                                        <td class="list" >FCS Errors </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="rxfcs" id="rxfcs" readonly SIZE="10" MAXLENGTH="9" VALUE="0">
+                                                </td>
+                                        <!-- FCS Errors -->
+                                    </tr>
+                                    <tr>
+                                        <td class="list" >Overruns </td>
+
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="overruns" id="overruns" readonly SIZE="10" MAXLENGTH="9" VALUE="0">
+                                                </td>
+                                        <!-- overruns -->
+                                    </tr>
+                                </table>
+                                <table cellpadding="0" cellspacing="1" border="0" style="margin-top: 11px">
+                                    <!--Received Packets Not Forwarded -->
+                                    <tr>
+                                        <th  colspan=2 align="left">Received Packets Not Forwarded</th>
+
+                                    </tr>
+                                    <tr>
+                                        <td class="list" width="180" ><b>Total </b></td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="tot_rec_not_for" id="tot_rec_not_for" readonly SIZE="10" MAXLENGTH="9" VALUE="0">
+                                                </td>
+                                        <!-- Total -->
+                                    </tr>
+                                    <tr>
+                                        <td class="list" >Local Traffic Frames </td>
+
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="loc_traffic" id="loc_traffic" readonly SIZE="10" MAXLENGTH="9" VALUE="0">
+                                                </td>
+                                        <!-- Local Traffic Frames -->
+                                    </tr>
+                                    <tr>
+                                        <td class="list" >802.3x Pause Frames Received </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="rx_pause" id="rx_pause" readonly SIZE="10" MAXLENGTH="9" VALUE="0">
+                                                </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td class="list" >Unacceptable Frame Type </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="UnacFrameTypes" id="UnacFrameTypes" readonly SIZE="10" MAXLENGTH="9" VALUE="0">
+                                                </td>
+                                        <!-- unacceptable Frame types -->
+                                    </tr>
+                                    <tr>
+                                        <td class="list" >VLAN Membership Mismatch </td>
+
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="VlanMismatch" id="VlanMismatch" readonly SIZE="10" MAXLENGTH="9" VALUE="0">
+                                                </td>
+                                        <!-- VLAN Mismatch -->
+                                    </tr>
+                                    <tr>
+                                        <td class="list" >VLAN Viable Discards </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="vlan_viable" id="vlan_viable" readonly SIZE="10" MAXLENGTH="9" VALUE="0">
+                                                </td>
+
+                                        <!-- vlan viable discards -->
+                                    </tr>
+                                    <tr>
+                                        <td class="list" >Multicast Tree Viable Discards </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="mult_viable" id="mult_viable" readonly SIZE="10" MAXLENGTH="9" VALUE="0">
+                                                </td>
+                                        <!-- Multicast tree viable -->
+                                    </tr>
+
+                                    <tr>
+                                        <td class="list" >Reserved Address Discards </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="res_addr" id="res_addr" readonly SIZE="10" MAXLENGTH="9" VALUE="0">
+                                                </td>
+                                        <!-- reserve address discards -->
+                                    </tr>
+                                    <!--<tr>
+                                     <td class="list" >Broadcast Storm Recovery </td>
+
+                                     <td class="listNoPad">
+                                     <INPUT type=TEXT class="statictextboxlistright" name="bdcast_rec" readonly SIZE="10" MAXLENGTH="9" VALUE="0">
+                                     </td>
+                                     </tr>-->
+                                    <tr>
+                                        <td class="list" >CFI Discards </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="cfi" id="cfi" readonly SIZE="10" MAXLENGTH="9" VALUE="0">
+                                                </td>
+
+                                        <!-- reserve address discards -->
+                                    </tr>
+                                    <tr>
+                                        <td class="list" >Upstream Threshold </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="up_thresh" id="up_thresh" readonly SIZE="10" MAXLENGTH="9" VALUE="0">
+                                                </td>
+                                        <!-- reserve address discards -->
+                                    </tr>
+
+                                    <!-- TRANSMITS -->
+                                    <!-- Packets Transmitted (OCTETS) -->
+                                    <!-- Packets Transmitted Successfully -->
+                                    <!-- Transmit Errors and Discards -->
+                                </table>
+                                <table cellpadding="0" border="0" cellspacing="1" style="margin-top: 11px">
+                                    <!-- Received Packets with Mac Errors -->
+                                    <tr>
+                                        <th  colspan=2 align="left">Transmit Errors</th>
+
+                                    </tr>
+                                    <tr>
+                                        <!-- Total -->
+                                        <td class="list" width="180"><b>Total Errors </b></td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="TxTotalErrors" id="TxTotalErrors" readonly SIZE="10" MAXLENGTH="9" VALUE="0">
+                                                </td>
+                                    </tr>
+                                    <tr>
+                                        <!-- etherStatsJabbers -->
+
+                                        <td class="list">FCS Errors </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="txfcs" id="txfcs" readonly SIZE="10" MAXLENGTH="9" VALUE="0">
+                                                </td>
+                                    </tr>
+                                    <tr>
+                                        <!-- etherStatsFragments -->
+                                        <td class="list">Oversized </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="tx_oversize" id="tx_oversize" readonly SIZE="10" MAXLENGTH="9" VALUE="0">
+
+                                                </td>
+                                    </tr>
+                                    <tr>
+                                        <!-- dot3StatsAlignmentErrors -->
+                                        <td class="list">Underrun Errors </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="underrun_errs" id="underrun_errs" readonly SIZE="10" MAXLENGTH="9" VALUE="0">
+                                                </td>
+                                    </tr>
+
+                                </table>
+                                <table cellpadding="0" border="0" cellspacing="1" style="margin-top: 11px">
+                                    <tr align="left">
+                                        <th  COLSPAN=2 >Transmit Discards</th>
+                                    </tr>
+                                    <tr>
+                                        <!-- FCS Errors -->
+                                        <td class="list" width="180"><b>Total Discards </b></td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="TxTotalDiscards" id="TxTotalDiscards" readonly SIZE="10" MAXLENGTH="9" VALUE="0">
+
+                                                </td>
+                                    </tr>
+                                    <tr>
+                                        <!-- overruns -->
+                                        <td class="list">Single Collision Frames </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="sing_coll" id="sing_coll" readonly SIZE="10" MAXLENGTH="9" VALUE="0">
+                                                </td>
+                                    </tr>
+
+                                    <!--Received Packets Not Forwarded -->
+                                    <tr>
+                                        <td  COLSPAN=1 class="list">Excessive Collisions </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="excess_coll" id="excess_coll" readonly SIZE="10" MAXLENGTH="9" VALUE="0">
+                                                </td>
+                                    </tr>
+                                    <tr>
+                                        <!-- Total -->
+                                        <td class="list">Port Membership </td>
+
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="port_mem" id="port_mem" readonly SIZE="10" MAXLENGTH="9" VALUE="0">
+                                                </td>
+                                    </tr>
+                                    <tr>
+                                        <!-- Local Traffic Frames -->
+                                        <td class="list">VLAN Viable Discards </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="tx_vlan_disc" id="tx_vlan_disc" readonly SIZE="10" MAXLENGTH="9" VALUE="0">
+                                                </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td  COLSPAN=1 class="list">Multiple Collision Frames </td>
+                                        <td class="listNoPad">
+                                            <INPUT type=TEXT class="statictextboxlistright" name="mult_coll" id="mult_coll" readonly SIZE="10" MAXLENGTH="9" VALUE="0">
+                                                </td>
+                                    </tr>
+                                    <!-- TRANSMITS -->
+                                    <!-- Packets Transmitted (OCTETS) -->
+
+                                    <!-- Packets Transmitted Successfully -->
+                                    <!-- Transmit Errors and Discards -->
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <INPUT TYPE="hidden" NAME="index" SIZE="16" MAXLENGTH="15" VALUE="0">
+                        <INPUT TYPE="hidden" NAME="buttonClicked" SIZE="16" MAXLENGTH="15" VALUE="0">
+                            <INPUT TYPE="hidden" NAME="actionStatus" SIZE="16" MAXLENGTH="15" VALUE="0">
+
+                                <INPUT TYPE="hidden" NAME="err_flag" SIZE="16" MAXLENGTH="15" VALUE="1">
+                                    <INPUT TYPE="hidden" NAME="err_msg" SIZE="512" MAXLENGTH="511" VALUE="Reached in Error.">
+                                        <INPUT TYPE="hidden" NAME="info_flag" SIZE="16" MAXLENGTH="15" VALUE="0">
+                                            <INPUT TYPE="hidden" NAME="info_msg" SIZE="512" MAXLENGTH="511" VALUE="">
+        </FORM>
+
+<?=PAGE-FOOTER=?>
+

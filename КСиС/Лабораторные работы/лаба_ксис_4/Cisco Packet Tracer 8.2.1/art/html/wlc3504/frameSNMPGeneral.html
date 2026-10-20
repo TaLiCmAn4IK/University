@@ -1,0 +1,184 @@
+<?=PAGE-HEADER=?>
+
+<script>
+
+function ptOnload() {
+}
+
+function submitForm() {
+	debugMsg("<submitAction>");
+	var noerror = true;
+	if(thisFormAttrs != null)
+		noerror = validateForm(document.forms[0],thisFormAttrs);
+	if(noerror && businessLogicImplemented)
+		noerror = validateBusinessLogic(document.forms[0].thisFormAttrs);
+	if(noerror){
+		document.forms[0].buttonClicked.value = SUBMIT_CLICKED;
+		top.CHttpFormExtractor.clearKeyValues();
+		top.CHttpFormExtractor.addKeyValue("buttonClicked", document.forms[0].buttonClicked.value);
+		top.CHttpFormExtractor.addKeyValue("sysName", document.forms[0].sysName.value);
+		top.CHttpFormExtractor.addKeyValue("sysLocation", document.forms[0].sysLocation.value);
+		top.CHttpFormExtractor.addKeyValue("sysContact", document.forms[0].sysContact.value);
+		top.CHttpFormExtractor.addKeyValue("trap_port", document.forms[0].trap_port.value);
+		document.forms[0].submit();
+	}
+
+	return false;
+}
+
+</script>
+
+<script>
+
+	var snmpTextAttrs = new Array();
+	var notAllowedCharsInName = new Array("'"," ");
+	snmpTextAttrs[0] = new textAttr("sysName","Name",32,null,false);
+	snmpTextAttrs[1] = new textAttr("sysLocation","Location",255,null,false);
+	snmpTextAttrs[2] = new textAttr("sysContact","Contact",255,null,false);
+
+	var numAttrs = new Array();
+	var notAllowedPortNums = new Array();
+	notAllowedPortNums[0] = 161;
+	numAttrs[0] = new numberAttr("trap_port","Trap Port Number",1,65534,notAllowedPortNums,true);
+
+	thisFormAttrs = new formAttrs(numAttrs,snmpTextAttrs,null,null);
+
+	var prev_trap_port = 162;
+	function recordPrevTrapPort(){
+		prev_trap_port = document.forms[0].trap_port.value;
+	}
+
+	businessLogicImplemented = true;
+	function validateBusinessLogic(attrs)
+	{
+		if (document.forms[0].trap_port.value != prev_trap_port)
+		{
+			if (!confirm("SNMP traps will be sent to this newly configured port number on all the trap receivers. Are you sure you want to change the trap port number?"))
+			return false;
+		}
+		return true;
+	}
+
+</script>
+
+        <FORM method="post" ACTION="frameSNMPGeneral.html">
+            <INPUT TYPE="hidden" NAME="access_control" SIZE="16" MAXLENGTH="15" VALUE="1">
+                <INPUT TYPE="hidden" NAME="csrf_token" SIZE="32" MAXLENGTH="32" VALUE="H7zZSxyZAPrVR9iUMZKB9pIwEdBHzbe">
+
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td class="pageTitle">
+                                <h1>SNMP System Summary</h1>
+                            </td>
+
+                            <td align="right" class="pageTitle">
+                                <script>getHtmlForButton("apply","Apply","buttonStretch","submitForm()"); </script>
+                                <script>getHtmlForHelpButton("SNMP_System_Summary","/helppages/wwhelp.htm");</script>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <table border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td class="label2">Name</td>
+
+                                        <td class="label2">
+                                            <INPUT type="TEXT" name="sysName" id="sysName" SIZE="32" MAXLENGTH="31" VALUE="<?=SYSTEM-NAME=?>">
+                                                </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="147" class="label2">Location</td>
+                                        <td class="label2">
+                                            <INPUT type="TEXT" name="sysLocation" id="sysLocation" SIZE="32" MAXLENGTH="255" VALUE="<?=SYSTEM-LOCATION=?>">
+                                                </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="label2">Contact</td>
+                                        <td class="label2">
+                                            <INPUT type="TEXT" name="sysContact" id="sysContact" SIZE="32" MAXLENGTH="255" VALUE="<?=SYSTEM-CONTACT=?>">
+                                                </td>
+                                    </tr>
+                                    <tr>
+                                        <TR>
+                                            <TD class = "label2">System Description</TD>
+                                            <td class = "readonly"  valign="top">&nbsp;&nbsp;&nbsp;&nbsp;Cisco Controller</td>
+                                        </TR>
+                                        <TR>
+                                            <td class = "label2">System Object ID</TD>
+                                            <td class = "readonly" valign="top">&nbsp;&nbsp;&nbsp;&nbsp;1.3.6.1.4.1.9.1.2427</td>
+                                        </TR>
+                                        <tr>
+                                            <td class="label2">SNMP Port Number</td>
+
+                                            <td class="label2">
+                                                <INPUT type="TEXT" name="snmp_port" id="snmp_port" class="statictextbox" readonly SIZE="32" MAXLENGTH="6" VALUE="161">
+                                                    </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="label2">Trap Port Number</td>
+
+                                            <td class="label2">
+                                                <INPUT type="TEXT" name="trap_port" id="trap_port" SIZE="32" MAXLENGTH="6" VALUE="<?=TRAP-PORT=?>">
+                                                    </td>
+                                        </tr>
+                                        <TR>
+                                            <TD class = "label2">SNMP v1 Mode</TD>
+                                            <TD class = "label2">
+                                                <SELECT name="v1_status" id="v1_status" SIZE="1">
+                                                    <!-- <OPTION value="Disable">Disable</option> -->
+                                                    <OPTION value="Enable" SELECTED>Enable</option>
+                                                </SELECT>
+                                            </TD>
+                                        </TR>
+                                        <TR>
+                                            <TD class = "label2">SNMP v2c Mode</TD>
+                                            <TD class = "label2">
+                                                <SELECT name="v2c_status" id="v2c_status" SIZE="1">
+                                                    <!-- <OPTION value="Disable" >Disable</option> -->
+                                                    <OPTION value="Enable" SELECTED>Enable</option>
+                                                </SELECT>
+                                            </TD>
+                                        </TR>
+
+                                        <TR>
+                                            <TD class = "label2">SNMP v3 Mode</TD>
+                                            <TD class = "label2">
+                                                <SELECT name="v3_status" id="v3_status" SIZE="1">
+                                                    <!-- <OPTION value="Disable" >Disable</option> -->
+                                                    <OPTION value="Enable" SELECTED>Enable</option>
+                                                </SELECT>
+                                            </TD>
+                                        </TR>
+
+                                        <tr>
+                                            <td>
+                                                <INPUT TYPE="hidden" NAME="buttonClicked" id="buttonClicked" SIZE="16" MAXLENGTH="15" VALUE="0">
+                                                    </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <INPUT TYPE="hidden" NAME="err_flag" SIZE="16" MAXLENGTH="15" VALUE="0">
+                                                    </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <INPUT TYPE="hidden" NAME="err_msg" SIZE="512" MAXLENGTH="511" VALUE="">
+
+                                                    </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <INPUT TYPE="hidden" NAME="info_flag" SIZE="16" MAXLENGTH="15" VALUE="0">
+                                                    </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <INPUT TYPE="hidden" NAME="info_msg" SIZE="512" MAXLENGTH="511" VALUE="">
+
+                                                    </td>
+                                        </tr>
+                                        </table>
+        </FORM>
+
+<?=PAGE-FOOTER=?>

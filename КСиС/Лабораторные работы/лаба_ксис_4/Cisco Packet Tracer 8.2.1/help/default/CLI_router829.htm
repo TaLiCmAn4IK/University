@@ -1,0 +1,120 @@
+<html>
+	<head>
+		<title>Cisco IOS Supported Commands: Router 829</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="styleNormal.css">
+	</head>
+	<body>
+		<p class="MainHeading1">
+			Router 829: IOS/IOX
+			<HR>
+		<p>
+			829 Industrial Integrated Services Routers are compact Cisco IOS Software routers with support for integrated 4G LTE wireless WAN and wireless LAN capabilities. The router also supports Cisco IOx software, providing an environment for hosting additional operating systems and applications that can simulates IoT devices.
+		</p><br />
+		<p class="myPic">
+			<img src="images/physical/iRouter829GW.png"><br /><br />
+		</p><br />
+		<p>&nbsp;</p>
+		<p class="MainHeading2">IOS</p>
+		<p>Router 829 IOS includes all <a href="CLI_routerIOS15.htm"><b>Router IOS 15</b></a> commands and the additional commands below that allow users to deploy the IOx software for running IOx applications.</p>
+		<table class="IOStable">
+			<tr>
+				<td class="TDpadded">
+					<ul>
+						<li>show iox application list</li>
+						<li>show iox host list</li>
+						<li>show iox host list detail</li>
+						<li>show platform guest-os</li>
+						<li>show platform hypervisor</li>
+						<li>iox application start</li>
+						<li>iox application stop</li>
+						<li>iox application install</li>
+						<li>iox application uninstall</li>
+					</ul>
+				</td>
+			</tr>
+		</table>
+
+		<p>&nbsp;</p>
+		<p class="MainHeading2">IOX</p>
+		<table class="IOStable">
+			<tr>
+				<td class="TDpadded">
+					Cisco IOx is an application environment that is used by businesses ranging from manufacturing and energy corporations to public sector organizations such as cities and transportation authorities that use IoT technologies to produce effective business outcomes.
+
+					Cisco IOx allows you to execute IoT applications in the fog with secure connectivity with Cisco IOS software, and get powerful services for rapid, reliable integration with IoT sensors and the cloud.<br><br>
+					<p class="MainHeading4">Cisco IOx Guest OS</p>
+					<p>In order to gain access into Cisco IOx Guest OS in Router 829, apply the following configurations in command line:
+					<br><br>
+					IR800><b>en</b><br>
+					IR800#<b>conf t</b><br>
+					IR800(config)#<b>interface GigabitEthernet5</b><br>
+					IR800(config-if)# <b>ip address 192.168.25.1 255.255.255.0</b><br>
+					IR800(config-if)# <b>no shut</b><br>
+					IR800(config)#<b>line 1/4</b><br>
+					IR800(config-line)#<b> transport input all</b><br>
+					IR800(config-line)#<b>end</b><br>
+					<br>Now users can telnet into the guest OS via the <b>GigabitEthernet5</b> interface of the 829 with the port <b>2070</b>.</p>
+
+
+					IR800#<b>telnet 192.168.25.1 2070</b><br />
+					Trying 192.168.25.1 ...Open<br /><br />
+
+					root@><br /><br />
+
+					<blockquote>IOx available commands:<br /><br />
+					<img alt="829 show ip int brief" src="images/829_guest_os_commands.png"></blockquote><br />
+					</blockquote><br /><br />
+					<p class="MainHeading4">IOxClient</p>
+					<br>IOxClient is a command line tool provided as part of Cisco IOx SDK. This utility is primarily meant for assisting application development for Cisco's IOx platforms. When ioxclient is used for the first time, users will go through a setup wizard that helps the ioxclient to configure itself.
+					<blockquote><img alt="829 IOx Client" src="images/829_ioxclient.png"></blockquote>
+					<br><b>Packet Tracer supports a subset of the available ioxclient commands as listed below.</b><br> <br>
+					<ul>
+						<li>ioxclient</li>
+						<li>ioxclient application activate [app id]</li>
+						<li>ioxclient application deactivate [app id]</li>
+						<li>ioxclient application install [app id][file name]</li>
+						<li>ioxclient application list</li>
+						<li>ioxclient application start [app id]</li>
+						<li>ioxclient application stop [app id]</li>
+						<li>ioxclient application uninstall [app id]</li>
+						<li>ioxclient cartridge install [cartridge name]</li>
+						<li>ioxclient cartridge list</li>
+						<li>ioxclient cartridge uninstall [cartridge name]</li>
+						<li>ioxclient package [package name]</li>
+					</ul>
+					<p class="MainHeading4">Scripting Utility</p>
+					<blockquote>JavaScript Utility<br><img alt="829 IOx Javascript Utility" src="images/829_javascript.png"></blockquote><br /><br />
+					<blockquote>Python Utility<br><img alt="829 IOx Python Utility" src="images/829_python.png"></blockquote><br /><br />
+
+					<p class="MainHeading4">Access Point CLI</p>
+					From the 829 IOS, users can telnet into the Access Point CLI via the <b>GigabitEthernet5</b> interface of the 829 with the port <b>2004</b>.</p>
+
+					IR800#<b>telnet 192.168.25.1 2004</b><br />
+					Trying 192.168.25.1 ...Open<br /><br />
+
+					ap><br /><br />
+
+					<blockquote>Access Point CLI available commands:<img alt="829 APCLI" src="images/829_ap_cli.png"></blockquote><br /><br />
+					<b>To terminate the telnet session, apply Ctrl-Shift-6 and then hit x</b><br /><br /><br />
+					<p class="MainHeading4">IOx application development and deployment</p><br>
+					Packet Tracer provides users with an IOx IDE (GUI Integration Development Environment) which is an interface to build and manage IOx applications. Users can access the IDE on a PT-PC. In order to create and run an IOx application on the Router 829, users can follow the below guides.<br /><br>
+					<ul>
+						<li>Create a topology(Router 829 with GLC-T module installed) and configure the devices as shown</li><br />
+						<p class="myPic"><img alt="PC IOx IDE App" src="images/829_deployment_sample_top.png"><br />
+						<li>From the PC, go to Desktop -> IOx IDE -> Project -> New: Use helloworld for project name and select the 829 option. Go to Build -> Build Project to compile the project. This will create a helloworld directory in C:\</li><br />
+						<li>From the PC, go to Desktop -> Command Prompt: run <b>ioxclient</b> command (<b>aaa/bbb</b> for username/password and <b>11.0.0.1</b> for IOx platform's IP address). Ftp from the PC to the server(cisco/cisco for username/password) and download ir800_yocto-1.7.2.tar and ir800_yocto-1.7.2_python-2.7.3.tar.</li><br />
+						<li>On Router 829, <b>telnet 192.168.25.1 2070</b> then run <b>ioxclient</b> command (<b>aaa/bbb</b> for username/password). Run ipconfig for <b>ethernet1 ip address</b>.</li><br />
+						<li>Go back to the Router 829 IOS using the key combo <b>Ctrl+Shift+6 x</b>. Configure nat on the router: <b>ip nat inside source static tcp [ethernet1 ip address] 8443 11.0.0.1 8443</b></li><br />
+						<li>From PC Command Prompt, in C:\, run these commands <b>ioxclient cartridge install ir800_yocto-1.7.2.tar</b> and <b>ioxclient cartridge install ir800_yocto-1.7.2_python-2.7.3.tar</b></li><br />
+						<li>Cd to helloworld directory and run this command <b>ioxclient application install hello1 helloworld.tar</b></li><br />
+						<li>On Router 829, <b>telnet 192.168.25.1 2070</b> then run the commands <b>ioxclient application activate hello1</b> and <b>ioxclient application start hello1</b> to run the app.</li><br />
+					</ul>
+				</blockquote>
+				</td>
+			</tr>
+		</table>
+
+	</body>
+</html>
+					

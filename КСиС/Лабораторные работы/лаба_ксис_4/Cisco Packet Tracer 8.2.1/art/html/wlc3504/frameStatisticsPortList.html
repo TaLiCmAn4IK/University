@@ -1,0 +1,97 @@
+<?=PAGE-HEADER=?>
+
+<script>
+
+function ptOnload() {
+}
+
+function viewStatisticsAction(portNum)
+{
+   document.forms[0].port_num.value = portNum;
+   document.forms[0].buttonClicked.value = SUBMIT_CLICKED;
+   submitTheDataForm();
+}
+
+function submitTheDataForm()
+{
+  top.CHttpFormExtractor.clearKeyValues();
+  top.CHttpFormExtractor.addKeyValue("buttonClicked", document.forms[0].buttonClicked.value);
+  top.CHttpFormExtractor.addKeyValue("port_num", document.forms[0].port_num.value);
+
+  document.forms[0].submit();
+  return false;
+}
+
+</script>
+
+    <script>
+        drawPeerTabs("port_list_stats.html");
+        </script>
+    <FORM method="post" ACTION="frameStatisticsPortList.html">
+    <INPUT TYPE="hidden" NAME="port_num" VALUE="">
+
+                <table CELLSPACING=0  WIDTH =" 100%" nowrap cellpadding="0" border="0">
+                    <!-- the header as part of the table -->
+
+                    <tr>
+                        <td nowrap class="pageTitle">
+                            <h1>Ports Statistics</h1>
+                        </td>
+                        <td nowrap align="right" class="pageTitle">
+                            <script>getHtmlForHelpButton("Ports_Statistics","/helppages/wwhelp.htm");</script>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="padding-top: 13px">
+                            <table border="0" cellspacing="1" cellpadding="0">
+                                <tr>
+                                    <th align="left">Port No</Th><!-- Slot.Port -->
+                                    <th align="left">Admin Status</Th><!-- Admin Mode -->
+                                    <th align="left">Physical Mode</Th><!-- Physical Mode -->
+                                    <th align="left">Physical Status</Th><!-- Physical Status -->
+                                    <th align="left">Link Status</Th><!-- Link Status -->
+                                    <th align="left">&nbsp;</th>
+                                </tr>
+
+<?=PORT-ENTRY-begin=?>
+                                <TR>
+                                    <TD class="listNoPad"><INPUT type="TEXT" class="statictextboxlist" name="1.<?=PORT-INDEX=?>.<?=PORT-COUNT=?>.slot_port" id="1.<?=PORT-INDEX=?>.<?=PORT-COUNT=?>.slot_port" readonly SIZE="6" MAXLENGTH="5" VALUE="<?=PORT-NUM=?>"></TD>
+                                    <TD class="listNoPad"><INPUT type="TEXT" class="statictextboxlist" name="1.<?=PORT-INDEX=?>.<?=PORT-COUNT=?>.admin_mode" id="1.<?=PORT-INDEX=?>.<?=PORT-COUNT=?>.admin_mode" readonly SIZE="10" MAXLENGTH="9" VALUE="Enable"></TD>
+                                    <TD class="listNoPad"><INPUT type="TEXT" class="statictextboxlist" name="1.<?=PORT-INDEX=?>.<?=PORT-COUNT=?>.phys_mode" id="1.<?=PORT-INDEX=?>.<?=PORT-COUNT=?>.phys_mode" readonly SIZE="21" MAXLENGTH="15" VALUE="Auto"></TD>
+                                    <TD class="listNoPad"><INPUT type="TEXT" class="statictextboxlist" name="1.<?=PORT-INDEX=?>.<?=PORT-COUNT=?>.phys_stat" id="1.<?=PORT-INDEX=?>.<?=PORT-COUNT=?>.phys_stat" readonly SIZE="21" MAXLENGTH="27" VALUE="<?=PORT-DUPLEX=?>"></TD>
+                                    <TD class="listNoPad"><INPUT type="TEXT" class="statictextboxlist" name="1.<?=PORT-INDEX=?>.<?=PORT-COUNT=?>.link_stat" id="1.<?=PORT-INDEX=?>.<?=PORT-COUNT=?>.link_stat" readonly SIZE="16" MAXLENGTH="15" VALUE="<?=LINK-STATUS=?>"></TD>
+									<TD class="listNoPad"><a href="javascript:viewStatisticsAction('<?=PORT-NUM=?>');" id="1.<?=PORT-INDEX=?>.<?=PORT-COUNT=?>.view_stat">View Statistics</a></TD>
+                                    <TD ALIGN=left></TD>
+                                </TR>
+<?=PORT-ENTRY-end=?>
+
+                            </table>
+                        </td>
+                    </tr>
+
+                    <TR>
+                        <TD ALIGN=left><INPUT TYPE="hidden" NAME="indexClicked" SIZE="16" MAXLENGTH="15" VALUE=""></TD>
+                        <TD ALIGN=left><INPUT TYPE="hidden" NAME="buttonClicked" SIZE="16" MAXLENGTH="15" VALUE=""></TD>
+                    </TR>
+                    <TR>
+                        <TD ALIGN=left><INPUT TYPE="hidden" NAME="err_flag" SIZE="16" MAXLENGTH="15" VALUE="0"></TD>
+                    </TR>
+
+                    <TR>
+                        <TD ALIGN=left><INPUT TYPE="hidden" NAME="err_msg" SIZE="512" MAXLENGTH="511" VALUE=""></TD>
+                    </TR>
+                    <TR>
+                        <TD ALIGN=left><INPUT TYPE="hidden" NAME="info_flag" SIZE="16" MAXLENGTH="15" VALUE=""></TD>
+                    </TR>
+                    <TR>
+                        <TD ALIGN=left><INPUT TYPE="hidden" NAME="info_msg" SIZE="512" MAXLENGTH="511" VALUE=""></TD>
+                    </TR>
+                    <TR>
+
+                </TABLE>
+
+    </FORM>
+
+<?=PAGE-FOOTER=?>
+
+

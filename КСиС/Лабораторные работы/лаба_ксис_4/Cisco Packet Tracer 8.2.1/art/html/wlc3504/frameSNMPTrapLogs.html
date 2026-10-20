@@ -1,0 +1,112 @@
+<?=PAGE-HEADER=?>
+
+<script>
+
+function ptOnload() {
+}
+
+function submitAction()
+{
+	debugMsg("<submitAction>");
+	var noerror = true;
+	if(thisFormAttrs != null)
+		noerror = validateForm(document.forms[0],thisFormAttrs);
+	if(noerror && businessLogicImplemented)
+		noerror = validateBusinessLogic(document.forms[0].thisFormAttrs);
+	if(noerror)
+	{
+		document.forms[0].buttonClicked.value = CLEAR_CLICKED;
+
+		top.CHttpFormExtractor.clearKeyValues();
+		top.CHttpFormExtractor.addKeyValue("buttonClicked", document.forms[0].buttonClicked.value);
+
+		document.forms[0].submit();
+	}
+
+	return false;
+}
+</script>
+
+                    <script>
+                        businessLogicImplemented = true;
+                        function validateBusinessLogic(formAttrs){
+                            return confirm("Clearing Log will clear all entries. Are you sure you want to continue?")
+                        }
+                    </script>
+
+        <script>
+            drawPeerTabs("trap_log_rw.html");
+            </script>
+
+        <FORM method="post" ACTION="frameSNMPTrapLogs.html">
+            <INPUT TYPE="hidden" NAME="access_control" SIZE="16" MAXLENGTH="15" VALUE="1">
+                <INPUT TYPE="hidden" NAME="csrf_token" SIZE="32" MAXLENGTH="32" VALUE="H7zZSxyZAPrVR9iUMZKB9pIwEdBHzbe">
+
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <TR>
+                            <td class="pageTitle">
+                                <h1>Trap Logs</h1>
+                            </td>
+                            <td class="pageTitle" align="right">
+                                &nbsp;&nbsp;&nbsp;
+                                <!-- <script>getHtmlForApplyButton("Clear Log");</script> -->
+                                <script>getHtmlForButton("apply", "Clear Log", "buttonStretch", "submitAction()"); </script>
+                                <script>getHtmlForHelpButton("Trap_Logs","/helppages/wwhelp.htm");</script>
+                            </td>
+                        </TR>
+                    </TABLE>
+                    <TABLE CELLSPACING=1 cellpadding="0" border="0" style="margin-top: 11px">
+                        <TR>
+                            <th align="left">Number of Traps since last reset</Th>
+                            <TD class="list">&nbsp;&nbsp;
+                                <input type="text" id="logCount" class="statictextboxlist" value="<?=LOG-MSG-COUNT=?>">
+                                &nbsp;&nbsp;
+                            </TD>
+                        </TR>
+                        <TR>
+                            <th align="left">Number of Traps since log last viewed</Th>
+                            <TD class="list">&nbsp;&nbsp;
+                                <input type="text" id="logLastSeent" class="statictextboxlist" value="0">
+                                &nbsp;&nbsp;
+                            </TD>
+                        </TR>
+                    </table>
+                    <table border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td style="padding-top: 13px">
+                                <table border="0" cellspacing="1" cellpadding="0" width="800">
+                                    <tr>
+                                        <TH align="left">Log</Th>
+                                        <TH align="left">System Time</Th>
+                                        <TH align="left">Trap</Th>
+									</tr>
+
+<?=LOG-MSG=?>
+
+
+                                </table>
+                            </td>
+
+                        </tr>
+                        <TR>
+                            <TD ALIGN=left><INPUT TYPE="hidden" NAME="err_flag" SIZE="16" MAXLENGTH="15" VALUE=""></TD>
+                        </TR>
+
+                        <TR>
+                            <TD ALIGN=left><INPUT TYPE="hidden" NAME="err_msg" SIZE="512" MAXLENGTH="511" VALUE="errtest"></TD>
+                        </TR>
+                        <TR>
+                            <TD ALIGN=left><INPUT TYPE="hidden" NAME="info_flag" SIZE="16" MAXLENGTH="15" VALUE=""></TD>
+                        </TR>
+
+                        <TR>
+                            <TD ALIGN=left><INPUT TYPE="hidden" NAME="info_msg" SIZE="512" MAXLENGTH="511" value "test" VALUE=""></TD>
+                        </TR>
+                        <TR>
+                            <TD ALIGN=left><INPUT TYPE="hidden" NAME="buttonClicked" SIZE="16" MAXLENGTH="15" VALUE=""></TD>
+                        </TR>
+
+                    </table>
+
+        </FORM>
+<?=PAGE-FOOTER=?>

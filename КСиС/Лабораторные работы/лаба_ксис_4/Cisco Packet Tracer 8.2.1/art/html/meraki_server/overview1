@@ -1,0 +1,24 @@
+<h2 style="font-family: sans-serif;">Welcome to Meraki Dashboard</h2>
+
+<div style="clear: both; height: 20px;"></div>
+
+<div style="position:relative;left:20px;">
+<table border="1" width="300" height="300" style="font-size: 90%;">
+<tr>
+<td align="center">
+<img class="add_devices_img" src="<?=ADD-INVENTORY-IMG=?>" width="120" height="100" />
+<br /><br />
+<b>Register Meraki devices</b><br />
+<p>Add your devices to a network to<br />monitor and configure them through<br />the Meraki cloud.</p>
+</td>
+</tr>
+</table>
+
+<div style="clear: both; height: 20px;"></div>
+
+<div style="position:relative;left:255px;">
+<a id="next" class="btn btn-primary update_modal_state next" href="new_network">Next</a>
+</div>
+
+
+</div>

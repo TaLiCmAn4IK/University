@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<title>Accessibility</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="styleNormal.css">
+
+	</head>
+	<body>
+
+
+<p class="MainHeading1">Accessibility</p>
+<hr>
+Cisco Packet Tracer supports screen readers, tab navigation, keyboard shortcuts, high contrast support, and high DPI scaling. There may be exceptions to each of the mentioned items, and there may be alternative interactions in-place of the default interaction methods.
+<p></p><p>Each supported operating may support the various accessible features differently. Refer to each operating system on how to enable accessibility features.</p>
+<p></p><p>The following pages will go over some of the specifics of certain accessible features within Packet Tracer.</p>
+<p></p><p>Work with your instructor to get the latest Voluntary Product Accessibility Template (VPAT) documentation for Cisco Packet Tracer if necessary.</p>
+ <hr>
+ <p></p>
+ <p></p>
+ <p class="MainHeading2">Getting Started</p>
+ <br>
+ <p class="MainHeading3">Logical Workspace</p>
+ <p></p><p>There are two network topology representations in Packet Tracer, and two modes of operation. One is a Logical and the other is a Physical representation of the network. The modes of operation are Realtime and Simulation mode.
+	<p></p><p>
+		To use the Logical workspace accessibly, you need to think of the network as a logical representation than the graphical view. Instead of using a graphical view of as a logical representation of the network, a separate logical view of the network is available using the Workspace List (Shift + W) feature. This view will list the curent cluster level of the logical representation of the network in a table format. The Workspace List interface can be used entirely by keyboard.
+ <p></p><p>
+	The Workspace List interface will allow you to create and read the individual device names, their logical locations can be read and modified, powered on and off, and their configuration dialogs opened. It also lists clusters and let you traverse into clusters. Both the graphical workspace view and workspace list view are a logical representation of the network.
+ <p></p><p>
+	The links are also listed with their source and destinations, along with the color status of the link (the meaning of the color has different interpretations depending on the device and port). 
+ <br>
+ <p></p>
+ <p></p>
+ <p class="MainHeading3">Physical Workspace</p>
+ <p></p><p>To use the Physical Workspace accessibly, we need to understand that the Physical Workspace is a representation of how devices are actually physically arranged. In this view, devices are by default arranged in containers within containers. At the top level is the Intercity container which geographically represents the top level representation of the physical world. Within this Intercity view will be containers that are representative of Cities that you can navigate through. The default contains the Home City. You can view the Home City by entering it, using keyboard navigation to iterate through the list of cities and selecting the Enter action (See your screen reader keys documentation on how to activate an action).
+ <p></p><p>Repeat the steps above to navigate any container. Within a physical container may be individual devices, or wiring closets. These contain different actions that may be available than the containers.
+<p></p><p></p>A Wiring closet is a special type of container that you will be utilizing most often. It is a view of the physical devices laid out onto racks or tables. Cables may be hanging on pegboards which you may individually use for connecting ports. Items in the Wiring closet view can be navigated using the table navigation set of keys of your screen reader. The order and direction of navigable items will depend on the operating system and screen reader used. Due to the large amount of navigable items in this view, it is necessary to break the navigation into parts. Keyboard navigation with screen reader keys will usually traverse the list of racks and tables and individual devices within those containers. When a device is encountered, their individual ports will not be iterated unless you enter the device. Individual devices contain actions which are used to simulate real world physical interactions with the device, actions such as Select Device or Open Config Dialog. Empty rack bays can have actions such as Place Selected Device Here. Explore the various actions that may be possible for each individual interactive item.
+<p></p>
+<p></p>
+<p class="MainHeading3">Realtime Mode</p>
+<p></p><p>Realtime Mode is the default mode when you first start Packet Tracer. In this mode, all packets are traversing the network at realtime. The graphical view of the network contains certain displays which may report the status of port status. This status can be accessibly retrieved using the Workspace List feature to read the color of the port. 
+<p></p>
+<p></p>
+<p class="MainHeading3">Simulation Mode</p>
+<p></p><p>Simulation Mode lets a user control the flow of time within the network. Time is frozen until the user chooses to move forward with the next network event. The graphical view uses animated envelopes to represent the network traffic flowing between devices. This network traffic flow is represented to the user in a screen reader friendly table called the Simulation Panel (the Event List button toggles this table into view). The Simulation Panel contains the list of packets in the network and lists their source and destination devices. The individual packets may be inspected by clicking on the envelope on the workspace, but may also be inspected by activating the Time column cell of the packet in the Simulation Panel using the Enter key. The PDU Information window will be displayed for this individual packet and a user may iterate through the various fields of this packet using keyboard navigation and screen readers. In this way, both the Simulation Panel and the graphical view of the packet flow in Simulation Mode are the equivalent representations of the simulation. 
+<p></p>
+<p></p>
+<p class="MainHeading3">Specific Questions</p>
+<p></p>
+Q1: I tried with my disabled student to create a simple small network, but we couldn’t make it using drag and drop so I was just wondering if there is a shortcut that can be used for devices and for the connection between the devices as well. 
+ A: The way to create and manipulate the Logical workspace devices accessibly is through the Workspace List feature (Shift + W). That interface will let you create devices and links, enter their configuration dialogs, manipulate the modules, their logical workspace locations etc. The interface is a table based representation of the visual logical workspace. Additionally, much of the Packet Tracer interface navigation and activation requires the use of screen reader keys. In particular some interface elements require the use of Table navigation keys to effectively navigate it. The interface is too data dense to simply tab through every item. See here for reference for Jaws: https://www.freedomscientific.com/training/jaws/hotkeys/ See here for reference for MS Narrator: https://support.microsoft.com/en-us/windows/appendix-b-narrator-keyboard-commands-and-touch-gestures-8bdab3f4-b3e9-4554-7f28-8b15bd37410a
+ <p></p>
+ Q2: My student is trying to work on modular devices in Packet Tracer and add slots. If he wants to add extra modules such as fiber optic or fast ethernet, the student is facing a problem turning on/off the device.
+ <br>A: The Workspace List feature is meant to replace the Logical Workspace’s mouse actions using keyboards only. The device power function is inside the config dialog and therefore needs to be done inside the config dialog’s Physical tab. When you tab through the configuration dialog, the focus after the Zoom Out button is usually the Power button. Pressing Space on that focus item will toggle the power of the device. Switch back to the Workspace List to edit the slots in the middle pane.
+ <p></p>	<p></p>
+ Q3: Why is my Mac reading aloud the terminal output by itself?
+ <br>A: The CLI tab's terminal is not properly read by the Mac VoiceOver function. A separate text to speech function has been added to read aloud the CLI when a program has accessed the accessibility framework on the operating system (eg VoiceOver, or other special programs). Due to some programs that accesses this framework without being a screen reader, this enables Packet Tracer's text to speech function. A Preference setting on the Mac version has been added to "Disable CLI Text to Speech".
+ <p></p>	<p></p>
+ Q4: How do I cable devices in Logical view?
+ <br>A: In the Workspace List feature, navigate to Add Link. A dialog will pop up allowing you to select the Cable type, Source Device, Source Port, Destination Device, and Destination Port.
+ <p></p>	<p></p>
+ Q: How Do I move a device in Logical view?
+ <br>A: In the Workspace List feature, navigate to the desired device in the Devices table, navigate to the X and Y columns and edit the cell's value to change the X and Y coordinate.
+ <p></p>	<p></p>
+ Q6: How do I enter a cluster or out of a cluster in Logical view?
+ <br>A: In the Workspace List feature, navigate to the desired cluster in the Devices table, then press the Enter key to enter the cluster. To move up a cluster level from the current view, navigate to the Show Parent Cluster button and activate it.
+ <p></p>	<p></p>
+ Q7: How do I open a device configuration dialog from the Workspace List?
+ <br>A: In the Workspace List feature, navigate to the desired device in the Devices table, while on the Name cell of the device, press Enter.
+
+</body>
+</html>

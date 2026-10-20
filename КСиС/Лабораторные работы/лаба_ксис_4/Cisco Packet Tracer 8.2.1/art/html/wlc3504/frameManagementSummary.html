@@ -1,0 +1,125 @@
+<?=PAGE-HEADER=?>
+
+
+<script>
+
+function ptOnload() {
+}
+
+</script>
+
+        <FORM method="post" ACTION="/screens/base/sys_descr_rw.html">
+            <INPUT TYPE="hidden" NAME="access_control" SIZE="16" MAXLENGTH="15" VALUE="1">
+                <INPUT TYPE="hidden" NAME="csrf_token" SIZE="32" MAXLENGTH="32" VALUE="RDYgpoDZ5ikRPSCR2y0GJ8542HfEwlP">
+
+
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td class="pageTitle">
+                                <h1>Summary</h1>
+                            </td>
+
+                            <td align="right" class="pageTitle">
+                                <script>getHtmlForHelpButton("Summary1","/helppages/wwhelp.htm");</script>
+                            </td>
+                        </tr>
+                        <tr>
+                            <tr>
+                                <td colspan="2">
+                                    <table border="0" cellspacing="1" cellpadding="0" width="500">
+                                        <!--ref bug: 7379 <tr>
+                                         <td align="left">Operating Environment</td>
+                                         <td class="listNoPad">
+                                         <INPUT type="TEXT" name="operatingenv" id="operatingenv" class="statictextboxlist" readonly SIZE="32" MAXLENGTH="31" VALUE="Commercial (0 to 40 C)">
+                                         </td>
+                                         </tr>
+                                         <tr>
+                                         <td align="left">Internal Temp Alarm Limits</td>
+                                         <td class="listNoPad">
+                                         <INPUT type="TEXT" name="internal_limits" id="internal_limits" class="statictextboxlist" readonly SIZE="32" MAXLENGTH="31" VALUE="">
+                                         </td>
+                                         </tr>-->
+
+                                        <tr>
+                                            <td align="left" class="list">SNMP Protocols</td>
+                                            <td class="listNoPad">
+                                                <INPUT type="TEXT" name="snmp_protocols" id="snmp_protocols" class="statictextboxlist" readonly SIZE="40" MAXLENGTH="40" VALUE="v1:Enabled  v2c:Enabled  v3:Enabled  ">
+                                                    </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td align="left" class="list">Syslog</td>
+                                            <td class="listNoPad">
+                                                <INPUT type="TEXT" name="syslog" id="syslog" class="statictextboxlist" readonly SIZE="32" MAXLENGTH="32" VALUE="Disabled">
+                                                    </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" class="list">HTTP Mode</td>
+                                            <td class="listNoPad">
+                                                <INPUT type="TEXT" name="http" id="http" class="statictextboxlist" readonly SIZE="40" MAXLENGTH="40" VALUE="Disabled">
+                                                    </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" class="list">HTTPS Mode</td>
+                                            <td class="listNoPad">
+                                                <INPUT type="TEXT" name="https" id="https" class="statictextboxlist" readonly SIZE="40" MAXLENGTH="40" VALUE="Enabled">
+                                                    </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" class="list">New Telnet Sessions Allowed</td>
+                                            <td class="listNoPad">
+                                                <INPUT type="TEXT" name="telnet_allowed" id="telnet_allowed" class="statictextboxlist" readonly SIZE="40" MAXLENGTH="40" VALUE="No">
+                                                    </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" class="list">New SSH Sessions Allowed</td>
+                                            <td class="listNoPad">
+                                                <INPUT type="TEXT" name="ssh_allowed" id="ssh_allowed" class="statictextboxlist" readonly SIZE="40" MAXLENGTH="40" VALUE="No">
+                                                    </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" class="list">Management via Wireless</td>
+                                            <td class="listNoPad">
+                                                <INPUT type="TEXT" name="mgmt_wireless_allowed" id="mgmt_wireless_allowed" class="statictextboxlist" readonly SIZE="40" MAXLENGTH="40" VALUE="Disabled">
+                                                    </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            </table>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <INPUT TYPE="hidden" NAME="buttonClicked" id="buttonClicked" SIZE="16" MAXLENGTH="15" VALUE="0">
+
+                                </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <INPUT TYPE="hidden" NAME="err_flag" SIZE="16" MAXLENGTH="15" VALUE="0">
+                                </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <INPUT TYPE="hidden" NAME="err_msg" SIZE="512" MAXLENGTH="511" VALUE="">
+
+                                </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <INPUT TYPE="hidden" NAME="info_flag" SIZE="16" MAXLENGTH="15" VALUE="0">
+                                </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <INPUT TYPE="hidden" NAME="info_msg" SIZE="512" MAXLENGTH="511" VALUE="">
+
+                                </td>
+                    </tr>
+                    </table>
+        </FORM>
+
+<?=PAGE-FOOTER=?>
+
+

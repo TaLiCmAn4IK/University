@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<title>The Physical Workspace: Distance Measurements</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="styleNormal.css">
+
+	</head>
+	<body>
+<p class="MainHeading1">The Physical Workspace: Distance Measurements
+<hr>
+<p>The Physical Workspace provides the dimension of distance to Ethernet and wireless devices. This distance parameter is one of the factors that determine if a device is able to connect or not connect to another device.</p>
+<p>Access points wireless routers can establish connections with wireless end devices that are within a certain distance range. This range is indicated by a translucent colored circle area surrounding the wireless device.</p>
+<p>In this example, a few end devices and wireless source devices have been created. They have all been moved from the default wiring closet and placed directly onto the "streets" of the city (for demonstration purposes). Note the following:</p>
+<ul>
+  <li>PC2 is within the wireless range of Wireless Router0, so it associates with that router.</li>
+  <li>PC1 is in range of Cell Tower1, which is located ouside Home City, as can be seen on the next image.</li>
+  <li>Tablet PC0 and Smartphone0 are within each other's Bluetooth range and therefore they can be paired with each other.</li>
+</ul>
+<p class="myPic">
+<img src="images/workspace_physical_distanceMeasurements_3.jpg" alt="Wireless range in Physical Workspace">
+</p>
+The following image shows environment outside the Home City above. Note that wireless signal from Cell Tower1 can be seen inside Home City. At the same time, wireless signals from devices inside Home City can be seen at this level as well. Similarly to Home City example above 
+<ul>
+  <li>Smartphone is out of range of wireless signal from any available wireless device. It will not be able to connect or pair to any of the other devices.</li>
+  <li>Tablet PC is within the wireless range of Cell Tower1, so it associates with that tower.</li>
+</ul>
+<p class="myPic">
+<img src="images/workspace_physical_distanceMeasurements_1.jpg" alt="Wireless range in Physical Workspace">
+</p>
+Wireless range for Access Point, Wireless Router and other wireless devices can be configured in their wireless port configuration settings, as can be seen in the following image
+<p class="myPic">
+<img src="images/workspace_physical_distanceMeasurements_4.jpg" alt="Wireless range in Physical Workspace">
+</p>
+In the above, wireless range of and Access Point is set to 140 meters. Cell towers in Packet Tracer have default wireless range of 1000 meters and this explains why wireless range circles for signals from cell tower devices are so much larger in size than the ones from the access points. Wireless range value configured in the above dialog amounts to the radius of the circle representing this signal on the workspace. 
+<p/>
+<p>Ethernet connectivity is determined by a cable length of 100 meters. There is no partial connectivity for Ethernet, it is either within (has connectivity) the length of 100 meters or outside (no connectivity) of it. By pointing at a cable in physical mode, a pop-up box will appear showing the device interfaces connected to this cable and the segment and total length.</p>
+<p class="myPic">
+<img src="images/workspace_physical_distanceMeasurements_2.jpg" alt="Cable length information in Physical Workspace">
+</p>
+
+In <a href="preferences.htm" target="content" class="MenuHeading2"> Preferences</a> dialog you can turn on and off the effects physical properties of cables and wireless links have on network behavior (see <em>Enable Cable Length Effects</em> and <em>Show Wireless Grid</em> options under <em>Interface</em> and <em> Hide </em> tabs respectively). When you opt to enable these cable effects, beware that moving connected devices between or within physical containers will affect physical properties of their cable and wireless links and that, in turn, can play a role on whether devices can successfully communicate with one another. In this case, any time you notice that two devices in Logical workspace do not communicate with one another, you may want to check whether the cables they are connected with do not exceed maximum cable length for the cable type used. Likewise, it might be worth checking if two wireless devices are not separated by too great a distance between them for the wireless link to be possible. <a href="workspace_physical_distanceMeasurements.htm" target="content" class="MenuHeading3">Distance Measurements</a> section has more information on this subject. <br/><br/>
+
+<p>Packet Tracer now also has the ability to bend, group and color code cables. This feature is covered in the Cable Manipulation section. </p>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<?=PAGE-HEADER=?>
+
+<script>
+
+function ptOnload() {
+}
+
+function clearAction()
+{
+	debugMsg("<submitAction>");
+	var noerror = true;
+	if(thisFormAttrs != null)
+		noerror = validateForm(document.forms[0],thisFormAttrs);
+	if(noerror && businessLogicImplemented)
+		noerror = validateBusinessLogic(document.forms[0].thisFormAttrs);
+	if(noerror)
+	{
+		document.forms[0].buttonClicked.value = CLEAR_CLICKED;
+
+		top.CHttpFormExtractor.clearKeyValues();
+		top.CHttpFormExtractor.addKeyValue("buttonClicked", document.forms[0].buttonClicked.value);
+
+		document.forms[0].submit();
+	}
+
+	return false;
+}
+
+</script>
+
+        <FORM method="post" ACTION="frameStatisticsController.html">
+            <INPUT TYPE="hidden" NAME="access_control" SIZE="16" MAXLENGTH="15" VALUE="1">
+                <INPUT TYPE="hidden" NAME="csrf_token" SIZE="32" MAXLENGTH="32" VALUE="1E0EmdD5Rh9VPOc1eQy1V0EnTAj59SM">
+
+
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td class="pageTitle">
+                                <h1>Controller Statistics</h1>
+                            </td>
+                            <td align="right" class="pageTitle">
+                                <script>getHtmlForButton("clear","Clear Counters","buttonStretch","clearAction()"); </script>
+                                <script>getHtmlForHelpButton("Switch_Statistics","/helppages/wwhelp.htm");</script>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <table border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td colspan="2">
+                                            <table border="0" cellspacing="1" cellpadding="0" width="360">
+                                                <tr>
+                                                    <td align="left" colspan="2">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+
+                                                    <TR></TR><TR></TR><TR></TR>
+
+                                                    <TR><td align="left" class="list">Octets Received</TD>  <!-- Octets received -->
+                                                        <TD CLASS = "list"><input type="text" id="octetsRec" class="statictextboxlist" value="<?=IN-BYTES=?>"></TD></TR>
+
+                                                    <TR><td align="left" class="list">Packets Received Without Error</TD>  <!-- Packets received -->
+                                                        <TD CLASS = "list"><input type="text" id="packetsRecNoError" class="statictextboxlist" value="<?=IN-TOTAL-PKT=?>"></TD></TR>
+
+                                                    <TR><td align="left" class="list">Unicast Packets Received</TD>  <!-- unicast Packets received -->
+                                                        <TD CLASS = "list"><input type="text" id="unicastPktRec" class="statictextboxlist" value="<?=IN-TOTAL-UNICAST-PKT=?>"></TD></TR>
+
+                                                    <TR><td align="left" class="list">Multicast Packets Received</TD>  <!-- multicast Packets received -->
+                                                        <TD CLASS = "list"><input type="text" id="multicastPktRec" class="statictextboxlist" value="<?=IN-TOTAL-MULTICAST-PKT=?>"></TD></TR>
+
+                                                    <TR><td align="left" class="list">Broadcast Packets Received</TD>  <!-- Broadcast Packets received -->
+                                                        <TD CLASS = "list"><input type="text" id="broadcastPktRec" class="statictextboxlist" value="<?=IN-TOTAL-BROADCAST-PKT=?>"></TD></TR>
+
+                                                    <TR><td align="left" class="list">Receive Packets Discarded</TD>  <!-- Receive packets discarded -->
+                                                        <TD CLASS = "list"><input type="text" id="recPktDiscard" class="statictextboxlist" value="0"></TD></TR>
+
+                                                    <TR></TR><TR></TR><TR></TR>
+                                                    <TR><td align="left" class="list">Octets Transmitted</TD>
+                                                        <TD CLASS = "list"><input type="text" id="octetsTx" class="statictextboxlist" value="<?=OUT-BYTES=?>"></TD></TR>
+
+                                                    <TR><td align="left" class="list">Packets Transmitted without Errors</TD>                      <!--  Packets transmitted -->
+                                                        <TD CLASS = "list"><input type="text" id="pktTxNoError" class="statictextboxlist" value="<?=OUT-TOTAL-PKT=?>"></TD></TR>
+
+                                                    <TR><td align="left" class="list">Unicast Packets Transmitted</TD>                      <!--  Packets transmitted -->
+                                                        <TD CLASS = "list"><input type="text" id="unicastPktTx" class="statictextboxlist" value="<?=OUT-TOTAL-UNICAST-PKT=?>"></TD></TR>
+
+                                                    <TR><td align="left" class="list">Multicast Packets Transmitted</TD>                      <!--  Packets transmitted -->
+                                                        <TD CLASS = "list"><input type="text" id="multicastPktTx" class="statictextboxlist" value="<?=OUT-TOTAL-MULTICAST-PKT=?>"></TD></TR>
+
+                                                    <TR><td align="left" class="list">Broadcast Packets Transmitted</TD>
+                                                        <TD CLASS = "list"><input type="text" id="broadcastPktTx" class="statictextboxlist" value="<?=OUT-TOTAL-BROADCAST-PKT=?>"></TD></TR>
+
+                                                    <TR><td align="left" class="list">Transmit Packets Discarded</TD>
+                                                        <TD CLASS = "list"><input type="text" id="txPktDiscard" class="statictextboxlist" value="0"></TD></TR>
+
+                                                    <!-- <TR><td align="left">Transmit Queue Length (Packets)</TD>
+                                                     <TD CLASS = "list">
+                                                     7
+                                                     </TD></TR> -->
+                                                    <TR></TR><TR></TR><TR></TR>
+                                                    <!-- <TR><td align="left">Maximum Address Entries</TD>
+                                                     <TD CLASS = "list">
+                                                     6
+                                                     </TD></TR> -->
+                                                    <TR><td align="left" class="list">Most Address Entries Ever Used</TD>
+                                                        <TD CLASS = "list"><input type="text" id="hostAddrUsed" class="statictextboxlist" value="0"></TD></TR>
+
+                                                    <TR><td align="left" class="list">Address Entries in Use</TD>
+                                                        <TD CLASS = "list"><input type="text" id="addrUsed" class="statictextboxlist" value="0"></TD></TR>
+
+                                                    <TR><td align="left" class="list">Maximum VLAN Entries</TD>
+                                                        <TD CLASS = "list"><input type="text" id="maxVlan" class="statictextboxlist" value="0"></TD></TR>
+
+                                                    <TR><td align="left" class="list">Most VLAN Entries Ever Used</TD>
+                                                        <TD CLASS = "list"><input type="text" id="hostVlanUsed" class="statictextboxlist" value="0"></TD></TR>
+
+                                                    <TR><td align="left" class="list">Static VLAN Entries</TD>
+                                                        <TD CLASS = "list"><input type="text" id="staticVlan" class="statictextboxlist" value="0"></TD></TR>
+
+                                                    <!--<TR><td align="left">Dynamic VLAN Entries</TD>
+                                                     <TD CLASS = "list">0</TD></TR>-->
+
+                                                    <!--TR><td align="left">VLAN Deletes</TD>
+                                                     <TD CLASS = "list">0</TD></TR-->
+
+                                                    <TR></TR><TR></TR><TR></TR>
+                                                    <TR><td align="left" class="list">Time Since Counters Last Cleared</TD>
+                                                        <TD CLASS = "list"><?=LAST-CLEARED-DT=?></TD></TR>
+
+                                                    <TR>
+                                                        <TD ALIGN=left><INPUT TYPE="hidden" NAME="index" SIZE="16" MAXLENGTH="15" VALUE=""></TD>
+                                                    </TR>
+                                                    <TR>
+                                                        <TD ALIGN=left><INPUT TYPE="hidden" NAME="buttonClicked" SIZE="16" MAXLENGTH="15" VALUE=""></TD>
+                                                    </TR>
+                                                    <TR>
+                                                        <TD ALIGN=left><INPUT TYPE="hidden" NAME="actionStatus" SIZE="16" MAXLENGTH="15" VALUE=""></TD>
+                                                    </TR>
+                                                    <TR>
+                                                        <TD ALIGN=left><INPUT TYPE="hidden" NAME="err_flag" SIZE="16" MAXLENGTH="15" VALUE="0"></TD>
+                                                    </TR>
+                                                    <TR>
+                                                        <TD ALIGN=left><INPUT TYPE="hidden" NAME="err_msg" SIZE="512" MAXLENGTH="511" VALUE=""></TD>
+                                                    </TR>
+                                                    <TR>
+                                                        <TD ALIGN=left><INPUT TYPE="hidden" NAME="info_flag" SIZE="16" MAXLENGTH="15" VALUE=""></TD>
+                                                    </TR>
+                                                    <TR>
+                                                        <TD ALIGN=left><INPUT TYPE="hidden" NAME="info_msg" SIZE="512" MAXLENGTH="511" VALUE=""></TD>
+                                                    </TR>
+                                            </TABLE>
+        </FORM>
+
+<?=PAGE-FOOTER=?>

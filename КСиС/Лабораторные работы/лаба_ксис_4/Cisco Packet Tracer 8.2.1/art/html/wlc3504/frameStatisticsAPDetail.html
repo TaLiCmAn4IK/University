@@ -1,0 +1,264 @@
+<?=PAGE-HEADER=?>
+
+<script>
+
+function ptOnload() {
+}
+
+</script>
+
+        <FORM method="post" ACTION="frameStatisticsAPDetail.html">
+            <INPUT TYPE="hidden" NAME="access_control" SIZE="16" MAXLENGTH="15" VALUE="1">
+
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td class="pageTitle">
+                            <h1>AP Join Statistics Detail ></h1>
+                        </td>
+                        <td class="pageTitle" align="right">
+                            <!-- <script>getHtmlForBackButton();</script> -->
+                            <input type="button" name="back" id="back" value="< Back" class="button"  onClick="window.location.href='frameStatisticsAPList.html'">
+                        </td>
+                    </tr>
+                </table>
+                <table CELLSPACING="0" cellpadding="0" border="0">
+                    <tr>
+                        <td valign="top" >
+                            <table CELLSPACING="0" cellpadding="0" border="0">
+                                <tr>
+                                    <td COLSPAN=2 class="label1">General</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="horizLine">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td class="label2"  width="270">Base MAC Address</td>
+                                    <td><INPUT type="text" name="base_mac_address" id="base_mac_address" class="statictextboxlist" readonly VALUE="<?=BASE-MAC=?>"></td>
+                                </tr>
+                                <tr>
+                                    <td class="label2"  >AP Name</td>
+                                    <td><INPUT type="text" name="ap_name" id="ap_name" class="statictextboxlist" readonly SIZE="40" MAXLENGTH="32" VALUE="<?=AP-NAME=?>"></td>
+                                </tr>
+                                <tr>
+                                    <td class="label2"  >Ethernet MAC Address</td>
+                                    <td><INPUT type="text" name="ether_mac_address" id="ether_mac_address" class="statictextboxlist" readonly VALUE="<?=ETHERNET-MAC=?>"></td>
+                                </tr>
+                                <tr>
+                                    <td class="label2"  >IP Address(Ipv4/Ipv6)</td>
+                                    <td><INPUT type="text" name="IpAddress" id="IpAddress" class="statictextboxlist" readonly SIZE="50" MAXLENGTH="50" VALUE="<?=IP-ADDRESS=?>"></td>
+                                </tr>
+                                <tr>
+                                    <td  class="label2" >Status</td>
+                                    <td><INPUT type="text" class="statictextboxlist" readonly name="join_status" id="join_status" SIZE="18" MAXLENGTH="18" VALUE="<?=STATUS=?>"></td>
+                                </tr>
+                                <!-- Last AP Join -->
+                                <tr>
+                                    <td COLSPAN=2 class="label1">Last AP Join</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="horizLine">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <th align="left" style="PADDING-LEFT: 20px; BORDER-BOTTOM: #ffffff"> Timestamp </th>
+                                    <th align="left" style="BORDER-BOTTOM: #ffffff"> Message </th>
+                                </tr>
+
+<?=AP-LOG-begin=?>
+                                <tr>
+                                    <td  class="label2" width="40"><INPUT type="text" class="statictextboxlist" readonly name="1.<?=LOG-INDEX=?>.<?=LOG-COUNT=?>.timestamp_sm" id="1.<?=LOG-INDEX=?>.<?=LOG-COUNT=?>.timestamp_sm" SIZE="25" MAXLENGTH="25" VALUE="<?=LOG-TS=?>"></td>
+                                    <td><INPUT type="text" class="statictextboxlist" readonly name="1.<?=LOG-INDEX=?>.<?=LOG-COUNT=?>.join_sm_msg" id="1.<?=LOG-INDEX=?>.<?=LOG-COUNT=?>.join_sm_msg" SIZE="50" MAXLENGTH="50" VALUE="<?=LOG-MSG=?>"></td>
+                                </tr>
+<?=AP-LOG-end=?>
+
+
+                                <!-- Discovery Phase Statistics -->
+                                <tr>
+                                    <td COLSPAN=2 class="label1">Discovery Phase Statistics</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="horizLine">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td  class="label2">Requests Received</td>
+                                    <td>
+                                        <INPUT type="text" class="statictextboxlist" readonly name="discovery_req_recv" id="discovery_req_recv" SIZE="10" MAXLENGTH="9" VALUE="<?=DISCOVERY-REQ-RECV=?>">
+                                            </td>
+                                </tr>
+                                <tr>
+                                    <td  class="label2">Responses Sent</td>
+                                    <td>
+                                        <INPUT type="text" class="statictextboxlist" readonly name="discovery_resp_sent" id="discovery_resp_sent" SIZE="10" MAXLENGTH="9" VALUE="<?=DISCOVERY-RES-SENT=?>">
+                                            </td>
+                                </tr>
+                                <tr>
+                                    <td  class="label2">Unsuccessful Request Processed</td>
+                                    <td>
+                                        <INPUT type="text" class="statictextboxlist" readonly name="unsuccessful_req_processed" id="unsuccessful_req_processed" SIZE="10" MAXLENGTH="9" VALUE="0">
+                                            </td>
+                                </tr>
+                                <tr>
+                                    <td  class="label2">Reason For Last Unsuccessful Attempt</td>
+                                    <td>
+                                        <INPUT type="text" class="statictextboxlist" readonly name="last_unsuccess_discovery_attempt" id="last_unsuccess_discovery_attempt" SIZE="76" MAXLENGTH="75" VALUE="-">
+                                            </td>
+                                </tr>
+                                <tr>
+                                    <td  class="label2">Last Successful Attempt Time</td>
+                                    <td>
+                                        <INPUT type="text" class="statictextboxlist" readonly name="last_success_discovery_time" id="last_success_discovery_time" SIZE="25" MAXLENGTH="24" VALUE="-">
+                                            </td>
+                                </tr>
+                                <tr>
+                                    <td  class="label2">Last Unsuccessful Attempt Time</td>
+                                    <td>
+                                        <INPUT type="text" class="statictextboxlist" readonly name="last_unsuccess_discovery_time" id="last_unsuccess_discovery_time" SIZE="25" MAXLENGTH="24" VALUE="-">
+                                            </td>
+                                </tr>
+
+                                <!-- Join Phase Statistics -->
+                                <tr>
+                                    <td COLSPAN=2 class="label1">Join Phase Statistics</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="horizLine">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td  class="label2">Requests Received</td>
+                                    <td>
+                                        <INPUT type="text" class="statictextboxlist" readonly name="join_req_recv" id="join_req_recv" SIZE="10" MAXLENGTH="9" VALUE="<?=JOIN-REQ-RECV=?>">
+                                            </td>
+                                </tr>
+                                <tr>
+                                    <td  class="label2">Responses Sent</td>
+                                    <td>
+                                        <INPUT type="text" class="statictextboxlist" readonly name="join_resp_sent" id="join_resp_sent" SIZE="10" MAXLENGTH="9" VALUE="<?=JOIN-RES-SENT=?>">
+                                            </td>
+                                </tr>
+                                <tr>
+                                    <td  class="label2">Unsuccessful Request Processed</td>
+                                    <td>
+                                        <INPUT type="text" class="statictextboxlist" readonly name="unsuccess_join_req_processed" id="unsuccess_join_req_processed" SIZE="10" MAXLENGTH="9" VALUE="0">
+                                            </td>
+                                </tr>
+                                <tr>
+                                    <td  class="label2">Reason For Last Unsuccessful Attempt</td>
+                                    <td>
+                                        <INPUT type="text" class="statictextboxlist" readonly name="last_unsuccess_join_attempt" id="last_unsuccess_join_attempt" SIZE="76" MAXLENGTH="75" VALUE="-">
+                                            </td>
+                                </tr>
+                                <tr>
+                                    <td  class="label2">Last Successful Attempt Time</td>
+                                    <td>
+                                        <INPUT type="text" class="statictextboxlist" readonly name="last_success_join_time" id="last_success_join_time" SIZE="25" MAXLENGTH="24" VALUE="-">
+                                            </td>
+                                </tr>
+                                <tr>
+                                    <td  class="label2">Last Unsuccessful Attempt Time</td>
+                                    <td>
+                                        <INPUT type="text" class="statictextboxlist" readonly name="last_unsuccess_join_time" id="last_unsuccess_join_time" SIZE="25" MAXLENGTH="24" VALUE="-">
+                                            </td>
+                                </tr>
+
+                                <!-- Configuration Phase Statistics -->
+                                <tr>
+                                    <td COLSPAN=2 class="label1">Configuration Phase Statistics</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="horizLine">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td  class="label2">Requests Sent</td>
+                                    <td>
+                                        <INPUT type="text" class="statictextboxlist" readonly name="config_req_recv" id="config_req_recv" SIZE="10" MAXLENGTH="9" VALUE="<?=CONFIG-REQ-SENT=?>">
+                                            </td>
+                                </tr>
+                                <tr>
+                                    <td  class="label2">Responses Received</td>
+                                    <td>
+                                        <INPUT type="text" class="statictextboxlist" readonly name="config_resp_sent" id="config_resp_sent" SIZE="10" MAXLENGTH="9" VALUE="<?=CONFIG-RES-RECV=?>">
+                                            </td>
+                                </tr>
+                                <tr>
+                                    <td  class="label2">Unsuccessful Request Processed</td>
+                                    <td>
+                                        <INPUT type="text" class="statictextboxlist" readonly name="unsuccess_config_req_processed" id="unsuccess_config_req_processed" SIZE="10" MAXLENGTH="9" VALUE="0">
+                                            </td>
+                                </tr>
+                                <tr>
+                                    <td  class="label2">Reason For Last Unsuccessful Attempt</td>
+                                    <td>
+                                        <INPUT type="text" class="statictextboxlist" readonly name="last_unsuccess_config_attempt" id="last_unsuccess_config_attempt" SIZE="76" MAXLENGTH="75" VALUE="-">
+                                            </td>
+                                </tr>
+                                <tr>
+                                    <td  class="label2">Last Successful Attempt Time</td>
+                                    <td>
+                                        <INPUT type="text" class="statictextboxlist" readonly name="last_success_config_time" id="last_success_config_time" SIZE="25" MAXLENGTH="24" VALUE="-">
+                                            </td>
+                                </tr>
+                                <tr>
+                                    <td  class="label2">Last Unsuccessful Attempt Time</td>
+                                    <td>
+                                        <INPUT type="text" class="statictextboxlist" readonly name="last_unsuccess_config_time" id="last_unsuccess_config_time" SIZE="25" MAXLENGTH="24" VALUE="-">
+                                            </td>
+                                </tr>
+
+
+                            </table>
+                        </td> <!-- end of first column -->
+                    </tr>
+                </table>
+                <table CELLSPACING="0" cellpadding="0" border="0" >
+                    <tr>
+                        <td COLSPAN=2 class="label1">Last Error Summary</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="horizLine" >&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td  class="label2" width="270">Last AP Message Decryption Failure</td>
+                        <td>
+                            <INPUT type="text" class="statictextboxlist" readonly name="last_msg_decrypt_failure" id="last_msg_decrypt_failure" wrap SIZE="100" MAXLENGTH="100" VALUE="-">
+                                </td>
+                    </tr>
+                    <tr>
+                        <td  class="label2">Last AP Connection Failure</td>
+                        <td>
+                            <INPUT type="text" class="statictextboxlist" readonly name="last_connection_failure" id="last_connection_failure" wrap SIZE="100" MAXLENGTH="100" VALUE="-">
+                                </td>
+                    </tr>
+                    <tr>
+                        <td class="label2">Last AP Disconnect Reason</td>
+                        <td>
+                            <INPUT type="text" class="statictextboxlist" readonly name="last_disconnect_reason" id="last_disconnect_reason" wrap SIZE="100" MAXLENGTH="100" VALUE="-">
+                                </td>
+                    </tr>
+                    <tr>
+                        <td  class="label2">Last Error Occurred </td>
+                        <td>
+                            <INPUT type="text" class="statictextboxlist" readonly name="last_error_occurred" id="last_error_occurred" wrap SIZE="100" MAXLENGTH="100" VALUE="-">
+                                </td>
+                    </tr>
+                    <tr>
+                        <td  class="label2">Last Error Occurred Reason</td>
+                        <td>
+                            <INPUT type="text" class="statictextboxlist" readonly name="last_error_occurred_reason" id="last_error_occurred_reason" wrap SIZE="100" MAXLENGTH="100" VALUE="-">
+                                </td>
+                    </tr>
+                    <tr>
+                        <td  class="label2">Last Join Error Timestamp</td>
+                        <td>
+                            <INPUT type="text" class="statictextboxlist" readonly name="last_error_timestamp" id="last_error_timestamp" wrap SIZE="100" MAXLENGTH="100" VALUE="-">
+                                </td>
+                    </tr>
+
+                </table>
+
+                <INPUT TYPE="hidden" NAME="err_flag" SIZE="16" MAXLENGTH="15" VALUE="0">
+                    <INPUT TYPE="hidden" NAME="err_msg" SIZE="512" MAXLENGTH="511" VALUE="">
+                        <INPUT TYPE="hidden" NAME="info_flag" SIZE="16" MAXLENGTH="15" VALUE="0">
+                            <INPUT TYPE="hidden" NAME="info_msg" SIZE="512" MAXLENGTH="511" VALUE="">
+                                <INPUT TYPE="hidden" NAME="buttonClicked" SIZE="16" MAXLENGTH="15" VALUE="0">
+        </FORM>
+
+<?=PAGE-FOOTER=?>

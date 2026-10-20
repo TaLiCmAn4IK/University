@@ -1,0 +1,96 @@
+<?=PAGE-HEADER=?>
+
+<script>
+
+function ptOnload() {
+}
+
+</script>
+                <script>
+                    //overridden function
+                    function getHtmlForEdit(index){
+                        //debugMsg("getHtmlForEditButton");
+                        document.writeln('\
+                                         <a onclick="javascript:portConfigAction(',index,');">')
+                    }
+                </script>
+
+    <script>
+        drawPeerTabs("port_list.html");
+        </script>
+
+
+    <FORM method="post" ACTION="frameControllerPortList.html">
+        <INPUT TYPE="hidden" NAME="access_control" SIZE="16" MAXLENGTH="15" VALUE="1">
+            <INPUT TYPE="hidden" NAME="csrf_token" SIZE="32" MAXLENGTH="32" VALUE="pSZOH4mxc2dEArZLPDLbJWQw4lo1ayJ">
+
+                <table CELLSPACING=0  WIDTH =" 100%" nowrap cellpadding="0" border="0">
+                    <!-- the header as part of the table -->
+
+                    <tr>
+                        <td nowrap class="pageTitle">
+                            <h1>Ports</h1>
+                        </td>
+
+                        <td nowrap align="right" class="pageTitle notSupported">
+                            <script>getHtmlForCustomCreateNewButton("ConfigureAll","port_cfg_all.html");</script>
+                            &nbsp;&nbsp;&nbsp;
+                            <script>getHtmlForHelpButton("Ports","/helppages/wwhelp.htm");</script>
+                        </td>
+
+                    </tr>
+                    <td colspan="2" style="padding-top: 13px">
+                        <table border="0" cellspacing="1" cellpadding="0">
+                            <tr>
+                                <th align="left">Port No</TH><!-- Slot.Port -->
+
+                                <th align="left">Admin Status</TH><!-- Admin Mode -->
+                                <th align="left">Physical Mode</TH><!-- Physical Mode -->
+                                <th align="left">Physical Status</TH><!-- Physical Status -->
+                                <th align="left">Link Status</TH><!-- Link Status -->
+                                <th align="left">Link Trap</TH>
+                                <th align="left">POE</TH>
+
+                                <!-- End of WLCNG -->
+                            </tr>
+
+<?=PORT-ENTRY-begin=?>
+                            <TR>
+                                <TD class="listNoPad"><a href="javascript:notSupported()"><INPUT type="TEXT" class="statictextboxlink" name="1.<?=PORT-INDEX=?>.<?=PORT-COUNT=?>.slot_port" readonly SIZE="3" MAXLENGTH="3" VALUE="<?=PORT-NUM=?>"></a></TD>
+                                <TD class="listNoPad"><INPUT type="TEXT" class="statictextboxlist" name="1.<?=PORT-INDEX=?>.<?=PORT-COUNT=?>.admin_mode" id="1.<?=PORT-INDEX=?>.<?=PORT-COUNT=?>.admin_mode" readonly SIZE="8" MAXLENGTH="8" VALUE="Enable"></TD>
+                                <TD class="listNoPad"><INPUT type="TEXT" class="statictextboxlist" name="1.<?=PORT-INDEX=?>.<?=PORT-COUNT=?>.phys_mode" id="1.<?=PORT-INDEX=?>.<?=PORT-COUNT=?>.phys_mode" readonly SIZE="21" MAXLENGTH="21" VALUE="Auto"></TD>
+                                <TD class="listNoPad"><INPUT type="TEXT" class="statictextboxlist" name="1.<?=PORT-INDEX=?>.<?=PORT-COUNT=?>.phys_stat" id="1.<?=PORT-INDEX=?>.<?=PORT-COUNT=?>.phys_stat" readonly SIZE="25" MAXLENGTH="25" VALUE="<?=PORT-DUPLEX=?>"></TD>
+                                <TD class="listNoPad"><INPUT type="TEXT" class="statictextboxlist" name="1.<?=PORT-INDEX=?>.<?=PORT-COUNT=?>.link_stat" id="1.<?=PORT-INDEX=?>.<?=PORT-COUNT=?>.link_stat" readonly SIZE="9" MAXLENGTH="9" VALUE="<?=LINK-STATUS=?>"></TD>
+                                <TD class="listNoPad"><INPUT type="TEXT" class="statictextboxlist" name="1.<?=PORT-INDEX=?>.<?=PORT-COUNT=?>.LinkTrap" id="1.<?=PORT-INDEX=?>.<?=PORT-COUNT=?>.LinkTrap" readonly SIZE="7" MAXLENGTH="7" VALUE="Disable"></TD>
+                                <TD class="listNoPad"><INPUT type="TEXT" class="statictextboxlist" name="1.<?=PORT-INDEX=?>.<?=PORT-COUNT=?>.Poe" id="1.<?=PORT-INDEX=?>.<?=PORT-COUNT=?>.Poe" SIZE="7" MAXLENGTH="7" VALUE="<?=POE-ENABLE=?>"></TD>
+                            </TR>
+<?=PORT-ENTRY-end=?>
+
+                        </table>
+                    </td>
+                    </tr>
+                    <TR>
+                        <TD ALIGN=left><INPUT TYPE="hidden" NAME="indexClicked" id="indexClicked" SIZE="16" MAXLENGTH="15" VALUE=""></TD>
+                        <TD ALIGN=left><INPUT TYPE="hidden" NAME="buttonClicked" id="buttonClicked" SIZE="16" MAXLENGTH="15" VALUE=""></TD>
+                    </TR>
+                    <TR>
+                        <TD ALIGN=left><INPUT TYPE="hidden" NAME="err_flag" id="err_flag" SIZE="16" MAXLENGTH="15" VALUE="0"></TD>
+                    </TR>
+
+                    <TR>
+                        <TD ALIGN=left><INPUT TYPE="hidden" NAME="err_msg" id="err_msg" SIZE="512" MAXLENGTH="511" VALUE=""></TD>
+                    </TR>
+                    <TR>
+                        <TD ALIGN=left><INPUT TYPE="hidden" NAME="info_flag" id="info_flag" SIZE="16" MAXLENGTH="15" VALUE=""></TD>
+                    </TR>
+                    <TR>
+                        <TD ALIGN=left><INPUT TYPE="hidden" NAME="info_msg" id="info_msg" SIZE="512" MAXLENGTH="511" VALUE=""></TD>
+                    </TR>
+                    <TR>
+
+                </TABLE>
+
+    </FORM>
+
+<?=PAGE-FOOTER=?>
+
